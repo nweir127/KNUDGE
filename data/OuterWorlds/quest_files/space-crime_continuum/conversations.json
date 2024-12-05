@@ -1,0 +1,66 @@
+[
+  {
+    "id": "space-crime_continuum_00",
+    "quest_name": "space-crime_continuum",
+    "conversation": {
+      "filename": "01_cv_hagen_lilya_revision",
+      "start_node": 1,
+      "end_nodes": [],
+      "force_include": [
+        56,
+        44
+      ],
+      "force_sequence": []
+    },
+    "in_objective": "O0",
+    "out_objective": "O1",
+    "participants": [
+      "lilya_hagen"
+    ]
+  },
+  {
+    "id": "space-crime_continuum_01",
+    "quest_name": "space-crime_continuum",
+    "conversation": {
+      "filename": "0407_cv_catherine_malin",
+      "start_node": 39,
+      "end_nodes": [],
+      "force_include": [
+        100,
+        5,
+        344,
+        337,
+        342,
+        265,
+        280,
+        281
+      ],
+      "force_sequence": []
+    },
+    "in_objective": "O2",
+    "out_objective": "O3",
+    "participants": [
+      "catherine_malin"
+    ]
+  },
+  {
+    "id": "space-crime_continuum_02",
+    "quest_name": "space-crime_continuum",
+    "conversation": {
+      "filename": "01_cv_hagen_lilya_revision",
+      "start_node": 38,
+      "end_nodes": [
+        172
+      ],
+      "force_include": [
+        154,
+        471
+      ],
+      "force_sequence": []
+    },
+    "in_objective": "O7",
+    "participants": [
+      "lilya_hagen"
+    ]
+  }
+]

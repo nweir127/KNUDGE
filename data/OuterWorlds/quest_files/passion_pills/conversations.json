@@ -1,0 +1,69 @@
+[
+  {
+    "id": "passion_pills_00",
+    "quest_name": "passion_pills",
+    "conversation": {
+      "filename": "0402_cv_nyoka_bar_intro_new",
+      "start_node": 71,
+      "end_nodes": [
+        149,
+        75,
+        172
+      ],
+      "force_include": [
+        74,
+        190
+      ],
+      "force_sequence": []
+    },
+    "in_objective": "O0",
+    "out_objective": "O1",
+    "participants": [
+      "nyoka"
+    ]
+  },
+  {
+    "id": "passion_pills_01",
+    "quest_name": "passion_pills",
+    "conversation": {
+      "filename": "0402_cv_abigail_edwards",
+      "start_node": 1,
+      "end_nodes": [
+        3
+      ],
+      "force_include": [
+        93,
+        10,
+        216,
+        162,
+        52,
+        131,
+        209,
+        147
+      ],
+      "force_sequence": []
+    },
+    "in_objective": "O1",
+    "out_objective": "O2",
+    "participants": [
+      "abigail_edwards"
+    ]
+  },
+  {
+    "id": "passion_pills_02",
+    "quest_name": "passion_pills",
+    "conversation": {
+      "filename": "0402_cv_nyoka_bar_intro_new",
+      "start_node": 131,
+      "end_nodes": [],
+      "force_include": [
+        217
+      ],
+      "force_sequence": []
+    },
+    "in_objective": "O2",
+    "participants": [
+      "nyoka"
+    ]
+  }
+]

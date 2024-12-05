@@ -1,0 +1,84 @@
+[
+  {
+    "id": "the_grimm_tomorrow_00",
+    "quest_name": "the_grimm_tomorrow",
+    "conversation": {
+      "filename": "0402_cv_grimm",
+      "start_node": 196,
+      "end_nodes": [],
+      "force_include": [
+        231,
+        235
+      ],
+      "force_sequence": []
+    },
+    "in_objective": "O0",
+    "out_objective": "O1",
+    "participants": [
+      "grimm"
+    ]
+  },
+  {
+    "id": "the_grimm_tomorrow_01",
+    "quest_name": "the_grimm_tomorrow",
+    "conversation": {
+      "filename": "0402_cv_celia",
+      "start_node": 81,
+      "end_nodes": [
+        86,
+        87
+      ],
+      "force_include": [
+        153
+      ],
+      "force_sequence": []
+    },
+    "in_objective": "O1",
+    "out_objective": "O2",
+    "participants": [
+      "celia_robbins"
+    ]
+  },
+  {
+    "id": "the_grimm_tomorrow_02",
+    "quest_name": "the_grimm_tomorrow",
+    "conversation": {
+      "filename": "0402_cv_velmaballard",
+      "start_node": 1,
+      "end_nodes": [],
+      "force_include": [
+        52,
+        102,
+        106,
+        117,
+        120
+      ],
+      "force_sequence": []
+    },
+    "in_objective": "O2",
+    "out_objective": "O3",
+    "participants": [
+      "velma_ballard"
+    ]
+  },
+  {
+    "id": "the_grimm_tomorrow_03",
+    "quest_name": "the_grimm_tomorrow",
+    "conversation": {
+      "filename": "0402_cv_grimm",
+      "start_node": 228,
+      "end_nodes": [
+        261,
+        232
+      ],
+      "force_include": [
+        259
+      ],
+      "force_sequence": []
+    },
+    "in_objective": "O3",
+    "participants": [
+      "grimm"
+    ]
+  }
+]

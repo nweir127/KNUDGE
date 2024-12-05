@@ -1,0 +1,168 @@
+{
+  "id": "the_lying_earth_02",
+  "quest_name": "the_lying_earth",
+  "conversation": {
+    "filename": "0203_cv_chairman_assistant",
+    "start_node": 66,
+    "end_nodes": [],
+    "force_include": [],
+    "force_sequence": [
+      [
+        261,
+        269
+      ]
+    ]
+  },
+  "in_objective": "O1",
+  "out_objective": "O1",
+  "participants": [
+    "percival_platt"
+  ],
+  "objectives": {
+    "O1": {
+      "summary": "Send Minister Clarke's Message",
+      "description": {
+        "S1": "Minister Clarke has a message for the Earth Directorate,",
+        "S2": "and one of the only terminals in Halcyon capable of transmitting to the Earthbound message drone is in the Chairman's office.",
+        "S3": "Go to the HHC building in Byzantium and send his message."
+      },
+      "blurb": {
+        "B1": "If you've completed Balance Due you will have access to the HHC building and won't need to use the Maintenance Tunnels.",
+        "B2": "You can also skip the tunnels by walking to the front door and bribing the guard for 2000 bits.",
+        "B3": "Once inside the HHC building go straight ahead and talk to Guard Bachmayer.",
+        "B4": "You'll take a lift heading to Percival Platt -",
+        "B5": "he has nothing important to say so go left and unlock the door with Minister's HHC Access Card",
+        "B6": "You can print the keycard at the terminal to gain the Ministry of Accuracy and Morale Key.",
+        "B7": "You can also send Minister Clarke's message completing the Lying Earth quest and earning you a small amount of Negative Reputation with The Board."
+      }
+    }
+  },
+  "dialog": [
+    {
+      "id": 66,
+      "speaker_guid": "bbc9171b-06fa-4959-99ea-ecd4dc31379c",
+      "speaker": "ChairmanAssistant (Male)",
+      "utterance": "How may I be of assistance?",
+      "support_knowledge": []
+    },
+    {
+      "id": 254,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "What exactly do you do here?",
+      "support_knowledge": [
+        "percival_platt_01"
+      ]
+    },
+    {
+      "id": 269,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I'll be on my way.",
+      "support_knowledge": []
+    },
+    {
+      "id": 255,
+      "speaker_guid": "bbc9171b-06fa-4959-99ea-ecd4dc31379c",
+      "speaker": "ChairmanAssistant (Male)",
+      "utterance": "Personal assistant to Adjutant Akande and Chairman Rockwell. I'm also responsible for organizing the Adjutant's stationery - which is more of a hobby.",
+      "support_knowledge": [
+        "percival_platt_01",
+        "percival_platt_05"
+      ]
+    },
+    {
+      "id": 258,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Any chance I could meet Chairman Rockwell?",
+      "support_knowledge": [
+        "charles_rockwell_01"
+      ]
+    },
+    {
+      "id": 262,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Exciting.",
+      "support_knowledge": []
+    },
+    {
+      "id": 259,
+      "speaker_guid": "bbc9171b-06fa-4959-99ea-ecd4dc31379c",
+      "speaker": "ChairmanAssistant (Male)",
+      "utterance": "Hah.",
+      "support_knowledge": []
+    },
+    {
+      "id": 260,
+      "speaker_guid": "bbc9171b-06fa-4959-99ea-ecd4dc31379c",
+      "speaker": "ChairmanAssistant (Male)",
+      "utterance": "Oh, you were being serious. I am obliged to inform you that Chairman Rockwell is unavailable for an indeterminate duration.",
+      "support_knowledge": []
+    },
+    {
+      "id": 261,
+      "speaker_guid": "bbc9171b-06fa-4959-99ea-ecd4dc31379c",
+      "speaker": "ChairmanAssistant (Male)",
+      "utterance": "Will there be anything else?",
+      "support_knowledge": []
+    },
+    {
+      "id": 263,
+      "speaker_guid": "bbc9171b-06fa-4959-99ea-ecd4dc31379c",
+      "speaker": "ChairmanAssistant (Male)",
+      "utterance": "The art of arranging stationery is a neverending source of joy and satisfaction.",
+      "support_knowledge": [
+        "percival_platt_05",
+        "percival_platt_06"
+      ]
+    }
+  ],
+  "dialog_edges": [
+    [
+      66,
+      254
+    ],
+    [
+      66,
+      269
+    ],
+    [
+      254,
+      255
+    ],
+    [
+      255,
+      258
+    ],
+    [
+      255,
+      262
+    ],
+    [
+      258,
+      259
+    ],
+    [
+      259,
+      260
+    ],
+    [
+      260,
+      261
+    ],
+    [
+      261,
+      66
+    ],
+    [
+      262,
+      263
+    ],
+    [
+      263,
+      261
+    ]
+  ]
+}

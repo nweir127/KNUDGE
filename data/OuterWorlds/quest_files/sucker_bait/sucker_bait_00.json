@@ -1,0 +1,422 @@
+{
+  "id": "sucker_bait_00",
+  "quest_name": "sucker_bait",
+  "conversation": {
+    "filename": "0403_cv_zora",
+    "start_node": 245,
+    "end_nodes": []
+  },
+  "in_objective": "O0",
+  "out_objective": "O1",
+  "participants": [
+    "zora_blackwood"
+  ],
+  "objectives": {
+    "O0": {
+      "description": {
+        "S1": "Zora has asked you to investigate an old relay station that has been overrun by monsters.",
+        "S2": "She hopes to find answers to the mystery of the Amber Heights massacre."
+      },
+      "blurb": {
+        "B1": "You will obtain this quest after completing Pay for the Printer.",
+        "B2": "Follow Zora Blackwood to the medical building and talk to her.",
+        "B3": "She will reveal that she thinks the Amber Heights Massacre was engineered by someone who gave the pirates access to the gate codes.",
+        "B4": "Agree to help and you'll unlock the quest Sucker Bait."
+      }
+    },
+    "O1": {
+      "summary": "Open the Sealed Door",
+      "description": {
+        "S1": "Zora thinks the codes she gave you are to the relay station's entrance"
+      }
+    }
+  },
+  "dialog": [
+    {
+      "id": 245,
+      "speaker_guid": "ac9307ba-1ad4-4577-9f68-b0ff8cbc2740",
+      "speaker": "Zora (Female)",
+      "utterance": "Hey, Captain. I need your help, and we oughta keep it hush-hush.",
+      "support_knowledge": []
+    },
+    {
+      "id": 246,
+      "speaker_guid": "ac9307ba-1ad4-4577-9f68-b0ff8cbc2740",
+      "speaker": "Zora (Female)",
+      "utterance": "You know about what happened here, right? The history of Amber Heights?",
+      "support_knowledge": []
+    },
+    {
+      "id": 310,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "No. Fill me in.",
+      "support_knowledge": []
+    },
+    {
+      "id": 315,
+      "speaker_guid": "ac9307ba-1ad4-4577-9f68-b0ff8cbc2740",
+      "speaker": "Zora (Female)",
+      "utterance": "Years ago - almost a decade, come to think of it - the executives running MSI lived here. If you can believe it, Amber Heights was a residence for decadent high-class types.",
+      "support_knowledge": [
+        "amber_heights_03",
+        "amber_heights_05"
+      ]
+    },
+    {
+      "id": 316,
+      "speaker_guid": "ac9307ba-1ad4-4577-9f68-b0ff8cbc2740",
+      "speaker": "Zora (Female)",
+      "utterance": "When the other corporations started pulling out, the planet was... chaotic. People got lost in the shuffle. Lot of equipment failures. Lot of death.",
+      "support_knowledge": []
+    },
+    {
+      "id": 317,
+      "speaker_guid": "ac9307ba-1ad4-4577-9f68-b0ff8cbc2740",
+      "speaker": "Zora (Female)",
+      "utterance": "Pirates ransacked Amber Heights. Killed the execs, their families... took off with whatever they could carry. We're talking a hundred innocent people.",
+      "support_knowledge": [
+        "amber_heights_06"
+      ]
+    },
+    {
+      "id": 318,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Wow. Pirates? Did anyone ever catch them?",
+      "support_knowledge": []
+    },
+    {
+      "id": 319,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "That's awful.",
+      "support_knowledge": []
+    },
+    {
+      "id": 320,
+      "speaker_guid": "ac9307ba-1ad4-4577-9f68-b0ff8cbc2740",
+      "speaker": "Zora (Female)",
+      "utterance": "No. We think they used an old relay station near here as a recon point, but nobody ever found them.",
+      "support_knowledge": [
+        "O0_S1"
+      ]
+    },
+    {
+      "id": 313,
+      "speaker_guid": "ac9307ba-1ad4-4577-9f68-b0ff8cbc2740",
+      "speaker": "Zora (Female)",
+      "utterance": "The station's locked up, but one of my people found an old data cartridge in a nearby rapt nest.",
+      "support_knowledge": []
+    },
+    {
+      "id": 314,
+      "speaker_guid": "ac9307ba-1ad4-4577-9f68-b0ff8cbc2740",
+      "speaker": "Zora (Female)",
+      "utterance": "It's mostly corrupted, but I pulled a couple codes off of it. One is the code to the Amber Heights gate. I don't recognize the other, but it's similar. I'd bet it opens a door.",
+      "support_knowledge": [
+        "O1_S1"
+      ]
+    },
+    {
+      "id": 322,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "A random door code doesn't sound useful.",
+      "support_knowledge": []
+    },
+    {
+      "id": 323,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "The Amber Heights gate?",
+      "support_knowledge": []
+    },
+    {
+      "id": 324,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Why are we keeping this to ourselves?",
+      "support_knowledge": []
+    },
+    {
+      "id": 486,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I don't get what's so important about this. Don't you have bigger problems?",
+      "support_knowledge": []
+    },
+    {
+      "id": 330,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Ok. Go to the relay station. See if the code's useful. Anything else?",
+      "support_knowledge": []
+    },
+    {
+      "id": 325,
+      "speaker_guid": "ac9307ba-1ad4-4577-9f68-b0ff8cbc2740",
+      "speaker": "Zora (Female)",
+      "utterance": "I know it's a long shot, but... if we missed something there, if you can get into that station... maybe we can get some answers.",
+      "support_knowledge": [
+        "O0_S2"
+      ]
+    },
+    {
+      "id": 326,
+      "speaker_guid": "ac9307ba-1ad4-4577-9f68-b0ff8cbc2740",
+      "speaker": "Zora (Female)",
+      "utterance": "Right. The access codes to Amber Heights. What gets me is... if this belonged to the pirates, that means they knew someone there.",
+      "support_knowledge": [
+        "O0_B3"
+      ]
+    },
+    {
+      "id": 327,
+      "speaker_guid": "ac9307ba-1ad4-4577-9f68-b0ff8cbc2740",
+      "speaker": "Zora (Female)",
+      "utterance": "If someone gave them the gate code... all those deaths, Captain. All that blood is on their hands.",
+      "support_knowledge": [
+        "O0_B3"
+      ]
+    },
+    {
+      "id": 328,
+      "speaker_guid": "ac9307ba-1ad4-4577-9f68-b0ff8cbc2740",
+      "speaker": "Zora (Female)",
+      "utterance": "Graham isn't fond of talking about the history here. He had friends who worked here. The massacre hit him pretty hard.",
+      "support_knowledge": [
+        "amber_heights_08",
+        "zora_blackwood_10"
+      ]
+    },
+    {
+      "id": 329,
+      "speaker_guid": "ac9307ba-1ad4-4577-9f68-b0ff8cbc2740",
+      "speaker": "Zora (Female)",
+      "utterance": "You know him. Live and let live and all that. I don't want to burden him right now, especially if this ends up being a dead end.",
+      "support_knowledge": [
+        "amber_heights_08",
+        "zora_blackwood_10"
+      ]
+    },
+    {
+      "id": 487,
+      "speaker_guid": "ac9307ba-1ad4-4577-9f68-b0ff8cbc2740",
+      "speaker": "Zora (Female)",
+      "utterance": "I surely do, but it's not far, and if they died in there, they died with their munitions. We'll need them.",
+      "support_knowledge": []
+    },
+    {
+      "id": 488,
+      "speaker_guid": "ac9307ba-1ad4-4577-9f68-b0ff8cbc2740",
+      "speaker": "Zora (Female)",
+      "utterance": "Besides, if it's filled with valuables from the aristocrats who lived here, we can pawn 'em off on SubLight and get ourselves ahead on our food budget.",
+      "support_knowledge": []
+    },
+    {
+      "id": 331,
+      "speaker_guid": "ac9307ba-1ad4-4577-9f68-b0ff8cbc2740",
+      "speaker": "Zora (Female)",
+      "utterance": "Just a warning. The area's infested with mantisaurs. I'd send some help, but we're, you know, preparing for war.",
+      "support_knowledge": [
+        "O0_S1"
+      ]
+    },
+    {
+      "id": 332,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Right. I'm on it.",
+      "support_knowledge": []
+    },
+    {
+      "id": 333,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I'll consider it, but no promises.",
+      "support_knowledge": []
+    },
+    {
+      "id": 335,
+      "speaker_guid": "ac9307ba-1ad4-4577-9f68-b0ff8cbc2740",
+      "speaker": "Zora (Female)",
+      "utterance": "Appreciate it. Here's the code. If it works, bring back anything you find. Supplies are best, but information's good, too.",
+      "support_knowledge": []
+    },
+    {
+      "id": 336,
+      "speaker_guid": "ac9307ba-1ad4-4577-9f68-b0ff8cbc2740",
+      "speaker": "Zora (Female)",
+      "utterance": "If someone was behind the Amber Heights massacre, it'd give a lot of people around here some closure to find out who and string them up.",
+      "support_knowledge": [
+        "O0_S2",
+        "O0_B3",
+        "zora_blackwood_10"
+      ]
+    },
+    {
+      "id": 337,
+      "speaker_guid": "ac9307ba-1ad4-4577-9f68-b0ff8cbc2740",
+      "speaker": "Zora (Female)",
+      "utterance": "Good luck. Watch out for the pteros.",
+      "support_knowledge": []
+    },
+    {
+      "id": 334,
+      "speaker_guid": "ac9307ba-1ad4-4577-9f68-b0ff8cbc2740",
+      "speaker": "Zora (Female)",
+      "utterance": "Sure. I'll be here if you change your mind.",
+      "support_knowledge": []
+    },
+    {
+      "id": 312,
+      "speaker_guid": "ac9307ba-1ad4-4577-9f68-b0ff8cbc2740",
+      "speaker": "Zora (Female)",
+      "utterance": "Right. Common belief is that the pirates fled to an old relay station that'd already been abandoned, but nobody could find them.",
+      "support_knowledge": []
+    }
+  ],
+  "dialog_edges": [
+    [
+      245,
+      246
+    ],
+    [
+      246,
+      310
+    ],
+    [
+      310,
+      315
+    ],
+    [
+      315,
+      316
+    ],
+    [
+      316,
+      317
+    ],
+    [
+      317,
+      318
+    ],
+    [
+      317,
+      319
+    ],
+    [
+      318,
+      320
+    ],
+    [
+      320,
+      313
+    ],
+    [
+      313,
+      314
+    ],
+    [
+      314,
+      322
+    ],
+    [
+      314,
+      323
+    ],
+    [
+      314,
+      324
+    ],
+    [
+      314,
+      486
+    ],
+    [
+      314,
+      330
+    ],
+    [
+      322,
+      325
+    ],
+    [
+      325,
+      314
+    ],
+    [
+      323,
+      326
+    ],
+    [
+      326,
+      327
+    ],
+    [
+      327,
+      314
+    ],
+    [
+      324,
+      328
+    ],
+    [
+      328,
+      329
+    ],
+    [
+      329,
+      314
+    ],
+    [
+      486,
+      487
+    ],
+    [
+      487,
+      488
+    ],
+    [
+      488,
+      314
+    ],
+    [
+      330,
+      331
+    ],
+    [
+      331,
+      332
+    ],
+    [
+      331,
+      333
+    ],
+    [
+      332,
+      335
+    ],
+    [
+      335,
+      336
+    ],
+    [
+      336,
+      337
+    ],
+    [
+      333,
+      334
+    ],
+    [
+      319,
+      312
+    ],
+    [
+      312,
+      313
+    ]
+  ]
+}

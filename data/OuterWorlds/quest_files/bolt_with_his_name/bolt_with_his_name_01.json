@@ -1,0 +1,501 @@
+{
+  "id": "bolt_with_his_name_01",
+  "quest_name": "bolt_with_his_name",
+  "conversation": {
+    "filename": "0401_cv_huxley_intercom",
+    "start_node": 1,
+    "end_nodes": [],
+    "force_include": [
+      16,
+      17,
+      25
+    ]
+  },
+  "in_objective": [
+    "O1",
+    "O3"
+  ],
+  "out_objective": "O3",
+  "participants": [
+    "huxley"
+  ],
+  "objectives": {
+    "O1": {
+      "summary": "Get into the ARMS building",
+      "description": {
+        "S1": "The BOLT-52 is in an abandoned building north of Stellar Bay"
+      },
+      "blurb": {
+        "B1": "Head out into Monarch Wilderness and make your way to the objective building by a large bridge.",
+        "B2": "There's a Raptidon Behemoth here, and you can loot an Iconoclast corpse for ARMS Building Key and Leaded Armor."
+      }
+    },
+    "O3": {
+      "summary": "Obtain the BOLT-52",
+      "description": {
+        "S1": "The BOLT-52 is in a locked closet.",
+        "S2": "Find a way inside and retrieve it."
+      },
+      "blurb": {
+        "B1": "Huxley's partner had the key to the door, but he was probably killed by raptidons.",
+        "B2": "You might find the key on his body, or in a raptidon's stomach.",
+        "B3": "You found the key to the closet.",
+        "B4": "You can also ask Huxley to open the door from inside, it takes Perception, or Engineering (35), Intimidate (55) or Persuade (55).",
+        "B5": "The door will open and Huxley will come outand you'll get Iconoclasts reputation.",
+        "B6": "You can ask her for a reward, and obtain some Iconoclast reputation.",
+        "B7": "Inside the room, loot Mag-Pick, Ammo and Bit Cartridge and the BOLT-52 Cartridge."
+      }
+    }
+  },
+  "dialog_edges": [
+    [
+      1,
+      3
+    ],
+    [
+      1,
+      67
+    ],
+    [
+      3,
+      68
+    ],
+    [
+      68,
+      10
+    ],
+    [
+      10,
+      11
+    ],
+    [
+      11,
+      12
+    ],
+    [
+      11,
+      16
+    ],
+    [
+      11,
+      17
+    ],
+    [
+      12,
+      15
+    ],
+    [
+      15,
+      11
+    ],
+    [
+      16,
+      18
+    ],
+    [
+      18,
+      22
+    ],
+    [
+      22,
+      38
+    ],
+    [
+      22,
+      83
+    ],
+    [
+      38,
+      39
+    ],
+    [
+      38,
+      23
+    ],
+    [
+      38,
+      25
+    ],
+    [
+      39,
+      40
+    ],
+    [
+      40,
+      6
+    ],
+    [
+      40,
+      44
+    ],
+    [
+      40,
+      45
+    ],
+    [
+      6,
+      8
+    ],
+    [
+      8,
+      80
+    ],
+    [
+      80,
+      40
+    ],
+    [
+      44,
+      46
+    ],
+    [
+      46,
+      81
+    ],
+    [
+      81,
+      48
+    ],
+    [
+      81,
+      50
+    ],
+    [
+      48,
+      53
+    ],
+    [
+      53,
+      40
+    ],
+    [
+      50,
+      56
+    ],
+    [
+      56,
+      40
+    ],
+    [
+      45,
+      83
+    ],
+    [
+      23,
+      32
+    ],
+    [
+      32,
+      36
+    ],
+    [
+      36,
+      83
+    ],
+    [
+      83,
+      39
+    ],
+    [
+      83,
+      23
+    ],
+    [
+      83,
+      25
+    ],
+    [
+      17,
+      79
+    ],
+    [
+      79,
+      19
+    ],
+    [
+      67,
+      68
+    ]
+  ],
+  "dialog": [
+    {
+      "id": 1,
+      "speaker_guid": "a2868005-9619-43c3-ba2a-dfa98885a1e5",
+      "speaker": "HuxleyIntercom (Female)",
+      "utterance": "Hello? Hellooooooo? I hear boots out there! Wait, can rapts wear boots?",
+      "support_knowledge": [
+        "raptidon_01"
+      ]
+    },
+    {
+      "id": 3,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Hello! Who's in there?",
+      "support_knowledge": []
+    },
+    {
+      "id": 67,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I don't think they've figured that out yet. Who are you?",
+      "support_knowledge": []
+    },
+    {
+      "id": 68,
+      "speaker_guid": "a2868005-9619-43c3-ba2a-dfa98885a1e5",
+      "speaker": "HuxleyIntercom (Female)",
+      "utterance": "Oh, thank the Eternal. I'm Huxley. Hux if you're lazy. I'm stuck.",
+      "support_knowledge": [
+        "huxley_01",
+        "huxley_07"
+      ]
+    },
+    {
+      "id": 10,
+      "speaker_guid": "a2868005-9619-43c3-ba2a-dfa98885a1e5",
+      "speaker": "HuxleyIntercom (Female)",
+      "utterance": "My friends and I were scavenging here and a mantiqueen showed up. Then raptidons. It was a void-blasted mess.",
+      "support_knowledge": [
+        "huxley_07",
+        "raptidon_01",
+        "mantisaur_04"
+      ]
+    },
+    {
+      "id": 11,
+      "speaker_guid": "a2868005-9619-43c3-ba2a-dfa98885a1e5",
+      "speaker": "HuxleyIntercom (Female)",
+      "utterance": "I ran in here and um... now the door's locked. Little help?",
+      "support_knowledge": [
+        "huxley_07"
+      ]
+    },
+    {
+      "id": 12,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "You got... locked in? How?",
+      "support_knowledge": [
+        "huxley_07"
+      ]
+    },
+    {
+      "id": 16,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Well, I need to get in that room.",
+      "support_knowledge": [
+        "O3_S1"
+      ]
+    },
+    {
+      "id": 17,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I need to get in that room, but maybe I'll let you starve first.",
+      "support_knowledge": [
+        "O3_S1"
+      ]
+    },
+    {
+      "id": 15,
+      "speaker_guid": "a2868005-9619-43c3-ba2a-dfa98885a1e5",
+      "speaker": "HuxleyIntercom (Female)",
+      "utterance": "It's easier than it sounds, all right? Next time you get chased by raptidons you let me know the rationality of your decisions!",
+      "support_knowledge": [
+        "huxley_07",
+        "raptidon_01"
+      ]
+    },
+    {
+      "id": 18,
+      "speaker_guid": "a2868005-9619-43c3-ba2a-dfa98885a1e5",
+      "speaker": "HuxleyIntercom (Female)",
+      "utterance": "Whew. Thanks, mister.",
+      "support_knowledge": [
+        "O3_S2"
+      ]
+    },
+    {
+      "id": 22,
+      "speaker_guid": "a2868005-9619-43c3-ba2a-dfa98885a1e5",
+      "speaker": "HuxleyIntercom (Female)",
+      "utterance": "My buddy had a key, but I ain't heard him in a while. He locked me in here and took off. Probably got munched.",
+      "support_knowledge": [
+        "O3_B1"
+      ]
+    },
+    {
+      "id": 38,
+      "speaker_guid": "a2868005-9619-43c3-ba2a-dfa98885a1e5",
+      "speaker": "HuxleyIntercom (Female)",
+      "utterance": "So look for a dead guy, I guess. Or a rapt. Maybe it's in a rapt belly. Gross.",
+      "support_knowledge": [
+        "O3_B2"
+      ]
+    },
+    {
+      "id": 83,
+      "speaker_guid": "a2868005-9619-43c3-ba2a-dfa98885a1e5",
+      "speaker": "HuxleyIntercom (Female)",
+      "utterance": "Get me outta here!",
+      "support_knowledge": []
+    },
+    {
+      "id": 39,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Seeing as you're trapped, you might as well answer a few things for me.",
+      "support_knowledge": [
+        "huxley_07"
+      ]
+    },
+    {
+      "id": 23,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "There must be a way to open it from the inside.",
+      "support_knowledge": [
+        "O3_B4"
+      ]
+    },
+    {
+      "id": 25,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I'll take a look around.",
+      "support_knowledge": []
+    },
+    {
+      "id": 40,
+      "speaker_guid": "a2868005-9619-43c3-ba2a-dfa98885a1e5",
+      "speaker": "HuxleyIntercom (Female)",
+      "utterance": "Sure. Beats not answering questions.",
+      "support_knowledge": []
+    },
+    {
+      "id": 6,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Who are you?",
+      "support_knowledge": []
+    },
+    {
+      "id": 44,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "So... get locked in closets often?",
+      "support_knowledge": [
+        "huxley_05"
+      ]
+    },
+    {
+      "id": 45,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Right. Back to the door.",
+      "support_knowledge": [
+        "O3_S2"
+      ]
+    },
+    {
+      "id": 8,
+      "speaker_guid": "a2868005-9619-43c3-ba2a-dfa98885a1e5",
+      "speaker": "HuxleyIntercom (Female)",
+      "utterance": "Huxley. I'm an Iconoclast runner. The Iconoclast runner. Fastest we've got! Ain't a raptidon on this void-forsaken hellhole that can catch me!",
+      "support_knowledge": [
+        "huxley_01",
+        "raptidon_01"
+      ]
+    },
+    {
+      "id": 80,
+      "speaker_guid": "a2868005-9619-43c3-ba2a-dfa98885a1e5",
+      "speaker": "HuxleyIntercom (Female)",
+      "utterance": "I'm, uh... I'm... whew. Sorry. Put me in a tiny room like this and I'm liable to flip. Not keen on tight spaces, you know?",
+      "support_knowledge": [
+        "huxley_05"
+      ]
+    },
+    {
+      "id": 46,
+      "speaker_guid": "a2868005-9619-43c3-ba2a-dfa98885a1e5",
+      "speaker": "HuxleyIntercom (Female)",
+      "utterance": "My buddy locked me in here! I told you that! It was for my safekeeping, on account of raptidons wanting to munch on my head.",
+      "support_knowledge": [
+        "huxley_07",
+        "raptidon_01"
+      ]
+    },
+    {
+      "id": 81,
+      "speaker_guid": "a2868005-9619-43c3-ba2a-dfa98885a1e5",
+      "speaker": "HuxleyIntercom (Female)",
+      "utterance": "But... I mean... okay, yes. Fine. I get myself into sticky situations. It's just part of the life, all right? Sometimes you gotta hide in a trash can so's you don't get eaten by monsters.",
+      "support_knowledge": [
+        "huxley_05"
+      ]
+    },
+    {
+      "id": 48,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Wait really? I wasn't serious.",
+      "support_knowledge": []
+    },
+    {
+      "id": 50,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "That's disgusting. I'd rather be eaten.",
+      "support_knowledge": []
+    },
+    {
+      "id": 53,
+      "speaker_guid": "a2868005-9619-43c3-ba2a-dfa98885a1e5",
+      "speaker": "HuxleyIntercom (Female)",
+      "utterance": "Oh, uh, haha, neither was I. Who'd hide in a trash can? Gross.",
+      "support_knowledge": [
+        "huxley_05"
+      ]
+    },
+    {
+      "id": 56,
+      "speaker_guid": "a2868005-9619-43c3-ba2a-dfa98885a1e5",
+      "speaker": "HuxleyIntercom (Female)",
+      "utterance": "Suit yourself, mister.",
+      "support_knowledge": []
+    },
+    {
+      "id": 32,
+      "speaker_guid": "a2868005-9619-43c3-ba2a-dfa98885a1e5",
+      "speaker": "HuxleyIntercom (Female)",
+      "utterance": "What do you mean? It's locked.",
+      "support_knowledge": []
+    },
+    {
+      "id": 36,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Fine, let's try something else.",
+      "support_knowledge": []
+    },
+    {
+      "id": 79,
+      "speaker_guid": "a2868005-9619-43c3-ba2a-dfa98885a1e5",
+      "speaker": "HuxleyIntercom (Female)",
+      "utterance": "Rude! I'll have you know I can go for whole days without a snack!",
+      "support_knowledge": []
+    },
+    {
+      "id": 19,
+      "speaker_guid": "a2868005-9619-43c3-ba2a-dfa98885a1e5",
+      "speaker": "HuxleyIntercom (Female)",
+      "utterance": "I'll be here if you change your mind. On account of I can't do anything else.",
+      "support_knowledge": [
+        "huxley_07"
+      ]
+    }
+  ]
+}

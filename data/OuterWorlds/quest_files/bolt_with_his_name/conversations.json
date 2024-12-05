@@ -1,0 +1,89 @@
+[
+  {
+    "id": "bolt_with_his_name_00",
+    "quest_name": "bolt_with_his_name",
+    "conversation": {
+      "filename": "0402_cv_sanjar_nandi_new",
+      "start_node": 178,
+      "end_nodes": [
+        904
+      ],
+      "force_include": [
+        892,
+        686
+      ]
+    },
+    "in_objective": "O0",
+    "out_objective": [
+      "O1",
+      "O2"
+    ],
+    "participants": [
+      "sanjar_nandi",
+      "celia_robbins"
+    ]
+  },
+  {
+    "id": "bolt_with_his_name_01",
+    "quest_name": "bolt_with_his_name",
+    "conversation": {
+      "filename": "0401_cv_huxley_intercom",
+      "start_node": 1,
+      "end_nodes": [],
+      "force_include": [
+        16,
+        17,
+        25
+      ]
+    },
+    "in_objective": [
+      "O1",
+      "O3"
+    ],
+    "out_objective": "O3",
+    "participants": [
+      "huxley"
+    ]
+  },
+  {
+    "id": "bolt_with_his_name_02",
+    "quest_name": "bolt_with_his_name",
+    "conversation": {
+      "filename": "0401_cv_huxley_iconoclast",
+      "start_node": 41,
+      "end_nodes": [],
+      "force_include": []
+    },
+    "in_objective": "O3",
+    "out_objective": "O4",
+    "participants": [
+      "huxley"
+    ]
+  },
+  {
+    "id": "bolt_with_his_name_03",
+    "quest_name": "bolt_with_his_name",
+    "conversation": {
+      "filename": "0402_cv_sanjar_nandi_new",
+      "start_node": 292,
+      "end_nodes": [
+        1348,
+        1248,
+        242
+      ],
+      "force_include": [
+        839,
+        840
+      ]
+    },
+    "in_objective": [
+      "O2",
+      "O3"
+    ],
+    "out_objective": "O4",
+    "participants": [
+      "sanjar_nandi",
+      "celia_robbins"
+    ]
+  }
+]

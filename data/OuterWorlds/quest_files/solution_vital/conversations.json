@@ -1,0 +1,82 @@
+[
+  {
+    "id": "solution_vital_00",
+    "quest_name": "solution_vital",
+    "conversation": {
+      "filename": "01_cv_wheeler_dalisay",
+      "start_node": 17,
+      "end_nodes": [
+        210
+      ],
+      "force_include": [],
+      "force_sequence": []
+    },
+    "in_objective": "O0",
+    "out_objective": "O1",
+    "participants": [
+      "leonard_wheeler"
+    ]
+  },
+  {
+    "id": "solution_vital_01",
+    "quest_name": "solution_vital",
+    "conversation": {
+      "filename": "01_cv_dorsett_wanda",
+      "start_node": 1,
+      "end_nodes": [],
+      "force_include": [
+        3,
+        2,
+        82,
+        15,
+        16
+      ],
+      "force_sequence": []
+    },
+    "in_objective": "O1",
+    "out_objective": "O2",
+    "participants": [
+      "wanda_dorsett"
+    ]
+  },
+  {
+    "id": "solution_vital_02",
+    "quest_name": "solution_vital",
+    "conversation": {
+      "filename": "01_cv_captain_irion",
+      "start_node": 1,
+      "end_nodes": [],
+      "force_include": [
+        15,
+        60
+      ],
+      "force_sequence": [
+        [
+          26,
+          20
+        ]
+      ]
+    },
+    "in_objective": "O2",
+    "out_objective": "O3",
+    "participants": [
+      "captain_irion",
+      "irions_medbot"
+    ]
+  },
+  {
+    "id": "solution_vital_03",
+    "quest_name": "solution_vital",
+    "conversation": {
+      "filename": "01_cv_dorsett_wanda",
+      "start_node": 26,
+      "end_nodes": [],
+      "force_include": [],
+      "force_sequence": []
+    },
+    "in_objective": "O3",
+    "participants": [
+      "wanda_dorsett"
+    ]
+  }
+]

@@ -1,0 +1,101 @@
+[
+  {
+    "id": "slaughterhouse_clive_00",
+    "quest_name": "slaughterhouse_clive",
+    "conversation": {
+      "filename": "0407_cv_catherine_malin",
+      "start_node": 1,
+      "end_nodes": [],
+      "force_include": [
+        182,
+        17,
+        51,
+        60,
+        61,
+        62
+      ]
+    },
+    "in_objective": "O0",
+    "out_objective": "O1",
+    "participants": [
+      "catherine_malin"
+    ]
+  },
+  {
+    "id": "slaughterhouse_clive_01",
+    "quest_name": "slaughterhouse_clive",
+    "conversation": {
+      "filename": "0407_cv_vendor_duncan_gengoods",
+      "start_node": 23,
+      "end_nodes": [
+        11
+      ],
+      "force_include": [
+        24,
+        25,
+        26,
+        27
+      ]
+    },
+    "in_objective": "O0",
+    "out_objective": "O0",
+    "participants": [
+      "catherine_malin"
+    ]
+  },
+  {
+    "id": "slaughterhouse_clive_02",
+    "quest_name": "slaughterhouse_clive",
+    "conversation": {
+      "filename": "0411_cv_clive_lumbergh",
+      "start_node": 1,
+      "end_nodes": [],
+      "force_include": [
+        84,
+        2,
+        3,
+        58,
+        6,
+        10,
+        147,
+        37,
+        22
+      ]
+    },
+    "in_objective": "O1",
+    "out_objective": "O2",
+    "participants": [
+      "clive_lumbergh"
+    ],
+    "force_sequence": [
+      [
+        102,
+        22
+      ]
+    ]
+  },
+  {
+    "id": "slaughterhouse_clive_03",
+    "quest_name": "slaughterhouse_clive",
+    "conversation": {
+      "filename": "0407_cv_catherine_malin",
+      "start_node": 3,
+      "end_nodes": [],
+      "force_include": [
+        22,
+        26,
+        138
+      ]
+    },
+    "in_objective": "O2",
+    "participants": [
+      "catherine_malin"
+    ],
+    "force_sequence": [
+      [
+        136,
+        26
+      ]
+    ]
+  }
+]

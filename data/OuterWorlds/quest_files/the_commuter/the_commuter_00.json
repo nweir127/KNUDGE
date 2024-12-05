@@ -1,0 +1,869 @@
+{
+  "id": "the_commuter_00",
+  "quest_name": "the_commuter",
+  "conversation": {
+    "filename": "0403_cv_graham_bryant",
+    "start_node": 272,
+    "end_nodes": [
+      75,
+      321,
+      4,
+      407
+    ],
+    "force_include": [
+      464,
+      483
+    ]
+  },
+  "in_objective": "O0",
+  "out_objective": "O1",
+  "participants": [
+    "graham_bryant",
+    "zora_blackwood"
+  ],
+  "dialog": [
+    {
+      "id": 272,
+      "speaker_guid": "cee405f5-2ec3-4c75-a60e-4f2c0a2ed77c",
+      "speaker": "graham_bryant (Male)",
+      "utterance": "Ah, the good captain. My Iconoclasts sing your praises. I'm glad the Eternal Truth has finally guided you to us.",
+      "support_knowledge": [
+        "iconoclasts_09",
+        "philosophists_06",
+        "graham_bryant_15"
+      ]
+    },
+    {
+      "id": 277,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "This is Amber Heights? I expected more... altars. Or incense. Or both.",
+      "support_knowledge": [
+        "amber_heights_01"
+      ]
+    },
+    {
+      "id": 279,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Your people do seem to need a lot of help.",
+      "support_knowledge": [
+        "iconoclasts_05"
+      ]
+    },
+    {
+      "id": 276,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Happy to help. The colony needs more people watching out for one another.",
+      "support_knowledge": []
+    },
+    {
+      "id": 283,
+      "speaker_guid": "cee405f5-2ec3-4c75-a60e-4f2c0a2ed77c",
+      "speaker": "graham_bryant (Male)",
+      "utterance": "Shed the trappings of a materialistic life, Captain. You'll find your soul much less burdened.",
+      "support_knowledge": [
+        "graham_bryant_15",
+        "philosophists_11"
+      ]
+    },
+    {
+      "id": 284,
+      "speaker_guid": "ac9307ba-1ad4-4577-9f68-b0ff8cbc2740",
+      "speaker": "Zora (Female)",
+      "utterance": "Also, we're broke.",
+      "support_knowledge": [
+        "zora_blackwood_08"
+      ]
+    },
+    {
+      "id": 285,
+      "speaker_guid": "cee405f5-2ec3-4c75-a60e-4f2c0a2ed77c",
+      "speaker": "graham_bryant (Male)",
+      "utterance": "Yes. If we were meant to enjoy the things that glitter and shine, the universe would provide them.",
+      "support_knowledge": [
+        "graham_bryant_15",
+        "philosophists_11",
+        "zora_blackwood_08"
+      ]
+    },
+    {
+      "id": 289,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Makes sense. You need to survive. You can't afford frivolity.",
+      "support_knowledge": []
+    },
+    {
+      "id": 290,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "That's a refreshing perspective. Most of Halcyon obsesses over what they can buy.",
+      "support_knowledge": []
+    },
+    {
+      "id": 670,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "It has provided them. On store shelves.",
+      "support_knowledge": []
+    },
+    {
+      "id": 295,
+      "speaker_guid": "ac9307ba-1ad4-4577-9f68-b0ff8cbc2740",
+      "speaker": "Zora (Female)",
+      "utterance": "Damn right we can't. We're being eaten alive out here. We can't be throwing bits at-",
+      "support_knowledge": [
+        "zora_blackwood_08"
+      ]
+    },
+    {
+      "id": 297,
+      "speaker_guid": "cee405f5-2ec3-4c75-a60e-4f2c0a2ed77c",
+      "speaker": "graham_bryant (Male)",
+      "utterance": "Zora, please. We'll discuss this later.",
+      "support_knowledge": [
+        "zora_blackwood_08"
+      ]
+    },
+    {
+      "id": 299,
+      "speaker_guid": "cee405f5-2ec3-4c75-a60e-4f2c0a2ed77c",
+      "speaker": "graham_bryant (Male)",
+      "utterance": "I apologize. My second-in-command can be overzealous at times.",
+      "support_knowledge": [
+        "zora_blackwood_08"
+      ]
+    },
+    {
+      "id": 294,
+      "speaker_guid": "cee405f5-2ec3-4c75-a60e-4f2c0a2ed77c",
+      "speaker": "graham_bryant (Male)",
+      "utterance": "Now. Why have you come?",
+      "support_knowledge": []
+    },
+    {
+      "id": 464,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I'm just looking for ways to help the people here. Anything need doing?",
+      "support_knowledge": [
+        "O0_B1"
+      ]
+    },
+    {
+      "id": 465,
+      "speaker_guid": "cee405f5-2ec3-4c75-a60e-4f2c0a2ed77c",
+      "speaker": "graham_bryant (Male)",
+      "utterance": "A great many things, in fact.",
+      "support_knowledge": []
+    },
+    {
+      "id": 466,
+      "speaker_guid": "ac9307ba-1ad4-4577-9f68-b0ff8cbc2740",
+      "speaker": "Zora (Female)",
+      "utterance": "We could always use a hand rounding up supplies.",
+      "support_knowledge": []
+    },
+    {
+      "id": 467,
+      "speaker_guid": "cee405f5-2ec3-4c75-a60e-4f2c0a2ed77c",
+      "speaker": "graham_bryant (Male)",
+      "utterance": "Or... now, here's an idea. There's an old printing press I've been trying to get up and running.",
+      "support_knowledge": [
+        "O0_B2"
+      ]
+    },
+    {
+      "id": 468,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "A... printing press? On Monarch?",
+      "support_knowledge": []
+    },
+    {
+      "id": 508,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "...why?",
+      "support_knowledge": []
+    },
+    {
+      "id": 469,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Wouldn't supplies help more?",
+      "support_knowledge": []
+    },
+    {
+      "id": 470,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I'm guessing you need it cleared out.",
+      "support_knowledge": []
+    },
+    {
+      "id": 471,
+      "speaker_guid": "cee405f5-2ec3-4c75-a60e-4f2c0a2ed77c",
+      "speaker": "graham_bryant (Male)",
+      "utterance": "Oh, yes. Many facilities lie abandoned in the wilderness. I believe the press could be operational again with a little elbow grease and luck.",
+      "support_knowledge": [
+        "O0_B2"
+      ]
+    },
+    {
+      "id": 475,
+      "speaker_guid": "cee405f5-2ec3-4c75-a60e-4f2c0a2ed77c",
+      "speaker": "graham_bryant (Male)",
+      "utterance": "Will you aid us in our cause?",
+      "support_knowledge": []
+    },
+    {
+      "id": 477,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Sure.",
+      "support_knowledge": []
+    },
+    {
+      "id": 478,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I don't think so.",
+      "support_knowledge": []
+    },
+    {
+      "id": 327,
+      "speaker_guid": "cee405f5-2ec3-4c75-a60e-4f2c0a2ed77c",
+      "speaker": "graham_bryant (Male)",
+      "utterance": "Wonderful. I requisitioned replacement rollers for it some time ago - Huxley should have delivered them yesterday.",
+      "support_knowledge": [
+        "O0_B2",
+        "O0_B3"
+      ]
+    },
+    {
+      "id": 328,
+      "speaker_guid": "cee405f5-2ec3-4c75-a60e-4f2c0a2ed77c",
+      "speaker": "graham_bryant (Male)",
+      "utterance": "Speaking of which... where is Huxley?",
+      "support_knowledge": [
+        "O0_B3"
+      ]
+    },
+    {
+      "id": 19,
+      "speaker_guid": "ac9307ba-1ad4-4577-9f68-b0ff8cbc2740",
+      "speaker": "Zora (Female)",
+      "utterance": "You bought... rollers? You haven't even cleared the rapts out yet! What are you doing wasting bits on...",
+      "support_knowledge": [
+        "O0_B2",
+        "zora_blackwood_08"
+      ]
+    },
+    {
+      "id": 483,
+      "speaker_guid": "ac9307ba-1ad4-4577-9f68-b0ff8cbc2740",
+      "speaker": "Zora (Female)",
+      "utterance": "Ugh. Forget it. Huxley's still recovering. She won't be up for a run for a while yet.",
+      "support_knowledge": [
+        "O0_B3"
+      ]
+    },
+    {
+      "id": 20,
+      "speaker_guid": "cee405f5-2ec3-4c75-a60e-4f2c0a2ed77c",
+      "speaker": "graham_bryant (Male)",
+      "utterance": "It seems we're out a runner. If you intend to help our cause, I'll ask you to meet our MSI supplier in her stead.",
+      "support_knowledge": [
+        "O0_B4"
+      ]
+    },
+    {
+      "id": 21,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "MSI supplies you?",
+      "support_knowledge": []
+    },
+    {
+      "id": 22,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Where is the supplier?",
+      "support_knowledge": []
+    },
+    {
+      "id": 23,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "All right. I'll be back.",
+      "support_knowledge": []
+    },
+    {
+      "id": 24,
+      "speaker_guid": "cee405f5-2ec3-4c75-a60e-4f2c0a2ed77c",
+      "speaker": "graham_bryant (Male)",
+      "utterance": "One of our sympathizers, a woman named Carlotta, periodically buys goods on our behalf from Stellar Bay's store.",
+      "support_knowledge": [
+        "O1_S1",
+        "O1_S2",
+        "O0_B4"
+      ]
+    },
+    {
+      "id": 330,
+      "speaker_guid": "cee405f5-2ec3-4c75-a60e-4f2c0a2ed77c",
+      "speaker": "graham_bryant (Male)",
+      "utterance": "Stellar Bay has caught on, but they remain friendly - though the goods now come at a considerable markup.",
+      "support_knowledge": []
+    },
+    {
+      "id": 25,
+      "speaker_guid": "cee405f5-2ec3-4c75-a60e-4f2c0a2ed77c",
+      "speaker": "graham_bryant (Male)",
+      "utterance": "She meets us in the ruins of Bayside Terrace. From our compound, follow the road north.",
+      "support_knowledge": [
+        "O0_S1"
+      ]
+    },
+    {
+      "id": 262,
+      "speaker_guid": "cee405f5-2ec3-4c75-a60e-4f2c0a2ed77c",
+      "speaker": "graham_bryant (Male)",
+      "utterance": "Wonderful. While you're at it... I wonder if Carlotta still has those high-capacity cartridges. Grab a few, will you? There should be some funds leftover from the last shipment.",
+      "support_knowledge": [
+        "O0_B4",
+        "O2_S1"
+      ]
+    },
+    {
+      "id": 26,
+      "speaker_guid": "cee405f5-2ec3-4c75-a60e-4f2c0a2ed77c",
+      "speaker": "graham_bryant (Male)",
+      "utterance": "We can use them to copy and modify radio serials. Yes! Not just magazines, but their precious dramas!",
+      "support_knowledge": [
+        "O0_B4",
+        "O2_S1"
+      ]
+    },
+    {
+      "id": 27,
+      "speaker_guid": "ac9307ba-1ad4-4577-9f68-b0ff8cbc2740",
+      "speaker": "Zora (Female)",
+      "utterance": "Unbelievable.",
+      "support_knowledge": [
+        "zora_blackwood_08",
+        "O2_S1"
+      ]
+    },
+    {
+      "id": 333,
+      "speaker_guid": "ac9307ba-1ad4-4577-9f68-b0ff8cbc2740",
+      "speaker": "Zora (Female)",
+      "utterance": "I hope I don't have to tell you this, but if there IS extra money, would you mind buying... I don't know, food and medicine?",
+      "support_knowledge": [
+        "O0_B5",
+        "O2_S1"
+      ]
+    },
+    {
+      "id": 482,
+      "speaker_guid": "cee405f5-2ec3-4c75-a60e-4f2c0a2ed77c",
+      "speaker": "graham_bryant (Male)",
+      "utterance": "So be it. If you find helping us to be on your path, we will be here.",
+      "support_knowledge": []
+    },
+    {
+      "id": 509,
+      "speaker_guid": "cee405f5-2ec3-4c75-a60e-4f2c0a2ed77c",
+      "speaker": "graham_bryant (Male)",
+      "utterance": "I have always dreamed of subverting the colony's periodicals and turning the Board's own propaganda against them.",
+      "support_knowledge": [
+        "O0_B2",
+        "terra_one_publications_03"
+      ]
+    },
+    {
+      "id": 510,
+      "speaker_guid": "cee405f5-2ec3-4c75-a60e-4f2c0a2ed77c",
+      "speaker": "graham_bryant (Male)",
+      "utterance": "If I could get my message directly in the hands of Byzantium citizens, I'm sure they'd recognize the truth.",
+      "support_knowledge": [
+        "O0_B2",
+        "terra_one_publications_03"
+      ]
+    },
+    {
+      "id": 472,
+      "speaker_guid": "ac9307ba-1ad4-4577-9f68-b0ff8cbc2740",
+      "speaker": "Zora (Female)",
+      "utterance": "Yes.",
+      "support_knowledge": []
+    },
+    {
+      "id": 473,
+      "speaker_guid": "cee405f5-2ec3-4c75-a60e-4f2c0a2ed77c",
+      "speaker": "graham_bryant (Male)",
+      "utterance": "We will make do - as we always have. Spreading the word of our movement is of paramount importance.",
+      "support_knowledge": [
+        "zora_blackwood_08"
+      ]
+    },
+    {
+      "id": 474,
+      "speaker_guid": "cee405f5-2ec3-4c75-a60e-4f2c0a2ed77c",
+      "speaker": "graham_bryant (Male)",
+      "utterance": "Indeed, but first we need the parts I ordered.",
+      "support_knowledge": []
+    },
+    {
+      "id": 296,
+      "speaker_guid": "ac9307ba-1ad4-4577-9f68-b0ff8cbc2740",
+      "speaker": "Zora (Female)",
+      "utterance": "Most of Halcyon isn't up sulfur creek.",
+      "support_knowledge": []
+    },
+    {
+      "id": 298,
+      "speaker_guid": "cee405f5-2ec3-4c75-a60e-4f2c0a2ed77c",
+      "speaker": "graham_bryant (Male)",
+      "utterance": "I'd wager the opposite. The corporations are doomed. Only we have the truth at our backs and we are better for it.",
+      "support_knowledge": [
+        "philosophists_01",
+        "philosophists_03",
+        "philosophists_11"
+      ]
+    },
+    {
+      "id": 671,
+      "speaker_guid": "cee405f5-2ec3-4c75-a60e-4f2c0a2ed77c",
+      "speaker": "graham_bryant (Male)",
+      "utterance": "No, no, no. There's a difference. Come back for a meditation session later. The peace will clear your mind.",
+      "support_knowledge": []
+    },
+    {
+      "id": 672,
+      "speaker_guid": "ac9307ba-1ad4-4577-9f68-b0ff8cbc2740",
+      "speaker": "Zora (Female)",
+      "utterance": "I shudder to think how wasteful we used to be before we were abandoned.",
+      "support_knowledge": [
+        "zora_blackwood_08"
+      ]
+    },
+    {
+      "id": 675,
+      "speaker_guid": "cee405f5-2ec3-4c75-a60e-4f2c0a2ed77c",
+      "speaker": "graham_bryant (Male)",
+      "utterance": "Indeed - the corporate life is nothing but wanton excess and waste. The Truth has shown us how careful we must be.",
+      "support_knowledge": [
+        "philosophists_01",
+        "philosophists_06",
+        "philosophists_11"
+      ]
+    },
+    {
+      "id": 286,
+      "speaker_guid": "cee405f5-2ec3-4c75-a60e-4f2c0a2ed77c",
+      "speaker": "graham_bryant (Male)",
+      "utterance": "The harshness of life tests our mettle. It is proof that we are worthy.",
+      "support_knowledge": [
+        "philosophists_01",
+        "philosophists_04"
+      ]
+    },
+    {
+      "id": 287,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Survival of the fittest and all that?",
+      "support_knowledge": []
+    },
+    {
+      "id": 288,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I suppose you are still here, after all. How are you surviving?",
+      "support_knowledge": []
+    },
+    {
+      "id": 301,
+      "speaker_guid": "cee405f5-2ec3-4c75-a60e-4f2c0a2ed77c",
+      "speaker": "graham_bryant (Male)",
+      "utterance": "Indeed. Every day we struggle against the odds, and it is only through the strength of our beliefs that we persist.",
+      "support_knowledge": [
+        "iconoclasts_05"
+      ]
+    },
+    {
+      "id": 302,
+      "speaker_guid": "ac9307ba-1ad4-4577-9f68-b0ff8cbc2740",
+      "speaker": "Zora (Female)",
+      "utterance": "That and a healthy amount of ammunition.",
+      "support_knowledge": [
+        "iconoclasts_07"
+      ]
+    },
+    {
+      "id": 303,
+      "speaker_guid": "cee405f5-2ec3-4c75-a60e-4f2c0a2ed77c",
+      "speaker": "graham_bryant (Male)",
+      "utterance": "Yes. Monarch demands so much violence. It's such a shame that so many people aren't willing to listen until their lives are on the line.",
+      "support_knowledge": [
+        "iconoclasts_07"
+      ]
+    },
+    {
+      "id": 304,
+      "speaker_guid": "ac9307ba-1ad4-4577-9f68-b0ff8cbc2740",
+      "speaker": "Zora (Female)",
+      "utterance": "We shoot things. Then we eat the things we shoot. And we thank the Eternal the rapts haven't evolved opposable thumbs.",
+      "support_knowledge": [
+        "philosophists_09"
+      ]
+    },
+    {
+      "id": 678,
+      "speaker_guid": "cee405f5-2ec3-4c75-a60e-4f2c0a2ed77c",
+      "speaker": "graham_bryant (Male)",
+      "utterance": "That is the way of it, yes! The universe wouldn't have produced the magnificence that is mankind if it were in constant competition with itself.",
+      "support_knowledge": [
+        "philosophists_04",
+        "philosophists_05",
+        "philosophists_06"
+      ]
+    },
+    {
+      "id": 679,
+      "speaker_guid": "cee405f5-2ec3-4c75-a60e-4f2c0a2ed77c",
+      "speaker": "graham_bryant (Male)",
+      "utterance": "We are all part of the same cosmic body. Must one hand cut off the other?",
+      "support_knowledge": [
+        "philosophists_04",
+        "philosophists_05",
+        "philosophists_06"
+      ]
+    },
+    {
+      "id": 680,
+      "speaker_guid": "ac9307ba-1ad4-4577-9f68-b0ff8cbc2740",
+      "speaker": "Zora (Female)",
+      "utterance": "Well. Sometimes. There's disease and rot and... ah, you know what, forget it. Your metaphors are wise beyond me.",
+      "support_knowledge": [
+        "zora_blackwood_07"
+      ]
+    },
+    {
+      "id": 684,
+      "speaker_guid": "ac9307ba-1ad4-4577-9f68-b0ff8cbc2740",
+      "speaker": "Zora (Female)",
+      "utterance": "Point is, around these parts, we watch out for one another.",
+      "support_knowledge": [
+        "zora_blackwood_05",
+        "zora_blackwood_07"
+      ]
+    },
+    {
+      "id": 685,
+      "speaker_guid": "cee405f5-2ec3-4c75-a60e-4f2c0a2ed77c",
+      "speaker": "graham_bryant (Male)",
+      "utterance": "Indeed! Welcome to our home.",
+      "support_knowledge": []
+    }
+  ],
+  "dialog_edges": [
+    [
+      272,
+      277
+    ],
+    [
+      272,
+      279
+    ],
+    [
+      272,
+      276
+    ],
+    [
+      277,
+      283
+    ],
+    [
+      283,
+      284
+    ],
+    [
+      284,
+      285
+    ],
+    [
+      285,
+      289
+    ],
+    [
+      285,
+      290
+    ],
+    [
+      285,
+      670
+    ],
+    [
+      289,
+      295
+    ],
+    [
+      295,
+      297
+    ],
+    [
+      297,
+      299
+    ],
+    [
+      299,
+      294
+    ],
+    [
+      294,
+      464
+    ],
+    [
+      464,
+      465
+    ],
+    [
+      465,
+      466
+    ],
+    [
+      466,
+      467
+    ],
+    [
+      467,
+      468
+    ],
+    [
+      467,
+      508
+    ],
+    [
+      467,
+      469
+    ],
+    [
+      467,
+      470
+    ],
+    [
+      468,
+      471
+    ],
+    [
+      471,
+      475
+    ],
+    [
+      475,
+      477
+    ],
+    [
+      475,
+      478
+    ],
+    [
+      477,
+      327
+    ],
+    [
+      327,
+      328
+    ],
+    [
+      328,
+      19
+    ],
+    [
+      19,
+      483
+    ],
+    [
+      483,
+      20
+    ],
+    [
+      20,
+      21
+    ],
+    [
+      20,
+      22
+    ],
+    [
+      20,
+      23
+    ],
+    [
+      21,
+      24
+    ],
+    [
+      24,
+      330
+    ],
+    [
+      330,
+      20
+    ],
+    [
+      22,
+      25
+    ],
+    [
+      25,
+      20
+    ],
+    [
+      23,
+      262
+    ],
+    [
+      262,
+      26
+    ],
+    [
+      26,
+      27
+    ],
+    [
+      27,
+      333
+    ],
+    [
+      478,
+      482
+    ],
+    [
+      508,
+      509
+    ],
+    [
+      509,
+      510
+    ],
+    [
+      510,
+      475
+    ],
+    [
+      469,
+      472
+    ],
+    [
+      472,
+      473
+    ],
+    [
+      473,
+      475
+    ],
+    [
+      470,
+      474
+    ],
+    [
+      474,
+      475
+    ],
+    [
+      290,
+      296
+    ],
+    [
+      296,
+      298
+    ],
+    [
+      298,
+      294
+    ],
+    [
+      670,
+      671
+    ],
+    [
+      671,
+      672
+    ],
+    [
+      672,
+      675
+    ],
+    [
+      675,
+      294
+    ],
+    [
+      279,
+      286
+    ],
+    [
+      286,
+      287
+    ],
+    [
+      286,
+      288
+    ],
+    [
+      287,
+      301
+    ],
+    [
+      301,
+      302
+    ],
+    [
+      302,
+      303
+    ],
+    [
+      303,
+      294
+    ],
+    [
+      288,
+      304
+    ],
+    [
+      304,
+      303
+    ],
+    [
+      276,
+      678
+    ],
+    [
+      678,
+      679
+    ],
+    [
+      679,
+      680
+    ],
+    [
+      680,
+      684
+    ],
+    [
+      684,
+      685
+    ],
+    [
+      685,
+      294
+    ]
+  ]
+}

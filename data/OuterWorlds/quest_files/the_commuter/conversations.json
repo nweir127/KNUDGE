@@ -1,0 +1,83 @@
+[
+  {
+    "id": "the_commuter_00",
+    "quest_name": "the_commuter",
+    "conversation": {
+      "filename": "0403_cv_graham_bryant",
+      "start_node": 272,
+      "end_nodes": [
+        75,
+        321,
+        4,
+        407
+      ],
+      "force_include": [
+        464,
+        483
+      ]
+    },
+    "in_objective": "O0",
+    "out_objective": [
+      "O1",
+      "O2"
+    ],
+    "participants": [
+      "graham_bryant",
+      "zora_blackwood"
+    ]
+  },
+  {
+    "id": "the_commuter_01",
+    "quest_name": "the_commuter",
+    "conversation": {
+      "filename": "0401_cv_carlotta_intercom",
+      "start_node": 2,
+      "end_nodes": [],
+      "force_include": []
+    },
+    "in_objective": "O1",
+    "out_objective": "O1",
+    "participants": [
+      "carlotta"
+    ]
+  },
+  {
+    "id": "the_commuter_02",
+    "quest_name": "the_commuter",
+    "conversation": {
+      "filename": "0401_cv_carlotta",
+      "start_node": 1,
+      "end_nodes": [],
+      "force_include": []
+    },
+    "in_objective": [
+      "O1",
+      "O2"
+    ],
+    "out_objective": "O3",
+    "participants": [
+      "carlotta"
+    ]
+  },
+  {
+    "id": "the_commuter_03",
+    "quest_name": "the_commuter",
+    "conversation": {
+      "filename": "0403_cv_graham_bryant",
+      "start_node": 50,
+      "end_nodes": [
+        230,
+        232
+      ],
+      "force_include": [
+        37,
+        38
+      ]
+    },
+    "in_objective": "O3",
+    "participants": [
+      "graham_bryant",
+      "zora_blackwood"
+    ]
+  }
+]

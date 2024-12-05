@@ -1,0 +1,435 @@
+{
+  "id": "flowers_for_sebastian_00",
+  "quest_name": "flowers_for_sebastian",
+  "conversation": {
+    "filename": "0402_cv_celia",
+    "start_node": 106,
+    "end_nodes": [],
+    "force_include": [
+      107,
+      97,
+      98
+    ]
+  },
+  "in_objective": "O0",
+  "out_objective": "O1",
+  "participants": [
+    "celia_robbins"
+  ],
+  "dialog_edges": [
+    [
+      106,
+      107
+    ],
+    [
+      106,
+      88
+    ],
+    [
+      107,
+      91
+    ],
+    [
+      91,
+      92
+    ],
+    [
+      91,
+      111
+    ],
+    [
+      92,
+      93
+    ],
+    [
+      93,
+      94
+    ],
+    [
+      93,
+      108
+    ],
+    [
+      94,
+      95
+    ],
+    [
+      95,
+      110
+    ],
+    [
+      110,
+      96
+    ],
+    [
+      96,
+      98
+    ],
+    [
+      96,
+      97
+    ],
+    [
+      98,
+      105
+    ],
+    [
+      105,
+      129
+    ],
+    [
+      105,
+      128
+    ],
+    [
+      129,
+      117
+    ],
+    [
+      117,
+      118
+    ],
+    [
+      118,
+      120
+    ],
+    [
+      118,
+      121
+    ],
+    [
+      118,
+      125
+    ],
+    [
+      120,
+      124
+    ],
+    [
+      124,
+      118
+    ],
+    [
+      121,
+      122
+    ],
+    [
+      122,
+      123
+    ],
+    [
+      123,
+      118
+    ],
+    [
+      125,
+      126
+    ],
+    [
+      126,
+      128
+    ],
+    [
+      97,
+      99
+    ],
+    [
+      99,
+      100
+    ],
+    [
+      100,
+      129
+    ],
+    [
+      100,
+      128
+    ],
+    [
+      108,
+      109
+    ],
+    [
+      109,
+      110
+    ],
+    [
+      111,
+      112
+    ],
+    [
+      112,
+      94
+    ],
+    [
+      112,
+      108
+    ]
+  ],
+  "dialog": [
+    {
+      "id": 106,
+      "speaker_guid": "88e2a5c4-832b-4533-b593-28ef1edc16f2",
+      "speaker": "Celia (Female)",
+      "utterance": "Hello again. How are you finding Stellar Bay? Can I help you with anything?",
+      "support_knowledge": [
+        "stellar_bay_02"
+      ]
+    },
+    {
+      "id": 107,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Earlier, I overheard you say you were having money trouble.",
+      "support_knowledge": [
+        "O0_B2"
+      ]
+    },
+    {
+      "id": 88,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Never mind.",
+      "support_knowledge": []
+    },
+    {
+      "id": 91,
+      "speaker_guid": "88e2a5c4-832b-4533-b593-28ef1edc16f2",
+      "speaker": "Celia (Female)",
+      "utterance": "Not at all! Mr. Nandi treats us alright and pays us well. I just spent most of my paycheck on raptidon acid.",
+      "support_knowledge": [
+        "celia_robbins_01",
+        "celia_robbins_02"
+      ]
+    },
+    {
+      "id": 92,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Do you normally blow your money on raptidon parts?",
+      "support_knowledge": [
+        "celia_robbins_02"
+      ]
+    },
+    {
+      "id": 111,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Well, that was stupid.",
+      "support_knowledge": []
+    },
+    {
+      "id": 93,
+      "speaker_guid": "88e2a5c4-832b-4533-b593-28ef1edc16f2",
+      "speaker": "Celia (Female)",
+      "utterance": "Laws, no! Sometimes it's canid teeth. Or mantiswarm wings. Whatever Sebastian has in stock, really.",
+      "support_knowledge": [
+        "celia_robbins_02"
+      ]
+    },
+    {
+      "id": 94,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Why are you buying so much from Sebastian?",
+      "support_knowledge": [
+        "celia_robbins_02"
+      ]
+    },
+    {
+      "id": 108,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "If you've got that many bits to spend, then I've got some trash to sell you.",
+      "support_knowledge": []
+    },
+    {
+      "id": 95,
+      "speaker_guid": "88e2a5c4-832b-4533-b593-28ef1edc16f2",
+      "speaker": "Celia (Female)",
+      "utterance": "So I can talk to him, of course! He doesn't get going about much else.",
+      "support_knowledge": [
+        "O0_B3",
+        "celia_robbins_03"
+      ]
+    },
+    {
+      "id": 110,
+      "speaker_guid": "88e2a5c4-832b-4533-b593-28ef1edc16f2",
+      "speaker": "Celia (Female)",
+      "utterance": "Sort of the strong, silent type.",
+      "support_knowledge": []
+    },
+    {
+      "id": 96,
+      "speaker_guid": "88e2a5c4-832b-4533-b593-28ef1edc16f2",
+      "speaker": "Celia (Female)",
+      "utterance": "Unfortunately, my apartment's kind of filling up with this stuff. And some of the neighbors are complaining about the smell. ",
+      "support_knowledge": [
+        "celia_robbins_04"
+      ]
+    },
+    {
+      "id": 98,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Maybe I can talk to him for you.",
+      "support_knowledge": [
+        "O0_B4",
+        "sebastian_adams_02",
+        "celia_robbins_07"
+      ]
+    },
+    {
+      "id": 97,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Just ask him on a date.",
+      "support_knowledge": [
+        "O0_S1"
+      ]
+    },
+    {
+      "id": 105,
+      "speaker_guid": "88e2a5c4-832b-4533-b593-28ef1edc16f2",
+      "speaker": "Celia (Female)",
+      "utterance": "Would you? I'd appreciate that so much. Umm, maybe don't tell him I wanted you to ask. Just that you met this really nice lady named Celia, and she seemed-",
+      "support_knowledge": [
+        "O0_S2",
+        "O0_B4",
+        "sebastian_adams_02",
+        "celia_robbins_07"
+      ]
+    },
+    {
+      "id": 129,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Wait. I'm curious - what do you see in Sebastian?",
+      "support_knowledge": [
+        "sebastian_adams_01"
+      ]
+    },
+    {
+      "id": 128,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I'll talk to you later.",
+      "support_knowledge": []
+    },
+    {
+      "id": 117,
+      "speaker_guid": "88e2a5c4-832b-4533-b593-28ef1edc16f2",
+      "speaker": "Celia (Female)",
+      "utterance": "He doesn't talk much, but he's got this... quiet intensity, you know? Like there's stuff going on inside his head that you have no idea about.",
+      "support_knowledge": [
+        "O0_S1",
+        "celia_robbins_05"
+      ]
+    },
+    {
+      "id": 118,
+      "speaker_guid": "88e2a5c4-832b-4533-b593-28ef1edc16f2",
+      "speaker": "Celia (Female)",
+      "utterance": "Plus, he's got great legs. It's hard to find a man who doesn't skimp on lower body exercises.",
+      "support_knowledge": [
+        "O0_S1"
+      ]
+    },
+    {
+      "id": 120,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "You really want to be with someone you can't talk to?",
+      "support_knowledge": [
+        "celia_robbins_05"
+      ]
+    },
+    {
+      "id": 121,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "There are other fish in the sea, Celia.",
+      "support_knowledge": []
+    },
+    {
+      "id": 125,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "That's... all I need to know.",
+      "support_knowledge": []
+    },
+    {
+      "id": 124,
+      "speaker_guid": "88e2a5c4-832b-4533-b593-28ef1edc16f2",
+      "speaker": "Celia (Female)",
+      "utterance": "You think that's what I'm looking for? Aw, you're funny.",
+      "support_knowledge": []
+    },
+    {
+      "id": 122,
+      "speaker_guid": "88e2a5c4-832b-4533-b593-28ef1edc16f2",
+      "speaker": "Celia (Female)",
+      "utterance": "Not in Stellar Bay! Everyone else who isn't taken either smells like saltuna or they're my boss.",
+      "support_knowledge": [
+        "celia_robbins_06",
+        "stellar_bay_02",
+        "saltuna_01"
+      ]
+    },
+    {
+      "id": 123,
+      "speaker_guid": "88e2a5c4-832b-4533-b593-28ef1edc16f2",
+      "speaker": "Celia (Female)",
+      "utterance": "Besides, a man with a good smile and a proportionate upper-to-lower body ratio isn't something to pass up.",
+      "support_knowledge": [
+        "O0_S1"
+      ]
+    },
+    {
+      "id": 126,
+      "speaker_guid": "88e2a5c4-832b-4533-b593-28ef1edc16f2",
+      "speaker": "Celia (Female)",
+      "utterance": "Sorry, sometimes I get carried away.",
+      "support_knowledge": []
+    },
+    {
+      "id": 99,
+      "speaker_guid": "88e2a5c4-832b-4533-b593-28ef1edc16f2",
+      "speaker": "Celia (Female)",
+      "utterance": "I couldn't! What if he says no?",
+      "support_knowledge": [
+        "O0_S2"
+      ]
+    },
+    {
+      "id": 100,
+      "speaker_guid": "88e2a5c4-832b-4533-b593-28ef1edc16f2",
+      "speaker": "Celia (Female)",
+      "utterance": "Hey, maybe you could ask him for me. I mean, a \"no\" would still be bad, but it won't be quite as embarrassing if you ask.",
+      "support_knowledge": [
+        "O0_S2"
+      ]
+    },
+    {
+      "id": 109,
+      "speaker_guid": "88e2a5c4-832b-4533-b593-28ef1edc16f2",
+      "speaker": "Celia (Female)",
+      "utterance": "Oh, I don't need any of it! It's all so I can talk to Sebastian - he doesn't get going about much else.",
+      "support_knowledge": [
+        "O0_B3",
+        "celia_robbins_02",
+        "celia_robbins_03"
+      ]
+    },
+    {
+      "id": 112,
+      "speaker_guid": "88e2a5c4-832b-4533-b593-28ef1edc16f2",
+      "speaker": "Celia (Female)",
+      "utterance": "I didn't have any choice! That's all Sebastian had in stock the other day.",
+      "support_knowledge": [
+        "celia_robbins_02"
+      ]
+    }
+  ]
+}

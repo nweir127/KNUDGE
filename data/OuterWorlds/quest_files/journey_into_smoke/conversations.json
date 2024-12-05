@@ -1,0 +1,44 @@
+[
+  {
+    "id": "journey_into_smoke_00",
+    "quest_name": "journey_into_smoke",
+    "conversation": {
+      "filename": "08_cv_anarchist_lillian",
+      "start_node": 203,
+      "end_nodes": [],
+      "force_include": [
+        34,
+        211,
+        40,
+        86,
+        46,
+        99
+      ],
+      "force_sequence": []
+    },
+    "in_objective": "O0",
+    "out_objective": "O1",
+    "participants": [
+      "lillian"
+    ]
+  },
+  {
+    "id": "journey_into_smoke_01",
+    "quest_name": "journey_into_smoke",
+    "conversation": {
+      "filename": "08_cv_anarchist_lillian",
+      "start_node": 51,
+      "end_nodes": [],
+      "force_include": [
+        59,
+        67,
+        65
+      ],
+      "force_sequence": []
+    },
+    "in_objective": "O2",
+    "participants": [
+      "lillian"
+    ]
+  }
+]

@@ -1,0 +1,259 @@
+{
+  "id": "passion_pills_00",
+  "quest_name": "passion_pills",
+  "conversation": {
+    "filename": "0402_cv_nyoka_bar_intro_new",
+    "start_node": 71,
+    "end_nodes": [
+      149,
+      75,
+      172
+    ],
+    "force_include": [
+      74,
+      190
+    ],
+    "force_sequence": []
+  },
+  "in_objective": "O0",
+  "out_objective": "O1",
+  "participants": [
+    "nyoka"
+  ],
+  "dialog_edges": [
+    [
+      71,
+      74
+    ],
+    [
+      74,
+      72
+    ],
+    [
+      72,
+      81
+    ],
+    [
+      81,
+      83
+    ],
+    [
+      81,
+      82
+    ],
+    [
+      83,
+      89
+    ],
+    [
+      89,
+      122
+    ],
+    [
+      122,
+      171
+    ],
+    [
+      122,
+      188
+    ],
+    [
+      122,
+      190
+    ],
+    [
+      171,
+      174
+    ],
+    [
+      188,
+      189
+    ],
+    [
+      190,
+      191
+    ],
+    [
+      82,
+      85
+    ],
+    [
+      85,
+      87
+    ],
+    [
+      85,
+      88
+    ],
+    [
+      87,
+      89
+    ],
+    [
+      88,
+      91
+    ]
+  ],
+  "dialog": [
+    {
+      "id": 71,
+      "speaker_guid": "9590333a-767c-4f70-b6f9-89d626e31f96",
+      "speaker": "Nyoka (Female)",
+      "utterance": "What're you doing in Stellar Bay, stranger?",
+      "support_knowledge": [
+        "stellar_bay_02"
+      ]
+    },
+    {
+      "id": 74,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I'm told you can help me find an information broker.",
+      "support_knowledge": [
+        "O0_B1"
+      ]
+    },
+    {
+      "id": 72,
+      "speaker_guid": "9590333a-767c-4f70-b6f9-89d626e31f96",
+      "speaker": "Nyoka (Female)",
+      "utterance": "Well. Well, well, well. Let's get down to brass nuts, then, shall we? Brass... wait, that ain't it. Brass rats? Let's - let's talk business.",
+      "support_knowledge": []
+    },
+    {
+      "id": 81,
+      "speaker_guid": "9590333a-767c-4f70-b6f9-89d626e31f96",
+      "speaker": "Nyoka (Female)",
+      "utterance": "I'm headed back out there after I sober up. You want a guide sooner than that, you'll have to get me a something to clear my head.",
+      "support_knowledge": [
+        "O0_S1",
+        "O0_B2",
+        "O0_B3"
+      ]
+    },
+    {
+      "id": 83,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Sure. What do you need?",
+      "support_knowledge": [
+        "O0_B3"
+      ]
+    },
+    {
+      "id": 82,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I'm not in the mood to fetch things. How much time do you need?",
+      "support_knowledge": []
+    },
+    {
+      "id": 89,
+      "speaker_guid": "9590333a-767c-4f70-b6f9-89d626e31f96",
+      "speaker": "Nyoka (Female)",
+      "utterance": "Outstanding. Our dispensary here maintains a stock of - well, I don't rightly know what they are. Steroid- or caffeine-somethings. Pills. They're... very good.",
+      "support_knowledge": [
+        "O1_S1"
+      ]
+    },
+    {
+      "id": 122,
+      "speaker_guid": "9590333a-767c-4f70-b6f9-89d626e31f96",
+      "speaker": "Nyoka (Female)",
+      "utterance": "I'm cut off for the month, on account of needing one just about every damn day, but I'm sure you've got your wily ways. Fetch me one and we'll be all set.",
+      "support_knowledge": [
+        "O1_S2",
+        "nyoka_04"
+      ]
+    },
+    {
+      "id": 171,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "And if I can't get a Steroid- or caffeine-something-or-other?",
+      "support_knowledge": [
+        "O1_S1"
+      ]
+    },
+    {
+      "id": 188,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "\"Steroid-or-caffeine-somethings?\" You don't even know what you're taking?",
+      "support_knowledge": [
+        "O1_S1"
+      ]
+    },
+    {
+      "id": 190,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "You mean Caffenoid? That stuff's just a stimulant.",
+      "support_knowledge": [
+        "O0_B3",
+        "O1_S1",
+        "caffenoid_01"
+      ]
+    },
+    {
+      "id": 174,
+      "speaker_guid": "9590333a-767c-4f70-b6f9-89d626e31f96",
+      "speaker": "Nyoka (Female)",
+      "utterance": "That's quitter talk. You want me shooting straight, get me my meds.",
+      "support_knowledge": [
+        "O0_B2",
+        "O1_S1"
+      ]
+    },
+    {
+      "id": 189,
+      "speaker_guid": "9590333a-767c-4f70-b6f9-89d626e31f96",
+      "speaker": "Nyoka (Female)",
+      "utterance": "I know they make me see straight. For a little while. You gonna get me a dose or what?",
+      "support_knowledge": [
+        "O0_B2",
+        "O1_S1"
+      ]
+    },
+    {
+      "id": 191,
+      "speaker_guid": "9590333a-767c-4f70-b6f9-89d626e31f96",
+      "speaker": "Nyoka (Female)",
+      "utterance": "Well, they work. We got a deal or what?",
+      "support_knowledge": [
+        "O0_B2",
+        "O1_S1"
+      ]
+    },
+    {
+      "id": 85,
+      "speaker_guid": "9590333a-767c-4f70-b6f9-89d626e31f96",
+      "speaker": "Nyoka (Female)",
+      "utterance": "More than you have, I suspect. I plan to sit here and drink until I find myself awoken sober.",
+      "support_knowledge": []
+    },
+    {
+      "id": 87,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Fine. What do you need?",
+      "support_knowledge": [
+        "O0_B3"
+      ]
+    },
+    {
+      "id": 88,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Right, well, I'm not running errands for you.",
+      "support_knowledge": []
+    },
+    {
+      "id": 91,
+      "speaker_guid": "9590333a-767c-4f70-b6f9-89d626e31f96",
+      "speaker": "Nyoka (Female)",
+      "utterance": "You do what you like, stranger. I'll be here in the meantime.",
+      "support_knowledge": []
+    }
+  ]
+}

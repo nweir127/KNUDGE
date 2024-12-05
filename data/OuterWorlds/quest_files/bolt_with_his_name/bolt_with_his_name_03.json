@@ -1,0 +1,509 @@
+{
+  "id": "bolt_with_his_name_03",
+  "quest_name": "bolt_with_his_name",
+  "conversation": {
+    "filename": "0402_cv_sanjar_nandi_new",
+    "start_node": 292,
+    "end_nodes": [
+      1348,
+      1248,
+      242
+    ],
+    "force_include": [
+      839,
+      840
+    ]
+  },
+  "in_objective": [
+    "O2",
+    "O3"
+  ],
+  "out_objective": "O4",
+  "participants": [
+    "sanjar_nandi",
+    "celia_robbins"
+  ],
+  "objectives": {
+    "O2": {
+      "summary": "Wipe Any Terminals in the Building",
+      "description": {
+        "S1": "Sanjar wants the data on any terminals in the ARMS building deleted."
+      },
+      "blurb": {
+        "B1": "You found Sanjar's executive review on the ARMS terminal. It was less than flattering."
+      }
+    },
+    "O3": {
+      "summary": "Obtain the BOLT-52",
+      "description": {
+        "S1": "The BOLT-52 is in a locked closet.",
+        "S2": "Find a way inside and retrieve it."
+      },
+      "blurb": {
+        "B1": "Huxley's partner had the key to the door, but he was probably killed by raptidons.",
+        "B2": "You might find the key on his body, or in a raptidon's stomach.",
+        "B3": "You found the key to the closet.",
+        "B4": "You can also ask Huxley to open the door from inside, it takes Perception, or Engineering (35), Intimidate (55) or Persuade (55).",
+        "B5": "The door will open and Huxley will come outand you'll get Iconoclasts reputation.",
+        "B6": "You can ask her for a reward, and obtain some Iconoclast reputation.",
+        "B7": "Inside the room, loot Mag-Pick, Ammo and Bit Cartridge and the BOLT-52 Cartridge."
+      }
+    },
+    "O4": {
+      "summary": "Return to Sanjar",
+      "description": {
+        "S1": "Return the BOLT-52 to Sanjar in Stellar Bay."
+      },
+      "blurb": {
+        "B1": "Return to Sanjar and tell him you saw the review.",
+        "B2": "He will mention he even gave a kidney to the company in order to improve his chances of being promoted.",
+        "B3": "You can encourage him for the part he plays now."
+      }
+    }
+  },
+  "dialog_edges": [
+    [
+      292,
+      839
+    ],
+    [
+      839,
+      840
+    ],
+    [
+      839,
+      843
+    ],
+    [
+      840,
+      999
+    ],
+    [
+      840,
+      1000
+    ],
+    [
+      840,
+      1002
+    ],
+    [
+      999,
+      1001
+    ],
+    [
+      1001,
+      843
+    ],
+    [
+      1000,
+      1004
+    ],
+    [
+      1004,
+      843
+    ],
+    [
+      1002,
+      1003
+    ],
+    [
+      1003,
+      843
+    ],
+    [
+      843,
+      1005
+    ],
+    [
+      1005,
+      1006
+    ],
+    [
+      1005,
+      1007
+    ],
+    [
+      1005,
+      1008
+    ],
+    [
+      1006,
+      1321
+    ],
+    [
+      1321,
+      1009
+    ],
+    [
+      1009,
+      1010
+    ],
+    [
+      1009,
+      1012
+    ],
+    [
+      1010,
+      1013
+    ],
+    [
+      1013,
+      1007
+    ],
+    [
+      1013,
+      1018
+    ],
+    [
+      1018,
+      1019
+    ],
+    [
+      1019,
+      1021
+    ],
+    [
+      1019,
+      1022
+    ],
+    [
+      1021,
+      1020
+    ],
+    [
+      1020,
+      1023
+    ],
+    [
+      1023,
+      292
+    ],
+    [
+      1022,
+      1024
+    ],
+    [
+      1024,
+      1025
+    ],
+    [
+      1025,
+      1026
+    ],
+    [
+      1026,
+      292
+    ],
+    [
+      1012,
+      1017
+    ],
+    [
+      1017,
+      1007
+    ],
+    [
+      1017,
+      1018
+    ],
+    [
+      1007,
+      1014
+    ],
+    [
+      1014,
+      1015
+    ],
+    [
+      1014,
+      1016
+    ],
+    [
+      1015,
+      1020
+    ],
+    [
+      1016,
+      1024
+    ],
+    [
+      1008,
+      1019
+    ]
+  ],
+  "dialog": [
+    {
+      "id": 292,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "What can I do for you?",
+      "support_knowledge": []
+    },
+    {
+      "id": 839,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I found your review on a terminal in the ARMS building...",
+      "support_knowledge": [
+        "O2_B1",
+        "O4_B1",
+        "sanjar_nandi_04"
+      ]
+    },
+    {
+      "id": 840,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "You weren't supposed to look! I asked you to delete it!",
+      "support_knowledge": [
+        "O2_S1"
+      ]
+    },
+    {
+      "id": 843,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "This has been my albatross. The great shame of my career.",
+      "support_knowledge": [
+        "sanjar_nandi_04",
+        "sanjar_nandi_05"
+      ]
+    },
+    {
+      "id": 999,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Sorry. It was already open.",
+      "support_knowledge": []
+    },
+    {
+      "id": 1000,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "You could have told me what was on that terminal. ",
+      "support_knowledge": []
+    },
+    {
+      "id": 1002,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Yeah, you sent me into a raptidon-infested mess to clean up after you.",
+      "support_knowledge": [
+        "sanjar_nandi_04",
+        "raptidon_01"
+      ]
+    },
+    {
+      "id": 1001,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "Oh, yes. No doubt someone else was having a laugh at my expense before you.",
+      "support_knowledge": [
+        "sanjar_nandi_05"
+      ]
+    },
+    {
+      "id": 1004,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "Yes, but then you would have known!",
+      "support_knowledge": [
+        "sanjar_nandi_05"
+      ]
+    },
+    {
+      "id": 1003,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "I didn't mean for any harm to come to you! ",
+      "support_knowledge": []
+    },
+    {
+      "id": 1005,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "I gave MSI everything - my work, my youth, my left kidney - and for years, I was a joke to them.",
+      "support_knowledge": [
+        "O4_B2",
+        "sanjar_nandi_05",
+        "sanjar_nandi_06",
+        "sanjar_nandi_07",
+        "sanjar_nandi_08"
+      ]
+    },
+    {
+      "id": 1006,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Your left kidney?",
+      "support_knowledge": [
+        "sanjar_nandi_07"
+      ]
+    },
+    {
+      "id": 1007,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Who cares what they think? You're in charge now.",
+      "support_knowledge": [
+        "O4_B3"
+      ]
+    },
+    {
+      "id": 1008,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "That much was definitely clear.",
+      "support_knowledge": []
+    },
+    {
+      "id": 1321,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "One of the executives required a transplant.",
+      "support_knowledge": [
+        "O4_B2",
+        "sanjar_nandi_07"
+      ]
+    },
+    {
+      "id": 1009,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "I thought volunteering to donate might improve my prospects. ",
+      "support_knowledge": [
+        "O4_B2",
+        "sanjar_nandi_07"
+      ]
+    },
+    {
+      "id": 1010,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Did it?",
+      "support_knowledge": []
+    },
+    {
+      "id": 1012,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "You're insane.",
+      "support_knowledge": []
+    },
+    {
+      "id": 1013,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "Apparently not.",
+      "support_knowledge": []
+    },
+    {
+      "id": 1018,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "That's what you get for giving so much of yourself over to a corporation.",
+      "support_knowledge": []
+    },
+    {
+      "id": 1019,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "Perhaps they were right. After all, what have I built? Stellar Bay is barely keeping afloat. ",
+      "support_knowledge": [
+        "sanjar_nandi_09",
+        "sanjar_nandi_09",
+        "stellar_bay_02"
+      ]
+    },
+    {
+      "id": 1021,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Take it easy. You've kept this city running against all odds.",
+      "support_knowledge": [
+        "O4_B3"
+      ]
+    },
+    {
+      "id": 1022,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Do you want a medal? You're right, this place is a garbage heap.",
+      "support_knowledge": []
+    },
+    {
+      "id": 1020,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "I hadn't thought of it that way. But perhaps there's something to that.",
+      "support_knowledge": [
+        "O4_B3"
+      ]
+    },
+    {
+      "id": 1023,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "Thank you for that. Was there something else?",
+      "support_knowledge": []
+    },
+    {
+      "id": 1024,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "Please, I can't think about this right now. Celia, schedule thirty minutes of inconsolable weeping later today.",
+      "support_knowledge": []
+    },
+    {
+      "id": 1025,
+      "speaker_guid": "88e2a5c4-832b-4533-b593-28ef1edc16f2",
+      "speaker": "Celia (Female)",
+      "utterance": "I'll pad it out with an extra fifteen, sir.",
+      "support_knowledge": []
+    },
+    {
+      "id": 1026,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "Now, was there something else you need?",
+      "support_knowledge": []
+    },
+    {
+      "id": 1017,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "No, I'm a company man!",
+      "support_knowledge": []
+    },
+    {
+      "id": 1014,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "In charge of a scrap heap of a city. Abandoned by the Board and surviving only through the hypocrisy of our trading partners.",
+      "support_knowledge": [
+        "hazard_clause_01",
+        "hazard_clause_04",
+        "hazard_clause_06",
+        "monarch_16",
+        "monarch_17",
+        "stellar_bay_02"
+      ]
+    },
+    {
+      "id": 1015,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "And you've made it work. That's more than anyone can say for those execs.",
+      "support_knowledge": [
+        "O4_B3"
+      ]
+    },
+    {
+      "id": 1016,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "When you put it that way, it does sound pretty pathetic.",
+      "support_knowledge": []
+    }
+  ]
+}

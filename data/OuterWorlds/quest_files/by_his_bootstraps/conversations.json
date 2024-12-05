@@ -1,0 +1,78 @@
+[
+  {
+    "id": "by_his_bootstraps_00",
+    "quest_name": "by_his_bootstraps",
+    "conversation": {
+      "filename": "08_cv_scientist_anton",
+      "start_node": 24,
+      "end_nodes": [
+        156,
+        28,
+        399,
+        40
+      ],
+      "force_include": [
+        786,
+        5,
+        6,
+        14,
+        65,
+        121,
+        69,
+        27,
+        32,
+        432
+      ],
+      "force_sequence": []
+    },
+    "in_objective": "O0",
+    "out_objective": "O1",
+    "participants": [
+      "anton_crane"
+    ]
+  },
+  {
+    "id": "by_his_bootstraps_01",
+    "quest_name": "by_his_bootstraps",
+    "conversation": {
+      "filename": "08_cv_scientist_jameson",
+      "start_node": 3,
+      "end_nodes": [],
+      "force_include": [
+        12,
+        29
+      ],
+      "force_sequence": []
+    },
+    "in_objective": "O1",
+    "out_objective": "O2",
+    "participants": [
+      "jameson_avery"
+    ]
+  },
+  {
+    "id": "by_his_bootstraps_02",
+    "quest_name": "by_his_bootstraps",
+    "conversation": {
+      "filename": "08_cv_scientist_anton",
+      "start_node": 138,
+      "end_nodes": [],
+      "force_include": [
+        185,
+        158,
+        159,
+        266,
+        317,
+        448,
+        302,
+        434,
+        579
+      ],
+      "force_sequence": []
+    },
+    "in_objective": "O2",
+    "participants": [
+      "anton_crane"
+    ]
+  }
+]

@@ -1,0 +1,193 @@
+{
+  "id": "sucker_bait_01",
+  "quest_name": "sucker_bait",
+  "conversation": {
+    "filename": "0403_cv_zora",
+    "start_node": 286,
+    "end_nodes": []
+  },
+  "in_objective": "O3",
+  "participants": [
+    "zora_blackwood"
+  ],
+  "objectives": {
+    "O3": {
+      "summary": "Return to Zora",
+      "description": {
+        "S1": "You found a suspicious data cartridge.",
+        "S2": "This may be what Zora was looking for."
+      },
+      "blurb": {
+        "B1": "Return to Zora for your reward of Iconoclasts Reputation and 15000 XP, 750 Bit Cartridges.",
+        "B2": "You'll learn Graham gave them the gate codes, and orchestrated the attack.",
+        "B3": "You can confront him after this and he will allude to a \"lesser man than he is now\" having made such a call, and tell you that the ends justify the means."
+      }
+    }
+  },
+  "dialog": [
+    {
+      "id": 286,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I found a box of data cartridges.",
+      "support_knowledge": [
+        "O3_S1"
+      ]
+    },
+    {
+      "id": 295,
+      "speaker_guid": "ac9307ba-1ad4-4577-9f68-b0ff8cbc2740",
+      "speaker": "Zora (Female)",
+      "utterance": "Let's see. These are old. Looks like correspondences between the pirates. Some bits here, some there, some... wait.",
+      "support_knowledge": [
+        "O3_S2",
+        "amber_heights_06",
+        "zora_blackwood_10"
+      ]
+    },
+    {
+      "id": 338,
+      "speaker_guid": "ac9307ba-1ad4-4577-9f68-b0ff8cbc2740",
+      "speaker": "Zora (Female)",
+      "utterance": "This... this one's got the Amber Heights gate code on it. Just like the one I found earlier. And here's... a letter? Wait, this is from Graham. Oh, of all the...",
+      "support_knowledge": [
+        "O3_B2",
+        "zora_blackwood_10"
+      ]
+    },
+    {
+      "id": 296,
+      "speaker_guid": "ac9307ba-1ad4-4577-9f68-b0ff8cbc2740",
+      "speaker": "Zora (Female)",
+      "utterance": "Captain, he gave them the gate codes.",
+      "support_knowledge": [
+        "O3_B2",
+        "graham_bryant_06",
+        "zora_blackwood_10"
+      ]
+    },
+    {
+      "id": 297,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "He caused the attack.",
+      "support_knowledge": [
+        "O3_B2"
+      ]
+    },
+    {
+      "id": 298,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Graham isn't exactly known for his rationality.",
+      "support_knowledge": []
+    },
+    {
+      "id": 299,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "He must have needed to take out the executives.",
+      "support_knowledge": [
+        "O3_B2",
+        "graham_bryant_05"
+      ]
+    },
+    {
+      "id": 300,
+      "speaker_guid": "ac9307ba-1ad4-4577-9f68-b0ff8cbc2740",
+      "speaker": "Zora (Female)",
+      "utterance": "Yeah. He did. He really did.",
+      "support_knowledge": [
+        "zora_blackwood_10"
+      ]
+    },
+    {
+      "id": 307,
+      "speaker_guid": "ac9307ba-1ad4-4577-9f68-b0ff8cbc2740",
+      "speaker": "Zora (Female)",
+      "utterance": "I know he's got his head in the clouds, but I always believed there was a core of good there. What the hell happened to live and let live?",
+      "support_knowledge": [
+        "zora_blackwood_10"
+      ]
+    },
+    {
+      "id": 304,
+      "speaker_guid": "ac9307ba-1ad4-4577-9f68-b0ff8cbc2740",
+      "speaker": "Zora (Female)",
+      "utterance": "Thank you for bringing this back, but I need some time. I gotta think. I'll let you know if I figure something out.",
+      "support_knowledge": [
+        "zora_blackwood_10"
+      ]
+    },
+    {
+      "id": 301,
+      "speaker_guid": "ac9307ba-1ad4-4577-9f68-b0ff8cbc2740",
+      "speaker": "Zora (Female)",
+      "utterance": "Watch it. That's our leader you're talking about. My friend.",
+      "support_knowledge": []
+    },
+    {
+      "id": 302,
+      "speaker_guid": "ac9307ba-1ad4-4577-9f68-b0ff8cbc2740",
+      "speaker": "Zora (Female)",
+      "utterance": "And their families? And all the hired help?",
+      "support_knowledge": [
+        "amber_heights_05"
+      ]
+    }
+  ],
+  "dialog_edges": [
+    [
+      286,
+      295
+    ],
+    [
+      295,
+      338
+    ],
+    [
+      338,
+      296
+    ],
+    [
+      296,
+      297
+    ],
+    [
+      296,
+      298
+    ],
+    [
+      296,
+      299
+    ],
+    [
+      297,
+      300
+    ],
+    [
+      300,
+      307
+    ],
+    [
+      307,
+      304
+    ],
+    [
+      298,
+      301
+    ],
+    [
+      301,
+      307
+    ],
+    [
+      299,
+      302
+    ],
+    [
+      302,
+      307
+    ]
+  ]
+}

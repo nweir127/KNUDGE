@@ -1,0 +1,60 @@
+[
+  {
+    "id": "the_frightened_engineer_00",
+    "quest_name": "the_frightened_engineer",
+    "conversation": {
+      "filename": "00_cv_thomas",
+      "start_node": 109,
+      "end_nodes": [
+        2
+      ],
+      "force_include": [
+        110,
+        235,
+        109,
+        160,
+        181,
+        117
+      ],
+      "force_sequence": []
+    },
+    "in_objective": "O0",
+    "out_objective": "O1",
+    "participants": [
+      "thomas_kemp",
+      "parvati_holcomb"
+    ]
+  },
+  {
+    "id": "the_frightened_engineer_01",
+    "quest_name": "the_frightened_engineer",
+    "conversation": {
+      "filename": "00_cv_thomas",
+      "start_node": 2,
+      "end_nodes": [],
+      "force_include": [
+        124,
+        134,
+        132,
+        130,
+        139,
+        142,
+        145,
+        140,
+        141,
+        238,
+        241
+      ],
+      "force_sequence": [
+        142,
+        140,
+        141
+      ]
+    },
+    "in_objective": "O2",
+    "participants": [
+      "thomas_kemp",
+      "parvati_holcomb"
+    ]
+  }
+]

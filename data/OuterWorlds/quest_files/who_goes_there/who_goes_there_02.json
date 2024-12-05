@@ -1,0 +1,290 @@
+{
+  "id": "who_goes_there_02",
+  "quest_name": "who_goes_there",
+  "conversation": {
+    "filename": "01_cv_chawla_ellen_new",
+    "start_node": 16,
+    "end_nodes": [],
+    "force_include": [
+      77,
+      153
+    ],
+    "force_sequence": []
+  },
+  "in_objective": "O2",
+  "participants": [
+    "commandant_sanita"
+  ],
+  "objectives": {
+    "O2": {
+      "summary": "Claim the Bounty's Reward from Comdt. Sanita",
+      "description": {
+        "S1": "McRedd gave you his lucky lighter to give to Sanita.",
+        "S2": "Go turn it in to resolve his bounty."
+      },
+      "blurb": {
+        "B1": "Turn the lighter in to Commandant Sanita to claim the bounty."
+      }
+    }
+  },
+  "dialog": [
+    {
+      "id": 16,
+      "speaker_guid": "c544de5c-8cc4-4bfe-a3a9-97346f35a957",
+      "speaker": "EllenChawla (Female)",
+      "utterance": "How goes the hunt? I've been ruminating on it, and I decided - if you ain't killed MacRedd yet, I want you to hurt him a little before you do.",
+      "support_knowledge": []
+    },
+    {
+      "id": 69,
+      "speaker_guid": "c544de5c-8cc4-4bfe-a3a9-97346f35a957",
+      "speaker": "EllenChawla (Female)",
+      "utterance": "Nothing excessive, mind you. But the scoundrel deserves a light beating at least before he kicks off.",
+      "support_knowledge": []
+    },
+    {
+      "id": 77,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Captain MacRedd is completely dead. Here's his lucky lighter as proof.",
+      "support_knowledge": [
+        "O2_B1"
+      ]
+    },
+    {
+      "id": 70,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Forget about the bounty for now. I want to talk with you about something else.",
+      "support_knowledge": []
+    },
+    {
+      "id": 153,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Does this have anything to do with your \"carnal understanding\"?",
+      "support_knowledge": [
+        "O1_B9",
+        "gunnar_macredd_07"
+      ]
+    },
+    {
+      "id": 19,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I'm working on it.",
+      "support_knowledge": []
+    },
+    {
+      "id": 23,
+      "speaker_guid": "c544de5c-8cc4-4bfe-a3a9-97346f35a957",
+      "speaker": "EllenChawla (Female)",
+      "utterance": "Here's the bounty pay-out. Nice work down there. With any luck, we can hire more sharp-eyed bounty hunters like you in the future.",
+      "support_knowledge": [
+        "O2_B1"
+      ]
+    },
+    {
+      "id": 1,
+      "speaker_guid": "c544de5c-8cc4-4bfe-a3a9-97346f35a957",
+      "speaker": "EllenChawla (Female)",
+      "utterance": "Unless you're here to file an incident report or to inquire about the bounty posting, I must kindly ask you to clear out. The Mardet's offices aren't for leisure time nor loitering.",
+      "support_knowledge": [
+        "mardets_01"
+      ]
+    },
+    {
+      "id": 3,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "So what's it like, working security detail on a space station?",
+      "support_knowledge": [
+        "mardets_01"
+      ]
+    },
+    {
+      "id": 4,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I'll be on my way.",
+      "support_knowledge": []
+    },
+    {
+      "id": 5,
+      "speaker_guid": "c544de5c-8cc4-4bfe-a3a9-97346f35a957",
+      "speaker": "EllenChawla (Female)",
+      "utterance": "Do I look like your gossipy best friend? While I'm on post, I take my duties real serious. I would have no qualms whatsoever escorting you to a cell. Understand?",
+      "support_knowledge": [
+        "commandant_sanita_02"
+      ]
+    },
+    {
+      "id": 49,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Fine, fine.",
+      "support_knowledge": []
+    },
+    {
+      "id": 78,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Whoa, all right. Just trying to make conversation.",
+      "support_knowledge": []
+    },
+    {
+      "id": 80,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Hey! No one talks to me like that.",
+      "support_knowledge": []
+    },
+    {
+      "id": 51,
+      "speaker_guid": "c544de5c-8cc4-4bfe-a3a9-97346f35a957",
+      "speaker": "EllenChawla (Female)",
+      "utterance": "Then get to business or get moving.",
+      "support_knowledge": []
+    },
+    {
+      "id": 79,
+      "speaker_guid": "c544de5c-8cc4-4bfe-a3a9-97346f35a957",
+      "speaker": "EllenChawla (Female)",
+      "utterance": "I'm not here for a chat. Now get moving before I see you moved.",
+      "support_knowledge": [
+        "commandant_sanita_02"
+      ]
+    },
+    {
+      "id": 81,
+      "speaker_guid": "c544de5c-8cc4-4bfe-a3a9-97346f35a957",
+      "speaker": "EllenChawla (Female)",
+      "utterance": "Now, let's not start a fuss. I'm just trying to do my job, and I can't do it while chit-chatting with you.",
+      "support_knowledge": [
+        "commandant_sanita_02",
+        "commandant_sanita_04"
+      ]
+    },
+    {
+      "id": 71,
+      "speaker_guid": "c544de5c-8cc4-4bfe-a3a9-97346f35a957",
+      "speaker": "EllenChawla (Female)",
+      "utterance": "Have at it, then.",
+      "support_knowledge": []
+    },
+    {
+      "id": 154,
+      "speaker_guid": "c544de5c-8cc4-4bfe-a3a9-97346f35a957",
+      "speaker": "EllenChawla (Female)",
+      "utterance": "He tell you that, did he?",
+      "support_knowledge": []
+    },
+    {
+      "id": 155,
+      "speaker_guid": "c544de5c-8cc4-4bfe-a3a9-97346f35a957",
+      "speaker": "EllenChawla (Female)",
+      "utterance": "I might'a kicked his ass from one end of the Groundbreaker to the other a few years back. Whatever he reads into that is his business.",
+      "support_knowledge": [
+        "gunnar_macredd_08"
+      ]
+    }
+  ],
+  "dialog_edges": [
+    [
+      16,
+      69
+    ],
+    [
+      69,
+      77
+    ],
+    [
+      69,
+      70
+    ],
+    [
+      69,
+      153
+    ],
+    [
+      69,
+      19
+    ],
+    [
+      77,
+      23
+    ],
+    [
+      23,
+      1
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      1,
+      4
+    ],
+    [
+      3,
+      5
+    ],
+    [
+      5,
+      49
+    ],
+    [
+      5,
+      78
+    ],
+    [
+      5,
+      80
+    ],
+    [
+      49,
+      51
+    ],
+    [
+      51,
+      1
+    ],
+    [
+      78,
+      79
+    ],
+    [
+      79,
+      1
+    ],
+    [
+      80,
+      81
+    ],
+    [
+      81,
+      1
+    ],
+    [
+      70,
+      71
+    ],
+    [
+      71,
+      1
+    ],
+    [
+      153,
+      154
+    ],
+    [
+      154,
+      155
+    ],
+    [
+      155,
+      69
+    ]
+  ]
+}

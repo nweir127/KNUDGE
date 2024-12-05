@@ -1,0 +1,59 @@
+ID	fact
+OBJECTIVE O0	
+O0_S1	189:101
+O0_B1	This quest is started by speaking with Martin Abernathy and agreeing to freelance for him.
+O0_B2	He will ask the Stranger to retrieve a crate of Experimental Anthrocillin which is located in the Emerald Vale Community Center.
+O0_B3	He will also mention the dangers associated with the group of marauders that have recently taken over the center and its surrounding area.
+O0_B4	After leaving Abernathy's house,
+O0_B5	the Stranger is approached by Esther Blaine who makes a counteroffer.
+O0_B6	Abernathy is a hypochondriac, she claims,
+O0_B7	and she would put the medicine to better use.
+O0_B8	She offers to match the amount which Abernathy is offering.
+OBJECTIVE O1	
+O1_S1	321:30
+O1_S2	352:41
+O1_S3	394:43
+O1_S4	437:51
+O1_S5	489:76
+O1_B1	You can find the Experimental Anthrocillin in the Emerald Vale Community Center inside the medical area.
+O1_B2	1193:48
+O1_B3	1242:43
+O1_B4	Once you obtain it you can give it to Esther or Martin.
+OBJECTIVE O2	
+O2_S1	586:88
+O2_B1	1342:59
+O2_B2	1402:57
+O2_B3	Give him the Anhtrocillin and you'll gain 3500 XP, Spacer's Choice Reputation and 500 Bit Cartridges.
+O2_B4	1562:93
+O2_B5	1716:100
+O2_B6	You can intimidate to get some more bits or charm to get another 300 Bit Cartridge. Esther will also tell you who she's giving the medicine to:
+O2_B7	1961:66
+O2_B8	2028:39
+O2_B9	2068:50
+adrena-time	
+adrena-time_01	Adrena-Time is a drug manufactured by Spacer's Choice.
+adrena-time_02	It applies the Adrena-Time High buff for 15 seconds and the Adrena-Time Crash debuff indefinitely,
+adrena-time_03	until the user sleeps.
+adrena-time_04	Adrena-Time began when Spacer's Choice employees noticed a steady increase in the productivity of the miner's working there.
+adrena-time_05	They then discovered the xenocytes, and thus, Adrena-Time was born.
+adrena-time_06	It applies the Adrena-Time High buff for 15 seconds and the Adrena-Time Crash debuff indefinitely.
+edgewater	
+edgewater_01	Edgewater is a Spacer's Choice company town located in the Emerald Vale on the planet Terra 2.
+edgewater_02	Its primary function is supporting the operation of the town's Saltuna Cannery which is supervised by Reed Tobson.
+edgewater_03	The town's power comes from the local Geothermal Power Plant and shares its power with the region's Botanical Labs.
+edgewater_04	When the Stranger arrives in Edgewater, the town is struggling.
+edgewater_05	It has been several seasons since the town has seen any visitors
+edgewater_06	and a significant proportion of its population has fallen ill with a plague that began in the last few years.
+edgewater_07	The plague is caused by poor diet and began when the cannery began experiencing a shortage of saltuna and had to stretch its supplies by adding other ingredients to its mixture including wood chips, mushrooms, sand, and canid bits.
+emerald_vale	
+emerald_vale_01	Emerald Vale is a region on the planet Terra 2.
+esther_blaine	
+esther_blaine_01	Esther Blaine is an actuary for Spacer's Choice, living in Edgewater.
+esther_blaine_02	As an actuary, Esther is responsible for keeping tabs on how much it costs to feed, clothe, shelter, bury and replace an average human worker.
+esther_blaine_03	She is employed by the Spacer's Choice Department of Human Resources.
+martin_abernathy	
+martin_abernathy_01	Martin Abernathy is a resident of Edgewater.
+martin_abernathy_02	Paranoid and a well-known hypochondriac,
+martin_abernathy_03	Martin believes that he has the plague and is close to death.
+martin_abernathy_04	He has attempted to self-medicate with Adrena-Time but hasn't felt a difference and thinks that he needs something a little stronger.
+martin_abernathy_05	He is afraid of being reported to either Reed Tobson or Constable Reyes and being thrown in the sick house.

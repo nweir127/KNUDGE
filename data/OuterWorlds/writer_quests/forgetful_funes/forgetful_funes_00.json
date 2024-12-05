@@ -1,0 +1,68 @@
+{
+     "id": "forgetful_funes_00",
+     "quest_name": "forgetful_funes",
+     "conversation": null,
+     "in_objective": "O0",
+     "out_objective": "O1",
+     "participants": [
+          "clara_ryan"
+     ],
+     "objectives": {
+          "O0": {
+               "description": {
+                    "S1": "Clara Ryan is convinced her family history will make the next hit movie,",
+                    "S2": "but she's going to need more information about her late Uncle Fergus to write the script.",
+                    "S3": "She knows an archivist named Funes who has the info she needs and wants the Stranger to retrieve it for her."
+               },
+               "blurb": {
+                    "B1": "Clara can be found in Byzantium having a drink at Billingsly's House of Inebriation.",
+                    "B2": "When engaged in conversation she reveals that she's working on a script based on her Uncle Fergus.",
+                    "B3": "As she explains, Uncle Fergus led a group of Board-loyalist helium processors who fought back against a mutiny at MSI's Asterion Outpost orbiting Typhon.",
+                    "B4": "He and other loyalists resisted MSI's split from the Board,",
+                    "B5": "though he was ultimately killed in the conflict.",
+                    "B6": "She has the basics of the script written already but needs more detailed information on the mutiny and Fergus's death to convince the management at Odeon that her project is worth pursuing.",
+                    "B7": "An archivist named Funes has the info Clara needs to fill in the blanks.",
+                    "B8": "Due to travel restrictions,",
+                    "B9": "Clara can't get to Stellar Bay to reach Funes.",
+                    "B10": "Given the Stranger has a ship and access to Monarch,",
+                    "B11": "Clara asks the Stranger to make contact with Funes on her behalf."
+               }
+          },
+          "O1": {
+               "summary": "Find Funes",
+               "description": {
+                    "S1": "Find Funes in Stellar Bay and convince him to share his records on Uncle Fergus."
+               },
+               "blurb": {
+                    "B1": "Funes can be found at or near The Yacht Club in Stellar Bay.",
+                    "B2": "He is cantankerous,",
+                    "B3": "forgetful,",
+                    "B4": "prone to losing the thread of a conversation,",
+                    "B5": "and convinced he has various secrets locked away in his mind.",
+                    "B6": "He is also suffering from induced-Alzheimer's due to a lapsed security protocol.",
+                    "B7": "Funes explains in order to protect valuable knowledge assets like himself during travel,",
+                    "B8": "MSI injects them with a memory-loss drug for the duration of the trip,",
+                    "B9": "and then administers an antidote called Remembery upon arrival at their destination.",
+                    "B10": "Unfortunately for him,",
+                    "B11": "his handler in Stellar Bay, Dash Brockway,",
+                    "B12": "never arrived,",
+                    "B13": "and Remembery isn't otherwise available.",
+                    "B14": "He's happy to help recall Fergus' exploits as soon as the Stranger can cure him.",
+                    "B15": "Until then, his long-term memory remains scrambled including his ability to access his terminal and records.",
+                    "B16": "Funes knows Dash has a route along one of the roads to Stellar Bay and suggests checking for him there."
+               }
+          }
+     },
+     "dialog": [
+          {
+               "id": 0,
+               "speaker_guid": "clara_ryan",
+               "speaker": "Clara Ryan",
+               "utterance": "Ah, a new drinking partner. Here's one on me -- To the Board!",
+               "support_knowledge": [
+                    "clara_ryan_3", "O0_B1"
+               ]
+          }
+     ],
+     "dialog_edges": []
+}

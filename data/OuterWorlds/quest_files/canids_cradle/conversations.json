@@ -1,0 +1,100 @@
+[
+  {
+    "id": "canids_cradle_00",
+    "quest_name": "canids_cradle",
+    "conversation": {
+      "filename": "0402_cv_sanjar_nandi_new",
+      "start_node": 577,
+      "end_nodes": [
+        589
+      ],
+      "force_include": [
+        578,
+        599,
+        610,
+        830,
+        835
+      ],
+      "force_exit": 1041
+    },
+    "in_objective": "O3",
+    "out_objective": "O4",
+    "participants": [
+      "sanjar_nandi",
+      "celia_robbins"
+    ]
+  },
+  {
+    "id": "canids_cradle_01",
+    "quest_name": "canids_cradle",
+    "conversation": {
+      "filename": "0403_cv_zora",
+      "start_node": 103,
+      "end_nodes": [],
+      "force_include": []
+    },
+    "in_objective": "O4",
+    "out_objective": "O4",
+    "participants": [
+      "zora_blackwood"
+    ]
+  },
+  {
+    "id": "canids_cradle_02",
+    "quest_name": "canids_cradle",
+    "conversation": {
+      "filename": "0403_cv_zora_graham_showdown",
+      "start_node": 1,
+      "end_nodes": [],
+      "force_include": [
+        2
+      ]
+    },
+    "in_objective": "O4",
+    "out_objective": "O4",
+    "participants": [
+      "zora_blackwood",
+      "graham_bryant"
+    ]
+  },
+  {
+    "id": "canids_cradle_03",
+    "quest_name": "canids_cradle",
+    "conversation": {
+      "filename": "0403_cv_zora",
+      "start_node": 134,
+      "end_nodes": [],
+      "force_include": [
+        176,
+        179,
+        180,
+        181,
+        194
+      ]
+    },
+    "in_objective": "O4",
+    "out_objective": "O5",
+    "participants": [
+      "zora_blackwood"
+    ]
+  },
+  {
+    "id": "canids_cradle_04",
+    "quest_name": "canids_cradle",
+    "conversation": {
+      "filename": "0401_cv_zora_sanjar_meeting",
+      "start_node": 1,
+      "end_nodes": [],
+      "force_include": [
+        33,
+        62,
+        185
+      ]
+    },
+    "in_objective": "O5",
+    "participants": [
+      "zora_blackwood",
+      "sanjar_nandi"
+    ]
+  }
+]

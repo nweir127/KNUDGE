@@ -1,0 +1,671 @@
+{
+  "id": "space-crime_continuum_01",
+  "quest_name": "space-crime_continuum",
+  "conversation": {
+    "filename": "0407_cv_catherine_malin",
+    "start_node": 39,
+    "end_nodes": [],
+    "force_include": [
+      100,
+      5,
+      344,
+      337,
+      342,
+      265,
+      280,
+      281
+    ],
+    "force_sequence": []
+  },
+  "in_objective": "O2",
+  "out_objective": "O3",
+  "participants": [
+    "catherine_malin"
+  ],
+  "objectives": {
+    "O2": {
+      "summary": "Meet with Catherine",
+      "description": {
+        "S1": "Take the passcode you found on the SubLight agent's body to Catherine in Fallbrook.",
+        "S2": "She'll provide details on how to salvage the Alta-Vitae gas."
+      },
+      "blurb": {
+        "B1": "Make your way to Fallbrook, visiting Amber Heights for several quests in the process.",
+        "B2": "Talk to Mortimer Bell near the entrance and,",
+        "B3": "if you're doing Space-Crime Continuum,",
+        "B4": "ask him where to find Catherine Malin,",
+        "B5": "and you'll gain Sublight Salvage & Shipping reputation.",
+        "B6": "Go to meet Catherine and tell her you're here to fix the problem.",
+        "B7": "She says you must syphon the gas from Cascadia's lab into one of your ship's fuel tanks.",
+        "B8": "She warns you the town is overrun by Marauders and the lab is swarmed with mantisaurs.",
+        "B9": "You can mention that Nyoka can kill them or Ellie can drug them.",
+        "B10": "She will tell you technical skills are needed,",
+        "B11": "you can mention Parvati or Vicar Max.",
+        "B12": "You're to take the gas to the Groundbreaker once you obtain it."
+      }
+    },
+    "O3": {
+      "summary": "Enter the Secret Lab in Cascadia",
+      "description": {
+        "S1": "An abandoned lab in Cascadia houses a rich cache of Alta-Vitae gas.",
+        "S2": "The passwored \"ANTEDILUVIAN\" should get you inside the hidden lab."
+      },
+      "blurb": {
+        "B1": "Head to Cascadia and interact with the terminal near the sealed door containing what you seek (it's inside a building).",
+        "B2": "You need to override the system with the password and the door will reveal a lift that takes you to Rizzo Secret Laboratory.",
+        "B3": "Be sure to look around Cascadia before you head inside,",
+        "B4": "as you can find Zora's Executive Review on another terminal inside Rizzo's.",
+        "B5": "This will allow you to use the terminal at the locked gate to Cascadia."
+      }
+    }
+  },
+  "dialog": [
+    {
+      "id": 39,
+      "speaker_guid": "dca98d32-b879-4ecf-8af5-f2424c4ce41f",
+      "speaker": "CatherineMalin (Female)",
+      "utterance": "Judging from the blood splatter on your shirt, I take it you visited my favorite cleaner?",
+      "support_knowledge": []
+    },
+    {
+      "id": 349,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Let's talk about something else.",
+      "support_knowledge": []
+    },
+    {
+      "id": 351,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I'll get back to you on that.",
+      "support_knowledge": []
+    },
+    {
+      "id": 350,
+      "speaker_guid": "dca98d32-b879-4ecf-8af5-f2424c4ce41f",
+      "speaker": "CatherineMalin (Female)",
+      "utterance": "Sure.",
+      "support_knowledge": []
+    },
+    {
+      "id": 86,
+      "speaker_guid": "dca98d32-b879-4ecf-8af5-f2424c4ce41f",
+      "speaker": "CatherineMalin (Female)",
+      "utterance": "Well? I'm half-listening.",
+      "support_knowledge": []
+    },
+    {
+      "id": 100,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Actually, I'm the fixer... for your SubLight problem? ",
+      "support_knowledge": [
+        "O2_B6"
+      ]
+    },
+    {
+      "id": 5,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "The boss sent me, you oaf.",
+      "support_knowledge": [
+        "O2_B6"
+      ]
+    },
+    {
+      "id": 8,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "That's enough for now.",
+      "support_knowledge": []
+    },
+    {
+      "id": 47,
+      "speaker_guid": "dca98d32-b879-4ecf-8af5-f2424c4ce41f",
+      "speaker": "CatherineMalin (Female)",
+      "utterance": "Good of you to finally haul your ass over here. I wired for back up weeks ago.",
+      "support_knowledge": [
+        "O2_B6"
+      ]
+    },
+    {
+      "id": 264,
+      "speaker_guid": "dca98d32-b879-4ecf-8af5-f2424c4ce41f",
+      "speaker": "CatherineMalin (Female)",
+      "utterance": "Got something that's going to require special extraction from Cascadia.",
+      "support_knowledge": [
+        "cascadia_01"
+      ]
+    },
+    {
+      "id": 266,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Cut to the chase, Malin.",
+      "support_knowledge": []
+    },
+    {
+      "id": 337,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Right, the Alta-Vitae stuff that Lilya mentioned.",
+      "support_knowledge": [
+        "O2_S2"
+      ]
+    },
+    {
+      "id": 344,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I found a passcode on a corpse in Stellar Bay. I guess it grants access to the extraction site?",
+      "support_knowledge": [
+        "O2_S1"
+      ]
+    },
+    {
+      "id": 269,
+      "speaker_guid": "dca98d32-b879-4ecf-8af5-f2424c4ce41f",
+      "speaker": "CatherineMalin (Female)",
+      "utterance": "All right, all right.",
+      "support_knowledge": []
+    },
+    {
+      "id": 271,
+      "speaker_guid": "dca98d32-b879-4ecf-8af5-f2424c4ce41f",
+      "speaker": "CatherineMalin (Female)",
+      "utterance": "One of my runners uncovered a cache of Alta-Vitae Gas, left in a lab when the Board abandoned Cascadia.",
+      "support_knowledge": [
+        "O3_S1"
+      ]
+    },
+    {
+      "id": 272,
+      "speaker_guid": "dca98d32-b879-4ecf-8af5-f2424c4ce41f",
+      "speaker": "CatherineMalin (Female)",
+      "utterance": "To extract the gas, you'll need to siphon it from the lab in Cascadia into one of your ship's fuel tanks. Totally safe.",
+      "support_knowledge": [
+        "O2_B7"
+      ]
+    },
+    {
+      "id": 274,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I can get it done.",
+      "support_knowledge": []
+    },
+    {
+      "id": 342,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Remind me what Alta-Vitae Gas is, exactly.",
+      "support_knowledge": []
+    },
+    {
+      "id": 265,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Define \"safe.\"",
+      "support_knowledge": []
+    },
+    {
+      "id": 275,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Are you kidding me?",
+      "support_knowledge": []
+    },
+    {
+      "id": 276,
+      "speaker_guid": "dca98d32-b879-4ecf-8af5-f2424c4ce41f",
+      "speaker": "CatherineMalin (Female)",
+      "utterance": "I do like your gumption. But let's not be hasty.",
+      "support_knowledge": []
+    },
+    {
+      "id": 278,
+      "speaker_guid": "dca98d32-b879-4ecf-8af5-f2424c4ce41f",
+      "speaker": "CatherineMalin (Female)",
+      "utterance": "To get to the gas, you'll need to navigate through the town, which is overrun by marauders.",
+      "support_knowledge": [
+        "O2_B8"
+      ]
+    },
+    {
+      "id": 279,
+      "speaker_guid": "dca98d32-b879-4ecf-8af5-f2424c4ce41f",
+      "speaker": "CatherineMalin (Female)",
+      "utterance": "The lab itself has become an infested nest, crawling with manties. You got to fight through or figure some other way to exterminate 'em. Maybe the ventilation system?",
+      "support_knowledge": [
+        "O2_B8"
+      ]
+    },
+    {
+      "id": 280,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "No problem. Nyoka's handled mantisaurs before.",
+      "support_knowledge": [
+        "O2_B9"
+      ]
+    },
+    {
+      "id": 281,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Our sawbones, Ellie, could probably cook something up.",
+      "support_knowledge": [
+        "O2_B9"
+      ]
+    },
+    {
+      "id": 283,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I'll find a way around the mantisaurs.",
+      "support_knowledge": []
+    },
+    {
+      "id": 285,
+      "speaker_guid": "dca98d32-b879-4ecf-8af5-f2424c4ce41f",
+      "speaker": "CatherineMalin (Female)",
+      "utterance": "A sound selection. Nyoka's sturdy, reliable, and don't mind wading knee-deep into guts.",
+      "support_knowledge": [
+        "O2_B9"
+      ]
+    },
+    {
+      "id": 287,
+      "speaker_guid": "dca98d32-b879-4ecf-8af5-f2424c4ce41f",
+      "speaker": "CatherineMalin (Female)",
+      "utterance": "Now, after you clear the manti-nest and reach the storage room, all that's left is to get the gas flowing into the fuel system.",
+      "support_knowledge": [
+        "O2_B7"
+      ]
+    },
+    {
+      "id": 289,
+      "speaker_guid": "dca98d32-b879-4ecf-8af5-f2424c4ce41f",
+      "speaker": "CatherineMalin (Female)",
+      "utterance": "The task will require someone with technical skills. Or you could force it through with a plasma overload. Don't recommend that option though. Unless you want to get dead.",
+      "support_knowledge": [
+        "O2_B10"
+      ]
+    },
+    {
+      "id": 295,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "The plasma option sounds fun.",
+      "support_knowledge": []
+    },
+    {
+      "id": 296,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Better do this safely. I've only got one ship.",
+      "support_knowledge": []
+    },
+    {
+      "id": 301,
+      "speaker_guid": "dca98d32-b879-4ecf-8af5-f2424c4ce41f",
+      "speaker": "CatherineMalin (Female)",
+      "utterance": "Shall I inscribe that on your tombstone, as well?",
+      "support_knowledge": []
+    },
+    {
+      "id": 303,
+      "speaker_guid": "dca98d32-b879-4ecf-8af5-f2424c4ce41f",
+      "speaker": "CatherineMalin (Female)",
+      "utterance": "Once you've got our goods, take 'em to the Groundbreaker. Lilya's fencers ought to handle the rest of it.",
+      "support_knowledge": [
+        "O2_B12"
+      ]
+    },
+    {
+      "id": 336,
+      "speaker_guid": "dca98d32-b879-4ecf-8af5-f2424c4ce41f",
+      "speaker": "CatherineMalin (Female)",
+      "utterance": "I've marked the coordinates for you to the lab in Cascadia. Use the passcode ANTEDILUVIAN on the terminal to get in.",
+      "support_knowledge": [
+        "O3_S1",
+        "O3_S2"
+      ]
+    },
+    {
+      "id": 306,
+      "speaker_guid": "dca98d32-b879-4ecf-8af5-f2424c4ce41f",
+      "speaker": "CatherineMalin (Female)",
+      "utterance": "Best of luck, fixer.",
+      "support_knowledge": []
+    },
+    {
+      "id": 302,
+      "speaker_guid": "dca98d32-b879-4ecf-8af5-f2424c4ce41f",
+      "speaker": "CatherineMalin (Female)",
+      "utterance": "And I'd rather not wait another several weeks for Lilya to send your replacement.",
+      "support_knowledge": []
+    },
+    {
+      "id": 288,
+      "speaker_guid": "dca98d32-b879-4ecf-8af5-f2424c4ce41f",
+      "speaker": "CatherineMalin (Female)",
+      "utterance": "I shall leave the details to you.",
+      "support_knowledge": []
+    },
+    {
+      "id": 291,
+      "speaker_guid": "dca98d32-b879-4ecf-8af5-f2424c4ce41f",
+      "speaker": "CatherineMalin (Female)",
+      "utterance": "Clever. That's why Lilya's paying you, I take it.",
+      "support_knowledge": []
+    },
+    {
+      "id": 292,
+      "speaker_guid": "dca98d32-b879-4ecf-8af5-f2424c4ce41f",
+      "speaker": "CatherineMalin (Female)",
+      "utterance": "Do I look like one of them egghead science types? All I know is that labs use it to create plants and livestock out of local species. ",
+      "support_knowledge": []
+    },
+    {
+      "id": 313,
+      "speaker_guid": "dca98d32-b879-4ecf-8af5-f2424c4ce41f",
+      "speaker": "CatherineMalin (Female)",
+      "utterance": "But it's a controlled commodity - available only to the Board - so it is of high value on the dark market.",
+      "support_knowledge": []
+    },
+    {
+      "id": 268,
+      "speaker_guid": "dca98d32-b879-4ecf-8af5-f2424c4ce41f",
+      "speaker": "CatherineMalin (Female)",
+      "utterance": "Meaning safe for me and my crew. Seeing as it ain't us undertaking the risk.",
+      "support_knowledge": []
+    },
+    {
+      "id": 277,
+      "speaker_guid": "dca98d32-b879-4ecf-8af5-f2424c4ce41f",
+      "speaker": "CatherineMalin (Female)",
+      "utterance": "Hold your thrusters. I ain't even got to the tricky part.",
+      "support_knowledge": []
+    },
+    {
+      "id": 338,
+      "speaker_guid": "dca98d32-b879-4ecf-8af5-f2424c4ce41f",
+      "speaker": "CatherineMalin (Female)",
+      "utterance": "So you got a brain on them shoulders. Excellent. Makes my life a world easier.",
+      "support_knowledge": []
+    },
+    {
+      "id": 345,
+      "speaker_guid": "dca98d32-b879-4ecf-8af5-f2424c4ce41f",
+      "speaker": "CatherineMalin (Female)",
+      "utterance": "\"Found it on a corpse,\" huh? If you killed Lilya's agent, you get to explain it to her. Not me.",
+      "support_knowledge": [
+        "O2_S1"
+      ]
+    },
+    {
+      "id": 346,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "He was dead when I got there.",
+      "support_knowledge": []
+    },
+    {
+      "id": 347,
+      "speaker_guid": "dca98d32-b879-4ecf-8af5-f2424c4ce41f",
+      "speaker": "CatherineMalin (Female)",
+      "utterance": "Well, shit. I knew he'd come to a bad end one day.",
+      "support_knowledge": []
+    },
+    {
+      "id": 348,
+      "speaker_guid": "dca98d32-b879-4ecf-8af5-f2424c4ce41f",
+      "speaker": "CatherineMalin (Female)",
+      "utterance": "Still, no time for weepin' and wailin'. We've got a metric fuckton of bits worth of salvage just waiting for extraction.",
+      "support_knowledge": []
+    },
+    {
+      "id": 126,
+      "speaker_guid": "dca98d32-b879-4ecf-8af5-f2424c4ce41f",
+      "speaker": "CatherineMalin (Female)",
+      "utterance": "Funny. You don't look like one of Lilya's. Sure sound the part though.",
+      "support_knowledge": []
+    }
+  ],
+  "dialog_edges": [
+    [
+      39,
+      349
+    ],
+    [
+      39,
+      351
+    ],
+    [
+      349,
+      350
+    ],
+    [
+      350,
+      86
+    ],
+    [
+      86,
+      100
+    ],
+    [
+      86,
+      5
+    ],
+    [
+      86,
+      8
+    ],
+    [
+      100,
+      47
+    ],
+    [
+      47,
+      264
+    ],
+    [
+      264,
+      266
+    ],
+    [
+      264,
+      337
+    ],
+    [
+      264,
+      344
+    ],
+    [
+      266,
+      269
+    ],
+    [
+      269,
+      271
+    ],
+    [
+      271,
+      272
+    ],
+    [
+      272,
+      274
+    ],
+    [
+      272,
+      342
+    ],
+    [
+      272,
+      265
+    ],
+    [
+      272,
+      275
+    ],
+    [
+      274,
+      276
+    ],
+    [
+      276,
+      278
+    ],
+    [
+      278,
+      279
+    ],
+    [
+      279,
+      280
+    ],
+    [
+      279,
+      281
+    ],
+    [
+      279,
+      283
+    ],
+    [
+      280,
+      285
+    ],
+    [
+      285,
+      287
+    ],
+    [
+      287,
+      289
+    ],
+    [
+      289,
+      295
+    ],
+    [
+      289,
+      296
+    ],
+    [
+      295,
+      301
+    ],
+    [
+      301,
+      303
+    ],
+    [
+      303,
+      336
+    ],
+    [
+      336,
+      306
+    ],
+    [
+      296,
+      302
+    ],
+    [
+      302,
+      303
+    ],
+    [
+      281,
+      288
+    ],
+    [
+      288,
+      287
+    ],
+    [
+      283,
+      291
+    ],
+    [
+      291,
+      287
+    ],
+    [
+      342,
+      292
+    ],
+    [
+      292,
+      313
+    ],
+    [
+      313,
+      272
+    ],
+    [
+      265,
+      268
+    ],
+    [
+      268,
+      272
+    ],
+    [
+      275,
+      277
+    ],
+    [
+      277,
+      278
+    ],
+    [
+      337,
+      338
+    ],
+    [
+      338,
+      272
+    ],
+    [
+      344,
+      345
+    ],
+    [
+      345,
+      346
+    ],
+    [
+      345,
+      266
+    ],
+    [
+      346,
+      347
+    ],
+    [
+      347,
+      348
+    ],
+    [
+      348,
+      266
+    ],
+    [
+      348,
+      337
+    ],
+    [
+      5,
+      126
+    ],
+    [
+      126,
+      47
+    ]
+  ]
+}

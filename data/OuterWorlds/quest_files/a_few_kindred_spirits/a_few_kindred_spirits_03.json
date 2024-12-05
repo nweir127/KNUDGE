@@ -1,0 +1,177 @@
+{
+  "id": "a_few_kindred_spirits_03",
+  "quest_name": "a_few_kindred_spirits",
+  "conversation": {
+    "filename": "00_cv_grace",
+    "start_node": 2,
+    "end_nodes": [],
+    "force_include": [
+      103,
+      121,
+      107
+    ],
+    "force_sequence": []
+  },
+  "in_objective": "O4",
+  "participants": [
+    "grace_romero"
+  ],
+  "objectives": {
+    "O4": {
+      "summary": "Return to Grace",
+      "description": {
+        "S1": "You convinced Zoe to return to the Camp.",
+        "S2": "Grace will want to hear the good news."
+      },
+      "blurb": {
+        "B1": "Go back to Grace at the Botanical Lab and you can tell her the truth about Zoe joining up with Marauders,",
+        "B2": "or tell her she wanted to be an outlaw.",
+        "B3": "Telling her the truth does not cause any problems and rewards with 4125xp and increased positive reputation with the Deserters faction,",
+        "B4": "If you Lie (5) to Grace, assuming you killed her,",
+        "B5": "and say you had to put her down,",
+        "B6": "you will gain some extra XP and you can show her Zoe's ring as proof she is dead.",
+        "B7": "This will net you 4000 XP, Deserters Reputation and a Bolter Pistol."
+      }
+    }
+  },
+  "dialog": [
+    {
+      "id": 2,
+      "speaker_guid": "072471f0-f3f8-4ec1-81d4-b83363077507",
+      "speaker": "GraceRomero (Female)",
+      "utterance": "What is it?",
+      "support_knowledge": []
+    },
+    {
+      "id": 103,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I talked Zoe into coming back.",
+      "support_knowledge": [
+        "O4_S1",
+        "O4_S2"
+      ]
+    },
+    {
+      "id": 5,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I'll leave you be.",
+      "support_knowledge": []
+    },
+    {
+      "id": 104,
+      "speaker_guid": "072471f0-f3f8-4ec1-81d4-b83363077507",
+      "speaker": "GraceRomero (Female)",
+      "utterance": "We didn't always get along, but I'm glad to know she's safe. What happened, anyway?",
+      "support_knowledge": [
+        "grace_romero_06",
+        "grace_romero_07"
+      ]
+    },
+    {
+      "id": 107,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "She joined up with a band of marauders. They hadn't hurt her.",
+      "support_knowledge": [
+        "O4_B1",
+        "zoe_chandler_14",
+        "zoe_chandler_17",
+        "zoe_chandler_18"
+      ]
+    },
+    {
+      "id": 121,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Something about wanting to be an outlaw. I'd rather not get into it.",
+      "support_knowledge": [
+        "O4_B2"
+      ]
+    },
+    {
+      "id": 109,
+      "speaker_guid": "072471f0-f3f8-4ec1-81d4-b83363077507",
+      "speaker": "GraceRomero (Female)",
+      "utterance": "Zoe joined up with a band of marauders. Zoe. The same Zoe who doesn't know a barrel from a trigger. Well, I've heard stranger things.",
+      "support_knowledge": [
+        "O4_B1",
+        "O4_B3"
+      ]
+    },
+    {
+      "id": 139,
+      "speaker_guid": "072471f0-f3f8-4ec1-81d4-b83363077507",
+      "speaker": "GraceRomero (Female)",
+      "utterance": "You pretty much did my job for me. Least I could do is pay you for your trouble.",
+      "support_knowledge": [
+        "O4_B3"
+      ]
+    },
+    {
+      "id": 141,
+      "speaker_guid": "072471f0-f3f8-4ec1-81d4-b83363077507",
+      "speaker": "GraceRomero (Female)",
+      "utterance": "You'd better not be spinning me a story.",
+      "support_knowledge": []
+    },
+    {
+      "id": 125,
+      "speaker_guid": "072471f0-f3f8-4ec1-81d4-b83363077507",
+      "speaker": "GraceRomero (Female)",
+      "utterance": "Let me know if I can do something for you.",
+      "support_knowledge": []
+    }
+  ],
+  "dialog_edges": [
+    [
+      2,
+      103
+    ],
+    [
+      2,
+      5
+    ],
+    [
+      103,
+      104
+    ],
+    [
+      104,
+      107
+    ],
+    [
+      104,
+      121
+    ],
+    [
+      107,
+      109
+    ],
+    [
+      109,
+      139
+    ],
+    [
+      109,
+      141
+    ],
+    [
+      139,
+      125
+    ],
+    [
+      125,
+      2
+    ],
+    [
+      121,
+      139
+    ],
+    [
+      121,
+      141
+    ]
+  ]
+}

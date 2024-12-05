@@ -1,0 +1,308 @@
+{
+  "id": "all_halcyon_in_a_day_00",
+  "quest_name": "all_halcyon_in_a_day",
+  "conversation": {
+    "filename": "0202_cv_alonzo_vallejos",
+    "start_node": 68,
+    "end_nodes": [
+      100
+    ],
+    "force_include": [],
+    "force_sequence": []
+  },
+  "in_objective": "O0",
+  "out_objective": "O1",
+  "participants": [
+    "alonzo_vallejos"
+  ],
+  "objectives": {
+    "O0": {
+      "description": {
+        "S1": "Alonzo Vallejos of Byzantium's Bureau of Exploration has asked you to participate in a guided tour across the Halcyon system."
+      },
+      "blurb": {
+        "B1": "The player must start the quest by speaking to Alonzo in Byzantium's Bureau of Exploration.",
+        "B2": "Alonzo explains that the tour is conducted by going around Halcyon and activating a series of beacons,",
+        "B3": "and returning to the Bureau of Exploration to claim a hat as a reward."
+      }
+    },
+    "O1": {
+      "summary": "Find the First Beacon",
+      "description": {
+        "S1": "Alonzo explained that the tour consists of locating a series of beacons,",
+        "S2": "the first of which lies somewhere in Byzantium."
+      },
+      "blurb": {
+        "B1": "The first beacon is located in Byzantium,",
+        "B2": "on some grass in front of a building just outside the Bureau of Exploration.",
+        "B3": "The player can simply hop over the low fence and activate the beacon."
+      }
+    }
+  },
+  "dialog": [
+    {
+      "id": 68,
+      "speaker_guid": "93d065b0-12c0-4050-916b-078a63d81d51",
+      "speaker": "AlonzoVallejos (Male)",
+      "utterance": "Well, you're obviously not from around here. I don't believe I've ever seen visitors in the Bureau before, come to think of it.",
+      "support_knowledge": [
+        "alonzo_vallejos_01"
+      ]
+    },
+    {
+      "id": 88,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Yeah? What gave it away?",
+      "support_knowledge": []
+    },
+    {
+      "id": 89,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I'm just here to take in the sights.",
+      "support_knowledge": []
+    },
+    {
+      "id": 90,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "You don't know that. Maybe I work here.",
+      "support_knowledge": []
+    },
+    {
+      "id": 94,
+      "speaker_guid": "93d065b0-12c0-4050-916b-078a63d81d51",
+      "speaker": "AlonzoVallejos (Male)",
+      "utterance": "If you were from around here, you'd probably be off enjoying yourself in Prosperity Plaza, not poking around the Bureau.",
+      "support_knowledge": [
+        "byzantium_21"
+      ]
+    },
+    {
+      "id": 96,
+      "speaker_guid": "93d065b0-12c0-4050-916b-078a63d81d51",
+      "speaker": "AlonzoVallejos (Male)",
+      "utterance": "Alonzo Vallejos. Extraordinarily pleased to make your acquaintance, and so on, and so forth.",
+      "support_knowledge": [
+        "alonzo_vallejos_01"
+      ]
+    },
+    {
+      "id": 97,
+      "speaker_guid": "93d065b0-12c0-4050-916b-078a63d81d51",
+      "speaker": "AlonzoVallejos (Male)",
+      "utterance": "I'm currently operating a sightseeing tour, of sorts. Think of it as a guided journey across Halcyon. Would you be interested in a trial run?",
+      "support_knowledge": [
+        "O0_S1",
+        "O0_B1"
+      ]
+    },
+    {
+      "id": 99,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "How does this work?",
+      "support_knowledge": []
+    },
+    {
+      "id": 106,
+      "speaker_guid": "93d065b0-12c0-4050-916b-078a63d81d51",
+      "speaker": "AlonzoVallejos (Male)",
+      "utterance": "Glad you asked! Our tour guides you across some of the most picturesque and breathtaking sights around Halcyon.",
+      "support_knowledge": [
+        "O0_B1"
+      ]
+    },
+    {
+      "id": 107,
+      "speaker_guid": "93d065b0-12c0-4050-916b-078a63d81d51",
+      "speaker": "AlonzoVallejos (Male)",
+      "utterance": "We've placed some beacons across a series of locations around Halcyon. All you have to do is follow the beacons... to adventure!",
+      "support_knowledge": [
+        "O0_B2",
+        "O1_S1"
+      ]
+    },
+    {
+      "id": 110,
+      "speaker_guid": "93d065b0-12c0-4050-916b-078a63d81d51",
+      "speaker": "AlonzoVallejos (Male)",
+      "utterance": "That slogan's a work in progress. So, what do you think? Are you interested?",
+      "support_knowledge": [
+        "O0_S1"
+      ]
+    },
+    {
+      "id": 111,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "All right, I'll help you.",
+      "support_knowledge": []
+    },
+    {
+      "id": 112,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I've seen plenty of Halcyon already. I'm not impressed.",
+      "support_knowledge": []
+    },
+    {
+      "id": 118,
+      "speaker_guid": "93d065b0-12c0-4050-916b-078a63d81d51",
+      "speaker": "AlonzoVallejos (Male)",
+      "utterance": "Outstanding! Here, you'll need this special triangulating device. Think of it as a wireless compass, pointing the way to the next beacon.",
+      "support_knowledge": []
+    },
+    {
+      "id": 121,
+      "speaker_guid": "93d065b0-12c0-4050-916b-078a63d81d51",
+      "speaker": "AlonzoVallejos (Male)",
+      "utterance": "When you find a beacon, this device records your discovery and directs you to the next stop on your tour.",
+      "support_knowledge": [
+        "O0_B2"
+      ]
+    },
+    {
+      "id": 122,
+      "speaker_guid": "93d065b0-12c0-4050-916b-078a63d81d51",
+      "speaker": "AlonzoVallejos (Male)",
+      "utterance": "Find every beacon, finish your tour, and come back here to claim your commemorative hat. Simple!",
+      "support_knowledge": [
+        "O0_B2",
+        "O0_B3"
+      ]
+    },
+    {
+      "id": 123,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "All right. I'm off.",
+      "support_knowledge": []
+    },
+    {
+      "id": 124,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I'm starting to regret this already.",
+      "support_knowledge": []
+    },
+    {
+      "id": 119,
+      "speaker_guid": "93d065b0-12c0-4050-916b-078a63d81d51",
+      "speaker": "AlonzoVallejos (Male)",
+      "utterance": "Well then! That just makes you the perfect test subject. If my guided tours can impress you, they'll impress anyone.",
+      "support_knowledge": [
+        "O0_S1"
+      ]
+    },
+    {
+      "id": 95,
+      "speaker_guid": "93d065b0-12c0-4050-916b-078a63d81d51",
+      "speaker": "AlonzoVallejos (Male)",
+      "utterance": "Are you serious? You're a sight-seer? I didn't know people like you even existed! Oh, this is just too perfect.",
+      "support_knowledge": []
+    },
+    {
+      "id": 91,
+      "speaker_guid": "93d065b0-12c0-4050-916b-078a63d81d51",
+      "speaker": "AlonzoVallejos (Male)",
+      "utterance": "You don't look nearly bored enough to work here. Believe me, I know everyone here by face.",
+      "support_knowledge": []
+    }
+  ],
+  "dialog_edges": [
+    [
+      68,
+      88
+    ],
+    [
+      68,
+      89
+    ],
+    [
+      68,
+      90
+    ],
+    [
+      88,
+      94
+    ],
+    [
+      94,
+      96
+    ],
+    [
+      96,
+      97
+    ],
+    [
+      97,
+      99
+    ],
+    [
+      99,
+      106
+    ],
+    [
+      106,
+      107
+    ],
+    [
+      107,
+      110
+    ],
+    [
+      110,
+      111
+    ],
+    [
+      110,
+      112
+    ],
+    [
+      111,
+      118
+    ],
+    [
+      118,
+      121
+    ],
+    [
+      121,
+      122
+    ],
+    [
+      122,
+      123
+    ],
+    [
+      122,
+      124
+    ],
+    [
+      112,
+      119
+    ],
+    [
+      119,
+      111
+    ],
+    [
+      89,
+      95
+    ],
+    [
+      95,
+      96
+    ],
+    [
+      90,
+      91
+    ],
+    [
+      91,
+      96
+    ]
+  ]
+}

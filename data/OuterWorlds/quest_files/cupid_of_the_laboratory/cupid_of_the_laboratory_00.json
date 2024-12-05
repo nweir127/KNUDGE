@@ -1,0 +1,601 @@
+{
+  "id": "cupid_of_the_laboratory_00",
+  "quest_name": "cupid_of_the_laboratory",
+  "conversation": {
+    "filename": "02_cv_sprat_scientist",
+    "start_node": 102,
+    "end_nodes": [],
+    "force_include": [],
+    "force_sequence": []
+  },
+  "in_objective": "O0",
+  "out_objective": "O1",
+  "participants": [
+    "giles_molina"
+  ],
+  "objectives": {
+    "O0": {
+      "description": {
+        "S1": "Giles Molina, a scientist in Byzantium,",
+        "S2": "asked you to rescue six sprats that escaped from his lab and fled into the tunnels beneath the city."
+      },
+      "blurb": {
+        "B1": "Find Giles Molina near the maintenance tunnels in Byzantium.",
+        "B2": "he will admit to losing his research sprats.",
+        "B3": "They fled into the maintenance tunnels,",
+        "B4": "and it\u2019s too dangerous in there for him,",
+        "B5": "with the rabid sewer sprats and automechanicals.",
+        "B6": "He\u2019s too attached to his sprats to turn down your help if you offer it.",
+        "B7": "He even has names and backstories for them all"
+      }
+    },
+    "O1": {
+      "summary": "Save the Sprats",
+      "description": {
+        "S1": "Giles warned you that there are exterminator mechanicals prowling the tunnels.",
+        "S2": "He'd prefer you return his sprats alive but said their corpses are still of scientific interest."
+      },
+      "blurb": {
+        "B1": "Head down the elevator and rescue the 6 Sprats.",
+        "B2": "You'll have to chase some of them,",
+        "B3": "and press the interact button to capture them,",
+        "B4": "As you explore, beware of Sprat Exterminator mechanics and an enormous Sprat called Kobalos that will attack you."
+      }
+    }
+  },
+  "dialog": [
+    {
+      "id": 102,
+      "speaker_guid": "37a2259c-4bba-4983-92f6-7bf1aacd3f7f",
+      "speaker": "Giles Molina (Male)",
+      "utterance": "Oh! Um, what are you doing here?",
+      "support_knowledge": [
+        "O0_B1"
+      ]
+    },
+    {
+      "id": 103,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "What are YOU doing here?",
+      "support_knowledge": [
+        "O0_B1"
+      ]
+    },
+    {
+      "id": 120,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Just looking around.",
+      "support_knowledge": []
+    },
+    {
+      "id": 122,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Do I look like I wanna explain myself?",
+      "support_knowledge": []
+    },
+    {
+      "id": 123,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Excuse me.",
+      "support_knowledge": []
+    },
+    {
+      "id": 104,
+      "speaker_guid": "37a2259c-4bba-4983-92f6-7bf1aacd3f7f",
+      "speaker": "Giles Molina (Male)",
+      "utterance": "Nothing. Nothing! Why, uh, does it- does it look like I'm up to something?",
+      "support_knowledge": []
+    },
+    {
+      "id": 105,
+      "speaker_guid": "37a2259c-4bba-4983-92f6-7bf1aacd3f7f",
+      "speaker": "Giles Molina (Male)",
+      "utterance": "Laws, I knew it. You got me. I'm caught, aren't I?",
+      "support_knowledge": []
+    },
+    {
+      "id": 106,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "What are you so worried about?",
+      "support_knowledge": []
+    },
+    {
+      "id": 118,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Look, whatever's going on, maybe I can help.",
+      "support_knowledge": []
+    },
+    {
+      "id": 119,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Yeah, you're in BIG TROUBLE. Now why don't you tell me what you did?",
+      "support_knowledge": []
+    },
+    {
+      "id": 107,
+      "speaker_guid": "37a2259c-4bba-4983-92f6-7bf1aacd3f7f",
+      "speaker": "Giles Molina (Male)",
+      "utterance": "I work in the lab at the Ministry of Accuracy and Morale. Some of my sprats went missing, but it's not my fault, okay?",
+      "support_knowledge": [
+        "O0_B2",
+        "giles_molina_01",
+        "sprat_03"
+      ]
+    },
+    {
+      "id": 174,
+      "speaker_guid": "37a2259c-4bba-4983-92f6-7bf1aacd3f7f",
+      "speaker": "Giles Molina (Male)",
+      "utterance": "Maybe I let them out more often than regulations allow, but they need to stretch their little legs!",
+      "support_knowledge": [
+        "O0_B2"
+      ]
+    },
+    {
+      "id": 108,
+      "speaker_guid": "37a2259c-4bba-4983-92f6-7bf1aacd3f7f",
+      "speaker": "Giles Molina (Male)",
+      "utterance": "...And so what if I occasionally forgot to latch their cage? Everyone gets a little distracted now and then.",
+      "support_knowledge": [
+        "O0_B2"
+      ]
+    },
+    {
+      "id": 109,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Calm down and tell me what happened.",
+      "support_knowledge": []
+    },
+    {
+      "id": 117,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "You are really not helping your case.",
+      "support_knowledge": []
+    },
+    {
+      "id": 110,
+      "speaker_guid": "37a2259c-4bba-4983-92f6-7bf1aacd3f7f",
+      "speaker": "Giles Molina (Male)",
+      "utterance": "They escaped! And before I could coax them back, they'd made their way to the maintenance tunnels! ",
+      "support_knowledge": [
+        "O0_B3",
+        "maintenance_tunnels_01"
+      ]
+    },
+    {
+      "id": 111,
+      "speaker_guid": "37a2259c-4bba-4983-92f6-7bf1aacd3f7f",
+      "speaker": "Giles Molina (Male)",
+      "utterance": "Even if I did dare go down there, they're among all the common sewer sprats and exterminator mechanicals! ",
+      "support_knowledge": [
+        "O0_B3",
+        "O0_B4",
+        "O0_B5",
+        "O1_S1",
+        "sprat_03"
+      ]
+    },
+    {
+      "id": 112,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I could look for your sprats.",
+      "support_knowledge": [
+        "O0_B6"
+      ]
+    },
+    {
+      "id": 116,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Good luck with that.",
+      "support_knowledge": []
+    },
+    {
+      "id": 113,
+      "speaker_guid": "37a2259c-4bba-4983-92f6-7bf1aacd3f7f",
+      "speaker": "Giles Molina (Male)",
+      "utterance": "Really? In that case, take this collection crate. Six of my little ones are down there, but don't worry - you can easily tell them apart from common sewer sprats.",
+      "support_knowledge": [
+        "O0_B6"
+      ]
+    },
+    {
+      "id": 114,
+      "speaker_guid": "37a2259c-4bba-4983-92f6-7bf1aacd3f7f",
+      "speaker": "Giles Molina (Male)",
+      "utterance": "They have intelligent eyes, an agreeable yet reserved demeanor, and a fondness for hiding. Also, they're white rather than green.",
+      "support_knowledge": []
+    },
+    {
+      "id": 115,
+      "speaker_guid": "37a2259c-4bba-4983-92f6-7bf1aacd3f7f",
+      "speaker": "Giles Molina (Male)",
+      "utterance": "Please, do take care, and do mind the exterminator mechanicals. If the worst should happen to my little darlings... well, I still want their bodies. For science, of course.",
+      "support_knowledge": [
+        "O1_S1",
+        "O1_S2"
+      ]
+    },
+    {
+      "id": 124,
+      "speaker_guid": "37a2259c-4bba-4983-92f6-7bf1aacd3f7f",
+      "speaker": "Giles Molina (Male)",
+      "utterance": "Something else?",
+      "support_knowledge": []
+    },
+    {
+      "id": 125,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "What are the maintenance tunnels beneath Byzantium for?",
+      "support_knowledge": [
+        "byzantium_01",
+        "maintenance_tunnels_01"
+      ]
+    },
+    {
+      "id": 138,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Why are there exterminator mechanicals in the tunnels?",
+      "support_knowledge": [
+        "maintenance_tunnels_02"
+      ]
+    },
+    {
+      "id": 168,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "You seemed surprised I'd help you.",
+      "support_knowledge": []
+    },
+    {
+      "id": 171,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Farewell.",
+      "support_knowledge": []
+    },
+    {
+      "id": 126,
+      "speaker_guid": "37a2259c-4bba-4983-92f6-7bf1aacd3f7f",
+      "speaker": "Giles Molina (Male)",
+      "utterance": "Well, to maintain... things, of course. Like big, humming, machine things. With gears.",
+      "support_knowledge": []
+    },
+    {
+      "id": 127,
+      "speaker_guid": "37a2259c-4bba-4983-92f6-7bf1aacd3f7f",
+      "speaker": "Giles Molina (Male)",
+      "utterance": "And pipes. Water pipes. ...Air pipes. All sorts of pipes. That's why they connect the city, from the Acropolis District to here.",
+      "support_knowledge": [
+        "byzantium_14"
+      ]
+    },
+    {
+      "id": 128,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "But why won't you go into the tunnels yourself?",
+      "support_knowledge": []
+    },
+    {
+      "id": 137,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Good to know.",
+      "support_knowledge": []
+    },
+    {
+      "id": 129,
+      "speaker_guid": "37a2259c-4bba-4983-92f6-7bf1aacd3f7f",
+      "speaker": "Giles Molina (Male)",
+      "utterance": "Everyone knows sewer sprats carry diseases! And the exterminator mechanicals have been known to fire on... larger targets.",
+      "support_knowledge": []
+    },
+    {
+      "id": 130,
+      "speaker_guid": "37a2259c-4bba-4983-92f6-7bf1aacd3f7f",
+      "speaker": "Giles Molina (Male)",
+      "utterance": "Why they'd do that when they're only supposed to attack sprats, I've no idea. But there are rumors.",
+      "support_knowledge": []
+    },
+    {
+      "id": 131,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Rumors? Like what?",
+      "support_knowledge": []
+    },
+    {
+      "id": 135,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I'm not interested in speculation.",
+      "support_knowledge": []
+    },
+    {
+      "id": 132,
+      "speaker_guid": "37a2259c-4bba-4983-92f6-7bf1aacd3f7f",
+      "speaker": "Giles Molina (Male)",
+      "utterance": "Some people say there are strange things in those tunnels. Assassins. A room full of murderous automechanicals. ",
+      "support_knowledge": [
+        "maintenance_tunnels_01"
+      ]
+    },
+    {
+      "id": 133,
+      "speaker_guid": "37a2259c-4bba-4983-92f6-7bf1aacd3f7f",
+      "speaker": "Giles Molina (Male)",
+      "utterance": "Monsters hungry for human flesh. A hidden bureaucratic purgatory where things - and people - are lost forever.",
+      "support_knowledge": []
+    },
+    {
+      "id": 134,
+      "speaker_guid": "37a2259c-4bba-4983-92f6-7bf1aacd3f7f",
+      "speaker": "Giles Molina (Male)",
+      "utterance": "Not that I place any stock in silly rumors, of course.",
+      "support_knowledge": []
+    },
+    {
+      "id": 136,
+      "speaker_guid": "37a2259c-4bba-4983-92f6-7bf1aacd3f7f",
+      "speaker": "Giles Molina (Male)",
+      "utterance": "Your mind must rest easy, indeed.",
+      "support_knowledge": []
+    },
+    {
+      "id": 139,
+      "speaker_guid": "37a2259c-4bba-4983-92f6-7bf1aacd3f7f",
+      "speaker": "Giles Molina (Male)",
+      "utterance": "To deal with the sewer sprats, of course. They're quite the nuisance. ",
+      "support_knowledge": [
+        "maintenance_tunnels_02",
+        "sprat_03"
+      ]
+    },
+    {
+      "id": 169,
+      "speaker_guid": "37a2259c-4bba-4983-92f6-7bf1aacd3f7f",
+      "speaker": "Giles Molina (Male)",
+      "utterance": "I still am. After all, I'm a person of very little influence and only middling prospects. No one does favors for free. ",
+      "support_knowledge": []
+    },
+    {
+      "id": 170,
+      "speaker_guid": "37a2259c-4bba-4983-92f6-7bf1aacd3f7f",
+      "speaker": "Giles Molina (Male)",
+      "utterance": "But I must say, I'm far too distressed to think critically about your suspiciously kind offer.",
+      "support_knowledge": [
+        "O0_B6"
+      ]
+    },
+    {
+      "id": 121,
+      "speaker_guid": "37a2259c-4bba-4983-92f6-7bf1aacd3f7f",
+      "speaker": "Giles Molina (Male)",
+      "utterance": "Well, there's nothing to see here! Nope. Nothing at all.",
+      "support_knowledge": []
+    }
+  ],
+  "dialog_edges": [
+    [
+      102,
+      103
+    ],
+    [
+      102,
+      120
+    ],
+    [
+      102,
+      122
+    ],
+    [
+      102,
+      123
+    ],
+    [
+      103,
+      104
+    ],
+    [
+      104,
+      105
+    ],
+    [
+      105,
+      106
+    ],
+    [
+      105,
+      118
+    ],
+    [
+      105,
+      119
+    ],
+    [
+      106,
+      107
+    ],
+    [
+      107,
+      174
+    ],
+    [
+      174,
+      108
+    ],
+    [
+      108,
+      109
+    ],
+    [
+      108,
+      117
+    ],
+    [
+      109,
+      110
+    ],
+    [
+      110,
+      111
+    ],
+    [
+      111,
+      112
+    ],
+    [
+      111,
+      116
+    ],
+    [
+      112,
+      113
+    ],
+    [
+      113,
+      114
+    ],
+    [
+      114,
+      115
+    ],
+    [
+      115,
+      124
+    ],
+    [
+      124,
+      125
+    ],
+    [
+      124,
+      138
+    ],
+    [
+      124,
+      168
+    ],
+    [
+      124,
+      171
+    ],
+    [
+      125,
+      126
+    ],
+    [
+      126,
+      127
+    ],
+    [
+      127,
+      128
+    ],
+    [
+      127,
+      137
+    ],
+    [
+      128,
+      129
+    ],
+    [
+      129,
+      130
+    ],
+    [
+      130,
+      131
+    ],
+    [
+      130,
+      135
+    ],
+    [
+      131,
+      132
+    ],
+    [
+      132,
+      133
+    ],
+    [
+      133,
+      134
+    ],
+    [
+      134,
+      124
+    ],
+    [
+      135,
+      136
+    ],
+    [
+      136,
+      124
+    ],
+    [
+      137,
+      124
+    ],
+    [
+      138,
+      139
+    ],
+    [
+      139,
+      124
+    ],
+    [
+      168,
+      169
+    ],
+    [
+      169,
+      170
+    ],
+    [
+      170,
+      124
+    ],
+    [
+      117,
+      110
+    ],
+    [
+      118,
+      107
+    ],
+    [
+      119,
+      107
+    ],
+    [
+      120,
+      121
+    ],
+    [
+      121,
+      105
+    ],
+    [
+      122,
+      105
+    ]
+  ]
+}

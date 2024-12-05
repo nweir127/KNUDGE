@@ -1,0 +1,212 @@
+{
+  "id": "mr_picketts_biggest_game_01",
+  "quest_name": "mr_picketts_biggest_game",
+  "conversation": {
+    "filename": "0402_cv_sebastianadams",
+    "start_node": 145,
+    "end_nodes": [
+      147
+    ],
+    "force_include": []
+  },
+  "in_objective": [
+    "O1",
+    "O2"
+  ],
+  "participants": [
+    "sebastian_adams"
+  ],
+  "dialog_edges": [
+    [
+      145,
+      168
+    ],
+    [
+      168,
+      189
+    ],
+    [
+      168,
+      169
+    ],
+    [
+      189,
+      174
+    ],
+    [
+      174,
+      176
+    ],
+    [
+      176,
+      186
+    ],
+    [
+      176,
+      177
+    ],
+    [
+      186,
+      187
+    ],
+    [
+      187,
+      179
+    ],
+    [
+      179,
+      191
+    ],
+    [
+      177,
+      181
+    ],
+    [
+      181,
+      179
+    ],
+    [
+      169,
+      172
+    ],
+    [
+      172,
+      171
+    ],
+    [
+      171,
+      174
+    ]
+  ],
+  "dialog": [
+    {
+      "id": 145,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I found Mr. Pickett's journal.",
+      "support_knowledge": [
+        "O1_B2",
+        "O2_S1",
+        "mr_pickett_09"
+      ]
+    },
+    {
+      "id": 168,
+      "speaker_guid": "9fdf2427-4140-49ca-ba6a-23f032cd079d",
+      "speaker": "sebastianadams (Male)",
+      "utterance": "He'll probably be wanting it back. You see any sign of him?",
+      "support_knowledge": [
+        "O1_B2",
+        "O2_S2"
+      ]
+    },
+    {
+      "id": 189,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "He's dead. Eaten by a mantiqueen.",
+      "support_knowledge": [
+        "O2_B1",
+        "mantisaur_04",
+        "mr_pickett_08",
+        "mr_pickett_09"
+      ]
+    },
+    {
+      "id": 169,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I found the journal inside a dead mantiqueen.",
+      "support_knowledge": [
+        "O1_B2",
+        "O2_B1"
+      ]
+    },
+    {
+      "id": 174,
+      "speaker_guid": "9fdf2427-4140-49ca-ba6a-23f032cd079d",
+      "speaker": "sebastianadams (Male)",
+      "utterance": "That's pretty sad. He sure seemed like he knew what he was doing.",
+      "support_knowledge": []
+    },
+    {
+      "id": 176,
+      "speaker_guid": "9fdf2427-4140-49ca-ba6a-23f032cd079d",
+      "speaker": "sebastianadams (Male)",
+      "utterance": "So this journal is all he left behind? Seems like I ought to read it. Looks mighty long, though.",
+      "support_knowledge": [
+        "O2_B2"
+      ]
+    },
+    {
+      "id": 186,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Look on the bright side. He found his mantiqueen.",
+      "support_knowledge": [
+        "mr_pickett_08"
+      ]
+    },
+    {
+      "id": 177,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Maybe focus on not sending anyone else out alone against a mantiqueen.",
+      "support_knowledge": [
+        "mr_pickett_06"
+      ]
+    },
+    {
+      "id": 187,
+      "speaker_guid": "9fdf2427-4140-49ca-ba6a-23f032cd079d",
+      "speaker": "sebastianadams (Male)",
+      "utterance": "Huh. That's a fine way of putting it.",
+      "support_knowledge": []
+    },
+    {
+      "id": 179,
+      "speaker_guid": "9fdf2427-4140-49ca-ba6a-23f032cd079d",
+      "speaker": "sebastianadams (Male)",
+      "utterance": "In any case, I appreciate you tracking down Mr. Pickett for me. Here's some bits for your trouble.",
+      "support_knowledge": [
+        "O2_B3"
+      ]
+    },
+    {
+      "id": 191,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Thanks.",
+      "support_knowledge": []
+    },
+    {
+      "id": 181,
+      "speaker_guid": "9fdf2427-4140-49ca-ba6a-23f032cd079d",
+      "speaker": "sebastianadams (Male)",
+      "utterance": "Yeah, you're probably right.",
+      "support_knowledge": []
+    },
+    {
+      "id": 172,
+      "speaker_guid": "9fdf2427-4140-49ca-ba6a-23f032cd079d",
+      "speaker": "sebastianadams (Male)",
+      "utterance": "Funny place to leave a journal. But what about Mr. Pickett?",
+      "support_knowledge": [
+        "O1_B2",
+        "O2_S2"
+      ]
+    },
+    {
+      "id": 171,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "He was eaten by a mantiqueen. He's dead. All that's left is that journal.",
+      "support_knowledge": [
+        "O2_B1",
+        "mantisaur_04",
+        "mr_pickett_08",
+        "mr_pickett_09"
+      ]
+    }
+  ]
+}

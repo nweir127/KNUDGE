@@ -1,0 +1,70 @@
+[
+  {
+    "id": "who_goes_there_00",
+    "quest_name": "who_goes_there",
+    "conversation": {
+      "filename": "01_cv_chawla_ellen_new",
+      "start_node": 1,
+      "end_nodes": [
+        107
+      ],
+      "force_include": [
+        134,
+        2,
+        105
+      ],
+      "force_sequence": [
+        [
+          134,
+          105
+        ]
+      ]
+    },
+    "in_objective": "O0",
+    "out_objective": "O1",
+    "participants": [
+      "commandant_sanita"
+    ]
+  },
+  {
+    "id": "who_goes_there_01",
+    "quest_name": "who_goes_there",
+    "conversation": {
+      "filename": "01_cv_macredd",
+      "start_node": 78,
+      "end_nodes": [],
+      "force_include": [
+        115,
+        83,
+        85,
+        4,
+        11,
+        48
+      ],
+      "force_sequence": []
+    },
+    "in_objective": "O1",
+    "out_objective": "O2",
+    "participants": [
+      "gunnar_macredd"
+    ]
+  },
+  {
+    "id": "who_goes_there_02",
+    "quest_name": "who_goes_there",
+    "conversation": {
+      "filename": "01_cv_chawla_ellen_new",
+      "start_node": 16,
+      "end_nodes": [],
+      "force_include": [
+        77,
+        153
+      ],
+      "force_sequence": []
+    },
+    "in_objective": "O2",
+    "participants": [
+      "commandant_sanita"
+    ]
+  }
+]

@@ -1,0 +1,77 @@
+ID	fact
+OBJECTIVE O0	
+O0_S1	186:44
+O0_S2	231:82
+O0_B1	798:113
+O0_B2	He will inform you that your ship is impounded and say you will have to take it up with Udom Bedford.
+O0_B3	Leonard can also give you the quest Solution Vial,
+O0_B4	and some information regarding the Groundbreaker's status on the system and its relationship with The Board.
+O0_B5	912:87
+OBJECTIVE O1	
+O1_S1	Corporal Wheeler at Groundbreaker customs asked you to update Dr. Dorsett in sick bay with the status of her shipment.
+O1_B1	She can be found at Sick Bay in the Groundbreaker
+OBJECTIVE O2	
+O2_S1	506:71
+O2_S2	578:37
+O2_B1	1107:83
+O2_B2	1191:34
+O2_B3	1226:29
+OBJECTIVE O3	
+O3_S1	Wanda will want to know what became of Captain Irion and the delivery.
+O3_B1	1422:59
+captain_irion	
+captain_irion_01	Captain Irion is a freelancer who can be found, held hostage, on Scylla.
+captain_irion_02	Irion is a freelance starship captain.
+captain_irion_03	He doesn't work for any corporation and has a low opinion on their employees.
+captain_irion_04	He considers himself to be a skilled mechanic and mediator.
+captain_irion_05	"The medical automechanical accompanying Irion diagnoses him with ""constipation, hair loss, reduction of fertility due to tight trousers."""
+groundbreaker	
+groundbreaker_01	UDL-001 The Groundbreaker or simply Groundbreaker was the first colony ship to arrive in Halcyon during the Crossing.
+groundbreaker_02	By 2355, it has been converted into an independent orbital station,
+groundbreaker_03	and is the only place in the entire Halcyon system that is not controlled by the Halcyon Holdings Corporate Board or any other corporation.
+groundbreaker_04	The crew of the Groundbreaker is fiercely protective of their independence from the corporations,
+groundbreaker_05	and the corporations value the station's role as a thriving freeport enough that they are willing to deal with it on relatively equal terms.
+groundbreaker_06	In practical terms, while the Groundbreaker rules itself,
+groundbreaker_07	it cooperates with the corporations to an extent,
+groundbreaker_08	such as by impounding ships that the Board happens to flag.
+groundbreaker_09	The Groundbreaker is commanded by engineer-turned-captain Junlei Tennyson.
+groundbreaker_10	Udom Bedford is the Halcyon Holdings Corporation representative stationed aboard.
+groundbreaker_11	According to Junlei, lots of corners were cut when the ship was built,
+groundbreaker_12	prompting Captain Guiying Tennyson to spend half of her career attempting to patch the ship back together after the Crossing from Earth to Halcyon.
+groundbreaker_13	In addition, the ship has tinkerings and bypasses that only the Tennysons know about.
+groundbreaker_14	The Groundbreaker maintains a somewhat tense relationship with the Board,
+groundbreaker_15	owing to their declared independence from Board authority,
+groundbreaker_16	as well as their control of shipping routes outward from the Halcyon System.
+groundbreaker_17	Nonetheless, given that Groundbreaker lacks any semblance of military might against the Board beyond the mardets stationed aboard the ship,
+groundbreaker_18	the loose hierarchy in charge of the Groundbreaker often seeks to find (illicit) ways of delaying, stymieing, or pitting corporations under the Board's thumb against each other,
+groundbreaker_19	usually through black market fences like Gladys Culkelly.
+groundbreaker_20	Nonetheless, the Board maintains an embassy aboard the Groundbreaker run by bureaucrat Udom Bedford.
+groundbreaker_21	Depending on the actions of the Stranger, the Groundbreaker's crew may be compelled to rebel against the Board's system-wide authority.
+groundbreaker_22	The Groundbreaker is generally neutral to Sublight Salvage and Shipping Corporation,
+groundbreaker_23	and allows them to operate an office and warehouse aboard the ship, helmed by Lilya Hagen.
+leonard_wheeler	
+leonard_wheeler_01	Leonard Wheeler is a corporal aboard the Groundbreaker who mans the customs and immigration desk.
+leonard_wheeler_02	He asks the Stranger to do him a favor and advise Dr. Wanda Dorsett in the Medical Bay that her shipment hasn't arrived.
+outlaws	
+outlaws_01	The Outlaws are interplanetary raiders with their own independent agendas.
+outlaws_02	Unlike the Marauders, some Outlaws can interact with the Stranger.
+scylla	
+scylla_01	Scylla is the largest asteroid in the Halcyon system
+scylla_02	which contains some laboratories and transmitting stations.
+scylla_03	It was originally claimed by the Hephaestus Mining Company,
+scylla_04	which has since abandoned it and focused its attention on the planet Hephaestus.
+udom_bedford	
+udom_bedford_01	Udom Bedford is the representative of the Halcyon Holdings Corporation (HHC) to the Groundbreaker.
+udom_bedford_02	Emissary to the Board,
+udom_bedford_03	Udom is a bureaucrat stationed at the main gateway to HHC controlled space.
+udom_bedford_04	Seeking a way to Byzantium,
+udom_bedford_05	Udom fostered a relationship with Alex Hawthorne as a means to locate Phineas Vernon Welles and use the fugitive as his ticket off the Groundbreaker,
+udom_bedford_06	routinely impounding Alex's ship to ensure they meet whenever Alex docks.
+udom_bedford_07	Outwardly to Alex and others,
+udom_bedford_08	Udom considers him a friend.
+wanda_dorsett	
+wanda_dorsett_01	Wanda Dorsett is a doctor aboard Groundbreaker.
+wanda_dorsett_02	Doctor Dorsett is one of the only two doctors on Groundbreaker,
+wanda_dorsett_03	along with Doctor Idris Mfuru.
+wanda_dorsett_04	Between the two of them, they trained all the staff in Groundbreaker's Medical Bay.
+wanda_dorsett_05	She has been struggling with procuring the necessary medical supplies and personnel to continue to serve her patients and is growing concerned with the cost of maintaining Groundbreaker's independence.

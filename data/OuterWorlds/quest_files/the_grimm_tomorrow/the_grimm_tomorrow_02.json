@@ -1,0 +1,492 @@
+{
+  "id": "the_grimm_tomorrow_02",
+  "quest_name": "the_grimm_tomorrow",
+  "conversation": {
+    "filename": "0402_cv_velmaballard",
+    "start_node": 1,
+    "end_nodes": [],
+    "force_include": [
+      52,
+      102,
+      106,
+      117,
+      120
+    ],
+    "force_sequence": []
+  },
+  "in_objective": "O2",
+  "out_objective": "O3",
+  "participants": [
+    "velma_ballard"
+  ],
+  "dialog_edges": [
+    [
+      1,
+      53
+    ],
+    [
+      1,
+      52
+    ],
+    [
+      53,
+      62
+    ],
+    [
+      62,
+      55
+    ],
+    [
+      55,
+      131
+    ],
+    [
+      131,
+      102
+    ],
+    [
+      131,
+      63
+    ],
+    [
+      102,
+      103
+    ],
+    [
+      103,
+      104
+    ],
+    [
+      104,
+      105
+    ],
+    [
+      105,
+      106
+    ],
+    [
+      105,
+      107
+    ],
+    [
+      105,
+      108
+    ],
+    [
+      105,
+      109
+    ],
+    [
+      105,
+      139
+    ],
+    [
+      106,
+      110
+    ],
+    [
+      110,
+      114
+    ],
+    [
+      114,
+      200
+    ],
+    [
+      114,
+      201
+    ],
+    [
+      200,
+      202
+    ],
+    [
+      202,
+      105
+    ],
+    [
+      201,
+      203
+    ],
+    [
+      203,
+      105
+    ],
+    [
+      107,
+      111
+    ],
+    [
+      111,
+      105
+    ],
+    [
+      108,
+      112
+    ],
+    [
+      112,
+      105
+    ],
+    [
+      109,
+      113
+    ],
+    [
+      113,
+      117
+    ],
+    [
+      113,
+      120
+    ],
+    [
+      113,
+      139
+    ],
+    [
+      117,
+      121
+    ],
+    [
+      121,
+      125
+    ],
+    [
+      125,
+      99
+    ],
+    [
+      99,
+      102
+    ],
+    [
+      99,
+      39
+    ],
+    [
+      120,
+      124
+    ],
+    [
+      124,
+      125
+    ],
+    [
+      139,
+      143
+    ],
+    [
+      143,
+      99
+    ],
+    [
+      52,
+      54
+    ],
+    [
+      54,
+      55
+    ]
+  ],
+  "dialog": [
+    {
+      "id": 1,
+      "speaker_guid": "980e3de0-dc1d-4ea3-8120-6ce0582f3414",
+      "speaker": "velmaballard (Female)",
+      "utterance": "Look, you can tell Catherine the new shipment'll be ready when it's ready, all right? She's welcome to come up here and pack boxes herself if she's in such a hurry.",
+      "support_knowledge": [
+        "velma_ballard_02",
+        "catherine_malin_01"
+      ]
+    },
+    {
+      "id": 53,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Take it easy. I'm just looking around.",
+      "support_knowledge": []
+    },
+    {
+      "id": 52,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Catherine said she'd shove you in a box if you keep running your yap like that.",
+      "support_knowledge": [
+        "velma_ballard_02",
+        "catherine_malin_01",
+        "catherine_malin_03"
+      ]
+    },
+    {
+      "id": 62,
+      "speaker_guid": "980e3de0-dc1d-4ea3-8120-6ce0582f3414",
+      "speaker": "velmaballard (Female)",
+      "utterance": "Well, if you're that friendly about it, then you definitely aren't one of Catherine's SubLight toughs. My mistake.",
+      "support_knowledge": [
+        "catherine_malin_02",
+        "catherine_malin_03"
+      ]
+    },
+    {
+      "id": 55,
+      "speaker_guid": "980e3de0-dc1d-4ea3-8120-6ce0582f3414",
+      "speaker": "velmaballard (Female)",
+      "utterance": "Hope you can forgive my temper. This job's been running me ragged lately.",
+      "support_knowledge": [
+        "velma_ballard_01"
+      ]
+    },
+    {
+      "id": 131,
+      "speaker_guid": "980e3de0-dc1d-4ea3-8120-6ce0582f3414",
+      "speaker": "velmaballard (Female)",
+      "utterance": "First my auto loader foreman stages a walkout, and now my chief pescatological health manager is missing.",
+      "support_knowledge": []
+    },
+    {
+      "id": 102,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I'm here to ask about Grimm's poster.",
+      "support_knowledge": [
+        "O1_B3"
+      ]
+    },
+    {
+      "id": 63,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I don't have time for this.",
+      "support_knowledge": []
+    },
+    {
+      "id": 103,
+      "speaker_guid": "980e3de0-dc1d-4ea3-8120-6ce0582f3414",
+      "speaker": "velmaballard (Female)",
+      "utterance": "This again? I swear, this is the last time I contract for any special requests.",
+      "support_knowledge": []
+    },
+    {
+      "id": 104,
+      "speaker_guid": "980e3de0-dc1d-4ea3-8120-6ce0582f3414",
+      "speaker": "velmaballard (Female)",
+      "utterance": "You can tell Grimm his poster came in. You can also tell him I got a better offer for it. So now it's going to Nell.",
+      "support_knowledge": [
+        "O2_B2",
+        "O2_B3",
+        "O2_B4",
+        "O3_S1"
+      ]
+    },
+    {
+      "id": 105,
+      "speaker_guid": "980e3de0-dc1d-4ea3-8120-6ce0582f3414",
+      "speaker": "velmaballard (Female)",
+      "utterance": "That about cover it?",
+      "support_knowledge": []
+    },
+    {
+      "id": 106,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Who's Nell?",
+      "support_knowledge": [
+        "nell_01",
+        "nell_02"
+      ]
+    },
+    {
+      "id": 107,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "You still have the poster, right?",
+      "support_knowledge": [
+        "O3_S3"
+      ]
+    },
+    {
+      "id": 108,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "You're just giving Grimm's poster away? Didn't he pay for it?",
+      "support_knowledge": [
+        "O2_B3"
+      ]
+    },
+    {
+      "id": 109,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Surely we can work something out.",
+      "support_knowledge": [
+        "O3_B1"
+      ]
+    },
+    {
+      "id": 139,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Let's talk about something else.",
+      "support_knowledge": []
+    },
+    {
+      "id": 110,
+      "speaker_guid": "980e3de0-dc1d-4ea3-8120-6ce0582f3414",
+      "speaker": "velmaballard (Female)",
+      "utterance": "She runs the betting parlor across the way. Nice, professional lady.",
+      "support_knowledge": [
+        "nell_01"
+      ]
+    },
+    {
+      "id": 114,
+      "speaker_guid": "980e3de0-dc1d-4ea3-8120-6ce0582f3414",
+      "speaker": "velmaballard (Female)",
+      "utterance": "She asked me about the poster once - just once. Made a real generous offer, too.",
+      "support_knowledge": [
+        "O2_B4",
+        "O2_B5",
+        "O3_S1"
+      ]
+    },
+    {
+      "id": 200,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "So it's about the money.",
+      "support_knowledge": [
+        "O2_B4"
+      ]
+    },
+    {
+      "id": 201,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "She does sound... easier to deal with.",
+      "support_knowledge": [
+        "O2_B5"
+      ]
+    },
+    {
+      "id": 202,
+      "speaker_guid": "980e3de0-dc1d-4ea3-8120-6ce0582f3414",
+      "speaker": "velmaballard (Female)",
+      "utterance": "Damn right it is.",
+      "support_knowledge": []
+    },
+    {
+      "id": 203,
+      "speaker_guid": "980e3de0-dc1d-4ea3-8120-6ce0582f3414",
+      "speaker": "velmaballard (Female)",
+      "utterance": "I don't have time for Grimm. Even when I'm not working doubles.",
+      "support_knowledge": [
+        "O1_B4"
+      ]
+    },
+    {
+      "id": 111,
+      "speaker_guid": "980e3de0-dc1d-4ea3-8120-6ce0582f3414",
+      "speaker": "velmaballard (Female)",
+      "utterance": "It's staying locked up in my office until Nell shows with her money.",
+      "support_knowledge": [
+        "O3_S3"
+      ]
+    },
+    {
+      "id": 112,
+      "speaker_guid": "980e3de0-dc1d-4ea3-8120-6ce0582f3414",
+      "speaker": "velmaballard (Female)",
+      "utterance": "No, I paid SubLight for it, so it's mine. And when Nell pays me for it, it'll be hers. Grimm may have asked for the poster, but it's not his until I take his money.",
+      "support_knowledge": [
+        "O2_B3",
+        "O3_B3"
+      ]
+    },
+    {
+      "id": 113,
+      "speaker_guid": "980e3de0-dc1d-4ea3-8120-6ce0582f3414",
+      "speaker": "velmaballard (Female)",
+      "utterance": "Sure can. If you wanna pay me more than Nell's offering.",
+      "support_knowledge": [
+        "O3_B2"
+      ]
+    },
+    {
+      "id": 117,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "You won't do much business if your neighbors hate you. Consider this an investment.",
+      "support_knowledge": [
+        "O3_B3",
+        "O3_B4"
+      ]
+    },
+    {
+      "id": 120,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Take <oeiglobal>Bribe_Amount</oeiglobal> bits for the time Grimm's wasted. He'll still pay for the poster.",
+      "support_knowledge": [
+        "O3_B2"
+      ]
+    },
+    {
+      "id": 121,
+      "speaker_guid": "980e3de0-dc1d-4ea3-8120-6ce0582f3414",
+      "speaker": "velmaballard (Female)",
+      "utterance": "I got a feeling you and Catherine would get on like tumors on a pig.",
+      "support_knowledge": [
+        "velma_ballard_02"
+      ]
+    },
+    {
+      "id": 125,
+      "speaker_guid": "980e3de0-dc1d-4ea3-8120-6ce0582f3414",
+      "speaker": "velmaballard (Female)",
+      "utterance": "Take the poster, then. And if I never hear another word about it, it'll be too soon.",
+      "support_knowledge": [
+        "O3_B1"
+      ]
+    },
+    {
+      "id": 99,
+      "speaker_guid": "980e3de0-dc1d-4ea3-8120-6ce0582f3414",
+      "speaker": "velmaballard (Female)",
+      "utterance": "Something else on your mind?",
+      "support_knowledge": []
+    },
+    {
+      "id": 39,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I'll talk to you later.",
+      "support_knowledge": []
+    },
+    {
+      "id": 124,
+      "speaker_guid": "980e3de0-dc1d-4ea3-8120-6ce0582f3414",
+      "speaker": "velmaballard (Female)",
+      "utterance": "Damn right he will. Hopefully that'll be the last I see of him for a while.",
+      "support_knowledge": [
+        "O3_B2"
+      ]
+    },
+    {
+      "id": 143,
+      "speaker_guid": "980e3de0-dc1d-4ea3-8120-6ce0582f3414",
+      "speaker": "velmaballard (Female)",
+      "utterance": "Fine by me.",
+      "support_knowledge": []
+    },
+    {
+      "id": 54,
+      "speaker_guid": "980e3de0-dc1d-4ea3-8120-6ce0582f3414",
+      "speaker": "velmaballard (Female)",
+      "utterance": "Did she, now? Well, I can see I was mistaken. 'Cause if Catherine really had sent you, there'd be a lot more expletives in your message.",
+      "support_knowledge": [
+        "velma_ballard_02"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,476 @@
+{
+  "id": "vulcans_hammer_01",
+  "quest_name": "vulcans_hammer",
+  "conversation": {
+    "filename": "08_cv_scientist_orson",
+    "start_node": 39,
+    "end_nodes": [],
+    "force_include": [
+      175,
+      177,
+      46,
+      112,
+      60
+    ],
+    "force_sequence": []
+  },
+  "in_objective": "O2",
+  "participants": [
+    "orson_shaw"
+  ],
+  "objectives": {
+    "O2": {
+      "summary": "Return to Orson",
+      "description": {
+        "S1": "You've found Orson's schematics.",
+        "S2": "They're from FORCE,",
+        "S3": "an out-system weapons manufacturer.",
+        "S4": "They are almost certainly contraband."
+      },
+      "blurb": {
+        "B1": "Return to either Orson or Gladys for your reward.",
+        "B2": "If you return to Orson,",
+        "B3": "ask why he didn't turn in this contraband.",
+        "B4": "You can Intimidate or Persuade (45) him to get him to buy the weapon for 100 Bit Cartridge,",
+        "B5": "but you'll lose Auntie Cleo Reputation (5% negative)."
+      }
+    }
+  },
+  "dialog": [
+    {
+      "id": 39,
+      "speaker_guid": "3001cfe4-cd15-4d6d-9ee9-d949a97015f2",
+      "speaker": "OrsonShaw (Male)",
+      "utterance": "Oh, hello. Why do you seem familiar? Have we met?",
+      "support_knowledge": []
+    },
+    {
+      "id": 175,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Yeah. You asked me to grab your prototype schematics from storage.",
+      "support_knowledge": [
+        "O0_S3"
+      ]
+    },
+    {
+      "id": 176,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Your memory cannot be that bad.",
+      "support_knowledge": []
+    },
+    {
+      "id": 177,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "No. Who are you again?",
+      "support_knowledge": []
+    },
+    {
+      "id": 178,
+      "speaker_guid": "3001cfe4-cd15-4d6d-9ee9-d949a97015f2",
+      "speaker": "OrsonShaw (Male)",
+      "utterance": "Ah! Yes! Very good. And have you done that?",
+      "support_knowledge": [
+        "O2_S1"
+      ]
+    },
+    {
+      "id": 46,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Got them right here.",
+      "support_knowledge": []
+    },
+    {
+      "id": 41,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Not yet.",
+      "support_knowledge": []
+    },
+    {
+      "id": 48,
+      "speaker_guid": "3001cfe4-cd15-4d6d-9ee9-d949a97015f2",
+      "speaker": "OrsonShaw (Male)",
+      "utterance": "What a relief. You hold months of work in your hands.",
+      "support_knowledge": []
+    },
+    {
+      "id": 109,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Hold on. FORCE weapons are contraband. Why didn't you turn this in when you found it?",
+      "support_knowledge": [
+        "O2_B3",
+        "force_01",
+        "force_04"
+      ]
+    },
+    {
+      "id": 72,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "[Hand over the FORCE schematics]",
+      "support_knowledge": []
+    },
+    {
+      "id": 110,
+      "speaker_guid": "3001cfe4-cd15-4d6d-9ee9-d949a97015f2",
+      "speaker": "OrsonShaw (Male)",
+      "utterance": "Anton would have just given them to Porter without a second thought. What a waste of potential that would have been.",
+      "support_knowledge": []
+    },
+    {
+      "id": 112,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "And what's your secrecy worth, I wonder?",
+      "support_knowledge": []
+    },
+    {
+      "id": 60,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "These are valuable schematics. I could sell them for quite the profit.",
+      "support_knowledge": [
+        "O2_B4"
+      ]
+    },
+    {
+      "id": 113,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Maybe they'd have let you experiment. You could've saved a few lives.",
+      "support_knowledge": []
+    },
+    {
+      "id": 114,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "He's your boss--that's his decision to make, not yours.",
+      "support_knowledge": []
+    },
+    {
+      "id": 116,
+      "speaker_guid": "3001cfe4-cd15-4d6d-9ee9-d949a97015f2",
+      "speaker": "OrsonShaw (Male)",
+      "utterance": "...I see. A proper shakedown. I might've known not to trust a common thug.",
+      "support_knowledge": [
+        "O2_B4"
+      ]
+    },
+    {
+      "id": 208,
+      "speaker_guid": "3001cfe4-cd15-4d6d-9ee9-d949a97015f2",
+      "speaker": "OrsonShaw (Male)",
+      "utterance": "So be it. I'll buy them off of you.",
+      "support_knowledge": [
+        "O2_B4"
+      ]
+    },
+    {
+      "id": 206,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "<Hand over the schematics.> Deal.",
+      "support_knowledge": []
+    },
+    {
+      "id": 240,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Actually, I already have a buyer for these, so I'm just going to keep them.",
+      "support_knowledge": []
+    },
+    {
+      "id": 119,
+      "speaker_guid": "3001cfe4-cd15-4d6d-9ee9-d949a97015f2",
+      "speaker": "OrsonShaw (Male)",
+      "utterance": "Much obliged. Here are your bits. Now, let's see here... attach this, twist that, apply a little pressure, and...",
+      "support_knowledge": [
+        "O2_B4"
+      ]
+    },
+    {
+      "id": 210,
+      "speaker_guid": "3001cfe4-cd15-4d6d-9ee9-d949a97015f2",
+      "speaker": "OrsonShaw (Male)",
+      "utterance": "Voila! I can finally call this little side project complete. Thank the Law.",
+      "support_knowledge": []
+    },
+    {
+      "id": 204,
+      "speaker_guid": "3001cfe4-cd15-4d6d-9ee9-d949a97015f2",
+      "speaker": "OrsonShaw (Male)",
+      "utterance": "Oh. Hm. I can't be caught with this. You take it. If R&D buys the schematics from me... perhaps I'll get you the first model, hot off the presses! I'll, uh... call you? Yes. I'll call you.",
+      "support_knowledge": [
+        "force_04"
+      ]
+    },
+    {
+      "id": 61,
+      "speaker_guid": "3001cfe4-cd15-4d6d-9ee9-d949a97015f2",
+      "speaker": "OrsonShaw (Male)",
+      "utterance": "I might've guessed. Such are the risks when hiring mercenaries. Very well, I've got no ability to stop you.",
+      "support_knowledge": []
+    },
+    {
+      "id": 215,
+      "speaker_guid": "3001cfe4-cd15-4d6d-9ee9-d949a97015f2",
+      "speaker": "OrsonShaw (Male)",
+      "utterance": "Without those schematics, I'll never be able to repair this pistol. What am I going to do with this useless hunk of junk?",
+      "support_knowledge": [
+        "O0_S2",
+        "O0_B5"
+      ]
+    },
+    {
+      "id": 242,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Not my problem. I think we're done here.",
+      "support_knowledge": []
+    },
+    {
+      "id": 244,
+      "speaker_guid": "3001cfe4-cd15-4d6d-9ee9-d949a97015f2",
+      "speaker": "OrsonShaw (Male)",
+      "utterance": "Very well. It has most certainly not been a pleasure.",
+      "support_knowledge": []
+    },
+    {
+      "id": 62,
+      "speaker_guid": "3001cfe4-cd15-4d6d-9ee9-d949a97015f2",
+      "speaker": "OrsonShaw (Male)",
+      "utterance": "Now leave, and see that I am never again insulted by your presence.",
+      "support_knowledge": []
+    },
+    {
+      "id": 63,
+      "speaker_guid": "3001cfe4-cd15-4d6d-9ee9-d949a97015f2",
+      "speaker": "OrsonShaw (Male)",
+      "utterance": "Hmm. Sadly true--contraband does tend to fetch a high price among the colony's ne'er-do-wells.",
+      "support_knowledge": []
+    },
+    {
+      "id": 115,
+      "speaker_guid": "3001cfe4-cd15-4d6d-9ee9-d949a97015f2",
+      "speaker": "OrsonShaw (Male)",
+      "utterance": "All the more reason I need to keep my discretion... discreet.",
+      "support_knowledge": []
+    },
+    {
+      "id": 124,
+      "speaker_guid": "3001cfe4-cd15-4d6d-9ee9-d949a97015f2",
+      "speaker": "OrsonShaw (Male)",
+      "utterance": "Now, if you wouldn't mind returning them to me...",
+      "support_knowledge": []
+    },
+    {
+      "id": 121,
+      "speaker_guid": "3001cfe4-cd15-4d6d-9ee9-d949a97015f2",
+      "speaker": "OrsonShaw (Male)",
+      "utterance": "Perhaps so. However, so as not to dwell on the past, I'll thank you to keep this between us.",
+      "support_knowledge": []
+    },
+    {
+      "id": 52,
+      "speaker_guid": "3001cfe4-cd15-4d6d-9ee9-d949a97015f2",
+      "speaker": "OrsonShaw (Male)",
+      "utterance": "Now. I'll just attach this here, bit of glue, a little--elbow--grease...",
+      "support_knowledge": []
+    },
+    {
+      "id": 179,
+      "speaker_guid": "3001cfe4-cd15-4d6d-9ee9-d949a97015f2",
+      "speaker": "OrsonShaw (Male)",
+      "utterance": "I'm just quite selective about what information I choose to retain. That said--yes, I recognize you. Have you retrieved my schematics yet?",
+      "support_knowledge": []
+    },
+    {
+      "id": 180,
+      "speaker_guid": "3001cfe4-cd15-4d6d-9ee9-d949a97015f2",
+      "speaker": "OrsonShaw (Male)",
+      "utterance": "I am Orson Shaw, chief behavioral--wait. Yes, I'm quite sure we've met. My apologies. Have you retrieved my schematics yet?",
+      "support_knowledge": [
+        "orson_shaw_01"
+      ]
+    }
+  ],
+  "dialog_edges": [
+    [
+      39,
+      175
+    ],
+    [
+      39,
+      176
+    ],
+    [
+      39,
+      177
+    ],
+    [
+      175,
+      178
+    ],
+    [
+      178,
+      46
+    ],
+    [
+      178,
+      41
+    ],
+    [
+      46,
+      48
+    ],
+    [
+      48,
+      109
+    ],
+    [
+      48,
+      72
+    ],
+    [
+      109,
+      110
+    ],
+    [
+      110,
+      112
+    ],
+    [
+      110,
+      60
+    ],
+    [
+      110,
+      113
+    ],
+    [
+      110,
+      114
+    ],
+    [
+      112,
+      116
+    ],
+    [
+      116,
+      208
+    ],
+    [
+      208,
+      206
+    ],
+    [
+      208,
+      240
+    ],
+    [
+      206,
+      119
+    ],
+    [
+      119,
+      210
+    ],
+    [
+      210,
+      204
+    ],
+    [
+      240,
+      61
+    ],
+    [
+      61,
+      215
+    ],
+    [
+      215,
+      242
+    ],
+    [
+      242,
+      244
+    ],
+    [
+      244,
+      62
+    ],
+    [
+      60,
+      63
+    ],
+    [
+      63,
+      208
+    ],
+    [
+      113,
+      115
+    ],
+    [
+      115,
+      124
+    ],
+    [
+      124,
+      112
+    ],
+    [
+      124,
+      60
+    ],
+    [
+      124,
+      72
+    ],
+    [
+      114,
+      121
+    ],
+    [
+      121,
+      124
+    ],
+    [
+      72,
+      52
+    ],
+    [
+      52,
+      210
+    ],
+    [
+      176,
+      179
+    ],
+    [
+      179,
+      46
+    ],
+    [
+      179,
+      41
+    ],
+    [
+      177,
+      180
+    ],
+    [
+      180,
+      46
+    ],
+    [
+      180,
+      41
+    ]
+  ]
+}

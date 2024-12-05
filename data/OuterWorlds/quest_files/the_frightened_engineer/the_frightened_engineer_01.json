@@ -1,0 +1,535 @@
+{
+  "id": "the_frightened_engineer_01",
+  "quest_name": "the_frightened_engineer",
+  "conversation": {
+    "filename": "00_cv_thomas",
+    "start_node": 2,
+    "end_nodes": [],
+    "force_include": [
+      124,
+      134,
+      132,
+      130,
+      139,
+      142,
+      145,
+      140,
+      141,
+      238,
+      241
+    ],
+    "force_sequence": [
+      [
+        142,
+        140,
+        141
+      ]
+    ]
+  },
+  "in_objective": "O2",
+  "participants": [
+    "thomas_kemp",
+    "parvati_holcomb"
+  ],
+  "objectives": {
+    "O2": {
+      "summary": "Return to Thomas",
+      "description": {
+        "S1": "Now that you've found all of the engineering manuals,",
+        "S2": "you should return to Thomas."
+      },
+      "blurb": {
+        "B1": "You'll gain Deserters Reputation and 300 Bit Cartridges for giving him the first volume.",
+        "B2": "Deserters Reputation and 500 Bit Cartridges for the second.",
+        "B3": "And, 8750 XP, Deserters Reputation and Electro-Charged Surface."
+      }
+    }
+  },
+  "dialog": [
+    {
+      "id": 2,
+      "speaker_guid": "ddf2c259-099b-455a-9789-293c99a32e98",
+      "speaker": "ThomasKemp (Male)",
+      "utterance": "Hey there.",
+      "support_knowledge": []
+    },
+    {
+      "id": 124,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Today's your lucky day, Thomas. I've got one of those datapads you wanted.",
+      "support_knowledge": [
+        "O1_S4"
+      ]
+    },
+    {
+      "id": 152,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I want to ask you something.",
+      "support_knowledge": []
+    },
+    {
+      "id": 5,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I should go.",
+      "support_knowledge": []
+    },
+    {
+      "id": 129,
+      "speaker_guid": "ddf2c259-099b-455a-9789-293c99a32e98",
+      "speaker": "ThomasKemp (Male)",
+      "utterance": "No kidding. Really? Well, which one?",
+      "support_knowledge": []
+    },
+    {
+      "id": 130,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Part one. Found it in the community center archives.",
+      "support_knowledge": [
+        "O1_B3",
+        "O1_B4",
+        "O1_B5",
+        "O1_B6",
+        "emerald_vale_community_center_01"
+      ]
+    },
+    {
+      "id": 132,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Part two. Found it in the cannery.",
+      "support_knowledge": [
+        "O1_B1",
+        "O1_B2",
+        "saltuna_cannery_01"
+      ]
+    },
+    {
+      "id": 134,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "The elusive part three. Someone stashed it away inside the old geothermal plant.",
+      "support_knowledge": [
+        "O1_B7"
+      ]
+    },
+    {
+      "id": 136,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Actually, I wanted to ask you something else.",
+      "support_knowledge": []
+    },
+    {
+      "id": 131,
+      "speaker_guid": "ddf2c259-099b-455a-9789-293c99a32e98",
+      "speaker": "ThomasKemp (Male)",
+      "utterance": "Look at that. \"Building A Computing Machine Out Of Spectrum Potatoes: A Primer.\" I'm just glad it's survived all these years.",
+      "support_knowledge": []
+    },
+    {
+      "id": 141,
+      "speaker_guid": "ddf2c259-099b-455a-9789-293c99a32e98",
+      "speaker": "ThomasKemp (Male)",
+      "utterance": "That's a complete set. All three parts. I'm gonna be the greatest engineer Halcyon's ever seen.",
+      "support_knowledge": [
+        "O2_S1",
+        "O2_S2"
+      ]
+    },
+    {
+      "id": 140,
+      "speaker_guid": "ddf2c259-099b-455a-9789-293c99a32e98",
+      "speaker": "ThomasKemp (Male)",
+      "utterance": "Two whole datapads. Be still my beatin' heart. Oh - almost forgot your payment.",
+      "support_knowledge": [
+        "O1_S3",
+        "O1_S4"
+      ]
+    },
+    {
+      "id": 139,
+      "speaker_guid": "ddf2c259-099b-455a-9789-293c99a32e98",
+      "speaker": "ThomasKemp (Male)",
+      "utterance": "I appreciate you going through all that trouble.",
+      "support_knowledge": []
+    },
+    {
+      "id": 238,
+      "speaker_guid": "ddf2c259-099b-455a-9789-293c99a32e98",
+      "speaker": "ThomasKemp (Male)",
+      "utterance": "Um, aside from you, Ms. Parvati. I swear, I'll do you proud.",
+      "support_knowledge": []
+    },
+    {
+      "id": 146,
+      "speaker_guid": "ddf2c259-099b-455a-9789-293c99a32e98",
+      "speaker": "ThomasKemp (Male)",
+      "utterance": "I've been saving something for you. Just a little contraption I found. Should fit right into your outfit.",
+      "support_knowledge": []
+    },
+    {
+      "id": 241,
+      "speaker_guid": "6ecbdc23-b215-450e-bac3-c3ecc78583cf",
+      "speaker": "Parvati (Female)",
+      "utterance": "I'm glad we could help, Thomas.",
+      "support_knowledge": []
+    },
+    {
+      "id": 145,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Hold on. I've got more for you.",
+      "support_knowledge": []
+    },
+    {
+      "id": 147,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I'll let you know if I find any others.",
+      "support_knowledge": []
+    },
+    {
+      "id": 149,
+      "speaker_guid": "ddf2c259-099b-455a-9789-293c99a32e98",
+      "speaker": "ThomasKemp (Male)",
+      "utterance": "Well don't keep me in suspense.",
+      "support_knowledge": []
+    },
+    {
+      "id": 153,
+      "speaker_guid": "ddf2c259-099b-455a-9789-293c99a32e98",
+      "speaker": "ThomasKemp (Male)",
+      "utterance": "Sure. I'd be glad to take 'em off your hands.",
+      "support_knowledge": []
+    },
+    {
+      "id": 142,
+      "speaker_guid": "ddf2c259-099b-455a-9789-293c99a32e98",
+      "speaker": "ThomasKemp (Male)",
+      "utterance": "One datapad's got enough to guide me down my newfound path. Just remember, I've got something saved for you if I find me all three.",
+      "support_knowledge": [
+        "O0_S2",
+        "O0_S3"
+      ]
+    },
+    {
+      "id": 143,
+      "speaker_guid": "ddf2c259-099b-455a-9789-293c99a32e98",
+      "speaker": "ThomasKemp (Male)",
+      "utterance": "In fact, I put aside something special. On the off-chance that somebody'd search out those datapads for me.",
+      "support_knowledge": []
+    },
+    {
+      "id": 133,
+      "speaker_guid": "ddf2c259-099b-455a-9789-293c99a32e98",
+      "speaker": "ThomasKemp (Male)",
+      "utterance": "Ain't that just ironical? If I'd worked a little longer back at the cannery, I might've found this myself.",
+      "support_knowledge": [
+        "thomas_kemp_06",
+        "saltuna_cannery_01"
+      ]
+    },
+    {
+      "id": 135,
+      "speaker_guid": "ddf2c259-099b-455a-9789-293c99a32e98",
+      "speaker": "ThomasKemp (Male)",
+      "utterance": "The Geothermal Plant! Now that is just incredible. You really went exploring down there? Adelaide always told us it was swarming with hostile mechanicals.",
+      "support_knowledge": []
+    },
+    {
+      "id": 137,
+      "speaker_guid": "ddf2c259-099b-455a-9789-293c99a32e98",
+      "speaker": "ThomasKemp (Male)",
+      "utterance": "You're really playing with my feelings here.",
+      "support_knowledge": []
+    },
+    {
+      "id": 39,
+      "speaker_guid": "ddf2c259-099b-455a-9789-293c99a32e98",
+      "speaker": "ThomasKemp (Male)",
+      "utterance": "What's on your mind?",
+      "support_knowledge": []
+    },
+    {
+      "id": 42,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "How long have you lived here?",
+      "support_knowledge": []
+    },
+    {
+      "id": 49,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Never mind.",
+      "support_knowledge": []
+    },
+    {
+      "id": 45,
+      "speaker_guid": "ddf2c259-099b-455a-9789-293c99a32e98",
+      "speaker": "ThomasKemp (Male)",
+      "utterance": "Couple months. This camp is my home. People you see milling about? They're my family. Least I think of them that way.",
+      "support_knowledge": [
+        "thomas_kemp_01"
+      ]
+    },
+    {
+      "id": 48,
+      "speaker_guid": "ddf2c259-099b-455a-9789-293c99a32e98",
+      "speaker": "ThomasKemp (Male)",
+      "utterance": "I owe them my life. Would've died in the wilderness if they hadn't chanced upon me, starving and delirious.",
+      "support_knowledge": [
+        "thomas_kemp_07",
+        "thomas_kemp_08"
+      ]
+    },
+    {
+      "id": 50,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "What were you doing out in the wilderness?",
+      "support_knowledge": []
+    },
+    {
+      "id": 51,
+      "speaker_guid": "ddf2c259-099b-455a-9789-293c99a32e98",
+      "speaker": "ThomasKemp (Male)",
+      "utterance": "We all left the cannery for one reason or another. Me? I was let go. Mostly on account of my incompetence.",
+      "support_knowledge": [
+        "thomas_kemp_05",
+        "thomas_kemp_06"
+      ]
+    },
+    {
+      "id": 52,
+      "speaker_guid": "ddf2c259-099b-455a-9789-293c99a32e98",
+      "speaker": "ThomasKemp (Male)",
+      "utterance": "I mean, I was incompetent. I couldn't even survive on my own. Grace found me. Adelaide took me in. I've been on my feet ever since.",
+      "support_knowledge": [
+        "thomas_kemp_08"
+      ]
+    }
+  ],
+  "dialog_edges": [
+    [
+      2,
+      124
+    ],
+    [
+      2,
+      152
+    ],
+    [
+      2,
+      5
+    ],
+    [
+      124,
+      129
+    ],
+    [
+      129,
+      130
+    ],
+    [
+      129,
+      132
+    ],
+    [
+      129,
+      134
+    ],
+    [
+      129,
+      136
+    ],
+    [
+      129,
+      5
+    ],
+    [
+      130,
+      131
+    ],
+    [
+      131,
+      141
+    ],
+    [
+      131,
+      140
+    ],
+    [
+      131,
+      139
+    ],
+    [
+      141,
+      238
+    ],
+    [
+      141,
+      146
+    ],
+    [
+      238,
+      241
+    ],
+    [
+      241,
+      146
+    ],
+    [
+      146,
+      2
+    ],
+    [
+      140,
+      145
+    ],
+    [
+      140,
+      147
+    ],
+    [
+      140,
+      152
+    ],
+    [
+      140,
+      5
+    ],
+    [
+      145,
+      149
+    ],
+    [
+      149,
+      129
+    ],
+    [
+      147,
+      153
+    ],
+    [
+      153,
+      2
+    ],
+    [
+      139,
+      142
+    ],
+    [
+      139,
+      143
+    ],
+    [
+      142,
+      145
+    ],
+    [
+      142,
+      147
+    ],
+    [
+      142,
+      5
+    ],
+    [
+      143,
+      145
+    ],
+    [
+      143,
+      147
+    ],
+    [
+      143,
+      5
+    ],
+    [
+      132,
+      133
+    ],
+    [
+      133,
+      141
+    ],
+    [
+      133,
+      140
+    ],
+    [
+      133,
+      139
+    ],
+    [
+      134,
+      135
+    ],
+    [
+      135,
+      141
+    ],
+    [
+      135,
+      140
+    ],
+    [
+      135,
+      139
+    ],
+    [
+      136,
+      137
+    ],
+    [
+      137,
+      39
+    ],
+    [
+      39,
+      42
+    ],
+    [
+      39,
+      49
+    ],
+    [
+      42,
+      45
+    ],
+    [
+      45,
+      48
+    ],
+    [
+      48,
+      50
+    ],
+    [
+      48,
+      2
+    ],
+    [
+      50,
+      51
+    ],
+    [
+      51,
+      52
+    ],
+    [
+      52,
+      2
+    ],
+    [
+      152,
+      39
+    ]
+  ]
+}

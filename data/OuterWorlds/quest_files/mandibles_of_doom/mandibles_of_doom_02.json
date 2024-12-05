@@ -1,0 +1,123 @@
+{
+  "id": "mandibles_of_doom_02",
+  "quest_name": "mandibles_of_doom",
+  "conversation": {
+    "filename": "0401_cv_berthold",
+    "start_node": 9,
+    "end_nodes": [],
+    "force_include": [],
+    "force_sequence": []
+  },
+  "in_objective": "O3",
+  "participants": [
+    "berthold_fox"
+  ],
+  "dialog_edges": [
+    [
+      9,
+      10
+    ],
+    [
+      10,
+      21
+    ],
+    [
+      21,
+      36
+    ],
+    [
+      21,
+      13
+    ],
+    [
+      36,
+      37
+    ],
+    [
+      37,
+      38
+    ],
+    [
+      38,
+      44
+    ],
+    [
+      44,
+      21
+    ]
+  ],
+  "dialog": [
+    {
+      "id": 9,
+      "speaker_guid": "c1b89483-595e-4cc8-aad8-1b7dc0d2705a",
+      "speaker": "Berthold Fox (Male)",
+      "utterance": "Hey, Mantiqueen Slayer. Glad you made it in one piece. After all, not everyone's so lucky.",
+      "support_knowledge": [
+        "mantisaur_04"
+      ]
+    },
+    {
+      "id": 10,
+      "speaker_guid": "c1b89483-595e-4cc8-aad8-1b7dc0d2705a",
+      "speaker": "Berthold Fox (Male)",
+      "utterance": "Meet my Corporate Compliance Crew. Then check out our weapons locker inside. I reckon you'll find something you like. ",
+      "support_knowledge": [
+        "O3_B2",
+        "corporate_compliance_group_01"
+      ]
+    },
+    {
+      "id": 21,
+      "speaker_guid": "c1b89483-595e-4cc8-aad8-1b7dc0d2705a",
+      "speaker": "Berthold Fox (Male)",
+      "utterance": "Then we call it even between us.",
+      "support_knowledge": [
+        "O3_S2"
+      ]
+    },
+    {
+      "id": 36,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Kind of odd for a group of mercs to label themselves as a corporate entity.",
+      "support_knowledge": [
+        "corporate_compliance_group_05"
+      ]
+    },
+    {
+      "id": 13,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I'll keep an eye out for that.",
+      "support_knowledge": []
+    },
+    {
+      "id": 37,
+      "speaker_guid": "c1b89483-595e-4cc8-aad8-1b7dc0d2705a",
+      "speaker": "Berthold Fox (Male)",
+      "utterance": "The corporate model is the oldest and most efficient, not to mention stable, structure history has ever shown us. Plus, corporations got certain rights not entailed to individuals.",
+      "support_knowledge": [
+        "corporate_compliance_group_05"
+      ]
+    },
+    {
+      "id": 38,
+      "speaker_guid": "c1b89483-595e-4cc8-aad8-1b7dc0d2705a",
+      "speaker": "Berthold Fox (Male)",
+      "utterance": "I lead the C3s. Addie covers our payroll and expenditures. Lance handles the human capital, and Donald is our charming public face.",
+      "support_knowledge": [
+        "donald_anderson_01",
+        "berthold_fox_02"
+      ]
+    },
+    {
+      "id": 44,
+      "speaker_guid": "c1b89483-595e-4cc8-aad8-1b7dc0d2705a",
+      "speaker": "Berthold Fox (Male)",
+      "utterance": "Our system works - we've racked up more confirmed kills than any other crew you can hire.",
+      "support_knowledge": [
+        "corporate_compliance_group_05"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+ID	fact
+OBJECTIVE O0	
+O0_S1	207:44
+O0_S2	252:66
+O0_B1	577:67
+O0_B2	begin by accepting the quest from Hortense,
+O0_B3	who will give you a key necessary for the quest.
+OBJECTIVE O1	
+O1_S1	355:61
+O1_B1	follow the quest marker and proceed to the terminal that controls the door to the Early Retirement District.
+O1_B2	After the zone transition, go forward, interact with another terminal and take the elevator.
+O1_B3	After you finally arrive at the bottom of the elevator,
+O1_B4	you'll be greeted with a gritty looking basement with several hostile Retirement Facilitation Drones,
+O1_B5	as well as many corpses of the retirees.
+O1_B6	It turns out their idea of 'early retirement' is simply murder.
+OBJECTIVE O2	
+O2_S1	423:57
+O2_S2	481:27
+O2_B1	Destroy the automechanicals or,
+O2_B2	if you have Hack 65, you can sneak to the terminal on the opposite side of the basement and disable them.
+O2_B3	After you destroyed or disabled the automechanicals,
+O2_B4	use the terminal to unlock the maintenance hatch.
+O2_B5	After the zone transition, you'll be in the Maintenance Tunnels.
+O2_B6	If you didn't disable them,
+O2_B7	there will be some more hostile automechanicals in the next room,
+O2_B8	as well as a locked door that requires Lockpick 65.
+O2_B9	You can escape through the barred door in the room on the right and then proceeding to an elevator back to the surface.
+OBJECTIVE O3	
+O3_S1	527:47
+O3_B1	Return to Hortense and deliver the news.
+O3_B2	You can either tell her the truth about the Early Retirement Program
+O3_B3	and then Persuade (100) or Intimidate (65) her into rewarding you more bits.
+O3_B4	One can also Lie (40) to her that the Retirement District is a paradise and encourage her to see for herself,
+O3_B5	with predictable consequences (gains Board positive reputation).
+byzantium	
+byzantium_01	Byzantium is the capital city of Terra 2 and the crown jewel of Halcyon.
+byzantium_02	All the opulence, elegance, and decadence of the colony is concentrated in the city.
+byzantium_03	Its residents are colloquially referred to as gold-bloods.
+byzantium_04	"Referred to as the ""gilded city of the well-to-do"","
+byzantium_05	Byzantium is where every Halcyon colonist wishes they could live.
+byzantium_06	The city is closed off to those without the means to be appropriate residents;
+byzantium_07	it’s a literal gated community with secrets that lesser company workers will simply never learn.
+byzantium_08	The city of Byzantium was built in a radial layout,
+byzantium_09	with streets and docking bays encircling the Halcyon Holdings Corporation headquarters,
+byzantium_10	located in the restricted Acropolis District.
+byzantium_11	Many buildings constructed in Byzantium are well-maintained,
+byzantium_12	and are built in a futuristic Art Nouveau style,
+byzantium_13	as opposed to the simpler prefabricated frontier designs of Edgewater or Stellar Bay.
+byzantium_14	The Acropolis District is a wealthy district for the most prominent citizens of both Byzantium and the entire Halcyon Colony.
+byzantium_15	Located here are the headquarters of the Halcyon Holdings Corporation,
+byzantium_16	housed inside a towering skyscraper.
+byzantium_17	Docking bays for various vessels and ships have been constructed into a large, deep trench encircling the mid-section of Byzantium.
+byzantium_18	Only those individuals with the appropriate navkey are allowed to land on Byzantium's docking bays.
+byzantium_19	A district bordering the Acropolis District,
+byzantium_20	the Estate District is known as the residence of Minister Clarke.
+byzantium_21	Prosperity Plaza is the beating hub of commerce and culture in Byzantium,
+byzantium_22	fronted by famous establishments such as Bijou's Revue, Rococo's Decor, and Billingsly's House of Inebriation.
+byzantium_23	At the center of the plaza is a large decorative orrery in the likeness of the Halcyon system.
+early_retirement_district	
+early_retirement_district_01	Early Retirement District is a location in Byzantium on Terra 2.
+early_retirement_district_02	The early retirement district is where winners of the early retirement program are sent.
+early_retirement_district_03	The idea for the program came from Aloysius Clarke and is endorsed by Charles Rockwell.
+early_retirement_district_04	The early retirement district advertised as an exclusive and luxurious district with various amenities,
+early_retirement_district_05	such as a luxury penthouse.
+early_retirement_district_06	The amenities are said to be complimentary for the entirety of the retirees' stay,
+early_retirement_district_07	courtesy of Halcyon Holdings Corporation,
+early_retirement_district_08	meaning that residents will not have to spend any bits.
+early_retirement_district_09	Some services advertised to be in the district include C&P's Blazin' Boarst Barbecue, Rizzo's All You Can Crunch Cereal Buffet and a Spacer's Choice bar.
+early_retirement_district_10	The retirees are chosen by lottery that anyone can enter,
+early_retirement_district_11	and nobody besides the winners are allowed to enter the district.
+early_retirement_district_12	In reality, however, the retirees are executed upon entry into the lower level of the area by automechanicals.
+early_retirement_district_13	If told the true nature of the program,
+early_retirement_district_14	"Hortense Ingalsbee phrases it as a sham perpetuated by the Board to ""dispose of the rabble"" by removing ""the most burdensome members of our society."""
+early_retirement_district_15	More and more retirees have been sent to their death in the past month to the point that guards outside the district feel like factory workers.
+early_retirement_district_16	Halcyon Holdings Corporation and its subsidiaries are relieved of of all responsibility,
+early_retirement_district_17	because before entering the district,
+early_retirement_district_18	the retirees must sign a liability waiver where they assume all liability for injury, death or loss of personal items.
+halcyon_holdings_corporation	
+halcyon_holdings_corporation_01	"The Halcyon Holdings Corporation (commonly abbreviated as HHC) is the corporation and ""de facto government"" that rules the Halcyon system"
+halcyon_holdings_corporation_02	It is controlled by the Halcyon Holdings Corporate Board,[2]which represents HHC's ten member corporations and effectively serves as Halcyon's ruling council. HHC was formed by the ten corporations specifically to purchase the rights to Halcyon from the Earth Directorate. The names for Halcyon's planets were decided by the HHC.
+hortense_ingalsbee	
+hortense_ingalsbee_01	Hortense Ingalsbee is a wealthy Byzantium citizen found near the entrance to the Halcyon Holdings Corporation.
+hortense_ingalsbee_02	Hortense has her wealth traced back to her grandfather,
+hortense_ingalsbee_03	who worked as the CIO (Chief Idea Officer) for the Tile corporation.
+hortense_ingalsbee_04	She considers herself having earned her place as a successful woman due to this inherited sum and looks down on anyone with few possessions,
+hortense_ingalsbee_05	"thinking of them as ""vagrants""."
+hortense_ingalsbee_06	Some of the other residents of Byzantium do not think highly of her,
+hortense_ingalsbee_07	"calling her a ""tiresome creature"" and saying she always sat on her bench judging others."
+hortense_ingalsbee_08	She is also known among the guards for her griping and criticism.
+hortense_ingalsbee_09	Ingalsbee can be first encountered in the way to Halcyon Holdings Corporation,
+hortense_ingalsbee_10	arguing with a guard over the type of people being allowed into Byzantium.
+hortense_ingalsbee_11	Talking with her, she will voice her frustration at the Early Retirement program the city is offering.
+hortense_ingalsbee_12	If the player takes up her offer to investigate the district,
+hortense_ingalsbee_13	the quest Why Call Them Back From Retirement? will begin.
+hortense_ingalsbee_14	Upon returning from the task,
+hortense_ingalsbee_15	the player can either relay to her the true gruesome nature of the program,
+hortense_ingalsbee_16	which will make her relieved at not missing out on any luxuries,
+hortense_ingalsbee_17	or lie and encourage her to try out the program for herself,
+hortense_ingalsbee_18	in which her deceased corpse can be found in the kill chamber upon revisiting the Retirement District.
+maintenance_tunnels	
+maintenance_tunnels_01	The maintenance tunnels are a location in Byzantium on Terra 2.
+maintenance_tunnels_02	The maintenance tunnels are located beneath the streets of Byzantium and are home to a sprat infestation alongside several hostile mechanical sentries sent to exterminate the sprats.
+the_board	
+the_board_01	The Halcyon Holdings Corporate Board, also simply known as The Board,
+the_board_02	institutes policy and law throughout the Halcyon Colony.
+the_board_03	The details surrounding the board's founding remain largely unknown,
+the_board_04	though its activities suggest that it was originally founded some seventy-odd years ago, give or take.
+the_board_05	In that time, it has managed to terraform Terra I
+the_board_06	(a catastrophic failure due to mutations rendering the wildlife overwhelmingly hostile to human life).
+the_board_07	The Board maintains a very tense relationship with MSI, owing to MSI's democratic ideals and their declared ownership of Monarch.
+the_board_08	As a result, the Board has placed Monarch, and by extension, MSI, under the Hazard Clause, which forbids off-world businesses from doing transactions on Monarch without the correct (and deliberately impossible to complete) documents.
+the_board_09	Depending on the actions of the Stranger, MSI may be compelled to rebel against the Board's authoritarianism.

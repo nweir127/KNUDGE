@@ -1,0 +1,215 @@
+{
+  "id": "the_long_tomorrow_03",
+  "quest_name": "the_long_tomorrow",
+  "conversation": {
+    "filename": "00_cv_esther",
+    "start_node": 85,
+    "end_nodes": [],
+    "force_include": [
+      96,
+      131,
+      133
+    ],
+    "force_sequence": [
+      [
+        96,
+        87
+      ]
+    ]
+  },
+  "in_objective": "O1",
+  "participants": [
+    "esther_blaine"
+  ],
+  "objectives": {
+    "O1": {
+      "summary": "Retrieve the Cache of Medicine",
+      "description": {
+        "S1": "Abernathy believes he's dying.",
+        "S2": "He wants a special cache of anthrocillin,",
+        "S3": "found in the Emerald Vale Community Center.",
+        "S4": "Esther confronted you outside of Abernathy's house,",
+        "S5": "and suggested that you should give the medicine to her instead of Abernathy."
+      },
+      "blurb": {
+        "B1": "You can find the Experimental Anthrocillin in the Emerald Vale Community Center inside the medical area.",
+        "B2": "You'll need the Medical Bay key to get in there,",
+        "B3": "which can be found on one of the Marauders.",
+        "B4": "Once you obtain it you can give it to Esther or Martin."
+      }
+    }
+  },
+  "dialog_edges": [
+    [
+      85,
+      96
+    ],
+    [
+      85,
+      135
+    ],
+    [
+      85,
+      87
+    ],
+    [
+      96,
+      99
+    ],
+    [
+      99,
+      125
+    ],
+    [
+      125,
+      131
+    ],
+    [
+      125,
+      133
+    ],
+    [
+      125,
+      126
+    ],
+    [
+      131,
+      132
+    ],
+    [
+      132,
+      85
+    ],
+    [
+      133,
+      134
+    ],
+    [
+      134,
+      85
+    ],
+    [
+      135,
+      136
+    ],
+    [
+      136,
+      137
+    ],
+    [
+      137,
+      85
+    ]
+  ],
+  "dialog": [
+    {
+      "id": 85,
+      "speaker_guid": "fa2fc2c7-9757-4053-8a4b-70d97699f83b",
+      "speaker": "EstherBlaine (Female)",
+      "utterance": "I've got some time.",
+      "support_knowledge": []
+    },
+    {
+      "id": 96,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I've got that medicine you were after.",
+      "support_knowledge": [
+        "O2_B5"
+      ]
+    },
+    {
+      "id": 135,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "What do you do here?",
+      "support_knowledge": []
+    },
+    {
+      "id": 87,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I'll leave you be.",
+      "support_knowledge": []
+    },
+    {
+      "id": 99,
+      "speaker_guid": "fa2fc2c7-9757-4053-8a4b-70d97699f83b",
+      "speaker": "EstherBlaine (Female)",
+      "utterance": "Thanks. I'll see to it that this medicine gets to the people who need it.",
+      "support_knowledge": [
+        "O2_B7"
+      ]
+    },
+    {
+      "id": 125,
+      "speaker_guid": "fa2fc2c7-9757-4053-8a4b-70d97699f83b",
+      "speaker": "EstherBlaine (Female)",
+      "utterance": "Here - something for your trouble. Nothing personal, but I hope we never do business together again. Don't want to make a habit of consorting with smuggler types.",
+      "support_knowledge": [
+        "O2_B5"
+      ]
+    },
+    {
+      "id": 131,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "It's not that simple. You want my silence, you're going to have to buy it.",
+      "support_knowledge": [
+        "O2_B6"
+      ]
+    },
+    {
+      "id": 133,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Never? That's harsh. At least leave me something to remember you by.",
+      "support_knowledge": [
+        "O2_B6"
+      ]
+    },
+    {
+      "id": 126,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Thanks, I guess.",
+      "support_knowledge": []
+    },
+    {
+      "id": 132,
+      "speaker_guid": "fa2fc2c7-9757-4053-8a4b-70d97699f83b",
+      "speaker": "EstherBlaine (Female)",
+      "utterance": "And there it is. The reason I don't like depending on a criminal. I kept a little contingency fee in case you decided to shake me down.",
+      "support_knowledge": [
+        "O2_B6"
+      ]
+    },
+    {
+      "id": 134,
+      "speaker_guid": "fa2fc2c7-9757-4053-8a4b-70d97699f83b",
+      "speaker": "EstherBlaine (Female)",
+      "utterance": "You do have some cheek on you. Lucky for you, I kept a little contingency fee in case you tried to negotiate with me.",
+      "support_knowledge": [
+        "O2_B6"
+      ]
+    },
+    {
+      "id": 136,
+      "speaker_guid": "fa2fc2c7-9757-4053-8a4b-70d97699f83b",
+      "speaker": "EstherBlaine (Female)",
+      "utterance": "Oh, I'm an actuary. That means I keep tabs on a worker's living expenses. How much it costs to feed, clothe, shelter, bury, and replace your average human worker.",
+      "support_knowledge": [
+        "esther_blaine_02"
+      ]
+    },
+    {
+      "id": 137,
+      "speaker_guid": "fa2fc2c7-9757-4053-8a4b-70d97699f83b",
+      "speaker": "EstherBlaine (Female)",
+      "utterance": "Technically, I'm employed by the Spacer's Choice Department of Human Resources. ",
+      "support_knowledge": [
+        "esther_blaine_03"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+ID	fact
+OBJECTIVE O0	
+O0_S1	170:49
+O0_S2	220:49
+O0_S3	270:76
+O0_B1	1035:116
+O0_B2	1152:49
+O0_B3	1202:51
+O0_B4	He will explain that he has been running a drug delivery operation,
+O0_B5	and has been using sprats as carriers.
+O0_B6	However, some of the sprats have gone missing.
+O0_B7	You can convince him to give you a 35% cut in exchange for helping him find them.
+OBJECTIVE O1	
+O1_S1	Nelson's sprat carriers run their secretive routes though SubLight's shipping tunnels.
+O1_S2	469:66
+OBJECTIVE O2	
+O2_S1	730:108
+O2_B1	Go back to Nelson and you can either give him the drugs or lie (50) and keep the drug consumables.
+O2_B2	He will notice that half of the drugs are still missing.
+O2_B3	He tells you to search Fallbrook for the other half.
+OBJECTIVE O3	
+O3_S1	870:100
+O3_S2	971:50
+O3_S3	1022:10
+O3_B1	1719:41
+O3_B2	1719:41
+O3_B3	1761:63
+OBJECTIVE O4	
+O4_S1	Bertrand stole from SubLight.
+O4_S2	You'll need to decide what to do with him before returning to Nelson.
+O4_B1	1825:17
+O4_B2	1843:48
+O4_B3	1892:64
+O4_B4	1957:14
+O4_B5	1972:46
+OBJECTIVE O5	
+O5_S1	Now that you've collected the remaining drugs for Nelson Mayson,
+O5_S2	return to him for a cut of the profits.
+O5_B1	Head back to Nelson and you again can give him the drugs,
+O5_B2	2077:7
+O5_B3	2085:33
+bertrand	
+bertrand_01	Bertrand runs an animal rescue in his domicile in Fallbrook.
+bertrand_02	He pitied the sprats Nelson Mayson was using to smuggle drugs through Fallbrook tunnels,
+bertrand_03	so he stole them and brought them home with him.
+catherine_malin	
+catherine_malin_01	Catherine Malin is the outpost administrator of Fallbrook and owner of Malin's House of Hospitality.
+catherine_malin_02	"Catherine, acting on behalf of SubLight Salvage and Shipping Corporation, is the ""top dog"" in Fallbrook, and a mastermind behind it's construction."
+catherine_malin_03	She is known for a violent temper and won't hesitate to hire a hitman to get somebody whacked.
+catherine_malin_04	Sanjar Nandi is afraid of Catherine.
+catherine_malin_05	According to him, she has certain ambitions for Stellar Bay and Sanjar fears asking her for help during Errors Unseen because it may give her the leverage she has been looking for.
+catherine_malin_06	Celia, his assistant, tries to calm him down and says it's perfectly normal to have a healthy fear of her.
+fallbrook	
+fallbrook_01	Fallbrook is a company town located on Monarch,
+fallbrook_02	loosely run by the SubLight Salvage and Shipping Corporation.
+fallbrook_03	Fallbrook is a small town built into the side of a mountain,
+fallbrook_04	whose construction was masterminded by Catherine Malin.
+fallbrook_05	Fallbrook has a lot of activities to offer to its visitors,
+fallbrook_06	from those who search for activities of leisure to those with proclivities for vice.
+nelson_mayson	
+nelson_mayson_01	Nelson Mayson is a SubLight employee operating in Fallbrook.
+nelson_mayson_02	Nelson works for the SubLight Salvage and Shipping Corporation.
+nelson_mayson_03	Officially, he keeps the books for Catherine Malin,
+nelson_mayson_04	provides loans to the Byzantium gold-bloods for gaming,
+nelson_mayson_05	and oversees Fallbrook's drug-running operations.
+sprat	
+sprat_01	Sprats are a rat-like creature found across every human colony world.
+sprat_02	Sprat is an abbreviated contraction of Space Rat.
+sprat_03	Sprats are small, gecko-like creatures that are often treated as vermin by the residents of the Halcyon Colony.
+sprat_04	Bertrand, with a blessing from Catherine Malin, oversees an animal rescue service in Fallbrook.
+sprat_05	He is responsible for spaying and feeding sprats under his care and he didn't hesitate to capture and save sprats Nelson Mayson was using to smuggle drugs.
+sprat_06	Sprats are voracious omnivores and are known to occasionally attack humans if there are enough sprats to swarm.
+sublight	
+sublight_01	"The SubLight Salvage and Shipping Corporation, also known as SubLight Salvage and Shipping or simply SubLight , is a network of ""salvagers"" with business ties to ""transportation"" and ""waste disposal""."
+sublight_02	A tangled web of contractors and secretive vice presidents make up their official hierarchy,
+sublight_03	leaving no one to speak on the record about SubLight's more legally dubious activities.
+sublight_04	SubLight as a business operates activities that would be considered illicit by some,
+sublight_05	amoral by others,
+sublight_06	and at odds with the Board,
+sublight_07	such as the takeover of abandoned space habitats,
+sublight_08	smuggling contraband,
+sublight_09	and serving as a front for companies to bypass the infamous Hazard Clause applied on Monarch.
+sublight_10	According to director Lilya Hagen,
+sublight_11	operating off of Groundbreaker,
+sublight_12	"SubLight ""occupies a legal blind spot."
+sublight_13	No one knows what [they're] licensed to do,
+sublight_14	"and that gives [their] little business some freedom."""
+sublight_15	Although the Board tolerates and sees the value of SubLight's activities,
+sublight_16	there are still limits to what the latter can get away with.
+sublight_17	SubLight maintains an office aboard the Groundbreaker as well as a settlement on Monarch known as Fallbrook.

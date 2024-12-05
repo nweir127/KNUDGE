@@ -1,0 +1,57 @@
+[
+  {
+    "id": "the_lying_earth_00",
+    "quest_name": "the_lying_earth",
+    "conversation": {
+      "filename": "0202_cv_minister_of_earth",
+      "start_node": 89,
+      "end_nodes": [],
+      "force_include": [],
+      "force_sequence": []
+    },
+    "in_objective": "O0",
+    "out_objective": "O1",
+    "participants": [
+      "aloysius_clarke"
+    ]
+  },
+  {
+    "id": "the_lying_earth_01",
+    "quest_name": "the_lying_earth",
+    "conversation": {
+      "filename": "0203_cv_guard_bachmeyer",
+      "start_node": 20,
+      "end_nodes": [],
+      "force_include": [
+        9
+      ],
+      "force_sequence": []
+    },
+    "in_objective": "O1",
+    "out_objective": "O1",
+    "participants": [
+      "guard_bachmeyer"
+    ]
+  },
+  {
+    "id": "the_lying_earth_02",
+    "quest_name": "the_lying_earth",
+    "conversation": {
+      "filename": "0203_cv_chairman_assistant",
+      "start_node": 66,
+      "end_nodes": [],
+      "force_include": [],
+      "force_sequence": [
+        [
+          261,
+          269
+        ]
+      ]
+    },
+    "in_objective": "O1",
+    "out_objective": "O1",
+    "participants": [
+      "percival_platt"
+    ]
+  }
+]

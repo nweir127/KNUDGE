@@ -1,0 +1,52 @@
+{
+     "id": "forgetful_funes_03",
+     "quest_name": "forgetful_funes",
+     "conversation": null,
+     "in_objective": "O3",
+     "out_objective": "O4",
+     "participants": [
+          "funes_menard"
+     ],
+     "objectives": {
+          "O3": {
+               "summary": "Speak to Funes",
+               "description": {
+                    "S1": "Return to Funes with the Remembery."
+               },
+               "blurb": {
+                    "B1": "Returning to Funes the Stranger can either administer the dose or try to bargain for an additional payout.",
+                    "B2": "Either way, the cure is highly concentrated and without the follow-up drugs described in Dash's journal it causes an overdose,",
+                    "B3": "leaving Funes with such perfect memory that he can't tell what's happening now versus what happened in the past.",
+                    "B4": "Regardless, Funes regains access to his terminal and hands over the records on Fergus.",
+                    "B5": "The report, written by someone named Nolan,",
+                    "B6": "describes Fergus as a legendary hero slain in a theater by unknown assailants.",
+                    "B7": "Through his heroic acts and self-sacrifice,",
+                    "B8": "Fergus became an inspiration to the loyalists and remains so to this day."
+               }
+          },
+          "O4": {
+               "summary": "Return to Clara",
+               "description": {
+                    "S1": "Return to Clara with Funes' records on Uncle Fergus"
+               },
+               "blurb": {
+                    "B1": "The Stranger then returns the records to Clara."
+               }
+          }
+     },
+     "dialog": [
+          {
+               "id": 0,
+               "speaker_guid": "funes_menard",
+               "speaker": "Funes Menard",
+               "utterance": "Who the hell are ya? I'd obviously remember if you were important. Or unimportant, for that matter.",
+               "support_knowledge": [
+                    "funes_menard_2",
+                    "funes_menard_3",
+                    "funes_menard_4",
+                    "funes_menard_20"
+               ]
+          }
+     ],
+     "dialog_edges": []
+}

@@ -1,0 +1,213 @@
+{
+  "id": "a_family_matter_02",
+  "quest_name": "a_family_matter",
+  "conversation": {
+    "filename": "0402_cv_agnes_needham",
+    "start_node": 19,
+    "end_nodes": [
+      172
+    ],
+    "force_include": [
+      21
+    ]
+  },
+  "in_objective": [
+    "O3"
+  ],
+  "participants": [
+    "tucker_needham",
+    "agnes_needham"
+  ],
+  "dialog_edges": [
+    [
+      19,
+      21
+    ],
+    [
+      21,
+      23
+    ],
+    [
+      23,
+      110
+    ],
+    [
+      23,
+      111
+    ],
+    [
+      23,
+      92
+    ],
+    [
+      110,
+      112
+    ],
+    [
+      112,
+      114
+    ],
+    [
+      114,
+      97
+    ],
+    [
+      97,
+      99
+    ],
+    [
+      111,
+      113
+    ],
+    [
+      113,
+      115
+    ],
+    [
+      115,
+      97
+    ],
+    [
+      92,
+      95
+    ],
+    [
+      95,
+      97
+    ]
+  ],
+  "dialog": [
+    {
+      "id": 19,
+      "speaker_guid": "035cf22d-5090-4ff6-9c77-dcdbd9d397a6",
+      "speaker": "Agnes_Needham (Female)",
+      "utterance": "Oh, Captain, you did it! My little boy is back, safe and sound! Tell the Captain how grateful we are, Tuck-tuck!",
+      "support_knowledge": [
+        "O3_S1",
+        "O3_B1",
+        "agnes_needham_03"
+      ]
+    },
+    {
+      "id": 21,
+      "speaker_guid": "a837fbdf-1d17-4795-a09a-f39932aacd2e",
+      "speaker": "Tucker_Needham (Male)",
+      "utterance": "Mama, I told you that I'm not staying. I just came back to talk to you about why I left. Then I'm going back to Amber Heights.",
+      "support_knowledge": [
+        "O3_S1",
+        "tucker_needham_01"
+      ]
+    },
+    {
+      "id": 23,
+      "speaker_guid": "035cf22d-5090-4ff6-9c77-dcdbd9d397a6",
+      "speaker": "Agnes_Needham (Female)",
+      "utterance": "Oh, we'll get that silliness sorted out. You're safe here with me, and that's how it's going to stay. Isn't that right?",
+      "support_knowledge": [
+        "O3_B1",
+        "agnes_needham_03",
+        "tucker_needham_05"
+      ]
+    },
+    {
+      "id": 110,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "You two need to work this out between you.",
+      "support_knowledge": []
+    },
+    {
+      "id": 111,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Your son is a grown man. It's time you started treating him like one.",
+      "support_knowledge": [
+        "O3_B2",
+        "O3_B3",
+        "agnes_needham_03"
+      ]
+    },
+    {
+      "id": 92,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "You mentioned a reward for bringing Tucker home?",
+      "support_knowledge": [
+        "O3_S2"
+      ]
+    },
+    {
+      "id": 112,
+      "speaker_guid": "035cf22d-5090-4ff6-9c77-dcdbd9d397a6",
+      "speaker": "Agnes_Needham (Female)",
+      "utterance": "There's nothing to work out. My baby's back home and that's all there is to say on the matter.",
+      "support_knowledge": [
+        "O3_B1",
+        "agnes_needham_03"
+      ]
+    },
+    {
+      "id": 114,
+      "speaker_guid": "a837fbdf-1d17-4795-a09a-f39932aacd2e",
+      "speaker": "Tucker_Needham (Male)",
+      "utterance": "No, mama. I have plenty to say about this. But that's between us. Now, you promised the captain a reward so settle up. Then you and me can have a long talk.",
+      "support_knowledge": [
+        "O3_S2",
+        "O3_B4",
+        "O3_B5",
+        "agnes_needham_01"
+      ]
+    },
+    {
+      "id": 97,
+      "speaker_guid": "035cf22d-5090-4ff6-9c77-dcdbd9d397a6",
+      "speaker": "Agnes_Needham (Female)",
+      "utterance": "Here, kind stranger. This is every bit I've scrimped and scraped for years to save. But it's more than worth it to have my Tuck-tuck home safe again.",
+      "support_knowledge": [
+        "O3_S2",
+        "O3_B1",
+        "O3_B5"
+      ]
+    },
+    {
+      "id": 99,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Good luck to you both.",
+      "support_knowledge": []
+    },
+    {
+      "id": 113,
+      "speaker_guid": "035cf22d-5090-4ff6-9c77-dcdbd9d397a6",
+      "speaker": "Agnes_Needham (Female)",
+      "utterance": "What a sour thing to say. My little boy will always need me. I'm his mama, you know.",
+      "support_knowledge": [
+        "O3_S1",
+        "O3_B1",
+        "agnes_needham_03"
+      ]
+    },
+    {
+      "id": 115,
+      "speaker_guid": "a837fbdf-1d17-4795-a09a-f39932aacd2e",
+      "speaker": "Tucker_Needham (Male)",
+      "utterance": "Mama, what I need is for you to listen to what I want for once. But that's between us. Now, you promised the captain a reward so settle up. Then you and me are going to have a long talk.",
+      "support_knowledge": [
+        "O3_S2",
+        "O3_B1",
+        "O3_B4",
+        "O3_B5"
+      ]
+    },
+    {
+      "id": 95,
+      "speaker_guid": "035cf22d-5090-4ff6-9c77-dcdbd9d397a6",
+      "speaker": "Agnes_Needham (Female)",
+      "utterance": "I did, didn't I? Suppose I can't expect you to just be content at a good deed done... No? Well, all right.",
+      "support_knowledge": [
+        "O3_S2",
+        "O3_B5"
+      ]
+    }
+  ]
+}

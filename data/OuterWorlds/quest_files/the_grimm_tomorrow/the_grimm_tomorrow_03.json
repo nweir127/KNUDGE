@@ -1,0 +1,106 @@
+{
+  "id": "the_grimm_tomorrow_03",
+  "quest_name": "the_grimm_tomorrow",
+  "conversation": {
+    "filename": "0402_cv_grimm",
+    "start_node": 228,
+    "end_nodes": [
+      261,
+      232
+    ],
+    "force_include": [
+      259
+    ],
+    "force_sequence": []
+  },
+  "in_objective": "O3",
+  "participants": [
+    "grimm"
+  ],
+  "dialog_edges": [
+    [
+      228,
+      259
+    ],
+    [
+      228,
+      307
+    ],
+    [
+      259,
+      267
+    ],
+    [
+      267,
+      322
+    ],
+    [
+      322,
+      270
+    ],
+    [
+      307,
+      308
+    ],
+    [
+      308,
+      228
+    ]
+  ],
+  "dialog": [
+    {
+      "id": 228,
+      "speaker_guid": "813006e9-4919-421c-8616-b7e5d70f0482",
+      "speaker": "Grimm (Male)",
+      "utterance": "Have you had time to check on that poster yet? I keep wondering if it's come in.",
+      "support_knowledge": [
+        "O0_S1"
+      ]
+    },
+    {
+      "id": 259,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "<Give him the poster.> Here it is.",
+      "support_knowledge": []
+    },
+    {
+      "id": 307,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "You know, you really are a little too persistent about this.",
+      "support_knowledge": []
+    },
+    {
+      "id": 267,
+      "speaker_guid": "813006e9-4919-421c-8616-b7e5d70f0482",
+      "speaker": "Grimm (Male)",
+      "utterance": "Would you look at that! The Rizzo's logo is nice and bright, and you can still smell the ink in Mr. Holcomb's signature!",
+      "support_knowledge": [
+        "grimm_02",
+        "signed_tossball_poster_02"
+      ]
+    },
+    {
+      "id": 322,
+      "speaker_guid": "813006e9-4919-421c-8616-b7e5d70f0482",
+      "speaker": "Grimm (Male)",
+      "utterance": "I can't thank you enough. Still, you can have the bits I was gonna spend at the bar this week.",
+      "support_knowledge": []
+    },
+    {
+      "id": 270,
+      "speaker_guid": "813006e9-4919-421c-8616-b7e5d70f0482",
+      "speaker": "Grimm (Male)",
+      "utterance": "And you know what? Take my old tossball blocker, too. Never get the chance to use it these days.",
+      "support_knowledge": []
+    },
+    {
+      "id": 308,
+      "speaker_guid": "813006e9-4919-421c-8616-b7e5d70f0482",
+      "speaker": "Grimm (Male)",
+      "utterance": "Sorry, I just get so excited. And I always feel like I miss everything that happens in town while I'm up here.",
+      "support_knowledge": []
+    }
+  ]
+}

@@ -1,0 +1,166 @@
+[
+  {
+    "id": "a_small_grave_matter_00",
+    "quest_name": "a_small_grave_matter",
+    "conversation": {
+      "filename": "00_cv_silas",
+      "start_node": 176,
+      "end_nodes": [],
+      "force_include": [
+        216,
+        34
+      ],
+      "force_sequence": [
+        [
+          216,
+          74
+        ]
+      ]
+    },
+    "in_objective": "O0",
+    "out_objective": [
+      "O1",
+      "O2",
+      "O3",
+      "O4"
+    ],
+    "participants": [
+      "silas"
+    ]
+  },
+  {
+    "id": "a_small_grave_matter_01",
+    "quest_name": "a_small_grave_matter",
+    "conversation": {
+      "filename": "00_cv_ludwig",
+      "start_node": 1,
+      "end_nodes": [],
+      "force_include": [
+        4,
+        180,
+        5
+      ],
+      "force_sequence": []
+    },
+    "in_objective": "O1",
+    "out_objective": "O5",
+    "participants": [
+      "ludwig_miller"
+    ]
+  },
+  {
+    "id": "a_small_grave_matter_02",
+    "quest_name": "a_small_grave_matter",
+    "conversation": {
+      "filename": "00_cv_phyllis",
+      "start_node": 1,
+      "end_nodes": [],
+      "force_include": [
+        5
+      ],
+      "force_sequence": []
+    },
+    "in_objective": "O4",
+    "out_objective": "O5",
+    "participants": [
+      "phyllis_granger"
+    ]
+  },
+  {
+    "id": "a_small_grave_matter_03",
+    "quest_name": "a_small_grave_matter",
+    "conversation": {
+      "filename": "00_cv_conrad",
+      "start_node": 2,
+      "end_nodes": [],
+      "force_include": [
+        17,
+        4,
+        22,
+        24,
+        34,
+        37,
+        131,
+        143,
+        128
+      ],
+      "force_sequence": []
+    },
+    "in_objective": "O2",
+    "out_objective": "O2",
+    "participants": [
+      "conrad_sadik"
+    ]
+  },
+  {
+    "id": "a_small_grave_matter_04",
+    "quest_name": "a_small_grave_matter",
+    "conversation": {
+      "filename": "00_cv_conrad",
+      "start_node": 128,
+      "end_nodes": [
+        140,
+        17
+      ],
+      "force_include": [
+        4,
+        22,
+        24,
+        34,
+        131,
+        143
+      ],
+      "force_sequence": []
+    },
+    "in_objective": "O2",
+    "out_objective": "O5",
+    "participants": [
+      "conrad_sadik"
+    ]
+  },
+  {
+    "id": "a_small_grave_matter_05",
+    "quest_name": "a_small_grave_matter",
+    "conversation": {
+      "filename": "00_cv_abernathy",
+      "start_node": 225,
+      "end_nodes": [
+        113,
+        176
+      ],
+      "force_include": [
+        71
+      ],
+      "force_sequence": []
+    },
+    "in_objective": "O3",
+    "out_objective": "O5",
+    "participants": [
+      "martin_abernathy"
+    ]
+  },
+  {
+    "id": "a_small_grave_matter_06",
+    "quest_name": "a_small_grave_matter",
+    "conversation": {
+      "filename": "00_cv_silas",
+      "start_node": 117,
+      "end_nodes": [
+        93,
+        48,
+        30,
+        122
+      ],
+      "force_include": [
+        28,
+        119,
+        27
+      ],
+      "force_sequence": []
+    },
+    "in_objective": "O5",
+    "participants": [
+      "silas"
+    ]
+  }
+]

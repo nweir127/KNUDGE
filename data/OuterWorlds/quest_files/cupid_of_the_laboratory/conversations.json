@@ -1,0 +1,35 @@
+[
+  {
+    "id": "cupid_of_the_laboratory_00",
+    "quest_name": "cupid_of_the_laboratory",
+    "conversation": {
+      "filename": "02_cv_sprat_scientist",
+      "start_node": 102,
+      "end_nodes": [],
+      "force_include": [],
+      "force_sequence": []
+    },
+    "in_objective": "O0",
+    "out_objective": "O1",
+    "participants": [
+      "giles_molina"
+    ]
+  },
+  {
+    "id": "cupid_of_the_laboratory_01",
+    "quest_name": "cupid_of_the_laboratory",
+    "conversation": {
+      "filename": "02_cv_sprat_scientist",
+      "start_node": 84,
+      "end_nodes": [],
+      "force_include": [
+        85
+      ],
+      "force_sequence": []
+    },
+    "in_objective": "O2",
+    "participants": [
+      "giles_molina"
+    ]
+  }
+]

@@ -1,0 +1,624 @@
+{
+  "id": "a_small_grave_matter_02",
+  "quest_name": "a_small_grave_matter",
+  "conversation": {
+    "filename": "00_cv_phyllis",
+    "start_node": 1,
+    "end_nodes": [],
+    "force_include": [
+      5
+    ],
+    "force_sequence": []
+  },
+  "in_objective": "O4",
+  "out_objective": "O5",
+  "participants": [
+    "phyllis_granger"
+  ],
+  "objectives": {
+    "O4": {
+      "summary": "Collect Phyllis's Gravesite Fees",
+      "description": {
+        "S1": "Phyllis is one of the four people Silas sent you to collect from.",
+        "S2": "She works as a supervisor in the Edgewater cannery."
+      },
+      "blurb": {
+        "B1": "Phyllis Granger can be found at the Saltuna Cannery, on the upper ramparts.",
+        "B2": "She is the foreman and not a pleasant conversationalist,",
+        "B3": "so get to the point and ask her about the gravesite fees.",
+        "B4": "She will immediately pay up.",
+        "B5": "You will notice that the papers are not signed in her name.",
+        "B6": "She will reveal she's paying for one of her worker's grave.",
+        "B7": "Since Eugene \"vandalized company property\" by killing himself,",
+        "B8": "Phyllis has to pay for discovering it."
+      }
+    },
+    "O5": {
+      "summary": "Return to Silas",
+      "description": {
+        "S1": "You finished collecting gravesite fees from the people of Edgewater.",
+        "S2": "Return to Silas."
+      },
+      "blurb": {
+        "B1": "After gathering all the gravesite fees,",
+        "B2": "return to Silas to receive a reward of 300 bits.",
+        "B3": "With a Persuade 6 check, Silas will agree to upping the reward by 150 bits."
+      }
+    }
+  },
+  "dialog_edges": [
+    [
+      1,
+      2
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      2,
+      5
+    ],
+    [
+      2,
+      7
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      4,
+      2
+    ],
+    [
+      5,
+      6
+    ],
+    [
+      6,
+      9
+    ],
+    [
+      9,
+      10
+    ],
+    [
+      10,
+      12
+    ],
+    [
+      10,
+      11
+    ],
+    [
+      12,
+      13
+    ],
+    [
+      13,
+      15
+    ],
+    [
+      15,
+      16
+    ],
+    [
+      16,
+      18
+    ],
+    [
+      16,
+      7
+    ],
+    [
+      18,
+      20
+    ],
+    [
+      20,
+      21
+    ],
+    [
+      21,
+      22
+    ],
+    [
+      21,
+      23
+    ],
+    [
+      21,
+      7
+    ],
+    [
+      22,
+      17
+    ],
+    [
+      17,
+      27
+    ],
+    [
+      27,
+      31
+    ],
+    [
+      27,
+      32
+    ],
+    [
+      27,
+      99
+    ],
+    [
+      31,
+      33
+    ],
+    [
+      33,
+      35
+    ],
+    [
+      35,
+      37
+    ],
+    [
+      35,
+      36
+    ],
+    [
+      35,
+      100
+    ],
+    [
+      37,
+      38
+    ],
+    [
+      38,
+      40
+    ],
+    [
+      40,
+      41
+    ],
+    [
+      41,
+      7
+    ],
+    [
+      36,
+      39
+    ],
+    [
+      39,
+      40
+    ],
+    [
+      100,
+      40
+    ],
+    [
+      32,
+      34
+    ],
+    [
+      34,
+      35
+    ],
+    [
+      99,
+      102
+    ],
+    [
+      102,
+      34
+    ],
+    [
+      23,
+      25
+    ],
+    [
+      25,
+      28
+    ],
+    [
+      25,
+      103
+    ],
+    [
+      28,
+      29
+    ],
+    [
+      29,
+      27
+    ],
+    [
+      103,
+      29
+    ],
+    [
+      11,
+      14
+    ],
+    [
+      14,
+      15
+    ]
+  ],
+  "dialog": [
+    {
+      "id": 1,
+      "speaker_guid": "112aa0fb-fe4f-4639-9fbd-51dd7dfc9465",
+      "speaker": "PhyllisGranger (Female)",
+      "utterance": "You the new worker?",
+      "support_knowledge": [
+        "phyllis_granger_02",
+        "phyllis_granger_03"
+      ]
+    },
+    {
+      "id": 2,
+      "speaker_guid": "112aa0fb-fe4f-4639-9fbd-51dd7dfc9465",
+      "speaker": "PhyllisGranger (Female)",
+      "utterance": "Whatever. Make it quick, tenderfoot. I'm busy.",
+      "support_knowledge": [
+        "O4_B2",
+        "phyllis_granger_03"
+      ]
+    },
+    {
+      "id": 3,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I'm guessing you're the foreman.",
+      "support_knowledge": [
+        "phyllis_granger_01"
+      ]
+    },
+    {
+      "id": 5,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Gravesite fees. I'm here to collect.",
+      "support_knowledge": [
+        "O4_B3"
+      ]
+    },
+    {
+      "id": 7,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I'll let you get back to work.",
+      "support_knowledge": []
+    },
+    {
+      "id": 4,
+      "speaker_guid": "112aa0fb-fe4f-4639-9fbd-51dd7dfc9465",
+      "speaker": "PhyllisGranger (Female)",
+      "utterance": "Foreman Granger. Mind those words don't come out of your mouth unless preceded by \"Yes,\" or \"Right away,\" or \"Thank you.\"",
+      "support_knowledge": [
+        "O4_B2",
+        "phyllis_granger_03"
+      ]
+    },
+    {
+      "id": 6,
+      "speaker_guid": "112aa0fb-fe4f-4639-9fbd-51dd7dfc9465",
+      "speaker": "PhyllisGranger (Female)",
+      "utterance": "Shit. Silas still on about that? Here, take the fees. I'd appreciate it if you didn't tell Reed I was late on my payment. ",
+      "support_knowledge": [
+        "O4_B4",
+        "phyllis_granger_05"
+      ]
+    },
+    {
+      "id": 9,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "These papers aren't signed in your name.",
+      "support_knowledge": [
+        "O4_B5"
+      ]
+    },
+    {
+      "id": 10,
+      "speaker_guid": "112aa0fb-fe4f-4639-9fbd-51dd7dfc9465",
+      "speaker": "PhyllisGranger (Female)",
+      "utterance": "Because they're not my fees and not my gravesite. Guy I worked with shot himself. I paid the bill.",
+      "support_knowledge": [
+        "O4_B6",
+        "eugene_04"
+      ]
+    },
+    {
+      "id": 12,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "That's kind of you. I guess.",
+      "support_knowledge": []
+    },
+    {
+      "id": 11,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "You have to pay for your neighbor's gravesite fees?",
+      "support_knowledge": [
+        "phyllis_granger_09",
+        "phyllis_granger_10"
+      ]
+    },
+    {
+      "id": 13,
+      "speaker_guid": "112aa0fb-fe4f-4639-9fbd-51dd7dfc9465",
+      "speaker": "PhyllisGranger (Female)",
+      "utterance": "I could do without the sarcasm. Wasn't acting out of the goodness of my heart.",
+      "support_knowledge": [
+        "O4_B6",
+        "eugene_04",
+        "phyllis_granger_09",
+        "phyllis_granger_10"
+      ]
+    },
+    {
+      "id": 15,
+      "speaker_guid": "112aa0fb-fe4f-4639-9fbd-51dd7dfc9465",
+      "speaker": "PhyllisGranger (Female)",
+      "utterance": "Law requires delinquent gravesite fees to be paid by the deceased party's closest living relative. Which meant me.",
+      "support_knowledge": [
+        "O4_B8",
+        "phyllis_granger_09",
+        "phyllis_granger_10"
+      ]
+    },
+    {
+      "id": 16,
+      "speaker_guid": "112aa0fb-fe4f-4639-9fbd-51dd7dfc9465",
+      "speaker": "PhyllisGranger (Female)",
+      "utterance": "Shame, though. Eugene was a good worker.",
+      "support_knowledge": [
+        "phyllis_granger_03"
+      ]
+    },
+    {
+      "id": 18,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "You said this guy shot himself?",
+      "support_knowledge": [
+        "eugene_04"
+      ]
+    },
+    {
+      "id": 20,
+      "speaker_guid": "112aa0fb-fe4f-4639-9fbd-51dd7dfc9465",
+      "speaker": "PhyllisGranger (Female)",
+      "utterance": "Woke up one morning and put a round through his upper story. Can't imagine why. The kid was doing all right at his desk. We all thought he was an upstanding receptionist.",
+      "support_knowledge": [
+        "eugene_04",
+        "phyllis_granger_03"
+      ]
+    },
+    {
+      "id": 21,
+      "speaker_guid": "112aa0fb-fe4f-4639-9fbd-51dd7dfc9465",
+      "speaker": "PhyllisGranger (Female)",
+      "utterance": "Just between the two of us, I'm pretty shocked his weapon didn't misfire. Spacer's Choice handguns aren't the most reliable.",
+      "support_knowledge": [
+        "phyllis_granger_06",
+        "phyllis_granger_07"
+      ]
+    },
+    {
+      "id": 22,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "That's an awful thing to say.",
+      "support_knowledge": [
+        "phyllis_granger_03"
+      ]
+    },
+    {
+      "id": 23,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Must be tough losing family.",
+      "support_knowledge": []
+    },
+    {
+      "id": 17,
+      "speaker_guid": "112aa0fb-fe4f-4639-9fbd-51dd7dfc9465",
+      "speaker": "PhyllisGranger (Female)",
+      "utterance": "Not half as awful as the bill Eugene left us with.",
+      "support_knowledge": [
+        "eugene_07",
+        "eugene_08",
+        "phyllis_granger_10"
+      ]
+    },
+    {
+      "id": 27,
+      "speaker_guid": "112aa0fb-fe4f-4639-9fbd-51dd7dfc9465",
+      "speaker": "PhyllisGranger (Female)",
+      "utterance": "Suicide's a crime. The legal term is irreparable damage to company property. What Eugene did to himself was vandalism.",
+      "support_knowledge": [
+        "eugene_07"
+      ]
+    },
+    {
+      "id": 31,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "You can't be serious.",
+      "support_knowledge": []
+    },
+    {
+      "id": 32,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "What are they gonna do? Arrest his corpse?",
+      "support_knowledge": [
+        "eugene_07"
+      ]
+    },
+    {
+      "id": 99,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Vandalism, huh? Did you have to clean bits of him off the wall or something?",
+      "support_knowledge": [
+        "eugene_07"
+      ]
+    },
+    {
+      "id": 33,
+      "speaker_guid": "112aa0fb-fe4f-4639-9fbd-51dd7dfc9465",
+      "speaker": "PhyllisGranger (Female)",
+      "utterance": "I'm plenty serious. In fact I'm a little upset Eugene didn't think things through. ",
+      "support_knowledge": [
+        "eugene_07",
+        "eugene_08",
+        "phyllis_granger_03"
+      ]
+    },
+    {
+      "id": 35,
+      "speaker_guid": "112aa0fb-fe4f-4639-9fbd-51dd7dfc9465",
+      "speaker": "PhyllisGranger (Female)",
+      "utterance": "In other words, Edgewater would've been penalized pretty hard. Whatever Eugene was worth as an asset, we would've had to pay out of pocket to Spacer's Choice.",
+      "support_knowledge": [
+        "eugene_05",
+        "eugene_06",
+        "eugene_07",
+        "eugene_08",
+        "phyllis_granger_16"
+      ]
+    },
+    {
+      "id": 37,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "He was a person, not an asset.",
+      "support_knowledge": [
+        "phyllis_granger_03",
+        "phyllis_granger_16"
+      ]
+    },
+    {
+      "id": 36,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Would've? You didn't?",
+      "support_knowledge": []
+    },
+    {
+      "id": 100,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "This Eugene guy sounds like he was more trouble than he's worth.",
+      "support_knowledge": []
+    },
+    {
+      "id": 38,
+      "speaker_guid": "112aa0fb-fe4f-4639-9fbd-51dd7dfc9465",
+      "speaker": "PhyllisGranger (Female)",
+      "utterance": "Well excuse you. I'll have you know Eugene was an asset to us all. May his atoms be commended to the Law.",
+      "support_knowledge": [
+        "phyllis_granger_16",
+        "phyllis_granger_17",
+        "phyllis_granger_18"
+      ]
+    },
+    {
+      "id": 40,
+      "speaker_guid": "112aa0fb-fe4f-4639-9fbd-51dd7dfc9465",
+      "speaker": "PhyllisGranger (Female)",
+      "utterance": "All I know is Silas asked me for Eugene's gravesite fees. Which means he was approved for burial. Which means his papers went through. Which means the town's in the clear.",
+      "support_knowledge": [
+        "O4_S1"
+      ]
+    },
+    {
+      "id": 41,
+      "speaker_guid": "112aa0fb-fe4f-4639-9fbd-51dd7dfc9465",
+      "speaker": "PhyllisGranger (Female)",
+      "utterance": "I'm just glad to put this whole ugly affair behind me. Eugene can rest his bones in peace. And the rest of us can get on with our own lives.",
+      "support_knowledge": []
+    },
+    {
+      "id": 39,
+      "speaker_guid": "112aa0fb-fe4f-4639-9fbd-51dd7dfc9465",
+      "speaker": "PhyllisGranger (Female)",
+      "utterance": "Look around. Edgewater ain't exactly swimming in luxury. We can't afford to pay the body-price of a suicide.",
+      "support_knowledge": [
+        "eugene_08"
+      ]
+    },
+    {
+      "id": 34,
+      "speaker_guid": "112aa0fb-fe4f-4639-9fbd-51dd7dfc9465",
+      "speaker": "PhyllisGranger (Female)",
+      "utterance": "When one of your workers commits a crime, the entire town pays for it.",
+      "support_knowledge": [
+        "eugene_06"
+      ]
+    },
+    {
+      "id": 102,
+      "speaker_guid": "112aa0fb-fe4f-4639-9fbd-51dd7dfc9465",
+      "speaker": "PhyllisGranger (Female)",
+      "utterance": "First of all, that's a horrible thing to say. Secondly, yes, we did.",
+      "support_knowledge": []
+    },
+    {
+      "id": 25,
+      "speaker_guid": "112aa0fb-fe4f-4639-9fbd-51dd7dfc9465",
+      "speaker": "PhyllisGranger (Female)",
+      "utterance": "Eugene wasn't family.",
+      "support_knowledge": [
+        "phyllis_granger_09",
+        "phyllis_granger_10"
+      ]
+    },
+    {
+      "id": 28,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I thought you said you were his closest living relative.",
+      "support_knowledge": [
+        "phyllis_granger_09",
+        "phyllis_granger_10"
+      ]
+    },
+    {
+      "id": 103,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "That's an awful thing to say about your closest relative.",
+      "support_knowledge": [
+        "phyllis_granger_09",
+        "phyllis_granger_10"
+      ]
+    },
+    {
+      "id": 29,
+      "speaker_guid": "112aa0fb-fe4f-4639-9fbd-51dd7dfc9465",
+      "speaker": "PhyllisGranger (Female)",
+      "utterance": "Yeah. I was the closest living person relative to his body at time of death. I'm the one who found him, you see. So I pay the fines.",
+      "support_knowledge": [
+        "eugene_04",
+        "phyllis_granger_09",
+        "phyllis_granger_10"
+      ]
+    },
+    {
+      "id": 14,
+      "speaker_guid": "112aa0fb-fe4f-4639-9fbd-51dd7dfc9465",
+      "speaker": "PhyllisGranger (Female)",
+      "utterance": "If you're not familiar with Board law, you oughta be.",
+      "support_knowledge": []
+    }
+  ]
+}

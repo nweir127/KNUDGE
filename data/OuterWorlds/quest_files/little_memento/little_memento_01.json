@@ -1,0 +1,309 @@
+{
+  "id": "little_memento_01",
+  "quest_name": "little_memento",
+  "conversation": {
+    "filename": "0403_cv_revolutionary_barwarstories",
+    "start_node": 289,
+    "end_nodes": [
+      38,
+      39,
+      273
+    ],
+    "force_include": [
+      366,
+      364
+    ],
+    "force_sequence": []
+  },
+  "in_objective": "O3",
+  "participants": [
+    "ash"
+  ],
+  "dialog_edges": [
+    [
+      289,
+      329
+    ],
+    [
+      329,
+      330
+    ],
+    [
+      329,
+      331
+    ],
+    [
+      329,
+      347
+    ],
+    [
+      330,
+      332
+    ],
+    [
+      332,
+      351
+    ],
+    [
+      332,
+      354
+    ],
+    [
+      351,
+      340
+    ],
+    [
+      340,
+      366
+    ],
+    [
+      366,
+      356
+    ],
+    [
+      356,
+      357
+    ],
+    [
+      356,
+      358
+    ],
+    [
+      356,
+      359
+    ],
+    [
+      357,
+      360
+    ],
+    [
+      360,
+      364
+    ],
+    [
+      360,
+      365
+    ],
+    [
+      364,
+      365
+    ],
+    [
+      365,
+      368
+    ],
+    [
+      365,
+      369
+    ],
+    [
+      358,
+      361
+    ],
+    [
+      361,
+      364
+    ],
+    [
+      361,
+      365
+    ],
+    [
+      359,
+      362
+    ],
+    [
+      362,
+      364
+    ],
+    [
+      362,
+      365
+    ],
+    [
+      354,
+      340
+    ],
+    [
+      331,
+      332
+    ],
+    [
+      347,
+      332
+    ]
+  ],
+  "dialog": [
+    {
+      "id": 289,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I found Lamont's body.",
+      "support_knowledge": [
+        "O3_B2"
+      ]
+    },
+    {
+      "id": 329,
+      "speaker_guid": "9a07b1ac-bc9d-412a-85b9-3a5f53e2dc27",
+      "speaker": "Kane (Male)",
+      "utterance": "You know, a tiny part - a damn stupid part - of me hoped he was still out there. What happened?",
+      "support_knowledge": []
+    },
+    {
+      "id": 330,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "They bought themselves a ticket off-world, but they were attacked while waiting for it.",
+      "support_knowledge": [
+        "ash_03"
+      ]
+    },
+    {
+      "id": 331,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I'm not exactly clear on the details. I just found, uh... a lot of body parts.",
+      "support_knowledge": []
+    },
+    {
+      "id": 347,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "They got sloppy. Looked like mantisaurs got 'em.",
+      "support_knowledge": []
+    },
+    {
+      "id": 332,
+      "speaker_guid": "9a07b1ac-bc9d-412a-85b9-3a5f53e2dc27",
+      "speaker": "Kane (Male)",
+      "utterance": "Damn. Well, you find our box of memories?",
+      "support_knowledge": [
+        "O3_B3"
+      ]
+    },
+    {
+      "id": 351,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I did. Here you go.",
+      "support_knowledge": [
+        "O3_B3"
+      ]
+    },
+    {
+      "id": 354,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Yeah. I'm lucky to be alive, you know.",
+      "support_knowledge": []
+    },
+    {
+      "id": 340,
+      "speaker_guid": "9a07b1ac-bc9d-412a-85b9-3a5f53e2dc27",
+      "speaker": "Kane (Male)",
+      "utterance": "Well, shit. Thanks for finding it, at least. Don't gotta wonder anymore.",
+      "support_knowledge": []
+    },
+    {
+      "id": 366,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Funny thing, I found a list of agents in that outpost. You aren't on it.",
+      "support_knowledge": [
+        "O3_S2",
+        "O3_B4"
+      ]
+    },
+    {
+      "id": 356,
+      "speaker_guid": "9a07b1ac-bc9d-412a-85b9-3a5f53e2dc27",
+      "speaker": "Kane (Male)",
+      "utterance": "Heh. Well, ain't you clever. Fine - I was supposed to pick 'em up that night. Thing is, another offer came along. Bit more lucrative.",
+      "support_knowledge": [
+        "ash_05"
+      ]
+    },
+    {
+      "id": 357,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "You abandoned them? They died out there!",
+      "support_knowledge": [
+        "ash_06"
+      ]
+    },
+    {
+      "id": 358,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I get it. Tell you the truth, I'd probably do the same.",
+      "support_knowledge": []
+    },
+    {
+      "id": 359,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Let me guess. That's not a box of \"memories.\"",
+      "support_knowledge": [
+        "O3_B7"
+      ]
+    },
+    {
+      "id": 360,
+      "speaker_guid": "9a07b1ac-bc9d-412a-85b9-3a5f53e2dc27",
+      "speaker": "Kane (Male)",
+      "utterance": "And their payment almost died with 'em. Thanks to you, I can afford another round. Cheers, hero.",
+      "support_knowledge": [
+        "O3_B7"
+      ]
+    },
+    {
+      "id": 364,
+      "speaker_guid": "9a07b1ac-bc9d-412a-85b9-3a5f53e2dc27",
+      "speaker": "Kane (Male)",
+      "utterance": "Look, I like your gumption. I was gonna share the bits, but here's a couple extra.",
+      "support_knowledge": [
+        "O3_B7",
+        "bits_01"
+      ]
+    },
+    {
+      "id": 365,
+      "speaker_guid": "9a07b1ac-bc9d-412a-85b9-3a5f53e2dc27",
+      "speaker": "Kane (Male)",
+      "utterance": "Now go on - leave an old man to his past.",
+      "support_knowledge": []
+    },
+    {
+      "id": 368,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "All right, I'm going.",
+      "support_knowledge": []
+    },
+    {
+      "id": 369,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Ugh, I should have kept those bits.",
+      "support_knowledge": [
+        "bits_01"
+      ]
+    },
+    {
+      "id": 361,
+      "speaker_guid": "9a07b1ac-bc9d-412a-85b9-3a5f53e2dc27",
+      "speaker": "Kane (Male)",
+      "utterance": "Then you're smarter than the average rapt. Next round's on me - a token of my deepest gratitude for solving a decade-long mystery.",
+      "support_knowledge": []
+    },
+    {
+      "id": 362,
+      "speaker_guid": "9a07b1ac-bc9d-412a-85b9-3a5f53e2dc27",
+      "speaker": "Kane (Male)",
+      "utterance": "Surely ain't. But it'll buy me some better ones.",
+      "support_knowledge": []
+    }
+  ]
+}

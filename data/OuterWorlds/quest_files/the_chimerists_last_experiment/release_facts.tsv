@@ -1,0 +1,183 @@
+ID	fact
+OBJECTIVE O0	
+O0_S1	231:145
+O0_S2	377:52
+O0_S3	429:42
+O0_S4	472:103
+O0_B1	837:99
+O0_B2	Lilya thinks there is an Alien invasion happening,
+O0_B3	and she wants you to put a stop to it.
+O0_B4	You can ask what she means by Aliens,
+O0_B5	and she will say that the gas is mixing the human nuclein with Halcyon biology,
+O0_B6	making us something other than human.
+O0_B7	If you ask how she knows you're not an alien,
+O0_B8	she will say it was a calculated risk,
+O0_B9	"and she will say it's ""Probably nothing to worry about as long as you don't start growing tentacles or slowing down time""."
+O0_B10	She believes that Eva Chartrand, a doctor working for UDL,
+O0_B11	is running the gas experiments,
+O0_B12	and wants you to kill her for the good of humanity.
+OBJECTIVE O1	
+O1_S1	603:37
+O1_S2	641:43
+O1_B1	937:151
+O1_B2	1089:57
+O1_B3	1147:96
+O1_B4	1244:65
+O1_B5	1310:44
+O1_B6	1355:55
+O1_B7	and she will say she does not know Lilya (if you bring her up) or wonder if you were sent by The Board.
+O1_B8	1515:64
+O1_B9	1580:46
+O1_B10	1627:144
+O1_B11	1772:118
+O1_B12	1891:88
+O1_B13	1980:77
+O1_B14	2058:43
+O1_B15	2102:106
+O1_B16	you can pass a [Lie 1] check to threaten the well-being of her companions,
+O1_B17	and a corporate commander will chastise her for sharing Board secrets.
+O1_B18	You can also find out from Chartrand that the Board has lost critical,irreplaceable military resources in the form of the assault cruiser Cornelius Vanderbilt.
+O1_B19	Perhaps the Board’s stranglehold over Halcyon is far more feeble than it seems?
+O1_B20	At this point, there are a couple of choices.
+O1_B21	The Stranger could spare her letting her continue her research for the Board (this option increases Reputation with the Board),
+O1_B22	or ask her to work with Phineas Welles to help better mankind.
+O1_B23	She will not need convincing for either of these,
+O1_B24	but the Corporate Commander who guards will.
+O1_B25	If the Stranger has more positive Reputation with the Board than negative,
+O1_B26	they can bribe, Persuade (150) him into letting them go,
+O1_B27	or tell him they work for Adjutant Akande if they have completed at least one of her quests.
+O1_B28	Otherwise, if the Dumb or the last dialogue option is chosen,
+O1_B29	the UDL guards and the automechanichals will become hostile and the Stranger can either kill them gaining negative Reputation with the Board or run away.
+OBJECTIVE O2	
+O2_S1	706:64
+O2_S2	771:63
+O2_B1	Afterwards, report back to Hagen on the Groundbreaker for either the reward and some ship decorations in the Captain's quarters,
+O2_B2	or the dismissal from Sublight (along with a Reputation decrease),
+O2_B3	depending on whether or not Dr. Chartrand was killed.
+ada	
+ada_01	ADA (Autonomous Digital Astrogator) is an advanced AI aboard the Unreliable.
+ada_02	She controls the navigation and communications systems of the ship.
+ada_03	As ADA was programmed to recognize only Alex Hawthorne as the legal owner of the Unreliable,
+ada_04	"the Stranger has no choice but to allow her to identify them as ""Captain Alex Hawthorne"" in order to circumvent the restriction."
+ada_05	She is able to adapt and learn from the ship's operators to be able to better anticipate their needs.
+byzantium	
+byzantium_01	Byzantium is the capital city of Terra 2 and the crown jewel of Halcyon.
+byzantium_02	All the opulence, elegance, and decadence of the colony is concentrated in the city.
+byzantium_03	Its residents are colloquially referred to as gold-bloods.
+byzantium_04	"Referred to as the ""gilded city of the well-to-do"","
+byzantium_05	Byzantium is where every Halcyon colonist wishes they could live.
+byzantium_06	The city is closed off to those without the means to be appropriate residents;
+byzantium_07	it’s a literal gated community with secrets that lesser company workers will simply never learn.
+byzantium_08	The city of Byzantium was built in a radial layout,
+byzantium_09	with streets and docking bays encircling the Halcyon Holdings Corporation headquarters,
+byzantium_10	located in the restricted Acropolis District.
+byzantium_11	Many buildings constructed in Byzantium are well-maintained,
+byzantium_12	and are built in a futuristic Art Nouveau style,
+byzantium_13	as opposed to the simpler prefabricated frontier designs of Edgewater or Stellar Bay.
+byzantium_14	The Acropolis District is a wealthy district for the most prominent citizens of both Byzantium and the entire Halcyon Colony.
+byzantium_15	Located here are the headquarters of the Halcyon Holdings Corporation,
+byzantium_16	housed inside a towering skyscraper.
+byzantium_17	Docking bays for various vessels and ships have been constructed into a large, deep trench encircling the mid-section of Byzantium.
+byzantium_18	Only those individuals with the appropriate navkey are allowed to land on Byzantium's docking bays.
+byzantium_19	A district bordering the Acropolis District,
+byzantium_20	the Estate District is known as the residence of Minister Clarke.
+byzantium_21	Prosperity Plaza is the beating hub of commerce and culture in Byzantium,
+byzantium_22	fronted by famous establishments such as Bijou's Revue, Rococo's Decor, and Billingsly's House of Inebriation.
+byzantium_23	At the center of the plaza is a large decorative orrery in the likeness of the Halcyon system.
+cascadia	
+cascadia_01	Cascadia is an abandoned company town that was owned and operated by Rizzo's before it withdrew from Monarch.
+cascadia_02	It is now used as a stronghold by the Marauders.
+cascadia_03	The main attraction is the Cascadia Bottling Plant and,
+cascadia_04	for those in the know,
+cascadia_05	the Rizzo Secret Laboratory hidden underneath the Rizzo Sweets Shoppe.
+earth	
+earth_01	Earth, located in the Sol System,
+earth_02	was the homeworld of humanity,
+earth_03	and capital of the Earth Directorate.
+earth_04	Prior to the 21st Century, Earth was divided into various nations,
+earth_05	one of which was the United States of America.
+earth_06	In the early 1900s, the tenure of US President William McKinley led to the empowerment and deregulation of powerful business trusts,
+earth_07	effectively sending the nation (and subsequently, the world) into a seemingly eternal Gilded Age of unfettered capitalism.
+earth_08	In the wake of the catastrophic Great War of the 21st Century,
+earth_09	the Earth Directorate was formed as a planet-wide government and regulatory body,
+earth_10	which would serve to catalogue and allot off-world colonies and systems beyond Directorate control to the highest bidders,
+earth_11	as well as to settle and arbitrate disputes between Earth's remaining nation-states.
+earth_12	During this period in time, the Skip Drive was developed,
+earth_13	"which allowed spacecraft to ""skip"" beyond the speed of light,"
+earth_14	effectively allowing humanity to explore the stars.
+earth_15	With the presumed gradual weakening of the influence of the traditional nation-state and the continued rise of powerful corporations and firms,
+earth_16	many colonization efforts were spearheaded in the name of business,
+earth_17	rather than for science, religion, or political ideologies.
+earth_18	Over a year prior to the events of the game,
+earth_19	the Earth Directorate cruiser J.J. Astor was the only Earth Directorate ship remaining in the Halcyon system,
+earth_20	dedicated to preserving the prosperity and peace of Halcyon's government.
+earth_21	During the course of the game,
+earth_22	it is eventually revealed that the last Earth Directorate ship headed for Earth from Halcyon, the Cornelius Vanderbilt,
+earth_23	"vanished, apparently discovering something that led to Earth ""going dark"","
+earth_24	effectively cutting off all communications and supplies from Earth to Halcyon and numerous other off-world colonies.
+earth_25	As a result, depending on the choices made by the Stranger,
+earth_26	the Halcyon Colony was left to fend on its own as an independent colony or remain under Board control.
+eva_chartrand	
+eva_chartrand_01	Eva Chartrand is a scientist who works for UDL.
+eva_chartrand_02	Eva Chartrand is a scientist desperately looking for a solution to Halcyon's problems by conducting extreme experiments that affect the nuclein of humans,
+eva_chartrand_03	making them less-than-human but more adaptable to the Halcyon system.
+eva_chartrand_04	She is a scientist whose research was conducted on willing test subjects,
+eva_chartrand_05	all of whom were her colleagues and had agreed to be part of the effort.
+eva_chartrand_06	Letting her live will cause Lilya Hagen to fire you.
+hrs-1084	
+hrs-1084_01	The Heliospheric Research Station 1084,
+hrs-1084_02	otherwise known as HRS-1084 (or just ten-eighty-four),
+hrs-1084_03	is a giant research station orbiting around in the Halcyon system.
+hrs-1084_04	The Stranger can only travel to this location after starting the quest, The Ice Palace.
+hrs-1084_05	Lilya Hagen tasks the Stranger with claiming the abandoned station in SubLight's name during the quest The Ice Palace.
+hrs-1084_06	The station has been dark for some time and emits only a very weak docking signal.
+lilya_hagen	
+lilya_hagen_01	Lilya Hagen is the CEO of SubLight Salvage and Shipping Corporation,
+lilya_hagen_02	based aboard the Groundbreaker.
+lilya_hagen_03	Not much is known about Lilya’s early life besides for being a descendant from the original Groundbreaker colonists.
+lilya_hagen_04	At some point Lilya joined the SubLight Salvage and Shipping Corporation and worked her way up to CEO.
+lilya_hagen_05	The company was a full time job which caused her to lose sleep making her impatient and emotionless.
+lilya_hagen_06	Lilya eventually only cared about profit and started to invest in dangerous jobs which (if not caught) would make her very rich.
+lilya_hagen_07	Not wanting to get her hands dirty,
+lilya_hagen_08	Lilya offers these jobs to mercenaries,
+lilya_hagen_09	this eventually gets the attention of the Stranger.
+lilya_hagen_10	She gets them to do to big jobs until she thinks a scientist in Byzantium is helping aliens after seeing evidence from the jobs.
+lilya_hagen_11	If the scientist gets killed,
+lilya_hagen_12	she makes the Stranger a high-ranking member.
+sublight	
+sublight_01	"The SubLight Salvage and Shipping Corporation, also known as SubLight Salvage and Shipping or simply SubLight , is a network of ""salvagers"" with business ties to ""transportation"" and ""waste disposal""."
+sublight_02	A tangled web of contractors and secretive vice presidents make up their official hierarchy,
+sublight_03	leaving no one to speak on the record about SubLight's more legally dubious activities.
+sublight_04	SubLight as a business operates activities that would be considered illicit by some,
+sublight_05	amoral by others,
+sublight_06	and at odds with the Board,
+sublight_07	such as the takeover of abandoned space habitats,
+sublight_08	smuggling contraband,
+sublight_09	and serving as a front for companies to bypass the infamous Hazard Clause applied on Monarch.
+sublight_10	According to director Lilya Hagen,
+sublight_11	operating off of Groundbreaker,
+sublight_12	"SubLight ""occupies a legal blind spot."
+sublight_13	No one knows what [they're] licensed to do,
+sublight_14	"and that gives [their] little business some freedom."""
+sublight_15	Although the Board tolerates and sees the value of SubLight's activities,
+sublight_16	there are still limits to what the latter can get away with.
+sublight_17	SubLight maintains an office aboard the Groundbreaker as well as a settlement on Monarch known as Fallbrook.
+the_board	
+the_board_01	The Halcyon Holdings Corporate Board, also simply known as The Board,
+the_board_02	institutes policy and law throughout the Halcyon Colony.
+the_board_03	The details surrounding the board's founding remain largely unknown,
+the_board_04	though its activities suggest that it was originally founded some seventy-odd years ago, give or take.
+the_board_05	In that time, it has managed to terraform Terra I
+the_board_06	(a catastrophic failure due to mutations rendering the wildlife overwhelmingly hostile to human life).
+the_board_07	The Board maintains a very tense relationship with MSI, owing to MSI's democratic ideals and their declared ownership of Monarch.
+the_board_08	As a result, the Board has placed Monarch, and by extension, MSI, under the Hazard Clause, which forbids off-world businesses from doing transactions on Monarch without the correct (and deliberately impossible to complete) documents.
+the_board_09	Depending on the actions of the Stranger, MSI may be compelled to rebel against the Board's authoritarianism.
+udl	
+udl_01	Universal Defense Logistics (UDL) is one of the ten corporations that founded the Halcyon Holdings Corporation.
+udl_02	Its CEO, Rockwell, also serves as the Chairman of the Halcyon Holdings Corporate Board.
+udl_03	They're the largest of the corps in Halcyon,
+udl_04	having the largest stake there and in the board,
+udl_05	as well as being the main presence in Byzantium,
+udl_06	especially through their CEO, Chairman Rockwell.
+udl_07	They're also the parent corporation to Spacer's Choice.
+udl_08	They're pretty much the guiding hand in much of The Board's policies, actions, and screw ups.

@@ -1,0 +1,42 @@
+[
+  {
+    "id": "forgetful_funes_00",
+    "quest_name": "forgetful_funes",
+    "conversation": null,
+    "in_objective": "O0",
+    "out_objective": "O1",
+    "participants": [
+      "clara_ryan"
+    ]
+  },
+  {
+    "id": "forgetful_funes_01",
+    "quest_name": "forgetful_funes",
+    "conversation": null,
+    "in_objective": "O1",
+    "out_objective": "O2",
+    "participants": [
+      "funes_menard"
+    ]
+  },
+  {
+    "id": "forgetful_funes_02",
+    "quest_name": "forgetful_funes",
+    "conversation": null,
+    "in_objective": "O2",
+    "out_objective": "O2",
+    "participants": [
+      "yvonne_brennan"
+    ]
+  },
+  {
+    "id": "forgetful_funes_03",
+    "quest_name": "forgetful_funes",
+    "conversation": null,
+    "in_objective": "O3",
+    "out_objective": "O4",
+    "participants": [
+      "funes_menard"
+    ]
+  }
+]

@@ -1,0 +1,253 @@
+{
+  "quests": [
+    {
+      "name": "forgetful_funes",
+      "location": "byzantium",
+      "fandom_url": "none",
+      "fextralife_url": "none",
+      "objectives": {
+        "O0": {
+          "description": {
+            "S1": "Clara Ryan is convinced her family history will make the next hit movie,",
+            "S2": "but she's going to need more information about her late Uncle Fergus to write the script.",
+            "S3": "She knows an archivist named Funes who has the info she needs and wants the Stranger to retrieve it for her."
+          },
+          "blurb": {
+            "B1": "Clara can be found in Byzantium having a drink at Billingsly's House of Inebriation.",
+            "B2": "When engaged in conversation she reveals that she's working on a script based on her Uncle Fergus.",
+            "B3": "As she explains, Uncle Fergus led a group of Board-loyalist helium processors who fought back against a mutiny at MSI's Asterion Outpost orbiting Typhon.",
+            "B4": "He and other loyalists resisted MSI's split from the Board,",
+            "B5": "though he was ultimately killed in the conflict.",
+            "B6": "She has the basics of the script written already but needs more detailed information on the mutiny and Fergus's death to convince the management at Odeon that her project is worth pursuing.",
+            "B7": "An archivist named Funes has the info Clara needs to fill in the blanks.",
+            "B8": "Due to travel restrictions,",
+            "B9": "Clara can't get to Stellar Bay to reach Funes.",
+            "B10": "Given the Stranger has a ship and access to Monarch,",
+            "B11": "Clara asks the Stranger to make contact with Funes on her behalf."
+          }
+        },
+        "O1": {
+          "summary": "Find Funes",
+          "description": {
+            "S1": "Find Funes in Stellar Bay and convince him to share his records on Uncle Fergus."
+          },
+          "blurb": {
+            "B1": "Funes can be found at or near The Yacht Club in Stellar Bay.",
+            "B2": "He is cantankerous,",
+            "B3": "forgetful,",
+            "B4": "prone to losing the thread of a conversation,",
+            "B5": "and convinced he has various secrets locked away in his mind.",
+            "B6": "He is also suffering from induced-Alzheimer's due to a lapsed security protocol.",
+            "B7": "Funes explains in order to protect valuable knowledge assets like himself during travel,",
+            "B8": "MSI injects them with a memory-loss drug for the duration of the trip,",
+            "B9": "and then administers an antidote called Remembery upon arrival at their destination.",
+            "B10": "Unfortunately for him,",
+            "B11": "his handler in Stellar Bay, Dash Brockway,",
+            "B12": "never arrived,",
+            "B13": "and Remembery isn't otherwise available.",
+            "B14": "He's happy to help recall Fergus' exploits as soon as the Stranger can cure him.",
+            "B15": "Until then, his long-term memory remains scrambled including his ability to access his terminal and records.",
+            "B16": "Funes knows Dash has a route along one of the roads to Stellar Bay and suggests checking for him there."
+          }
+        },
+        "O2": {
+          "summary": "Find the Remembery",
+          "description": {
+            "S1": "Find Funes' HR representative and his dose of Remembery."
+          },
+          "blurb": {
+            "B1": "Yvonne Brennan in Fallbrook can provide a clue to Dash's whereabouts,",
+            "B2": "or the Stranger can search the roads.",
+            "B3": "Dash can be discovered in an abandoned shack not far from the city.",
+            "B4": "He is dead,",
+            "B5": "showing clear signs of a marauder attack.",
+            "B6": "His journal and a dose of Remembery lay on his corpse."
+          }
+        },
+        "O3": {
+          "summary": "Speak to Funes",
+          "description": {
+            "S1": "Return to Funes with the Remembery."
+          },
+          "blurb": {
+            "B1": "Returning to Funes the Stranger can either administer the dose or try to bargain for an additional payout.",
+            "B2": "Either way, the cure is highly concentrated and without the follow-up drugs described in Dash's journal it causes an overdose,",
+            "B3": "leaving Funes with such perfect memory that he can't tell what's happening now versus what happened in the past.",
+            "B4": "Regardless, Funes regains access to his terminal and hands over the records on Fergus.",
+            "B5": "The report, written by someone named Nolan,",
+            "B6": "describes Fergus as a legendary hero slain in a theater by unknown assailants.",
+            "B7": "Through his heroic acts and self-sacrifice,",
+            "B8": "Fergus became an inspiration to the loyalists and remains so to this day."
+          }
+        },
+        "O4": {
+          "summary": "Return to Clara",
+          "description": {
+            "S1": "Return to Clara with Funes' records on Uncle Fergus"
+          },
+          "blurb": {
+            "B1": "The Stranger then returns the records to Clara."
+          }
+        }
+      }
+    },
+    {
+      "name": "fearless_fergus",
+      "location": "byzantium",
+      "fandom_url": "none",
+      "fextralife_url": "none",
+      "objectives": {
+        "O0": {
+          "description": {
+            "S1": "Funes' records have only deepened the mystery surrounding Clara's Uncle Fergus.",
+            "S2": "She asks the Stranger to continue the investigation,",
+            "S3": "revealing additional details about Fergus, Nolan, and the revolt at the MSI Outpost.",
+            "S4": "Ultimately the Stranger must help her decide whether or not to reveal old secrets and jeopardize her career."
+          },
+          "blurb": {
+            "B1": "The Stranger returns the retrieved records to the screenwriter, Clara, at Billingsly's.",
+            "B2": "She reads them and becomes indignant -",
+            "B3": "her uncle's heroic death follows the plot of Odeon's hit picture, Titus Androidicus!",
+            "B4": "She can't make a movie out of this!",
+            "B5": "It'd be just a half-assed, genre-hopping remake.",
+            "B6": "What sort of hack writer would do that?!",
+            "B7": "Even more upsetting - maybe - is the doubt this casts on her family history.",
+            "B8": "What really happened to Fergus and his loyalists?",
+            "B9": "Art imitating history is one thing, but history imitating art? That's suspect.",
+            "B10": "She needs to know more and will need the Stranger's help once again.",
+            "B11": "She's particularly surprised the corporate records - the official history - were written by Nolan,",
+            "B12": "who she knows little about.",
+            "B13": "All Clara knows about Nolan is that he was one of her Uncle's loyalists,",
+            "B14": "but given how suspicious the records are,",
+            "B15": "she wants to know more.",
+            "B16": "She recommends checking the crew manifest for the Asterion Outpost to learn more about him.",
+            "B17": "The MSI leadership in Stellar Bay should have records.",
+            "B18": "Alternately, the Stranger can go straight to the MSI outpost to explore there."
+          }
+        },
+        "O1": {
+          "summary": "Learn about Nolan",
+          "description": {
+            "S1": "Learn more about Nolan and the crew of the MSI outpost"
+          },
+          "blurb": {
+            "B1": "Visiting Stellar Bay again,",
+            "B2": "the Stranger speaks with Celia Robbins.",
+            "B3": "She remembers Nolan from years back,",
+            "B4": "describing him as a \"morose weasel\" who worked for Odeon Pictures."
+          }
+        },
+        "O2": {
+          "summary": "Find Nolan's Personnel File",
+          "description": {
+            "S1": "Acquire Nolan's employee records from Odeon"
+          },
+          "blurb": {
+            "B1": "The Stranger returns to Byzantium to see what can be learned from Odeon Pictures.",
+            "B2": "In the Odeon lobby is Ebele,",
+            "B3": "trying in vain to engage the mechanical receptionist in conversation.",
+            "B4": "Speaking to Ebele, the Stranger learns that she is an Odeon HR rep,",
+            "B5": "which mostly involves compensation claims for stunts and handsy actors.",
+            "B6": "She is desperate to win tickets to see the Hammersmith Thunder tossball game.",
+            "B7": "The office has a limerick contest going,",
+            "B8": "and if she wins she'll not only have tickets to the game but will get to meet Ceiren and Cameron Fraser,",
+            "B9": "both of whom she has a crush on.",
+            "B10": "Ebele is desperate enough to hand over Nolan's HR file if the Stranger helps her come up with the perfect limerick that will help her win the contest.",
+            "B11": "After helping Ebele workshop her limerick the Stranger learns that Nolan was part of Odeon marketing and responsible for distributing new movies to remote outposts.",
+            "B12": "He was written up repeatedly for causing morale issues with his anti-corporate ideas,",
+            "B13": "and for constantly submitting unsolicited screenplay ideas.",
+            "B14": "His final assignment was the MSI Outpost.",
+            "B15": "If the Stranger returns to Clara, she directs them to the MSI outpost to find additional evidence."
+          }
+        },
+        "O3": {
+          "summary": "Find Nolan's Records",
+          "description": {
+            "S1": "Travel to the MSI outpost to uncover more of Nolan's records"
+          },
+          "blurb": {
+            "B1": "The Stranger reaches Asterion Outpost and finds it abandoned except for various robotic guardians and staff.",
+            "B2": "The external air locks are open and need to be sealed before exploration can happen.",
+            "B3": "Once the air locks are sealed,",
+            "B4": "the Stranger finds a sequence of documents and records outlining the events that unfolded at the outpost.",
+            "B5": "1) Marketing material for Titus Androidicus, showcasing it as a story of revolution against corruption and inevitable revenge.",
+            "B6": "2) Fergus's log, discussing how popular Titus Androidicus is with the outpost's crew.",
+            "B7": "They can't stop watching it -",
+            "B8": "granted, there's nothing else to do.",
+            "B9": "He's seen it many times even though he thinks it's awful.",
+            "B10": "3) Nolan's email back to Odeon Pictures, explaining the crew seems to be inspired by the movie's underdog story and is now comparing MSI and the Board's leadership to the film's oppressors.",
+            "B11": "He is amused that it may be fomenting anti-Board ideas.",
+            "B12": "4) Fergus's log, discussing how a portion of the crew is attempting to mutiny and throw-off MSI and Board leadership.",
+            "B13": "Fergus has gathered loyalists,",
+            "B14": "including Nolan,",
+            "B15": "and is leading them to end the mutiny.",
+            "B16": "5) Nolan's log, explaining how he originally joined the loyalists purely out of convenience -",
+            "B17": "this wasn't his battle to fight.",
+            "B18": "In his time with them Nolan developed feelings for Fergus,",
+            "B19": "and eventually adopted the loyalist cause out of that love.",
+            "B20": "6) Fergus's log, describing a recon mission that went wrong leaving him trapped in a vent above the theater.",
+            "B21": "Titus Androidicus is playing on a loop,",
+            "B22": "and after countless viewings, Fergus now understands the perspective of the revolutionaries.",
+            "B23": "He must help them find their freedom.",
+            "B24": "7) Nolan's final log, describing the mutiny as nearly over -",
+            "B25": "they have a plan to depressurize the station and blow the revolutionaries out the airlock.",
+            "B26": "He learned there was a traitor among the loyalists that had been giving intel to the revolutionaries.",
+            "B27": "He knows who the traitor is and what must be done,",
+            "B28": "and will pass this info on in a letter to Fergus."
+          }
+        },
+        "O4": {
+          "summary": "Find Fergus's Remains",
+          "description": {
+            "S1": "Fergus's remains are somewhere on the outpost."
+          },
+          "blurb": {
+            "B1": "The Stranger discovers Fergus's rotted corpse in the projection room of the theater,",
+            "B2": "watching Titus Androidicus still playing on a loop.",
+            "B3": "In addition to his personal effects,",
+            "B4": "the player finds Nolan's final letter.",
+            "B5": "In it Nolan calls out Fergus as the traitor,",
+            "B6": "and admits his love.",
+            "B7": "He knows the loyalist movement would be destroyed by Fergus's betrayal and his reputation ruined.",
+            "B8": "As an act of devotion Nolan offered to make him a martyr.",
+            "B9": "All Fergus had to do was come to the theater.",
+            "B10": "There, Nolan assassinated him and claimed it was the last act of the desperate revolutionaries.",
+            "B11": "Fergus had to die for his crimes,",
+            "B12": "but he would die a hero to the cause he betrayed - Fearless Fergus.",
+            "B13": "With Fergus eliminated,",
+            "B14": "the loyalists were able to successfully execute their plan to depressurize the base and end the fighting."
+          }
+        },
+        "O5": {
+          "summary": "Return to Clara",
+          "description": {
+            "S1": "Deliver the evidence to Clara"
+          },
+          "blurb": {
+            "B1": "With the mystery revealed,",
+            "B2": "the Stranger returns to Clara.",
+            "B3": "She is understandably troubled by what has been discovered.",
+            "B4": "The Stranger must then help Clara decide what to do with her family secrets.",
+            "B5": "They can choose to conceal the truth -",
+            "B6": "she has enough to make a movie about Fergus",
+            "B7": "(Title: Fearless Fergus!)",
+            "B8": "and keep the myth of his heroism alive.",
+            "B9": "She's aware that if she does this she'll really be continuing Nolan's script,",
+            "B10": "which she has some qualms about.",
+            "B11": "On one hand, he was the real loyalist and loved her uncle.",
+            "B12": "On the other hand, he's a dead hack and she has a career to advance.",
+            "B13": "Or, they can choose to reveal the truth -",
+            "B14": "she has evidence to destroy the myth of Uncle Fergus,",
+            "B15": "but will undoubtedly lose her job at Odeon in the process",
+            "B16": "(it's a continuity break!).",
+            "B17": "On the other hand, truth matters (right?)",
+            "B18": "and maybe she can get a job as an investigative journalist at the Halcyon Observer.",
+            "B19": "That's practically the same thing as a script writer,",
+            "B20": "and with her youth and vigor,",
+            "B21": "those old media hacks won't know what hit 'em."
+          }
+        }
+      }
+    }
+  ]
+}

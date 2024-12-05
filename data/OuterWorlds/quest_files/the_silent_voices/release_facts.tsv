@@ -1,0 +1,136 @@
+ID	fact
+OBJECTIVE O0	
+O0_S1	189:136
+O0_S2	326:32
+O0_S3	359:57
+O0_S4	417:95
+O0_B1	After completing Happiness is a Warm Spaceship,
+O0_B2	Junlei Tennyson will mention that Edna Ingmire has something which she could use the Stranger's help with.
+O0_B3	Edna will explain that the Groundbreaker is about to lose its communications capabilities,
+O0_B4	as its primary communications relay is about to be occluded by one of Halcyon's gas giants for the next few months.
+O0_B5	Unfortunately, the only backup auxiliary relay within orbital range went offline months ago,
+O0_B6	and Groundbreaker cannot spare any people for maintenance.
+O0_B7	Offering to help get the station back online starts the quest.
+O0_B8	Edna will also give the Stranger a Relay Diagnostics Manual to help them diagnose the problem with the station
+O0_B9	and asks them to retrieve a copy of the relay's backup data so she can forward any messages from Earth stored in the memory.
+OBJECTIVE O1	
+O1_S1	534:73
+O1_S2	608:61
+O1_S3	670:35
+O1_B1	856:65
+OBJECTIVE O2	
+O2_S1	The terminal to activate the relay is located inside the central control room of the relay station.
+O2_S2	Each relay transmitter maintains a backup of messages it has received but not yet transmitted.
+O2_S3	Since the relay has been off-line for some time,
+O2_S4	the log of backup messages should be quite substantial.
+O2_B1	922:59
+O2_B2	982:61
+O2_B3	1044:46
+O2_B4	1091:20
+O2_B5	Loot the Keycard from the corpse and use it on the terminal to activate the Relay.
+OBJECTIVE O3	
+O3_S1	Edna is in the Communications Control Room in Engineering.
+O3_B1	Return to Groundbreaker and give Edna the data.
+O3_B2	She will provide a reward of 1,500 bits,
+O3_B3	completing the quest.
+alexander_frey	
+alexander_frey_01	Alexander J. Frey is a man whose body can be found on Relay GB-23.
+alexander_frey_02	Alexander Frey was a man who lived in Byzantium who began hearing strange voices inside his head.
+alexander_frey_03	"The voices told him to ""help"" the people he saw by killing them,"
+alexander_frey_04	and he began having dreams about murder,
+alexander_frey_05	including one where he strangled his work supervisor, Delilah, to death.
+alexander_frey_06	He fled Byzantium,
+alexander_frey_07	believing that he would be locked up,
+alexander_frey_08	after he once confessed his thoughts to an old friend.
+alexander_frey_09	He took refuge on Relay GB-23,
+alexander_frey_10	bringing with him enough supplies to last decades.
+alexander_frey_11	In an attempt to stop the whispers in his head,
+alexander_frey_12	he deactivated the relay station's transmitter relay,
+alexander_frey_13	creating a risk to Groundbreaker's communications capabilities when their primary comms relay experienced an occlusion event.
+alexander_frey_14	Unfortunately, deactivating the transmitter failed to stop the voices in Frey's head.
+alexander_frey_15	This led him to committing suicide to end the whispers once and for all.
+edna_ingmire	
+edna_ingmire_01	Edna Ingmire is an engineer on Groundbreaker.
+edna_ingmire_02	Edna is friends with Gladys Culkelly and occasionally passes on transmissions that she thinks Gladys may find interesting.
+edna_ingmire_03	For all her good judgment when it comes to identifying transmissions of interest,
+edna_ingmire_04	this does not translate when it comes to men.
+groundbreaker	
+groundbreaker_01	UDL-001 The Groundbreaker or simply Groundbreaker was the first colony ship to arrive in Halcyon during the Crossing.
+groundbreaker_02	By 2355, it has been converted into an independent orbital station,
+groundbreaker_03	and is the only place in the entire Halcyon system that is not controlled by the Halcyon Holdings Corporate Board or any other corporation.
+groundbreaker_04	The crew of the Groundbreaker is fiercely protective of their independence from the corporations,
+groundbreaker_05	and the corporations value the station's role as a thriving freeport enough that they are willing to deal with it on relatively equal terms.
+groundbreaker_06	In practical terms, while the Groundbreaker rules itself,
+groundbreaker_07	it cooperates with the corporations to an extent,
+groundbreaker_08	such as by impounding ships that the Board happens to flag.
+groundbreaker_09	The Groundbreaker is commanded by engineer-turned-captain Junlei Tennyson.
+groundbreaker_10	Udom Bedford is the Halcyon Holdings Corporation representative stationed aboard.
+groundbreaker_11	According to Junlei, lots of corners were cut when the ship was built,
+groundbreaker_12	prompting Captain Guiying Tennyson to spend half of her career attempting to patch the ship back together after the Crossing from Earth to Halcyon.
+groundbreaker_13	In addition, the ship has tinkerings and bypasses that only the Tennysons know about.
+groundbreaker_14	The Groundbreaker maintains a somewhat tense relationship with the Board,
+groundbreaker_15	owing to their declared independence from Board authority,
+groundbreaker_16	as well as their control of shipping routes outward from the Halcyon System.
+groundbreaker_17	Nonetheless, given that Groundbreaker lacks any semblance of military might against the Board beyond the mardets stationed aboard the ship,
+groundbreaker_18	the loose hierarchy in charge of the Groundbreaker often seeks to find (illicit) ways of delaying, stymieing, or pitting corporations under the Board's thumb against each other,
+groundbreaker_19	usually through black market fences like Gladys Culkelly.
+groundbreaker_20	Nonetheless, the Board maintains an embassy aboard the Groundbreaker run by bureaucrat Udom Bedford.
+groundbreaker_21	Depending on the actions of the Stranger, the Groundbreaker's crew may be compelled to rebel against the Board's system-wide authority.
+groundbreaker_22	The Groundbreaker is generally neutral to Sublight Salvage and Shipping Corporation,
+groundbreaker_23	and allows them to operate an office and warehouse aboard the ship, helmed by Lilya Hagen.
+halcyon	
+halcyon_01	Halcyon, also called the Halcyon Colony, or simply the Colony,
+halcyon_02	is a star system on the fringe of known space.
+halcyon_03	It is part of the Halcyon Cluster,
+halcyon_04	so named because Halcyon itself is the brightest star in the cluster when viewed from Earth.
+halcyon_05	Halcyon is proudly advertised as the only system entirely owned and operated by corporations.
+halcyon_06	Most of the planets in the system are named after locations, deities, or creatures from Greek mythology.
+junlei_tennyson	
+junlei_tennyson_01	Junlei Tennyson is a self described engineer-turned-captain and is the leader of Groundbreaker,
+junlei_tennyson_02	the only community in Halcyon operating outside The Board's control.
+junlei_tennyson_03	She harbours a strong dislike for the Board due to their continued attempts to exert control over Groundbreaker,
+junlei_tennyson_04	and because she believes they are only after two things—bits and power—which they get by sticking their nose where it doesn't belong.
+junlei_tennyson_05	She considers the Mardets, crew, and engineers of Groundbreaker to be family.
+junlei_tennyson_06	Junlei Tennyson is the third generation of Tennyson leadership aboard Groundbreaker,
+junlei_tennyson_07	recently promoted from chief engineer to captain after the death of her mother.
+junlei_tennyson_08	She was close to her mother but frequently argued with her father over how Groundbreaker should be run.
+junlei_tennyson_09	Junlei was previously in a relationship with a woman named Isabelle who tried and failed to earn the approval of Junlei's father.
+junlei_tennyson_10	They continued seeing each other anyway,
+junlei_tennyson_11	but the relationship eventually ended poorly.
+junlei_tennyson_12	Junlei can be found in her office in Groundbreaker Engineering.
+junlei_tennyson_13	She introduces herself to the Stranger as captain of Groundbreaker,
+junlei_tennyson_14	and notes that her friends call her Chief.
+junlei_tennyson_15	The explanation she gives for the formal introduction is that Groundbreaker doesn't see many visitors.
+junlei_tennyson_16	Junlei then goes on to make it clear that she has the final say on the ship,
+junlei_tennyson_17	and welcomes the Stranger on board as they seem to be different to the usual outsiders who are mostly 'Board spies and corporate sprats'.
+junlei_tennyson_18	If the player asks Junlei about the heat problem on Groundbreaker,
+junlei_tennyson_19	they can offer to help her obtain new radiator parts.
+junlei_tennyson_20	After the radiator parts are installed,
+junlei_tennyson_21	more dialogue options become available to ask her about herself and Groundbreaker.
+junlei_tennyson_22	She will also direct the player to Edna Ingmire to help her with a comms issue,
+junlei_tennyson_23	and inform the player that they are now authorized to trade with Doctor Mfuru.
+junlei_tennyson_24	Junlei will appear on the Unreliable if the player helps to set up a date between her and Parvati.
+junlei_tennyson_25	When interacted with, she thanks them for welcoming her aboard the ship.
+relay_gb-23	
+relay_gb-23_01	Relay GB-23 is one of Groundbreaker's backup auxiliary communications relay stations,
+relay_gb-23_02	located in Halcyon.
+relay_gb-23_03	Like other relay stations,
+relay_gb-23_04	Relay GB-23 orbits the edge of the Halcyon system and therefore receives a significant proportion of the transmissions from Earth.
+relay_gb-23_05	Relay GB-23 went offline some months ago for unknown reasons and Edna Ingmire on Groundbreaker has so far been unsuccessful in arranging for a diagnostic expedition to the station to get it back online,
+relay_gb-23_06	as Junlei Tennyson keeps denying the personnel loss allocation associated with sending a technical team to the station.
+relay_gb-23_07	Edna asks the Stranger to assist with getting the relay back online.
+relay_gb-23_08	The transmitter array on the station was manually deactivated by Alexander Frey,
+relay_gb-23_09	a resident of Byzantium who fled to the station after being plagued with mysterious voices in his head.
+relay_gb-23_10	He powered down the transmitter as he believed it to be the source of the voices.
+relay_gb-23_11	This was not the case and the voices persisted even after deactivating the relay,
+relay_gb-23_12	driving him mad and eventually causing him to commit suicide.
+the_board	
+the_board_01	The Halcyon Holdings Corporate Board, also simply known as The Board,
+the_board_02	institutes policy and law throughout the Halcyon Colony.
+the_board_03	The details surrounding the board's founding remain largely unknown,
+the_board_04	though its activities suggest that it was originally founded some seventy-odd years ago, give or take.
+the_board_05	In that time, it has managed to terraform Terra I
+the_board_06	(a catastrophic failure due to mutations rendering the wildlife overwhelmingly hostile to human life).
+the_board_07	The Board maintains a very tense relationship with MSI, owing to MSI's democratic ideals and their declared ownership of Monarch.
+the_board_08	As a result, the Board has placed Monarch, and by extension, MSI, under the Hazard Clause, which forbids off-world businesses from doing transactions on Monarch without the correct (and deliberately impossible to complete) documents.
+the_board_09	Depending on the actions of the Stranger, MSI may be compelled to rebel against the Board's authoritarianism.

@@ -1,0 +1,432 @@
+{
+  "id": "a_small_grave_matter_04",
+  "quest_name": "a_small_grave_matter",
+  "conversation": {
+    "filename": "00_cv_conrad",
+    "start_node": 128,
+    "end_nodes": [
+      140,
+      17
+    ],
+    "force_include": [
+      4,
+      22,
+      24,
+      34,
+      131,
+      143
+    ],
+    "force_sequence": []
+  },
+  "in_objective": "O2",
+  "out_objective": "O5",
+  "participants": [
+    "conrad_sadik"
+  ],
+  "objectives": {
+    "O2": {
+      "summary": "Collect Conrad's Gravesite Fees",
+      "description": {
+        "S1": "Conrad is one of the four people Silas sent you to collect from.",
+        "S2": "He runs a barber shop in Edgewater."
+      },
+      "blurb": {
+        "B1": "Conrad Sadik is located in the Barber Shop inside Edgewater.",
+        "B2": "You can talk to him and find out he is quite happy with his position at Edgewater,",
+        "B3": "but he is broke and cannot afford the gravesite fee.",
+        "B4": "He will offer his apologies and acceptance to have his Medical Rights revoked as he will have to default on this payment.",
+        "B5": "He reveals he had the plague and was deemed worthy of treatment,",
+        "B6": "but since the barber shop is not profitable he has spent his savings to keep it afloat.",
+        "B7": "Tell him to give Silas an \"I owe you\".",
+        "B8": "He will need something to give as collateral.",
+        "B9": "Go to the back room and inspect a ledger and you'll find a note from Phyllis mentioning a receptionist's suicide and asking Conrad to pull the teeth.",
+        "B10": "You can find the Golden Teeth items at the Botanical Labs greenhouse and bring them back,",
+        "B11": "then use Persuade (1) and tell him that you have them.",
+        "B12": "You will then receive 360xp and complete this portion of the quest.",
+        "B13": "Alternatively: You can kill him for his Gravesite Fee"
+      }
+    },
+    "O5": {
+      "summary": "Return to Silas",
+      "description": {
+        "S1": "You finished collecting gravesite fees from the people of Edgewater.",
+        "S2": "Return to Silas."
+      },
+      "blurb": {
+        "B1": "After gathering all the gravesite fees,",
+        "B2": "return to Silas to receive a reward of 300 bits.",
+        "B3": "With a Persuade 6 check, Silas will agree to upping the reward by 150 bits."
+      }
+    }
+  },
+  "dialog_edges": [
+    [
+      128,
+      143
+    ],
+    [
+      128,
+      131
+    ],
+    [
+      128,
+      141
+    ],
+    [
+      143,
+      71
+    ],
+    [
+      71,
+      72
+    ],
+    [
+      71,
+      105
+    ],
+    [
+      72,
+      73
+    ],
+    [
+      73,
+      74
+    ],
+    [
+      74,
+      93
+    ],
+    [
+      93,
+      94
+    ],
+    [
+      94,
+      77
+    ],
+    [
+      77,
+      78
+    ],
+    [
+      77,
+      92
+    ],
+    [
+      78,
+      159
+    ],
+    [
+      159,
+      79
+    ],
+    [
+      79,
+      89
+    ],
+    [
+      92,
+      79
+    ],
+    [
+      105,
+      106
+    ],
+    [
+      106,
+      74
+    ],
+    [
+      131,
+      132
+    ],
+    [
+      132,
+      133
+    ],
+    [
+      132,
+      135
+    ],
+    [
+      132,
+      138
+    ],
+    [
+      133,
+      134
+    ],
+    [
+      134,
+      128
+    ],
+    [
+      135,
+      136
+    ],
+    [
+      136,
+      137
+    ],
+    [
+      137,
+      128
+    ],
+    [
+      138,
+      139
+    ],
+    [
+      139,
+      128
+    ]
+  ],
+  "dialog": [
+    {
+      "id": 128,
+      "speaker_guid": "4e646b49-4331-4931-8dc6-418aaf147443",
+      "speaker": "ConradSadik (Male)",
+      "utterance": "What can I do for you?",
+      "support_knowledge": []
+    },
+    {
+      "id": 143,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I know about Eugene. Why not use his teeth as collateral for your gravesite fees?",
+      "support_knowledge": [
+        "O2_B8",
+        "eugene_01",
+        "eugene_02",
+        "eugene_14"
+      ]
+    },
+    {
+      "id": 131,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "You sound like you've had some training. I know a thing or two about medicine.",
+      "support_knowledge": [
+        "conrad_sadik_08"
+      ]
+    },
+    {
+      "id": 141,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I should go.",
+      "support_knowledge": []
+    },
+    {
+      "id": 71,
+      "speaker_guid": "4e646b49-4331-4931-8dc6-418aaf147443",
+      "speaker": "ConradSadik (Male)",
+      "utterance": "You know about Eugene? How?",
+      "support_knowledge": [
+        "eugene_02",
+        "eugene_14"
+      ]
+    },
+    {
+      "id": 72,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I found a note from Phyllis. ",
+      "support_knowledge": [
+        "eugene_17",
+        "eugene_18"
+      ]
+    },
+    {
+      "id": 105,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "None of your business.",
+      "support_knowledge": []
+    },
+    {
+      "id": 73,
+      "speaker_guid": "4e646b49-4331-4931-8dc6-418aaf147443",
+      "speaker": "ConradSadik (Male)",
+      "utterance": "Then you know Phyllis suggested selling off Eugene's gold teeth. I didn't approve of the idea then, and I don't approve of it now.",
+      "support_knowledge": [
+        "eugene_17",
+        "eugene_18"
+      ]
+    },
+    {
+      "id": 74,
+      "speaker_guid": "4e646b49-4331-4931-8dc6-418aaf147443",
+      "speaker": "ConradSadik (Male)",
+      "utterance": "Eugene's golden teeth were a family heirloom, representing three generations of poor dental hygiene. He took them to his grave.",
+      "support_knowledge": [
+        "eugene_14"
+      ]
+    },
+    {
+      "id": 93,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "They were probably worth a few bits.",
+      "support_knowledge": [
+        "eugene_14"
+      ]
+    },
+    {
+      "id": 94,
+      "speaker_guid": "4e646b49-4331-4931-8dc6-418aaf147443",
+      "speaker": "ConradSadik (Male)",
+      "utterance": "More than a few. Those teeth were his personal savings.",
+      "support_knowledge": [
+        "eugene_14",
+        "eugene_15"
+      ]
+    },
+    {
+      "id": 77,
+      "speaker_guid": "4e646b49-4331-4931-8dc6-418aaf147443",
+      "speaker": "ConradSadik (Male)",
+      "utterance": "I can't ask Silas to dig up a man's body and pry a few teeth loose from his jaw, just to pay my bills. Can I?",
+      "support_knowledge": [
+        "O2_B8",
+        "silas_04",
+        "eugene_14"
+      ]
+    },
+    {
+      "id": 78,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "You're going to have to.",
+      "support_knowledge": []
+    },
+    {
+      "id": 92,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I don't care. I'm just here to collect your dues.",
+      "support_knowledge": [
+        "O2_S1"
+      ]
+    },
+    {
+      "id": 159,
+      "speaker_guid": "4e646b49-4331-4931-8dc6-418aaf147443",
+      "speaker": "ConradSadik (Male)",
+      "utterance": "Yes, I suppose I must.",
+      "support_knowledge": [
+        "O2_B8",
+        "eugene_14"
+      ]
+    },
+    {
+      "id": 79,
+      "speaker_guid": "4e646b49-4331-4931-8dc6-418aaf147443",
+      "speaker": "ConradSadik (Male)",
+      "utterance": "Here you are. Gravesite papers, affixed with my signature, and an IOU.",
+      "support_knowledge": [
+        "O2_B7",
+        "O2_B8",
+        "O2_B12",
+        "eugene_14"
+      ]
+    },
+    {
+      "id": 89,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Goodbye.",
+      "support_knowledge": []
+    },
+    {
+      "id": 106,
+      "speaker_guid": "4e646b49-4331-4931-8dc6-418aaf147443",
+      "speaker": "ConradSadik (Male)",
+      "utterance": "You probably heard it from one of our local gossip-mongers. ",
+      "support_knowledge": [
+        "eugene_14"
+      ]
+    },
+    {
+      "id": 132,
+      "speaker_guid": "4e646b49-4331-4931-8dc6-418aaf147443",
+      "speaker": "ConradSadik (Male)",
+      "utterance": "Oh? Am I in the company of a fellow doctor?",
+      "support_knowledge": [
+        "conrad_sadik_01"
+      ]
+    },
+    {
+      "id": 133,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Only if we use the term doctor loosely.",
+      "support_knowledge": [
+        "conrad_sadik_01",
+        "conrad_sadik_08",
+        "conrad_sadik_09",
+        "conrad_sadik_10"
+      ]
+    },
+    {
+      "id": 135,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "So you prepare corpses for burial. Pretty specific job description.",
+      "support_knowledge": [
+        "conrad_sadik_01"
+      ]
+    },
+    {
+      "id": 138,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I'm guessing you were trained at a medical school.",
+      "support_knowledge": [
+        "conrad_sadik_01",
+        "conrad_sadik_09"
+      ]
+    },
+    {
+      "id": 134,
+      "speaker_guid": "4e646b49-4331-4931-8dc6-418aaf147443",
+      "speaker": "ConradSadik (Male)",
+      "utterance": "I am a Spacer's Choice certified surgeon! And if you must know, I can stitch a severed thumb with a fifty-eight percent chance of avoiding gangrene.",
+      "support_knowledge": [
+        "conrad_sadik_08",
+        "conrad_sadik_11"
+      ]
+    },
+    {
+      "id": 136,
+      "speaker_guid": "4e646b49-4331-4931-8dc6-418aaf147443",
+      "speaker": "ConradSadik (Male)",
+      "utterance": "You may think that, but the tidiness of my fellow worker is my responsibility. Alive or otherwise.",
+      "support_knowledge": [
+        "conrad_sadik_01",
+        "conrad_sadik_02",
+        "conrad_sadik_03"
+      ]
+    },
+    {
+      "id": 137,
+      "speaker_guid": "4e646b49-4331-4931-8dc6-418aaf147443",
+      "speaker": "ConradSadik (Male)",
+      "utterance": "Whether you're showing up to work or going to that great cannery in the sky, it's my job to make you look like a million bits.",
+      "support_knowledge": [
+        "conrad_sadik_01",
+        "conrad_sadik_02",
+        "conrad_sadik_03"
+      ]
+    },
+    {
+      "id": 139,
+      "speaker_guid": "4e646b49-4331-4931-8dc6-418aaf147443",
+      "speaker": "ConradSadik (Male)",
+      "utterance": "Experience was my teacher. Experience and 'So You Want To Be An Embalmer,' brochures one through five, courtesy of the Spacer's Choice Department of Career Development.",
+      "support_knowledge": [
+        "conrad_sadik_10"
+      ]
+    }
+  ]
+}

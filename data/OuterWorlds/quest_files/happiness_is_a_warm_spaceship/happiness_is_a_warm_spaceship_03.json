@@ -1,0 +1,54 @@
+{
+  "id": "happiness_is_a_warm_spaceship_03",
+  "quest_name": "happiness_is_a_warm_spaceship",
+  "conversation": {
+    "filename": "01_cv_tennyson_junlei_new",
+    "start_node": 251,
+    "end_nodes": [
+      557
+    ],
+    "force_include": [],
+    "force_sequence": []
+  },
+  "in_objective": "O4",
+  "participants": [
+    "junlei_tennyson"
+  ],
+  "objectives": {
+    "O4": {
+      "summary": "Return to Junlei",
+      "description": {
+        "S1": "Follow up with Junlei to let her know the radiators are fixed and to claim your reward."
+      },
+      "blurb": {
+        "B1": "Return and speak to Junlei to complete the quest."
+      }
+    }
+  },
+  "dialog": [
+    {
+      "id": 251,
+      "speaker_guid": "ad470aeb-75cf-4136-b950-a971370a0f70",
+      "speaker": "JunleiTennyson (Female)",
+      "utterance": "My boards are returning to green. What a weight that is off my shoulders. I don't normally tolerate outsiders mucking about in my station's guts, but you're all right.",
+      "support_knowledge": [
+        "O4_B1"
+      ]
+    },
+    {
+      "id": 40,
+      "speaker_guid": "ad470aeb-75cf-4136-b950-a971370a0f70",
+      "speaker": "JunleiTennyson (Female)",
+      "utterance": "The temperature should be dropping as we speak. I'll see to it the crew knows who kept us all from boiling alive.",
+      "support_knowledge": [
+        "O4_B1"
+      ]
+    }
+  ],
+  "dialog_edges": [
+    [
+      251,
+      40
+    ]
+  ]
+}

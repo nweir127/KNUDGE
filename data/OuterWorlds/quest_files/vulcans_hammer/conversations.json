@@ -1,0 +1,41 @@
+[
+  {
+    "id": "vulcans_hammer_00",
+    "quest_name": "vulcans_hammer",
+    "conversation": {
+      "filename": "08_cv_scientist_orson",
+      "start_node": 86,
+      "end_nodes": [],
+      "force_include": [
+        155
+      ],
+      "force_sequence": []
+    },
+    "in_objective": "O0",
+    "out_objective": "O1",
+    "participants": [
+      "orson_shaw"
+    ]
+  },
+  {
+    "id": "vulcans_hammer_01",
+    "quest_name": "vulcans_hammer",
+    "conversation": {
+      "filename": "08_cv_scientist_orson",
+      "start_node": 39,
+      "end_nodes": [],
+      "force_include": [
+        175,
+        177,
+        46,
+        112,
+        60
+      ],
+      "force_sequence": []
+    },
+    "in_objective": "O2",
+    "participants": [
+      "orson_shaw"
+    ]
+  }
+]

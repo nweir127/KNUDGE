@@ -1,0 +1,823 @@
+{
+  "id": "errors_unseen_00",
+  "quest_name": "errors_unseen",
+  "conversation": {
+    "filename": "0402_cv_sanjar_nandi_new",
+    "start_node": 847,
+    "end_nodes": [
+      292,
+      1465
+    ]
+  },
+  "in_objective": "O0",
+  "out_objective": "O1",
+  "participants": [
+    "sanjar_nandi",
+    "celia_robbins"
+  ],
+  "dialog": [
+    {
+      "id": 847,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "<Give him the BOLT-52.> I found the cartridge and deleted that data for you.",
+      "support_knowledge": [
+        "O0_B1",
+        "sanjar_nandi_10"
+      ]
+    },
+    {
+      "id": 297,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "Oh, yes. I'm going to be up all night with this. All those blanks waiting to be filled, boxes waiting to be ticked... ",
+      "support_knowledge": []
+    },
+    {
+      "id": 923,
+      "speaker_guid": "88e2a5c4-832b-4533-b593-28ef1edc16f2",
+      "speaker": "Celia (Female)",
+      "utterance": "Try to control yourself, sir.",
+      "support_knowledge": []
+    },
+    {
+      "id": 924,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "Have you any idea how powerful this is? Corporations have been toppled with less.",
+      "support_knowledge": [
+        "sanjar_nandi_10"
+      ]
+    },
+    {
+      "id": 562,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "How exactly is a data cartridge going to help?",
+      "support_knowledge": []
+    },
+    {
+      "id": 498,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "You made it sound like you were sending me after a weapon.",
+      "support_knowledge": []
+    },
+    {
+      "id": 500,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "What a question! Bureaucratic micromanagement is the only way anything gets done on Halcyon, and proper documentation is a key part of that.",
+      "support_knowledge": []
+    },
+    {
+      "id": 711,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "For our part, a Bill of Liquidation/Transfer Form-52 will protect our holdings on Monarch by temporarily assigning them to a pass-through entity once we drop our bomb on the Board.",
+      "support_knowledge": [
+        "sanjar_nandi_10",
+        "O0_B2"
+      ]
+    },
+    {
+      "id": 935,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Yes! Finally, the Board will get their comeuppance!",
+      "support_knowledge": [
+        "the_board_07",
+        "the_board_09"
+      ]
+    },
+    {
+      "id": 925,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Spare me the details and just tell me what comes next.",
+      "support_knowledge": []
+    },
+    {
+      "id": 926,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Let me guess, a paperweight?",
+      "support_knowledge": []
+    },
+    {
+      "id": 969,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "Sort of! Really, we're just going to blackmail them into offering us a seat at the table!",
+      "support_knowledge": [
+        "O0_B2"
+      ]
+    },
+    {
+      "id": 970,
+      "speaker_guid": "88e2a5c4-832b-4533-b593-28ef1edc16f2",
+      "speaker": "Celia (Female)",
+      "utterance": "But, really, whatever gets you excited about the idea. It's definitely a firm middle finger.",
+      "support_knowledge": [
+        "the_board_07"
+      ]
+    },
+    {
+      "id": 971,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I can get behind that.",
+      "support_knowledge": []
+    },
+    {
+      "id": 966,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Just tell me what you're planning.",
+      "support_knowledge": []
+    },
+    {
+      "id": 972,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "That's what I like to hear.",
+      "support_knowledge": []
+    },
+    {
+      "id": 502,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "I have reason to believe that one of the other corporations is operating on Monarch - illegally and in secret.",
+      "support_knowledge": [
+        "O0_S1",
+        "O0_B3",
+        "monarch_stellar_industries_01"
+      ]
+    },
+    {
+      "id": 940,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "If we can find proof, I can use that as leverage to... encourage certain powers that be to accept our BOLT-52 and reinstate us on the Board.",
+      "support_knowledge": [
+        "O0_S2",
+        "sanjar_nandi_10",
+        "the_board_07"
+      ]
+    },
+    {
+      "id": 941,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Sanjar, you sly dog.",
+      "support_knowledge": []
+    },
+    {
+      "id": 942,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "What does that mean for me?",
+      "support_knowledge": []
+    },
+    {
+      "id": 947,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "You really think so?",
+      "support_knowledge": []
+    },
+    {
+      "id": 946,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "I admit, I've been hatching this scheme for quite some time. I just needed someone capable to help me carry it out.",
+      "support_knowledge": [
+        "sanjar_nandi_10"
+      ]
+    },
+    {
+      "id": 503,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "If someone is operating here, then Catherine's almost certainly supplying them out of Fallbrook. Perhaps she could be convinced to tell you where they are.",
+      "support_knowledge": [
+        "O1_S1",
+        "O1_S2",
+        "O0_B4"
+      ]
+    },
+    {
+      "id": 714,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I know how to make people talk.",
+      "support_knowledge": []
+    },
+    {
+      "id": 715,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Sounds like you know her well enough yourself.",
+      "support_knowledge": []
+    },
+    {
+      "id": 716,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "Oh, I imagine you do.",
+      "support_knowledge": []
+    },
+    {
+      "id": 717,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "But as much as I love your can-do attitude and dangerous gravitas, Catherine handles all of our shipments.",
+      "support_knowledge": [
+        "O0_B4"
+      ]
+    },
+    {
+      "id": 936,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "So it would be best if you could \"leave her in one piece.\" Is that how you people put it?",
+      "support_knowledge": []
+    },
+    {
+      "id": 937,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Close enough.",
+      "support_knowledge": []
+    },
+    {
+      "id": 939,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Watch it with the \"you people.\"",
+      "support_knowledge": []
+    },
+    {
+      "id": 719,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "Once you, uh, subtly work out where this corporate facility might be, bring back proof of its operation. Maybe some nice letterhead. Or someone working there - that would do it.",
+      "support_knowledge": [
+        "O0_B5"
+      ]
+    },
+    {
+      "id": 721,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Infiltrate a secret corporate base and kidnap the staff. Sure, easy.",
+      "support_knowledge": []
+    },
+    {
+      "id": 1574,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I'm on it.",
+      "support_knowledge": []
+    },
+    {
+      "id": 722,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "A foolproof plan if I ever heard one! I'll leave the execution to you.",
+      "support_knowledge": []
+    },
+    {
+      "id": 730,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "Hah! I knew you were the right person for the job. I suppose I'll leave you to it.",
+      "support_knowledge": []
+    },
+    {
+      "id": 950,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "Of course. I didn't mean to make assumptions.",
+      "support_knowledge": []
+    },
+    {
+      "id": 718,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "That's part of the problem. She has certain... ambitions for Stellar Bay. And I fear my asking her would give her the leverage she's been looking for. ",
+      "support_knowledge": [
+        "catherine_malin_04",
+        "catherine_malin_05"
+      ]
+    },
+    {
+      "id": 949,
+      "speaker_guid": "88e2a5c4-832b-4533-b593-28ef1edc16f2",
+      "speaker": "Celia (Female)",
+      "utterance": "Don't get yourself worked up, sir. It's perfectly natural to have a healthy fear of her.",
+      "support_knowledge": [
+        "catherine_malin_06"
+      ]
+    },
+    {
+      "id": 952,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "We really don't need to discuss this now, Celia.",
+      "support_knowledge": []
+    },
+    {
+      "id": 953,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "So, go to Fallbrook and get the location of an illegal corporate facility. Then?",
+      "support_knowledge": []
+    },
+    {
+      "id": 927,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "Corporate espionage.",
+      "support_knowledge": []
+    },
+    {
+      "id": 928,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "How was that, Celia? Did I sell it?",
+      "support_knowledge": []
+    },
+    {
+      "id": 929,
+      "speaker_guid": "88e2a5c4-832b-4533-b593-28ef1edc16f2",
+      "speaker": "Celia (Female)",
+      "utterance": "Your best delivery yet, sir.",
+      "support_knowledge": []
+    },
+    {
+      "id": 930,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "You killed it, Sanjar.",
+      "support_knowledge": []
+    },
+    {
+      "id": 931,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Just get on with it.",
+      "support_knowledge": []
+    },
+    {
+      "id": 932,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "It kinda spoils the effect if you have to ask.",
+      "support_knowledge": []
+    },
+    {
+      "id": 933,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "Celia...",
+      "support_knowledge": []
+    },
+    {
+      "id": 934,
+      "speaker_guid": "88e2a5c4-832b-4533-b593-28ef1edc16f2",
+      "speaker": "Celia (Female)",
+      "utterance": "Already noted for your review, sir.",
+      "support_knowledge": []
+    },
+    {
+      "id": 943,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "So, this plan of yours?",
+      "support_knowledge": []
+    },
+    {
+      "id": 944,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "Getting ahead of myself again.",
+      "support_knowledge": []
+    },
+    {
+      "id": 945,
+      "speaker_guid": "88e2a5c4-832b-4533-b593-28ef1edc16f2",
+      "speaker": "Celia (Female)",
+      "utterance": "Happens to the best of us, sir.",
+      "support_knowledge": []
+    },
+    {
+      "id": 964,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "See, that doesn't even make sense. This is an electronic form. We don't need paperweights.",
+      "support_knowledge": []
+    },
+    {
+      "id": 965,
+      "speaker_guid": "88e2a5c4-832b-4533-b593-28ef1edc16f2",
+      "speaker": "Celia (Female)",
+      "utterance": "Hardly the point, sir.",
+      "support_knowledge": []
+    },
+    {
+      "id": 967,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "If you could kill rapts half as well as you kill a good joke, you wouldn't need me.",
+      "support_knowledge": []
+    },
+    {
+      "id": 968,
+      "speaker_guid": "88e2a5c4-832b-4533-b593-28ef1edc16f2",
+      "speaker": "Celia (Female)",
+      "utterance": "Perhaps you should explain the second part of the plan, sir.",
+      "support_knowledge": []
+    },
+    {
+      "id": 564,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "But that's exactly what this is! The world isn't changed with guns and speeches - much as Graham and his followers would like to think - but rather with meticulous documentation.",
+      "support_knowledge": []
+    },
+    {
+      "id": 709,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "And the Bill of Liquidation/Transfer Form-52 is one of the most formidable pieces of data entry in all of Halcyon. One false stroke can invalidate the entire document.",
+      "support_knowledge": []
+    },
+    {
+      "id": 710,
+      "speaker_guid": "88e2a5c4-832b-4533-b593-28ef1edc16f2",
+      "speaker": "Celia (Female)",
+      "utterance": "It's true. One of the old execs gave herself a stroke trying to fill out the exemptions section.",
+      "support_knowledge": []
+    },
+    {
+      "id": 960,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "What does the BOLT-52 do, exactly?",
+      "support_knowledge": []
+    },
+    {
+      "id": 1339,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "The pen really is mightier.",
+      "support_knowledge": []
+    },
+    {
+      "id": 1340,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Don't hurt yourself, I guess.",
+      "support_knowledge": []
+    },
+    {
+      "id": 1342,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "How charmingly quaint! But this is an electronic form - no ink need be wasted.",
+      "support_knowledge": []
+    },
+    {
+      "id": 1343,
+      "speaker_guid": "88e2a5c4-832b-4533-b593-28ef1edc16f2",
+      "speaker": "Celia (Female)",
+      "utterance": "It's an expression, sir. ",
+      "support_knowledge": []
+    },
+    {
+      "id": 1344,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "Well, it really shouldn't be. Electronic data is much easier to disseminate. But I digress.",
+      "support_knowledge": []
+    },
+    {
+      "id": 1341,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "Your concern is most touching. But not to worry - I've been preparing years for this.",
+      "support_knowledge": []
+    }
+  ],
+  "dialog_edges": [
+    [
+      847,
+      297
+    ],
+    [
+      297,
+      923
+    ],
+    [
+      923,
+      924
+    ],
+    [
+      924,
+      562
+    ],
+    [
+      924,
+      498
+    ],
+    [
+      562,
+      500
+    ],
+    [
+      500,
+      711
+    ],
+    [
+      711,
+      935
+    ],
+    [
+      711,
+      925
+    ],
+    [
+      711,
+      926
+    ],
+    [
+      935,
+      969
+    ],
+    [
+      969,
+      970
+    ],
+    [
+      970,
+      971
+    ],
+    [
+      970,
+      966
+    ],
+    [
+      971,
+      972
+    ],
+    [
+      972,
+      502
+    ],
+    [
+      502,
+      940
+    ],
+    [
+      940,
+      941
+    ],
+    [
+      940,
+      942
+    ],
+    [
+      941,
+      947
+    ],
+    [
+      947,
+      946
+    ],
+    [
+      946,
+      503
+    ],
+    [
+      503,
+      714
+    ],
+    [
+      503,
+      715
+    ],
+    [
+      714,
+      716
+    ],
+    [
+      716,
+      717
+    ],
+    [
+      717,
+      936
+    ],
+    [
+      936,
+      937
+    ],
+    [
+      936,
+      939
+    ],
+    [
+      937,
+      719
+    ],
+    [
+      719,
+      721
+    ],
+    [
+      719,
+      1574
+    ],
+    [
+      721,
+      722
+    ],
+    [
+      1574,
+      730
+    ],
+    [
+      939,
+      950
+    ],
+    [
+      950,
+      719
+    ],
+    [
+      715,
+      718
+    ],
+    [
+      718,
+      949
+    ],
+    [
+      949,
+      952
+    ],
+    [
+      952,
+      714
+    ],
+    [
+      952,
+      953
+    ],
+    [
+      953,
+      719
+    ],
+    [
+      942,
+      503
+    ],
+    [
+      966,
+      502
+    ],
+    [
+      925,
+      927
+    ],
+    [
+      927,
+      928
+    ],
+    [
+      928,
+      929
+    ],
+    [
+      929,
+      930
+    ],
+    [
+      929,
+      931
+    ],
+    [
+      929,
+      932
+    ],
+    [
+      930,
+      933
+    ],
+    [
+      933,
+      934
+    ],
+    [
+      934,
+      943
+    ],
+    [
+      943,
+      502
+    ],
+    [
+      931,
+      502
+    ],
+    [
+      932,
+      944
+    ],
+    [
+      944,
+      945
+    ],
+    [
+      945,
+      943
+    ],
+    [
+      926,
+      964
+    ],
+    [
+      964,
+      965
+    ],
+    [
+      965,
+      966
+    ],
+    [
+      965,
+      967
+    ],
+    [
+      967,
+      968
+    ],
+    [
+      968,
+      502
+    ],
+    [
+      498,
+      564
+    ],
+    [
+      564,
+      709
+    ],
+    [
+      709,
+      710
+    ],
+    [
+      710,
+      960
+    ],
+    [
+      710,
+      1339
+    ],
+    [
+      710,
+      1340
+    ],
+    [
+      960,
+      711
+    ],
+    [
+      1339,
+      1342
+    ],
+    [
+      1342,
+      1343
+    ],
+    [
+      1343,
+      1344
+    ],
+    [
+      1344,
+      711
+    ],
+    [
+      1340,
+      1341
+    ],
+    [
+      1341,
+      711
+    ]
+  ]
+}

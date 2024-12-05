@@ -1,0 +1,241 @@
+{
+  "id": "spratkings_02",
+  "quest_name": "spratkings",
+  "conversation": {
+    "filename": "0407_cv_bertrand",
+    "start_node": 1,
+    "end_nodes": [],
+    "force_include": [
+      29,
+      15
+    ]
+  },
+  "in_objective": "O4",
+  "out_objective": "O5",
+  "participants": [
+    "bertrand"
+  ],
+  "dialog_edges": [
+    [
+      1,
+      3
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      3,
+      24
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      5,
+      6
+    ],
+    [
+      6,
+      26
+    ],
+    [
+      6,
+      7
+    ],
+    [
+      26,
+      8
+    ],
+    [
+      8,
+      14
+    ],
+    [
+      14,
+      15
+    ],
+    [
+      14,
+      29
+    ],
+    [
+      14,
+      9
+    ],
+    [
+      15,
+      10
+    ],
+    [
+      29,
+      10
+    ],
+    [
+      7,
+      28
+    ],
+    [
+      28,
+      8
+    ],
+    [
+      24,
+      25
+    ],
+    [
+      25,
+      6
+    ]
+  ],
+  "dialog": [
+    {
+      "id": 1,
+      "speaker_guid": "23fb9f91-ab98-42ee-9094-cb9cadf89f86",
+      "speaker": "Bertrand_Fallbrook (Male)",
+      "utterance": "Damn it all! Now look what you've done! It'll take me ages to round 'em up again.",
+      "support_knowledge": [
+        "O3_B3"
+      ]
+    },
+    {
+      "id": 3,
+      "speaker_guid": "23fb9f91-ab98-42ee-9094-cb9cadf89f86",
+      "speaker": "Bertrand_Fallbrook (Male)",
+      "utterance": "State your purpose or get out of my face, domicile-intruder!",
+      "support_knowledge": [
+        "bertrand_01"
+      ]
+    },
+    {
+      "id": 4,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I'm looking for some missing sprats. You wouldn't have seen any... around?",
+      "support_knowledge": [
+        "O3_S1",
+        "O3_S2",
+        "O3_S3"
+      ]
+    },
+    {
+      "id": 24,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "No need to get testy.",
+      "support_knowledge": []
+    },
+    {
+      "id": 5,
+      "speaker_guid": "23fb9f91-ab98-42ee-9094-cb9cadf89f86",
+      "speaker": "Bertrand_Fallbrook (Male)",
+      "utterance": "Missing? Nope, nope... Mine are all found and accounted for, thank you kindly. Now if that'll be all...",
+      "support_knowledge": []
+    },
+    {
+      "id": 6,
+      "speaker_guid": "23fb9f91-ab98-42ee-9094-cb9cadf89f86",
+      "speaker": "Bertrand_Fallbrook (Male)",
+      "utterance": "I've got an animal rescue service to oversee, and it ain't easy. Lots to do. Got a multitude of sprats to spay and feed.",
+      "support_knowledge": [
+        "bertrand_01",
+        "sprat_05"
+      ]
+    },
+    {
+      "id": 26,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "These sprats you stole are drug carriers. I'm here to retrieve the goods.",
+      "support_knowledge": [
+        "O4_S1",
+        "bertrand_02"
+      ]
+    },
+    {
+      "id": 7,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Rescue sprats. As in rescued from SubLight's shipping tunnels?",
+      "support_knowledge": [
+        "O4_S1",
+        "bertrand_02"
+      ]
+    },
+    {
+      "id": 8,
+      "speaker_guid": "23fb9f91-ab98-42ee-9094-cb9cadf89f86",
+      "speaker": "Bertrand_Fallbrook (Male)",
+      "utterance": "Look, I don't care if Nelson sent you or not. You won't be hurting a hair on any of these sprats' heads. I've killed vicious beasts for them. I ain't afraid to take on a human.",
+      "support_knowledge": [
+        "O4_S1",
+        "O4_B2",
+        "nelson_mayson_01"
+      ]
+    },
+    {
+      "id": 14,
+      "speaker_guid": "23fb9f91-ab98-42ee-9094-cb9cadf89f86",
+      "speaker": "Bertrand_Fallbrook (Male)",
+      "utterance": "Back out of this domicile, hands up, or become sprat food, intruder.",
+      "support_knowledge": []
+    },
+    {
+      "id": 15,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I won't hurt your sprats. The drugs have probably passed through their digestive tracts already.",
+      "support_knowledge": [
+        "O4_B3"
+      ]
+    },
+    {
+      "id": 29,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "No need for vivisection. Sprats possess rapid digestive systems.",
+      "support_knowledge": [
+        "O4_B3"
+      ]
+    },
+    {
+      "id": 9,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "<Attack> Sounds like an extermination's in order.",
+      "support_knowledge": [
+        "O4_B4"
+      ]
+    },
+    {
+      "id": 10,
+      "speaker_guid": "23fb9f91-ab98-42ee-9094-cb9cadf89f86",
+      "speaker": "Bertrand_Fallbrook (Male)",
+      "utterance": "You want to dig through sprat droppings, be my guest. Get your drugs. Then get lost.",
+      "support_knowledge": [
+        "O4_B5"
+      ]
+    },
+    {
+      "id": 28,
+      "speaker_guid": "23fb9f91-ab98-42ee-9094-cb9cadf89f86",
+      "speaker": "Bertrand_Fallbrook (Male)",
+      "utterance": "Day in, day out, they ran their little route, getting picked off along the way! What was I to do, turn a blind eye? Malin's an animal lover. She won't hold my actions against me.",
+      "support_knowledge": [
+        "O4_B2",
+        "catherine_malin_01",
+        "bertrand_02",
+        "bertrand_03",
+        "sprat_04"
+      ]
+    },
+    {
+      "id": 25,
+      "speaker_guid": "23fb9f91-ab98-42ee-9094-cb9cadf89f86",
+      "speaker": "Bertrand_Fallbrook (Male)",
+      "utterance": "THERE. IS. PLENTY. OF. NEED! ",
+      "support_knowledge": []
+    }
+  ]
+}

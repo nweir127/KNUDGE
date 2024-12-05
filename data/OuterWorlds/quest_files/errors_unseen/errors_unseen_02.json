@@ -1,0 +1,354 @@
+{
+  "id": "errors_unseen_02",
+  "quest_name": "errors_unseen",
+  "conversation": {
+    "filename": "0401_cv_arthur",
+    "start_node": 1,
+    "end_nodes": [],
+    "force_include": [
+      31,
+      45
+    ]
+  },
+  "in_objective": "O3",
+  "out_objective": "O4",
+  "participants": [
+    "arthur"
+  ],
+  "dialog": [
+    {
+      "id": 1,
+      "speaker_guid": "c081a0b0-4151-4773-acca-b8f169565ad4",
+      "speaker": "Arthur (Male)",
+      "utterance": "Stay back. I may be wounded, but I'm still armed.",
+      "support_knowledge": [
+        "arthur_02"
+      ]
+    },
+    {
+      "id": 36,
+      "speaker_guid": "c081a0b0-4151-4773-acca-b8f169565ad4",
+      "speaker": "Arthur (Male)",
+      "utterance": "How'd you get past my traps, anyway?",
+      "support_knowledge": [
+        "O3_B1",
+        "arthur_03"
+      ]
+    },
+    {
+      "id": 23,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I've got \"moves.\"",
+      "support_knowledge": [
+        "O3_B1"
+      ]
+    },
+    {
+      "id": 24,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Forget about that, what are YOU doing in this cave?",
+      "support_knowledge": []
+    },
+    {
+      "id": 25,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "You call those traps? I've seen nanner peels that were more dangerous.",
+      "support_knowledge": [
+        "O1_B2",
+        "O2_S1",
+        "O3_B1"
+      ]
+    },
+    {
+      "id": 26,
+      "speaker_guid": "c081a0b0-4151-4773-acca-b8f169565ad4",
+      "speaker": "Arthur (Male)",
+      "utterance": "Just remember I still got \"bullets.\" In case you get any funny ideas.",
+      "support_knowledge": []
+    },
+    {
+      "id": 27,
+      "speaker_guid": "c081a0b0-4151-4773-acca-b8f169565ad4",
+      "speaker": "Arthur (Male)",
+      "utterance": "What are you doing out here, anyway?",
+      "support_knowledge": []
+    },
+    {
+      "id": 31,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Let me take a look at your wounds...",
+      "support_knowledge": [
+        "O3_B2",
+        "arthur_02"
+      ]
+    },
+    {
+      "id": 3,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "What's with all the traps?",
+      "support_knowledge": []
+    },
+    {
+      "id": 45,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Catherine told me some of her couriers had gone missing out here.",
+      "support_knowledge": [
+        "O3_B3"
+      ]
+    },
+    {
+      "id": 32,
+      "speaker_guid": "c081a0b0-4151-4773-acca-b8f169565ad4",
+      "speaker": "Arthur (Male)",
+      "utterance": "That feels a mite better. Wish I had something to give you, but I gnawed through my last spratwurst an hour ago.",
+      "support_knowledge": [
+        "O3_B2"
+      ]
+    },
+    {
+      "id": 10,
+      "speaker_guid": "c081a0b0-4151-4773-acca-b8f169565ad4",
+      "speaker": "Arthur (Male)",
+      "utterance": "Cave like this makes a handy place to store goods or hide out for a spell. And the traps usually keep gawkers out.",
+      "support_knowledge": []
+    },
+    {
+      "id": 46,
+      "speaker_guid": "c081a0b0-4151-4773-acca-b8f169565ad4",
+      "speaker": "Arthur (Male)",
+      "utterance": "Nice to know she cares.",
+      "support_knowledge": []
+    },
+    {
+      "id": 4,
+      "speaker_guid": "c081a0b0-4151-4773-acca-b8f169565ad4",
+      "speaker": "Arthur (Male)",
+      "utterance": "Catherine had us making drops for some big-shot client out here. And before you ask, I don't know who they are. Or were.",
+      "support_knowledge": [
+        "arthur_01"
+      ]
+    },
+    {
+      "id": 5,
+      "speaker_guid": "c081a0b0-4151-4773-acca-b8f169565ad4",
+      "speaker": "Arthur (Male)",
+      "utterance": "The whole point of making drops in the middle of nowhere was to keep their identity and whereabouts a secret.",
+      "support_knowledge": [
+        "arthur_01"
+      ]
+    },
+    {
+      "id": 49,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "You think they're dead?",
+      "support_knowledge": []
+    },
+    {
+      "id": 40,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Looks like that turned out well. ",
+      "support_knowledge": []
+    },
+    {
+      "id": 41,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Get to the part where you're hiding in a cave.",
+      "support_knowledge": []
+    },
+    {
+      "id": 50,
+      "speaker_guid": "c081a0b0-4151-4773-acca-b8f169565ad4",
+      "speaker": "Arthur (Male)",
+      "utterance": "The marauders knew we were coming - rigged the bridge with explosives and everything. ",
+      "support_knowledge": [
+        "O3_B4",
+        "arthur_02"
+      ]
+    },
+    {
+      "id": 51,
+      "speaker_guid": "c081a0b0-4151-4773-acca-b8f169565ad4",
+      "speaker": "Arthur (Male)",
+      "utterance": "If they found us, my guess is they found the client, too.",
+      "support_knowledge": [
+        "O3_B4"
+      ]
+    },
+    {
+      "id": 42,
+      "speaker_guid": "c081a0b0-4151-4773-acca-b8f169565ad4",
+      "speaker": "Arthur (Male)",
+      "utterance": "Yeah. I guess the marauders noticed, 'cause they were waiting for us. Blew the bridge and took off with the goods.",
+      "support_knowledge": [
+        "O3_B4"
+      ]
+    },
+    {
+      "id": 43,
+      "speaker_guid": "c081a0b0-4151-4773-acca-b8f169565ad4",
+      "speaker": "Arthur (Male)",
+      "utterance": "Marauders were waiting for us. They blew the bridge and took off with the shipment.",
+      "support_knowledge": [
+        "O3_B4"
+      ]
+    },
+    {
+      "id": 28,
+      "speaker_guid": "c081a0b0-4151-4773-acca-b8f169565ad4",
+      "speaker": "Arthur (Male)",
+      "utterance": "Hiding from the marauders that hit us, obviously.",
+      "support_knowledge": [
+        "O3_B4, P2, P3"
+      ]
+    },
+    {
+      "id": 37,
+      "speaker_guid": "c081a0b0-4151-4773-acca-b8f169565ad4",
+      "speaker": "Arthur (Male)",
+      "utterance": "Now your turn.",
+      "support_knowledge": []
+    },
+    {
+      "id": 29,
+      "speaker_guid": "c081a0b0-4151-4773-acca-b8f169565ad4",
+      "speaker": "Arthur (Male)",
+      "utterance": "Well, you don't gotta be mean about it.",
+      "support_knowledge": []
+    }
+  ],
+  "dialog_edges": [
+    [
+      1,
+      36
+    ],
+    [
+      36,
+      23
+    ],
+    [
+      36,
+      24
+    ],
+    [
+      36,
+      25
+    ],
+    [
+      23,
+      26
+    ],
+    [
+      26,
+      27
+    ],
+    [
+      27,
+      31
+    ],
+    [
+      27,
+      3
+    ],
+    [
+      27,
+      45
+    ],
+    [
+      31,
+      32
+    ],
+    [
+      32,
+      27
+    ],
+    [
+      3,
+      10
+    ],
+    [
+      10,
+      27
+    ],
+    [
+      45,
+      46
+    ],
+    [
+      46,
+      4
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      5,
+      49
+    ],
+    [
+      5,
+      40
+    ],
+    [
+      5,
+      41
+    ],
+    [
+      49,
+      50
+    ],
+    [
+      50,
+      51
+    ],
+    [
+      51,
+      27
+    ],
+    [
+      40,
+      42
+    ],
+    [
+      42,
+      27
+    ],
+    [
+      41,
+      43
+    ],
+    [
+      43,
+      27
+    ],
+    [
+      24,
+      28
+    ],
+    [
+      28,
+      37
+    ],
+    [
+      37,
+      27
+    ],
+    [
+      25,
+      29
+    ],
+    [
+      29,
+      27
+    ]
+  ]
+}

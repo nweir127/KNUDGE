@@ -1,0 +1,87 @@
+ID	fact
+OBJECTIVE O0	
+O0_S1	189:92
+O0_B1	1128:60
+O0_B2	1189:96
+O0_B3	The fingers can be collected in any order and can be turned in to Reyes as they are collected for their individual rewards.
+OBJECTIVE O1	
+O1_S1	310:63
+O1_S2	374:42
+OBJECTIVE O2	
+O2_S1	447:53
+O2_S2	501:42
+OBJECTIVE O3	
+O3_S1	577:41
+O3_S2	501:42
+OBJECTIVE O4	
+O4_S1	690:47
+O4_S2	738:73
+OBJECTIVE O5	
+O5_S1	842:49
+O5_S2	738:73
+OBJECTIVE O6	
+O6_S1	999:52
+O6_S2	738:73
+O6_B1	After the final bounty has been turned in to Constable Reyes,
+O6_B2	she will take the liberty of deputizing the Stranger and presenting them with a junior deputy constable's badge.
+bertie_cotton	
+bertie_cotton_01	Bertie Cotton is a wanted marauder in Emerald Vale.
+bertie_cotton_02	The former Order of Scientific Inquiry vicar to Edgewater,
+bertie_cotton_03	"Bertie was reported as ""suffering a psychological breakdown upon showing symptoms of the plague""."
+bertie_cotton_04	"A writ of execution was issued for him and his sermons are now considered ""defunct and obsolete""."
+bertie_cotton_05	"According to Constable Reyes, Bertie was always quick to remind the citizens of the town that ""we all get what we deserve in the end""."
+constable_reyes	
+constable_reyes_01	Constable Reyes is the law enforcer in Edgewater.
+constable_reyes_02	Bounties on wanted marauders can be turned into her in exchange for bits.
+constable_reyes_03	A bureaucrat by role, if not by perception,
+constable_reyes_04	Reyes is responsible for enforcing the company policy of Spacer's Choice in the region of Emerald Vale.
+constable_reyes_05	"This includes all infractions from minor ones such as ""unlicensed terraforming"","
+constable_reyes_06	to major ones involving the execution of marauders who used to work for the company.
+constable_reyes_07	"She is happy to answer any questions which ""fall within acceptable margins of curiosity""."
+constabulary	
+constabulary_01	The Constabulary is a building located in southwest Edgewater,
+constabulary_02	owned and operated by Spacer's Choice.
+constabulary_03	This building houses the Spacer's Choice Constabulary,
+constabulary_04	as represented and led by Constable Reyes.
+constabulary_05	"The service that it provides is touted as ""Halcyon's leading brand in frontier justice""."
+constabulary_06	The constabulary is currently running a promotion -
+constabulary_07	for every three criminal investigations purchased, one can receive a fourth for free.
+edgewater	
+edgewater_01	Edgewater is a Spacer's Choice company town located in the Emerald Vale on the planet Terra 2.
+edgewater_02	Its primary function is supporting the operation of the town's Saltuna Cannery which is supervised by Reed Tobson.
+edgewater_03	The town's power comes from the local Geothermal Power Plant and shares its power with the region's Botanical Labs.
+edgewater_04	When the Stranger arrives in Edgewater, the town is struggling.
+edgewater_05	It has been several seasons since the town has seen any visitors
+edgewater_06	and a significant proportion of its population has fallen ill with a plague that began in the last few years.
+edgewater_07	The plague is caused by poor diet and began when the cannery began experiencing a shortage of saltuna and had to stretch its supplies by adding other ingredients to its mixture including wood chips, mushrooms, sand, and canid bits.
+emerald_vale	
+emerald_vale_01	Emerald Vale is a region on the planet Terra 2.
+guillaume_antrim	
+guillaume_antrim_01	Guillaume Antrim is a wanted marauder in Emerald Vale.
+guillaume_antrim_02	A former mechanic of the Saltuna Cannery in Edgewater,
+guillaume_antrim_03	there is now a writ of execution for him.
+guillaume_antrim_04	When you turn in his finger for the bounty,
+guillaume_antrim_05	"Constable Reyes says ""he was just a kid, last I saw him""."
+marauders	
+marauders_01	The Marauders are an enemy faction in The Outer Worlds.
+marauders_02	Humans that have lost their minds due to excessive use of Adrena-Time,
+marauders_03	marauders are violent individuals with very little in the way of comprehension or compassion.
+marauders_04	Originating on Gorgon,
+marauders_05	where Adrena-Time was being developed,
+marauders_06	they spread out initially to Edgewater as a trial by Spacer's Choice,
+marauders_07	who were aware of the violent, long term effects.
+maybell_burgess	
+maybell_burgess_01	"""Doc"" Maybell Burgess is a former physician and a wanted marauder."
+maybell_burgess_02	Originally in the employ of Spacer's Choice as Edgewater's physician,
+maybell_burgess_03	Maybell abandoned her post and stole two parcels of Adrena-Time.
+maybell_burgess_04	The thefts of the two parcels and was classified as three counts of larceny and a writ of execution was issued.
+spacers_choice	
+spacers_choice_01	Spacer's Choice is a wholly-owned subsidiary of Universal Defense Logistics.
+spacers_choice_02	Their mascot is the Moon Man.
+spacers_choice_03	Specializing in making a wide range of products as cheap as possible for the consumer,
+spacers_choice_04	Spacer's Choice cater to a broad range of clientele.
+spacers_choice_05	While their products are not very durable,
+spacers_choice_06	they are cheap to repair or replace.
+spacers_choice_07	Their employees will quote the company's sales line,
+spacers_choice_08	regardless of their own condition and are not to accept assistance from outside the company.
+spacers_choice_09	"They can also be reprimanded for fraternizing with employees labelled as ""incompetent"" - those unavailable to work."

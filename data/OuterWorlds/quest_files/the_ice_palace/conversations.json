@@ -1,0 +1,66 @@
+[
+  {
+    "id": "the_ice_palace_00",
+    "quest_name": "the_ice_palace",
+    "conversation": {
+      "filename": "01_cv_hagen_lilya_revision",
+      "start_node": 28,
+      "end_nodes": [],
+      "force_include": [
+        30
+      ],
+      "force_sequence": []
+    },
+    "in_objective": "O0",
+    "out_objective": "O1",
+    "participants": [
+      "lilya_hagen"
+    ]
+  },
+  {
+    "id": "the_ice_palace_01",
+    "quest_name": "the_ice_palace",
+    "conversation": {
+      "filename": "1002_cv_udl_commander",
+      "start_node": 4,
+      "end_nodes": [],
+      "force_include": [
+        12,
+        13,
+        25
+      ],
+      "force_sequence": []
+    },
+    "in_objective": "O1",
+    "out_objective": "O1",
+    "participants": [
+      "ada",
+      "udl_commander"
+    ]
+  },
+  {
+    "id": "the_ice_palace_02",
+    "quest_name": "the_ice_palace",
+    "conversation": {
+      "filename": "01_cv_hagen_lilya_revision",
+      "start_node": 25,
+      "end_nodes": [
+        16
+      ],
+      "force_include": [
+        269,
+        268,
+        388,
+        520,
+        480,
+        229,
+        285
+      ],
+      "force_sequence": []
+    },
+    "in_objective": "O2",
+    "participants": [
+      "lilya_hagen"
+    ]
+  }
+]

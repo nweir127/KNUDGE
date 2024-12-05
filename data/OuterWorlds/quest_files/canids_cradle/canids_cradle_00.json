@@ -1,0 +1,1067 @@
+{
+  "id": "canids_cradle_00",
+  "quest_name": "canids_cradle",
+  "conversation": {
+    "filename": "0402_cv_sanjar_nandi_new",
+    "start_node": 577,
+    "end_nodes": [
+      589
+    ],
+    "force_include": [
+      578,
+      599,
+      610,
+      830,
+      835
+    ],
+    "force_exit": 1041
+  },
+  "in_objective": "O3",
+  "out_objective": "O4",
+  "participants": [
+    "sanjar_nandi",
+    "celia_robbins"
+  ],
+  "dialog_edges": [
+    [
+      577,
+      578
+    ],
+    [
+      577,
+      579
+    ],
+    [
+      577,
+      580
+    ],
+    [
+      578,
+      596
+    ],
+    [
+      596,
+      599
+    ],
+    [
+      596,
+      600
+    ],
+    [
+      599,
+      812
+    ],
+    [
+      812,
+      1034
+    ],
+    [
+      1034,
+      815
+    ],
+    [
+      815,
+      819
+    ],
+    [
+      815,
+      817
+    ],
+    [
+      815,
+      816
+    ],
+    [
+      819,
+      1035
+    ],
+    [
+      1035,
+      1036
+    ],
+    [
+      1036,
+      602
+    ],
+    [
+      602,
+      603
+    ],
+    [
+      602,
+      610
+    ],
+    [
+      603,
+      605
+    ],
+    [
+      605,
+      1037
+    ],
+    [
+      1037,
+      1038
+    ],
+    [
+      1038,
+      602
+    ],
+    [
+      610,
+      612
+    ],
+    [
+      612,
+      613
+    ],
+    [
+      613,
+      830
+    ],
+    [
+      613,
+      614
+    ],
+    [
+      830,
+      831
+    ],
+    [
+      831,
+      833
+    ],
+    [
+      833,
+      835
+    ],
+    [
+      835,
+      1041
+    ],
+    [
+      614,
+      622
+    ],
+    [
+      622,
+      1040
+    ],
+    [
+      1040,
+      613
+    ],
+    [
+      817,
+      1267
+    ],
+    [
+      1267,
+      602
+    ],
+    [
+      816,
+      821
+    ],
+    [
+      821,
+      824
+    ],
+    [
+      824,
+      602
+    ],
+    [
+      600,
+      601
+    ],
+    [
+      601,
+      577
+    ],
+    [
+      579,
+      581
+    ],
+    [
+      581,
+      582
+    ],
+    [
+      581,
+      583
+    ],
+    [
+      581,
+      1269
+    ],
+    [
+      581,
+      585
+    ],
+    [
+      582,
+      586
+    ],
+    [
+      586,
+      1268
+    ],
+    [
+      1268,
+      1283
+    ],
+    [
+      1268,
+      1566
+    ],
+    [
+      1283,
+      1280
+    ],
+    [
+      1280,
+      581
+    ],
+    [
+      1566,
+      1280
+    ],
+    [
+      583,
+      587
+    ],
+    [
+      587,
+      766
+    ],
+    [
+      766,
+      1568
+    ],
+    [
+      1568,
+      767
+    ],
+    [
+      767,
+      585
+    ],
+    [
+      767,
+      768
+    ],
+    [
+      767,
+      769
+    ],
+    [
+      768,
+      772
+    ],
+    [
+      772,
+      773
+    ],
+    [
+      773,
+      774
+    ],
+    [
+      774,
+      775
+    ],
+    [
+      775,
+      581
+    ],
+    [
+      769,
+      770
+    ],
+    [
+      770,
+      776
+    ],
+    [
+      770,
+      781
+    ],
+    [
+      776,
+      777
+    ],
+    [
+      777,
+      778
+    ],
+    [
+      778,
+      779
+    ],
+    [
+      779,
+      780
+    ],
+    [
+      779,
+      781
+    ],
+    [
+      779,
+      782
+    ],
+    [
+      780,
+      784
+    ],
+    [
+      784,
+      581
+    ],
+    [
+      782,
+      785
+    ],
+    [
+      785,
+      581
+    ],
+    [
+      781,
+      783
+    ],
+    [
+      783,
+      581
+    ],
+    [
+      1269,
+      765
+    ],
+    [
+      765,
+      1284
+    ],
+    [
+      1284,
+      1285
+    ],
+    [
+      1284,
+      1286
+    ],
+    [
+      1284,
+      1287
+    ],
+    [
+      1285,
+      761
+    ],
+    [
+      761,
+      581
+    ],
+    [
+      1286,
+      1288
+    ],
+    [
+      1288,
+      761
+    ],
+    [
+      1287,
+      1289
+    ],
+    [
+      1289,
+      761
+    ],
+    [
+      585,
+      771
+    ],
+    [
+      771,
+      577
+    ]
+  ],
+  "dialog": [
+    {
+      "id": 577,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "I don't suppose you've found the targeting module yet. I've sent patrols, but they're running into trouble with the Iconoclasts.",
+      "support_knowledge": [
+        "O2_S1",
+        "O2_B2",
+        "sanjar_nandi_01",
+        "monarch_stellar_industries_11",
+        "iconoclasts_03",
+        "iconoclasts_13",
+        "iconoclasts_18"
+      ]
+    },
+    {
+      "id": 578,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Could you agree to a truce with the Iconoclasts?",
+      "support_knowledge": [
+        "O3_S1",
+        "O3_B1",
+        "monarch_stellar_industries_14",
+        "iconoclasts_16",
+        "iconoclasts_21"
+      ]
+    },
+    {
+      "id": 579,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Why do you need the targeting module?",
+      "support_knowledge": [
+        "O2_S1"
+      ]
+    },
+    {
+      "id": 580,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I'll let you know when I've made progress.",
+      "support_knowledge": []
+    },
+    {
+      "id": 596,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "They're all mad! And what's more, they left us. I don't see any way for us to work together.",
+      "support_knowledge": [
+        "O3_S1",
+        "monarch_stellar_industries_11",
+        "monarch_stellar_industries_14",
+        "iconoclasts_07",
+        "iconoclasts_13",
+        "iconoclasts_17",
+        "graham_bryant_02"
+      ]
+    },
+    {
+      "id": 599,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I've read your reviews, Sanjar. You can't do this alone.",
+      "support_knowledge": [
+        "O3_B1",
+        "sanjar_nandi_04"
+      ]
+    },
+    {
+      "id": 600,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Forget I said anything.",
+      "support_knowledge": []
+    },
+    {
+      "id": 812,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "This has been my albatross. The great shame of my career.",
+      "support_knowledge": [
+        "sanjar_nandi_05"
+      ]
+    },
+    {
+      "id": 1034,
+      "speaker_guid": "88e2a5c4-832b-4533-b593-28ef1edc16f2",
+      "speaker": "Celia (Female)",
+      "utterance": "Remember what we practiced, sir.",
+      "support_knowledge": [
+        "sanjar_nandi_06",
+        "celia_robbins_01"
+      ]
+    },
+    {
+      "id": 815,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "Yes. The words in those reviews were very hurtful, but they do not define me. I am a mantipillar, and my will is my cocoon. I can emerge and become whatever I wish.",
+      "support_knowledge": [
+        "sanjar_nandi_04",
+        "sanjar_nandi_06"
+      ]
+    },
+    {
+      "id": 819,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "You're good with details, but you could use someone who sees the big picture.",
+      "support_knowledge": [
+        "O3_B2",
+        "sanjar_nandi_03"
+      ]
+    },
+    {
+      "id": 817,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "The people who wrote your reviews are the same type of people you'll deal with on the Board.",
+      "support_knowledge": [
+        "sanjar_nandi_04",
+        "sanjar_nandi_06",
+        "sanjar_nandi_10",
+        "the_board_02"
+      ]
+    },
+    {
+      "id": 816,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Pull your head out of your ass, Sanjar. Don't screw this opportunity up over your wounded pride.",
+      "support_knowledge": [
+        "sanjar_nandi_05"
+      ]
+    },
+    {
+      "id": 1035,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "You, too?!",
+      "support_knowledge": [
+        "sanjar_nandi_04",
+        "sanjar_nandi_05"
+      ]
+    },
+    {
+      "id": 1036,
+      "speaker_guid": "88e2a5c4-832b-4533-b593-28ef1edc16f2",
+      "speaker": "Celia (Female)",
+      "utterance": "He has a point, sir. And it's not all bad.",
+      "support_knowledge": []
+    },
+    {
+      "id": 602,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "Supposing you're right, who exactly would you have me work with? The Iconoclasts are not the most compromising sorts.",
+      "support_knowledge": [
+        "O3_S1",
+        "O3_B2",
+        "O4_S1",
+        "monarch_stellar_industries_12",
+        "iconoclasts_07"
+      ]
+    },
+    {
+      "id": 603,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "How did things get so bad between you and the Iconoclasts?",
+      "support_knowledge": [
+        "monarch_stellar_industries_11",
+        "monarch_stellar_industries_12",
+        "iconoclasts_07",
+        "iconoclasts_13",
+        "iconoclasts_15"
+      ]
+    },
+    {
+      "id": 610,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "What about Graham's second-in-command, Zora?",
+      "support_knowledge": [
+        "O3_B3",
+        "zora_blackwood_02",
+        "zora_blackwood_13",
+        "iconoclasts_10"
+      ]
+    },
+    {
+      "id": 605,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "How do these things ever start? Once upon a time, Graham and I saw the same problems with MSI - a rigid corporate structure with no regard for its people.",
+      "support_knowledge": [
+        "sanjar_nandi_13",
+        "monarch_stellar_industries_11",
+        "iconoclasts_03",
+        "iconoclasts_07",
+        "iconoclasts_13",
+        "iconoclasts_14",
+        "graham_bryant_02",
+        "graham_bryant_14"
+      ]
+    },
+    {
+      "id": 1037,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "But where I wanted to reform MSI, he only wanted to take it apart. As if starving in the wilderness is somehow better than starving under corporate mismanagement.",
+      "support_knowledge": [
+        "sanjar_nandi_13",
+        "monarch_stellar_industries_03",
+        "monarch_stellar_industries_09",
+        "iconoclasts_01",
+        "iconoclasts_02",
+        "iconoclasts_03",
+        "iconoclasts_07",
+        "graham_bryant_02",
+        "sanjar_nandi_10"
+      ]
+    },
+    {
+      "id": 1038,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "He won't hear reason now. And I wouldn't trust him again.",
+      "support_knowledge": [
+        "graham_bryant_14"
+      ]
+    },
+    {
+      "id": 612,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "That's an interesting suggestion. I confess, I don't know much about her except that she worked for Rizzo.",
+      "support_knowledge": [
+        "zora_blackwood_11"
+      ]
+    },
+    {
+      "id": 613,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "I'd be willing to consider it. But I'd need to see her review first.",
+      "support_knowledge": [
+        "O3_B4"
+      ]
+    },
+    {
+      "id": 830,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "<Give him Zora's review.> Actually, I already found it on a terminal in Cascadia.",
+      "support_knowledge": [
+        "O3_B4",
+        "zora_blackwood_11"
+      ]
+    },
+    {
+      "id": 614,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Are you serious?",
+      "support_knowledge": []
+    },
+    {
+      "id": 831,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "Very well. I can't promise anything, but let's see what we have here.",
+      "support_knowledge": []
+    },
+    {
+      "id": 833,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "Well, it seems like she... she's actually very qualified.",
+      "support_knowledge": [
+        "O3_B5",
+        "zora_blackwood_12"
+      ]
+    },
+    {
+      "id": 835,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "I wasn't expecting to say this, but if you can put her in charge and convince her to agree to a meeting, I'd be willing to discuss terms.",
+      "support_knowledge": [
+        "O3_B5",
+        "zora_blackwood_12"
+      ]
+    },
+    {
+      "id": 1041,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Very well.",
+      "support_knowledge": []
+    },
+    {
+      "id": 622,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "One can't be haphazard about these things! ",
+      "support_knowledge": []
+    },
+    {
+      "id": 1040,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "Besides, if you think her skills will complement mine, then we should see what those skills are.",
+      "support_knowledge": [
+        "O3_B4"
+      ]
+    },
+    {
+      "id": 1267,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "I hadn't thought of it that way. Perhaps you have a point.",
+      "support_knowledge": []
+    },
+    {
+      "id": 821,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "Normally, I'd find this kind of talk from you quite invigorating. But this is a difficult moment for me.",
+      "support_knowledge": [
+        "sanjar_nandi_05"
+      ]
+    },
+    {
+      "id": 824,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "Still, perhaps you have a point.",
+      "support_knowledge": []
+    },
+    {
+      "id": 601,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "Nonsense! I value original thought. That's what makes MSI different, after all.",
+      "support_knowledge": [
+        "monarch_stellar_industries_09"
+      ]
+    },
+    {
+      "id": 581,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "Well, because the module controls the weapons systems.",
+      "support_knowledge": [
+        "O2_S1"
+      ]
+    },
+    {
+      "id": 582,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I mean, why do you need the gunship's weapons systems?",
+      "support_knowledge": [
+        "O2_S1"
+      ]
+    },
+    {
+      "id": 583,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Seems like your people should be able to handle this.",
+      "support_knowledge": []
+    },
+    {
+      "id": 1269,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "What's so bad about the Iconoclasts reaching the gunship?",
+      "support_knowledge": [
+        "monarch_stellar_industries_11",
+        "iconoclasts_07",
+        "iconoclasts_07",
+        "iconoclasts_13"
+      ]
+    },
+    {
+      "id": 585,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Enough about the gunship.",
+      "support_knowledge": []
+    },
+    {
+      "id": 586,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "Because once we mount them on Stellar Bay's walls, no marauder or raptidon will ever be a threat to us again.",
+      "support_knowledge": [
+        "stellar_bay_02",
+        "stellar_bay_01"
+      ]
+    },
+    {
+      "id": 1268,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "Stellar Bay will be as secure as any other settlement in Halcyon.",
+      "support_knowledge": [
+        "stellar_bay_01"
+      ]
+    },
+    {
+      "id": 1283,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "If you say so.",
+      "support_knowledge": []
+    },
+    {
+      "id": 1566,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "That's a worthy goal.",
+      "support_knowledge": []
+    },
+    {
+      "id": 1280,
+      "speaker_guid": "88e2a5c4-832b-4533-b593-28ef1edc16f2",
+      "speaker": "Celia (Female)",
+      "utterance": "The point is, this weapons system would be a powerful advantage. And we can't risk the Iconoclasts getting it.",
+      "support_knowledge": [
+        "monarch_stellar_industries_11",
+        "iconoclasts_07",
+        "iconoclasts_07",
+        "iconoclasts_13"
+      ]
+    },
+    {
+      "id": 587,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "Look, Celia, he's being funny again.",
+      "support_knowledge": []
+    },
+    {
+      "id": 766,
+      "speaker_guid": "88e2a5c4-832b-4533-b593-28ef1edc16f2",
+      "speaker": "Celia (Female)",
+      "utterance": "I don't think so, sir.",
+      "support_knowledge": []
+    },
+    {
+      "id": 1568,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "Really? I could have sworn- well, that's not important. ",
+      "support_knowledge": []
+    },
+    {
+      "id": 767,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "What is important is that there's a considerable distance between us and that ship, and most of it is inhabited by marauders and raptidons.",
+      "support_knowledge": [
+        "stellar_bay_01"
+      ]
+    },
+    {
+      "id": 768,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Yeah, that's pretty treacherous.",
+      "support_knowledge": []
+    },
+    {
+      "id": 769,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "What's the matter? Can't get your hands dirty now and then?",
+      "support_knowledge": []
+    },
+    {
+      "id": 772,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "It is. And that's not saying anything about the sulfur pits, the mantisaurs, the Iconoclast rebels...",
+      "support_knowledge": [
+        "stellar_bay_01",
+        "iconoclasts_03",
+        "iconoclasts_07"
+      ]
+    },
+    {
+      "id": 773,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "Celia, do we have any Pep Pills? I'm feeling light-headed.",
+      "support_knowledge": []
+    },
+    {
+      "id": 774,
+      "speaker_guid": "88e2a5c4-832b-4533-b593-28ef1edc16f2",
+      "speaker": "Celia (Female)",
+      "utterance": "I'm afraid you finished them going over the sales reports last week.",
+      "support_knowledge": []
+    },
+    {
+      "id": 775,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "Well, I suppose you see our predicament.",
+      "support_knowledge": []
+    },
+    {
+      "id": 770,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "Do you just think of these things in the moment, or do you write them down and save them for later? They're very good.",
+      "support_knowledge": []
+    },
+    {
+      "id": 776,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Just answer the question.",
+      "support_knowledge": []
+    },
+    {
+      "id": 781,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Forget I asked.",
+      "support_knowledge": []
+    },
+    {
+      "id": 777,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "Oh, I can play along. ",
+      "support_knowledge": []
+    },
+    {
+      "id": 778,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "What I've got here is a town full of yellow-bellied corporate castoffs who wouldn't know a stun baton from a slide rule!",
+      "support_knowledge": [
+        "stellar_bay_02"
+      ]
+    },
+    {
+      "id": 779,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "How was that?",
+      "support_knowledge": []
+    },
+    {
+      "id": 780,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Pretty good, actually.",
+      "support_knowledge": []
+    },
+    {
+      "id": 782,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Needs improvement.",
+      "support_knowledge": []
+    },
+    {
+      "id": 784,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "Wow, thanks, I... thank you.",
+      "support_knowledge": []
+    },
+    {
+      "id": 785,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "I can work on it.",
+      "support_knowledge": []
+    },
+    {
+      "id": 783,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "Oh. Okay.",
+      "support_knowledge": []
+    },
+    {
+      "id": 765,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "Can you imagine what those maniacs would do with weapons like that? They'd wreak havoc.",
+      "support_knowledge": [
+        "monarch_stellar_industries_14",
+        "iconoclasts_07",
+        "iconoclasts_08",
+        "iconoclasts_13",
+        "iconoclasts_17"
+      ]
+    },
+    {
+      "id": 1284,
+      "speaker_guid": "88e2a5c4-832b-4533-b593-28ef1edc16f2",
+      "speaker": "Celia (Female)",
+      "utterance": "And roll back all the progress we've made at reconciling with the rest of Halcyon.",
+      "support_knowledge": [
+        "iconoclasts_14",
+        "iconoclasts_15"
+      ]
+    },
+    {
+      "id": 1285,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Good point.",
+      "support_knowledge": []
+    },
+    {
+      "id": 1286,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "You don't know that.",
+      "support_knowledge": []
+    },
+    {
+      "id": 1287,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Maybe things need a shake-up.",
+      "support_knowledge": []
+    },
+    {
+      "id": 761,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "Even if they merely sat on the scraps, the threat of a bunch of anarchists holding a gunship would bring the full wrath of the Board down on Monarch. We can't afford that.",
+      "support_knowledge": [
+        "iconoclasts_06",
+        "iconoclasts_08",
+        "the_board_02"
+      ]
+    },
+    {
+      "id": 1288,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "Oh, I've known their ilk long enough.",
+      "support_knowledge": [
+        "sanjar_nandi_02",
+        "sanjar_nandi_13",
+        "sanjar_nandi_14"
+      ]
+    },
+    {
+      "id": 1289,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "This would be more than a shake-up.",
+      "support_knowledge": []
+    },
+    {
+      "id": 771,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "Good, because we haven't a moment to lose.",
+      "support_knowledge": []
+    }
+  ]
+}

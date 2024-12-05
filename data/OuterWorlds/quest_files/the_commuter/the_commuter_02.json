@@ -1,0 +1,280 @@
+{
+  "id": "the_commuter_02",
+  "quest_name": "the_commuter",
+  "conversation": {
+    "filename": "0401_cv_carlotta",
+    "start_node": 1,
+    "end_nodes": [],
+    "force_include": []
+  },
+  "in_objective": [
+    "O1",
+    "O2"
+  ],
+  "out_objective": "O3",
+  "participants": [
+    "carlotta"
+  ],
+  "dialog": [
+    {
+      "id": 1,
+      "speaker_guid": "de5ae2d2-9e77-4fb0-b8a0-fd78edd39ecd",
+      "speaker": "Carlotta (Female)",
+      "utterance": "I don't know how you got those goons to leave, but thank you.",
+      "support_knowledge": [
+        "O1_S3",
+        "O1_B1",
+        "O1_B2",
+        "O1_B3",
+        "O1_B4",
+        "carlotta_03"
+      ]
+    },
+    {
+      "id": 22,
+      "speaker_guid": "de5ae2d2-9e77-4fb0-b8a0-fd78edd39ecd",
+      "speaker": "Carlotta (Female)",
+      "utterance": "Graham ordered rollers and whats-its, right? For a... printing press? Here. Take them.",
+      "support_knowledge": [
+        "O0_B2",
+        "O0_B4",
+        "O1_S2",
+        "O1_B4",
+        "carlotta_06"
+      ]
+    },
+    {
+      "id": 8,
+      "speaker_guid": "de5ae2d2-9e77-4fb0-b8a0-fd78edd39ecd",
+      "speaker": "Carlotta (Female)",
+      "utterance": "Like I said, this is my last run.",
+      "support_knowledge": [
+        "carlotta_06",
+        "carlotta_07"
+      ]
+    },
+    {
+      "id": 40,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Why did Sanjar ban you from working with the Iconoclasts?",
+      "support_knowledge": [
+        "carlotta_06",
+        "carlotta_07",
+        "sanjar_nandi_01"
+      ]
+    },
+    {
+      "id": 44,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Why have you been helping Graham?",
+      "support_knowledge": [
+        "carlotta_01",
+        "carlotta_06",
+        "carlotta_07"
+      ]
+    },
+    {
+      "id": 47,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Where will they get their supplies now?",
+      "support_knowledge": []
+    },
+    {
+      "id": 11,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "<Attack> I'm just going to take everything you have.",
+      "support_knowledge": []
+    },
+    {
+      "id": 41,
+      "speaker_guid": "de5ae2d2-9e77-4fb0-b8a0-fd78edd39ecd",
+      "speaker": "Carlotta (Female)",
+      "utterance": "You'd have to ask him. All I know is that if I get caught, I'll get arrested.",
+      "support_knowledge": [
+        "carlotta_01",
+        "carlotta_06",
+        "carlotta_07"
+      ]
+    },
+    {
+      "id": 46,
+      "speaker_guid": "de5ae2d2-9e77-4fb0-b8a0-fd78edd39ecd",
+      "speaker": "Carlotta (Female)",
+      "utterance": "It's an enviable thing he's doing. Free people and all that. I can't live that way - I need my structure - but I respect the Iconoclasts for doing it.",
+      "support_knowledge": [
+        "carlotta_01",
+        "carlotta_04",
+        "carlotta_06"
+      ]
+    },
+    {
+      "id": 48,
+      "speaker_guid": "de5ae2d2-9e77-4fb0-b8a0-fd78edd39ecd",
+      "speaker": "Carlotta (Female)",
+      "utterance": "Law help them, I don't know. Maybe SubLight can lend a hand.",
+      "support_knowledge": [
+        "sublight_01",
+        "sublight_01"
+      ]
+    },
+    {
+      "id": 49,
+      "speaker_guid": "de5ae2d2-9e77-4fb0-b8a0-fd78edd39ecd",
+      "speaker": "Carlotta (Female)",
+      "utterance": "I should go. Look, Graham's got a bit or two left in his account. I can send one last drop out before I wash my hands of this.",
+      "support_knowledge": [
+        "carlotta_06",
+        "carlotta_07",
+        "O1_B4"
+      ]
+    },
+    {
+      "id": 50,
+      "speaker_guid": "de5ae2d2-9e77-4fb0-b8a0-fd78edd39ecd",
+      "speaker": "Carlotta (Female)",
+      "utterance": "What do you want delivered?",
+      "support_knowledge": [
+        "O1_B4"
+      ]
+    },
+    {
+      "id": 10,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Graham's looking for some high-capacity data cartridges.",
+      "support_knowledge": [
+        "O0_B4",
+        "O2_S1",
+        "O2_S2"
+      ]
+    },
+    {
+      "id": 9,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Zora suggested extra food and medicine.",
+      "support_knowledge": [
+        "O0_B5",
+        "O2_S1",
+        "O2_S2"
+      ]
+    },
+    {
+      "id": 51,
+      "speaker_guid": "de5ae2d2-9e77-4fb0-b8a0-fd78edd39ecd",
+      "speaker": "Carlotta (Female)",
+      "utterance": "Yeah, I've got a few. I'll send them along.",
+      "support_knowledge": [
+        "O1_B4"
+      ]
+    },
+    {
+      "id": 52,
+      "speaker_guid": "de5ae2d2-9e77-4fb0-b8a0-fd78edd39ecd",
+      "speaker": "Carlotta (Female)",
+      "utterance": "Give them all my regards, and... good luck out there. Don't go getting eaten.",
+      "support_knowledge": [
+        "carlotta_01"
+      ]
+    },
+    {
+      "id": 53,
+      "speaker_guid": "de5ae2d2-9e77-4fb0-b8a0-fd78edd39ecd",
+      "speaker": "Carlotta (Female)",
+      "utterance": "I always took that woman for the sensible type. Good on her. I'll send some along.",
+      "support_knowledge": [
+        "carlotta_01"
+      ]
+    }
+  ],
+  "dialog_edges": [
+    [
+      1,
+      22
+    ],
+    [
+      22,
+      8
+    ],
+    [
+      8,
+      40
+    ],
+    [
+      8,
+      44
+    ],
+    [
+      8,
+      47
+    ],
+    [
+      8,
+      11
+    ],
+    [
+      40,
+      41
+    ],
+    [
+      41,
+      44
+    ],
+    [
+      41,
+      47
+    ],
+    [
+      44,
+      46
+    ],
+    [
+      46,
+      40
+    ],
+    [
+      46,
+      47
+    ],
+    [
+      47,
+      48
+    ],
+    [
+      48,
+      49
+    ],
+    [
+      49,
+      50
+    ],
+    [
+      50,
+      10
+    ],
+    [
+      50,
+      9
+    ],
+    [
+      10,
+      51
+    ],
+    [
+      51,
+      52
+    ],
+    [
+      9,
+      53
+    ],
+    [
+      53,
+      52
+    ]
+  ]
+}

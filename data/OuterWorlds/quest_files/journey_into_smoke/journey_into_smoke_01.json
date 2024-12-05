@@ -1,0 +1,254 @@
+{
+  "id": "journey_into_smoke_01",
+  "quest_name": "journey_into_smoke",
+  "conversation": {
+    "filename": "08_cv_anarchist_lillian",
+    "start_node": 51,
+    "end_nodes": [],
+    "force_include": [
+      59,
+      67,
+      65
+    ],
+    "force_sequence": []
+  },
+  "in_objective": "O2",
+  "participants": [
+    "lillian"
+  ],
+  "objectives": {
+    "O2": {
+      "summary": "Return Lillian's Cigarettes",
+      "description": {
+        "S1": "You recovered Lillian's lost cigarette case.",
+        "S2": "Find her and return the item."
+      },
+      "blurb": {
+        "B1": "After retrieving the cigarette case, return to Lillian.",
+        "B2": "There are several options for resolving this quest.",
+        "B3": "Use Lie 25 to convince Lillian that there was no way to retrieve her cigarettes and that they have been left in the pens.",
+        "B4": "This completes the quest and grants 9,000 XP and the Commemorative Cigarette Case as a reward.",
+        "B5": "Or, tell Lillian that one has her cigarette case but that she isn't getting it back.",
+        "B6": "This irritates Lillian and leads to her turning hostile.",
+        "B7": "Or, return the cigarette case to Lillian with no conditions.",
+        "B8": "This completes the quest and grants 9,000 XP, 625 bits and the Anarchist's Cookbook as a reward.",
+        "B9": "Or, use Persuade 25 to return the cigarette case to Lillian but ask her to put in a good word with her boss, Cassandra O'Malley.",
+        "B10": "Lillian will tell the Stranger that Cassandra is pinned in the lower levels by Auntie Cleo guards and will radio ahead to tell her that the Stranger is coming.",
+        "B11": "This completes the quest grants 9,000 XP as a reward.",
+        "B12": "Or, use Intimidate 45 and taunt Lillian about having the cigarette case,",
+        "B13": "daring her to fight.",
+        "B14": "Lillian refuses,",
+        "B15": "completing the quest and granting 9,000 XP and the Commemorative Cigarette Case as a reward."
+      }
+    }
+  },
+  "dialog": [
+    {
+      "id": 51,
+      "speaker_guid": "a3949559-369a-4bfd-a5f0-e5cbdf6c7f31",
+      "speaker": "Lillian (Female)",
+      "utterance": "Seriously, don't get yourself killed. It's a nice cigarette case, but it's still just a cigarette case.",
+      "support_knowledge": [
+        "O0_B9"
+      ]
+    },
+    {
+      "id": 59,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I've got some good news. I have the cigarette case you lost.",
+      "support_knowledge": [
+        "O2_B7"
+      ]
+    },
+    {
+      "id": 67,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I don't think there's any way to get your cigarettes out. I'm leaving them there.",
+      "support_knowledge": [
+        "O2_B3"
+      ]
+    },
+    {
+      "id": 61,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Don't plan to. See you later.",
+      "support_knowledge": []
+    },
+    {
+      "id": 62,
+      "speaker_guid": "a3949559-369a-4bfd-a5f0-e5cbdf6c7f31",
+      "speaker": "Lillian (Female)",
+      "utterance": "You're shitting me.",
+      "support_knowledge": [
+        "O0_S3"
+      ]
+    },
+    {
+      "id": 63,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I'm not saying it wasn't a hassle to get. But here it is, safe and sound.",
+      "support_knowledge": [
+        "O2_B7"
+      ]
+    },
+    {
+      "id": 65,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "It occurs to me. If I could get this when you couldn't, I bet you couldn't take it from me.",
+      "support_knowledge": [
+        "O2_B12"
+      ]
+    },
+    {
+      "id": 66,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Well, I've got some bad news, too. I'm going to keep it for my own self.",
+      "support_knowledge": [
+        "O2_B5"
+      ]
+    },
+    {
+      "id": 93,
+      "speaker_guid": "a3949559-369a-4bfd-a5f0-e5cbdf6c7f31",
+      "speaker": "Lillian (Female)",
+      "utterance": "You ain't so bad. Here's something for the trouble.",
+      "support_knowledge": [
+        "O2_B8"
+      ]
+    },
+    {
+      "id": 122,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "See you around, then.",
+      "support_knowledge": []
+    },
+    {
+      "id": 71,
+      "speaker_guid": "a3949559-369a-4bfd-a5f0-e5cbdf6c7f31",
+      "speaker": "Lillian (Female)",
+      "utterance": "It's been a real long day. You want to do this?",
+      "support_knowledge": [
+        "O2_B12",
+        "O2_B13"
+      ]
+    },
+    {
+      "id": 131,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Do you?",
+      "support_knowledge": [
+        "O2_B12",
+        "O2_B13"
+      ]
+    },
+    {
+      "id": 132,
+      "speaker_guid": "a3949559-369a-4bfd-a5f0-e5cbdf6c7f31",
+      "speaker": "Lillian (Female)",
+      "utterance": "It's a shitty cigarette case. I wasn't gonna fight no raptidons over it, and I sure as fuck ain't fighting you.",
+      "support_knowledge": [
+        "O2_B14",
+        "O2_B15"
+      ]
+    },
+    {
+      "id": 68,
+      "speaker_guid": "a3949559-369a-4bfd-a5f0-e5cbdf6c7f31",
+      "speaker": "Lillian (Female)",
+      "utterance": "And you came all the way back here to tell me that? When you could've just lit outta here and left me none the wiser?",
+      "support_knowledge": [
+        "O2_B6"
+      ]
+    },
+    {
+      "id": 129,
+      "speaker_guid": "a3949559-369a-4bfd-a5f0-e5cbdf6c7f31",
+      "speaker": "Lillian (Female)",
+      "utterance": "You are dumb as hell.",
+      "support_knowledge": [
+        "O2_B6"
+      ]
+    },
+    {
+      "id": 85,
+      "speaker_guid": "a3949559-369a-4bfd-a5f0-e5cbdf6c7f31",
+      "speaker": "Lillian (Female)",
+      "utterance": "I didn't think so either. Maybe when the raptidons clear out, I'll check back.",
+      "support_knowledge": []
+    }
+  ],
+  "dialog_edges": [
+    [
+      51,
+      59
+    ],
+    [
+      51,
+      67
+    ],
+    [
+      51,
+      61
+    ],
+    [
+      59,
+      62
+    ],
+    [
+      62,
+      63
+    ],
+    [
+      62,
+      65
+    ],
+    [
+      62,
+      66
+    ],
+    [
+      63,
+      93
+    ],
+    [
+      93,
+      122
+    ],
+    [
+      65,
+      71
+    ],
+    [
+      71,
+      131
+    ],
+    [
+      131,
+      132
+    ],
+    [
+      66,
+      68
+    ],
+    [
+      68,
+      129
+    ],
+    [
+      67,
+      85
+    ],
+    [
+      85,
+      122
+    ]
+  ]
+}

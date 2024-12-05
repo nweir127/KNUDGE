@@ -1,0 +1,571 @@
+{
+  "id": "journey_into_smoke_00",
+  "quest_name": "journey_into_smoke",
+  "conversation": {
+    "filename": "08_cv_anarchist_lillian",
+    "start_node": 203,
+    "end_nodes": [],
+    "force_include": [
+      34,
+      211,
+      40,
+      86,
+      46,
+      99
+    ],
+    "force_sequence": []
+  },
+  "in_objective": "O0",
+  "out_objective": "O1",
+  "participants": [
+    "lillian"
+  ],
+  "objectives": {
+    "O0": {
+      "description": {
+        "S1": "Lillian, Terra 2's friendliest outlaw,",
+        "S2": "evidently dropped a rare, limited-edition Spacer's Choice cigarette case during a scrap with raptidons.",
+        "S3": "She'd be thrilled to get it back"
+      },
+      "blurb": {
+        "B1": "You can meet Lillian by the exit of the Covert Lab and talk to her.",
+        "B2": "Lillian is an outlaw who has been hired by Cassandra O'Malley to keep watch for Auntie Cleo reinforcements outside the Covert Lab.",
+        "B3": "She is on a break and will speak to the Stranger rather than shooting on sight like the other outlaws.",
+        "B4": "During the conversation,",
+        "B5": "she will explain that she was near the Raptidon Pens when the raptidons got loose and,",
+        "B6": "in the ensuing escape,",
+        "B7": "lost her cigarette case.",
+        "B8": "She's happy to pay a reward if it is returned to her but doesn't expect anyone to go retrieve it for her,",
+        "B9": "due to the danger involved in doing so.",
+        "B10": "The quest is started when the Stranger says that they will go take a look for it."
+      }
+    },
+    "O1": {
+      "summary": "Retrieve Lillian's Cigarettes",
+      "description": {
+        "S1": "Lillian said she dropped her cigarette case in an outdoor raptidon pen.",
+        "S2": "Follow the road southeast from her position."
+      },
+      "blurb": {
+        "B1": "The Raptidon Pens are located south of the Covert Lab where Lillian is stationed.",
+        "B2": "Lillian's cigarette case is located on a crate inside the pen which is inhabited by hostile raptidons."
+      }
+    }
+  },
+  "dialog": [
+    {
+      "id": 203,
+      "speaker_guid": "a3949559-369a-4bfd-a5f0-e5cbdf6c7f31",
+      "speaker": "Lillian (Female)",
+      "utterance": "Hey there. You the fella Cass called about?",
+      "support_knowledge": [
+        "O0_B2",
+        "O0_B3",
+        "cassandra_omalley_01"
+      ]
+    },
+    {
+      "id": 204,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "You're part of her group?",
+      "support_knowledge": []
+    },
+    {
+      "id": 205,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Who's asking?",
+      "support_knowledge": []
+    },
+    {
+      "id": 206,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "She didn't mention having anyone out here.",
+      "support_knowledge": []
+    },
+    {
+      "id": 210,
+      "speaker_guid": "a3949559-369a-4bfd-a5f0-e5cbdf6c7f31",
+      "speaker": "Lillian (Female)",
+      "utterance": "That I am. Got left out here to watch for reinforcements. Name's Lillian.",
+      "support_knowledge": [
+        "O0_B2",
+        "O0_B3"
+      ]
+    },
+    {
+      "id": 208,
+      "speaker_guid": "a3949559-369a-4bfd-a5f0-e5cbdf6c7f31",
+      "speaker": "Lillian (Female)",
+      "utterance": "Hope you're having a better time than us.",
+      "support_knowledge": []
+    },
+    {
+      "id": 34,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Bad day, huh?",
+      "support_knowledge": []
+    },
+    {
+      "id": 211,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Cassandra's kind of a hard case, isn't she?",
+      "support_knowledge": [
+        "lillian_02"
+      ]
+    },
+    {
+      "id": 37,
+      "speaker_guid": "a3949559-369a-4bfd-a5f0-e5cbdf6c7f31",
+      "speaker": "Lillian (Female)",
+      "utterance": "I've had better. Lost some things in a dust up. But I didn't get eaten like some of our crew. Got that going for me.",
+      "support_knowledge": [
+        "O0_S2"
+      ]
+    },
+    {
+      "id": 96,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I'm sorry. Were they friends of yours?",
+      "support_knowledge": [
+        "lillian_03"
+      ]
+    },
+    {
+      "id": 40,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "What'd you lose?",
+      "support_knowledge": []
+    },
+    {
+      "id": 41,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "\"So long as you've got your health...\"",
+      "support_knowledge": []
+    },
+    {
+      "id": 97,
+      "speaker_guid": "a3949559-369a-4bfd-a5f0-e5cbdf6c7f31",
+      "speaker": "Lillian (Female)",
+      "utterance": "Some of them were okay. You don't get too close in this work. And Dylan, well, ain't no one gonna regret his passing. Least of all his mama.",
+      "support_knowledge": [
+        "lillian_03"
+      ]
+    },
+    {
+      "id": 49,
+      "speaker_guid": "a3949559-369a-4bfd-a5f0-e5cbdf6c7f31",
+      "speaker": "Lillian (Female)",
+      "utterance": "I was near the raptidon pen when they got loose. Had to set a few to rights. When I got to checking if all my parts were still attached, I realized I'd dropped my cigarette case.",
+      "support_knowledge": [
+        "O0_B5",
+        "O0_B6",
+        "O0_B7",
+        "lillian_04",
+        "raptidon_pens_01"
+      ]
+    },
+    {
+      "id": 75,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Why didn't you go back and get it?",
+      "support_knowledge": []
+    },
+    {
+      "id": 77,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I know where this is going. You're \"busy,\" but if I fetched it, you'd pay for my trouble. Right?",
+      "support_knowledge": [
+        "O0_B8"
+      ]
+    },
+    {
+      "id": 83,
+      "speaker_guid": "a3949559-369a-4bfd-a5f0-e5cbdf6c7f31",
+      "speaker": "Lillian (Female)",
+      "utterance": "When I turned about, I seen two fine gunhands being snacked on by lizards. No cigarette case is worth my life. No matter how badly I need a smoke.",
+      "support_knowledge": [
+        "O0_B7",
+        "raptidon_pens_05",
+        "raptidon_pens_06",
+        "raptidon_pens_07"
+      ]
+    },
+    {
+      "id": 82,
+      "speaker_guid": "a3949559-369a-4bfd-a5f0-e5cbdf6c7f31",
+      "speaker": "Lillian (Female)",
+      "utterance": "This was a Spacer's Choice commemorative case. Some promo for Founding Day they did back in... I forget the year. Worth decent bits to collectors.",
+      "support_knowledge": [
+        "commemorative_cigarette_case_01"
+      ]
+    },
+    {
+      "id": 46,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I'll come around if I can get hold of it.",
+      "support_knowledge": [
+        "O0_B10"
+      ]
+    },
+    {
+      "id": 86,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Where did you lose your cigarettes?",
+      "support_knowledge": [
+        "O0_B5",
+        "O0_B6",
+        "O0_B7"
+      ]
+    },
+    {
+      "id": 88,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Let's say I manage to nab it. You willing to pay to get it back?",
+      "support_knowledge": [
+        "O0_B8"
+      ]
+    },
+    {
+      "id": 99,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "You don't actually expect me to fetch it. Do you?",
+      "support_knowledge": [
+        "O0_B8",
+        "O0_B9"
+      ]
+    },
+    {
+      "id": 106,
+      "speaker_guid": "a3949559-369a-4bfd-a5f0-e5cbdf6c7f31",
+      "speaker": "Lillian (Female)",
+      "utterance": "I'd be obliged. Just don't lose any parts trying.",
+      "support_knowledge": [
+        "O0_B8",
+        "O0_B9"
+      ]
+    },
+    {
+      "id": 87,
+      "speaker_guid": "a3949559-369a-4bfd-a5f0-e5cbdf6c7f31",
+      "speaker": "Lillian (Female)",
+      "utterance": "An outdoor raptidon pen yonder, past the main entrance. Law only knows why they're breeding the damn things.",
+      "support_knowledge": [
+        "O1_S1",
+        "raptidon_pens_01",
+        "raptidon_pens_02"
+      ]
+    },
+    {
+      "id": 89,
+      "speaker_guid": "a3949559-369a-4bfd-a5f0-e5cbdf6c7f31",
+      "speaker": "Lillian (Female)",
+      "utterance": "Well you'd sure as hell have earned it, wouldn't you?",
+      "support_knowledge": [
+        "O0_B8",
+        "O0_B9"
+      ]
+    },
+    {
+      "id": 100,
+      "speaker_guid": "a3949559-369a-4bfd-a5f0-e5cbdf6c7f31",
+      "speaker": "Lillian (Female)",
+      "utterance": "Good Law, no. Just needed to vent, and you're the only one hereabouts.",
+      "support_knowledge": [
+        "O0_B9"
+      ]
+    },
+    {
+      "id": 101,
+      "speaker_guid": "a3949559-369a-4bfd-a5f0-e5cbdf6c7f31",
+      "speaker": "Lillian (Female)",
+      "utterance": "Though if you do happen to get a hold of it, I'll be setting here a spell.",
+      "support_knowledge": []
+    },
+    {
+      "id": 126,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "On second thought, it wouldn't hurt to at least look into it. I'll let you know if I can get a hold of it.",
+      "support_knowledge": [
+        "O0_B10"
+      ]
+    },
+    {
+      "id": 124,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I'll take my leave, then.",
+      "support_knowledge": []
+    },
+    {
+      "id": 81,
+      "speaker_guid": "a3949559-369a-4bfd-a5f0-e5cbdf6c7f31",
+      "speaker": "Lillian (Female)",
+      "utterance": "I look busy to you? It's surrounded by pissed-off raptidons. My mama didn't raise no dumbasses.",
+      "support_knowledge": [
+        "O0_B9",
+        "raptidon_pens_06"
+      ]
+    },
+    {
+      "id": 43,
+      "speaker_guid": "a3949559-369a-4bfd-a5f0-e5cbdf6c7f31",
+      "speaker": "Lillian (Female)",
+      "utterance": "My damn cigarettes for one thing.",
+      "support_knowledge": []
+    },
+    {
+      "id": 48,
+      "speaker_guid": "a3949559-369a-4bfd-a5f0-e5cbdf6c7f31",
+      "speaker": "Lillian (Female)",
+      "utterance": "My dad used to say that, 'fore he \"left the workforce.\"",
+      "support_knowledge": []
+    },
+    {
+      "id": 20,
+      "speaker_guid": "a3949559-369a-4bfd-a5f0-e5cbdf6c7f31",
+      "speaker": "Lillian (Female)",
+      "utterance": "Definitely got something large and uncomfortably-shaped up her nethers. Yammering on about rights and privileges and whatall. I'm like, \"Lady, just sing out when you want something shot.\"",
+      "support_knowledge": [
+        "lillian_02"
+      ]
+    },
+    {
+      "id": 22,
+      "speaker_guid": "a3949559-369a-4bfd-a5f0-e5cbdf6c7f31",
+      "speaker": "Lillian (Female)",
+      "utterance": "Leastways her pamphlets make good kindling.",
+      "support_knowledge": [
+        "lillian_02"
+      ]
+    },
+    {
+      "id": 209,
+      "speaker_guid": "a3949559-369a-4bfd-a5f0-e5cbdf6c7f31",
+      "speaker": "Lillian (Female)",
+      "utterance": "Relax, I ain't with Auntie. I'm one of Cassandra's gunhands. Name's Lillian.",
+      "support_knowledge": [
+        "O0_S1",
+        "O0_B3"
+      ]
+    },
+    {
+      "id": 207,
+      "speaker_guid": "a3949559-369a-4bfd-a5f0-e5cbdf6c7f31",
+      "speaker": "Lillian (Female)",
+      "utterance": "I was left out here as a picket. Name's Lillian.",
+      "support_knowledge": [
+        "O0_S1",
+        "O0_B3"
+      ]
+    }
+  ],
+  "dialog_edges": [
+    [
+      203,
+      204
+    ],
+    [
+      203,
+      205
+    ],
+    [
+      203,
+      206
+    ],
+    [
+      204,
+      210
+    ],
+    [
+      210,
+      208
+    ],
+    [
+      208,
+      34
+    ],
+    [
+      208,
+      211
+    ],
+    [
+      34,
+      37
+    ],
+    [
+      37,
+      96
+    ],
+    [
+      37,
+      40
+    ],
+    [
+      37,
+      41
+    ],
+    [
+      96,
+      97
+    ],
+    [
+      97,
+      49
+    ],
+    [
+      49,
+      75
+    ],
+    [
+      49,
+      77
+    ],
+    [
+      75,
+      83
+    ],
+    [
+      83,
+      82
+    ],
+    [
+      82,
+      46
+    ],
+    [
+      82,
+      86
+    ],
+    [
+      82,
+      88
+    ],
+    [
+      82,
+      99
+    ],
+    [
+      46,
+      106
+    ],
+    [
+      86,
+      87
+    ],
+    [
+      87,
+      46
+    ],
+    [
+      87,
+      88
+    ],
+    [
+      87,
+      99
+    ],
+    [
+      88,
+      89
+    ],
+    [
+      89,
+      46
+    ],
+    [
+      89,
+      86
+    ],
+    [
+      89,
+      99
+    ],
+    [
+      99,
+      100
+    ],
+    [
+      100,
+      101
+    ],
+    [
+      101,
+      126
+    ],
+    [
+      101,
+      124
+    ],
+    [
+      126,
+      106
+    ],
+    [
+      77,
+      81
+    ],
+    [
+      81,
+      82
+    ],
+    [
+      40,
+      43
+    ],
+    [
+      43,
+      49
+    ],
+    [
+      41,
+      48
+    ],
+    [
+      48,
+      49
+    ],
+    [
+      211,
+      20
+    ],
+    [
+      20,
+      22
+    ],
+    [
+      22,
+      34
+    ],
+    [
+      205,
+      209
+    ],
+    [
+      209,
+      208
+    ],
+    [
+      206,
+      207
+    ],
+    [
+      207,
+      208
+    ]
+  ]
+}

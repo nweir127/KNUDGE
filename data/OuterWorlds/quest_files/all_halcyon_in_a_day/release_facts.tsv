@@ -1,0 +1,85 @@
+ID	fact
+OBJECTIVE O0	
+O0_S1	180:125
+O0_B1	The player must start the quest by speaking to Alonzo in Byzantium's Bureau of Exploration.
+O0_B2	Alonzo explains that the tour is conducted by going around Halcyon and activating a series of beacons,
+O0_B3	and returning to the Bureau of Exploration to claim a hat as a reward.
+OBJECTIVE O1	
+O1_S1	327:72
+O1_S2	the first of which lies somewhere in Byzantium.
+O1_B1	The first beacon is located in Byzantium,
+O1_B2	on some grass in front of a building just outside the Bureau of Exploration.
+O1_B3	The player can simply hop over the low fence and activate the beacon.
+OBJECTIVE O2	
+O2_S1	The second beacon has activated,
+O2_S2	and appears to be in Emerald Vale,
+O2_S3	somewhere far to the north of the Edgewater landing pad.
+O2_B1	The second beacon is located on Terra 2, north of Edgewater, near the lava.
+O2_B2	There are a number of Primals in this region which the player must get past to activate the beacon.
+OBJECTIVE O3	
+O3_S1	The third beacon has activated,
+O3_S2	and appears to be on Scylla.
+O3_B1	The third beacon is located on Scylla, near the landing pad.
+O3_B2	There may also be marauders along the route,
+O3_B3	particularly if the quest Solution Vital has not been completed.
+O3_B4	The beacon is a few meters outside of the force field that provides an atmosphere for Scylla,
+O3_B5	and normally the player would die before successfully activating the beacon and stepping back inside the force field.
+O3_B6	However, if the player uses consumables to increase base health and movement speed and decrease harmful effects,
+O3_B7	it can be possible to enter tactical time dilation,
+O3_B8	step through the force field, activate the beacon,
+O3_B9	and step back into the force field.
+OBJECTIVE O4	
+O4_S1	The fourth beacon has activated,
+O4_S2	and appears to be on Monarch.
+O4_B1	The fourth beacon is on Monarch,
+O4_B2	"near the edge of the ""river"" near the UDL lab."
+O4_B3	As is the case for most of Monarch,
+O4_B4	the area may be frequented by packs of canids, marauders, raptidons, or mantisaurs.
+OBJECTIVE O5	
+O5_S1	You've found all the beacons for the treasure hunt.
+O5_S2	Return to Alonzo to get your prize.
+O5_B1	After the player has activated the fourth beacon,
+O5_B2	they can eturn to Alonzo and speak with him to find out the tour is fake, and was shut down long ago by The Board.
+O5_B3	Alonzo will then admit that they did not expect the player to survive,
+O5_B4	and had been using the beacon to record footage of mercenaries dying gruesomely to sell on Byzantium.
+O5_B5	However, Alonzo will reluctantly give the player the Certified Explorer's Hat,
+O5_B6	as promised.
+alonzo_vallejos	
+alonzo_vallejos_01	Alonzo Vallejos works at the Bureau of Exploration in Byzantium.
+alonzo_vallejos_02	He has set up a fake sightseeing tour of Halcyon,
+alonzo_vallejos_03	with the goal of recording footage of mercenaries dying gruesome deaths,
+alonzo_vallejos_04	then selling them for a large profit in Byzantium.
+byzantium	
+byzantium_01	Byzantium is the capital city of Terra 2 and the crown jewel of Halcyon.
+byzantium_02	All the opulence, elegance, and decadence of the colony is concentrated in the city.
+byzantium_03	Its residents are colloquially referred to as gold-bloods.
+byzantium_04	"Referred to as the ""gilded city of the well-to-do"","
+byzantium_05	Byzantium is where every Halcyon colonist wishes they could live.
+byzantium_06	The city is closed off to those without the means to be appropriate residents;
+byzantium_07	it’s a literal gated community with secrets that lesser company workers will simply never learn.
+byzantium_08	The city of Byzantium was built in a radial layout,
+byzantium_09	with streets and docking bays encircling the Halcyon Holdings Corporation headquarters,
+byzantium_10	located in the restricted Acropolis District.
+byzantium_11	Many buildings constructed in Byzantium are well-maintained,
+byzantium_12	and are built in a futuristic Art Nouveau style,
+byzantium_13	as opposed to the simpler prefabricated frontier designs of Edgewater or Stellar Bay.
+byzantium_14	The Acropolis District is a wealthy district for the most prominent citizens of both Byzantium and the entire Halcyon Colony.
+byzantium_15	Located here are the headquarters of the Halcyon Holdings Corporation,
+byzantium_16	housed inside a towering skyscraper.
+byzantium_17	Docking bays for various vessels and ships have been constructed into a large, deep trench encircling the mid-section of Byzantium.
+byzantium_18	Only those individuals with the appropriate navkey are allowed to land on Byzantium's docking bays.
+byzantium_19	A district bordering the Acropolis District,
+byzantium_20	the Estate District is known as the residence of Minister Clarke.
+byzantium_21	Prosperity Plaza is the beating hub of commerce and culture in Byzantium,
+byzantium_22	fronted by famous establishments such as Bijou's Revue, Rococo's Decor, and Billingsly's House of Inebriation.
+byzantium_23	At the center of the plaza is a large decorative orrery in the likeness of the Halcyon system.
+the_board	
+the_board_01	The Halcyon Holdings Corporate Board, also simply known as The Board,
+the_board_02	institutes policy and law throughout the Halcyon Colony.
+the_board_03	The details surrounding the board's founding remain largely unknown,
+the_board_04	though its activities suggest that it was originally founded some seventy-odd years ago, give or take.
+the_board_05	In that time, it has managed to terraform Terra I
+the_board_06	(a catastrophic failure due to mutations rendering the wildlife overwhelmingly hostile to human life).
+the_board_07	The Board maintains a very tense relationship with MSI, owing to MSI's democratic ideals and their declared ownership of Monarch.
+the_board_08	As a result, the Board has placed Monarch, and by extension, MSI, under the Hazard Clause, which forbids off-world businesses from doing transactions on Monarch without the correct (and deliberately impossible to complete) documents.
+the_board_09	Depending on the actions of the Stranger, MSI may be compelled to rebel against the Board's authoritarianism.

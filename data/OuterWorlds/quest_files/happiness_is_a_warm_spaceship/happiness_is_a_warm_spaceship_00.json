@@ -1,0 +1,870 @@
+{
+  "id": "happiness_is_a_warm_spaceship_00",
+  "quest_name": "happiness_is_a_warm_spaceship",
+  "conversation": {
+    "filename": "01_cv_tennyson_junlei_new",
+    "start_node": 25,
+    "end_nodes": [],
+    "force_include": [
+      115,
+      14,
+      579,
+      576
+    ],
+    "force_sequence": []
+  },
+  "in_objective": "O0",
+  "out_objective": "O1",
+  "participants": [
+    "junlei_tennyson"
+  ],
+  "objectives": {
+    "O0": {
+      "description": {
+        "S1": "Help Junlei Tennyson fix the radiator arrays in the maintenance shaft."
+      },
+      "blurb": {
+        "B1": "Speaking to Junlei Tennyson about why the ship seems extraordinarily warm will reveal that Groundbreaker's radiators need replacement parts to prevent them from continuing to dump super-heated air onto the ship.",
+        "B2": "Junlei has been unable to get new parts as the Board is refusing to part with any for a fair price.",
+        "B3": "Offering to assist with the situation will start the quest.",
+        "B4": "Junlei will tell the Stranger that spare radiator parts can likely be found in the ship's Back Bays -",
+        "B5": "an abandoned area on a lower deck which is now inhabited by crazed outlaws.",
+        "B6": "She asks the Stranger to retrieve the parts by whatever means is necessary,",
+        "B7": "but preferably without violence.",
+        "B8": "If asked, she will also explain that she previously sent an engineer with a small security detail to retrieve the parts,",
+        "B9": "but they did not return."
+      }
+    },
+    "O1": {
+      "summary": "Get New Parts for the Radiators",
+      "description": {
+        "S1": "You need to get new parts for the Radiator Array to keep the Groundbreaker from overheating.",
+        "S2": "Junlei wants you to salvage the parts for the radiators from old machinery in the back bays."
+      },
+      "blurb": {
+        "B1": "Travel to the Back Bays using the elevator directly opposite Engineering.",
+        "B2": "Upon entering the Back Bays,",
+        "B3": "the Stranger will be confronted by Captain MacRedd,",
+        "B4": "a crazed outlaw leader and self-proclaimed \"king\".",
+        "B5": "There are some options available,",
+        "B6": "each of which will allow the Stranger to pass through the Back Bays and retrieve the parts:",
+        "B7": "Attack and kill MacRedd and his outlaws.",
+        "B8": "With Persuade 40 or Intimidate 40, MacRedd will ask for tribute in exchange for the parts.",
+        "B9": "Lie 40 can be used to lie about the parts leaking deadly toxins,",
+        "B10": "or he can be bribed with 630 bits.",
+        "B11": "With Felix in your party MacRedd will only need to be bribed.",
+        "B12": "The spare parts are located on the upper level of the Back Bays."
+      }
+    }
+  },
+  "dialog": [
+    {
+      "id": 25,
+      "speaker_guid": "ad470aeb-75cf-4136-b950-a971370a0f70",
+      "speaker": "JunleiTennyson (Female)",
+      "utterance": "Captain. What can I do for you?",
+      "support_knowledge": []
+    },
+    {
+      "id": 576,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I heard you're having a heat problem. What's going on?",
+      "support_knowledge": [
+        "O0_B1"
+      ]
+    },
+    {
+      "id": 692,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "What's it like being in command around here?",
+      "support_knowledge": [
+        "junlei_tennyson_01",
+        "groundbreaker_09"
+      ]
+    },
+    {
+      "id": 770,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "You don't have a lot of faith in the Board.",
+      "support_knowledge": [
+        "junlei_tennyson_03",
+        "the_board_01"
+      ]
+    },
+    {
+      "id": 78,
+      "speaker_guid": "ad470aeb-75cf-4136-b950-a971370a0f70",
+      "speaker": "JunleiTennyson (Female)",
+      "utterance": "Groundbreaker's radiators need replacement parts. They're dumping super-heated air into my ship.",
+      "support_knowledge": [
+        "O0_B1"
+      ]
+    },
+    {
+      "id": 729,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Why haven't you fixed them yet?",
+      "support_knowledge": []
+    },
+    {
+      "id": 730,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I'm sure your capable staff can stay ahead of the problem.",
+      "support_knowledge": []
+    },
+    {
+      "id": 731,
+      "speaker_guid": "ad470aeb-75cf-4136-b950-a971370a0f70",
+      "speaker": "JunleiTennyson (Female)",
+      "utterance": "Only the Board has access to new parts, and I won't let them swindle me into a corner. ",
+      "support_knowledge": [
+        "O0_B2"
+      ]
+    },
+    {
+      "id": 732,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Is there no room for compromise?",
+      "support_knowledge": []
+    },
+    {
+      "id": 733,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Surely the Board doesn't want Groundbreaker to roast?",
+      "support_knowledge": [
+        "the_board_01"
+      ]
+    },
+    {
+      "id": 734,
+      "speaker_guid": "ad470aeb-75cf-4136-b950-a971370a0f70",
+      "speaker": "JunleiTennyson (Female)",
+      "utterance": "None. Every time I give in to the Board, Groundbreaker loses its freedom. Soon there won't be anything left. I can't allow that.",
+      "support_knowledge": [
+        "junlei_tennyson_03",
+        "groundbreaker_03",
+        "groundbreaker_14"
+      ]
+    },
+    {
+      "id": 12,
+      "speaker_guid": "ad470aeb-75cf-4136-b950-a971370a0f70",
+      "speaker": "JunleiTennyson (Female)",
+      "utterance": "The Board isn't helping and my resources are spread thin. If I don't get those radiators back online, Groundbreaker - everyone aboard - will be cooked alive.",
+      "support_knowledge": [
+        "O0_B1",
+        "O0_B2"
+      ]
+    },
+    {
+      "id": 115,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "You need a contractor to work this out. I'm available for a reasonable rate.",
+      "support_knowledge": [
+        "O0_B3",
+        "junlei_tennyson_18",
+        "junlei_tennyson_19"
+      ]
+    },
+    {
+      "id": 14,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Is there a way I can help?",
+      "support_knowledge": [
+        "O0_B3",
+        "junlei_tennyson_18",
+        "junlei_tennyson_19"
+      ]
+    },
+    {
+      "id": 79,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "How do the heat radiators work?",
+      "support_knowledge": []
+    },
+    {
+      "id": 116,
+      "speaker_guid": "ad470aeb-75cf-4136-b950-a971370a0f70",
+      "speaker": "JunleiTennyson (Female)",
+      "utterance": "\"Reasonable,\" huh? That's the best news I've heard all day.",
+      "support_knowledge": [
+        "O0_B3",
+        "junlei_tennyson_18",
+        "junlei_tennyson_19"
+      ]
+    },
+    {
+      "id": 584,
+      "speaker_guid": "ad470aeb-75cf-4136-b950-a971370a0f70",
+      "speaker": "JunleiTennyson (Female)",
+      "utterance": "According to my grandmother's old schematics, the parts we need should be in the Back Bays.",
+      "support_knowledge": [
+        "O0_B4",
+        "back_bays_01"
+      ]
+    },
+    {
+      "id": 590,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Got it. I'll take care of that right now.",
+      "support_knowledge": []
+    },
+    {
+      "id": 579,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "That abandoned deck down below? I've been there.",
+      "support_knowledge": [
+        "back_bays_01"
+      ]
+    },
+    {
+      "id": 559,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "How do you know that the parts are still there?",
+      "support_knowledge": [
+        "O0_B4"
+      ]
+    },
+    {
+      "id": 580,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "But there's a catch, right?",
+      "support_knowledge": [
+        "O0_B5"
+      ]
+    },
+    {
+      "id": 591,
+      "speaker_guid": "ad470aeb-75cf-4136-b950-a971370a0f70",
+      "speaker": "JunleiTennyson (Female)",
+      "utterance": "Hold on. There's something you should know before you go charging off.",
+      "support_knowledge": []
+    },
+    {
+      "id": 19,
+      "speaker_guid": "ad470aeb-75cf-4136-b950-a971370a0f70",
+      "speaker": "JunleiTennyson (Female)",
+      "utterance": "The Back Bays are on a lower deck, long abandoned, and a haven for miscreants now.",
+      "support_knowledge": [
+        "O0_B5",
+        "back_bays_01",
+        "back_bays_02"
+      ]
+    },
+    {
+      "id": 20,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I'll get you those parts from the Back Bays.",
+      "support_knowledge": [
+        "O0_B4"
+      ]
+    },
+    {
+      "id": 582,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "You can't get these parts anywhere else?",
+      "support_knowledge": []
+    },
+    {
+      "id": 29,
+      "speaker_guid": "ad470aeb-75cf-4136-b950-a971370a0f70",
+      "speaker": "JunleiTennyson (Female)",
+      "utterance": "Good. Once you've obtained the parts, we can proceed to the next phase of repairs.",
+      "support_knowledge": []
+    },
+    {
+      "id": 736,
+      "speaker_guid": "ad470aeb-75cf-4136-b950-a971370a0f70",
+      "speaker": "JunleiTennyson (Female)",
+      "utterance": "You must not have been here long. In Halcyon, new parts come by way of interstellar freighters from Earth, and the Board monopolizes that kind of trade. ",
+      "support_knowledge": [
+        "the_board_01",
+        "the_board_02"
+      ]
+    },
+    {
+      "id": 737,
+      "speaker_guid": "ad470aeb-75cf-4136-b950-a971370a0f70",
+      "speaker": "JunleiTennyson (Female)",
+      "utterance": "That means I'd have to negotiate with the Board. I've already given them the shops, the docking fees, and a damn embassy. ",
+      "support_knowledge": [
+        "the_board_01",
+        "groundbreaker_14",
+        "groundbreaker_15"
+      ]
+    },
+    {
+      "id": 738,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Their \"negotiations\" sound like a bureaucratic coup. ",
+      "support_knowledge": []
+    },
+    {
+      "id": 739,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Aren't you just delaying the inevitable by cannibalising Groundbreaker's systems?",
+      "support_knowledge": []
+    },
+    {
+      "id": 740,
+      "speaker_guid": "ad470aeb-75cf-4136-b950-a971370a0f70",
+      "speaker": "JunleiTennyson (Female)",
+      "utterance": "Damn right. And while I'm Captain of the Groundbreaker, it falls to me to preserve this ship's independence. ",
+      "support_knowledge": [
+        "junlei_tennyson_01",
+        "groundbreaker_02",
+        "groundbreaker_03",
+        "groundbreaker_09",
+        "groundbreaker_14"
+      ]
+    },
+    {
+      "id": 743,
+      "speaker_guid": "ad470aeb-75cf-4136-b950-a971370a0f70",
+      "speaker": "JunleiTennyson (Female)",
+      "utterance": "Fatalism has got no home on Groundbreaker. We aim to weather the storm, no matter how bad it gets.",
+      "support_knowledge": []
+    },
+    {
+      "id": 741,
+      "speaker_guid": "ad470aeb-75cf-4136-b950-a971370a0f70",
+      "speaker": "JunleiTennyson (Female)",
+      "utterance": "Between us Captains, I try to avoid sounding as bleak as you. Even if I'm feeling down, the crew doesn't need to hear it. ",
+      "support_knowledge": []
+    },
+    {
+      "id": 588,
+      "speaker_guid": "ad470aeb-75cf-4136-b950-a971370a0f70",
+      "speaker": "JunleiTennyson (Female)",
+      "utterance": "Then you know it's a den of criminals and miscreants. Unfortunately, I'll need to ask you to return.",
+      "support_knowledge": [
+        "O0_B5",
+        "back_bays_02"
+      ]
+    },
+    {
+      "id": 560,
+      "speaker_guid": "ad470aeb-75cf-4136-b950-a971370a0f70",
+      "speaker": "JunleiTennyson (Female)",
+      "utterance": "I keep diligent records of station repairs, requisitions, and available assets. Just like my grandmother taught me. ",
+      "support_knowledge": []
+    },
+    {
+      "id": 561,
+      "speaker_guid": "ad470aeb-75cf-4136-b950-a971370a0f70",
+      "speaker": "JunleiTennyson (Female)",
+      "utterance": "The station's radiators haven't changed since her time, and her records say the parts should be there. I trust them.",
+      "support_knowledge": [
+        "O0_B4"
+      ]
+    },
+    {
+      "id": 117,
+      "speaker_guid": "ad470aeb-75cf-4136-b950-a971370a0f70",
+      "speaker": "JunleiTennyson (Female)",
+      "utterance": "I- we'd be grateful for your assistance.",
+      "support_knowledge": []
+    },
+    {
+      "id": 80,
+      "speaker_guid": "ad470aeb-75cf-4136-b950-a971370a0f70",
+      "speaker": "JunleiTennyson (Female)",
+      "utterance": "A simple question with a complicated answer, one that I unfortunately don't have time to give. Not with our situation being so dire.",
+      "support_knowledge": []
+    },
+    {
+      "id": 735,
+      "speaker_guid": "ad470aeb-75cf-4136-b950-a971370a0f70",
+      "speaker": "JunleiTennyson (Female)",
+      "utterance": "They want us to sweat, thinking that'll soften me up for a bad faith deal. If you'll excuse me, they can go fuck themselves.",
+      "support_knowledge": [
+        "O0_B2"
+      ]
+    },
+    {
+      "id": 587,
+      "speaker_guid": "ad470aeb-75cf-4136-b950-a971370a0f70",
+      "speaker": "JunleiTennyson (Female)",
+      "utterance": "My engineers have managed to keep the heat to livable levels, but all the fixes are temporary. This wound is bound to fester.",
+      "support_knowledge": [
+        "O0_B1"
+      ]
+    },
+    {
+      "id": 693,
+      "speaker_guid": "ad470aeb-75cf-4136-b950-a971370a0f70",
+      "speaker": "JunleiTennyson (Female)",
+      "utterance": "Frustrating. Everything down to the circuitboards is past warranty, so I have the pleasure of making life or death decisions on a shoestring budget. ",
+      "support_knowledge": []
+    },
+    {
+      "id": 694,
+      "speaker_guid": "ad470aeb-75cf-4136-b950-a971370a0f70",
+      "speaker": "JunleiTennyson (Female)",
+      "utterance": "Plus there's no time to train my successor or document fixes in a way that anyone outside the family would understand.",
+      "support_knowledge": [
+        "junlei_tennyson_06"
+      ]
+    },
+    {
+      "id": 695,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "This ship is a family business?",
+      "support_knowledge": [
+        "junlei_tennyson_06"
+      ]
+    },
+    {
+      "id": 707,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Aren't you a little young to be training a successor?",
+      "support_knowledge": []
+    },
+    {
+      "id": 698,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Back to my other questions.",
+      "support_knowledge": []
+    },
+    {
+      "id": 703,
+      "speaker_guid": "ad470aeb-75cf-4136-b950-a971370a0f70",
+      "speaker": "JunleiTennyson (Female)",
+      "utterance": "Sure is. The Tennysons came over on the Groundbreaker. My grandmother, Chief Guiying, kept it together during the Crossing and until she died.",
+      "support_knowledge": [
+        "junlei_tennyson_06"
+      ]
+    },
+    {
+      "id": 704,
+      "speaker_guid": "ad470aeb-75cf-4136-b950-a971370a0f70",
+      "speaker": "JunleiTennyson (Female)",
+      "utterance": "I was... \"promoted\" only recently. When my mom died. Then I took the leap from Chief Engineer to Captain. ",
+      "support_knowledge": [
+        "junlei_tennyson_07"
+      ]
+    },
+    {
+      "id": 750,
+      "speaker_guid": "ad470aeb-75cf-4136-b950-a971370a0f70",
+      "speaker": "JunleiTennyson (Female)",
+      "utterance": "Maybe you can see why I'm protective of Groundbreaker. This ship is family. It's got tinkerings and bypasses that only Tennysons know about.",
+      "support_knowledge": [
+        "junlei_tennyson_05",
+        "junlei_tennyson_06"
+      ]
+    },
+    {
+      "id": 751,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Was it a big change, that transition to command?",
+      "support_knowledge": []
+    },
+    {
+      "id": 752,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Condolences, Junlei. I'm sure those were some big shoes to fill.",
+      "support_knowledge": []
+    },
+    {
+      "id": 755,
+      "speaker_guid": "ad470aeb-75cf-4136-b950-a971370a0f70",
+      "speaker": "JunleiTennyson (Female)",
+      "utterance": "It was different knowing that I couldn't turn to anyone who could answer the tough questions for me. ",
+      "support_knowledge": []
+    },
+    {
+      "id": 756,
+      "speaker_guid": "ad470aeb-75cf-4136-b950-a971370a0f70",
+      "speaker": "JunleiTennyson (Female)",
+      "utterance": "Appreciate it. There wasn't much that took me by surprise about the job, but the little things you never expect or think about? They add up over time.",
+      "support_knowledge": []
+    },
+    {
+      "id": 708,
+      "speaker_guid": "ad470aeb-75cf-4136-b950-a971370a0f70",
+      "speaker": "JunleiTennyson (Female)",
+      "utterance": "You see any bite-sized Tennyson children running around? I didn't think so.",
+      "support_knowledge": []
+    },
+    {
+      "id": 709,
+      "speaker_guid": "ad470aeb-75cf-4136-b950-a971370a0f70",
+      "speaker": "JunleiTennyson (Female)",
+      "utterance": "The next Captain won't have my heritage. I'll have to foster that talent from somewhere. It's only a question of when.",
+      "support_knowledge": []
+    },
+    {
+      "id": 705,
+      "speaker_guid": "ad470aeb-75cf-4136-b950-a971370a0f70",
+      "speaker": "JunleiTennyson (Female)",
+      "utterance": "You've got my attention.",
+      "support_knowledge": []
+    },
+    {
+      "id": 771,
+      "speaker_guid": "ad470aeb-75cf-4136-b950-a971370a0f70",
+      "speaker": "JunleiTennyson (Female)",
+      "utterance": "You're right, I don't. The Board is after two things - bits and power. And they only get it by sticking their nose where it doesn't belong. ",
+      "support_knowledge": [
+        "junlei_tennyson_03",
+        "junlei_tennyson_04"
+      ]
+    },
+    {
+      "id": 777,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "How do you keep the Board at a safe distance?",
+      "support_knowledge": [
+        "the_board_01"
+      ]
+    },
+    {
+      "id": 774,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Back to my other questions.",
+      "support_knowledge": []
+    },
+    {
+      "id": 779,
+      "speaker_guid": "ad470aeb-75cf-4136-b950-a971370a0f70",
+      "speaker": "JunleiTennyson (Female)",
+      "utterance": "I placate them when I have something to offer, but I can also be a real hard-ass. It'd be a joy if I could kick out the corporate merchants and reclaim the docking fees in my lifetime.",
+      "support_knowledge": []
+    },
+    {
+      "id": 780,
+      "speaker_guid": "ad470aeb-75cf-4136-b950-a971370a0f70",
+      "speaker": "JunleiTennyson (Female)",
+      "utterance": "Too much of Groundbreaker's income is flowing in the wrong direction. I'd like to see that change. ",
+      "support_knowledge": []
+    }
+  ],
+  "dialog_edges": [
+    [
+      25,
+      576
+    ],
+    [
+      25,
+      692
+    ],
+    [
+      25,
+      770
+    ],
+    [
+      576,
+      78
+    ],
+    [
+      78,
+      729
+    ],
+    [
+      78,
+      730
+    ],
+    [
+      729,
+      731
+    ],
+    [
+      731,
+      732
+    ],
+    [
+      731,
+      733
+    ],
+    [
+      732,
+      734
+    ],
+    [
+      734,
+      12
+    ],
+    [
+      12,
+      115
+    ],
+    [
+      12,
+      14
+    ],
+    [
+      12,
+      79
+    ],
+    [
+      115,
+      116
+    ],
+    [
+      116,
+      584
+    ],
+    [
+      584,
+      590
+    ],
+    [
+      584,
+      579
+    ],
+    [
+      584,
+      559
+    ],
+    [
+      584,
+      580
+    ],
+    [
+      590,
+      591
+    ],
+    [
+      591,
+      19
+    ],
+    [
+      19,
+      20
+    ],
+    [
+      19,
+      582
+    ],
+    [
+      20,
+      29
+    ],
+    [
+      582,
+      736
+    ],
+    [
+      736,
+      737
+    ],
+    [
+      737,
+      738
+    ],
+    [
+      737,
+      739
+    ],
+    [
+      738,
+      740
+    ],
+    [
+      740,
+      19
+    ],
+    [
+      739,
+      743
+    ],
+    [
+      743,
+      741
+    ],
+    [
+      741,
+      19
+    ],
+    [
+      579,
+      588
+    ],
+    [
+      588,
+      19
+    ],
+    [
+      559,
+      560
+    ],
+    [
+      560,
+      561
+    ],
+    [
+      561,
+      584
+    ],
+    [
+      580,
+      19
+    ],
+    [
+      14,
+      117
+    ],
+    [
+      117,
+      584
+    ],
+    [
+      79,
+      80
+    ],
+    [
+      80,
+      12
+    ],
+    [
+      733,
+      735
+    ],
+    [
+      735,
+      12
+    ],
+    [
+      730,
+      587
+    ],
+    [
+      587,
+      731
+    ],
+    [
+      692,
+      693
+    ],
+    [
+      693,
+      694
+    ],
+    [
+      694,
+      695
+    ],
+    [
+      694,
+      707
+    ],
+    [
+      694,
+      698
+    ],
+    [
+      695,
+      703
+    ],
+    [
+      703,
+      704
+    ],
+    [
+      703,
+      750
+    ],
+    [
+      704,
+      751
+    ],
+    [
+      704,
+      752
+    ],
+    [
+      751,
+      755
+    ],
+    [
+      755,
+      750
+    ],
+    [
+      752,
+      756
+    ],
+    [
+      756,
+      750
+    ],
+    [
+      750,
+      694
+    ],
+    [
+      707,
+      708
+    ],
+    [
+      708,
+      709
+    ],
+    [
+      709,
+      694
+    ],
+    [
+      698,
+      705
+    ],
+    [
+      705,
+      25
+    ],
+    [
+      770,
+      771
+    ],
+    [
+      771,
+      777
+    ],
+    [
+      771,
+      774
+    ],
+    [
+      777,
+      779
+    ],
+    [
+      779,
+      780
+    ],
+    [
+      780,
+      771
+    ],
+    [
+      774,
+      705
+    ]
+  ]
+}

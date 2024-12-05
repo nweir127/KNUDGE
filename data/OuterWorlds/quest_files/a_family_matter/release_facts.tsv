@@ -1,0 +1,116 @@
+ID	fact
+OBJECTIVE O0	
+O0_S1	187:98
+O0_S2	286:98
+O0_B1	715:77
+O0_B2	793:135
+OBJECTIVE O1	
+O1_S1	425:71
+O1_S2	497:73
+O1_B1	929:88
+O1_B2	1470:76
+OBJECTIVE O2	
+O2_S1	Now that you've found Tucker Needham in Amber Heights, convince him to return home to his mother in Stellar Bay.
+O2_B1	1547:132
+O2_B2	1680:67
+O2_B3	1748:55
+O2_B4	1804:56
+O2_B5	1861:83
+O2_B6	1945:48
+O2_B7	1994:65
+O2_B8	2060:62
+O2_B9	2123:85
+O2_B10	2209:103
+OBJECTIVE O3	
+O3_S1	You convinced Tucker Needham to return home to Stellar Bay.
+O3_S2	Agnes promised a reward for bringing her son back.
+O3_B1	2313:53
+O3_B2	2367:48
+O3_B3	You'll get 7500xp.
+O3_B4	2435:92
+O3_B5	2528:84
+agnes_needham	
+agnes_needham_01	Agnes Needham is a resident of Stellar Bay and the mother of Tucker Needham.
+agnes_needham_02	Agnes' overprotective style of mothering has led her son, Tucker Needham, to run away from home so he can experience life.
+agnes_needham_03	Despite Tucker being 42 years old, she still thinks of him as her 'little boy'.
+agnes_needham_04	You can find her by Stellar Bay's south-east exit, visibly shaken and calling for help.
+iconoclasts	
+iconoclasts_01	The Iconoclasts are a group of survivalists living in the ruins of Amber Heights on Monarch.
+iconoclasts_02	They hope to one day tear down the corporate establishment that they believe has brought the colony to the brink of death.
+iconoclasts_03	The Iconoclasts are a group of idealistic revolutionaries that seek to overthrow the corporate establishment that runs the Halcyon Colony.
+iconoclasts_04	Based in the ruins of the Amber Heights settlement on Monarch,
+iconoclasts_05	they are a tenacious group,
+iconoclasts_06	and share some democratic ideals with Monarch Stellar Industries (MSI) against the more repressive actions of the Board.
+iconoclasts_07	However, the Iconoclast's anti-corporate nature has put them at odds with MSI, a dispute that threatens to spill into all-out warfare.
+iconoclasts_08	Given that the Iconoclasts are mostly followers of the Philosophist faith, they have been blacklisted and demonized by the Board as dissenters and anarchists.
+iconoclasts_09	The group is led by Graham Bryant, a staunch Philosophist.
+iconoclasts_10	Zora Blackwood, the Iconoclasts' chief of medicine, is also considered a de facto leader of the group,
+iconoclasts_11	as she was alongside Graham when he founded the Iconoclasts,
+iconoclasts_12	and almost every member of the Iconoclasts owes her their life in some way.
+iconoclasts_13	The Iconoclasts maintain a tense relationship with MSI.
+iconoclasts_14	Despite sharing democratic values and a common desire towards egalitarianism for the people of Monarch and the wider Halcyon colony,
+iconoclasts_15	"MSI's ""egalitarian corporate structure"" has proven to be at odds with some of the Iconoclasts' more radical, anti-capitalist views."
+iconoclasts_16	Depending on the actions of the Stranger, this tense relationship can either be resolved,
+iconoclasts_17	or can spill into a drawn-out and bloody war.
+iconoclasts_18	The Stranger meets the Iconoclasts in Amber Heights just as the tension between them and MSI is reaching boiling point.
+iconoclasts_19	They can either side with the Iconoclasts and assist them in storming and taking over Stellar Bay,
+iconoclasts_20	"""solve"" the Iconoclast problem for Stellar Bay,"
+iconoclasts_21	or broker peace between the two factions.
+iconoclasts_22	The Stranger can also have an impact on the leadership of the Iconoclasts - siding with either Graham Bryant or Zora Blackwood.
+iconoclasts_23	To supplant Graham with Zora, evidence of Graham's involvement in the Amber Heights massacre must be found and presented to Zora.
+iconoclasts_24	The Van Noys are the Iconoclasts' best unit.
+mantisaur	
+mantisaur_01	Mantisaurs are insectoid creatures native to Monarch.
+mantisaur_02	They are aggressive, territorial, and very strong.
+mantisaur_03	It is possible to deal with them one on one, but it is best to avoid groups of them for your safety.
+mantisaur_04	The mantiqueen is the largest breed of Mantisaur.
+monarch	
+monarch_01	Monarch, previously known as Terra 1, is one of the many moons of the gas giant Olympus and the site of a failed colony.
+monarch_02	Terra 1 was initially designated as the primary colonization target of the Halcyon system.
+monarch_03	The Halcyon Holdings Corporate Board had intended to completely terraform the moon,
+monarch_04	wiping out the local fauna and flora and replacing it with plants and wildlife native to Earth.
+monarch_05	However, the terraforming process unexpectedly caused the native species to mutate and grow to significantly larger sizes,
+monarch_06	rendering them more dangerous and severely crippling the colonization effort.
+monarch_07	Due to the hostile environment which they had created,
+monarch_08	the Board was forced to enact a Hazard Clause covering the entirety of Terra 1.
+monarch_09	Public notice of the clause's issuance was sent to everyone operating on Terra 1 and led to the evacuation of almost all corporations from the moon.
+monarch_10	However, one corporation took advantage of the chaos of the evacuation to exploit a legal loophole which allowed them to,
+monarch_11	as the last corporation remaining on the planet,
+monarch_12	acquire the planet from the Board.
+monarch_13	This corporation, under the leadership of Sanjar Nandi and Graham Bryant subsequently rebranded itself to Monarch Stellar Industries (MSI),
+monarch_14	in line with the renaming of the planet to 'Monarch'.
+monarch_15	The actions of MSI earned them the ire of the Board,
+monarch_16	who retaliated by effectively placing the moon under indefinite embargo,
+monarch_17	refusing to allow legal transit either in or out.
+monarch_18	the Board aggressively spread propaganda about Monarch to convince the rest of the population that it was both uninhabited and uninhabitable.
+monarch_19	This has greatly hampered MSI's attempts to be recognized as a legitimate corporation and is a thorn in the side of its CEO, Sanjar Nandi.
+monarch_20	"Monarch also has an ocean which goes around the moon at the ""twilight band""."
+monarch_21	It is where the colonists and Monarch Stellar Industries farm their saltuna.
+raptidon	
+raptidon_01	Raptidons are giant cat/reptile-like creatures that inhabit various planets in Halcyon.
+raptidon_02	They are creatures native to Monarch.
+raptidon_03	however some corporations have illegally imported them to other planets,
+raptidon_04	such as Auntie Cleo who relocated a group of them to Roseway.
+raptidon_05	Raptidons are of corporate interest due to their potential for producing new chemical by-products which,
+raptidon_06	when refined, can be used to create new board approved products.
+stellar_bay	
+stellar_bay_01	Outside the city walls, the lands were overrun by the native wildlife, as well as marauders and outlaws.
+stellar_bay_02	Stellar Bay is a company town located on the planet Monarch. It is owned and operated by Monarch Stellar Industries.
+stellar_bay_03	Stellar Bay is the largest saltuna producer on the Halcyon colony and used to be one of the most important suppliers of this resource.
+sulfur_pits	
+sulfur_pits_01	The Sulfur Pits are a point of interest on the western side of Monarch.
+sulfur_pits_02	They are located southwest of Terra One Publications and directly northeast of the Gunship Crash Site.
+sulfur_pits_03	The Sulfur Pits have a large variety of Raptidons and many deceased marauders.
+sulfur_pits_04	The area consists largely of Sulfur Pits.
+sulfur_pits_05	When an entity comes in contact with a sulfur pit,
+sulfur_pits_06	they receive the acid effect for the duration of touching the pit.
+tucker_needham	
+tucker_needham_01	Tucker Needham is a former resident of Stellar Bay who left to join the Iconoclasts.
+tucker_needham_02	Before the quest A Family Matter, he can be found in Amber Heights.
+tucker_needham_03	Tucker was coddled by his mother from a very young age,
+tucker_needham_04	the latter insisting that danger lurked around every corner on Monarch.
+tucker_needham_05	His mother's overprotectiveness extended well into Tucker's adulthood,
+tucker_needham_06	leading him to seek to be free in any way possible.
+tucker_needham_07	After hearing Graham Bryant's broadcasts, Tucker left Stellar Bay to be truly free by joining the Iconoclasts at Amber Heights.
+tucker_needham_08	He is dazzled by Graham's preachings on true unfettered freedom from the corporate way of life and attributes his enthusiasm to his 'childhood trauma'.
+tucker_needham_09	He is willing to do anything to remain free, even faking his own death to prevent his mother from continuing to send people to look for him.

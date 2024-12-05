@@ -1,0 +1,632 @@
+{
+  "id": "at_central_02",
+  "quest_name": "at_central",
+  "conversation": {
+    "filename": "0202_cv_actor_leader",
+    "start_node": 1,
+    "end_nodes": [],
+    "force_include": [
+      2,
+      103,
+      83,
+      113,
+      18
+    ],
+    "force_sequence": []
+  },
+  "in_objective": "O2",
+  "out_objective": "O3",
+  "participants": [
+    "actor_leader"
+  ],
+  "objectives": {
+    "O2": {
+      "summary": "Break a Leg!",
+      "description": {
+        "S1": "Enter the soundstage and put on a show."
+      },
+      "blurb": {
+        "B1": "Head inside the now open door and move to the quest marker to automatically initiate dialogue with the Actor",
+        "B2": "at the end of the scene,",
+        "B3": "you can <Attack> and kill all of the actors,",
+        "B4": "or you can choose any other option to end the scene peacefully.",
+        "B5": "Either way you'll gain 9000 XP and Maverick will want to speak to you."
+      }
+    },
+    "O3": {
+      "summary": "Talk to Maverick",
+      "description": {
+        "S1": "Review your performance with Maverick."
+      },
+      "blurb": {
+        "B1": "Maverick will be impressed with your audition if you pass at least two out of three of the Lie (40), Intimidate (65), and Intimidate (100) checks,",
+        "B2": "regardless of what other choices you make.",
+        "B3": "Alternatively, if you kill the actors he will be impressed no matter what.",
+        "B4": "Otherwise, he is unimpressed."
+      }
+    }
+  },
+  "dialog": [
+    {
+      "id": 1,
+      "speaker_guid": "65317e22-8bd5-430a-90d8-f40f0fbf3c4d",
+      "speaker": "ActorLeader (Male)",
+      "utterance": "Well, well! Here to stop us at last, Captain Steele? You're too late! ",
+      "support_knowledge": [
+        "O2_B1"
+      ]
+    },
+    {
+      "id": 98,
+      "speaker_guid": "65317e22-8bd5-430a-90d8-f40f0fbf3c4d",
+      "speaker": "ActorLeader (Male)",
+      "utterance": "All of this settlement's C&P HungryTime Food Pills - same nutritional value, but now with added filler - are ours! ",
+      "support_knowledge": []
+    },
+    {
+      "id": 79,
+      "speaker_guid": "65317e22-8bd5-430a-90d8-f40f0fbf3c4d",
+      "speaker": "ActorLeader (Male)",
+      "utterance": "With their patented stomach-stuffing effects and baseline vitamin content, we'll be nigh unstoppable!",
+      "support_knowledge": []
+    },
+    {
+      "id": 2,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Joke's on you, idiot. Those crates are just decoys.",
+      "support_knowledge": []
+    },
+    {
+      "id": 3,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "You foul pirate! I won't let you get away with this.",
+      "support_knowledge": []
+    },
+    {
+      "id": 4,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Whatever, as long as you stop monologuing about it.",
+      "support_knowledge": []
+    },
+    {
+      "id": 5,
+      "speaker_guid": "65317e22-8bd5-430a-90d8-f40f0fbf3c4d",
+      "speaker": "ActorLeader (Male)",
+      "utterance": "They- they are? ",
+      "support_knowledge": []
+    },
+    {
+      "id": 99,
+      "speaker_guid": "65317e22-8bd5-430a-90d8-f40f0fbf3c4d",
+      "speaker": "ActorLeader (Male)",
+      "utterance": "...What an unexpected twist! You may have fooled me for now, but not for long!",
+      "support_knowledge": []
+    },
+    {
+      "id": 8,
+      "speaker_guid": "65317e22-8bd5-430a-90d8-f40f0fbf3c4d",
+      "speaker": "ActorLeader (Male)",
+      "utterance": "Do you remember the last time we faced each other? The Battle of Axajaxx, staring one another down across the void of space while flaming debris fell like rain around us?",
+      "support_knowledge": []
+    },
+    {
+      "id": 101,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "What of it?",
+      "support_knowledge": []
+    },
+    {
+      "id": 102,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "<Remain stoically silent.>",
+      "support_knowledge": []
+    },
+    {
+      "id": 103,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "The things you just described are scientifically impossible.",
+      "support_knowledge": []
+    },
+    {
+      "id": 106,
+      "speaker_guid": "65317e22-8bd5-430a-90d8-f40f0fbf3c4d",
+      "speaker": "ActorLeader (Male)",
+      "utterance": "What indeed!",
+      "support_knowledge": []
+    },
+    {
+      "id": 100,
+      "speaker_guid": "65317e22-8bd5-430a-90d8-f40f0fbf3c4d",
+      "speaker": "ActorLeader (Male)",
+      "utterance": "I had you surrounded and outgunned! But you overcame my superior numbers with tactical thinking and a Hammersmith Limited Edition Grenade Launcher!",
+      "support_knowledge": []
+    },
+    {
+      "id": 82,
+      "speaker_guid": "65317e22-8bd5-430a-90d8-f40f0fbf3c4d",
+      "speaker": "ActorLeader (Male)",
+      "utterance": "I've been waiting for five years now, and at last my day for vengeance has come!",
+      "support_knowledge": []
+    },
+    {
+      "id": 83,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "You ran like a coward then. You'll run now if you know what's good for you.",
+      "support_knowledge": []
+    },
+    {
+      "id": 84,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "That's what you think!",
+      "support_knowledge": []
+    },
+    {
+      "id": 111,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "<Exude wordless fury.>",
+      "support_knowledge": []
+    },
+    {
+      "id": 85,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Is this where we're dumping backstory? Because that should come up earlier.",
+      "support_knowledge": []
+    },
+    {
+      "id": 91,
+      "speaker_guid": "65317e22-8bd5-430a-90d8-f40f0fbf3c4d",
+      "speaker": "ActorLeader (Male)",
+      "utterance": "I- oh, I just got chills.",
+      "support_knowledge": []
+    },
+    {
+      "id": 117,
+      "speaker_guid": "65317e22-8bd5-430a-90d8-f40f0fbf3c4d",
+      "speaker": "ActorLeader (Male)",
+      "utterance": "...But still, you'll not stop me now!",
+      "support_knowledge": []
+    },
+    {
+      "id": 109,
+      "speaker_guid": "65317e22-8bd5-430a-90d8-f40f0fbf3c4d",
+      "speaker": "ActorLeader (Male)",
+      "utterance": "I have this whole port wired with submicro energon transistors! ",
+      "support_knowledge": []
+    },
+    {
+      "id": 130,
+      "speaker_guid": "65317e22-8bd5-430a-90d8-f40f0fbf3c4d",
+      "speaker": "ActorLeader (Male)",
+      "utterance": "Once we're away, I'll activate the gamma particulate field, and the quantoponic chain reaction will turn this whole place into vaporized plasma!",
+      "support_knowledge": []
+    },
+    {
+      "id": 118,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Not if I have anything to say about it!",
+      "support_knowledge": []
+    },
+    {
+      "id": 115,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "<Say nothing, but make your eye twitch a little.>",
+      "support_knowledge": []
+    },
+    {
+      "id": 113,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Most of those words are made up, and the ones that are real don't work like that.",
+      "support_knowledge": []
+    },
+    {
+      "id": 121,
+      "speaker_guid": "65317e22-8bd5-430a-90d8-f40f0fbf3c4d",
+      "speaker": "ActorLeader (Male)",
+      "utterance": "Oh, but there's nothing you can do!",
+      "support_knowledge": []
+    },
+    {
+      "id": 17,
+      "speaker_guid": "65317e22-8bd5-430a-90d8-f40f0fbf3c4d",
+      "speaker": "ActorLeader (Male)",
+      "utterance": "I hope you've paid your burial fees and signed your personal death and dismemberment waivers, because this is the end for you!",
+      "support_knowledge": []
+    },
+    {
+      "id": 18,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "No, it's the end for YOU.",
+      "support_knowledge": [
+        "O2_B4"
+      ]
+    },
+    {
+      "id": 92,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Let's see you try! ",
+      "support_knowledge": [
+        "O2_B4"
+      ]
+    },
+    {
+      "id": 93,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "FINALLY.",
+      "support_knowledge": [
+        "O2_B4"
+      ]
+    },
+    {
+      "id": 22,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "<Attack> Rehearsal's over.",
+      "support_knowledge": [
+        "O2_B3"
+      ]
+    },
+    {
+      "id": 24,
+      "speaker_guid": "65317e22-8bd5-430a-90d8-f40f0fbf3c4d",
+      "speaker": "ActorLeader (Male)",
+      "utterance": "I- Law, what a presence! I'm going to need a moment to match this energy.",
+      "support_knowledge": [
+        "O2_B4"
+      ]
+    },
+    {
+      "id": 31,
+      "speaker_guid": "65317e22-8bd5-430a-90d8-f40f0fbf3c4d",
+      "speaker": "ActorLeader (Male)",
+      "utterance": "To the break room, everyone! I need my Mo-App Fizzy Tea.",
+      "support_knowledge": [
+        "O2_B4"
+      ]
+    },
+    {
+      "id": 97,
+      "speaker_guid": "65317e22-8bd5-430a-90d8-f40f0fbf3c4d",
+      "speaker": "ActorLeader (Male)",
+      "utterance": "I- line? Never mind, I think that's scene.",
+      "support_knowledge": [
+        "O2_B4"
+      ]
+    },
+    {
+      "id": 126,
+      "speaker_guid": "65317e22-8bd5-430a-90d8-f40f0fbf3c4d",
+      "speaker": "ActorLeader (Male)",
+      "utterance": "You're not even taking this seriously!",
+      "support_knowledge": [
+        "O2_B4"
+      ]
+    },
+    {
+      "id": 94,
+      "speaker_guid": "65317e22-8bd5-430a-90d8-f40f0fbf3c4d",
+      "speaker": "ActorLeader (Male)",
+      "utterance": "I refuse to work like this! I've done aetherwave spots for Wentsworth, I'll have you know.",
+      "support_knowledge": [
+        "O2_B4"
+      ]
+    },
+    {
+      "id": 70,
+      "speaker_guid": "65317e22-8bd5-430a-90d8-f40f0fbf3c4d",
+      "speaker": "ActorLeader (Male)",
+      "utterance": "He's really shooting! Safeties off!",
+      "support_knowledge": [
+        "O2_B3"
+      ]
+    },
+    {
+      "id": 112,
+      "speaker_guid": "65317e22-8bd5-430a-90d8-f40f0fbf3c4d",
+      "speaker": "ActorLeader (Male)",
+      "utterance": "Speechless, I see! It is a flawless plan.",
+      "support_knowledge": []
+    },
+    {
+      "id": 119,
+      "speaker_guid": "65317e22-8bd5-430a-90d8-f40f0fbf3c4d",
+      "speaker": "ActorLeader (Male)",
+      "utterance": "And I spent three hours learning how to pronounce them!",
+      "support_knowledge": []
+    },
+    {
+      "id": 87,
+      "speaker_guid": "65317e22-8bd5-430a-90d8-f40f0fbf3c4d",
+      "speaker": "ActorLeader (Male)",
+      "utterance": "Yes! It is!",
+      "support_knowledge": []
+    },
+    {
+      "id": 116,
+      "speaker_guid": "65317e22-8bd5-430a-90d8-f40f0fbf3c4d",
+      "speaker": "ActorLeader (Male)",
+      "utterance": "Yes, even you are powerless this time, Steele!",
+      "support_knowledge": []
+    },
+    {
+      "id": 86,
+      "speaker_guid": "65317e22-8bd5-430a-90d8-f40f0fbf3c4d",
+      "speaker": "ActorLeader (Male)",
+      "utterance": "We screen tested that, and the audiences forgot all about it!",
+      "support_knowledge": []
+    },
+    {
+      "id": 107,
+      "speaker_guid": "65317e22-8bd5-430a-90d8-f40f0fbf3c4d",
+      "speaker": "ActorLeader (Male)",
+      "utterance": "I see you haven't changed a bit, Steele.",
+      "support_knowledge": []
+    },
+    {
+      "id": 105,
+      "speaker_guid": "65317e22-8bd5-430a-90d8-f40f0fbf3c4d",
+      "speaker": "ActorLeader (Male)",
+      "utterance": "Hey, I didn't write this. Just go with it.",
+      "support_knowledge": []
+    },
+    {
+      "id": 6,
+      "speaker_guid": "65317e22-8bd5-430a-90d8-f40f0fbf3c4d",
+      "speaker": "ActorLeader (Male)",
+      "utterance": "Here to stop us at last, Captain Steele? You're too- oh, sorry, I already said that.",
+      "support_knowledge": []
+    },
+    {
+      "id": 7,
+      "speaker_guid": "65317e22-8bd5-430a-90d8-f40f0fbf3c4d",
+      "speaker": "ActorLeader (Male)",
+      "utterance": "Come on, stick to the script!",
+      "support_knowledge": []
+    }
+  ],
+  "dialog_edges": [
+    [
+      1,
+      98
+    ],
+    [
+      98,
+      79
+    ],
+    [
+      79,
+      2
+    ],
+    [
+      79,
+      3
+    ],
+    [
+      79,
+      4
+    ],
+    [
+      2,
+      5
+    ],
+    [
+      5,
+      99
+    ],
+    [
+      99,
+      8
+    ],
+    [
+      8,
+      101
+    ],
+    [
+      8,
+      102
+    ],
+    [
+      8,
+      103
+    ],
+    [
+      101,
+      106
+    ],
+    [
+      106,
+      100
+    ],
+    [
+      100,
+      82
+    ],
+    [
+      82,
+      83
+    ],
+    [
+      82,
+      84
+    ],
+    [
+      82,
+      111
+    ],
+    [
+      82,
+      85
+    ],
+    [
+      83,
+      91
+    ],
+    [
+      91,
+      117
+    ],
+    [
+      117,
+      109
+    ],
+    [
+      109,
+      130
+    ],
+    [
+      130,
+      118
+    ],
+    [
+      130,
+      115
+    ],
+    [
+      130,
+      113
+    ],
+    [
+      118,
+      121
+    ],
+    [
+      121,
+      17
+    ],
+    [
+      17,
+      18
+    ],
+    [
+      17,
+      92
+    ],
+    [
+      17,
+      93
+    ],
+    [
+      17,
+      22
+    ],
+    [
+      18,
+      24
+    ],
+    [
+      24,
+      31
+    ],
+    [
+      92,
+      97
+    ],
+    [
+      97,
+      31
+    ],
+    [
+      93,
+      126
+    ],
+    [
+      126,
+      94
+    ],
+    [
+      94,
+      31
+    ],
+    [
+      22,
+      70
+    ],
+    [
+      115,
+      112
+    ],
+    [
+      112,
+      17
+    ],
+    [
+      113,
+      119
+    ],
+    [
+      119,
+      17
+    ],
+    [
+      84,
+      87
+    ],
+    [
+      87,
+      109
+    ],
+    [
+      111,
+      116
+    ],
+    [
+      116,
+      109
+    ],
+    [
+      85,
+      86
+    ],
+    [
+      86,
+      109
+    ],
+    [
+      102,
+      107
+    ],
+    [
+      107,
+      100
+    ],
+    [
+      103,
+      105
+    ],
+    [
+      105,
+      100
+    ],
+    [
+      3,
+      6
+    ],
+    [
+      6,
+      8
+    ],
+    [
+      4,
+      7
+    ],
+    [
+      7,
+      8
+    ]
+  ]
+}

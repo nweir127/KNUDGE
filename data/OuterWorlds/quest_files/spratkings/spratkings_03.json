@@ -1,0 +1,393 @@
+{
+  "id": "spratkings_03",
+  "quest_name": "spratkings",
+  "conversation": {
+    "filename": "0407_cv_nelson_mayson",
+    "start_node": 6,
+    "end_nodes": [],
+    "force_include": [
+      29,
+      34
+    ]
+  },
+  "in_objective": "O4",
+  "out_objective": "O5",
+  "participants": [
+    "nelson_mayson"
+  ],
+  "dialog_edges": [
+    [
+      6,
+      29
+    ],
+    [
+      6,
+      34
+    ],
+    [
+      6,
+      30
+    ],
+    [
+      6,
+      31
+    ],
+    [
+      29,
+      32
+    ],
+    [
+      32,
+      138
+    ],
+    [
+      32,
+      136
+    ],
+    [
+      32,
+      137
+    ],
+    [
+      138,
+      139
+    ],
+    [
+      139,
+      81
+    ],
+    [
+      81,
+      30
+    ],
+    [
+      81,
+      39
+    ],
+    [
+      136,
+      140
+    ],
+    [
+      140,
+      141
+    ],
+    [
+      140,
+      137
+    ],
+    [
+      141,
+      143
+    ],
+    [
+      143,
+      142
+    ],
+    [
+      142,
+      81
+    ],
+    [
+      137,
+      144
+    ],
+    [
+      144,
+      142
+    ],
+    [
+      34,
+      135
+    ],
+    [
+      135,
+      76
+    ],
+    [
+      76,
+      77
+    ],
+    [
+      76,
+      78
+    ],
+    [
+      77,
+      79
+    ],
+    [
+      79,
+      80
+    ],
+    [
+      30,
+      11
+    ],
+    [
+      11,
+      14
+    ],
+    [
+      14,
+      20
+    ],
+    [
+      20,
+      82
+    ],
+    [
+      20,
+      11
+    ],
+    [
+      82,
+      84
+    ],
+    [
+      84,
+      86
+    ],
+    [
+      86,
+      11
+    ]
+  ],
+  "dialog": [
+    {
+      "id": 6,
+      "speaker_guid": "ae1a3987-7c1e-411e-9d2c-1273ec7ed3d9",
+      "speaker": "NelsonMayson (Male)",
+      "utterance": "Got the goods? 'Cause I know you wouldn't be wasting my time otherwise. Wink.",
+      "support_knowledge": [
+        "O5_S1"
+      ]
+    },
+    {
+      "id": 29,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "As a matter of fact, I do.",
+      "support_knowledge": [
+        "O5_B1"
+      ]
+    },
+    {
+      "id": 34,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Searched all over town. Couldn't find them. <Keep Drug Consumables>",
+      "support_knowledge": [
+        "O5_B2"
+      ]
+    },
+    {
+      "id": 30,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I got some questions.",
+      "support_knowledge": []
+    },
+    {
+      "id": 31,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Not yet.",
+      "support_knowledge": []
+    },
+    {
+      "id": 32,
+      "speaker_guid": "ae1a3987-7c1e-411e-9d2c-1273ec7ed3d9",
+      "speaker": "NelsonMayson (Male)",
+      "utterance": "You do? I mean, you do! Of course, you do. What did I tell you? Sure. Fire. Delivery. System. Works almost every time!",
+      "support_knowledge": [
+        "O5_B1"
+      ]
+    },
+    {
+      "id": 138,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "That's great. Now pay me.",
+      "support_knowledge": [
+        "O5_S2"
+      ]
+    },
+    {
+      "id": 136,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Sure... until someone comes along and rescues them from their pathetic lives.",
+      "support_knowledge": [
+        "bertrand_02",
+        "bertrand_03"
+      ]
+    },
+    {
+      "id": 137,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Turns out some crazy guy was keeping them as pets.",
+      "support_knowledge": [
+        "bertrand_02",
+        "bertrand_03"
+      ]
+    },
+    {
+      "id": 139,
+      "speaker_guid": "ae1a3987-7c1e-411e-9d2c-1273ec7ed3d9",
+      "speaker": "NelsonMayson (Male)",
+      "utterance": "Right, right. In my excitement, I very nearly forgot. Ha. Ha.",
+      "support_knowledge": [
+        "O5_S2"
+      ]
+    },
+    {
+      "id": 81,
+      "speaker_guid": "ae1a3987-7c1e-411e-9d2c-1273ec7ed3d9",
+      "speaker": "NelsonMayson (Male)",
+      "utterance": "As promised, your cut, plus a little extra to show my gratitude. Now if there's nothing else you need from me... I must go inventory my goods.",
+      "support_knowledge": [
+        "O5_S2"
+      ]
+    },
+    {
+      "id": 39,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Was a pleasure doing business with you.",
+      "support_knowledge": []
+    },
+    {
+      "id": 140,
+      "speaker_guid": "ae1a3987-7c1e-411e-9d2c-1273ec7ed3d9",
+      "speaker": "NelsonMayson (Male)",
+      "utterance": "Sure they're raptidon fodder and suffer the occasional overdose when a container dissolves in their stomach aci- Wait, what do you mean \"rescued\" them? ",
+      "support_knowledge": [
+        "bertrand_02",
+        "bertrand_03"
+      ]
+    },
+    {
+      "id": 141,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Bertrand didn't appreciate the abuse they were suffering so he stole them from the tunnels.",
+      "support_knowledge": [
+        "bertrand_02",
+        "bertrand_03"
+      ]
+    },
+    {
+      "id": 143,
+      "speaker_guid": "ae1a3987-7c1e-411e-9d2c-1273ec7ed3d9",
+      "speaker": "NelsonMayson (Male)",
+      "utterance": "That deranged piece of sprat shit!",
+      "support_knowledge": []
+    },
+    {
+      "id": 142,
+      "speaker_guid": "ae1a3987-7c1e-411e-9d2c-1273ec7ed3d9",
+      "speaker": "NelsonMayson (Male)",
+      "utterance": "If Bertrand ain't already dead, he's about to be. I owe you for bringing this... breach in security to my attention.",
+      "support_knowledge": []
+    },
+    {
+      "id": 144,
+      "speaker_guid": "ae1a3987-7c1e-411e-9d2c-1273ec7ed3d9",
+      "speaker": "NelsonMayson (Male)",
+      "utterance": "Two guesses I know exactly who. And where to find him.",
+      "support_knowledge": []
+    },
+    {
+      "id": 135,
+      "speaker_guid": "ae1a3987-7c1e-411e-9d2c-1273ec7ed3d9",
+      "speaker": "NelsonMayson (Male)",
+      "utterance": "They must've hightailed it out of town. Just my luck! I mean, sure, every scheme has its leaks to plug, but at this rate I'll be ruined.",
+      "support_knowledge": []
+    },
+    {
+      "id": 76,
+      "speaker_guid": "ae1a3987-7c1e-411e-9d2c-1273ec7ed3d9",
+      "speaker": "NelsonMayson (Male)",
+      "utterance": "What am I gonna do now?",
+      "support_knowledge": []
+    },
+    {
+      "id": 77,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Pay me.",
+      "support_knowledge": [
+        "O5_S2"
+      ]
+    },
+    {
+      "id": 78,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Don't know, don't care. See you around.",
+      "support_knowledge": []
+    },
+    {
+      "id": 79,
+      "speaker_guid": "ae1a3987-7c1e-411e-9d2c-1273ec7ed3d9",
+      "speaker": "NelsonMayson (Male)",
+      "utterance": "Great! And now I'm in the red. Some scheme this turned out to be.",
+      "support_knowledge": []
+    },
+    {
+      "id": 80,
+      "speaker_guid": "ae1a3987-7c1e-411e-9d2c-1273ec7ed3d9",
+      "speaker": "NelsonMayson (Male)",
+      "utterance": "No offense, but next time I think I'll go with someone else.",
+      "support_knowledge": []
+    },
+    {
+      "id": 11,
+      "speaker_guid": "ae1a3987-7c1e-411e-9d2c-1273ec7ed3d9",
+      "speaker": "NelsonMayson (Male)",
+      "utterance": "Hit me. I won't even hit back. ",
+      "support_knowledge": []
+    },
+    {
+      "id": 14,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "What do you do around here?",
+      "support_knowledge": []
+    },
+    {
+      "id": 20,
+      "speaker_guid": "ae1a3987-7c1e-411e-9d2c-1273ec7ed3d9",
+      "speaker": "NelsonMayson (Male)",
+      "utterance": "Officially, I keep the books for Ms. Malin, provide loans to the Byzantium gold-bloods for gaming, and oversee our drug-running operations.",
+      "support_knowledge": [
+        "nelson_mayson_03",
+        "nelson_mayson_04",
+        "nelson_mayson_05"
+      ]
+    },
+    {
+      "id": 82,
+      "speaker_guid": "ae1a3987-7c1e-411e-9d2c-1273ec7ed3d9",
+      "speaker": "NelsonMayson (Male)",
+      "utterance": "Speaking of... might I interest you in a purchase? I'll give you a first-time discount. That's five percent off and a free drink at the Ante Up. You're welcome.",
+      "support_knowledge": []
+    },
+    {
+      "id": 84,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I'll pass.",
+      "support_knowledge": []
+    },
+    {
+      "id": 86,
+      "speaker_guid": "ae1a3987-7c1e-411e-9d2c-1273ec7ed3d9",
+      "speaker": "NelsonMayson (Male)",
+      "utterance": "Suit yourself.",
+      "support_knowledge": []
+    }
+  ]
+}

@@ -1,0 +1,292 @@
+{
+  "id": "the_long_tomorrow_02",
+  "quest_name": "the_long_tomorrow",
+  "conversation": {
+    "filename": "00_cv_abernathy",
+    "start_node": 28,
+    "end_nodes": [],
+    "force_include": [
+      135,
+      132,
+      134
+    ],
+    "force_sequence": []
+  },
+  "in_objective": "O1",
+  "participants": [
+    "martin_abernathy"
+  ],
+  "objectives": {
+    "O1": {
+      "summary": "Retrieve the Cache of Medicine",
+      "description": {
+        "S1": "Abernathy believes he's dying.",
+        "S2": "He wants a special cache of anthrocillin,",
+        "S3": "found in the Emerald Vale Community Center.",
+        "S4": "Esther confronted you outside of Abernathy's house,",
+        "S5": "and suggested that you should give the medicine to her instead of Abernathy."
+      },
+      "blurb": {
+        "B1": "You can find the Experimental Anthrocillin in the Emerald Vale Community Center inside the medical area.",
+        "B2": "You'll need the Medical Bay key to get in there,",
+        "B3": "which can be found on one of the Marauders.",
+        "B4": "Once you obtain it you can give it to Esther or Martin."
+      }
+    }
+  },
+  "dialog_edges": [
+    [
+      28,
+      110
+    ],
+    [
+      110,
+      131
+    ],
+    [
+      110,
+      135
+    ],
+    [
+      110,
+      133
+    ],
+    [
+      131,
+      138
+    ],
+    [
+      138,
+      172
+    ],
+    [
+      172,
+      134
+    ],
+    [
+      172,
+      132
+    ],
+    [
+      172,
+      139
+    ],
+    [
+      134,
+      140
+    ],
+    [
+      140,
+      139
+    ],
+    [
+      132,
+      141
+    ],
+    [
+      141,
+      139
+    ],
+    [
+      135,
+      136
+    ],
+    [
+      136,
+      142
+    ],
+    [
+      142,
+      135
+    ],
+    [
+      142,
+      137
+    ],
+    [
+      142,
+      144
+    ],
+    [
+      142,
+      145
+    ],
+    [
+      137,
+      138
+    ],
+    [
+      144,
+      148
+    ],
+    [
+      145,
+      149
+    ],
+    [
+      133,
+      142
+    ]
+  ],
+  "dialog": [
+    {
+      "id": 28,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I have that medicine you wanted.",
+      "support_knowledge": [
+        "O2_B1"
+      ]
+    },
+    {
+      "id": 110,
+      "speaker_guid": "dd32a64b-f650-402a-ac86-a1aa9f6dd972",
+      "speaker": "MartinAbernathy (Male)",
+      "utterance": "Let's see it. Don't keep us waiting.",
+      "support_knowledge": []
+    },
+    {
+      "id": 131,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "It's all yours.",
+      "support_knowledge": [
+        "O2_B3"
+      ]
+    },
+    {
+      "id": 135,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Esther tells me you have a tendency toward hypochondria.",
+      "support_knowledge": [
+        "O2_B1",
+        "martin_abernathy_02"
+      ]
+    },
+    {
+      "id": 133,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I haven't decided what I'm doing with it yet.",
+      "support_knowledge": [
+        "O1_B4"
+      ]
+    },
+    {
+      "id": 138,
+      "speaker_guid": "dd32a64b-f650-402a-ac86-a1aa9f6dd972",
+      "speaker": "MartinAbernathy (Male)",
+      "utterance": "Sweet, life-giving nostrum. The first hit is always the best. ",
+      "support_knowledge": []
+    },
+    {
+      "id": 172,
+      "speaker_guid": "dd32a64b-f650-402a-ac86-a1aa9f6dd972",
+      "speaker": "MartinAbernathy (Male)",
+      "utterance": "Scratched together all the bits I had around the domicile. It ain't as much as you deserve, but it's all I got.",
+      "support_knowledge": [
+        "O2_B3"
+      ]
+    },
+    {
+      "id": 134,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I risked my life to save yours, Abernathy.",
+      "support_knowledge": [
+        "O2_B4"
+      ]
+    },
+    {
+      "id": 132,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Not true. You've got a secret. Secrets aren't free.",
+      "support_knowledge": [
+        "O2_B4"
+      ]
+    },
+    {
+      "id": 139,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "See you around.",
+      "support_knowledge": []
+    },
+    {
+      "id": 140,
+      "speaker_guid": "dd32a64b-f650-402a-ac86-a1aa9f6dd972",
+      "speaker": "MartinAbernathy (Male)",
+      "utterance": "You are wringing the blood out of me. Here. You can have whatever is in my pockets.",
+      "support_knowledge": [
+        "O2_B4"
+      ]
+    },
+    {
+      "id": 141,
+      "speaker_guid": "dd32a64b-f650-402a-ac86-a1aa9f6dd972",
+      "speaker": "MartinAbernathy (Male)",
+      "utterance": "You'd really sprat me out? For what - a couple extra bits? Here. Take it then. ",
+      "support_knowledge": [
+        "O2_B4"
+      ]
+    },
+    {
+      "id": 136,
+      "speaker_guid": "dd32a64b-f650-402a-ac86-a1aa9f6dd972",
+      "speaker": "MartinAbernathy (Male)",
+      "utterance": "I don't know what that means. Is that some sort of medical condition? Is my plague getting worse or something?",
+      "support_knowledge": [
+        "O2_B2"
+      ]
+    },
+    {
+      "id": 142,
+      "speaker_guid": "dd32a64b-f650-402a-ac86-a1aa9f6dd972",
+      "speaker": "MartinAbernathy (Male)",
+      "utterance": "Haven't decided? I hired you! The nature of your employment requires you to deliver in my hand some genuine anthrocillin!",
+      "support_knowledge": [
+        "O0_B2",
+        "O1_S2"
+      ]
+    },
+    {
+      "id": 137,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "You obviously need this. <Give Abernathy the medicine.>",
+      "support_knowledge": [
+        "O2_B3"
+      ]
+    },
+    {
+      "id": 144,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "This medicine belongs to the authorities.",
+      "support_knowledge": []
+    },
+    {
+      "id": 145,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Anthrocillin's worth a lot to the right buyer.",
+      "support_knowledge": []
+    },
+    {
+      "id": 148,
+      "speaker_guid": "dd32a64b-f650-402a-ac86-a1aa9f6dd972",
+      "speaker": "MartinAbernathy (Male)",
+      "utterance": "Are you out of your mind? You're just gonna hand that over to Reyes? You know she's just gonna give that medicine to someone younger and stronger and prettier.",
+      "support_knowledge": []
+    },
+    {
+      "id": 149,
+      "speaker_guid": "dd32a64b-f650-402a-ac86-a1aa9f6dd972",
+      "speaker": "MartinAbernathy (Male)",
+      "utterance": "You're right, it is. Can't blame a mercenary for trying to make a profit.",
+      "support_knowledge": []
+    }
+  ]
+}

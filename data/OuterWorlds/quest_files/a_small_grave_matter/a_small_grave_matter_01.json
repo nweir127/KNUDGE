@@ -1,0 +1,233 @@
+{
+  "id": "a_small_grave_matter_01",
+  "quest_name": "a_small_grave_matter",
+  "conversation": {
+    "filename": "00_cv_ludwig",
+    "start_node": 1,
+    "end_nodes": [],
+    "force_include": [
+      4,
+      180,
+      5
+    ],
+    "force_sequence": []
+  },
+  "in_objective": "O1",
+  "out_objective": "O5",
+  "participants": [
+    "ludwig_miller"
+  ],
+  "objectives": {
+    "O1": {
+      "summary": "Collect Ludwig's Gravesite Fees",
+      "description": {
+        "S1": "Ludwig is one of the four people Silas sent you to collect from.",
+        "S2": "He's stationed as a guard at the Landing Pad southeast of Edgewater."
+      },
+      "blurb": {
+        "B1": "Ludwig Miller can be found at Edgewater Landing Pad,",
+        "B2": "just outside Edgewater to the southeast.",
+        "B3": "When you talk to him, you'll learn he fears an impending war against machines.",
+        "B4": "Go along with it and offer to help.",
+        "B5": "When you deal with the robot he will tell you there's a weapon in the Cantina's lavatory.",
+        "B6": "After, mention Silas and he will pay up assuming Silas has heard the calling.",
+        "B7": "You can lie (5) to get some extra loot out of him.",
+        "B8": "Alternatively: You can kill him and collect his fees."
+      }
+    },
+    "O5": {
+      "summary": "Return to Silas",
+      "description": {
+        "S1": "You finished collecting gravesite fees from the people of Edgewater.",
+        "S2": "Return to Silas."
+      },
+      "blurb": {
+        "B1": "After gathering all the gravesite fees,",
+        "B2": "return to Silas to receive a reward of 300 bits.",
+        "B3": "With a Persuade 6 check, Silas will agree to upping the reward by 150 bits."
+      }
+    }
+  },
+  "dialog_edges": [
+    [
+      1,
+      3
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      3,
+      180
+    ],
+    [
+      3,
+      5
+    ],
+    [
+      3,
+      6
+    ],
+    [
+      4,
+      7
+    ],
+    [
+      7,
+      19
+    ],
+    [
+      19,
+      21
+    ],
+    [
+      21,
+      24
+    ],
+    [
+      24,
+      27
+    ],
+    [
+      27,
+      28
+    ],
+    [
+      28,
+      3
+    ],
+    [
+      180,
+      19
+    ],
+    [
+      5,
+      8
+    ],
+    [
+      8,
+      3
+    ]
+  ],
+  "dialog": [
+    {
+      "id": 1,
+      "speaker_guid": "2bc7a436-3eff-4d01-983e-cc1aa9630287",
+      "speaker": "LudwigMiller (Male)",
+      "utterance": "Thank the Law. I've been requisitioning backup for months. Guess the boss finally came to his senses.",
+      "support_knowledge": [
+        "ludwig_miller_03"
+      ]
+    },
+    {
+      "id": 3,
+      "speaker_guid": "2bc7a436-3eff-4d01-983e-cc1aa9630287",
+      "speaker": "LudwigMiller (Male)",
+      "utterance": "You ever swung a truncheon? Let me see your rifling stance. I wanna make sure you're up to snuff.",
+      "support_knowledge": [
+        "ludwig_miller_03"
+      ]
+    },
+    {
+      "id": 4,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "What are you babbling about?",
+      "support_knowledge": []
+    },
+    {
+      "id": 180,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Are you okay? You seem confused.",
+      "support_knowledge": [
+        "ludwig_miller_02"
+      ]
+    },
+    {
+      "id": 5,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Silas sent me. You owe him your gravesite fees.",
+      "support_knowledge": [
+        "O1_B6"
+      ]
+    },
+    {
+      "id": 6,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I'll let you be.",
+      "support_knowledge": []
+    },
+    {
+      "id": 7,
+      "speaker_guid": "2bc7a436-3eff-4d01-983e-cc1aa9630287",
+      "speaker": "LudwigMiller (Male)",
+      "utterance": "The war! The coming apocalypse. Man versus machine.",
+      "support_knowledge": [
+        "O1_B3",
+        "ludwig_miller_02"
+      ]
+    },
+    {
+      "id": 19,
+      "speaker_guid": "2bc7a436-3eff-4d01-983e-cc1aa9630287",
+      "speaker": "LudwigMiller (Male)",
+      "utterance": "I'm talking about mechanicals, soldier. Cold, heartless automatons made of iron and lies.",
+      "support_knowledge": [
+        "O1_B3",
+        "ludwig_miller_02"
+      ]
+    },
+    {
+      "id": 21,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Uh. Yeah. Gotta watch out for those mechanicals.",
+      "support_knowledge": [
+        "O1_B4"
+      ]
+    },
+    {
+      "id": 24,
+      "speaker_guid": "2bc7a436-3eff-4d01-983e-cc1aa9630287",
+      "speaker": "LudwigMiller (Male)",
+      "utterance": "That's right. That's what I been saying. We gotta square our shoulders and stand ever vigilant.",
+      "support_knowledge": [
+        "ludwig_miller_03",
+        "ludwig_miller_04"
+      ]
+    },
+    {
+      "id": 27,
+      "speaker_guid": "2bc7a436-3eff-4d01-983e-cc1aa9630287",
+      "speaker": "LudwigMiller (Male)",
+      "utterance": "Au. To. Mechanicals. Creatures forged in the fires of malevolence. I seen them over by the old power plant. Clattering about. Firing at the birds. Orchestrating their uprising. ",
+      "support_knowledge": [
+        "O1_B3",
+        "ludwig_miller_02"
+      ]
+    },
+    {
+      "id": 28,
+      "speaker_guid": "2bc7a436-3eff-4d01-983e-cc1aa9630287",
+      "speaker": "LudwigMiller (Male)",
+      "utterance": "When the swarms of mechanicals come clanging on over that hill, where will you be? Cowering beneath your cot? Or standing shoulder to shoulder with the Resistance?",
+      "support_knowledge": [
+        "ludwig_miller_03",
+        "ludwig_miller_04"
+      ]
+    },
+    {
+      "id": 8,
+      "speaker_guid": "2bc7a436-3eff-4d01-983e-cc1aa9630287",
+      "speaker": "LudwigMiller (Male)",
+      "utterance": "I told Silas I'd pay my dues if he agreed to join the Resistance. Guess this means he's finally heard the calling.",
+      "support_knowledge": [
+        "O1_B6"
+      ]
+    }
+  ]
+}

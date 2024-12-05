@@ -1,0 +1,73 @@
+ID	fact
+OBJECTIVE O0	
+O0_S1	195:76
+O0_S2	272:39
+O0_S3	312:130
+O0_B1	1674:118
+O0_B2	1793:54
+O0_B3	1848:139
+O0_B4	1988:57
+O0_B5	2046:35
+O0_B6	2082:17
+OBJECTIVE O1	
+O1_S1	465:90
+O1_S2	556:53
+O1_S3	609:56
+O1_S4	so feel free to return to him with the books as you find them -
+O1_S5	729:53
+O1_S6	782:142
+O1_B1	2100:57
+O1_B2	2158:58
+O1_B3	2217:38
+O1_B4	2256:50
+O1_B5	2307:115
+O1_B6	Head right from the entrance and up the stairs to pick up Guide to Mechanical Engineering: Volume 1.
+O1_B7	3176:139
+OBJECTIVE O2	
+O2_S1	1589:53
+O2_S2	1643:28
+O2_B1	3316:88
+O2_B2	3405:59
+O2_B3	3465:63
+botanical_labs	
+botanical_labs_01	The Botanical Labs are a location in Emerald Vale,
+botanical_labs_02	occupied by a group of deserters from the town of Edgewater who are led by Adelaide McDevitt.
+botanical_labs_03	This facility is owned and formally operated by Spacer's Choice,
+botanical_labs_04	however the company shut it down when its botanists were unable to grow decent crops due to the poor soil quality.
+botanical_labs_05	It currently serves as a refuge for Adelaide McDevitt and other deserters from Edgewater,
+botanical_labs_06	and the former has made the soil fertile again by (unbeknownst to most) grinding up human corpses to mix with her fertilizer.
+botanical_labs_07	The location is powered solely by the nearby geothermal power plant.
+deserters	
+deserters_01	The Deserters are a faction that has set up shop in the Emerald Vale botanical labs after they left Edgewater.
+deserters_02	The members of the group left Edgewater for various reasons but largely due to the work conditions imposed by Spacer's Choice.
+deserters_03	They are led by Adelaide McDevitt,
+deserters_04	a former flavor specialist for the Edgewater Saltuna Cannery.
+edgewater	
+edgewater_01	Edgewater is a Spacer's Choice company town located in the Emerald Vale on the planet Terra 2.
+edgewater_02	Its primary function is supporting the operation of the town's Saltuna Cannery which is supervised by Reed Tobson.
+edgewater_03	The town's power comes from the local Geothermal Power Plant and shares its power with the region's Botanical Labs.
+edgewater_04	When the Stranger arrives in Edgewater, the town is struggling.
+edgewater_05	It has been several seasons since the town has seen any visitors
+edgewater_06	and a significant proportion of its population has fallen ill with a plague that began in the last few years.
+edgewater_07	The plague is caused by poor diet and began when the cannery began experiencing a shortage of saltuna and had to stretch its supplies by adding other ingredients to its mixture including wood chips, mushrooms, sand, and canid bits.
+emerald_vale	
+emerald_vale_01	Emerald Vale is a region on the planet Terra 2.
+emerald_vale_community_center	
+emerald_vale_community_center_01	The Emerald Vale Community Center is a location in the Emerald Vale and is owned by Spacer's Choice.
+saltuna_cannery	
+saltuna_cannery_01	The Edgewater Saltuna Cannery is a factory in Edgewater,
+saltuna_cannery_02	owned and operated by Spacer's Choice.
+saltuna_cannery_03	The Saltuna Cannery is Edgewater's main source of employment.
+thomas_kemp	
+thomas_kemp_01	Thomas Kemp is one of Edgewater's deserters residing at Botanical Labs.
+thomas_kemp_02	Thomas used to work at Edgewater's Saltuna Cannery where he would closely follow around Parvati Holcomb.
+thomas_kemp_03	He pretended to be eager to learn from her,
+thomas_kemp_04	when in reality his interest in Parvati was mostly romantic.
+thomas_kemp_05	Whereas the other deserters chose to quit work in hopes of a better life,
+thomas_kemp_06	Thomas was fired due to a lack of skills.
+thomas_kemp_07	When he was barely scraping by alone in the wilderness,
+thomas_kemp_08	he was taken in by Adelaide McDevitt and her fellow deserters,
+thomas_kemp_09	whom he lied to and told that he was a proficient engineer.
+thomas_kemp_10	When the player meets Thomas in Botanical Labs he admits to not knowing anything about engineering.
+thomas_kemp_11	He tasks them with finding three parts of an engineering guide so that he may learn what he pretended to know.
+thomas_kemp_12	If his quest is completed he will send a message to the player's terminal in The Unreliable to thank them.

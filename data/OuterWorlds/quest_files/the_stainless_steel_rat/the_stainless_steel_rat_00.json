@@ -1,0 +1,132 @@
+{
+  "id": "the_stainless_steel_rat_00",
+  "quest_name": "the_stainless_steel_rat",
+  "conversation": {
+    "filename": "0402_cv_talmadge_kerr",
+    "start_node": 1,
+    "end_nodes": [],
+    "force_include": [],
+    "force_sequence": []
+  },
+  "in_objective": "O0",
+  "out_objective": "O1",
+  "participants": [
+    "talmadge_kerr"
+  ],
+  "dialog_edges": [
+    [
+      1,
+      4
+    ],
+    [
+      1,
+      5
+    ],
+    [
+      1,
+      6
+    ],
+    [
+      4,
+      18
+    ],
+    [
+      18,
+      20
+    ],
+    [
+      20,
+      19
+    ],
+    [
+      5,
+      9
+    ],
+    [
+      9,
+      20
+    ]
+  ],
+  "dialog": [
+    {
+      "id": 1,
+      "speaker_guid": "93a50e83-2bf7-4593-ac00-78a7992739f9",
+      "speaker": "Talmadge_Kerr (Male)",
+      "utterance": "I think I'm going to be sick.",
+      "support_knowledge": [
+        "O0_B2",
+        "talmadge_kerr_03",
+        "talmadge_kerr_05",
+        "talmadge_kerr_06"
+      ]
+    },
+    {
+      "id": 4,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Are you all right?",
+      "support_knowledge": [
+        "O0_B2",
+        "talmadge_kerr_03"
+      ]
+    },
+    {
+      "id": 5,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Pull yourself together and tell me what happened.",
+      "support_knowledge": [
+        "O0_B2",
+        "talmadge_kerr_03"
+      ]
+    },
+    {
+      "id": 6,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Stay away from me, then.",
+      "support_knowledge": []
+    },
+    {
+      "id": 18,
+      "speaker_guid": "93a50e83-2bf7-4593-ac00-78a7992739f9",
+      "speaker": "Talmadge_Kerr (Male)",
+      "utterance": "No! I just stepped in a dead man's blood. And I think one of the flies landed on my mouth. ",
+      "support_knowledge": [
+        "O0_S1",
+        "O0_B2",
+        "talmadge_kerr_03",
+        "talmadge_kerr_05",
+        "talmadge_kerr_06"
+      ]
+    },
+    {
+      "id": 20,
+      "speaker_guid": "93a50e83-2bf7-4593-ac00-78a7992739f9",
+      "speaker": "Talmadge_Kerr (Male)",
+      "utterance": "If you're going into the apartments, do not go into the lower one on the right - that's where the body is.",
+      "support_knowledge": [
+        "O0_B3"
+      ]
+    },
+    {
+      "id": 19,
+      "speaker_guid": "93a50e83-2bf7-4593-ac00-78a7992739f9",
+      "speaker": "Talmadge_Kerr (Male)",
+      "utterance": "Now, if you'll excuse me, I need to go contemplate a hot shower.",
+      "support_knowledge": [
+        "talmadge_kerr_06"
+      ]
+    },
+    {
+      "id": 9,
+      "speaker_guid": "93a50e83-2bf7-4593-ac00-78a7992739f9",
+      "speaker": "Talmadge_Kerr (Male)",
+      "utterance": "I clean the apartments while everyone's at work. I've seen all sorts of messes, but this-",
+      "support_knowledge": [
+        "talmadge_kerr_02",
+        "talmadge_kerr_03"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,262 @@
+{
+  "id": "at_central_00",
+  "quest_name": "at_central",
+  "conversation": {
+    "filename": "0202_cv_maverick_johnston",
+    "start_node": 6,
+    "end_nodes": [],
+    "force_include": [],
+    "force_sequence": []
+  },
+  "in_objective": "O0",
+  "out_objective": "O1",
+  "participants": [
+    "maverick_johnston"
+  ],
+  "objectives": {
+    "O0": {
+      "description": {
+        "S1": "Maverick Johnston, a Byzantium film producer,",
+        "S2": "thinks you've got the makings of a star!",
+        "S3": "He invited you to audition for the lead role in his film."
+      },
+      "blurb": {
+        "B1": "Accept Maverick Johnston's offer when he speaks to you on the street of Prosperity Plaza in Byzantium."
+      }
+    },
+    "O1": {
+      "summary": "Attend the Audition",
+      "description": {
+        "S1": "Maverick said the audition would be held on the top floor of the Odeon Pictures building."
+      },
+      "blurb": {
+        "B1": "Head to Odeon Pictures near the Bureau of Exploration in Byzantium,",
+        "B2": "and take the elevator up.",
+        "B3": "Use the intercom on the wall and speak to Maverick Johnston.",
+        "B4": "He'll tell you that the other actors have real weapons,",
+        "B5": "and you'll gain 9000 XP and the quest will update."
+      }
+    }
+  },
+  "dialog": [
+    {
+      "id": 6,
+      "speaker_guid": "6ee802ad-896c-4d65-95ff-d99091c9e2ca",
+      "speaker": "MaverickJohnston (Male)",
+      "utterance": "Kid, you got presence. Natural magnetism. Know what I mean?",
+      "support_knowledge": [
+        "O0_S1",
+        "O0_S2"
+      ]
+    },
+    {
+      "id": 25,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I like where this is going.",
+      "support_knowledge": []
+    },
+    {
+      "id": 26,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Whatever you're selling, I'm not buying. ",
+      "support_knowledge": []
+    },
+    {
+      "id": 30,
+      "speaker_guid": "6ee802ad-896c-4d65-95ff-d99091c9e2ca",
+      "speaker": "MaverickJohnston (Male)",
+      "utterance": "Tell you what, you're gonna like it a whole lot more once we start talking bits.",
+      "support_knowledge": []
+    },
+    {
+      "id": 29,
+      "speaker_guid": "6ee802ad-896c-4d65-95ff-d99091c9e2ca",
+      "speaker": "MaverickJohnston (Male)",
+      "utterance": "Listen, you got an agent? Some kind of representation?",
+      "support_knowledge": []
+    },
+    {
+      "id": 33,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "What? No.",
+      "support_knowledge": []
+    },
+    {
+      "id": 32,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I consider myself freelance.",
+      "support_knowledge": []
+    },
+    {
+      "id": 38,
+      "speaker_guid": "6ee802ad-896c-4d65-95ff-d99091c9e2ca",
+      "speaker": "MaverickJohnston (Male)",
+      "utterance": "Hey, don't worry about it. I'm gonna take good care of you.",
+      "support_knowledge": []
+    },
+    {
+      "id": 40,
+      "speaker_guid": "6ee802ad-896c-4d65-95ff-d99091c9e2ca",
+      "speaker": "MaverickJohnston (Male)",
+      "utterance": "Listen, you got a real special quality. Raw energy. I see you in pictures, kid.",
+      "support_knowledge": [
+        "O0_S2"
+      ]
+    },
+    {
+      "id": 43,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Just tell me what you're offering.",
+      "support_knowledge": []
+    },
+    {
+      "id": 44,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Not interested.",
+      "support_knowledge": []
+    },
+    {
+      "id": 24,
+      "speaker_guid": "6ee802ad-896c-4d65-95ff-d99091c9e2ca",
+      "speaker": "MaverickJohnston (Male)",
+      "utterance": "I'm making a feature - \"Space Pirates of Moros Prime.\" It's gonna be a hit, but we still need a star, and I think you got the chops.",
+      "support_knowledge": [
+        "O0_S2",
+        "O0_S3",
+        "maverick_johnston_01"
+      ]
+    },
+    {
+      "id": 16,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I'm in.",
+      "support_knowledge": [
+        "O0_B1"
+      ]
+    },
+    {
+      "id": 17,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Not now.",
+      "support_knowledge": []
+    },
+    {
+      "id": 18,
+      "speaker_guid": "6ee802ad-896c-4d65-95ff-d99091c9e2ca",
+      "speaker": "MaverickJohnston (Male)",
+      "utterance": "Terrific! We're holding auditions at the studio. Head to Odeon Pictures and take the elevator. You're going all the way to the top, baby.",
+      "support_knowledge": [
+        "O1_S1",
+        "maverick_johnston_01",
+        "odeon_pictures_01"
+      ]
+    },
+    {
+      "id": 39,
+      "speaker_guid": "6ee802ad-896c-4d65-95ff-d99091c9e2ca",
+      "speaker": "MaverickJohnston (Male)",
+      "utterance": "Fresh, natural talent! I know it when I see it.",
+      "support_knowledge": []
+    },
+    {
+      "id": 31,
+      "speaker_guid": "6ee802ad-896c-4d65-95ff-d99091c9e2ca",
+      "speaker": "MaverickJohnston (Male)",
+      "utterance": "There's those street smarts! Just the right amount of rough-around-the-edges.",
+      "support_knowledge": []
+    },
+    {
+      "id": 37,
+      "speaker_guid": "6ee802ad-896c-4d65-95ff-d99091c9e2ca",
+      "speaker": "MaverickJohnston (Male)",
+      "utterance": "Next time, we'll have you say that over the rim of a Tripistout. Product placement, baby!",
+      "support_knowledge": []
+    }
+  ],
+  "dialog_edges": [
+    [
+      6,
+      25
+    ],
+    [
+      6,
+      26
+    ],
+    [
+      25,
+      30
+    ],
+    [
+      30,
+      29
+    ],
+    [
+      29,
+      33
+    ],
+    [
+      29,
+      32
+    ],
+    [
+      33,
+      38
+    ],
+    [
+      38,
+      40
+    ],
+    [
+      40,
+      43
+    ],
+    [
+      40,
+      44
+    ],
+    [
+      43,
+      24
+    ],
+    [
+      24,
+      16
+    ],
+    [
+      24,
+      17
+    ],
+    [
+      16,
+      18
+    ],
+    [
+      32,
+      39
+    ],
+    [
+      39,
+      40
+    ],
+    [
+      26,
+      31
+    ],
+    [
+      31,
+      37
+    ],
+    [
+      37,
+      29
+    ]
+  ]
+}

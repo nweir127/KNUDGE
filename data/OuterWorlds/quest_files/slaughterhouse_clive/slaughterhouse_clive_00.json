@@ -1,0 +1,428 @@
+{
+  "id": "slaughterhouse_clive_00",
+  "quest_name": "slaughterhouse_clive",
+  "conversation": {
+    "filename": "0407_cv_catherine_malin",
+    "start_node": 1,
+    "end_nodes": [],
+    "force_include": [
+      182,
+      17,
+      51,
+      60,
+      61,
+      62
+    ]
+  },
+  "in_objective": "O0",
+  "out_objective": "O1",
+  "participants": [
+    "catherine_malin"
+  ],
+  "dialog_edges": [
+    [
+      1,
+      91
+    ],
+    [
+      91,
+      86
+    ],
+    [
+      86,
+      17
+    ],
+    [
+      86,
+      8
+    ],
+    [
+      17,
+      76
+    ],
+    [
+      76,
+      50
+    ],
+    [
+      50,
+      156
+    ],
+    [
+      156,
+      51
+    ],
+    [
+      51,
+      135
+    ],
+    [
+      135,
+      153
+    ],
+    [
+      153,
+      81
+    ],
+    [
+      81,
+      53
+    ],
+    [
+      53,
+      60
+    ],
+    [
+      53,
+      61
+    ],
+    [
+      53,
+      62
+    ],
+    [
+      60,
+      73
+    ],
+    [
+      73,
+      55
+    ],
+    [
+      55,
+      62
+    ],
+    [
+      55,
+      66
+    ],
+    [
+      55,
+      67
+    ],
+    [
+      66,
+      56
+    ],
+    [
+      56,
+      204
+    ],
+    [
+      56,
+      205
+    ],
+    [
+      204,
+      203
+    ],
+    [
+      203,
+      72
+    ],
+    [
+      72,
+      262
+    ],
+    [
+      205,
+      68
+    ],
+    [
+      68,
+      204
+    ],
+    [
+      68,
+      206
+    ],
+    [
+      206,
+      56
+    ],
+    [
+      67,
+      68
+    ],
+    [
+      61,
+      63
+    ],
+    [
+      63,
+      55
+    ],
+    [
+      62,
+      64
+    ],
+    [
+      64,
+      65
+    ],
+    [
+      65,
+      55
+    ]
+  ],
+  "dialog": [
+    {
+      "id": 1,
+      "speaker_guid": "dca98d32-b879-4ecf-8af5-f2424c4ce41f",
+      "speaker": "CatherineMalin (Female)",
+      "utterance": "Uh-huh. You blind, fella? Or can you not see I'm busy?",
+      "support_knowledge": [
+        "catherine_malin_03"
+      ]
+    },
+    {
+      "id": 91,
+      "speaker_guid": "dca98d32-b879-4ecf-8af5-f2424c4ce41f",
+      "speaker": "CatherineMalin (Female)",
+      "utterance": "No, maybe I'm the one who's blind. On second glance, you got a certain air about you - one that promises blood and bits. So which is it to be?",
+      "support_knowledge": [
+        "O0_B1",
+        "catherine_malin_03"
+      ]
+    },
+    {
+      "id": 86,
+      "speaker_guid": "dca98d32-b879-4ecf-8af5-f2424c4ce41f",
+      "speaker": "CatherineMalin (Female)",
+      "utterance": "Well? I'm half-listening.",
+      "support_knowledge": []
+    },
+    {
+      "id": 17,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Need a hand for hire?",
+      "support_knowledge": []
+    },
+    {
+      "id": 8,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "That's enough for now.",
+      "support_knowledge": []
+    },
+    {
+      "id": 76,
+      "speaker_guid": "dca98d32-b879-4ecf-8af5-f2424c4ce41f",
+      "speaker": "CatherineMalin (Female)",
+      "utterance": "If it's one that don't mind getting dirty, then I sure do.",
+      "support_knowledge": [
+        "catherine_malin_03"
+      ]
+    },
+    {
+      "id": 50,
+      "speaker_guid": "dca98d32-b879-4ecf-8af5-f2424c4ce41f",
+      "speaker": "CatherineMalin (Female)",
+      "utterance": "There's a boarst factory on up the way, run by a man who calls himself the King. Clive Lumbergh - insufferable prick.",
+      "support_knowledge": [
+        "O0_B2",
+        "O0_B3",
+        "clive_lumbergh_01"
+      ]
+    },
+    {
+      "id": 156,
+      "speaker_guid": "dca98d32-b879-4ecf-8af5-f2424c4ce41f",
+      "speaker": "CatherineMalin (Female)",
+      "utterance": "That aside, it's a business ripe for the plucking. I want it. Clear as that.",
+      "support_knowledge": [
+        "O0_B5"
+      ]
+    },
+    {
+      "id": 51,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I get the feeling this is going to involve murder and mayhem.",
+      "support_knowledge": [
+        "catherine_malin_03"
+      ]
+    },
+    {
+      "id": 135,
+      "speaker_guid": "dca98d32-b879-4ecf-8af5-f2424c4ce41f",
+      "speaker": "CatherineMalin (Female)",
+      "utterance": "Stars, I hope so.",
+      "support_knowledge": []
+    },
+    {
+      "id": 153,
+      "speaker_guid": "dca98d32-b879-4ecf-8af5-f2424c4ce41f",
+      "speaker": "CatherineMalin (Female)",
+      "utterance": "Clive Lumbergh - the self-proclaimed Boarst King of Monarch - is swimming in profit. And drowning in his ego.",
+      "support_knowledge": [
+        "O0_B2",
+        "O0_B3"
+      ]
+    },
+    {
+      "id": 81,
+      "speaker_guid": "dca98d32-b879-4ecf-8af5-f2424c4ce41f",
+      "speaker": "CatherineMalin (Female)",
+      "utterance": "He's making the only meal to be had this side of Monarch, and I'm tired of ponying up for my dinner. I want that boarst factory - owner dead or alive.",
+      "support_knowledge": [
+        "O0_B4",
+        "O0_B5"
+      ]
+    },
+    {
+      "id": 53,
+      "speaker_guid": "dca98d32-b879-4ecf-8af5-f2424c4ce41f",
+      "speaker": "CatherineMalin (Female)",
+      "utterance": "And you're the soon-to-be-handsomely-paid son of a bitch who's going to get it for me.",
+      "support_knowledge": [
+        "O0_B6"
+      ]
+    },
+    {
+      "id": 60,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "What specifically do you want me to do?",
+      "support_knowledge": []
+    },
+    {
+      "id": 61,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Easy as eating a cystypig pie.",
+      "support_knowledge": [
+        "cystypig_01"
+      ]
+    },
+    {
+      "id": 62,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Any tips on how I might get in?",
+      "support_knowledge": []
+    },
+    {
+      "id": 73,
+      "speaker_guid": "dca98d32-b879-4ecf-8af5-f2424c4ce41f",
+      "speaker": "CatherineMalin (Female)",
+      "utterance": "Kill him, run him out. I don't rightly care for the details. So long as Clive knows resistance to me is costly - and futile.",
+      "support_knowledge": [
+        "O0_B6"
+      ]
+    },
+    {
+      "id": 55,
+      "speaker_guid": "dca98d32-b879-4ecf-8af5-f2424c4ce41f",
+      "speaker": "CatherineMalin (Female)",
+      "utterance": "Hit him where it hurts. In his gut or his production lines ought to make do.",
+      "support_knowledge": []
+    },
+    {
+      "id": 66,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Say I wanted to sabotage the factory...",
+      "support_knowledge": [
+        "O1_S2"
+      ]
+    },
+    {
+      "id": 67,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Say I just kill Clive...",
+      "support_knowledge": [
+        "O1_S1"
+      ]
+    },
+    {
+      "id": 56,
+      "speaker_guid": "dca98d32-b879-4ecf-8af5-f2424c4ce41f",
+      "speaker": "CatherineMalin (Female)",
+      "utterance": "Then I'd say you might care to poison the cystypigs, doctor a few financial records, or throw a wrench in the canning machinery.",
+      "support_knowledge": [
+        "O1_S3",
+        "O1_S4",
+        "O1_S5"
+      ]
+    },
+    {
+      "id": 204,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Sounds good.",
+      "support_knowledge": []
+    },
+    {
+      "id": 205,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "And if I wanted to kill him?",
+      "support_knowledge": []
+    },
+    {
+      "id": 203,
+      "speaker_guid": "dca98d32-b879-4ecf-8af5-f2424c4ce41f",
+      "speaker": "CatherineMalin (Female)",
+      "utterance": "It'll be more than good when you're finished. Maybe not for Clive, but for me and you, I'm sure.",
+      "support_knowledge": []
+    },
+    {
+      "id": 72,
+      "speaker_guid": "dca98d32-b879-4ecf-8af5-f2424c4ce41f",
+      "speaker": "CatherineMalin (Female)",
+      "utterance": "Oh, and if you'd don't fancy going in guns blazing or crawling through a sewer pipe, see Duncan in the Dry Goods & Sundry building. He ought to have an employee ID in that stash of illicit goods he keeps for select client\u00e8le.",
+      "support_knowledge": [
+        "O0_B7"
+      ]
+    },
+    {
+      "id": 262,
+      "speaker_guid": "dca98d32-b879-4ecf-8af5-f2424c4ce41f",
+      "speaker": "CatherineMalin (Female)",
+      "utterance": "May luck be with you. Since I won't be. ",
+      "support_knowledge": []
+    },
+    {
+      "id": 68,
+      "speaker_guid": "dca98d32-b879-4ecf-8af5-f2424c4ce41f",
+      "speaker": "CatherineMalin (Female)",
+      "utterance": "Sometimes the simplest solution is the sweetest. I don't give a whit about the method or the means. Just the end.",
+      "support_knowledge": []
+    },
+    {
+      "id": 206,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "What if I decided to sabotage the factory instead?",
+      "support_knowledge": [
+        "O1_S2"
+      ]
+    },
+    {
+      "id": 63,
+      "speaker_guid": "dca98d32-b879-4ecf-8af5-f2424c4ce41f",
+      "speaker": "CatherineMalin (Female)",
+      "utterance": "Guess you've got it figured out then. Good.",
+      "support_knowledge": []
+    },
+    {
+      "id": 64,
+      "speaker_guid": "dca98d32-b879-4ecf-8af5-f2424c4ce41f",
+      "speaker": "CatherineMalin (Female)",
+      "utterance": "If you got brass knockers, you could shoot your way through the front gate. If you don't fancy getting shot to shit, you can try asking Duncan for a disguise.",
+      "support_knowledge": [
+        "O0_B7"
+      ]
+    },
+    {
+      "id": 65,
+      "speaker_guid": "dca98d32-b879-4ecf-8af5-f2424c4ce41f",
+      "speaker": "CatherineMalin (Female)",
+      "utterance": "Might be another way in assuming you're courageous enough to trek the sewers. Void if I know.",
+      "support_knowledge": []
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+[
+  {
+    "id": "makes_space_suits_wont_travel_00",
+    "quest_name": "makes_space_suits_wont_travel",
+    "conversation": {
+      "filename": "0202_cv_celeste_jolicoeur",
+      "start_node": 1,
+      "end_nodes": [
+        6
+      ],
+      "force_include": [
+        86,
+        8
+      ],
+      "force_sequence": []
+    },
+    "in_objective": "O0",
+    "out_objective": "O1",
+    "participants": [
+      "celeste_jolicoeur"
+    ]
+  },
+  {
+    "id": "makes_space_suits_wont_travel_01",
+    "quest_name": "makes_space_suits_wont_travel",
+    "conversation": {
+      "filename": "0202_cv_celeste_jolicoeur",
+      "start_node": 54,
+      "end_nodes": [
+        6
+      ],
+      "force_include": [],
+      "force_sequence": []
+    },
+    "in_objective": "O1",
+    "out_objective": [
+      "O2",
+      "O3",
+      "O4"
+    ],
+    "participants": [
+      "celeste_jolicoeur"
+    ]
+  },
+  {
+    "id": "makes_space_suits_wont_travel_02",
+    "quest_name": "makes_space_suits_wont_travel",
+    "conversation": {
+      "filename": "0202_cv_celeste_jolicoeur",
+      "start_node": 68,
+      "end_nodes": [
+        6
+      ],
+      "force_include": [],
+      "force_sequence": []
+    },
+    "in_objective": "O5",
+    "out_objective": "O6",
+    "participants": [
+      "celeste_jolicoeur"
+    ]
+  },
+  {
+    "id": "makes_space_suits_wont_travel_03",
+    "quest_name": "makes_space_suits_wont_travel",
+    "conversation": {
+      "filename": "0202_cv_hps_clerk_01",
+      "start_node": 1,
+      "end_nodes": [
+        10
+      ],
+      "force_include": [
+        72
+      ],
+      "force_sequence": []
+    },
+    "in_objective": "O6",
+    "out_objective": "O6",
+    "participants": [
+      "olive_yates"
+    ]
+  },
+  {
+    "id": "makes_space_suits_wont_travel_04",
+    "quest_name": "makes_space_suits_wont_travel",
+    "conversation": {
+      "filename": "0202_cv_hps_clerk_02",
+      "start_node": 2,
+      "end_nodes": [
+        5
+      ],
+      "force_include": [
+        4
+      ],
+      "force_sequence": []
+    },
+    "in_objective": "O6",
+    "out_objective": "O6",
+    "participants": [
+      "wanda_chen"
+    ]
+  },
+  {
+    "id": "makes_space_suits_wont_travel_05",
+    "quest_name": "makes_space_suits_wont_travel",
+    "conversation": {
+      "filename": "0202_cv_hps_clerk_02",
+      "start_node": 14,
+      "end_nodes": [
+        5
+      ],
+      "force_include": [
+        19
+      ],
+      "force_sequence": []
+    },
+    "in_objective": "O6",
+    "out_objective": "O6",
+    "participants": [
+      "wanda_chen"
+    ]
+  },
+  {
+    "id": "makes_space_suits_wont_travel_06",
+    "quest_name": "makes_space_suits_wont_travel",
+    "conversation": {
+      "filename": "0202_cv_hps_clerk_01",
+      "start_node": 2,
+      "end_nodes": [
+        10,
+        3
+      ],
+      "force_include": [
+        74
+      ],
+      "force_sequence": []
+    },
+    "in_objective": "O6",
+    "out_objective": "O7",
+    "participants": [
+      "olive_yates"
+    ]
+  },
+  {
+    "id": "makes_space_suits_wont_travel_07",
+    "quest_name": "makes_space_suits_wont_travel",
+    "conversation": {
+      "filename": "0202_cv_task_force_commander",
+      "start_node": 1,
+      "end_nodes": [],
+      "force_include": [],
+      "force_sequence": []
+    },
+    "in_objective": "O7",
+    "out_objective": "O8",
+    "participants": [
+      "byzantium_task_force_commander"
+    ]
+  }
+]

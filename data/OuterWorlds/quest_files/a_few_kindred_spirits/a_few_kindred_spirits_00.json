@@ -1,0 +1,574 @@
+{
+  "id": "a_few_kindred_spirits_00",
+  "quest_name": "a_few_kindred_spirits",
+  "conversation": {
+    "filename": "00_cv_grace",
+    "start_node": 1,
+    "end_nodes": [],
+    "force_include": [
+      31,
+      126,
+      97,
+      118,
+      119
+    ],
+    "force_sequence": []
+  },
+  "in_objective": "O0",
+  "out_objective": "O1",
+  "participants": [
+    "grace_romero"
+  ],
+  "objectives": {
+    "O0": {
+      "description": {
+        "S1": "Grace Romero, one of the deserters camped at the Botanical Lab,",
+        "S2": "has asked you to look for a missing deserter named Zoe."
+      },
+      "blurb": {
+        "B1": "The quest is started by speaking to Grace Romero at the entrance to the botanical labs.",
+        "B2": "She is concerned about members of her camp \"wandering out\" of it.",
+        "B3": "In particular, a deserter named Zoe Chandler went missing a couple of nights ago and Grace is worried that marauders may have gotten her.",
+        "B4": "She does not know where Zoe may have gone but suggests that the Stranger check her room or speak to Stefan Garcia,",
+        "B5": "with whom Zoe used to be close."
+      }
+    },
+    "O1": {
+      "summary": "Search Zoe's Home for Clues.",
+      "description": {
+        "S1": "Grace doesn't know where Zoe might have gone.",
+        "S2": "She suggested checking the shack where Zoe beds down for any hints at where she might have gone."
+      },
+      "blurb": {
+        "B1": "Speaking with Stefan Garcia will not give any clues to Zoe's whereabouts.",
+        "B2": "However, Stefan will reveal that he and Zoe used to watch the serial, The Masked Marketeer, together",
+        "B3": "and that he was planning to surprise her with a genuine copy of the latest episode before she went missing.",
+        "B4": "He will also allude to her habit of writing things down on pieces of paper (\"journaling\"),",
+        "B5": "which he considers a bit odd.",
+        "B6": "Zoe's house is located in the southeast of the botanical labs.",
+        "B7": "Pages from her journal can be found inside and Page 22 will reveal that Zoe left the camp to join the marauders and become a bandit queen."
+      }
+    }
+  },
+  "dialog": [
+    {
+      "id": 1,
+      "speaker_guid": "072471f0-f3f8-4ec1-81d4-b83363077507",
+      "speaker": "GraceRomero (Female)",
+      "utterance": "I don't know you.",
+      "support_knowledge": []
+    },
+    {
+      "id": 30,
+      "speaker_guid": "072471f0-f3f8-4ec1-81d4-b83363077507",
+      "speaker": "GraceRomero (Female)",
+      "utterance": "Whatever you're looking for, it ain't here. Move along.",
+      "support_knowledge": [
+        "grace_romero_01"
+      ]
+    },
+    {
+      "id": 31,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "What's your problem?",
+      "support_knowledge": []
+    },
+    {
+      "id": 32,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I'm leaving.",
+      "support_knowledge": []
+    },
+    {
+      "id": 33,
+      "speaker_guid": "072471f0-f3f8-4ec1-81d4-b83363077507",
+      "speaker": "GraceRomero (Female)",
+      "utterance": "Armed strangers wandering into my camp, for one. Some of my camp wandering out, for another.",
+      "support_knowledge": [
+        "O0_B2",
+        "grace_romero_03"
+      ]
+    },
+    {
+      "id": 203,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "You obviously run a tight ship.",
+      "support_knowledge": []
+    },
+    {
+      "id": 204,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Who's been wandering out of your camp?",
+      "support_knowledge": [
+        "O0_B2"
+      ]
+    },
+    {
+      "id": 206,
+      "speaker_guid": "072471f0-f3f8-4ec1-81d4-b83363077507",
+      "speaker": "GraceRomero (Female)",
+      "utterance": "You wanna try standing outside in the heat, keeping your sights open for the next marauder raid?",
+      "support_knowledge": [
+        "marauders_01",
+        "marauders_02"
+      ]
+    },
+    {
+      "id": 96,
+      "speaker_guid": "072471f0-f3f8-4ec1-81d4-b83363077507",
+      "speaker": "GraceRomero (Female)",
+      "utterance": "No, I'm sorry. That was unworthy of me. Lady named Zoe went missing some nights ago. Just up and vanished without a trace. Now I'm pacing around wondering if marauders got to her.",
+      "support_knowledge": [
+        "O0_B3",
+        "grace_romero_04",
+        "grace_romero_05",
+        "zoe_chandler_19",
+        "zoe_chandler_20"
+      ]
+    },
+    {
+      "id": 126,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I'll keep an eye out.",
+      "support_knowledge": [
+        "O0_S1",
+        "O0_S2"
+      ]
+    },
+    {
+      "id": 191,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "You could always go looking for her.",
+      "support_knowledge": [
+        "O0_B3",
+        "grace_romero_01",
+        "grace_romero_02"
+      ]
+    },
+    {
+      "id": 188,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Don't tell me you're scared of a few marauders.",
+      "support_knowledge": [
+        "marauders_01",
+        "marauders_02"
+      ]
+    },
+    {
+      "id": 189,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Good luck with that.",
+      "support_knowledge": []
+    },
+    {
+      "id": 99,
+      "speaker_guid": "072471f0-f3f8-4ec1-81d4-b83363077507",
+      "speaker": "GraceRomero (Female)",
+      "utterance": "It's not like Zoe to go wandering. Figured she might be out scavenging, but that ain't exactly her talent.",
+      "support_knowledge": [
+        "O0_B4",
+        "grace_romero_06"
+      ]
+    },
+    {
+      "id": 127,
+      "speaker_guid": "072471f0-f3f8-4ec1-81d4-b83363077507",
+      "speaker": "GraceRomero (Female)",
+      "utterance": "Can't imagine where she's gone. Vale's a wide place. She could be anywhere.",
+      "support_knowledge": [
+        "O0_B4",
+        "O1_S1"
+      ]
+    },
+    {
+      "id": 194,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Unless marauders got to her. Then parts of her could be in a lot of places.",
+      "support_knowledge": [
+        "marauders_01",
+        "marauders_02"
+      ]
+    },
+    {
+      "id": 100,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Don't worry about it. I'll find her.",
+      "support_knowledge": []
+    },
+    {
+      "id": 195,
+      "speaker_guid": "072471f0-f3f8-4ec1-81d4-b83363077507",
+      "speaker": "GraceRomero (Female)",
+      "utterance": "Could do without the gallows humor.",
+      "support_knowledge": []
+    },
+    {
+      "id": 2,
+      "speaker_guid": "072471f0-f3f8-4ec1-81d4-b83363077507",
+      "speaker": "GraceRomero (Female)",
+      "utterance": "What is it?",
+      "support_knowledge": []
+    },
+    {
+      "id": 5,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I'll leave you be.",
+      "support_knowledge": []
+    },
+    {
+      "id": 196,
+      "speaker_guid": "072471f0-f3f8-4ec1-81d4-b83363077507",
+      "speaker": "GraceRomero (Female)",
+      "utterance": "Appreciate it. Honest.",
+      "support_knowledge": []
+    },
+    {
+      "id": 186,
+      "speaker_guid": "072471f0-f3f8-4ec1-81d4-b83363077507",
+      "speaker": "GraceRomero (Female)",
+      "utterance": "I go looking for Zoe, I leave the camp undefended, seeing as I'm the only one of us who knows her way 'round a gun. Hence my dilemma.",
+      "support_knowledge": [
+        "grace_romero_01",
+        "grace_romero_02",
+        "zoe_chandler_21",
+        "zoe_chandler_22"
+      ]
+    },
+    {
+      "id": 97,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Any idea where she might be hiding?",
+      "support_knowledge": []
+    },
+    {
+      "id": 118,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Maybe the marauders took her away.",
+      "support_knowledge": []
+    },
+    {
+      "id": 119,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "How well do you know her?",
+      "support_knowledge": [
+        "grace_romero_06"
+      ]
+    },
+    {
+      "id": 98,
+      "speaker_guid": "072471f0-f3f8-4ec1-81d4-b83363077507",
+      "speaker": "GraceRomero (Female)",
+      "utterance": "Vex me. If she told anybody, they ain't telling me. I'd check her room, but I got yelled at for snooping once already.",
+      "support_knowledge": [
+        "O1_S1",
+        "grace_romero_08"
+      ]
+    },
+    {
+      "id": 235,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "You snooped around in her room?",
+      "support_knowledge": [
+        "grace_romero_08"
+      ]
+    },
+    {
+      "id": 236,
+      "speaker_guid": "072471f0-f3f8-4ec1-81d4-b83363077507",
+      "speaker": "GraceRomero (Female)",
+      "utterance": "Little ways ago. She was always obsessing over her serial dramas. Wanted to see what the fuss was about.",
+      "support_knowledge": [
+        "grace_romero_08"
+      ]
+    },
+    {
+      "id": 117,
+      "speaker_guid": "072471f0-f3f8-4ec1-81d4-b83363077507",
+      "speaker": "GraceRomero (Female)",
+      "utterance": "Could be. Dangers aplenty out there. No telling why marauders would steal somebody like Zoe. Got no useful skills far as I can tell.",
+      "support_knowledge": [
+        "grace_romero_06"
+      ]
+    },
+    {
+      "id": 237,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Any chance you could point me somewhere specific, and not just \"out there\"?",
+      "support_knowledge": []
+    },
+    {
+      "id": 193,
+      "speaker_guid": "072471f0-f3f8-4ec1-81d4-b83363077507",
+      "speaker": "GraceRomero (Female)",
+      "utterance": "Marauder gang just moved into the districts a little ways east. Their numbers are growing. Gotta come from somewhere.",
+      "support_knowledge": [
+        "marauders_01",
+        "marauders_02"
+      ]
+    },
+    {
+      "id": 120,
+      "speaker_guid": "072471f0-f3f8-4ec1-81d4-b83363077507",
+      "speaker": "GraceRomero (Female)",
+      "utterance": "Well enough to know we never got on. Zoe and Stefan were close. If anybody knows the workings of her mind, he does.",
+      "support_knowledge": [
+        "O0_B4",
+        "O0_B5",
+        "grace_romero_06"
+      ]
+    },
+    {
+      "id": 238,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "You seem so personable. Can't imagine how you didn't get on with her.",
+      "support_knowledge": []
+    },
+    {
+      "id": 239,
+      "speaker_guid": "072471f0-f3f8-4ec1-81d4-b83363077507",
+      "speaker": "GraceRomero (Female)",
+      "utterance": "She was lazy and thoughtless. But she's still one of our own.",
+      "support_knowledge": [
+        "grace_romero_06",
+        "grace_romero_07"
+      ]
+    },
+    {
+      "id": 190,
+      "speaker_guid": "072471f0-f3f8-4ec1-81d4-b83363077507",
+      "speaker": "GraceRomero (Female)",
+      "utterance": "I've crossed off my share of marauders. This ain't about them. ",
+      "support_knowledge": []
+    },
+    {
+      "id": 205,
+      "speaker_guid": "072471f0-f3f8-4ec1-81d4-b83363077507",
+      "speaker": "GraceRomero (Female)",
+      "utterance": "Got anything in you besides questions?",
+      "support_knowledge": []
+    }
+  ],
+  "dialog_edges": [
+    [
+      1,
+      30
+    ],
+    [
+      30,
+      31
+    ],
+    [
+      30,
+      32
+    ],
+    [
+      31,
+      33
+    ],
+    [
+      33,
+      203
+    ],
+    [
+      33,
+      204
+    ],
+    [
+      203,
+      206
+    ],
+    [
+      206,
+      96
+    ],
+    [
+      96,
+      126
+    ],
+    [
+      96,
+      191
+    ],
+    [
+      96,
+      188
+    ],
+    [
+      96,
+      189
+    ],
+    [
+      126,
+      99
+    ],
+    [
+      99,
+      127
+    ],
+    [
+      127,
+      194
+    ],
+    [
+      127,
+      100
+    ],
+    [
+      194,
+      195
+    ],
+    [
+      195,
+      2
+    ],
+    [
+      2,
+      5
+    ],
+    [
+      100,
+      196
+    ],
+    [
+      196,
+      2
+    ],
+    [
+      191,
+      186
+    ],
+    [
+      186,
+      126
+    ],
+    [
+      186,
+      97
+    ],
+    [
+      186,
+      118
+    ],
+    [
+      186,
+      119
+    ],
+    [
+      97,
+      98
+    ],
+    [
+      98,
+      235
+    ],
+    [
+      98,
+      126
+    ],
+    [
+      98,
+      118
+    ],
+    [
+      98,
+      119
+    ],
+    [
+      235,
+      236
+    ],
+    [
+      236,
+      186
+    ],
+    [
+      118,
+      117
+    ],
+    [
+      117,
+      237
+    ],
+    [
+      117,
+      126
+    ],
+    [
+      117,
+      97
+    ],
+    [
+      117,
+      119
+    ],
+    [
+      237,
+      193
+    ],
+    [
+      193,
+      186
+    ],
+    [
+      119,
+      120
+    ],
+    [
+      120,
+      238
+    ],
+    [
+      120,
+      126
+    ],
+    [
+      120,
+      97
+    ],
+    [
+      120,
+      118
+    ],
+    [
+      238,
+      239
+    ],
+    [
+      239,
+      186
+    ],
+    [
+      188,
+      190
+    ],
+    [
+      190,
+      186
+    ],
+    [
+      204,
+      205
+    ],
+    [
+      205,
+      96
+    ]
+  ]
+}

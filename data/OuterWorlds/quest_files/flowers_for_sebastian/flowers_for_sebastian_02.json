@@ -1,0 +1,344 @@
+{
+  "id": "flowers_for_sebastian_02",
+  "quest_name": "flowers_for_sebastian",
+  "conversation": {
+    "filename": "0402_cv_celia",
+    "start_node": 113,
+    "end_nodes": [
+      115
+    ],
+    "force_include": [
+      114,
+      149
+    ]
+  },
+  "in_objective": "O2",
+  "participants": [
+    "celia_robbins"
+  ],
+  "dialog_edges": [
+    [
+      113,
+      114
+    ],
+    [
+      113,
+      116
+    ],
+    [
+      114,
+      141
+    ],
+    [
+      141,
+      142
+    ],
+    [
+      142,
+      143
+    ],
+    [
+      142,
+      144
+    ],
+    [
+      142,
+      145
+    ],
+    [
+      143,
+      146
+    ],
+    [
+      146,
+      149
+    ],
+    [
+      146,
+      150
+    ],
+    [
+      149,
+      150
+    ],
+    [
+      144,
+      147
+    ],
+    [
+      147,
+      149
+    ],
+    [
+      147,
+      150
+    ],
+    [
+      145,
+      148
+    ],
+    [
+      148,
+      149
+    ],
+    [
+      148,
+      150
+    ],
+    [
+      116,
+      117
+    ],
+    [
+      117,
+      118
+    ],
+    [
+      118,
+      120
+    ],
+    [
+      118,
+      121
+    ],
+    [
+      118,
+      125
+    ],
+    [
+      120,
+      124
+    ],
+    [
+      124,
+      118
+    ],
+    [
+      121,
+      122
+    ],
+    [
+      122,
+      123
+    ],
+    [
+      123,
+      118
+    ],
+    [
+      125,
+      126
+    ],
+    [
+      126,
+      114
+    ],
+    [
+      126,
+      128
+    ]
+  ],
+  "dialog": [
+    {
+      "id": 113,
+      "speaker_guid": "88e2a5c4-832b-4533-b593-28ef1edc16f2",
+      "speaker": "Celia (Female)",
+      "utterance": "Have you talked to Sebastian yet? What did he say?",
+      "support_knowledge": [
+        "O1_S2",
+        "sebastian_adams_02",
+        "celia_robbins_07"
+      ]
+    },
+    {
+      "id": 114,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "He said he'll go on a date with you.",
+      "support_knowledge": [
+        "O2_S1",
+        "O2_B2"
+      ]
+    },
+    {
+      "id": 116,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "What do you see in this guy?",
+      "support_knowledge": []
+    },
+    {
+      "id": 141,
+      "speaker_guid": "88e2a5c4-832b-4533-b593-28ef1edc16f2",
+      "speaker": "Celia (Female)",
+      "utterance": "Okay, but how did he say it? Did he sound excited? Or like he was just agreeing to it?",
+      "support_knowledge": [
+        "O1_S2"
+      ]
+    },
+    {
+      "id": 142,
+      "speaker_guid": "88e2a5c4-832b-4533-b593-28ef1edc16f2",
+      "speaker": "Celia (Female)",
+      "utterance": "Was he like, \"Yay, a date with Celia, I've secretly been waiting for this!\" Or was it more, \"Sure, I don't have anything else going on...\" ",
+      "support_knowledge": [
+        "O1_S2"
+      ]
+    },
+    {
+      "id": 143,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "He likes you, Celia. Just don't ask him for any discounts.",
+      "support_knowledge": [
+        "O2_B2"
+      ]
+    },
+    {
+      "id": 144,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Look, you've got your chance. Have fun and don't overthink it.",
+      "support_knowledge": [
+        "O2_B2"
+      ]
+    },
+    {
+      "id": 145,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "All I know is that if you act this crazy, you'll send him running.",
+      "support_knowledge": [
+        "O2_B2"
+      ]
+    },
+    {
+      "id": 146,
+      "speaker_guid": "88e2a5c4-832b-4533-b593-28ef1edc16f2",
+      "speaker": "Celia (Female)",
+      "utterance": "Not to worry! If I never buy another raptidon tongue, it'll be too soon.",
+      "support_knowledge": [
+        "celia_robbins_02"
+      ]
+    },
+    {
+      "id": 149,
+      "speaker_guid": "88e2a5c4-832b-4533-b593-28ef1edc16f2",
+      "speaker": "Celia (Female)",
+      "utterance": "Ah, look at me going on. I'm sure you've got other things to do. And Mr. Nandi's giving me that back-to-work look.",
+      "support_knowledge": [
+        "O2_B3"
+      ]
+    },
+    {
+      "id": 150,
+      "speaker_guid": "88e2a5c4-832b-4533-b593-28ef1edc16f2",
+      "speaker": "Celia (Female)",
+      "utterance": "Anyhow, thank you! ",
+      "support_knowledge": [
+        "O2_B3"
+      ]
+    },
+    {
+      "id": 147,
+      "speaker_guid": "88e2a5c4-832b-4533-b593-28ef1edc16f2",
+      "speaker": "Celia (Female)",
+      "utterance": "Oh, I will! Now, I've just got to figure out which jumpsuit I'm wearing. And how I'm fixing my hair. Or maybe I should go with a casual look...",
+      "support_knowledge": [
+        "O0_S1"
+      ]
+    },
+    {
+      "id": 148,
+      "speaker_guid": "88e2a5c4-832b-4533-b593-28ef1edc16f2",
+      "speaker": "Celia (Female)",
+      "utterance": "Right. I've just got to be myself. Just my normal self...",
+      "support_knowledge": [
+        "O0_S1"
+      ]
+    },
+    {
+      "id": 117,
+      "speaker_guid": "88e2a5c4-832b-4533-b593-28ef1edc16f2",
+      "speaker": "Celia (Female)",
+      "utterance": "He doesn't talk much, but he's got this... quiet intensity, you know? Like there's stuff going on inside his head that you have no idea about.",
+      "support_knowledge": [
+        "O0_S1",
+        "celia_robbins_05"
+      ]
+    },
+    {
+      "id": 118,
+      "speaker_guid": "88e2a5c4-832b-4533-b593-28ef1edc16f2",
+      "speaker": "Celia (Female)",
+      "utterance": "Plus, he's got great legs. It's hard to find a man who doesn't skimp on lower body exercises.",
+      "support_knowledge": [
+        "O0_S1"
+      ]
+    },
+    {
+      "id": 120,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "You really want to be with someone you can't talk to?",
+      "support_knowledge": [
+        "celia_robbins_05"
+      ]
+    },
+    {
+      "id": 121,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "There are other fish in the sea, Celia.",
+      "support_knowledge": []
+    },
+    {
+      "id": 125,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "That's... all I need to know.",
+      "support_knowledge": []
+    },
+    {
+      "id": 124,
+      "speaker_guid": "88e2a5c4-832b-4533-b593-28ef1edc16f2",
+      "speaker": "Celia (Female)",
+      "utterance": "You think that's what I'm looking for? Aw, you're funny.",
+      "support_knowledge": []
+    },
+    {
+      "id": 122,
+      "speaker_guid": "88e2a5c4-832b-4533-b593-28ef1edc16f2",
+      "speaker": "Celia (Female)",
+      "utterance": "Not in Stellar Bay! Everyone else who isn't taken either smells like saltuna or they're my boss.",
+      "support_knowledge": [
+        "celia_robbins_06",
+        "stellar_bay_02",
+        "saltuna_01"
+      ]
+    },
+    {
+      "id": 123,
+      "speaker_guid": "88e2a5c4-832b-4533-b593-28ef1edc16f2",
+      "speaker": "Celia (Female)",
+      "utterance": "Besides, a man with a good smile and a proportionate upper-to-lower body ratio isn't something to pass up.",
+      "support_knowledge": [
+        "O0_S1"
+      ]
+    },
+    {
+      "id": 126,
+      "speaker_guid": "88e2a5c4-832b-4533-b593-28ef1edc16f2",
+      "speaker": "Celia (Female)",
+      "utterance": "Sorry, sometimes I get carried away.",
+      "support_knowledge": []
+    },
+    {
+      "id": 128,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I'll talk to you later.",
+      "support_knowledge": []
+    }
+  ]
+}

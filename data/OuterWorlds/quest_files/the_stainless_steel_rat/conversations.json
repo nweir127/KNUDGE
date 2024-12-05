@@ -1,0 +1,82 @@
+[
+  {
+    "id": "the_stainless_steel_rat_00",
+    "quest_name": "the_stainless_steel_rat",
+    "conversation": {
+      "filename": "0402_cv_talmadge_kerr",
+      "start_node": 1,
+      "end_nodes": [],
+      "force_include": [],
+      "force_sequence": []
+    },
+    "in_objective": "O0",
+    "out_objective": "O1",
+    "participants": [
+      "talmadge_kerr"
+    ]
+  },
+  {
+    "id": "the_stainless_steel_rat_01",
+    "quest_name": "the_stainless_steel_rat",
+    "conversation": {
+      "filename": "0402_cv_otto_tossballbetting",
+      "start_node": 1,
+      "end_nodes": [
+        5,
+        4
+      ],
+      "force_include": [
+        3
+      ],
+      "force_sequence": []
+    },
+    "in_objective": [
+      "O1",
+      "O2"
+    ],
+    "out_objective": "O3",
+    "participants": [
+      "nell"
+    ]
+  },
+  {
+    "id": "the_stainless_steel_rat_02",
+    "quest_name": "the_stainless_steel_rat",
+    "conversation": {
+      "filename": "0402_cv_elijahhayes_stealthconvo",
+      "start_node": 9,
+      "end_nodes": [],
+      "force_include": [
+        10,
+        15,
+        25
+      ],
+      "force_sequence": []
+    },
+    "in_objective": "O3",
+    "out_objective": "O4",
+    "participants": [
+      "elijah"
+    ]
+  },
+  {
+    "id": "the_stainless_steel_rat_03",
+    "quest_name": "the_stainless_steel_rat",
+    "conversation": {
+      "filename": "0402_cv_sanjar_nandi_new",
+      "start_node": 572,
+      "end_nodes": [
+        577,
+        1348
+      ],
+      "force_include": [
+        996
+      ],
+      "force_sequence": []
+    },
+    "in_objective": "O4",
+    "participants": [
+      "sanjar_nandi"
+    ]
+  }
+]

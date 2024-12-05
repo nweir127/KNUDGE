@@ -1,0 +1,82 @@
+ID	fact
+OBJECTIVE O0	
+O0_S1	189:44
+O0_S2	234:38
+O0_S3	273:25
+O0_S4	299:40
+O0_B1	589:74
+O0_B2	664:29
+O0_B3	694:72
+O0_B4	767:48
+OBJECTIVE O1	
+O1_S1	354:58
+O1_S2	413:36
+O1_S3	450:33
+O1_B1	816:37
+O1_B2	854:80
+O1_B3	1571:51
+O1_B4	1623:57
+O1_B5	1681:26
+O1_B6	1708:30
+O1_B7	1739:34
+O1_B8	1774:54
+O1_B9	1829:99
+O1_B10	1929:105
+O1_B11	2035:63
+O1_B12	2099:59
+O1_B13	2159:75
+OBJECTIVE O2	
+O2_S1	497:41
+O2_S2	539:49
+O2_B1	2235:96
+anton_crane	
+anton_crane_01	Anton Crane is the Outpost Administrator of Roseway and a lead scientist of Auntie Cleo.
+anton_crane_02	Crane was tasked to develop the world's most effective appetite suppressant dental gel,
+anton_crane_03	using Raptidons as research subjects.
+anton_crane_04	Crane is first encountered in the Roseway Communication Room.
+anton_crane_05	The scientist will explain that a group of outlaws,
+anton_crane_06	led by Cassandra O'Malley, broke into his lab and released the imprisoned raptidons,
+anton_crane_07	in a search for his valuable research.
+anton_crane_08	He will then ask you to kill the outlaws,
+anton_crane_09	put the raptidons to sleep and retrieve his research data,
+anton_crane_10	looking into his missing apprentice Jameson on the way.
+anton_crane_11	It is up to the player to follow any of the objectives Crane tasks them with.
+anton_crane_12	He will become angered with Porter if the player convinces him to abandon his post and upset if the search for Jameson ends up in failure.
+anton_crane_13	If the player fails to save Jameson,
+anton_crane_14	and fails to return the toothpaste recipe,
+anton_crane_15	they can tell Crane he is better off dead.
+anton_crane_16	After leaving the building and walking a short distance a gun shot is heard and upon re-entering the comms center will find him sitting dead at the central terminal pillar after shooting himself in the head.
+auntie_cleo	
+auntie_cleo_01	Auntie Cleo's is a subsidiary of Kolway Pharmaceuticals, a partner of Halcyon Holdings Corporation.
+auntie_cleo_02	Auntie Cleo's is a large corporation based on Terra 2 with various facilities located in the area of Roseway.
+auntie_cleo_03	Primarily a manufacturer of various pharmaceuticals,
+auntie_cleo_04	they are known both for their unethical experiments done in the name of producing high-quality cosmetics and drugs,
+auntie_cleo_05	as well as their rivalry with Spacer's Choice.
+auntie_cleo_06	They are also known to run a Tossball team known as the Auntie Cleo's Darlings.
+auntie_cleo_07	According to Clarence Mostly, the family name behind Auntie Cleo's is the Skylers.
+autie_biotics_lab_0013	
+autie_biotics_lab_0013_01	Auntie-Biotics Lab 0013 is a location in Roseway Gardens located just south of the town of Roseway.
+autie_biotics_lab_0013_02	This lab was used to run experiments involving raptidons and their potential usefulness in Auntie Cleo products.
+autie_biotics_lab_0013_03	One of the experiments run was to determine the maximum amount of raptidon digestive acid that could be safely ingested by humans before adverse effects presented themselves.
+autie_biotics_lab_0013_04	This experiment was conducted on randomly selected workers.
+autie_biotics_lab_0013_05	Due to the construction of a newer lab,
+autie_biotics_lab_0013_06	Lab 0013 is now mostly used for storage.
+autie_biotics_lab_0013_07	Reuben Porter is the Chief Site Safety Engineer for the lab.
+jameson_avery	
+jameson_avery_01	Jameson Avery is an assistant research engineer for Auntie Cleo.
+jameson_avery_02	Anton Crane considers Jameson the only person in Roseway of worth and refers to him as his 'protege'.
+jameson_avery_03	However, this feeling is not reciprocated by Jameson who resents Anton and his micromanagement with a passion.
+jameson_avery_04	Anton sent Jameson to the Auntie-Biotics Lab to retrieve the metabolic precursors from the last test they conducted and,
+jameson_avery_05	in the chaos of the raptidons getting loose,
+jameson_avery_06	forgot about him.
+jameson_avery_07	When the Stranger first meets Jameson in the lab,
+jameson_avery_08	he is trapped behind a locked door.
+jameson_avery_09	When the door is unlocked,
+jameson_avery_10	he is more aggrieved at the breach of protocol involved in a non-employee accessing the lab than the raptidons which threatened his life
+roseway	
+roseway_01	Roseway is a company town in Roseway Gardens on Terra 2.
+roseway_02	It is owned and operated by Auntie Cleo.
+roseway_03	Once the home of a prosperous settlement,
+roseway_04	Roseway now stands as a partly abandoned site.
+roseway_05	It is now a ramshackle excuse for a town,
+roseway_06	and visitors are encouraged to travel to other settlements instead.

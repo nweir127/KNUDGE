@@ -1,0 +1,73 @@
+[
+  {
+    "id": "the_chimerists_last_experiment_00",
+    "quest_name": "the_chimerists_last_experiment",
+    "conversation": {
+      "filename": "01_cv_hagen_lilya_revision",
+      "start_node": 233,
+      "end_nodes": [],
+      "force_include": [
+        285,
+        18,
+        60
+      ],
+      "force_sequence": []
+    },
+    "in_objective": "O0",
+    "out_objective": "O1",
+    "participants": [
+      "lilya_hagen"
+    ]
+  },
+  {
+    "id": "the_chimerists_last_experiment_01",
+    "quest_name": "the_chimerists_last_experiment",
+    "conversation": {
+      "filename": "0202_cv_chartrand_eva",
+      "start_node": 139,
+      "end_nodes": [],
+      "force_include": [
+        228,
+        229,
+        5,
+        233,
+        182,
+        225,
+        270,
+        241,
+        123,
+        132,
+        340,
+        335,
+        334
+      ],
+      "force_sequence": []
+    },
+    "in_objective": "O1",
+    "out_objective": "O2",
+    "participants": [
+      "eva_chartrand",
+      "udl_commander"
+    ]
+  },
+  {
+    "id": "the_chimerists_last_experiment_02",
+    "quest_name": "the_chimerists_last_experiment",
+    "conversation": {
+      "filename": "01_cv_hagen_lilya_revision",
+      "start_node": 486,
+      "end_nodes": [
+        487
+      ],
+      "force_include": [
+        68,
+        335
+      ],
+      "force_sequence": []
+    },
+    "in_objective": "O2",
+    "participants": [
+      "lilya_hagen"
+    ]
+  }
+]

@@ -1,0 +1,97 @@
+ID	fact
+OBJECTIVE O0	
+O0_S1	187:38
+O0_S2	226:43
+O0_S3	270:57
+O0_S4	328:66
+O0_S5	395:24
+O0_B1	Orson Shaw is a Roseway scientist who can be found near a workbench in a building near the Cysty-Pit.
+O0_B2	If the Stranger speaks to Orson,
+O0_B3	they can offer to assist with retrieving some schematics that Orson left in Roseway's Storage Facility,
+O0_B4	before anyone else can find them.
+O0_B5	These schematics will help him modify a broken pistol which he found so that it outputs superheated air and becomes capable of burning through raptidon hides.
+OBJECTIVE O1	
+O1_S1	Auntie Cleo's Storage Facility can be found by leaving Rosemary via the south entrance and passing east,
+O1_S2	551:27
+O1_B1	1064:75
+O1_B2	1140:84
+O1_B3	1225:69
+O1_B4	1295:107
+OBJECTIVE O2	
+O2_S1	865:32
+O2_S2	898:19
+O2_S3	918:35
+O2_S4	954:37
+O2_B1	1564:49
+O2_B2	1614:23
+O2_B3	1638:42
+O2_B4	You can Intimidate or Persuade (45) him to get him to buy the weapon for 100 Bit Cartridge,
+O2_B5	1773:53
+auntie_cleo	
+auntie_cleo_01	Auntie Cleo's is a subsidiary of Kolway Pharmaceuticals, a partner of Halcyon Holdings Corporation.
+auntie_cleo_02	Auntie Cleo's is a large corporation based on Terra 2 with various facilities located in the area of Roseway.
+auntie_cleo_03	Primarily a manufacturer of various pharmaceuticals,
+auntie_cleo_04	they are known both for their unethical experiments done in the name of producing high-quality cosmetics and drugs,
+auntie_cleo_05	as well as their rivalry with Spacer's Choice.
+auntie_cleo_06	They are also known to run a Tossball team known as the Auntie Cleo's Darlings.
+auntie_cleo_07	According to Clarence Mostly, the family name behind Auntie Cleo's is the Skylers.
+force	
+force_01	The FORCE Arms Corporation is a weapon manufacturer and conglomerate in The Outer Worlds.
+force_02	Not much is known about FORCE.
+force_03	While the Stranger is exploring Roseway,
+force_04	they are told that citizens are banned from having FORCE weapons in the Halcyon Colony,
+force_05	and that all FORCE weapons should be turned over to the board.
+force_06	The company manufactures standard issue weapons for Earth Directorate soldiers,
+force_07	such as the advanced handgun,
+force_08	Ultimatum.
+force_09	FORCE also owns their own colony in the Septerra system.
+force_pistol_schematics	
+force_pistol_schematics_01	The schematics depict a 'Phlogisynchotron Pistol' from a brand named FORCE,
+force_pistol_schematics_02	which is not native to the Halcyon colony.
+force_pistol_schematics_03	It is unclear from these plans what a 'phlogisynchotron' does.
+force_pistol_schematics_04	The schematics belong to Orson Shaw in Roseway who will pay 1,875 bits for their safe return.
+orson_shaw	
+orson_shaw_01	Orson Shaw is a scientist working with Auntie Cleo in Roseway.
+orson_shaw_02	Orson was sent to Roseway to study raptidon behavior and ensure the safety of the research team in case the raptidons would cause problems.
+orson_shaw_03	Unfortunately, he soon found out they cannot be controlled or make them less aggressive.
+orson_shaw_04	Orson likes to tinker, even if it can get him into trouble.
+orson_shaw_05	When the Stranger encounters him in Roseway,
+orson_shaw_06	"he is working on ""personal defensive device"","
+orson_shaw_07	although he is not allowed to mess with tech like that.
+orson_shaw_08	"Moreover Orson seems content Porter is away dealing with outlaws and Anton is busy ""holding his head in his hands"" because Orson can finally do some serious work."
+orson_shaw_09	Orson is forbidden from using the comms room.
+orson_shaw_10	The Stranger can choose to tell on Orson to Anton Crane.
+orson_shaw_11	Surprisingly, Anton is actually pleased when he hears Orson is working on a weapon to use on raptidons,
+orson_shaw_12	mostly because it may keep him from wasting Anton's time
+outlaws	
+outlaws_01	The Outlaws are interplanetary raiders with their own independent agendas.
+outlaws_02	Unlike the Marauders, some Outlaws can interact with the Stranger.
+raptidon	
+raptidon_01	Raptidons are giant cat/reptile-like creatures that inhabit various planets in Halcyon.
+raptidon_02	They are creatures native to Monarch.
+raptidon_03	however some corporations have illegally imported them to other planets,
+raptidon_04	such as Auntie Cleo who relocated a group of them to Roseway.
+raptidon_05	Raptidons are of corporate interest due to their potential for producing new chemical by-products which,
+raptidon_06	when refined, can be used to create new board approved products.
+roseway	
+roseway_01	Roseway is a company town in Roseway Gardens on Terra 2.
+roseway_02	It is owned and operated by Auntie Cleo.
+roseway_03	Once the home of a prosperous settlement,
+roseway_04	Roseway now stands as a partly abandoned site.
+roseway_05	It is now a ramshackle excuse for a town,
+roseway_06	and visitors are encouraged to travel to other settlements instead.
+ultimatum	
+ultimatum_01	The Ultimatum is a handgun manufactured by FORCE.
+ultimatum_02	The Ultimatum is a phlogisynchotron pistol,
+ultimatum_03	standard issue for Earth Directorate soldiers.
+ultimatum_04	It was created by FORCE,
+ultimatum_05	a weapons manufacturer from the Septerra system.
+ultimatum_06	Since FORCE is not native to Halcyon,
+ultimatum_07	all of their products are banned in Halcyon by order of The Board.
+ultimatum_08	Due to Halcyon's prohibiton of FORCE products,
+ultimatum_09	the Ultimatum obtainable by the player is likely the only one in the system.
+ultimatum_10	The gun and its schematics were originally in the possession of Orson Shaw;
+ultimatum_11	it was badly damaged and Orson sought to fix it.
+ultimatum_12	He was able to sneak the contraband pistol into Roseway's storage facility by claiming it was a cigarette lighter.
+ultimatum_13	He secretly worked on upgrading and repairing the gun in the mechanical maintenance room.
+ultimatum_14	Later, Orson fled to Roseway with the pistol after outlaws invaded the region.

@@ -1,0 +1,1089 @@
+{
+  "id": "bolt_with_his_name_00",
+  "quest_name": "bolt_with_his_name",
+  "conversation": {
+    "filename": "0402_cv_sanjar_nandi_new",
+    "start_node": 178,
+    "end_nodes": [
+      904
+    ],
+    "force_include": [
+      892,
+      686
+    ]
+  },
+  "in_objective": "O0",
+  "out_objective": [
+    "O1",
+    "O2"
+  ],
+  "participants": [
+    "sanjar_nandi",
+    "celia_robbins"
+  ],
+  "objectives": {
+    "O0": {
+      "description": {
+        "S1": "Sanjar needs a BOLT-52 cartridge to defend Stellar Bay.",
+        "S2": "He believes you can find one in the ruins north of town."
+      },
+      "blurb": {
+        "B1": "Speak to Sanjar Nandi, at Stellar Bay in Monarch to begin this quest.",
+        "B2": "Sanjar will confide that the 10 years of isolation have been hard on Monarch, and they want to get back into the mainstream.",
+        "B3": "He will reveal a plan to get MSI back into the board.",
+        "B4": "Ask him about it and he'll share details of his two-phase plan that begins with proper defenses for the planet.",
+        "B5": "You can also learn more about the planet, that used to be called Terra 1,",
+        "B6": "and the reform that Sanjar and MSI tried to achieve to give more humane working conditions for everyone within."
+      }
+    },
+    "O1": {
+      "summary": "Get into the ARMS building",
+      "description": {
+        "S1": "The BOLT-52 is in an abandoned building north of Stellar Bay"
+      },
+      "blurb": {
+        "B1": "Head out into Monarch Wilderness and make your way to the objective building by a large bridge.",
+        "B2": "There's a Raptidon Behemoth here, and you can loot an Iconoclast corpse for ARMS Building Key and Leaded Armor."
+      }
+    },
+    "O2": {
+      "summary": "Wipe Any Terminals in the Building",
+      "description": {
+        "S1": "Sanjar wants the data on any terminals in the ARMS building deleted."
+      },
+      "blurb": {
+        "B1": "You found Sanjar's executive review on the ARMS terminal. It was less than flattering."
+      }
+    }
+  },
+  "dialog_edges": [
+    [
+      178,
+      850
+    ],
+    [
+      850,
+      851
+    ],
+    [
+      851,
+      852
+    ],
+    [
+      852,
+      648
+    ],
+    [
+      648,
+      113
+    ],
+    [
+      648,
+      189
+    ],
+    [
+      648,
+      1194
+    ],
+    [
+      113,
+      855
+    ],
+    [
+      855,
+      856
+    ],
+    [
+      856,
+      649
+    ],
+    [
+      649,
+      653
+    ],
+    [
+      653,
+      655
+    ],
+    [
+      655,
+      656
+    ],
+    [
+      656,
+      857
+    ],
+    [
+      656,
+      858
+    ],
+    [
+      656,
+      859
+    ],
+    [
+      857,
+      861
+    ],
+    [
+      861,
+      863
+    ],
+    [
+      863,
+      1060
+    ],
+    [
+      863,
+      1062
+    ],
+    [
+      863,
+      1069
+    ],
+    [
+      863,
+      1198
+    ],
+    [
+      1060,
+      1061
+    ],
+    [
+      1061,
+      1064
+    ],
+    [
+      1064,
+      1065
+    ],
+    [
+      1064,
+      1066
+    ],
+    [
+      1065,
+      1078
+    ],
+    [
+      1078,
+      1071
+    ],
+    [
+      1078,
+      1072
+    ],
+    [
+      1078,
+      1073
+    ],
+    [
+      1071,
+      1076
+    ],
+    [
+      1076,
+      870
+    ],
+    [
+      870,
+      871
+    ],
+    [
+      871,
+      873
+    ],
+    [
+      871,
+      879
+    ],
+    [
+      873,
+      888
+    ],
+    [
+      888,
+      889
+    ],
+    [
+      889,
+      882
+    ],
+    [
+      889,
+      883
+    ],
+    [
+      882,
+      886
+    ],
+    [
+      886,
+      1084
+    ],
+    [
+      1084,
+      1083
+    ],
+    [
+      1083,
+      892
+    ],
+    [
+      1083,
+      686
+    ],
+    [
+      892,
+      894
+    ],
+    [
+      894,
+      686
+    ],
+    [
+      894,
+      898
+    ],
+    [
+      898,
+      908
+    ],
+    [
+      908,
+      909
+    ],
+    [
+      909,
+      1571
+    ],
+    [
+      1571,
+      910
+    ],
+    [
+      910,
+      692
+    ],
+    [
+      910,
+      696
+    ],
+    [
+      692,
+      695
+    ],
+    [
+      695,
+      829
+    ],
+    [
+      829,
+      905
+    ],
+    [
+      696,
+      697
+    ],
+    [
+      697,
+      829
+    ],
+    [
+      686,
+      687
+    ],
+    [
+      687,
+      692
+    ],
+    [
+      687,
+      696
+    ],
+    [
+      883,
+      885
+    ],
+    [
+      885,
+      911
+    ],
+    [
+      911,
+      1084
+    ],
+    [
+      879,
+      667
+    ],
+    [
+      667,
+      882
+    ],
+    [
+      667,
+      883
+    ],
+    [
+      1072,
+      869
+    ],
+    [
+      869,
+      870
+    ],
+    [
+      1073,
+      1075
+    ],
+    [
+      1075,
+      1077
+    ],
+    [
+      1077,
+      870
+    ],
+    [
+      1066,
+      1067
+    ],
+    [
+      1067,
+      1068
+    ],
+    [
+      1068,
+      1070
+    ],
+    [
+      1070,
+      1071
+    ],
+    [
+      1070,
+      1072
+    ],
+    [
+      1070,
+      1073
+    ],
+    [
+      1062,
+      1079
+    ],
+    [
+      1079,
+      1061
+    ],
+    [
+      1069,
+      292
+    ],
+    [
+      292,
+      1348
+    ],
+    [
+      292,
+      242
+    ],
+    [
+      1348,
+      1349
+    ],
+    [
+      1349,
+      1350
+    ],
+    [
+      1350,
+      292
+    ],
+    [
+      858,
+      864
+    ],
+    [
+      864,
+      863
+    ],
+    [
+      859,
+      860
+    ],
+    [
+      860,
+      863
+    ],
+    [
+      189,
+      854
+    ],
+    [
+      854,
+      650
+    ],
+    [
+      650,
+      657
+    ],
+    [
+      657,
+      653
+    ]
+  ],
+  "dialog": [
+    {
+      "id": 178,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "Celia, didn't I tell you our new statistics-based advertising model would be a hit? ",
+      "support_knowledge": [
+        "celia_robbins_01"
+      ]
+    },
+    {
+      "id": 850,
+      "speaker_guid": "88e2a5c4-832b-4533-b593-28ef1edc16f2",
+      "speaker": "Celia (Female)",
+      "utterance": "That you did, sir.",
+      "support_knowledge": []
+    },
+    {
+      "id": 851,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "How can yield improvements of 26.7% not quicken the pulse? How can 32% cost savings not moisten the loins?",
+      "support_knowledge": [
+        "sanjar_nandi_03",
+        "sanjar_nandi_04"
+      ]
+    },
+    {
+      "id": 852,
+      "speaker_guid": "88e2a5c4-832b-4533-b593-28ef1edc16f2",
+      "speaker": "Celia (Female)",
+      "utterance": "You've often posed these very questions.",
+      "support_knowledge": []
+    },
+    {
+      "id": 648,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "Clear my schedule! This newcomer has a meeting with me.",
+      "support_knowledge": []
+    },
+    {
+      "id": 113,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "That's very generous of you.",
+      "support_knowledge": []
+    },
+    {
+      "id": 189,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "No, YOU have a meeting with ME.",
+      "support_knowledge": []
+    },
+    {
+      "id": 1194,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Maybe some other time.",
+      "support_knowledge": []
+    },
+    {
+      "id": 855,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "Celia, will you make a note of that for my self-review? \"Very generous.\"",
+      "support_knowledge": [
+        "sanjar_nandi_05",
+        "sanjar_nandi_06",
+        "celia_robbins_01"
+      ]
+    },
+    {
+      "id": 856,
+      "speaker_guid": "88e2a5c4-832b-4533-b593-28ef1edc16f2",
+      "speaker": "Celia (Female)",
+      "utterance": "Noted.",
+      "support_knowledge": []
+    },
+    {
+      "id": 649,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "But not so generous I can't drive a good bargain! Now, who sent you? Rizzo's, perhaps? Or Auntie Cleo herself?",
+      "support_knowledge": []
+    },
+    {
+      "id": 653,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Me? I'm charting my own path. Going where the wind takes me.",
+      "support_knowledge": []
+    },
+    {
+      "id": 655,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "What a charming notion. One doesn't meet many free spirits in Halcyon - not outside Tartarus prison, anyway.",
+      "support_knowledge": [
+        "monarch_stellar_industries_03"
+      ]
+    },
+    {
+      "id": 656,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "Forgive me. I'd be positively enraptured, only I take it this means you aren't here for saltuna.",
+      "support_knowledge": []
+    },
+    {
+      "id": 857,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Hey, it could always be both.",
+      "support_knowledge": []
+    },
+    {
+      "id": 858,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Afraid not.",
+      "support_knowledge": []
+    },
+    {
+      "id": 859,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "If I have to eat one more weird science project passed off as food in this sprat-fucked colony, I am going to stab someone.",
+      "support_knowledge": []
+    },
+    {
+      "id": 861,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "Now, now, there's no need to humor me. I'm used to this particular letdown. ",
+      "support_knowledge": []
+    },
+    {
+      "id": 863,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "I had hoped that livening up our advertisements with enticing figures would draw the other corporations back to our bosom, but it seems we're back to the drawing board.",
+      "support_knowledge": [
+        "O0_B2",
+        "sanjar_nandi_04"
+      ]
+    },
+    {
+      "id": 1060,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "What exactly are you hoping to accomplish?",
+      "support_knowledge": [
+        "O0_B1"
+      ]
+    },
+    {
+      "id": 1062,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "If you're free of the other corporations, why would you want to bring them back?",
+      "support_knowledge": [
+        "O0_B2"
+      ]
+    },
+    {
+      "id": 1069,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Sounds like a personal problem. I've got other concerns.",
+      "support_knowledge": []
+    },
+    {
+      "id": 1198,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Tell me about it some other time.",
+      "support_knowledge": []
+    },
+    {
+      "id": 1061,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "Thanks to the so-called Hazard Clause, Monarch has been cut off from the Board's resources and protection for ten years now. ",
+      "support_knowledge": [
+        "hazard_clause_01",
+        "hazard_clause_06"
+      ]
+    },
+    {
+      "id": 1064,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "We've kept ourselves in business by trading with individual corporations, but given the... off-the-books nature of those transactions, such arrangements are precarious.",
+      "support_knowledge": [
+        "hazard_clause_04",
+        "monarch_16",
+        "monarch_17",
+        "monarch_19"
+      ]
+    },
+    {
+      "id": 1065,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "And you're tired of scrounging and scraping by, is that it?",
+      "support_knowledge": [
+        "sanjar_nandi_09"
+      ]
+    },
+    {
+      "id": 1066,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Sounds like you're freer than anyone else in Halcyon. Why not embrace it?",
+      "support_knowledge": [
+        "O0_B2",
+        "monarch_stellar_industries_03"
+      ]
+    },
+    {
+      "id": 1078,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "Yes. Freedom is a tempting ideal but a rather costly paramour.",
+      "support_knowledge": [
+        "monarch_stellar_industries_03"
+      ]
+    },
+    {
+      "id": 1071,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "You make a good point.",
+      "support_knowledge": []
+    },
+    {
+      "id": 1072,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "So what do you mean to do about it?",
+      "support_knowledge": []
+    },
+    {
+      "id": 1073,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "That's a coward's answer.",
+      "support_knowledge": []
+    },
+    {
+      "id": 1076,
+      "speaker_guid": "88e2a5c4-832b-4533-b593-28ef1edc16f2",
+      "speaker": "Celia (Female)",
+      "utterance": "Indeed. Mr. Nandi here has a rather ingenious plan to get MSI restored to the Board.",
+      "support_knowledge": [
+        "O0_B3"
+      ]
+    },
+    {
+      "id": 870,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "On our terms, mind you.",
+      "support_knowledge": [
+        "O0_B3"
+      ]
+    },
+    {
+      "id": 871,
+      "speaker_guid": "88e2a5c4-832b-4533-b593-28ef1edc16f2",
+      "speaker": "Celia (Female)",
+      "utterance": "And if our advertising scheme hasn't borne fruit, then perhaps it's time we took matters into our own hands.",
+      "support_knowledge": []
+    },
+    {
+      "id": 873,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "This lady knows what's going on. ",
+      "support_knowledge": [
+        "celia_robbins_01"
+      ]
+    },
+    {
+      "id": 879,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Enough preamble. What's the plan?",
+      "support_knowledge": [
+        "O0_B4"
+      ]
+    },
+    {
+      "id": 888,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "It's true, our Celia is an alarmingly competent middle manager. At any other company, she'd be wasted in data entry. ",
+      "support_knowledge": [
+        "celia_robbins_01"
+      ]
+    },
+    {
+      "id": 889,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "The plan she refers to is a two-pronged approach. And the first part involves seeing Stellar Bay properly defended.",
+      "support_knowledge": [
+        "O0_B4"
+      ]
+    },
+    {
+      "id": 882,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Fine, but how do you mean to do that?",
+      "support_knowledge": []
+    },
+    {
+      "id": 883,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "How long did it take you to figure that you need to defend your city?!",
+      "support_knowledge": []
+    },
+    {
+      "id": 886,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "With a BOLT-52 cartridge, of course.",
+      "support_knowledge": [
+        "bolt-52_cartridge_01",
+        "bolt-52_cartridge_02"
+      ]
+    },
+    {
+      "id": 1084,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "If you can get us what we need to rejoin the Board - starting with the BOLT-52 - we'll be able to become one of the most productive and secure cities in Halcyon.",
+      "support_knowledge": [
+        "O0_B3",
+        "bolt-52_cartridge_01"
+      ]
+    },
+    {
+      "id": 1083,
+      "speaker_guid": "88e2a5c4-832b-4533-b593-28ef1edc16f2",
+      "speaker": "Celia (Female)",
+      "utterance": "And you'll have a powerful ally on the Board.",
+      "support_knowledge": [
+        "O0_B3",
+        "the_board_01"
+      ]
+    },
+    {
+      "id": 892,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "This BOLT-52 sounds useful. What is it?",
+      "support_knowledge": [
+        "bolt-52_cartridge_01",
+        "bolt-52_cartridge_02"
+      ]
+    },
+    {
+      "id": 686,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Where do I find one?",
+      "support_knowledge": [
+        "O0_S2"
+      ]
+    },
+    {
+      "id": 894,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "Why, one of the strongest defenses in Halcyon. An extremely powerful ordinance.",
+      "support_knowledge": [
+        "bolt-52_cartridge_01",
+        "bolt-52_cartridge_02"
+      ]
+    },
+    {
+      "id": 898,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Once you have the BOLT-52, what's the other part of your plan?",
+      "support_knowledge": []
+    },
+    {
+      "id": 908,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "I'll need to gather some supplemental materials. But I mustn't get ahead of myself. ",
+      "support_knowledge": []
+    },
+    {
+      "id": 909,
+      "speaker_guid": "88e2a5c4-832b-4533-b593-28ef1edc16f2",
+      "speaker": "Celia (Female)",
+      "utterance": "You do tend to do that.",
+      "support_knowledge": []
+    },
+    {
+      "id": 1571,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "The BOLT-52 will be in the old ARMS building southwest of town. Which used to be part of Stellar Bay before we had to move our walls in.",
+      "support_knowledge": [
+        "O1_S1",
+        "arms_building_01",
+        "stellar_bay_01"
+      ]
+    },
+    {
+      "id": 910,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "These days it's overrun with marauders and raptidons. ",
+      "support_knowledge": [
+        "stellar_bay_01",
+        "raptidon_01"
+      ]
+    },
+    {
+      "id": 692,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Then I guess I'll go get your BOLT-52.",
+      "support_knowledge": [
+        "bolt-52_cartridge_01",
+        "bolt-52_cartridge_02"
+      ]
+    },
+    {
+      "id": 696,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I'll see what I can find.",
+      "support_knowledge": []
+    },
+    {
+      "id": 695,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "Do be careful - I've lost more than a few people to marauders and raptidons out there.",
+      "support_knowledge": [
+        "stellar_bay_01",
+        "raptidon_01"
+      ]
+    },
+    {
+      "id": 829,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "And while you're at it, there should be a terminal in the ARMS building with some... dangerous information. Perhaps you could delete it so it doesn't fall into the wrong hands.",
+      "support_knowledge": [
+        "O2_S1",
+        "arms_building_01"
+      ]
+    },
+    {
+      "id": 905,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Sure. Bye.",
+      "support_knowledge": []
+    },
+    {
+      "id": 697,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "So taciturn. So dour. I'll be waiting with bated breath.",
+      "support_knowledge": []
+    },
+    {
+      "id": 687,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "In the old ARMS building southwest of town. Which used to be part of Stellar Bay before we had to move our walls in. These days it's overrun with marauders and raptidons. ",
+      "support_knowledge": [
+        "O1_S1",
+        "arms_building_01",
+        "stellar_bay_01"
+      ]
+    },
+    {
+      "id": 885,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "Not long, but the devil is always in the details. ",
+      "support_knowledge": []
+    },
+    {
+      "id": 911,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "And the salient detail here is a BOLT-52 cartridge.",
+      "support_knowledge": [
+        "bolt-52_cartridge_01",
+        "bolt-52_cartridge_02"
+      ]
+    },
+    {
+      "id": 667,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "It's a two-pronged approach. The first part involves seeing Stellar Bay properly defended.",
+      "support_knowledge": [
+        "O0_B4"
+      ]
+    },
+    {
+      "id": 869,
+      "speaker_guid": "88e2a5c4-832b-4533-b593-28ef1edc16f2",
+      "speaker": "Celia (Female)",
+      "utterance": "Well, Mr. Nandi here has a rather ingenious plan to get MSI restored to the Board.",
+      "support_knowledge": [
+        "O0_B3"
+      ]
+    },
+    {
+      "id": 1075,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "I have people to look after. I need to be practical.",
+      "support_knowledge": [
+        "sanjar_nandi_10"
+      ]
+    },
+    {
+      "id": 1077,
+      "speaker_guid": "88e2a5c4-832b-4533-b593-28ef1edc16f2",
+      "speaker": "Celia (Female)",
+      "utterance": "That's why Mr. Nandi here has a rather ingenious plan to get MSI restored to the Board.",
+      "support_knowledge": [
+        "O0_B3"
+      ]
+    },
+    {
+      "id": 1067,
+      "speaker_guid": "88e2a5c4-832b-4533-b593-28ef1edc16f2",
+      "speaker": "Celia (Female)",
+      "utterance": "You talk like Graham.",
+      "support_knowledge": []
+    },
+    {
+      "id": 1068,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "Freedom always sounds nice, doesn't it? It makes a rather pretty slogan.",
+      "support_knowledge": []
+    },
+    {
+      "id": 1070,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "But if you sit down and tally up the costs - how you provide for yourself in the absence of aid, how you protect yourself from a hostile galaxy - it starts to lose its shine.",
+      "support_knowledge": [
+        "O0_B2",
+        "sanjar_nandi_09"
+      ]
+    },
+    {
+      "id": 1079,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "Surviving alone isn't as easy as it looks.",
+      "support_knowledge": [
+        "O0_B2"
+      ]
+    },
+    {
+      "id": 292,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "What can I do for you?",
+      "support_knowledge": []
+    },
+    {
+      "id": 1348,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I have questions about MSI and the good old days.",
+      "support_knowledge": [
+        "monarch_stellar_industries_01"
+      ]
+    },
+    {
+      "id": 242,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I've got to go.",
+      "support_knowledge": []
+    },
+    {
+      "id": 1349,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "Then it's good that I keep such meticulous notes.",
+      "support_knowledge": []
+    },
+    {
+      "id": 1350,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I want to talk about something else.",
+      "support_knowledge": []
+    },
+    {
+      "id": 864,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "A shame. I'd been saving a bottle of Iceberg Aged Whiskey for an occasion like this.",
+      "support_knowledge": []
+    },
+    {
+      "id": 860,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "Yes, that's it! Channel your anger! I only wish I could do the same. ",
+      "support_knowledge": []
+    },
+    {
+      "id": 854,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "Did you hear that power play, Celia? They don't make them like this any more in Halcyon.",
+      "support_knowledge": [
+        "celia_robbins_01"
+      ]
+    },
+    {
+      "id": 650,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "I only hope you don't judge me by my handshake. ",
+      "support_knowledge": []
+    },
+    {
+      "id": 657,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "Now, what business brings you here?",
+      "support_knowledge": [
+        "O0_B1"
+      ]
+    }
+  ]
+}

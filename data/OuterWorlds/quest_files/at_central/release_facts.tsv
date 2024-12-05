@@ -1,0 +1,63 @@
+ID	fact
+OBJECTIVE O0	
+O0_S1	182:45
+O0_S2	228:40
+O0_S3	269:57
+O0_B1	543:102
+OBJECTIVE O1	
+O1_S1	Maverick said the audition would be held on the top floor of the Odeon Pictures building.
+O1_B1	646:67
+O1_B2	714:25
+O1_B3	740:60
+O1_B4	He'll tell you that the other actors have real weapons,
+O1_B5	856:50
+OBJECTIVE O2	
+O2_S1	Enter the soundstage and put on a show.
+O2_B1	Head inside the now open door and move to the quest marker to automatically initiate dialogue with the Actor
+O2_B2	at the end of the scene,
+O2_B3	1243:44
+O2_B4	1288:63
+O2_B5	1352:70
+OBJECTIVE O3	
+O3_S1	Review your performance with Maverick.
+O3_B1	Maverick will be impressed with your audition if you pass at least two out of three of the Lie (40), Intimidate (65), and Intimidate (100) checks,
+O3_B2	1763:42
+O3_B3	Alternatively, if you kill the actors he will be impressed no matter what.
+O3_B4	1977:29
+byzantium	
+byzantium_01	Byzantium is the capital city of Terra 2 and the crown jewel of Halcyon.
+byzantium_02	All the opulence, elegance, and decadence of the colony is concentrated in the city.
+byzantium_03	Its residents are colloquially referred to as gold-bloods.
+byzantium_04	"Referred to as the ""gilded city of the well-to-do"","
+byzantium_05	Byzantium is where every Halcyon colonist wishes they could live.
+byzantium_06	The city is closed off to those without the means to be appropriate residents;
+byzantium_07	it’s a literal gated community with secrets that lesser company workers will simply never learn.
+byzantium_08	The city of Byzantium was built in a radial layout,
+byzantium_09	with streets and docking bays encircling the Halcyon Holdings Corporation headquarters,
+byzantium_10	located in the restricted Acropolis District.
+byzantium_11	Many buildings constructed in Byzantium are well-maintained,
+byzantium_12	and are built in a futuristic Art Nouveau style,
+byzantium_13	as opposed to the simpler prefabricated frontier designs of Edgewater or Stellar Bay.
+byzantium_14	The Acropolis District is a wealthy district for the most prominent citizens of both Byzantium and the entire Halcyon Colony.
+byzantium_15	Located here are the headquarters of the Halcyon Holdings Corporation,
+byzantium_16	housed inside a towering skyscraper.
+byzantium_17	Docking bays for various vessels and ships have been constructed into a large, deep trench encircling the mid-section of Byzantium.
+byzantium_18	Only those individuals with the appropriate navkey are allowed to land on Byzantium's docking bays.
+byzantium_19	A district bordering the Acropolis District,
+byzantium_20	the Estate District is known as the residence of Minister Clarke.
+byzantium_21	Prosperity Plaza is the beating hub of commerce and culture in Byzantium,
+byzantium_22	fronted by famous establishments such as Bijou's Revue, Rococo's Decor, and Billingsly's House of Inebriation.
+byzantium_23	At the center of the plaza is a large decorative orrery in the likeness of the Halcyon system.
+maverick_johnston	
+maverick_johnston_01	Maverick Johnston is the director of Odeon Pictures.
+maverick_johnston_02	He can be found at Prosperity Plaza in the city of Byzantium
+odeon_pictures	
+odeon_pictures_01	Odeon Pictures is a film company based in Byzantium on Terra 2.
+odeon_pictures_02	"The company is known for producing the following films: ""Terror on Monarch"" and ""Titus Androidicus"""
+raptidon	
+raptidon_01	Raptidons are giant cat/reptile-like creatures that inhabit various planets in Halcyon.
+raptidon_02	They are creatures native to Monarch.
+raptidon_03	however some corporations have illegally imported them to other planets,
+raptidon_04	such as Auntie Cleo who relocated a group of them to Roseway.
+raptidon_05	Raptidons are of corporate interest due to their potential for producing new chemical by-products which,
+raptidon_06	when refined, can be used to create new board approved products.

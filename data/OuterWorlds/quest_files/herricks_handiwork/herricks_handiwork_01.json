@@ -1,0 +1,297 @@
+{
+  "id": "herricks_handiwork_01",
+  "quest_name": "herricks_handiwork",
+  "conversation": {
+    "filename": "0402_cv_velmaballard",
+    "start_node": 1,
+    "end_nodes": [],
+    "force_include": [
+      133
+    ]
+  },
+  "in_objective": [
+    "O1"
+  ],
+  "out_objective": "O2",
+  "participants": [
+    "velma_ballard"
+  ],
+  "dialog_edges": [
+    [
+      1,
+      53
+    ],
+    [
+      53,
+      62
+    ],
+    [
+      62,
+      55
+    ],
+    [
+      55,
+      131
+    ],
+    [
+      131,
+      133
+    ],
+    [
+      131,
+      63
+    ],
+    [
+      133,
+      147
+    ],
+    [
+      147,
+      157
+    ],
+    [
+      147,
+      151
+    ],
+    [
+      147,
+      155
+    ],
+    [
+      157,
+      162
+    ],
+    [
+      157,
+      139
+    ],
+    [
+      162,
+      169
+    ],
+    [
+      169,
+      157
+    ],
+    [
+      139,
+      143
+    ],
+    [
+      143,
+      99
+    ],
+    [
+      99,
+      133
+    ],
+    [
+      99,
+      39
+    ],
+    [
+      151,
+      153
+    ],
+    [
+      153,
+      154
+    ],
+    [
+      154,
+      157
+    ],
+    [
+      154,
+      147
+    ],
+    [
+      155,
+      158
+    ],
+    [
+      158,
+      159
+    ],
+    [
+      159,
+      157
+    ],
+    [
+      159,
+      147
+    ]
+  ],
+  "dialog": [
+    {
+      "id": 1,
+      "speaker_guid": "980e3de0-dc1d-4ea3-8120-6ce0582f3414",
+      "speaker": "velmaballard (Female)",
+      "utterance": "Look, you can tell Catherine the new shipment'll be ready when it's ready, all right? She's welcome to come up here and pack boxes herself if she's in such a hurry.",
+      "support_knowledge": [
+        "catherine_malin_01",
+        "velma_ballard_01"
+      ]
+    },
+    {
+      "id": 53,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Take it easy. I'm just looking around.",
+      "support_knowledge": []
+    },
+    {
+      "id": 62,
+      "speaker_guid": "980e3de0-dc1d-4ea3-8120-6ce0582f3414",
+      "speaker": "velmaballard (Female)",
+      "utterance": "Well, if you're that friendly about it, then you definitely aren't one of Catherine's SubLight toughs. My mistake.",
+      "support_knowledge": []
+    },
+    {
+      "id": 55,
+      "speaker_guid": "980e3de0-dc1d-4ea3-8120-6ce0582f3414",
+      "speaker": "velmaballard (Female)",
+      "utterance": "Hope you can forgive my temper. This job's been running me ragged lately.",
+      "support_knowledge": []
+    },
+    {
+      "id": 131,
+      "speaker_guid": "980e3de0-dc1d-4ea3-8120-6ce0582f3414",
+      "speaker": "velmaballard (Female)",
+      "utterance": "First my auto loader foreman stages a walkout, and now my chief pescatological health manager is missing.",
+      "support_knowledge": [
+        "caleb_herrick_01",
+        "caleb_herrick_02"
+      ]
+    },
+    {
+      "id": 133,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Let's talk about Caleb.",
+      "support_knowledge": [
+        "caleb_herrick_01"
+      ]
+    },
+    {
+      "id": 63,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I don't have time for this.",
+      "support_knowledge": []
+    },
+    {
+      "id": 147,
+      "speaker_guid": "980e3de0-dc1d-4ea3-8120-6ce0582f3414",
+      "speaker": "velmaballard (Female)",
+      "utterance": "Unless you're here to tell me he's agreed to do his job again, I've got nothing to say.",
+      "support_knowledge": [
+        "O0_S1"
+      ]
+    },
+    {
+      "id": 157,
+      "speaker_guid": "980e3de0-dc1d-4ea3-8120-6ce0582f3414",
+      "speaker": "velmaballard (Female)",
+      "utterance": "If Caleb wants to keep this job, he'd better get back to it. I'm about ready to hire SubLight contractors at this rate.",
+      "support_knowledge": [
+        "O0_B3"
+      ]
+    },
+    {
+      "id": 151,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Why can't you give him his pay increase?",
+      "support_knowledge": [
+        "O0_B4"
+      ]
+    },
+    {
+      "id": 155,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "They're hard workers, aren't they? Don't they deserve some compensation for that?",
+      "support_knowledge": [
+        "O0_B4"
+      ]
+    },
+    {
+      "id": 162,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Are you willing to meet Caleb halfway?",
+      "support_knowledge": [
+        "O0_B4"
+      ]
+    },
+    {
+      "id": 139,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Let's talk about something else.",
+      "support_knowledge": []
+    },
+    {
+      "id": 169,
+      "speaker_guid": "980e3de0-dc1d-4ea3-8120-6ce0582f3414",
+      "speaker": "velmaballard (Female)",
+      "utterance": "For running me ragged while he takes an extended leave at the bar? Not on your life.",
+      "support_knowledge": [
+        "O0_B1",
+        "O0_B3"
+      ]
+    },
+    {
+      "id": 143,
+      "speaker_guid": "980e3de0-dc1d-4ea3-8120-6ce0582f3414",
+      "speaker": "velmaballard (Female)",
+      "utterance": "Fine by me.",
+      "support_knowledge": []
+    },
+    {
+      "id": 99,
+      "speaker_guid": "980e3de0-dc1d-4ea3-8120-6ce0582f3414",
+      "speaker": "velmaballard (Female)",
+      "utterance": "Something else on your mind?",
+      "support_knowledge": []
+    },
+    {
+      "id": 39,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I'll talk to you later.",
+      "support_knowledge": []
+    },
+    {
+      "id": 153,
+      "speaker_guid": "980e3de0-dc1d-4ea3-8120-6ce0582f3414",
+      "speaker": "velmaballard (Female)",
+      "utterance": "I don't have the bits for it. Plain and simple.",
+      "support_knowledge": []
+    },
+    {
+      "id": 154,
+      "speaker_guid": "980e3de0-dc1d-4ea3-8120-6ce0582f3414",
+      "speaker": "velmaballard (Female)",
+      "utterance": "Besides, if I make an exception for him, I gotta do the same for everyone.",
+      "support_knowledge": []
+    },
+    {
+      "id": 158,
+      "speaker_guid": "980e3de0-dc1d-4ea3-8120-6ce0582f3414",
+      "speaker": "velmaballard (Female)",
+      "utterance": "Hard workers? They turn dials and flip switches. The machines do all the actual work.",
+      "support_knowledge": [
+        "O0_S1"
+      ]
+    },
+    {
+      "id": 159,
+      "speaker_guid": "980e3de0-dc1d-4ea3-8120-6ce0582f3414",
+      "speaker": "velmaballard (Female)",
+      "utterance": "Caleb and his crew have it better than anyone else around here, I'll tell you that much.",
+      "support_knowledge": []
+    }
+  ]
+}

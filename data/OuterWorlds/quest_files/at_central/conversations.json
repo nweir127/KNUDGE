@@ -1,0 +1,71 @@
+[
+  {
+    "id": "at_central_00",
+    "quest_name": "at_central",
+    "conversation": {
+      "filename": "0202_cv_maverick_johnston",
+      "start_node": 6,
+      "end_nodes": [],
+      "force_include": [],
+      "force_sequence": []
+    },
+    "in_objective": "O0",
+    "out_objective": "O1",
+    "participants": [
+      "maverick_johnston"
+    ]
+  },
+  {
+    "id": "at_central_01",
+    "quest_name": "at_central",
+    "conversation": {
+      "filename": "0202_cv_maverick_intercom",
+      "start_node": 1,
+      "end_nodes": [],
+      "force_include": [],
+      "force_sequence": []
+    },
+    "in_objective": "O1",
+    "out_objective": "O2",
+    "participants": [
+      "maverick_johnston"
+    ]
+  },
+  {
+    "id": "at_central_02",
+    "quest_name": "at_central",
+    "conversation": {
+      "filename": "0202_cv_actor_leader",
+      "start_node": 1,
+      "end_nodes": [],
+      "force_include": [
+        2,
+        103,
+        83,
+        113,
+        18
+      ],
+      "force_sequence": []
+    },
+    "in_objective": "O2",
+    "out_objective": "O3",
+    "participants": [
+      "actor_leader"
+    ]
+  },
+  {
+    "id": "at_central_03",
+    "quest_name": "at_central",
+    "conversation": {
+      "filename": "0202_cv_maverick_johnston",
+      "start_node": 48,
+      "end_nodes": [],
+      "force_include": [],
+      "force_sequence": []
+    },
+    "in_objective": "O3",
+    "participants": [
+      "maverick_johnston"
+    ]
+  }
+]

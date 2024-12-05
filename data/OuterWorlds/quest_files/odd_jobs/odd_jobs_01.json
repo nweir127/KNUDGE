@@ -1,0 +1,53 @@
+{
+  "id": "odd_jobs_01",
+  "quest_name": "odd_jobs",
+  "conversation": {
+    "filename": "0403_bronson_vendor",
+    "start_node": 10,
+    "end_nodes": [],
+    "force_include": [],
+    "force_sequence": []
+  },
+  "in_objective": "O4",
+  "participants": [
+    "bronson"
+  ],
+  "dialog_edges": [
+    [
+      10,
+      55
+    ],
+    [
+      55,
+      78
+    ]
+  ],
+  "dialog": [
+    {
+      "id": 10,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Hey, I've fixed all your stuff.",
+      "support_knowledge": [
+        "O4_S1"
+      ]
+    },
+    {
+      "id": 55,
+      "speaker_guid": "57906545-d811-4f7f-870d-3b0fef7b8e4d",
+      "speaker": "Bronson (Male)",
+      "utterance": "I'll be damned. Thanks for doing that. Here - Zora sets aside a bit or two for people who help out.",
+      "support_knowledge": [
+        "O4_B1",
+        "iconoclasts_10"
+      ]
+    },
+    {
+      "id": 78,
+      "speaker_guid": "57906545-d811-4f7f-870d-3b0fef7b8e4d",
+      "speaker": "Bronson (Male)",
+      "utterance": "Before you ask, no, it ain't pay. Just being generous to folks who do a good turn.",
+      "support_knowledge": []
+    }
+  ]
+}

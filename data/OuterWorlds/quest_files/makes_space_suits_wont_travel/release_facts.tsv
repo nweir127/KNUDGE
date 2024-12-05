@@ -1,0 +1,229 @@
+ID	fact
+OBJECTIVE O0	
+O0_S1	191:53
+O0_S2	has hired you to help her create the ultimate outfit -
+O0_S3	299:50
+O0_B1	1802:103
+OBJECTIVE O1	
+O1_S1	375:73
+O1_S2	449:85
+O1_S3	535:32
+O1_B1	1906:123
+O1_B2	2859:29
+O1_B3	2889:40
+OBJECTIVE O2	
+O2_S1	745:43
+O2_S2	789:48
+OBJECTIVE O3	
+O3_S1	863:41
+O3_S2	905:25
+OBJECTIVE O4	
+O4_S1	960:50
+O4_S2	1011:32
+OBJECTIVE O5	
+O5_S1	1061:77
+O5_S2	1139:18
+O5_B1	3238:58
+O5_B2	3297:61
+O5_B3	3359:75
+OBJECTIVE O6	
+O6_S1	1180:64
+O6_S2	1245:53
+O6_S3	1299:54
+O6_S4	1354:57
+O6_B1	3436:36
+O6_B2	3473:34
+O6_B3	3508:80
+O6_B4	3589:130
+O6_B5	3720:52
+O6_B6	3773:66
+O6_B7	3840:112
+O6_B8	3953:26
+OBJECTIVE O7	
+O7_S1	1616:34
+O7_S2	1651:61
+O7_B1	returning to Ms. Jolicoeur,
+O7_B2	the player will find her dead,
+O7_B3	in the middle of her store.
+O7_B4	A Corporate Commander will instruct the player to stand back.
+O7_B5	Pressing further reveals that whatever the Chimaera was supposed to look like,
+O7_B6	was not in fact legal in Byzantium.
+O7_B7	As such, being caught red handed with the garment in her possession,
+O7_B8	an attempt at her arrest was made by the Corporate Troopers,
+O7_B9	but unfortunately for her, she didn't feel like cooperating,
+O7_B10	and the guards didn't feel like negotiating,
+O7_B11	so they shot her.
+O7_B12	The player has the option to accuse the Trooper of murder and attack,
+O7_B13	but this understandably a bad idea being that this individual is a high ranking member of Byzantium's Police Force.
+O7_B14	The other option is to simply call them insane,
+O7_B15	in which case they say UDL's motto, and walk off.
+OBJECTIVE O8	
+O8_S1	1734:16
+O8_S2	1751:48
+byzantium	
+byzantium_01	Byzantium is the capital city of Terra 2 and the crown jewel of Halcyon.
+byzantium_02	All the opulence, elegance, and decadence of the colony is concentrated in the city.
+byzantium_03	Its residents are colloquially referred to as gold-bloods.
+byzantium_04	"Referred to as the ""gilded city of the well-to-do"","
+byzantium_05	Byzantium is where every Halcyon colonist wishes they could live.
+byzantium_06	The city is closed off to those without the means to be appropriate residents;
+byzantium_07	it’s a literal gated community with secrets that lesser company workers will simply never learn.
+byzantium_08	The city of Byzantium was built in a radial layout,
+byzantium_09	with streets and docking bays encircling the Halcyon Holdings Corporation headquarters,
+byzantium_10	located in the restricted Acropolis District.
+byzantium_11	Many buildings constructed in Byzantium are well-maintained,
+byzantium_12	and are built in a futuristic Art Nouveau style,
+byzantium_13	as opposed to the simpler prefabricated frontier designs of Edgewater or Stellar Bay.
+byzantium_14	The Acropolis District is a wealthy district for the most prominent citizens of both Byzantium and the entire Halcyon Colony.
+byzantium_15	Located here are the headquarters of the Halcyon Holdings Corporation,
+byzantium_16	housed inside a towering skyscraper.
+byzantium_17	Docking bays for various vessels and ships have been constructed into a large, deep trench encircling the mid-section of Byzantium.
+byzantium_18	Only those individuals with the appropriate navkey are allowed to land on Byzantium's docking bays.
+byzantium_19	A district bordering the Acropolis District,
+byzantium_20	the Estate District is known as the residence of Minister Clarke.
+byzantium_21	Prosperity Plaza is the beating hub of commerce and culture in Byzantium,
+byzantium_22	fronted by famous establishments such as Bijou's Revue, Rococo's Decor, and Billingsly's House of Inebriation.
+byzantium_23	At the center of the plaza is a large decorative orrery in the likeness of the Halcyon system.
+celeste_jolicoeur	
+celeste_jolicoeur_01	Celeste Jolicoeur is a high-profile fashion designer in Byzantium who runs Jolicoeur's Haberdashery.
+celeste_jolicoeur_02	"Celeste has her own fashion line of ""Jolicoeur Originals"" that are of the most premium grade and even require her own personal seal to be ""truly authentic""."
+celeste_jolicoeur_03	"the tagline for all her clothes is ""Well-made clothing. Made for fashion, not for protection."""
+celeste_jolicoeur_04	She will send the player on a quest to bring back outfits and materials she needs to create the player a unique and one-of-a-kind outfit, the Chimaera.
+celeste_jolicoeur_05	However, this will come at the cost of her life,
+celeste_jolicoeur_06	and the player will have no other source for her wares.
+chimaera	
+chimaera_01	The Chimaera is an original work by fashion designer Celeste Jolicoeur.
+chimaera_02	It is crafted out of raptidon flank, mantiqueen chitin and primal leather.
+chimaera_03	The Chimaera is awarded to the player upon completing Makes Space Suits, Won't Travel.
+corporate_soldiers	
+corporate_soldiers_01	Corporate Soldiers are the security forces for each of the corporations.
+groundbreaker	
+groundbreaker_01	UDL-001 The Groundbreaker or simply Groundbreaker was the first colony ship to arrive in Halcyon during the Crossing.
+groundbreaker_02	By 2355, it has been converted into an independent orbital station,
+groundbreaker_03	and is the only place in the entire Halcyon system that is not controlled by the Halcyon Holdings Corporate Board or any other corporation.
+groundbreaker_04	The crew of the Groundbreaker is fiercely protective of their independence from the corporations,
+groundbreaker_05	and the corporations value the station's role as a thriving freeport enough that they are willing to deal with it on relatively equal terms.
+groundbreaker_06	In practical terms, while the Groundbreaker rules itself,
+groundbreaker_07	it cooperates with the corporations to an extent,
+groundbreaker_08	such as by impounding ships that the Board happens to flag.
+groundbreaker_09	The Groundbreaker is commanded by engineer-turned-captain Junlei Tennyson.
+groundbreaker_10	Udom Bedford is the Halcyon Holdings Corporation representative stationed aboard.
+groundbreaker_11	According to Junlei, lots of corners were cut when the ship was built,
+groundbreaker_12	prompting Captain Guiying Tennyson to spend half of her career attempting to patch the ship back together after the Crossing from Earth to Halcyon.
+groundbreaker_13	In addition, the ship has tinkerings and bypasses that only the Tennysons know about.
+groundbreaker_14	The Groundbreaker maintains a somewhat tense relationship with the Board,
+groundbreaker_15	owing to their declared independence from Board authority,
+groundbreaker_16	as well as their control of shipping routes outward from the Halcyon System.
+groundbreaker_17	Nonetheless, given that Groundbreaker lacks any semblance of military might against the Board beyond the mardets stationed aboard the ship,
+groundbreaker_18	the loose hierarchy in charge of the Groundbreaker often seeks to find (illicit) ways of delaying, stymieing, or pitting corporations under the Board's thumb against each other,
+groundbreaker_19	usually through black market fences like Gladys Culkelly.
+groundbreaker_20	Nonetheless, the Board maintains an embassy aboard the Groundbreaker run by bureaucrat Udom Bedford.
+groundbreaker_21	Depending on the actions of the Stranger, the Groundbreaker's crew may be compelled to rebel against the Board's system-wide authority.
+groundbreaker_22	The Groundbreaker is generally neutral to Sublight Salvage and Shipping Corporation,
+groundbreaker_23	and allows them to operate an office and warehouse aboard the ship, helmed by Lilya Hagen.
+halcyon_parcel_service	
+halcyon_parcel_service_01	The Halcyon Parcel Service, also known as HPS,
+halcyon_parcel_service_02	is in Byzantium on Terra 2.
+halcyon_parcel_service_03	It is the only parcel service in the colony.
+iconoclasts	
+iconoclasts_01	The Iconoclasts are a group of survivalists living in the ruins of Amber Heights on Monarch.
+iconoclasts_02	They hope to one day tear down the corporate establishment that they believe has brought the colony to the brink of death.
+iconoclasts_03	The Iconoclasts are a group of idealistic revolutionaries that seek to overthrow the corporate establishment that runs the Halcyon Colony.
+iconoclasts_04	Based in the ruins of the Amber Heights settlement on Monarch,
+iconoclasts_05	they are a tenacious group,
+iconoclasts_06	and share some democratic ideals with Monarch Stellar Industries (MSI) against the more repressive actions of the Board.
+iconoclasts_07	However, the Iconoclast's anti-corporate nature has put them at odds with MSI, a dispute that threatens to spill into all-out warfare.
+iconoclasts_08	Given that the Iconoclasts are mostly followers of the Philosophist faith, they have been blacklisted and demonized by the Board as dissenters and anarchists.
+iconoclasts_09	The group is led by Graham Bryant, a staunch Philosophist.
+iconoclasts_10	Zora Blackwood, the Iconoclasts' chief of medicine, is also considered a de facto leader of the group,
+iconoclasts_11	as she was alongside Graham when he founded the Iconoclasts,
+iconoclasts_12	and almost every member of the Iconoclasts owes her their life in some way.
+iconoclasts_13	The Iconoclasts maintain a tense relationship with MSI.
+iconoclasts_14	Despite sharing democratic values and a common desire towards egalitarianism for the people of Monarch and the wider Halcyon colony,
+iconoclasts_15	"MSI's ""egalitarian corporate structure"" has proven to be at odds with some of the Iconoclasts' more radical, anti-capitalist views."
+iconoclasts_16	Depending on the actions of the Stranger, this tense relationship can either be resolved,
+iconoclasts_17	or can spill into a drawn-out and bloody war.
+iconoclasts_18	The Stranger meets the Iconoclasts in Amber Heights just as the tension between them and MSI is reaching boiling point.
+iconoclasts_19	They can either side with the Iconoclasts and assist them in storming and taking over Stellar Bay,
+iconoclasts_20	"""solve"" the Iconoclast problem for Stellar Bay,"
+iconoclasts_21	or broker peace between the two factions.
+iconoclasts_22	The Stranger can also have an impact on the leadership of the Iconoclasts - siding with either Graham Bryant or Zora Blackwood.
+iconoclasts_23	To supplant Graham with Zora, evidence of Graham's involvement in the Amber Heights massacre must be found and presented to Zora.
+iconoclasts_24	The Van Noys are the Iconoclasts' best unit.
+mantisaur	
+mantisaur_01	Mantisaurs are insectoid creatures native to Monarch.
+mantisaur_02	They are aggressive, territorial, and very strong.
+mantisaur_03	It is possible to deal with them one on one, but it is best to avoid groups of them for your safety.
+mantisaur_04	The mantiqueen is the largest breed of Mantisaur.
+marauders	
+marauders_01	The Marauders are an enemy faction in The Outer Worlds.
+marauders_02	Humans that have lost their minds due to excessive use of Adrena-Time,
+marauders_03	marauders are violent individuals with very little in the way of comprehension or compassion.
+marauders_04	Originating on Gorgon,
+marauders_05	where Adrena-Time was being developed,
+marauders_06	they spread out initially to Edgewater as a trial by Spacer's Choice,
+marauders_07	who were aware of the violent, long term effects.
+monarch	
+monarch_01	Monarch, previously known as Terra 1, is one of the many moons of the gas giant Olympus and the site of a failed colony.
+monarch_02	Terra 1 was initially designated as the primary colonization target of the Halcyon system.
+monarch_03	The Halcyon Holdings Corporate Board had intended to completely terraform the moon,
+monarch_04	wiping out the local fauna and flora and replacing it with plants and wildlife native to Earth.
+monarch_05	However, the terraforming process unexpectedly caused the native species to mutate and grow to significantly larger sizes,
+monarch_06	rendering them more dangerous and severely crippling the colonization effort.
+monarch_07	Due to the hostile environment which they had created,
+monarch_08	the Board was forced to enact a Hazard Clause covering the entirety of Terra 1.
+monarch_09	Public notice of the clause's issuance was sent to everyone operating on Terra 1 and led to the evacuation of almost all corporations from the moon.
+monarch_10	However, one corporation took advantage of the chaos of the evacuation to exploit a legal loophole which allowed them to,
+monarch_11	as the last corporation remaining on the planet,
+monarch_12	acquire the planet from the Board.
+monarch_13	This corporation, under the leadership of Sanjar Nandi and Graham Bryant subsequently rebranded itself to Monarch Stellar Industries (MSI),
+monarch_14	in line with the renaming of the planet to 'Monarch'.
+monarch_15	The actions of MSI earned them the ire of the Board,
+monarch_16	who retaliated by effectively placing the moon under indefinite embargo,
+monarch_17	refusing to allow legal transit either in or out.
+monarch_18	the Board aggressively spread propaganda about Monarch to convince the rest of the population that it was both uninhabited and uninhabitable.
+monarch_19	This has greatly hampered MSI's attempts to be recognized as a legitimate corporation and is a thorn in the side of its CEO, Sanjar Nandi.
+monarch_20	"Monarch also has an ocean which goes around the moon at the ""twilight band""."
+monarch_21	It is where the colonists and Monarch Stellar Industries farm their saltuna.
+olive_yates	
+olive_yates_01	Olive Yates is a postal worker and an employee of the Halcyon Parcel Service.
+primal	
+primal_01	The Primal are an ogre-like simian primitive species native to Terra 2 in the Halcyon.
+primal_02	Primals are large gorilla-like creatures native to Terra 2,
+primal_03	and can also be found on abandoned mining outposts on the asteroid of Scylla.
+primal_04	Primals are covered in extremely thick skin,
+primal_05	which also appears to have bioluminescent qualities.
+primal_06	They are also incredibly strong,
+primal_07	and possess the ability to dig underground,
+primal_08	only to jump out in order to attack unwitting enemies.
+primal_09	Some Primal variants are known to have limited psychokinetic abilities,
+primal_10	owing by their power to infuse rocks with N-Rays that can damage foes and prey.
+primal_11	Primal brains are known to be biologically similar to the brains of Earth primates.
+raptidon	
+raptidon_01	Raptidons are giant cat/reptile-like creatures that inhabit various planets in Halcyon.
+raptidon_02	They are creatures native to Monarch.
+raptidon_03	however some corporations have illegally imported them to other planets,
+raptidon_04	such as Auntie Cleo who relocated a group of them to Roseway.
+raptidon_05	Raptidons are of corporate interest due to their potential for producing new chemical by-products which,
+raptidon_06	when refined, can be used to create new board approved products.
+spacers_choice	
+spacers_choice_01	Spacer's Choice is a wholly-owned subsidiary of Universal Defense Logistics.
+spacers_choice_02	Their mascot is the Moon Man.
+spacers_choice_03	Specializing in making a wide range of products as cheap as possible for the consumer,
+spacers_choice_04	Spacer's Choice cater to a broad range of clientele.
+spacers_choice_05	While their products are not very durable,
+spacers_choice_06	they are cheap to repair or replace.
+spacers_choice_07	Their employees will quote the company's sales line,
+spacers_choice_08	regardless of their own condition and are not to accept assistance from outside the company.
+spacers_choice_09	"They can also be reprimanded for fraternizing with employees labelled as ""incompetent"" - those unavailable to work."
+udl	
+udl_01	Universal Defense Logistics (UDL) is one of the ten corporations that founded the Halcyon Holdings Corporation.
+udl_02	Its CEO, Rockwell, also serves as the Chairman of the Halcyon Holdings Corporate Board.
+udl_03	They're the largest of the corps in Halcyon,
+udl_04	having the largest stake there and in the board,
+udl_05	as well as being the main presence in Byzantium,
+udl_06	especially through their CEO, Chairman Rockwell.
+udl_07	They're also the parent corporation to Spacer's Choice.
+udl_08	They're pretty much the guiding hand in much of The Board's policies, actions, and screw ups.
+wanda_chen	
+wanda_chen_01	Wanda Chen is a parcel worker at the Halcyon Parcel Service.

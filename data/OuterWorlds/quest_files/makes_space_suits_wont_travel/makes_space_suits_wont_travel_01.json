@@ -1,0 +1,201 @@
+{
+  "id": "makes_space_suits_wont_travel_01",
+  "quest_name": "makes_space_suits_wont_travel",
+  "conversation": {
+    "filename": "0202_cv_celeste_jolicoeur",
+    "start_node": 54,
+    "end_nodes": [
+      6
+    ],
+    "force_include": [],
+    "force_sequence": []
+  },
+  "in_objective": "O1",
+  "out_objective": [
+    "O2",
+    "O3",
+    "O4"
+  ],
+  "participants": [
+    "celeste_jolicoeur"
+  ],
+  "objectives": {
+    "O1": {
+      "summary": "Model Outfits for Celeste",
+      "description": {
+        "S1": "Celeste needs to see what the rest of Halcyon wears outside of Byzantium.",
+        "S2": "Speak to Celeste while wearing a suit of armor and headpiece from the following sets:",
+        "S3": "Iconoclast, Marauder and Spacers"
+      },
+      "blurb": {
+        "B1": "Acquire Iconoclast Armor and Headpiece, Marauder Armor and Headpiece and Spacer Armor and Headpiece and model them for her.",
+        "B2": "After modeling these for her,",
+        "B3": "she'll ask you to gather some materials."
+      }
+    },
+    "O2": {
+      "summary": "Collect 10 Primal Leather",
+      "description": {
+        "S1": "Celeste needs ten strips of primal leather.",
+        "S2": "Primals can be found in the Emerald Vale region."
+      },
+      "blurb": {}
+    },
+    "O3": {
+      "summary": "Collect Mantiqueen Chitin",
+      "description": {
+        "S1": "Celeste needs the chitin of a Mantiqueen.",
+        "S2": "Hunt them around Monarch."
+      },
+      "blurb": {}
+    },
+    "O4": {
+      "summary": "Collect 3 Raptidon Flank Hide",
+      "description": {
+        "S1": "Celeste needs three pieces of raptidon flank hide.",
+        "S2": "Raptidons are native to Monarch."
+      },
+      "blurb": {}
+    }
+  },
+  "dialog": [
+    {
+      "id": 54,
+      "speaker_guid": "8671846e-f11e-4f16-80bf-4ecacac57066",
+      "speaker": "CelesteJolicoeur (Female)",
+      "utterance": "Yes. That's it. I have it. I know exactly what we're doing. Brace yourself, my dear. We're going to call this style *barbarian-chic.*",
+      "support_knowledge": []
+    },
+    {
+      "id": 60,
+      "speaker_guid": "8671846e-f11e-4f16-80bf-4ecacac57066",
+      "speaker": "CelesteJolicoeur (Female)",
+      "utterance": "The saucy confidence of a spacer. The raw contempt of an Iconoclast. The brutish musk of a marauder. And the pi\u00e8ce de r\u00e9sistance? Monster leather.",
+      "support_knowledge": [
+        "iconoclasts_01",
+        "marauders_01"
+      ]
+    },
+    {
+      "id": 61,
+      "speaker_guid": "8671846e-f11e-4f16-80bf-4ecacac57066",
+      "speaker": "CelesteJolicoeur (Female)",
+      "utterance": "One part mantiqueen chitin. Three parts hide from a raptidon's flank. And let's say - oh -  eight strips of primal leather. No, make that ten. ",
+      "support_knowledge": [
+        "O2_S1",
+        "O3_S1",
+        "O4_S1",
+        "mantisaur_01",
+        "mantisaur_04",
+        "primal_01",
+        "raptidon_01"
+      ]
+    },
+    {
+      "id": 62,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I was expecting a simple modeling job.",
+      "support_knowledge": []
+    },
+    {
+      "id": 63,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I'll get it done.",
+      "support_knowledge": []
+    },
+    {
+      "id": 66,
+      "speaker_guid": "8671846e-f11e-4f16-80bf-4ecacac57066",
+      "speaker": "CelesteJolicoeur (Female)",
+      "utterance": "We're revolutionizing the fashion of Byzantium. Our work is anything but simple.",
+      "support_knowledge": [
+        "byzantium_01"
+      ]
+    },
+    {
+      "id": 117,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "The reward better be worth the risk.",
+      "support_knowledge": []
+    },
+    {
+      "id": 119,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I'll come back when I've got something for you.",
+      "support_knowledge": []
+    },
+    {
+      "id": 120,
+      "speaker_guid": "8671846e-f11e-4f16-80bf-4ecacac57066",
+      "speaker": "CelesteJolicoeur (Female)",
+      "utterance": "We're artists. If we're not willing to risk our lives for the sake of art, we should get out of the business.",
+      "support_knowledge": []
+    },
+    {
+      "id": 124,
+      "speaker_guid": "8671846e-f11e-4f16-80bf-4ecacac57066",
+      "speaker": "CelesteJolicoeur (Female)",
+      "utterance": "Get this done for me, and I'll have you strutting about in a Jolicoeur Original. You will be the envy of Byzantium.",
+      "support_knowledge": [
+        "celeste_jolicoeur_02"
+      ]
+    },
+    {
+      "id": 67,
+      "speaker_guid": "8671846e-f11e-4f16-80bf-4ecacac57066",
+      "speaker": "CelesteJolicoeur (Female)",
+      "utterance": "My dear, I have the highest confidence in you.",
+      "support_knowledge": []
+    }
+  ],
+  "dialog_edges": [
+    [
+      54,
+      60
+    ],
+    [
+      60,
+      61
+    ],
+    [
+      61,
+      62
+    ],
+    [
+      61,
+      63
+    ],
+    [
+      62,
+      66
+    ],
+    [
+      66,
+      117
+    ],
+    [
+      66,
+      119
+    ],
+    [
+      117,
+      120
+    ],
+    [
+      120,
+      124
+    ],
+    [
+      119,
+      67
+    ],
+    [
+      63,
+      67
+    ]
+  ]
+}

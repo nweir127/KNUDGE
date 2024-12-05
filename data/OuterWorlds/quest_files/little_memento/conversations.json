@@ -1,0 +1,43 @@
+[
+  {
+    "id": "little_memento_00",
+    "quest_name": "little_memento",
+    "conversation": {
+      "filename": "0403_cv_revolutionary_barwarstories",
+      "start_node": 1,
+      "end_nodes": [],
+      "force_include": [
+        65,
+        39
+      ],
+      "force_sequence": []
+    },
+    "in_objective": "O0",
+    "out_objective": "O1",
+    "participants": [
+      "ash"
+    ]
+  },
+  {
+    "id": "little_memento_01",
+    "quest_name": "little_memento",
+    "conversation": {
+      "filename": "0403_cv_revolutionary_barwarstories",
+      "start_node": 289,
+      "end_nodes": [
+        38,
+        39,
+        273
+      ],
+      "force_include": [
+        366,
+        364
+      ],
+      "force_sequence": []
+    },
+    "in_objective": "O3",
+    "participants": [
+      "ash"
+    ]
+  }
+]

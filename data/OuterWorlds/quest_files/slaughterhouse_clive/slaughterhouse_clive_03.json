@@ -1,0 +1,328 @@
+{
+  "id": "slaughterhouse_clive_03",
+  "quest_name": "slaughterhouse_clive",
+  "conversation": {
+    "filename": "0407_cv_catherine_malin",
+    "start_node": 3,
+    "end_nodes": [],
+    "force_include": [
+      22,
+      26,
+      138
+    ]
+  },
+  "in_objective": "O2",
+  "participants": [
+    "catherine_malin"
+  ],
+  "force_sequence": [
+    [
+      136,
+      26
+    ]
+  ],
+  "dialog_edges": [
+    [
+      3,
+      22
+    ],
+    [
+      3,
+      349
+    ],
+    [
+      3,
+      351
+    ],
+    [
+      22,
+      134
+    ],
+    [
+      134,
+      24
+    ],
+    [
+      24,
+      26
+    ],
+    [
+      24,
+      138
+    ],
+    [
+      24,
+      25
+    ],
+    [
+      24,
+      28
+    ],
+    [
+      26,
+      30
+    ],
+    [
+      30,
+      139
+    ],
+    [
+      139,
+      138
+    ],
+    [
+      139,
+      28
+    ],
+    [
+      138,
+      166
+    ],
+    [
+      166,
+      167
+    ],
+    [
+      166,
+      168
+    ],
+    [
+      166,
+      28
+    ],
+    [
+      167,
+      140
+    ],
+    [
+      140,
+      33
+    ],
+    [
+      33,
+      86
+    ],
+    [
+      86,
+      8
+    ],
+    [
+      168,
+      140
+    ],
+    [
+      25,
+      32
+    ],
+    [
+      32,
+      136
+    ],
+    [
+      136,
+      24
+    ],
+    [
+      28,
+      29
+    ],
+    [
+      29,
+      86
+    ],
+    [
+      349,
+      350
+    ],
+    [
+      350,
+      86
+    ]
+  ],
+  "dialog": [
+    {
+      "id": 3,
+      "speaker_guid": "dca98d32-b879-4ecf-8af5-f2424c4ce41f",
+      "speaker": "CatherineMalin (Female)",
+      "utterance": "How's Clive? I do hope you gave him my regards.",
+      "support_knowledge": []
+    },
+    {
+      "id": 22,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Got a proposition for you... from Clive.",
+      "support_knowledge": [
+        "O2_S1",
+        "O2_B1"
+      ]
+    },
+    {
+      "id": 349,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Let's talk about something else.",
+      "support_knowledge": []
+    },
+    {
+      "id": 351,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I'll get back to you on that.",
+      "support_knowledge": []
+    },
+    {
+      "id": 134,
+      "speaker_guid": "dca98d32-b879-4ecf-8af5-f2424c4ce41f",
+      "speaker": "CatherineMalin (Female)",
+      "utterance": "Oh, this oughta be good.",
+      "support_knowledge": []
+    },
+    {
+      "id": 24,
+      "speaker_guid": "dca98d32-b879-4ecf-8af5-f2424c4ce41f",
+      "speaker": "CatherineMalin (Female)",
+      "utterance": "What does he mean to offer in exchange for his no-account life?",
+      "support_knowledge": [
+        "O2_B1"
+      ]
+    },
+    {
+      "id": 26,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Who better to handle the cleaning than Clive? The SubLight idiots mucking it up now?",
+      "support_knowledge": [
+        "O2_B3"
+      ]
+    },
+    {
+      "id": 138,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Running a factory is hard, tedious work. ",
+      "support_knowledge": [
+        "O2_B3"
+      ]
+    },
+    {
+      "id": 25,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Clive is willing to be your cleaner if you leave the factory to him. ",
+      "support_knowledge": [
+        "O2_B3"
+      ]
+    },
+    {
+      "id": 28,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Never mind.",
+      "support_knowledge": []
+    },
+    {
+      "id": 30,
+      "speaker_guid": "dca98d32-b879-4ecf-8af5-f2424c4ce41f",
+      "speaker": "CatherineMalin (Female)",
+      "utterance": "Point taken. Good help is hard to come by. Plus, Clive doesn't seem the type to upchuck his boarst during dismemberment.",
+      "support_knowledge": [
+        "O2_B3"
+      ]
+    },
+    {
+      "id": 139,
+      "speaker_guid": "dca98d32-b879-4ecf-8af5-f2424c4ce41f",
+      "speaker": "CatherineMalin (Female)",
+      "utterance": "Still, you're asking me to walk away from easy money.",
+      "support_knowledge": []
+    },
+    {
+      "id": 166,
+      "speaker_guid": "dca98d32-b879-4ecf-8af5-f2424c4ce41f",
+      "speaker": "CatherineMalin (Female)",
+      "utterance": "So are a lot of things in life. And your point is?",
+      "support_knowledge": []
+    },
+    {
+      "id": 167,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Clive is offering a cut of the profits and free body disposal every Tuesday, 3 a.m.",
+      "support_knowledge": [
+        "O2_B3"
+      ]
+    },
+    {
+      "id": 168,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Why not leave the headache to someone else?",
+      "support_knowledge": [
+        "O2_B3"
+      ]
+    },
+    {
+      "id": 140,
+      "speaker_guid": "dca98d32-b879-4ecf-8af5-f2424c4ce41f",
+      "speaker": "CatherineMalin (Female)",
+      "utterance": "All right. Color me convinced.",
+      "support_knowledge": []
+    },
+    {
+      "id": 33,
+      "speaker_guid": "dca98d32-b879-4ecf-8af5-f2424c4ce41f",
+      "speaker": "CatherineMalin (Female)",
+      "utterance": "Reckon I owe you a finders fee. Don't spend it all in one place - unless it's here.",
+      "support_knowledge": [
+        "O2_B3"
+      ]
+    },
+    {
+      "id": 86,
+      "speaker_guid": "dca98d32-b879-4ecf-8af5-f2424c4ce41f",
+      "speaker": "CatherineMalin (Female)",
+      "utterance": "Well? I'm half-listening.",
+      "support_knowledge": []
+    },
+    {
+      "id": 8,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "That's enough for now.",
+      "support_knowledge": []
+    },
+    {
+      "id": 32,
+      "speaker_guid": "dca98d32-b879-4ecf-8af5-f2424c4ce41f",
+      "speaker": "CatherineMalin (Female)",
+      "utterance": "True enough, I got bodies piling up, drawing attention where they ought not to be.",
+      "support_knowledge": [
+        "O2_B3"
+      ]
+    },
+    {
+      "id": 136,
+      "speaker_guid": "dca98d32-b879-4ecf-8af5-f2424c4ce41f",
+      "speaker": "CatherineMalin (Female)",
+      "utterance": "But if I take the factory, I don't need Clive to dispense of my messes. Can appoint someone to handle it myself.",
+      "support_knowledge": []
+    },
+    {
+      "id": 29,
+      "speaker_guid": "dca98d32-b879-4ecf-8af5-f2424c4ce41f",
+      "speaker": "CatherineMalin (Female)",
+      "utterance": "Tell Clive I don't haggle. Right as you gut him.",
+      "support_knowledge": [
+        "catherine_malin_03"
+      ]
+    },
+    {
+      "id": 350,
+      "speaker_guid": "dca98d32-b879-4ecf-8af5-f2424c4ce41f",
+      "speaker": "CatherineMalin (Female)",
+      "utterance": "Sure.",
+      "support_knowledge": []
+    }
+  ]
+}

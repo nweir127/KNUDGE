@@ -1,0 +1,142 @@
+{
+  "id": "at_central_03",
+  "quest_name": "at_central",
+  "conversation": {
+    "filename": "0202_cv_maverick_johnston",
+    "start_node": 48,
+    "end_nodes": [],
+    "force_include": [],
+    "force_sequence": []
+  },
+  "in_objective": "O3",
+  "participants": [
+    "maverick_johnston"
+  ],
+  "objectives": {
+    "O3": {
+      "summary": "Talk to Maverick",
+      "description": {
+        "S1": "Review your performance with Maverick."
+      },
+      "blurb": {
+        "B1": "Maverick will be impressed with your audition if you pass at least two out of three of the Lie (40), Intimidate (65), and Intimidate (100) checks,",
+        "B2": "regardless of what other choices you make.",
+        "B3": "Alternatively, if you kill the actors he will be impressed no matter what.",
+        "B4": "Otherwise, he is unimpressed."
+      }
+    }
+  },
+  "dialog": [
+    {
+      "id": 48,
+      "speaker_guid": "6ee802ad-896c-4d65-95ff-d99091c9e2ca",
+      "speaker": "MaverickJohnston (Male)",
+      "utterance": "That was brilliant stuff. Do you write your own material?",
+      "support_knowledge": [
+        "O3_B1",
+        "O3_B3"
+      ]
+    },
+    {
+      "id": 55,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Just tell me what's next.",
+      "support_knowledge": []
+    },
+    {
+      "id": 53,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "You bet.",
+      "support_knowledge": []
+    },
+    {
+      "id": 80,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Do raptidons shit acid?",
+      "support_knowledge": []
+    },
+    {
+      "id": 56,
+      "speaker_guid": "6ee802ad-896c-4d65-95ff-d99091c9e2ca",
+      "speaker": "MaverickJohnston (Male)",
+      "utterance": "Hey, time is bits, right?",
+      "support_knowledge": []
+    },
+    {
+      "id": 54,
+      "speaker_guid": "6ee802ad-896c-4d65-95ff-d99091c9e2ca",
+      "speaker": "MaverickJohnston (Male)",
+      "utterance": "I'm gonna have to fire the writing staff. What do those anemic fuckwits know about dialogue, anyway?",
+      "support_knowledge": []
+    },
+    {
+      "id": 58,
+      "speaker_guid": "6ee802ad-896c-4d65-95ff-d99091c9e2ca",
+      "speaker": "MaverickJohnston (Male)",
+      "utterance": "I'm thinking a whole new script. More pirates. Bigger explosions. You flicking a Stogie Slim into a barrel of gasoline - marketing says that kind of action sells tickets!",
+      "support_knowledge": [
+        "O3_B1",
+        "O3_B3"
+      ]
+    },
+    {
+      "id": 49,
+      "speaker_guid": "6ee802ad-896c-4d65-95ff-d99091c9e2ca",
+      "speaker": "MaverickJohnston (Male)",
+      "utterance": "Here, this is for your work today. I'll be in touch once we get that script!",
+      "support_knowledge": []
+    },
+    {
+      "id": 57,
+      "speaker_guid": "6ee802ad-896c-4d65-95ff-d99091c9e2ca",
+      "speaker": "MaverickJohnston (Male)",
+      "utterance": "Amazing. Just firm up that jawline and you'll be a triple threat!",
+      "support_knowledge": []
+    }
+  ],
+  "dialog_edges": [
+    [
+      48,
+      55
+    ],
+    [
+      48,
+      53
+    ],
+    [
+      48,
+      80
+    ],
+    [
+      55,
+      56
+    ],
+    [
+      56,
+      54
+    ],
+    [
+      54,
+      58
+    ],
+    [
+      58,
+      49
+    ],
+    [
+      53,
+      57
+    ],
+    [
+      57,
+      54
+    ],
+    [
+      80,
+      57
+    ]
+  ]
+}

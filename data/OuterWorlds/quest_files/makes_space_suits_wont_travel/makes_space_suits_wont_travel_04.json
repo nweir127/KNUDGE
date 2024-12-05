@@ -1,0 +1,218 @@
+{
+  "id": "makes_space_suits_wont_travel_04",
+  "quest_name": "makes_space_suits_wont_travel",
+  "conversation": {
+    "filename": "0202_cv_hps_clerk_02",
+    "start_node": 2,
+    "end_nodes": [
+      5
+    ],
+    "force_include": [
+      4
+    ],
+    "force_sequence": []
+  },
+  "in_objective": "O6",
+  "out_objective": "O6",
+  "participants": [
+    "wanda_chen"
+  ],
+  "objectives": {
+    "O6": {
+      "summary": "Get the Lapel from HPS",
+      "description": {
+        "S1": "Every Jolicoeur Original comes with a hand-crafted golden lapel.",
+        "S2": "Celeste ordered a lapel to commemorate her prototype,",
+        "S3": "but the parcel must be signed for and is still at HPS.",
+        "S4": "Head to HPS and retrieve the parcel containing her lapel."
+      },
+      "blurb": {
+        "B1": "Head there and speak to Olive Yates.",
+        "B2": "She'll tell you to go to window B.",
+        "B3": "Speak to Wanda Chen in window B to learn the parcel is already out for delivery.",
+        "B4": "Head to the nav marker in the Estates District and read the note left on the door to learn that the parcel is now back at the HPS,",
+        "B5": "you'll get the HPS Delivery Unsuccessful quest item.",
+        "B6": "Speak to Wanda Chen again and she'll tell you to head to window A.",
+        "B7": "Speak with Olive in Window A and show her your verification to receive the parcel and the Gold Lapel quest item.",
+        "B8": "Then head back to Celeste."
+      }
+    }
+  },
+  "dialog": [
+    {
+      "id": 2,
+      "speaker_guid": "e02c8ab2-5160-4927-829b-0f1e7ae5102a",
+      "speaker": "HPSClerk02 (Female)",
+      "utterance": "Welcome to Halcyon Parcel Service, where all parcels are guaranteed to be delivered within acceptable margins of certainty.",
+      "support_knowledge": [
+        "halcyon_parcel_service_01",
+        "wanda_chen_01"
+      ]
+    },
+    {
+      "id": 3,
+      "speaker_guid": "e02c8ab2-5160-4927-829b-0f1e7ae5102a",
+      "speaker": "HPSClerk02 (Female)",
+      "utterance": "How may I be of assistance?",
+      "support_knowledge": []
+    },
+    {
+      "id": 4,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I'm here to collect a parcel for Celeste Jolicoeur.",
+      "support_knowledge": [
+        "O6_S4"
+      ]
+    },
+    {
+      "id": 6,
+      "speaker_guid": "e02c8ab2-5160-4927-829b-0f1e7ae5102a",
+      "speaker": "HPSClerk02 (Female)",
+      "utterance": "Let me just look that up for you.",
+      "support_knowledge": []
+    },
+    {
+      "id": 7,
+      "speaker_guid": "e02c8ab2-5160-4927-829b-0f1e7ae5102a",
+      "speaker": "HPSClerk02 (Female)",
+      "utterance": "It appears that a parcel for Ms. Jolicoeur-comma-Celeste is currently out for delivery.",
+      "support_knowledge": [
+        "O6_B3"
+      ]
+    },
+    {
+      "id": 10,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I was told the parcel was being held here.",
+      "support_knowledge": [
+        "O6_S3"
+      ]
+    },
+    {
+      "id": 15,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "It is being delivered to Miss Jolicoeur's address right?",
+      "support_knowledge": []
+    },
+    {
+      "id": 8,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Out for delivery where, exactly?",
+      "support_knowledge": [
+        "O6_B3"
+      ]
+    },
+    {
+      "id": 12,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I don't have time for this.",
+      "support_knowledge": []
+    },
+    {
+      "id": 11,
+      "speaker_guid": "e02c8ab2-5160-4927-829b-0f1e7ae5102a",
+      "speaker": "HPSClerk02 (Female)",
+      "utterance": "It was! And now it's being delivered.",
+      "support_knowledge": [
+        "O6_S3",
+        "O6_B3"
+      ]
+    },
+    {
+      "id": 9,
+      "speaker_guid": "e02c8ab2-5160-4927-829b-0f1e7ae5102a",
+      "speaker": "HPSClerk02 (Female)",
+      "utterance": "Let me see here. A parcel for Jolicoeur-comma-Celeste is being delivered to 316 Rockwell, in the Byzantium Estates.",
+      "support_knowledge": [
+        "O6_B4"
+      ]
+    },
+    {
+      "id": 13,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I'll be on my way.",
+      "support_knowledge": []
+    },
+    {
+      "id": 16,
+      "speaker_guid": "e02c8ab2-5160-4927-829b-0f1e7ae5102a",
+      "speaker": "HPSClerk02 (Female)",
+      "utterance": "Thank you for allowing HPS to be your only option today.",
+      "support_knowledge": [
+        "halcyon_parcel_service_03"
+      ]
+    }
+  ],
+  "dialog_edges": [
+    [
+      2,
+      3
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      4,
+      6
+    ],
+    [
+      6,
+      7
+    ],
+    [
+      7,
+      10
+    ],
+    [
+      7,
+      15
+    ],
+    [
+      7,
+      8
+    ],
+    [
+      7,
+      12
+    ],
+    [
+      10,
+      11
+    ],
+    [
+      11,
+      15
+    ],
+    [
+      11,
+      8
+    ],
+    [
+      11,
+      12
+    ],
+    [
+      15,
+      9
+    ],
+    [
+      9,
+      13
+    ],
+    [
+      13,
+      16
+    ],
+    [
+      8,
+      9
+    ]
+  ]
+}

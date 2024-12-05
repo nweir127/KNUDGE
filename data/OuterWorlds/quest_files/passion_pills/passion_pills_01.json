@@ -1,0 +1,1130 @@
+{
+  "id": "passion_pills_01",
+  "quest_name": "passion_pills",
+  "conversation": {
+    "filename": "0402_cv_abigail_edwards",
+    "start_node": 1,
+    "end_nodes": [
+      3
+    ],
+    "force_include": [
+      93,
+      10,
+      216,
+      162,
+      52,
+      131,
+      209,
+      147
+    ],
+    "force_sequence": []
+  },
+  "in_objective": "O1",
+  "out_objective": "O2",
+  "participants": [
+    "abigail_edwards"
+  ],
+  "dialog_edges": [
+    [
+      1,
+      2
+    ],
+    [
+      2,
+      93
+    ],
+    [
+      2,
+      10
+    ],
+    [
+      2,
+      216
+    ],
+    [
+      2,
+      6
+    ],
+    [
+      93,
+      94
+    ],
+    [
+      94,
+      146
+    ],
+    [
+      146,
+      148
+    ],
+    [
+      148,
+      147
+    ],
+    [
+      148,
+      12
+    ],
+    [
+      148,
+      112
+    ],
+    [
+      148,
+      104
+    ],
+    [
+      147,
+      151
+    ],
+    [
+      151,
+      177
+    ],
+    [
+      177,
+      190
+    ],
+    [
+      177,
+      191
+    ],
+    [
+      177,
+      192
+    ],
+    [
+      190,
+      194
+    ],
+    [
+      194,
+      152
+    ],
+    [
+      152,
+      200
+    ],
+    [
+      152,
+      112
+    ],
+    [
+      152,
+      104
+    ],
+    [
+      200,
+      153
+    ],
+    [
+      153,
+      154
+    ],
+    [
+      154,
+      17
+    ],
+    [
+      17,
+      45
+    ],
+    [
+      17,
+      140
+    ],
+    [
+      17,
+      141
+    ],
+    [
+      45,
+      204
+    ],
+    [
+      204,
+      46
+    ],
+    [
+      46,
+      162
+    ],
+    [
+      46,
+      52
+    ],
+    [
+      46,
+      131
+    ],
+    [
+      46,
+      121
+    ],
+    [
+      162,
+      163
+    ],
+    [
+      163,
+      164
+    ],
+    [
+      164,
+      209
+    ],
+    [
+      164,
+      210
+    ],
+    [
+      209,
+      211
+    ],
+    [
+      211,
+      46
+    ],
+    [
+      210,
+      212
+    ],
+    [
+      212,
+      46
+    ],
+    [
+      52,
+      53
+    ],
+    [
+      53,
+      206
+    ],
+    [
+      53,
+      207
+    ],
+    [
+      206,
+      158
+    ],
+    [
+      158,
+      159
+    ],
+    [
+      159,
+      46
+    ],
+    [
+      207,
+      208
+    ],
+    [
+      208,
+      158
+    ],
+    [
+      131,
+      132
+    ],
+    [
+      132,
+      161
+    ],
+    [
+      121,
+      160
+    ],
+    [
+      140,
+      142
+    ],
+    [
+      142,
+      205
+    ],
+    [
+      205,
+      46
+    ],
+    [
+      141,
+      143
+    ],
+    [
+      143,
+      205
+    ],
+    [
+      191,
+      195
+    ],
+    [
+      195,
+      152
+    ],
+    [
+      192,
+      193
+    ],
+    [
+      193,
+      196
+    ],
+    [
+      196,
+      197
+    ],
+    [
+      196,
+      203
+    ],
+    [
+      196,
+      198
+    ],
+    [
+      197,
+      201
+    ],
+    [
+      201,
+      202
+    ],
+    [
+      202,
+      200
+    ],
+    [
+      202,
+      112
+    ],
+    [
+      202,
+      104
+    ],
+    [
+      203,
+      201
+    ],
+    [
+      198,
+      199
+    ],
+    [
+      199,
+      200
+    ],
+    [
+      199,
+      112
+    ],
+    [
+      199,
+      104
+    ],
+    [
+      12,
+      153
+    ],
+    [
+      112,
+      113
+    ],
+    [
+      113,
+      150
+    ],
+    [
+      150,
+      178
+    ],
+    [
+      150,
+      179
+    ],
+    [
+      178,
+      181
+    ],
+    [
+      181,
+      182
+    ],
+    [
+      182,
+      148
+    ],
+    [
+      179,
+      183
+    ],
+    [
+      183,
+      182
+    ],
+    [
+      104,
+      105
+    ],
+    [
+      105,
+      149
+    ],
+    [
+      149,
+      186
+    ],
+    [
+      149,
+      187
+    ],
+    [
+      186,
+      189
+    ],
+    [
+      189,
+      147
+    ],
+    [
+      189,
+      12
+    ],
+    [
+      189,
+      112
+    ],
+    [
+      189,
+      235
+    ],
+    [
+      187,
+      188
+    ],
+    [
+      188,
+      147
+    ],
+    [
+      188,
+      12
+    ],
+    [
+      188,
+      112
+    ],
+    [
+      188,
+      235
+    ],
+    [
+      10,
+      11
+    ],
+    [
+      11,
+      148
+    ],
+    [
+      216,
+      219
+    ],
+    [
+      219,
+      220
+    ],
+    [
+      219,
+      221
+    ],
+    [
+      220,
+      222
+    ],
+    [
+      222,
+      2
+    ],
+    [
+      221,
+      223
+    ],
+    [
+      223,
+      2
+    ]
+  ],
+  "dialog": [
+    {
+      "id": 1,
+      "speaker_guid": "764b0e63-654c-4c97-81a8-e73eb96befbe",
+      "speaker": "Abigail Edwards (Female)",
+      "utterance": "Hello, dearie! Why, I don't believe I've seen you before. And with sweet cheeks like those, I'd remember.",
+      "support_knowledge": [
+        "abigail_edwards_05"
+      ]
+    },
+    {
+      "id": 2,
+      "speaker_guid": "764b0e63-654c-4c97-81a8-e73eb96befbe",
+      "speaker": "Abigail Edwards (Female)",
+      "utterance": "What can Auntie Abigail do for you?",
+      "support_knowledge": []
+    },
+    {
+      "id": 93,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I've been asked to pick up a Caffenoid supplement.",
+      "support_knowledge": [
+        "O0_B3",
+        "caffenoid_01"
+      ]
+    },
+    {
+      "id": 10,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I've been asked to pick up medicine. Some kind of caffeine? Or... steroids?",
+      "support_knowledge": [
+        "O0_B3",
+        "O1_S1"
+      ]
+    },
+    {
+      "id": 216,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Are you in charge of handing out medicine?",
+      "support_knowledge": [
+        "O1_B1",
+        "abigail_edwards_01"
+      ]
+    },
+    {
+      "id": 6,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Nothing for now, thanks.",
+      "support_knowledge": []
+    },
+    {
+      "id": 94,
+      "speaker_guid": "764b0e63-654c-4c97-81a8-e73eb96befbe",
+      "speaker": "Abigail Edwards (Female)",
+      "utterance": "And what a helpful young man you are! Nothing like a little pill to liven up the spirits.",
+      "support_knowledge": []
+    },
+    {
+      "id": 146,
+      "speaker_guid": "764b0e63-654c-4c97-81a8-e73eb96befbe",
+      "speaker": "Abigail Edwards (Female)",
+      "utterance": "Who's your lucky \"friend,\" dearie?",
+      "support_knowledge": [
+        "abigail_edwards_05"
+      ]
+    },
+    {
+      "id": 148,
+      "speaker_guid": "764b0e63-654c-4c97-81a8-e73eb96befbe",
+      "speaker": "Abigail Edwards (Female)",
+      "utterance": "Now, dearie, who's this pickup for?",
+      "support_knowledge": [
+        "caffenoid_01"
+      ]
+    },
+    {
+      "id": 147,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Actually, the pills are for me.",
+      "support_knowledge": [
+        "O1_B2"
+      ]
+    },
+    {
+      "id": 12,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "It's for Nyoka.",
+      "support_knowledge": [
+        "O1_B2"
+      ]
+    },
+    {
+      "id": 112,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I dunno, Auntie. You'll have to pry that secret from my sweet little cheeks.",
+      "support_knowledge": [
+        "abigail_edwards_05"
+      ]
+    },
+    {
+      "id": 104,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "That's private.",
+      "support_knowledge": []
+    },
+    {
+      "id": 151,
+      "speaker_guid": "764b0e63-654c-4c97-81a8-e73eb96befbe",
+      "speaker": "Abigail Edwards (Female)",
+      "utterance": "I'm so sorry, but with the Iconoclasts and the marauder filth chasing away what little trade we get, I'm afraid I have to reserve my supply for Stellar Bay residents.",
+      "support_knowledge": [
+        "O1_B3"
+      ]
+    },
+    {
+      "id": 177,
+      "speaker_guid": "764b0e63-654c-4c97-81a8-e73eb96befbe",
+      "speaker": "Abigail Edwards (Female)",
+      "utterance": "Our reserves have gotten so low, I've even had to start locking the supply room upstairs! Isn't it a shame what some people will do to get a little extra?",
+      "support_knowledge": [
+        "O1_S4"
+      ]
+    },
+    {
+      "id": 190,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "You can't trust people these days.",
+      "support_knowledge": []
+    },
+    {
+      "id": 191,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Oh. That's just AWFUL.",
+      "support_knowledge": []
+    },
+    {
+      "id": 192,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "You don't give five-finger discounts, Auntie?",
+      "support_knowledge": []
+    },
+    {
+      "id": 194,
+      "speaker_guid": "764b0e63-654c-4c97-81a8-e73eb96befbe",
+      "speaker": "Abigail Edwards (Female)",
+      "utterance": "Except for you. I can tell - you've got one of those faces.",
+      "support_knowledge": [
+        "abigail_edwards_05"
+      ]
+    },
+    {
+      "id": 152,
+      "speaker_guid": "764b0e63-654c-4c97-81a8-e73eb96befbe",
+      "speaker": "Abigail Edwards (Female)",
+      "utterance": "I'd make an exception for you if I could, my little cherub. Is there... anyone else needing a special pickup from Auntie Abigail?",
+      "support_knowledge": [
+        "O1_B4",
+        "abigail_edwards_05"
+      ]
+    },
+    {
+      "id": 200,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Nyoka.",
+      "support_knowledge": [
+        "O1_B4"
+      ]
+    },
+    {
+      "id": 153,
+      "speaker_guid": "764b0e63-654c-4c97-81a8-e73eb96befbe",
+      "speaker": "Abigail Edwards (Female)",
+      "utterance": "Oh. Her.",
+      "support_knowledge": []
+    },
+    {
+      "id": 154,
+      "speaker_guid": "764b0e63-654c-4c97-81a8-e73eb96befbe",
+      "speaker": "Abigail Edwards (Female)",
+      "utterance": "It's none of my business, but I have told her Dr. Williams would bump up her monthly allotment if only she'd join MSI. Contribute like the rest of us.",
+      "support_knowledge": [
+        "O1_B5",
+        "O1_B6"
+      ]
+    },
+    {
+      "id": 17,
+      "speaker_guid": "764b0e63-654c-4c97-81a8-e73eb96befbe",
+      "speaker": "Abigail Edwards (Female)",
+      "utterance": "Now I've gone and said too much. And you know me, dearie, I don't like to pry.",
+      "support_knowledge": []
+    },
+    {
+      "id": 45,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "There must be some way I can increase Nyoka's allotment.",
+      "support_knowledge": [
+        "O1_B6"
+      ]
+    },
+    {
+      "id": 140,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "When can Nyoka get her next dose?",
+      "support_knowledge": []
+    },
+    {
+      "id": 141,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Doesn't anyone else on Monarch have Caffenoid?",
+      "support_knowledge": []
+    },
+    {
+      "id": 204,
+      "speaker_guid": "764b0e63-654c-4c97-81a8-e73eb96befbe",
+      "speaker": "Abigail Edwards (Female)",
+      "utterance": "I'm afraid not.",
+      "support_knowledge": []
+    },
+    {
+      "id": 46,
+      "speaker_guid": "764b0e63-654c-4c97-81a8-e73eb96befbe",
+      "speaker": "Abigail Edwards (Female)",
+      "utterance": "Dr. Williams managed the town's allotments from his terminal upstairs. Even I can't access them.",
+      "support_knowledge": [
+        "O1_S3"
+      ]
+    },
+    {
+      "id": 162,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I thought you were in charge around here, Auntie. You sure ought to be.",
+      "support_knowledge": [
+        "abigail_edwards_05"
+      ]
+    },
+    {
+      "id": 52,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Where can I find this Dr. Williams?",
+      "support_knowledge": [
+        "O1_B9",
+        "O1_B13",
+        "dr_williams_01"
+      ]
+    },
+    {
+      "id": 131,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Enough sweet talk. Get me Caffenoid, or you're gonna need a taste of your own medicine.",
+      "support_knowledge": [
+        "O1_B9"
+      ]
+    },
+    {
+      "id": 121,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I guess I'll have to figure this out on my own.",
+      "support_knowledge": []
+    },
+    {
+      "id": 163,
+      "speaker_guid": "764b0e63-654c-4c97-81a8-e73eb96befbe",
+      "speaker": "Abigail Edwards (Female)",
+      "utterance": "Oh, you flatter an old woman! Me, I'm just here to be a pretty face for the customers. ",
+      "support_knowledge": [
+        "abigail_edwards_05"
+      ]
+    },
+    {
+      "id": 164,
+      "speaker_guid": "764b0e63-654c-4c97-81a8-e73eb96befbe",
+      "speaker": "Abigail Edwards (Female)",
+      "utterance": "And to keep an extra key to the supply room. For all the times Dr. Williams misplaced his.",
+      "support_knowledge": [
+        "O1_S5"
+      ]
+    },
+    {
+      "id": 209,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Supply room?",
+      "support_knowledge": [
+        "O1_S4"
+      ]
+    },
+    {
+      "id": 210,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Forgetful fellow, eh?",
+      "support_knowledge": []
+    },
+    {
+      "id": 211,
+      "speaker_guid": "764b0e63-654c-4c97-81a8-e73eb96befbe",
+      "speaker": "Abigail Edwards (Female)",
+      "utterance": "The one upstairs, where we store our medicines.",
+      "support_knowledge": [
+        "O1_S4"
+      ]
+    },
+    {
+      "id": 212,
+      "speaker_guid": "764b0e63-654c-4c97-81a8-e73eb96befbe",
+      "speaker": "Abigail Edwards (Female)",
+      "utterance": "Careless experimentation with medicinal substances does take its toll eventually.",
+      "support_knowledge": [
+        "dr_williams_08"
+      ]
+    },
+    {
+      "id": 53,
+      "speaker_guid": "764b0e63-654c-4c97-81a8-e73eb96befbe",
+      "speaker": "Abigail Edwards (Female)",
+      "utterance": "In the town graveyard, I'm afraid. Poor man was always searching for the Flower of Enlightenment. On the way, he tried some... rather daring substance combinations.",
+      "support_knowledge": [
+        "dr_williams_04",
+        "dr_williams_07",
+        "dr_williams_08"
+      ]
+    },
+    {
+      "id": 206,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Where's the graveyard?",
+      "support_knowledge": [
+        "O1_B14"
+      ]
+    },
+    {
+      "id": 207,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "The Flower of Enlightenment?",
+      "support_knowledge": [
+        "dr_williams_04"
+      ]
+    },
+    {
+      "id": 158,
+      "speaker_guid": "764b0e63-654c-4c97-81a8-e73eb96befbe",
+      "speaker": "Abigail Edwards (Female)",
+      "utterance": "The graveyard's near the southern ruins. You're certainly welcome to pay your respects, but the bodies tend to attract beasties.",
+      "support_knowledge": []
+    },
+    {
+      "id": 159,
+      "speaker_guid": "764b0e63-654c-4c97-81a8-e73eb96befbe",
+      "speaker": "Abigail Edwards (Female)",
+      "utterance": "Do be careful. I'd hate for anything to happen to you, dearie.",
+      "support_knowledge": []
+    },
+    {
+      "id": 208,
+      "speaker_guid": "764b0e63-654c-4c97-81a8-e73eb96befbe",
+      "speaker": "Abigail Edwards (Female)",
+      "utterance": "It's a Philosophist symbol of some kind, dearie, never you mind. ",
+      "support_knowledge": []
+    },
+    {
+      "id": 132,
+      "speaker_guid": "764b0e63-654c-4c97-81a8-e73eb96befbe",
+      "speaker": "Abigail Edwards (Female)",
+      "utterance": "Well, this certainly isn't worth my good health. I'll get you a dose, but I'll have you know, I'm very disappointed in you.",
+      "support_knowledge": [
+        "O1_B9"
+      ]
+    },
+    {
+      "id": 161,
+      "speaker_guid": "764b0e63-654c-4c97-81a8-e73eb96befbe",
+      "speaker": "Abigail Edwards (Female)",
+      "utterance": "There, and good riddance. That's the last help you're getting from Abigail Edwards. ",
+      "support_knowledge": []
+    },
+    {
+      "id": 160,
+      "speaker_guid": "764b0e63-654c-4c97-81a8-e73eb96befbe",
+      "speaker": "Abigail Edwards (Female)",
+      "utterance": "Chin up, dearie.",
+      "support_knowledge": []
+    },
+    {
+      "id": 142,
+      "speaker_guid": "764b0e63-654c-4c97-81a8-e73eb96befbe",
+      "speaker": "Abigail Edwards (Female)",
+      "utterance": "I'm afraid it'll be the better part of a month. Our dear Nyoka tends to exhaust her supply rather quickly.",
+      "support_knowledge": [
+        "O1_S2",
+        "nyoka_04"
+      ]
+    },
+    {
+      "id": 205,
+      "speaker_guid": "764b0e63-654c-4c97-81a8-e73eb96befbe",
+      "speaker": "Abigail Edwards (Female)",
+      "utterance": "Believe me, there's nothing I'd love better than to help you, but there's not much I can do.",
+      "support_knowledge": []
+    },
+    {
+      "id": 143,
+      "speaker_guid": "764b0e63-654c-4c97-81a8-e73eb96befbe",
+      "speaker": "Abigail Edwards (Female)",
+      "utterance": "If so, I would love to know where. SubLight's supplies don't come cheap.",
+      "support_knowledge": []
+    },
+    {
+      "id": 195,
+      "speaker_guid": "764b0e63-654c-4c97-81a8-e73eb96befbe",
+      "speaker": "Abigail Edwards (Female)",
+      "utterance": "Isn't it just?",
+      "support_knowledge": []
+    },
+    {
+      "id": 193,
+      "speaker_guid": "764b0e63-654c-4c97-81a8-e73eb96befbe",
+      "speaker": "Abigail Edwards (Female)",
+      "utterance": "Aren't you a naughty boy! ",
+      "support_knowledge": [
+        "abigail_edwards_05"
+      ]
+    },
+    {
+      "id": 196,
+      "speaker_guid": "764b0e63-654c-4c97-81a8-e73eb96befbe",
+      "speaker": "Abigail Edwards (Female)",
+      "utterance": "There are no discounts here. But Auntie knows what to do with mischievous young men like you.",
+      "support_knowledge": [
+        "abigail_edwards_05"
+      ]
+    },
+    {
+      "id": 197,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "What?",
+      "support_knowledge": []
+    },
+    {
+      "id": 203,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "What?!",
+      "support_knowledge": []
+    },
+    {
+      "id": 198,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Let's change the subject. Right now.",
+      "support_knowledge": []
+    },
+    {
+      "id": 201,
+      "speaker_guid": "764b0e63-654c-4c97-81a8-e73eb96befbe",
+      "speaker": "Abigail Edwards (Female)",
+      "utterance": "Oh, I'd have to talk to Mr. Nandi about you, of course.",
+      "support_knowledge": []
+    },
+    {
+      "id": 202,
+      "speaker_guid": "764b0e63-654c-4c97-81a8-e73eb96befbe",
+      "speaker": "Abigail Edwards (Female)",
+      "utterance": "Anyway, is there anyone else needing a pickup from Auntie Abigail?",
+      "support_knowledge": [
+        "O1_B4"
+      ]
+    },
+    {
+      "id": 199,
+      "speaker_guid": "764b0e63-654c-4c97-81a8-e73eb96befbe",
+      "speaker": "Abigail Edwards (Female)",
+      "utterance": "Of course. Is there anyone else needing a pickup from Auntie Abigail?",
+      "support_knowledge": [
+        "O1_B4"
+      ]
+    },
+    {
+      "id": 113,
+      "speaker_guid": "764b0e63-654c-4c97-81a8-e73eb96befbe",
+      "speaker": "Abigail Edwards (Female)",
+      "utterance": "Aren't you a saucy thing! ",
+      "support_knowledge": [
+        "abigail_edwards_05"
+      ]
+    },
+    {
+      "id": 150,
+      "speaker_guid": "764b0e63-654c-4c97-81a8-e73eb96befbe",
+      "speaker": "Abigail Edwards (Female)",
+      "utterance": "I may not be a fresh young thing any more, but with age comes experience, dearie.",
+      "support_knowledge": [
+        "abigail_edwards_05"
+      ]
+    },
+    {
+      "id": 178,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Uh-huh. Why don't you show me a thing or two?",
+      "support_knowledge": [
+        "abigail_edwards_05"
+      ]
+    },
+    {
+      "id": 179,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "This got weird fast.",
+      "support_knowledge": [
+        "abigail_edwards_05"
+      ]
+    },
+    {
+      "id": 181,
+      "speaker_guid": "764b0e63-654c-4c97-81a8-e73eb96befbe",
+      "speaker": "Abigail Edwards (Female)",
+      "utterance": "Much as I'd love to, my rheumatism is especially fierce at the moment, and I'm all out of my medicine. ",
+      "support_knowledge": [
+        "abigail_edwards_05"
+      ]
+    },
+    {
+      "id": 182,
+      "speaker_guid": "764b0e63-654c-4c97-81a8-e73eb96befbe",
+      "speaker": "Abigail Edwards (Female)",
+      "utterance": "But I'd hate to send you away empty-handed. You were here for Caffenoid, weren't you? Who's it for?",
+      "support_knowledge": [
+        "O1_B2"
+      ]
+    },
+    {
+      "id": 183,
+      "speaker_guid": "764b0e63-654c-4c97-81a8-e73eb96befbe",
+      "speaker": "Abigail Edwards (Female)",
+      "utterance": "Maybe some other time, then. When Auntie's personal allotment of Stimu-Lotion is restored.",
+      "support_knowledge": [
+        "abigail_edwards_05"
+      ]
+    },
+    {
+      "id": 105,
+      "speaker_guid": "764b0e63-654c-4c97-81a8-e73eb96befbe",
+      "speaker": "Abigail Edwards (Female)",
+      "utterance": "Now, now, there's no keeping secrets from Auntie Abigail! I'll tease it out of you one way or another.",
+      "support_knowledge": [
+        "O1_B2",
+        "abigail_edwards_05"
+      ]
+    },
+    {
+      "id": 149,
+      "speaker_guid": "764b0e63-654c-4c97-81a8-e73eb96befbe",
+      "speaker": "Abigail Edwards (Female)",
+      "utterance": "Also, I really do have to enter someone's name for the allotment. After all, I have to keep track of where our little pills wander off to.",
+      "support_knowledge": [
+        "O1_B2"
+      ]
+    },
+    {
+      "id": 186,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I suppose that's reasonable.",
+      "support_knowledge": []
+    },
+    {
+      "id": 187,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Rather nosy, aren't you?",
+      "support_knowledge": []
+    },
+    {
+      "id": 189,
+      "speaker_guid": "764b0e63-654c-4c97-81a8-e73eb96befbe",
+      "speaker": "Abigail Edwards (Female)",
+      "utterance": "Indeed. Now, how about you tell Auntie who this pickup's for?",
+      "support_knowledge": [
+        "O1_B2"
+      ]
+    },
+    {
+      "id": 235,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Never mind.",
+      "support_knowledge": []
+    },
+    {
+      "id": 188,
+      "speaker_guid": "764b0e63-654c-4c97-81a8-e73eb96befbe",
+      "speaker": "Abigail Edwards (Female)",
+      "utterance": "Now, now, dearie. It is my job, after all.",
+      "support_knowledge": []
+    },
+    {
+      "id": 11,
+      "speaker_guid": "764b0e63-654c-4c97-81a8-e73eb96befbe",
+      "speaker": "Abigail Edwards (Female)",
+      "utterance": "Bless your little heart, you must mean Caffenoid. \"If it's pep you need, one pill does the deed!\"",
+      "support_knowledge": [
+        "caffenoid_01"
+      ]
+    },
+    {
+      "id": 219,
+      "speaker_guid": "764b0e63-654c-4c97-81a8-e73eb96befbe",
+      "speaker": "Abigail Edwards (Female)",
+      "utterance": "Yes, indeed. Someone's got to keep Stellar Bay's people healthy and energized!",
+      "support_knowledge": [
+        "abigail_edwards_01"
+      ]
+    },
+    {
+      "id": 220,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "You certainly seem excited about your job.",
+      "support_knowledge": [
+        "abigail_edwards_02"
+      ]
+    },
+    {
+      "id": 221,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I guess so.",
+      "support_knowledge": []
+    },
+    {
+      "id": 222,
+      "speaker_guid": "764b0e63-654c-4c97-81a8-e73eb96befbe",
+      "speaker": "Abigail Edwards (Female)",
+      "utterance": "Oh, but I am. I get to see plenty of my neighbors here, and I do dearly love a little gossip.",
+      "support_knowledge": [
+        "abigail_edwards_02"
+      ]
+    },
+    {
+      "id": 223,
+      "speaker_guid": "764b0e63-654c-4c97-81a8-e73eb96befbe",
+      "speaker": "Abigail Edwards (Female)",
+      "utterance": "You certainly seem like you could use a Pep-You-Up, dearie.",
+      "support_knowledge": []
+    }
+  ]
+}

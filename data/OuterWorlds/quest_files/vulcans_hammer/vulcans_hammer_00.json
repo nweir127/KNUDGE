@@ -1,0 +1,686 @@
+{
+  "id": "vulcans_hammer_00",
+  "quest_name": "vulcans_hammer",
+  "conversation": {
+    "filename": "08_cv_scientist_orson",
+    "start_node": 86,
+    "end_nodes": [],
+    "force_include": [
+      155
+    ],
+    "force_sequence": []
+  },
+  "in_objective": "O0",
+  "out_objective": "O1",
+  "participants": [
+    "orson_shaw"
+  ],
+  "objectives": {
+    "O0": {
+      "description": {
+        "S1": "Orson Shaw, one of Roseway's labcoats,",
+        "S2": "has been tinkering with a prototype pistol.",
+        "S3": "He left schematics for it in the town's Storage Facility,",
+        "S4": "but didn't have a chance to grab them when the marauders attacked.",
+        "S5": "He'd like them returned."
+      },
+      "blurb": {
+        "B1": "Orson Shaw is a Roseway scientist who can be found near a workbench in a building near the Cysty-Pit.",
+        "B2": "If the Stranger speaks to Orson,",
+        "B3": "they can offer to assist with retrieving some schematics that Orson left in Roseway's Storage Facility,",
+        "B4": "before anyone else can find them.",
+        "B5": "These schematics will help him modify a broken pistol which he found so that it outputs superheated air and becomes capable of burning through raptidon hides."
+      }
+    },
+    "O1": {
+      "summary": "Retrieve Orson's Schematics",
+      "description": {
+        "S1": "Auntie Cleo's Storage Facility can be found by leaving Rosemary via the south entrance and passing east,",
+        "S2": "over hills and countryside."
+      },
+      "blurb": {
+        "B1": "Head out of Roseway to the south and make your way to the Storage Facility.",
+        "B2": "Once there, defeat the marauders and you will come to an Armory Door that is locked.",
+        "B3": "You need Storage Facility Passcode from Auntie-Biotics Lab to get in.",
+        "B4": "Come back with the code and loot the FORCE Pistol Schematics from the basement (it's on the wall, 11000xp)."
+      }
+    }
+  },
+  "dialog": [
+    {
+      "id": 86,
+      "speaker_guid": "3001cfe4-cd15-4d6d-9ee9-d949a97015f2",
+      "speaker": "OrsonShaw (Male)",
+      "utterance": "Ah. Outlaws, I assume. Do me a favor and let me finish this, will you? And then--make it quick, please.",
+      "support_knowledge": [
+        "outlaws_01"
+      ]
+    },
+    {
+      "id": 87,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "What are you talking about?",
+      "support_knowledge": []
+    },
+    {
+      "id": 88,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I'm not here to kill you.",
+      "support_knowledge": []
+    },
+    {
+      "id": 197,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I can see you're busy. I'll leave you to it.",
+      "support_knowledge": []
+    },
+    {
+      "id": 95,
+      "speaker_guid": "3001cfe4-cd15-4d6d-9ee9-d949a97015f2",
+      "speaker": "OrsonShaw (Male)",
+      "utterance": "Aren't you with the brutes that attacked our lab? Aren't you here to pillage our supplies and leave our corpses to the raptidons?",
+      "support_knowledge": [
+        "raptidon_01"
+      ]
+    },
+    {
+      "id": 96,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I'm here to help. Someone sent out a distress call.",
+      "support_knowledge": []
+    },
+    {
+      "id": 97,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I heard there was a bit of trouble here and thought I'd check it out.",
+      "support_knowledge": []
+    },
+    {
+      "id": 98,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "It's none of your business who I am.",
+      "support_knowledge": []
+    },
+    {
+      "id": 133,
+      "speaker_guid": "3001cfe4-cd15-4d6d-9ee9-d949a97015f2",
+      "speaker": "OrsonShaw (Male)",
+      "utterance": "...oh. Well. Good luck.",
+      "support_knowledge": []
+    },
+    {
+      "id": 134,
+      "speaker_guid": "3001cfe4-cd15-4d6d-9ee9-d949a97015f2",
+      "speaker": "OrsonShaw (Male)",
+      "utterance": "[The scientist seems to have forgotten you're there.]",
+      "support_knowledge": []
+    },
+    {
+      "id": 135,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Hello?",
+      "support_knowledge": []
+    },
+    {
+      "id": 136,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "What are you doing there?",
+      "support_knowledge": []
+    },
+    {
+      "id": 138,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Who are you, anyway?",
+      "support_knowledge": []
+    },
+    {
+      "id": 137,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Uh... thanks.",
+      "support_knowledge": []
+    },
+    {
+      "id": 140,
+      "speaker_guid": "3001cfe4-cd15-4d6d-9ee9-d949a97015f2",
+      "speaker": "OrsonShaw (Male)",
+      "utterance": "Oh. You're still here. If you haven't already, you might speak to Anton. He can point you in the right direction.",
+      "support_knowledge": []
+    },
+    {
+      "id": 144,
+      "speaker_guid": "3001cfe4-cd15-4d6d-9ee9-d949a97015f2",
+      "speaker": "OrsonShaw (Male)",
+      "utterance": "What does it look like? I'm preparing a personal defense device. Or ... trying to, anyway.",
+      "support_knowledge": [
+        "O0_S2",
+        "orson_shaw_06"
+      ]
+    },
+    {
+      "id": 150,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Need a hand?",
+      "support_knowledge": [
+        "O0_B3"
+      ]
+    },
+    {
+      "id": 145,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "That looks pretty lethal. Are you allowed to mess with tech like that?",
+      "support_knowledge": [
+        "orson_shaw_07"
+      ]
+    },
+    {
+      "id": 146,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Oh, don't mind me, then. I'll get out of your hair.",
+      "support_knowledge": []
+    },
+    {
+      "id": 151,
+      "speaker_guid": "3001cfe4-cd15-4d6d-9ee9-d949a97015f2",
+      "speaker": "OrsonShaw (Male)",
+      "utterance": "No. Well, yes. Well... no. Perhaps.",
+      "support_knowledge": [
+        "O0_B3"
+      ]
+    },
+    {
+      "id": 152,
+      "speaker_guid": "3001cfe4-cd15-4d6d-9ee9-d949a97015f2",
+      "speaker": "OrsonShaw (Male)",
+      "utterance": "I left schematics in our storage facility. As far as I know, the security commander hasn't found them yet. I admit I'd feel better were they returned to me.",
+      "support_knowledge": [
+        "O0_S3",
+        "O0_S5"
+      ]
+    },
+    {
+      "id": 155,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Sure, I'll see what I can find.",
+      "support_knowledge": []
+    },
+    {
+      "id": 153,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Care to elaborate?",
+      "support_knowledge": []
+    },
+    {
+      "id": 154,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Where is this storage facility?",
+      "support_knowledge": []
+    },
+    {
+      "id": 156,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I don't have time.",
+      "support_knowledge": []
+    },
+    {
+      "id": 169,
+      "speaker_guid": "3001cfe4-cd15-4d6d-9ee9-d949a97015f2",
+      "speaker": "OrsonShaw (Male)",
+      "utterance": "Say, you wouldn't happen to have a tube of thermal paste on you, would you?",
+      "support_knowledge": []
+    },
+    {
+      "id": 170,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "...no.",
+      "support_knowledge": []
+    },
+    {
+      "id": 173,
+      "speaker_guid": "3001cfe4-cd15-4d6d-9ee9-d949a97015f2",
+      "speaker": "OrsonShaw (Male)",
+      "utterance": "Blast. Well, good luck. I hope I see you back here in one piece.",
+      "support_knowledge": []
+    },
+    {
+      "id": 157,
+      "speaker_guid": "3001cfe4-cd15-4d6d-9ee9-d949a97015f2",
+      "speaker": "OrsonShaw (Male)",
+      "utterance": "I found an advanced pistol when we moved here, but it's broken. I need those schematics to modify it to output superheated air. It should quite easily burn through raptidon hides.",
+      "support_knowledge": [
+        "O0_B5",
+        "raptidon_01"
+      ]
+    },
+    {
+      "id": 161,
+      "speaker_guid": "3001cfe4-cd15-4d6d-9ee9-d949a97015f2",
+      "speaker": "OrsonShaw (Male)",
+      "utterance": "Out the south gate, follow the road. It'll be on the left, past the old lab.",
+      "support_knowledge": []
+    },
+    {
+      "id": 149,
+      "speaker_guid": "3001cfe4-cd15-4d6d-9ee9-d949a97015f2",
+      "speaker": "OrsonShaw (Male)",
+      "utterance": "Certainly not. But Porter and his goons are busy with the outlaws and Anton's busy holding his head in his hands. Seems as good a time as any to get a bit of work done.",
+      "support_knowledge": [
+        "orson_shaw_07"
+      ]
+    },
+    {
+      "id": 5,
+      "speaker_guid": "3001cfe4-cd15-4d6d-9ee9-d949a97015f2",
+      "speaker": "OrsonShaw (Male)",
+      "utterance": "I am Orson Shaw, chief behavioral scientist.",
+      "support_knowledge": [
+        "orson_shaw_01"
+      ]
+    },
+    {
+      "id": 6,
+      "speaker_guid": "3001cfe4-cd15-4d6d-9ee9-d949a97015f2",
+      "speaker": "OrsonShaw (Male)",
+      "utterance": "I was brought in to study the raptidons. I was to ensure that, should a problem arise, our team is adequately equipped to deal with them.",
+      "support_knowledge": [
+        "orson_shaw_02"
+      ]
+    },
+    {
+      "id": 8,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "What'd you learn?",
+      "support_knowledge": []
+    },
+    {
+      "id": 167,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Seems like a waste of time to me. Just shoot the things.",
+      "support_knowledge": []
+    },
+    {
+      "id": 35,
+      "speaker_guid": "3001cfe4-cd15-4d6d-9ee9-d949a97015f2",
+      "speaker": "OrsonShaw (Male)",
+      "utterance": "They are insatiably hungry, absolutely impossible to control in any fashion, and indeed appear to be powered entirely by hate.",
+      "support_knowledge": [
+        "orson_shaw_03"
+      ]
+    },
+    {
+      "id": 37,
+      "speaker_guid": "3001cfe4-cd15-4d6d-9ee9-d949a97015f2",
+      "speaker": "OrsonShaw (Male)",
+      "utterance": "No amount of studying will enable us to control them--or even slightly sate their aggression.",
+      "support_knowledge": [
+        "orson_shaw_03"
+      ]
+    },
+    {
+      "id": 53,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "So your research amounted to nothing?",
+      "support_knowledge": []
+    },
+    {
+      "id": 54,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "And now they're loose. Great.",
+      "support_knowledge": []
+    },
+    {
+      "id": 55,
+      "speaker_guid": "3001cfe4-cd15-4d6d-9ee9-d949a97015f2",
+      "speaker": "OrsonShaw (Male)",
+      "utterance": "Not quite. We are now acutely aware of their weaknesses \u2013 bullets through the head.",
+      "support_knowledge": []
+    },
+    {
+      "id": 128,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Well, good to know.",
+      "support_knowledge": []
+    },
+    {
+      "id": 126,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "The head! I never would've thought of that.",
+      "support_knowledge": []
+    },
+    {
+      "id": 125,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "All your research amounted to... shooting them in the head?",
+      "support_knowledge": []
+    },
+    {
+      "id": 129,
+      "speaker_guid": "3001cfe4-cd15-4d6d-9ee9-d949a97015f2",
+      "speaker": "OrsonShaw (Male)",
+      "utterance": "That may seem an obvious conclusion, but believe it or not, some creatures' brains are not in their heads.",
+      "support_knowledge": []
+    },
+    {
+      "id": 56,
+      "speaker_guid": "3001cfe4-cd15-4d6d-9ee9-d949a97015f2",
+      "speaker": "OrsonShaw (Male)",
+      "utterance": "Indeed. Now that you fully grasp the gravity of the situation, I wonder if you might do me a favor.",
+      "support_knowledge": [
+        "O0_B3"
+      ]
+    },
+    {
+      "id": 141,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "What do you need?",
+      "support_knowledge": []
+    },
+    {
+      "id": 143,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I don't have the time, but maybe I'll stop by later.",
+      "support_knowledge": []
+    },
+    {
+      "id": 168,
+      "speaker_guid": "3001cfe4-cd15-4d6d-9ee9-d949a97015f2",
+      "speaker": "OrsonShaw (Male)",
+      "utterance": "As a matter of fact, I agree.",
+      "support_knowledge": []
+    },
+    {
+      "id": 101,
+      "speaker_guid": "3001cfe4-cd15-4d6d-9ee9-d949a97015f2",
+      "speaker": "OrsonShaw (Male)",
+      "utterance": "Too right. Carry on.",
+      "support_knowledge": []
+    },
+    {
+      "id": 94,
+      "speaker_guid": "3001cfe4-cd15-4d6d-9ee9-d949a97015f2",
+      "speaker": "OrsonShaw (Male)",
+      "utterance": "Oh. You aren't with the outlaws? Who are you, then?",
+      "support_knowledge": []
+    }
+  ],
+  "dialog_edges": [
+    [
+      86,
+      87
+    ],
+    [
+      86,
+      88
+    ],
+    [
+      86,
+      197
+    ],
+    [
+      87,
+      95
+    ],
+    [
+      95,
+      96
+    ],
+    [
+      95,
+      97
+    ],
+    [
+      95,
+      98
+    ],
+    [
+      96,
+      133
+    ],
+    [
+      133,
+      134
+    ],
+    [
+      134,
+      135
+    ],
+    [
+      134,
+      136
+    ],
+    [
+      134,
+      138
+    ],
+    [
+      134,
+      137
+    ],
+    [
+      135,
+      140
+    ],
+    [
+      140,
+      134
+    ],
+    [
+      136,
+      144
+    ],
+    [
+      144,
+      150
+    ],
+    [
+      144,
+      145
+    ],
+    [
+      144,
+      146
+    ],
+    [
+      150,
+      151
+    ],
+    [
+      151,
+      152
+    ],
+    [
+      152,
+      155
+    ],
+    [
+      152,
+      153
+    ],
+    [
+      152,
+      154
+    ],
+    [
+      152,
+      156
+    ],
+    [
+      155,
+      169
+    ],
+    [
+      169,
+      170
+    ],
+    [
+      170,
+      173
+    ],
+    [
+      153,
+      157
+    ],
+    [
+      157,
+      152
+    ],
+    [
+      154,
+      161
+    ],
+    [
+      161,
+      152
+    ],
+    [
+      145,
+      149
+    ],
+    [
+      149,
+      144
+    ],
+    [
+      138,
+      5
+    ],
+    [
+      5,
+      6
+    ],
+    [
+      6,
+      8
+    ],
+    [
+      6,
+      167
+    ],
+    [
+      8,
+      35
+    ],
+    [
+      35,
+      37
+    ],
+    [
+      37,
+      53
+    ],
+    [
+      37,
+      54
+    ],
+    [
+      53,
+      55
+    ],
+    [
+      55,
+      128
+    ],
+    [
+      55,
+      126
+    ],
+    [
+      55,
+      125
+    ],
+    [
+      128,
+      134
+    ],
+    [
+      126,
+      129
+    ],
+    [
+      129,
+      134
+    ],
+    [
+      125,
+      129
+    ],
+    [
+      54,
+      56
+    ],
+    [
+      56,
+      141
+    ],
+    [
+      56,
+      143
+    ],
+    [
+      141,
+      152
+    ],
+    [
+      167,
+      168
+    ],
+    [
+      168,
+      35
+    ],
+    [
+      97,
+      133
+    ],
+    [
+      98,
+      101
+    ],
+    [
+      101,
+      134
+    ],
+    [
+      88,
+      94
+    ],
+    [
+      94,
+      96
+    ],
+    [
+      94,
+      97
+    ],
+    [
+      94,
+      98
+    ]
+  ]
+}

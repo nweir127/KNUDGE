@@ -1,0 +1,132 @@
+{
+  "id": "a_cysty-dance_with_death_01",
+  "quest_name": "a_cysty-dance_with_death",
+  "conversation": {
+    "filename": "0407_cv_catherine_malin",
+    "start_node": 3,
+    "end_nodes": [],
+    "force_include": [
+      34
+    ]
+  },
+  "in_objective": "O1",
+  "out_objective": "O2",
+  "participants": [
+    "catherine_malin"
+  ],
+  "force_sequence": [],
+  "dialog_edges": [
+    [
+      3,
+      34
+    ],
+    [
+      3,
+      349
+    ],
+    [
+      3,
+      351
+    ],
+    [
+      34,
+      35
+    ],
+    [
+      35,
+      133
+    ],
+    [
+      349,
+      350
+    ],
+    [
+      350,
+      86
+    ],
+    [
+      86,
+      8
+    ]
+  ],
+  "dialog": [
+    {
+      "id": 3,
+      "speaker_guid": "dca98d32-b879-4ecf-8af5-f2424c4ce41f",
+      "speaker": "CatherineMalin (Female)",
+      "utterance": "How's Clive? I do hope you gave him my regards.",
+      "support_knowledge": [
+        "O0_S1",
+        "clive_lumbergh_04",
+        "clive_lumbergh_05",
+        "catherine_malin_03"
+      ]
+    },
+    {
+      "id": 34,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "<Attack> Clive made me a counter-offer. It starts with taking your head.",
+      "support_knowledge": [
+        "O1_S1",
+        "O1_B4"
+      ]
+    },
+    {
+      "id": 349,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Let's talk about something else.",
+      "support_knowledge": []
+    },
+    {
+      "id": 351,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I'll get back to you on that.",
+      "support_knowledge": []
+    },
+    {
+      "id": 35,
+      "speaker_guid": "dca98d32-b879-4ecf-8af5-f2424c4ce41f",
+      "speaker": "CatherineMalin (Female)",
+      "utterance": "Oh, you void-damned pig-shit. Knew I should've gut shot you when you first strolled into Fallbrook like you were the stars' gift to SubLight.",
+      "support_knowledge": [
+        "O1_B4",
+        "catherine_malin_01",
+        "catherine_malin_02",
+        "catherine_malin_03"
+      ]
+    },
+    {
+      "id": 133,
+      "speaker_guid": "dca98d32-b879-4ecf-8af5-f2424c4ce41f",
+      "speaker": "CatherineMalin (Female)",
+      "utterance": "Luckily, I learn from my mistakes.",
+      "support_knowledge": [
+        "catherine_malin_03"
+      ]
+    },
+    {
+      "id": 350,
+      "speaker_guid": "dca98d32-b879-4ecf-8af5-f2424c4ce41f",
+      "speaker": "CatherineMalin (Female)",
+      "utterance": "Sure.",
+      "support_knowledge": []
+    },
+    {
+      "id": 86,
+      "speaker_guid": "dca98d32-b879-4ecf-8af5-f2424c4ce41f",
+      "speaker": "CatherineMalin (Female)",
+      "utterance": "Well? I'm half-listening.",
+      "support_knowledge": []
+    },
+    {
+      "id": 8,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "That's enough for now.",
+      "support_knowledge": []
+    }
+  ]
+}

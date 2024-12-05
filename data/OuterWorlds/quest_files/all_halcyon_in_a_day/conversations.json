@@ -1,0 +1,35 @@
+[
+  {
+    "id": "all_halcyon_in_a_day_00",
+    "quest_name": "all_halcyon_in_a_day",
+    "conversation": {
+      "filename": "0202_cv_alonzo_vallejos",
+      "start_node": 68,
+      "end_nodes": [
+        100
+      ],
+      "force_include": [],
+      "force_sequence": []
+    },
+    "in_objective": "O0",
+    "out_objective": "O1",
+    "participants": [
+      "alonzo_vallejos"
+    ]
+  },
+  {
+    "id": "all_halcyon_in_a_day_01",
+    "quest_name": "all_halcyon_in_a_day",
+    "conversation": {
+      "filename": "0202_cv_alonzo_vallejos",
+      "start_node": 56,
+      "end_nodes": [],
+      "force_include": [],
+      "force_sequence": []
+    },
+    "in_objective": "O5",
+    "participants": [
+      "alonzo_vallejos"
+    ]
+  }
+]

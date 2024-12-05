@@ -1,0 +1,47 @@
+[
+  {
+    "id": "the_amateur_alchemist_00",
+    "quest_name": "the_amateur_alchemist",
+    "conversation": {
+      "filename": "08_cv_scientist_vaughn",
+      "start_node": 3,
+      "end_nodes": [],
+      "force_include": [
+        6,
+        290,
+        304,
+        21,
+        33,
+        67,
+        84,
+        85,
+        86
+      ],
+      "force_sequence": []
+    },
+    "in_objective": "O0",
+    "out_objective": "O1",
+    "participants": [
+      "vaughn_cortes"
+    ]
+  },
+  {
+    "id": "the_amateur_alchemist_01",
+    "quest_name": "the_amateur_alchemist",
+    "conversation": {
+      "filename": "08_cv_scientist_vaughn",
+      "start_node": 2,
+      "end_nodes": [],
+      "force_include": [
+        131,
+        43,
+        46
+      ],
+      "force_sequence": []
+    },
+    "in_objective": "O2",
+    "participants": [
+      "vaughn_cortes"
+    ]
+  }
+]

@@ -1,0 +1,75 @@
+[
+  {
+    "id": "spratkings_00",
+    "quest_name": "spratkings",
+    "conversation": {
+      "filename": "0407_cv_nelson_mayson",
+      "start_node": 1,
+      "end_nodes": [],
+      "force_include": [
+        176,
+        52
+      ]
+    },
+    "in_objective": "O0",
+    "out_objective": "O1",
+    "participants": [
+      "nelson_mayson"
+    ]
+  },
+  {
+    "id": "spratkings_01",
+    "quest_name": "spratkings",
+    "conversation": {
+      "filename": "0407_cv_nelson_mayson",
+      "start_node": 116,
+      "end_nodes": [],
+      "force_include": [
+        151
+      ]
+    },
+    "in_objective": "O2",
+    "out_objective": "O3",
+    "participants": [
+      "nelson_mayson"
+    ]
+  },
+  {
+    "id": "spratkings_02",
+    "quest_name": "spratkings",
+    "conversation": {
+      "filename": "0407_cv_bertrand",
+      "start_node": 1,
+      "end_nodes": [],
+      "force_include": [
+        29,
+        15
+      ]
+    },
+    "in_objective": "O4",
+    "out_objective": "O5",
+    "participants": [
+      "bertrand"
+    ]
+  },
+  {
+    "id": "spratkings_03",
+    "quest_name": "spratkings",
+    "conversation": {
+      "filename": "0407_cv_nelson_mayson",
+      "start_node": 6,
+      "end_nodes": [
+        30
+      ],
+      "force_include": [
+        29,
+        34
+      ]
+    },
+    "in_objective": "O4",
+    "out_objective": "O5",
+    "participants": [
+      "nelson_mayson"
+    ]
+  }
+]

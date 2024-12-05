@@ -1,0 +1,71 @@
+ID	fact
+OBJECTIVE O0	
+O0_S1	177:67
+O0_S2	245:52
+O0_S3	298:87
+O0_B1	This quest is started by speaking to Donald Anderson at the C3 Barracks
+O0_B2	He will tell the Stranger that the Corporate Compliance Crew's leader, Berthold Fox, went into a nearby cavern six hours ago and has not returned.
+O0_B3	The Stranger can offer to check the caves for Berthold if Donald makes them an honorary C3 member.
+OBJECTIVE O1	
+O1_S1	403:13
+O1_S2	417:18
+O1_S3	436:41
+O1_S4	478:26
+O1_S5	505:19
+OBJECTIVE O2	
+O2_S1	544:84
+O2_S2	629:8
+O2_S3	Now that the Mantiqueen is dead, check in with Berthold in the natural caverns near Devil's Peak.
+O2_B1	1243:79
+O2_B2	1323:52
+O2_B3	1428:111
+O2_B4	1540:58
+OBJECTIVE O3	
+O3_S1	663:29
+O3_S2	693:141
+O3_B1	1540:58
+O3_B2	He'll let you check their weapons locker as a reward.
+berthold_fox	
+berthold_fox_01	Berthold Fox is the founder, president and CEO of the Corporate Compliance Crew.
+berthold_fox_02	Berthold's tasks include leading and making plans for the Corporate Compliance Crew.
+berthold_fox_03	Donald Anderson describes him as a hands-on type who likes to handle the tougher tasks himself.
+berthold_fox_04	"While the crew were undertaking a contract for ""the Broker"" on Monarch, Berthold entered the Devil's Peak Cavern with fellow C3, Constance, to search for marauders."
+berthold_fox_05	They did not expect the cavern to also contain mantisaurs,
+berthold_fox_06	who killed Constance and trapped Berthold on a ledge for around six hours before being found by the Stranger.
+corporate_compliance_group	
+corporate_compliance_group_01	The Corporate Compliance Crew, also known as C3,
+corporate_compliance_group_02	are a band of mercenaries operating in Monarch.
+corporate_compliance_group_03	C3 was contracted by Hiram Blythe to kill creatures and persons that emerge from Devil's Peak Cavern.
+corporate_compliance_group_04	They demonstrate some overall leniency in how they execute the terms of their contracts, willing to make concessions if they receive the appropriate financial compensation.
+corporate_compliance_group_05	"C3 uses the corporate model because it is the ""oldest and most efficient, not to mention stable"" structure, and because corporations have certain rights that individuals do not."
+devils_peak_cavern	
+devils_peak_cavern_01	Devil's Peak Cavern is a location in the Monarch Wilderness on Monarch.
+donald_anderson	
+donald_anderson_01	Donald Anderson is a member of the Corporate Compliance Crew who can be found at the C3 Barracks near Devil's Peak Station in Monarch.
+mantisaur	
+mantisaur_01	Mantisaurs are insectoid creatures native to Monarch.
+mantisaur_02	They are aggressive, territorial, and very strong.
+mantisaur_03	It is possible to deal with them one on one, but it is best to avoid groups of them for your safety.
+mantisaur_04	The mantiqueen is the largest breed of Mantisaur.
+monarch	
+monarch_01	Monarch, previously known as Terra 1, is one of the many moons of the gas giant Olympus and the site of a failed colony.
+monarch_02	Terra 1 was initially designated as the primary colonization target of the Halcyon system.
+monarch_03	The Halcyon Holdings Corporate Board had intended to completely terraform the moon,
+monarch_04	wiping out the local fauna and flora and replacing it with plants and wildlife native to Earth.
+monarch_05	However, the terraforming process unexpectedly caused the native species to mutate and grow to significantly larger sizes,
+monarch_06	rendering them more dangerous and severely crippling the colonization effort.
+monarch_07	Due to the hostile environment which they had created,
+monarch_08	the Board was forced to enact a Hazard Clause covering the entirety of Terra 1.
+monarch_09	Public notice of the clause's issuance was sent to everyone operating on Terra 1 and led to the evacuation of almost all corporations from the moon.
+monarch_10	However, one corporation took advantage of the chaos of the evacuation to exploit a legal loophole which allowed them to,
+monarch_11	as the last corporation remaining on the planet,
+monarch_12	acquire the planet from the Board.
+monarch_13	This corporation, under the leadership of Sanjar Nandi and Graham Bryant subsequently rebranded itself to Monarch Stellar Industries (MSI),
+monarch_14	in line with the renaming of the planet to 'Monarch'.
+monarch_15	The actions of MSI earned them the ire of the Board,
+monarch_16	who retaliated by effectively placing the moon under indefinite embargo,
+monarch_17	refusing to allow legal transit either in or out.
+monarch_18	the Board aggressively spread propaganda about Monarch to convince the rest of the population that it was both uninhabited and uninhabitable.
+monarch_19	This has greatly hampered MSI's attempts to be recognized as a legitimate corporation and is a thorn in the side of its CEO, Sanjar Nandi.
+monarch_20	"Monarch also has an ocean which goes around the moon at the ""twilight band""."
+monarch_21	It is where the colonists and Monarch Stellar Industries farm their saltuna.

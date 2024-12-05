@@ -1,0 +1,85 @@
+ID	fact
+OBJECTIVE O0	
+O0_S1	211:89
+O0_S2	301:71
+O0_B1	678:64
+O0_B2	743:62
+O0_B3	806:131
+O0_B4	938:54
+OBJECTIVE O1	
+O1_S1	393:70
+OBJECTIVE O2	
+O2_S1	479:104
+OBJECTIVE O3	
+O3_S1	598:38
+O3_S2	637:38
+O3_B1	1692:90
+O3_B2	1783:74
+O3_B3	1858:154
+amber_heights	
+amber_heights_01	Amber Heights is a location in the Monarch Wilderness and the base of operations for the Iconoclasts.
+amber_heights_02	The Iconoclasts run the place somewhat like a commune.
+amber_heights_03	Amber Heights was once the place of residence of the entire executive dome of Monarch Stellar Industries.
+amber_heights_04	It is now in ruins after a massacre in the past.
+amber_heights_05	They lived there with their families and it was the company's operations center on Monarch.
+amber_heights_06	Just after The Board approved the evacuation of the planet through the Hazard Clause, Amber Heights was besieged by a gang of pirates who ransacked the town and massacred all its inhabitants.
+amber_heights_07	"This tragedy was known as ""The Amber Heights Massacre""."
+amber_heights_08	They were secretly assisted by MSI employee, Graham Bryant, who believed that the massacre would aid him in his quest to rid the colony of corporate influence.
+amber_heights_09	In 2345, the same Graham Bryant formed the Iconoclasts and settled the group in the deserted town.
+graham_bryant	
+graham_bryant_01	Graham Bryant is the leader of the Iconoclasts on Monarch.
+graham_bryant_02	Graham used to work for MSI, before splitting off and forming the Iconoclasts
+graham_bryant_03	When the Hazard Clause was invoked and the evacuation of Monarch began, he and fellow MSI executive, Sanjar Nandi were informed by Hiram Blythe about a loophole which would allow for MSI to take full control of the planet.
+graham_bryant_04	Graham and Sanjar believed that this provided them with an opportunity to dismantle the corporate system, even if they had different interpretations of this intention.
+graham_bryant_05	However, they were unable to convince the other MSI executives of their plan, so Graham made an arrangement to remove this hurdle.
+graham_bryant_06	Graham informed a crew of pirates about the wealth that could be found in Amber Heights and provided them with the gate access codes to break into the settlement.
+graham_bryant_07	On the night of the pirate attack, Graham slept safe in Stellar Bay, while the rest of his colleagues were being massacred.
+graham_bryant_08	Graham's frustration with the inaction made him desperate.
+graham_bryant_09	He informed a crew of pirates about the wealth that could be found in Amber Heights and provided them with the gate access codes to break into the settlement.
+graham_bryant_10	Even as the Iconoclasts settled in Amber Heights,
+graham_bryant_11	Graham was reluctant to speak of the events that happened there.
+graham_bryant_12	This was interpreted by his followers as grief over the loss of his former colleagues.
+graham_bryant_13	His true reaction to the events that happened ranged from guilt to denial to belief that his actions were ultimately justified.
+graham_bryant_14	After the Amber Heights massacre, Sanjar took over ownership of MSI, something which Graham viewed as a betrayal of the ideals which he believed motivated them both.
+graham_bryant_15	As leader of the Iconoclasts, Graham prioritised the spreading of Philosophism to the rest of Halcyon,
+graham_bryant_16	using the Devil's Peak Station broadcast channel to hijack Halcyon News Network's programming on locations including Groundbreaker
+graham_bryant_17	and spending Iconoclast resources on securing a printing press which would allow them to better disseminate their message.
+graham_bryant_18	This has led to disagreements between Graham and his second-in-charge, Zora Blackwood, who disapproved of prioritising evangelism over the welfare of their people.
+graham_bryant_19	If the Stranger investigates the pasts of both Graham Bryant and Zora Blackwood,
+graham_bryant_20	Blackwood can be led to believe that she must supplant Graham as Iconoclast leader,
+graham_bryant_21	based on his actions amid the infamous Amber Heights massacre.
+graham_bryant_22	Graham can't be persuaded to accept this move, and must be killed to make room for Blackwood.
+graham_bryant_23	These events can enable the establishment of an Iconoclast-MSI alliance.
+monarch_stellar_industries	
+monarch_stellar_industries_01	Monarch Stellar Industries (MSI) is a corporation based on Monarch.
+monarch_stellar_industries_02	Once a loyal Board-owned corporation, Monarch Stellar Industries split off to become their own private entity under the leadership of Sanjar Nandi.
+monarch_stellar_industries_03	Espousing worker-centric rights and democratic ideals, Sanjar seeks to bring his own brand of freedom to the rest of Halcyon.
+monarch_stellar_industries_04	MSI farms saltuna on Monarch.
+monarch_stellar_industries_05	Following the failed terraforming of Monarch and the abandonment of other corporations due to the imposition of the Hazard Clause,
+monarch_stellar_industries_06	the precursor to Monarch Stellar took advantage of a legal loophole to acquire possession of Monarch and re-branded their corporation to match that of their newest asset.
+monarch_stellar_industries_07	Monarch Stellar's acquisition of the planet earned the ire of the Board,
+monarch_stellar_industries_08	due to the loss of their asset and as such enforced an embargo on Monarch.
+monarch_stellar_industries_09	MSI as a corporation espouses a more egalitarian philosophy than the other companies on The Board, valuing the rights and individual liberties of its workers and employees.
+monarch_stellar_industries_10	However, the violent and wild ecosystem of Monarch, coupled with the pressure applied from the Board-authorized Hazard Clause, have forced MSI to cut corners in their attempt at survival.
+monarch_stellar_industries_11	MSI maintains a tense relationship with the revolutionary band of survivalists known as the Iconoclasts,
+monarch_stellar_industries_12	in part due to the Iconoclasts believing in total anti-corporate ideals,
+monarch_stellar_industries_13	as opposed to MSI's more corporate-egalitarian views.
+monarch_stellar_industries_14	Depending on the actions of the Stranger, the tense relationship can spill out into warfare, or be resolved peacefully.
+monarch_stellar_industries_15	The Board maintains a very tense relationship with MSI, owing to MSI's democratic ideals and their declared ownership of Monarch.
+monarch_stellar_industries_16	As a result, the Board has placed Monarch, and by extension, MSI, under the Hazard Clause, which forbids off-world businesses from doing transactions on Monarch without the correct (and deliberately impossible to complete) documents.
+zora_blackwood	
+zora_blackwood_01	Zora Blackwood is one of the two leaders of the Iconoclasts, based out of Amber Heights.
+zora_blackwood_02	Zora Blackwood is a member of the Iconoclasts and, alongside Graham Bryant, is one of the group's de facto leaders.
+zora_blackwood_03	She is known to be the backbone of the Iconoclasts, keeping the group together through thick or thin.
+zora_blackwood_04	She joined Graham Bryant and helped start the Iconoclasts, patching up those who got wounded while fighting for their cause.
+zora_blackwood_05	Nearly every member of the Iconoclasts owes her their life in some way.
+zora_blackwood_06	However, her methods of operation including her desire to impose some form of scheduling on the faction, has ruffled some feathers.
+zora_blackwood_07	This has led to conflicts between herself and Graham Bryant, the latter being more focused on spreading the message of Philosophism
+zora_blackwood_08	Graham considers Zora's concerns about food and medicine to be a distracting attachment to corporate materialism.
+zora_blackwood_09	Zora values the lives of the Van Noys more than securing the printing press
+zora_blackwood_10	Zora does not know that Graham Bryant helped aid in the Amber Heights Massacre
+zora_blackwood_11	Before joining the Iconoclasts, Zora lived in Cascadia and worked for Rizzo's in the bottling plant as a doctor.
+zora_blackwood_12	"She was an excellent employee and described as a ""top-notch sawbones with a good head for working under pressure""."
+zora_blackwood_13	The Stranger can back Zora in taking over as leader of the Iconoclasts and either brokering peace with Stellar Bay or defeating MSI.
+zora_blackwood_14	If the player sides with MSI, they will be tasked with killing her.
+zora_blackwood_15	If the player earns her trust, they can instead convince her to make peace with MSI.

@@ -1,0 +1,322 @@
+{
+  "id": "errors_unseen_03",
+  "quest_name": "errors_unseen",
+  "conversation": {
+    "filename": "0402_cv_sanjar_nandi_new",
+    "start_node": 478,
+    "end_nodes": [
+      1042
+    ]
+  },
+  "in_objective": "O5",
+  "participants": [
+    "sanjar_nandi",
+    "celia_robbins"
+  ],
+  "dialog": [
+    {
+      "id": 478,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I found a data cartridge with details of UDL's secret experiments.",
+      "support_knowledge": [
+        "O4_B7",
+        "O4_B8",
+        "O5_S1"
+      ]
+    },
+    {
+      "id": 982,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "Excellent timing on your part. I worked my fingers to nubs, but I've finally completed the BOLT-52 form. I daresay it will be my second-greatest achievement, after the reformations.",
+      "support_knowledge": [
+        "sanjar_nandi_10",
+        "O5_B1"
+      ]
+    },
+    {
+      "id": 983,
+      "speaker_guid": "88e2a5c4-832b-4533-b593-28ef1edc16f2",
+      "speaker": "Celia (Female)",
+      "utterance": "You're getting ahead of yourself again.",
+      "support_knowledge": []
+    },
+    {
+      "id": 985,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "So I am. Do you have this cartridge?",
+      "support_knowledge": []
+    },
+    {
+      "id": 986,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "<Give him the UDL data.> Here you go.",
+      "support_knowledge": []
+    },
+    {
+      "id": 984,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Not so fast. What're these \"reformations\" you're talking about?",
+      "support_knowledge": [
+        "O5_B2"
+      ]
+    },
+    {
+      "id": 990,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "\"Reformations\"? What, are you going to reformat everyone's files?",
+      "support_knowledge": [
+        "O5_B2"
+      ]
+    },
+    {
+      "id": 1028,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Oh, did I say I had a data cartridge? That's just what I call my left nut.",
+      "support_knowledge": []
+    },
+    {
+      "id": 1331,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Come to think of it, maybe I don't...",
+      "support_knowledge": []
+    },
+    {
+      "id": 480,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "I knew there was something going on! This is exactly the proof we need - the Board will have to welcome us back now.",
+      "support_knowledge": [
+        "sanjar_nandi_10",
+        "sanjar_nandi_10",
+        "O5_S1",
+        "O5_S2"
+      ]
+    },
+    {
+      "id": 725,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "I'll transmit this data along with the completed BOLT-52 right away. After that, we'll sit back and quietly wait for the Board to respond.",
+      "support_knowledge": [
+        "sanjar_nandi_10",
+        "sanjar_nandi_10"
+      ]
+    },
+    {
+      "id": 993,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "I'm working on a plan to reorganize the Board. Slowly. Peacefully. And with meticulous documentation.",
+      "support_knowledge": [
+        "sanjar_nandi_10",
+        "O5_B2"
+      ]
+    },
+    {
+      "id": 1027,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "But that all comes later. First, I need to submit the BOLT-52. With that data you're holding, of course.",
+      "support_knowledge": [
+        "sanjar_nandi_10",
+        "O5_B2"
+      ]
+    },
+    {
+      "id": 991,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "That's just cruel. And inefficient.",
+      "support_knowledge": []
+    },
+    {
+      "id": 1030,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "That seems unnecessarily complicated. ",
+      "support_knowledge": []
+    },
+    {
+      "id": 1032,
+      "speaker_guid": "88e2a5c4-832b-4533-b593-28ef1edc16f2",
+      "speaker": "Celia (Female)",
+      "utterance": "It's actually very funny, sir.",
+      "support_knowledge": []
+    },
+    {
+      "id": 1033,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "Now I'm confused. Do you have evidence against UDL or not?",
+      "support_knowledge": []
+    },
+    {
+      "id": 1332,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "I- I don't understand. Where is it?",
+      "support_knowledge": []
+    },
+    {
+      "id": 1333,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "<Give him the UDL data.> Relax, I'm just teasing you.",
+      "support_knowledge": []
+    },
+    {
+      "id": 1334,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Not so fun having someone jerk your chain, is it?",
+      "support_knowledge": []
+    },
+    {
+      "id": 1335,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "Is this about the BOLT-52? Please, I wasn't trying to mislead you.",
+      "support_knowledge": []
+    },
+    {
+      "id": 1336,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "Anyway, I don't think I can handle this back-and-forth. I'm used to crushing disappointment, but not after having reason to hope. That makes it all considerably worse.",
+      "support_knowledge": []
+    },
+    {
+      "id": 1337,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "<Give him the UDL data.> Calm down, I have it right here.",
+      "support_knowledge": []
+    }
+  ],
+  "dialog_edges": [
+    [
+      478,
+      982
+    ],
+    [
+      982,
+      983
+    ],
+    [
+      983,
+      985
+    ],
+    [
+      985,
+      986
+    ],
+    [
+      985,
+      984
+    ],
+    [
+      985,
+      990
+    ],
+    [
+      985,
+      1028
+    ],
+    [
+      985,
+      1331
+    ],
+    [
+      986,
+      480
+    ],
+    [
+      480,
+      725
+    ],
+    [
+      984,
+      993
+    ],
+    [
+      993,
+      1027
+    ],
+    [
+      1027,
+      986
+    ],
+    [
+      1027,
+      1028
+    ],
+    [
+      1027,
+      1331
+    ],
+    [
+      990,
+      991
+    ],
+    [
+      991,
+      993
+    ],
+    [
+      1028,
+      1030
+    ],
+    [
+      1030,
+      1032
+    ],
+    [
+      1032,
+      1033
+    ],
+    [
+      1033,
+      986
+    ],
+    [
+      1331,
+      1332
+    ],
+    [
+      1332,
+      1333
+    ],
+    [
+      1332,
+      1334
+    ],
+    [
+      1333,
+      480
+    ],
+    [
+      1334,
+      1335
+    ],
+    [
+      1335,
+      1336
+    ],
+    [
+      1336,
+      1337
+    ],
+    [
+      1337,
+      480
+    ]
+  ]
+}

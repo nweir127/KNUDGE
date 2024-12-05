@@ -1,0 +1,258 @@
+{
+  "id": "mr_picketts_biggest_game_00",
+  "quest_name": "mr_picketts_biggest_game",
+  "conversation": {
+    "filename": "0402_cv_sebastianadams",
+    "start_node": 102,
+    "end_nodes": [
+      104
+    ],
+    "force_include": [
+      158
+    ]
+  },
+  "in_objective": "O0",
+  "out_objective": "O1",
+  "participants": [
+    "sebastian_adams"
+  ],
+  "dialog_edges": [
+    [
+      102,
+      100
+    ],
+    [
+      100,
+      103
+    ],
+    [
+      103,
+      142
+    ],
+    [
+      142,
+      144
+    ],
+    [
+      144,
+      150
+    ],
+    [
+      144,
+      158
+    ],
+    [
+      144,
+      147
+    ],
+    [
+      150,
+      152
+    ],
+    [
+      152,
+      144
+    ],
+    [
+      158,
+      159
+    ],
+    [
+      159,
+      160
+    ],
+    [
+      160,
+      162
+    ],
+    [
+      160,
+      163
+    ],
+    [
+      162,
+      164
+    ],
+    [
+      164,
+      166
+    ],
+    [
+      166,
+      102
+    ],
+    [
+      163,
+      165
+    ],
+    [
+      165,
+      102
+    ],
+    [
+      147,
+      167
+    ],
+    [
+      167,
+      102
+    ]
+  ],
+  "dialog": [
+    {
+      "id": 102,
+      "speaker_guid": "9fdf2427-4140-49ca-ba6a-23f032cd079d",
+      "speaker": "sebastianadams (Male)",
+      "utterance": "You look like a man who's looking for some mostly-fresh animal parts.",
+      "support_knowledge": [
+        "O0_B1",
+        "sebastian_adams_01"
+      ]
+    },
+    {
+      "id": 100,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Why would I want any of that?",
+      "support_knowledge": []
+    },
+    {
+      "id": 103,
+      "speaker_guid": "9fdf2427-4140-49ca-ba6a-23f032cd079d",
+      "speaker": "sebastianadams (Male)",
+      "utterance": "I dunno. Celia usually buys whatever I have, and Mr. Pickett seemed real interested, so I thought maybe I was onto something.",
+      "support_knowledge": [
+        "O0_B2",
+        "sebastian_adams_01",
+        "mr_pickett_01"
+      ]
+    },
+    {
+      "id": 142,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Mr. Pickett?",
+      "support_knowledge": [
+        "O0_B2",
+        "mr_pickett_01"
+      ]
+    },
+    {
+      "id": 144,
+      "speaker_guid": "9fdf2427-4140-49ca-ba6a-23f032cd079d",
+      "speaker": "sebastianadams (Male)",
+      "utterance": "He came to Stellar Bay years ago - just before the Board cut us off. Ended up stuck here. He was always real interested in our monsters. Mantiqueens especially. ",
+      "support_knowledge": [
+        "stellar_bay_02",
+        "mantisaur_02",
+        "mantisaur_04",
+        "mr_pickett_01",
+        "mr_pickett_03"
+      ]
+    },
+    {
+      "id": 150,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Have you seen a mantiqueen?",
+      "support_knowledge": [
+        "O0_B4",
+        "mantisaur_04"
+      ]
+    },
+    {
+      "id": 158,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Where have you seen a mantiqueen?",
+      "support_knowledge": [
+        "O0_B4",
+        "mantisaur_04"
+      ]
+    },
+    {
+      "id": 147,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Let's talk about something else.",
+      "support_knowledge": []
+    },
+    {
+      "id": 152,
+      "speaker_guid": "9fdf2427-4140-49ca-ba6a-23f032cd079d",
+      "speaker": "sebastianadams (Male)",
+      "utterance": "Sure. They're real big. Hard to miss 'em.",
+      "support_knowledge": [
+        "mantisaur_04"
+      ]
+    },
+    {
+      "id": 159,
+      "speaker_guid": "9fdf2427-4140-49ca-ba6a-23f032cd079d",
+      "speaker": "sebastianadams (Male)",
+      "utterance": "Well, I could send you to the same place I sent Mr. Pickett. But I haven't seen him in a few weeks. To tell true, I'm starting to get a bit worried about him.",
+      "support_knowledge": [
+        "O0_B3",
+        "mr_pickett_06"
+      ]
+    },
+    {
+      "id": 160,
+      "speaker_guid": "9fdf2427-4140-49ca-ba6a-23f032cd079d",
+      "speaker": "sebastianadams (Male)",
+      "utterance": "Tell you what. I'll tell you where I sent Mr. Pickett if you promise to look for him. Help him out if he's got himself in trouble. Fair deal?",
+      "support_knowledge": [
+        "O0_B4",
+        "mr_pickett_06"
+      ]
+    },
+    {
+      "id": 162,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Sure, I can keep an eye out for him.",
+      "support_knowledge": [
+        "O0_B4"
+      ]
+    },
+    {
+      "id": 163,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Let me think about it.",
+      "support_knowledge": []
+    },
+    {
+      "id": 164,
+      "speaker_guid": "9fdf2427-4140-49ca-ba6a-23f032cd079d",
+      "speaker": "sebastianadams (Male)",
+      "utterance": "All right, then. Leave town through the southern gate - the one right here - and head past the abandoned ruins.",
+      "support_knowledge": [
+        "O1_S1"
+      ]
+    },
+    {
+      "id": 166,
+      "speaker_guid": "9fdf2427-4140-49ca-ba6a-23f032cd079d",
+      "speaker": "sebastianadams (Male)",
+      "utterance": "Last mantiqueen I saw was in the wilds out thataways. Could be Mr. Pickett's still out there, too.",
+      "support_knowledge": [
+        "O1_S1"
+      ]
+    },
+    {
+      "id": 165,
+      "speaker_guid": "9fdf2427-4140-49ca-ba6a-23f032cd079d",
+      "speaker": "sebastianadams (Male)",
+      "utterance": "Okay. Well, let me know when you've made up your mind.",
+      "support_knowledge": []
+    },
+    {
+      "id": 167,
+      "speaker_guid": "9fdf2427-4140-49ca-ba6a-23f032cd079d",
+      "speaker": "sebastianadams (Male)",
+      "utterance": "Hm? Like what?",
+      "support_knowledge": []
+    }
+  ]
+}

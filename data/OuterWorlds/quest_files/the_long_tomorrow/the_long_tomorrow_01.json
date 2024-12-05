@@ -1,0 +1,171 @@
+{
+  "id": "the_long_tomorrow_01",
+  "quest_name": "the_long_tomorrow",
+  "conversation": {
+    "filename": "00_cv_esther",
+    "start_node": 89,
+    "end_nodes": [],
+    "force_include": [],
+    "force_sequence": []
+  },
+  "in_objective": "O0",
+  "out_objective": "O1",
+  "participants": [
+    "esther_blaine"
+  ],
+  "objectives": {
+    "O0": {
+      "description": {
+        "S1": "Abernathy asked you to bring him a cache of anthrocillin hidden in the Emerald Vale Community Center."
+      },
+      "blurb": {
+        "B1": "This quest is started by speaking with Martin Abernathy and agreeing to freelance for him.",
+        "B2": "He will ask the Stranger to retrieve a crate of Experimental Anthrocillin which is located in the Emerald Vale Community Center.",
+        "B3": "He will also mention the dangers associated with the group of marauders that have recently taken over the center and its surrounding area.",
+        "B4": "After leaving Abernathy's house,",
+        "B5": "the Stranger is approached by Esther Blaine who makes a counteroffer.",
+        "B6": "Abernathy is a hypochondriac, she claims,",
+        "B7": "and she would put the medicine to better use.",
+        "B8": "She offers to match the amount which Abernathy is offering."
+      }
+    },
+    "O1": {
+      "summary": "Retrieve the Cache of Medicine",
+      "description": {
+        "S1": "Abernathy believes he's dying.",
+        "S2": "He wants a special cache of anthrocillin,",
+        "S3": "found in the Emerald Vale Community Center.",
+        "S4": "Esther confronted you outside of Abernathy's house,",
+        "S5": "and suggested that you should give the medicine to her instead of Abernathy."
+      },
+      "blurb": {
+        "B1": "You can find the Experimental Anthrocillin in the Emerald Vale Community Center inside the medical area.",
+        "B2": "You'll need the Medical Bay key to get in there,",
+        "B3": "which can be found on one of the Marauders.",
+        "B4": "Once you obtain it you can give it to Esther or Martin."
+      }
+    }
+  },
+  "dialog_edges": [
+    [
+      89,
+      91
+    ],
+    [
+      91,
+      94
+    ],
+    [
+      91,
+      92
+    ],
+    [
+      94,
+      95
+    ],
+    [
+      95,
+      113
+    ],
+    [
+      95,
+      114
+    ],
+    [
+      113,
+      117
+    ],
+    [
+      117,
+      92
+    ],
+    [
+      114,
+      117
+    ],
+    [
+      92,
+      109
+    ]
+  ],
+  "dialog": [
+    {
+      "id": 89,
+      "speaker_guid": "fa2fc2c7-9757-4053-8a4b-70d97699f83b",
+      "speaker": "EstherBlaine (Female)",
+      "utterance": "Excuse me. I'm Esther Blaine - Spacer's Choice actuary. I overheard your talk with Abernathy. I hope you're not thinking about getting him that medicine.",
+      "support_knowledge": [
+        "O0_B5",
+        "esther_blaine_01",
+        "esther_blaine_02"
+      ]
+    },
+    {
+      "id": 91,
+      "speaker_guid": "fa2fc2c7-9757-4053-8a4b-70d97699f83b",
+      "speaker": "EstherBlaine (Female)",
+      "utterance": "Abernathy is a well-known hypochondriac. Anthrocillin is wasted on him. You're better off selling it to me instead.",
+      "support_knowledge": [
+        "O0_B5",
+        "O0_B6",
+        "O1_S5",
+        "martin_abernathy_02"
+      ]
+    },
+    {
+      "id": 94,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "What do you need it for?",
+      "support_knowledge": [
+        "O0_B7"
+      ]
+    },
+    {
+      "id": 92,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I'll think about it.",
+      "support_knowledge": []
+    },
+    {
+      "id": 95,
+      "speaker_guid": "fa2fc2c7-9757-4053-8a4b-70d97699f83b",
+      "speaker": "EstherBlaine (Female)",
+      "utterance": "I probably shouldn't tell you. Don't want you implicated for what I'm trying to do.",
+      "support_knowledge": [
+        "O0_B7"
+      ]
+    },
+    {
+      "id": 113,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "That's not shady at all.",
+      "support_knowledge": []
+    },
+    {
+      "id": 114,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Have it your way.",
+      "support_knowledge": []
+    },
+    {
+      "id": 117,
+      "speaker_guid": "fa2fc2c7-9757-4053-8a4b-70d97699f83b",
+      "speaker": "EstherBlaine (Female)",
+      "utterance": "I'm doing right by the town. I'll tell you that much. You bring me that medicine, and I'll see that it goes to the right people.",
+      "support_knowledge": [
+        "O0_B7"
+      ]
+    },
+    {
+      "id": 109,
+      "speaker_guid": "fa2fc2c7-9757-4053-8a4b-70d97699f83b",
+      "speaker": "EstherBlaine (Female)",
+      "utterance": "That's all I can ask of you.",
+      "support_knowledge": []
+    }
+  ]
+}

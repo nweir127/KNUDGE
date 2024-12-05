@@ -1,0 +1,772 @@
+{
+  "id": "the_grimm_tomorrow_00",
+  "quest_name": "the_grimm_tomorrow",
+  "conversation": {
+    "filename": "0402_cv_grimm",
+    "start_node": 196,
+    "end_nodes": [],
+    "force_include": [
+      231,
+      235
+    ],
+    "force_sequence": []
+  },
+  "in_objective": "O0",
+  "out_objective": "O1",
+  "participants": [
+    "grimm"
+  ],
+  "dialog_edges": [
+    [
+      196,
+      225
+    ],
+    [
+      196,
+      198
+    ],
+    [
+      225,
+      226
+    ],
+    [
+      226,
+      201
+    ],
+    [
+      201,
+      202
+    ],
+    [
+      201,
+      206
+    ],
+    [
+      201,
+      204
+    ],
+    [
+      201,
+      203
+    ],
+    [
+      202,
+      213
+    ],
+    [
+      213,
+      214
+    ],
+    [
+      214,
+      215
+    ],
+    [
+      214,
+      216
+    ],
+    [
+      214,
+      220
+    ],
+    [
+      215,
+      217
+    ],
+    [
+      217,
+      218
+    ],
+    [
+      218,
+      214
+    ],
+    [
+      216,
+      219
+    ],
+    [
+      219,
+      222
+    ],
+    [
+      222,
+      214
+    ],
+    [
+      220,
+      221
+    ],
+    [
+      221,
+      229
+    ],
+    [
+      229,
+      231
+    ],
+    [
+      229,
+      232
+    ],
+    [
+      231,
+      233
+    ],
+    [
+      233,
+      234
+    ],
+    [
+      234,
+      235
+    ],
+    [
+      234,
+      236
+    ],
+    [
+      234,
+      238
+    ],
+    [
+      234,
+      232
+    ],
+    [
+      235,
+      240
+    ],
+    [
+      236,
+      242
+    ],
+    [
+      242,
+      245
+    ],
+    [
+      245,
+      296
+    ],
+    [
+      245,
+      294
+    ],
+    [
+      245,
+      295
+    ],
+    [
+      296,
+      297
+    ],
+    [
+      297,
+      234
+    ],
+    [
+      294,
+      247
+    ],
+    [
+      247,
+      234
+    ],
+    [
+      295,
+      298
+    ],
+    [
+      298,
+      299
+    ],
+    [
+      298,
+      300
+    ],
+    [
+      299,
+      301
+    ],
+    [
+      301,
+      234
+    ],
+    [
+      300,
+      302
+    ],
+    [
+      302,
+      303
+    ],
+    [
+      303,
+      304
+    ],
+    [
+      303,
+      305
+    ],
+    [
+      304,
+      301
+    ],
+    [
+      305,
+      306
+    ],
+    [
+      306,
+      234
+    ],
+    [
+      238,
+      244
+    ],
+    [
+      244,
+      249
+    ],
+    [
+      249,
+      234
+    ],
+    [
+      206,
+      213
+    ],
+    [
+      204,
+      205
+    ],
+    [
+      205,
+      207
+    ],
+    [
+      207,
+      208
+    ],
+    [
+      207,
+      209
+    ],
+    [
+      207,
+      210
+    ],
+    [
+      207,
+      211
+    ],
+    [
+      208,
+      213
+    ],
+    [
+      209,
+      213
+    ],
+    [
+      210,
+      212
+    ],
+    [
+      212,
+      221
+    ],
+    [
+      211,
+      223
+    ],
+    [
+      223,
+      221
+    ],
+    [
+      203,
+      205
+    ],
+    [
+      198,
+      318
+    ],
+    [
+      318,
+      319
+    ],
+    [
+      318,
+      320
+    ],
+    [
+      319,
+      224
+    ],
+    [
+      224,
+      200
+    ],
+    [
+      200,
+      201
+    ],
+    [
+      320,
+      321
+    ],
+    [
+      321,
+      224
+    ]
+  ],
+  "dialog": [
+    {
+      "id": 196,
+      "speaker_guid": "813006e9-4919-421c-8616-b7e5d70f0482",
+      "speaker": "Grimm (Male)",
+      "utterance": "Don't think I've seen you around. That means you must be new to Stellar Bay. You are new here, right?",
+      "support_knowledge": [
+        "O0_B1"
+      ]
+    },
+    {
+      "id": 225,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Whatever, I'm not here for chit-chat. ",
+      "support_knowledge": []
+    },
+    {
+      "id": 198,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "You seem surprised.",
+      "support_knowledge": []
+    },
+    {
+      "id": 226,
+      "speaker_guid": "813006e9-4919-421c-8616-b7e5d70f0482",
+      "speaker": "Grimm (Male)",
+      "utterance": "Wait! Don't go just yet. I've been practicing for this. Here goes.",
+      "support_knowledge": []
+    },
+    {
+      "id": 201,
+      "speaker_guid": "813006e9-4919-421c-8616-b7e5d70f0482",
+      "speaker": "Grimm (Male)",
+      "utterance": "On behalf of Monarch Stellar Industries, welcome to Stellar Bay, home of the freshest saltuna in Halcyon. Please state your name for the records.",
+      "support_knowledge": [
+        "grimm_01"
+      ]
+    },
+    {
+      "id": 202,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Captain <oeitoken>PlayerName</oeitoken>.",
+      "support_knowledge": []
+    },
+    {
+      "id": 206,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Me? I'm Alex Hawthorne. ",
+      "support_knowledge": []
+    },
+    {
+      "id": 204,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I prefer to travel discreetly, if you know what I mean.",
+      "support_knowledge": []
+    },
+    {
+      "id": 203,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I don't have time for this.",
+      "support_knowledge": []
+    },
+    {
+      "id": 213,
+      "speaker_guid": "813006e9-4919-421c-8616-b7e5d70f0482",
+      "speaker": "Grimm (Male)",
+      "utterance": "Swell, there's one for the logs! I'm even gonna give you your own entry code.",
+      "support_knowledge": [
+        "grimm_01"
+      ]
+    },
+    {
+      "id": 214,
+      "speaker_guid": "813006e9-4919-421c-8616-b7e5d70f0482",
+      "speaker": "Grimm (Male)",
+      "utterance": "I'm not supposed to do that - it's against procedure - but Mr. Sanjar isn't so strict about the rules here. Besides, I got a lot of empty entries to fill.",
+      "support_knowledge": []
+    },
+    {
+      "id": 215,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Is Stellar Bay really THAT isolated?",
+      "support_knowledge": []
+    },
+    {
+      "id": 216,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "You're not what I expected to find on Monarch.",
+      "support_knowledge": []
+    },
+    {
+      "id": 220,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I'm gonna have a look around town.",
+      "support_knowledge": []
+    },
+    {
+      "id": 217,
+      "speaker_guid": "813006e9-4919-421c-8616-b7e5d70f0482",
+      "speaker": "Grimm (Male)",
+      "utterance": "We don't get ship traffic in town. Only offworlders who do make it out here are SubLight - they got a base in Fallbrook.",
+      "support_knowledge": []
+    },
+    {
+      "id": 218,
+      "speaker_guid": "813006e9-4919-421c-8616-b7e5d70f0482",
+      "speaker": "Grimm (Male)",
+      "utterance": "And thank the stars for them, or we would've run out of Rizzo's Purpleberry Crunch years ago.",
+      "support_knowledge": [
+        "grimm_02"
+      ]
+    },
+    {
+      "id": 219,
+      "speaker_guid": "813006e9-4919-421c-8616-b7e5d70f0482",
+      "speaker": "Grimm (Male)",
+      "utterance": "Oh, that'll just make Mr. Sanjar's day if you tell him. The Board makes up lots of nasty stories about raptidons and cannibals and whatnot.",
+      "support_knowledge": []
+    },
+    {
+      "id": 222,
+      "speaker_guid": "813006e9-4919-421c-8616-b7e5d70f0482",
+      "speaker": "Grimm (Male)",
+      "utterance": "But that's all outside our walls. Mostly.",
+      "support_knowledge": []
+    },
+    {
+      "id": 221,
+      "speaker_guid": "813006e9-4919-421c-8616-b7e5d70f0482",
+      "speaker": "Grimm (Male)",
+      "utterance": "Mr. Sanjar'll be mighty pleased to meet you. If you see him over at headquarters, maybe you could tell him I did a bang-up job of welcoming you?",
+      "support_knowledge": []
+    },
+    {
+      "id": 229,
+      "speaker_guid": "813006e9-4919-421c-8616-b7e5d70f0482",
+      "speaker": "Grimm (Male)",
+      "utterance": "Oh, and if you're headed that way, maybe you could do me a favor?",
+      "support_knowledge": []
+    },
+    {
+      "id": 231,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "That depends. What is it?",
+      "support_knowledge": []
+    },
+    {
+      "id": 232,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I don't have time for this.",
+      "support_knowledge": []
+    },
+    {
+      "id": 233,
+      "speaker_guid": "813006e9-4919-421c-8616-b7e5d70f0482",
+      "speaker": "Grimm (Male)",
+      "utterance": "I got this Rizzo's Rangers tossball poster coming in on the next SubLight shipment. Signed by the Black Hole himself!",
+      "support_knowledge": [
+        "O0_S1",
+        "O0_B2"
+      ]
+    },
+    {
+      "id": 234,
+      "speaker_guid": "813006e9-4919-421c-8616-b7e5d70f0482",
+      "speaker": "Grimm (Male)",
+      "utterance": "Only, I haven't heard anything in a while. You think you could check with Celia to see if it's come in?",
+      "support_knowledge": [
+        "O0_B3"
+      ]
+    },
+    {
+      "id": 235,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Sure, I can ask about your poster.",
+      "support_knowledge": [
+        "O0_B4"
+      ]
+    },
+    {
+      "id": 236,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Who's the Black Hole?",
+      "support_knowledge": []
+    },
+    {
+      "id": 238,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "This poster sounds pretty valuable.",
+      "support_knowledge": []
+    },
+    {
+      "id": 240,
+      "speaker_guid": "813006e9-4919-421c-8616-b7e5d70f0482",
+      "speaker": "Grimm (Male)",
+      "utterance": "Thanks a bunch! Celia works for Mr. Sanjar in the MSI building, next to the bar. She's always there, so you can't miss her.",
+      "support_knowledge": [
+        "O1_S1",
+        "O1_S2"
+      ]
+    },
+    {
+      "id": 242,
+      "speaker_guid": "813006e9-4919-421c-8616-b7e5d70f0482",
+      "speaker": "Grimm (Male)",
+      "utterance": "That's Bertie Holcomb! Only one of the greatest tossball hackers ever. ",
+      "support_knowledge": []
+    },
+    {
+      "id": 245,
+      "speaker_guid": "813006e9-4919-421c-8616-b7e5d70f0482",
+      "speaker": "Grimm (Male)",
+      "utterance": "Everyone's heard of him - even on Monarch, we still get some of the games. You been living in a sulfur pit or something?",
+      "support_knowledge": []
+    },
+    {
+      "id": 296,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Whatever, I don't really care.",
+      "support_knowledge": []
+    },
+    {
+      "id": 294,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Actually, I've been in hibernation for decades.",
+      "support_knowledge": []
+    },
+    {
+      "id": 295,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "But why's he called the Black Hole?",
+      "support_knowledge": []
+    },
+    {
+      "id": 297,
+      "speaker_guid": "813006e9-4919-421c-8616-b7e5d70f0482",
+      "speaker": "Grimm (Male)",
+      "utterance": "Aw, you must be a Hammers fan for sure.",
+      "support_knowledge": []
+    },
+    {
+      "id": 247,
+      "speaker_guid": "813006e9-4919-421c-8616-b7e5d70f0482",
+      "speaker": "Grimm (Male)",
+      "utterance": "Aw, you're real funny. Guess I don't feel so bad for missing what goes on in the rest of Stellar Bay.",
+      "support_knowledge": []
+    },
+    {
+      "id": 298,
+      "speaker_guid": "813006e9-4919-421c-8616-b7e5d70f0482",
+      "speaker": "Grimm (Male)",
+      "utterance": "On account of him being the best hacker who ever played! Nothing gets by him - he sucks up every ball that comes his way.",
+      "support_knowledge": []
+    },
+    {
+      "id": 299,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Okay, that's all I ever need to hear on that subject.",
+      "support_knowledge": []
+    },
+    {
+      "id": 300,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Maybe word that differently.",
+      "support_knowledge": []
+    },
+    {
+      "id": 301,
+      "speaker_guid": "813006e9-4919-421c-8616-b7e5d70f0482",
+      "speaker": "Grimm (Male)",
+      "utterance": "Whatever you say! I could talk tossball for hours.",
+      "support_knowledge": [
+        "grimm_02",
+        "tossball_01"
+      ]
+    },
+    {
+      "id": 302,
+      "speaker_guid": "813006e9-4919-421c-8616-b7e5d70f0482",
+      "speaker": "Grimm (Male)",
+      "utterance": "Well, Holcomb's had lots of nicknames over his career. Used to be the Tally Whacker on account of what he'd do to the score. ",
+      "support_knowledge": []
+    },
+    {
+      "id": 303,
+      "speaker_guid": "813006e9-4919-421c-8616-b7e5d70f0482",
+      "speaker": "Grimm (Male)",
+      "utterance": "Before that he was the Slick Stick 'cause his shots were always so smooth.",
+      "support_knowledge": []
+    },
+    {
+      "id": 304,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Let's not talk about this ever again.",
+      "support_knowledge": []
+    },
+    {
+      "id": 305,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "You're making this up.",
+      "support_knowledge": []
+    },
+    {
+      "id": 306,
+      "speaker_guid": "813006e9-4919-421c-8616-b7e5d70f0482",
+      "speaker": "Grimm (Male)",
+      "utterance": "I swear I'm not! At the start of his career, people called him the Hack Boss, but no one thought that was very catchy.",
+      "support_knowledge": []
+    },
+    {
+      "id": 244,
+      "speaker_guid": "813006e9-4919-421c-8616-b7e5d70f0482",
+      "speaker": "Grimm (Male)",
+      "utterance": "I couldn't really say - I'm just a fan of the game.",
+      "support_knowledge": []
+    },
+    {
+      "id": 249,
+      "speaker_guid": "813006e9-4919-421c-8616-b7e5d70f0482",
+      "speaker": "Grimm (Male)",
+      "utterance": "But the fancy collector types say the more people see these things, the less valuable they are. And I figure my poster's been passed around by more than a few people by now.",
+      "support_knowledge": [
+        "signed_tossball_poster_02"
+      ]
+    },
+    {
+      "id": 205,
+      "speaker_guid": "813006e9-4919-421c-8616-b7e5d70f0482",
+      "speaker": "Grimm (Male)",
+      "utterance": "Aw, don't be like that. I never get to do this part!",
+      "support_knowledge": []
+    },
+    {
+      "id": 207,
+      "speaker_guid": "813006e9-4919-421c-8616-b7e5d70f0482",
+      "speaker": "Grimm (Male)",
+      "utterance": "Please?",
+      "support_knowledge": []
+    },
+    {
+      "id": 208,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Fine. I'm Captain <oeitoken>PlayerName</oeitoken>.",
+      "support_knowledge": []
+    },
+    {
+      "id": 209,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I go by Alex Hawthorne.",
+      "support_knowledge": []
+    },
+    {
+      "id": 210,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Don't make me tell you twice.",
+      "support_knowledge": []
+    },
+    {
+      "id": 211,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Sorry. I've got business elsewhere.",
+      "support_knowledge": []
+    },
+    {
+      "id": 212,
+      "speaker_guid": "813006e9-4919-421c-8616-b7e5d70f0482",
+      "speaker": "Grimm (Male)",
+      "utterance": "H-hey, easy. I won't stop you.",
+      "support_knowledge": []
+    },
+    {
+      "id": 223,
+      "speaker_guid": "813006e9-4919-421c-8616-b7e5d70f0482",
+      "speaker": "Grimm (Male)",
+      "utterance": "Business? Well, Mr. Sanjar's gonna like the sound of that.",
+      "support_knowledge": []
+    },
+    {
+      "id": 318,
+      "speaker_guid": "813006e9-4919-421c-8616-b7e5d70f0482",
+      "speaker": "Grimm (Male)",
+      "utterance": "You must've seen those UDL gunships on your way in. There's only three of 'em these days. Still, they tend to scare folk off.",
+      "support_knowledge": []
+    },
+    {
+      "id": 319,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "What are they doing out there?",
+      "support_knowledge": []
+    },
+    {
+      "id": 320,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Takes more than a few gunships to scare me.",
+      "support_knowledge": []
+    },
+    {
+      "id": 224,
+      "speaker_guid": "813006e9-4919-421c-8616-b7e5d70f0482",
+      "speaker": "Grimm (Male)",
+      "utterance": "You may not have heard - you being new - but Stellar Bay hardly ever gets offworld traffic. Us being cut off by the Board and all.",
+      "support_knowledge": []
+    },
+    {
+      "id": 200,
+      "speaker_guid": "813006e9-4919-421c-8616-b7e5d70f0482",
+      "speaker": "Grimm (Male)",
+      "utterance": "Which means I never get to do this part. But I've been practicing! So here goes.",
+      "support_knowledge": []
+    },
+    {
+      "id": 321,
+      "speaker_guid": "813006e9-4919-421c-8616-b7e5d70f0482",
+      "speaker": "Grimm (Male)",
+      "utterance": "Wish more folk could say that. Gets awful quiet guarding a landing pad that never gets used.",
+      "support_knowledge": [
+        "grimm_01"
+      ]
+    }
+  ]
+}

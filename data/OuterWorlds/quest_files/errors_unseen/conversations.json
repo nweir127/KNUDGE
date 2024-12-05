@@ -1,0 +1,68 @@
+[
+  {
+    "id": "errors_unseen_00",
+    "quest_name": "errors_unseen",
+    "conversation": {
+      "filename": "0402_cv_sanjar_nandi_new",
+      "start_node": 847,
+      "end_nodes": [
+        292,
+        1465
+      ]
+    },
+    "in_objective": "O0",
+    "out_objective": "O1",
+    "participants": [
+      "sanjar_nandi",
+      "celia_robbins"
+    ]
+  },
+  {
+    "id": "errors_unseen_01",
+    "quest_name": "errors_unseen",
+    "conversation": {
+      "filename": "0407_cv_catherine_malin",
+      "start_node": 101,
+      "end_nodes": []
+    },
+    "in_objective": "O1",
+    "out_objective": "O2",
+    "participants": [
+      "catherine_malin"
+    ]
+  },
+  {
+    "id": "errors_unseen_02",
+    "quest_name": "errors_unseen",
+    "conversation": {
+      "filename": "0401_cv_arthur",
+      "start_node": 1,
+      "end_nodes": [],
+      "force_include": [
+        31,
+        45
+      ]
+    },
+    "in_objective": "O3",
+    "out_objective": "O4",
+    "participants": [
+      "arthur"
+    ]
+  },
+  {
+    "id": "errors_unseen_03",
+    "quest_name": "errors_unseen",
+    "conversation": {
+      "filename": "0402_cv_sanjar_nandi_new",
+      "start_node": 478,
+      "end_nodes": [
+        1042
+      ]
+    },
+    "in_objective": "O5",
+    "participants": [
+      "sanjar_nandi",
+      "celia_robbins"
+    ]
+  }
+]

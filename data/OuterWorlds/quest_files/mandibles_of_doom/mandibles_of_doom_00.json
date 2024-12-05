@@ -1,0 +1,256 @@
+{
+  "id": "mandibles_of_doom_00",
+  "quest_name": "mandibles_of_doom",
+  "conversation": {
+    "filename": "0401_cv_donald",
+    "start_node": 38,
+    "end_nodes": [
+      144,
+      26
+    ],
+    "force_include": [
+      28,
+      31,
+      35
+    ],
+    "force_sequence": []
+  },
+  "in_objective": "O0",
+  "out_objective": "O1",
+  "participants": [
+    "donald_anderson",
+    "lance"
+  ],
+  "dialog_edges": [
+    [
+      38,
+      28
+    ],
+    [
+      38,
+      31
+    ],
+    [
+      38,
+      44
+    ],
+    [
+      28,
+      29
+    ],
+    [
+      29,
+      30
+    ],
+    [
+      30,
+      38
+    ],
+    [
+      31,
+      32
+    ],
+    [
+      32,
+      33
+    ],
+    [
+      33,
+      34
+    ],
+    [
+      34,
+      99
+    ],
+    [
+      34,
+      35
+    ],
+    [
+      34,
+      36
+    ],
+    [
+      99,
+      100
+    ],
+    [
+      100,
+      101
+    ],
+    [
+      101,
+      35
+    ],
+    [
+      101,
+      36
+    ],
+    [
+      35,
+      37
+    ],
+    [
+      37,
+      110
+    ],
+    [
+      110,
+      38
+    ],
+    [
+      36,
+      40
+    ],
+    [
+      40,
+      38
+    ]
+  ],
+  "dialog": [
+    {
+      "id": 38,
+      "speaker_guid": "a5ced43e-d5b4-4e9e-afbd-70b81c646693",
+      "speaker": "Donald Anderson (Male)",
+      "utterance": "Anything else you need?",
+      "support_knowledge": []
+    },
+    {
+      "id": 28,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "How'd the station end up overrun by marauders if you were hired to guard it?",
+      "support_knowledge": [
+        "corporate_compliance_group_03"
+      ]
+    },
+    {
+      "id": 31,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Who's Berthold? Your boss?",
+      "support_knowledge": [
+        "berthold_fox_01"
+      ]
+    },
+    {
+      "id": 44,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I'll be going now.",
+      "support_knowledge": []
+    },
+    {
+      "id": 29,
+      "speaker_guid": "a5ced43e-d5b4-4e9e-afbd-70b81c646693",
+      "speaker": "Donald Anderson (Male)",
+      "utterance": "Trying to say we didn't do our job? I'll have you know, our contract was to stop any marauders coming from the caves. Didn't say nothing about the ones taking the mountain path.",
+      "support_knowledge": [
+        "corporate_compliance_group_03",
+        "corporate_compliance_group_04"
+      ]
+    },
+    {
+      "id": 30,
+      "speaker_guid": "a5ced43e-d5b4-4e9e-afbd-70b81c646693",
+      "speaker": "Donald Anderson (Male)",
+      "utterance": "We'll simply clear them out later. Once we've the go-ahead from Berthold.",
+      "support_knowledge": []
+    },
+    {
+      "id": 32,
+      "speaker_guid": "a5ced43e-d5b4-4e9e-afbd-70b81c646693",
+      "speaker": "Donald Anderson (Male)",
+      "utterance": "That's right. Berthold Fox is our boss man - Founder, President, and CEO. Berty went down into the caves on a hunt for marauders, give or take six hours ago.",
+      "support_knowledge": [
+        "O0_B2",
+        "berthold_fox_01"
+      ]
+    },
+    {
+      "id": 33,
+      "speaker_guid": "a5ced43e-d5b4-4e9e-afbd-70b81c646693",
+      "speaker": "Donald Anderson (Male)",
+      "utterance": "He's a hands-on type. Likes to handle the tougher tasks himself.",
+      "support_knowledge": [
+        "berthold_fox_03"
+      ]
+    },
+    {
+      "id": 34,
+      "speaker_guid": "a5ced43e-d5b4-4e9e-afbd-70b81c646693",
+      "speaker": "Donald Anderson (Male)",
+      "utterance": "Although, he should've been back goin' on six hours now. I'd ask you to check the caves for him. But then we'd have to kill you when you crawl back out.",
+      "support_knowledge": [
+        "corporate_compliance_group_03"
+      ]
+    },
+    {
+      "id": 99,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "You going to kill Berthold when he returns from the caves, too?",
+      "support_knowledge": [
+        "corporate_compliance_group_03",
+        "berthold_fox_04"
+      ]
+    },
+    {
+      "id": 35,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Make me an honorary C3, and I'll look for him.",
+      "support_knowledge": [
+        "O0_B3"
+      ]
+    },
+    {
+      "id": 36,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I think I'll steer clear of the caves, if it's all the same.",
+      "support_knowledge": []
+    },
+    {
+      "id": 100,
+      "speaker_guid": "a5ced43e-d5b4-4e9e-afbd-70b81c646693",
+      "speaker": "Donald Anderson (Male)",
+      "utterance": "Space, no! The contract doesn't target C3s. How'd we enforce it, otherwise?",
+      "support_knowledge": [
+        "corporate_compliance_group_03"
+      ]
+    },
+    {
+      "id": 101,
+      "speaker_guid": "cc5072f8-cd4e-4fee-80a0-acba7903cd83",
+      "speaker": "Lance (Male)",
+      "utterance": "A might cold-blooded, ain't he, Donald?",
+      "support_knowledge": []
+    },
+    {
+      "id": 37,
+      "speaker_guid": "a5ced43e-d5b4-4e9e-afbd-70b81c646693",
+      "speaker": "Donald Anderson (Male)",
+      "utterance": "Done. Use this - signal's locked to Berty's tracker. Should lead you right to him.",
+      "support_knowledge": [
+        "O0_B3"
+      ]
+    },
+    {
+      "id": 110,
+      "speaker_guid": "a5ced43e-d5b4-4e9e-afbd-70b81c646693",
+      "speaker": "Donald Anderson (Male)",
+      "utterance": "Or his body. Whatever you find... bring him back to us. Okay?",
+      "support_knowledge": [
+        "O0_B3"
+      ]
+    },
+    {
+      "id": 40,
+      "speaker_guid": "a5ced43e-d5b4-4e9e-afbd-70b81c646693",
+      "speaker": "Donald Anderson (Male)",
+      "utterance": "Probably for the best. Berty's going to be back... any minute now...",
+      "support_knowledge": []
+    }
+  ]
+}

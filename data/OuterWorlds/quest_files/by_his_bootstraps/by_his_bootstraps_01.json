@@ -1,0 +1,352 @@
+{
+  "id": "by_his_bootstraps_01",
+  "quest_name": "by_his_bootstraps",
+  "conversation": {
+    "filename": "08_cv_scientist_jameson",
+    "start_node": 3,
+    "end_nodes": [],
+    "force_include": [
+      12,
+      29
+    ],
+    "force_sequence": []
+  },
+  "in_objective": "O1",
+  "out_objective": "O2",
+  "participants": [
+    "jameson_avery"
+  ],
+  "objectives": {
+    "O1": {
+      "summary": "Rescue Jameson",
+      "description": {
+        "S1": "Anton sent Jameson to Auntie Cleo's old Aunti-Biotics Lab,",
+        "S2": "just down the road south of Roseway.",
+        "S3": "Make sure he isn't raptidon chow."
+      },
+      "blurb": {
+        "B1": "Exit the town toward Roseway Gardens,",
+        "B2": "and defeat the Raptidon that attack you as you approach Auntie-Biotics Lab 0013.",
+        "B3": "in the large office where you fought the Raptidons,",
+        "B4": "a locked door can be opened with Cleo Lab Office Keycard,",
+        "B5": "or sufficient lockpicking.",
+        "B6": "Once you've unlocked the door,",
+        "B7": "you can go in and talk to Jameson.",
+        "B8": "He recognizes you and asks you what you're doing here.",
+        "B9": "Tell him Anton sent you and he'll complain that Anton is always double-checking everything he does.",
+        "B10": "Jameson says that Anton does not care about him and instead just wants the precursors that he is holding.",
+        "B11": "You can bring up that employee death would look back for Anton,",
+        "B12": "ask him for the item to test the theory, or just get going.",
+        "B13": "Tell him about employee death: You will get 8250xp and Jameson will run off"
+      }
+    },
+    "O2": {
+      "summary": "Talk to Anton",
+      "description": {
+        "S1": "Jameson is pissed off but otherwise fine.",
+        "S2": "Head back to Roseway to give Anton the good news."
+      },
+      "blurb": {
+        "B1": "Return to Anton and talk to him to gain Auntie Cleo Reputation, 1000 Bit Cartridge and 11,000xp."
+      }
+    }
+  },
+  "dialog": [
+    {
+      "id": 3,
+      "speaker_guid": "f48cadb5-14f3-4c9f-b61a-5c0659980def",
+      "speaker": "Jameson (Male)",
+      "utterance": "What -- how the hell did you get in here?",
+      "support_knowledge": [
+        "O1_B8",
+        "jameson_avery_10"
+      ]
+    },
+    {
+      "id": 4,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "First I shot the raptidons, then I walked up the stairs, and ...",
+      "support_knowledge": []
+    },
+    {
+      "id": 5,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I'm very sneaky. Or rapts aren't very observant. Take your pick.",
+      "support_knowledge": []
+    },
+    {
+      "id": 6,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Who cares? Let's get you out of here.",
+      "support_knowledge": []
+    },
+    {
+      "id": 7,
+      "speaker_guid": "f48cadb5-14f3-4c9f-b61a-5c0659980def",
+      "speaker": "Jameson (Male)",
+      "utterance": "No, not -- I don't care about the beasts!",
+      "support_knowledge": []
+    },
+    {
+      "id": 9,
+      "speaker_guid": "f48cadb5-14f3-4c9f-b61a-5c0659980def",
+      "speaker": "Jameson (Male)",
+      "utterance": "I care about the front door! This is an egregious breach of protocol. How'd you get in?",
+      "support_knowledge": [
+        "jameson_avery_10"
+      ]
+    },
+    {
+      "id": 12,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Oh. Anton sent me to get you.",
+      "support_knowledge": [
+        "anton_crane_10"
+      ]
+    },
+    {
+      "id": 13,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Truth be told, the raptidons did most of the work on the door. Not sure they know what a lock is.",
+      "support_knowledge": []
+    },
+    {
+      "id": 68,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Does it matter? You aren't trapped anymore. Let's get.",
+      "support_knowledge": [
+        "jameson_avery_08"
+      ]
+    },
+    {
+      "id": 15,
+      "speaker_guid": "f48cadb5-14f3-4c9f-b61a-5c0659980def",
+      "speaker": "Jameson (Male)",
+      "utterance": "Ugh. Can't use the centrifuge without supervision. Can't file reports without him double-checking their every word. Can't save myself from mortal peril.",
+      "support_knowledge": [
+        "O1_B9",
+        "jameson_avery_03"
+      ]
+    },
+    {
+      "id": 28,
+      "speaker_guid": "f48cadb5-14f3-4c9f-b61a-5c0659980def",
+      "speaker": "Jameson (Male)",
+      "utterance": "It's like he thinks I'm a child. His hands-on management style is coming to a point of contention, I tell you.",
+      "support_knowledge": [
+        "O1_B9",
+        "jameson_avery_03"
+      ]
+    },
+    {
+      "id": 17,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "You're upset that he sent me to rescue you?",
+      "support_knowledge": []
+    },
+    {
+      "id": 20,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Take it up with him if you like. Now go -- before more rapts find this place.",
+      "support_knowledge": []
+    },
+    {
+      "id": 22,
+      "speaker_guid": "f48cadb5-14f3-4c9f-b61a-5c0659980def",
+      "speaker": "Jameson (Male)",
+      "utterance": "Please, that man doesn't have an altruistic bone in his body. I just happen to have the metabolic precursors from our last test.",
+      "support_knowledge": [
+        "O1_B10"
+      ]
+    },
+    {
+      "id": 23,
+      "speaker_guid": "f48cadb5-14f3-4c9f-b61a-5c0659980def",
+      "speaker": "Jameson (Male)",
+      "utterance": "I'd wager my last bit that if you brought back the precursors and left me for dead, Anton wouldn't bat an eye.",
+      "support_knowledge": [
+        "O1_B10"
+      ]
+    },
+    {
+      "id": 29,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Actually ... that isn't quite true. He said it'd look bad on him if more of his employees died.",
+      "support_knowledge": [
+        "O1_B11"
+      ]
+    },
+    {
+      "id": 26,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Hand them over, then. Let's test your theory.",
+      "support_knowledge": [
+        "O1_B12"
+      ]
+    },
+    {
+      "id": 25,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Well, whether he gives a shit about you or not, at least you're alive. Now, let's get out of here.",
+      "support_knowledge": []
+    },
+    {
+      "id": 31,
+      "speaker_guid": "f48cadb5-14f3-4c9f-b61a-5c0659980def",
+      "speaker": "Jameson (Male)",
+      "utterance": "Wonderful. That's much better. I'm getting out of here so I can personally thank him for his compassion.",
+      "support_knowledge": [
+        "O1_B10"
+      ]
+    },
+    {
+      "id": 32,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Right. Stay safe.",
+      "support_knowledge": []
+    },
+    {
+      "id": 27,
+      "speaker_guid": "f48cadb5-14f3-4c9f-b61a-5c0659980def",
+      "speaker": "Jameson (Male)",
+      "utterance": "Wh -- what? No, come on. There's no call for that. If the way's clear, I'll head on back.",
+      "support_knowledge": []
+    },
+    {
+      "id": 16,
+      "speaker_guid": "f48cadb5-14f3-4c9f-b61a-5c0659980def",
+      "speaker": "Jameson (Male)",
+      "utterance": "Damnable beasts. At least I'm not trapped here anymore. I'll see you back at town.",
+      "support_knowledge": []
+    },
+    {
+      "id": 69,
+      "speaker_guid": "f48cadb5-14f3-4c9f-b61a-5c0659980def",
+      "speaker": "Jameson (Male)",
+      "utterance": "Fair point. I'll see you back at town.",
+      "support_knowledge": []
+    }
+  ],
+  "dialog_edges": [
+    [
+      3,
+      4
+    ],
+    [
+      3,
+      5
+    ],
+    [
+      3,
+      6
+    ],
+    [
+      4,
+      7
+    ],
+    [
+      7,
+      9
+    ],
+    [
+      9,
+      12
+    ],
+    [
+      9,
+      13
+    ],
+    [
+      9,
+      68
+    ],
+    [
+      12,
+      15
+    ],
+    [
+      15,
+      28
+    ],
+    [
+      28,
+      17
+    ],
+    [
+      28,
+      20
+    ],
+    [
+      17,
+      22
+    ],
+    [
+      22,
+      23
+    ],
+    [
+      23,
+      29
+    ],
+    [
+      23,
+      26
+    ],
+    [
+      23,
+      25
+    ],
+    [
+      29,
+      31
+    ],
+    [
+      31,
+      32
+    ],
+    [
+      26,
+      27
+    ],
+    [
+      27,
+      32
+    ],
+    [
+      13,
+      16
+    ],
+    [
+      16,
+      32
+    ],
+    [
+      68,
+      69
+    ],
+    [
+      69,
+      32
+    ],
+    [
+      5,
+      7
+    ],
+    [
+      6,
+      9
+    ]
+  ]
+}

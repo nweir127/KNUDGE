@@ -1,0 +1,344 @@
+{
+  "id": "solution_vital_02",
+  "quest_name": "solution_vital",
+  "conversation": {
+    "filename": "01_cv_captain_irion",
+    "start_node": 1,
+    "end_nodes": [],
+    "force_include": [
+      15,
+      60
+    ],
+    "force_sequence": [
+      [
+        26,
+        20
+      ]
+    ]
+  },
+  "in_objective": "O2",
+  "out_objective": "O3",
+  "participants": [
+    "captain_irion",
+    "irions_medbot"
+  ],
+  "objectives": {
+    "O2": {
+      "summary": "Find Captain Irion on Scylla",
+      "description": {
+        "S1": "Dr. Dorsett said that Captain Irion is most likely somewhere on Scylla.",
+        "S2": "Go find him and make sure he is okay."
+      },
+      "blurb": {
+        "B1": "the objective is to head to Scylla and rescue Captain Irion from the Outlaws there.",
+        "B2": "Speak with him once they are dead,",
+        "B3": "and he will update this quest"
+      }
+    },
+    "O3": {
+      "summary": "Report to Dr. Dorsett",
+      "description": {
+        "S1": "Wanda will want to know what became of Captain Irion and the delivery."
+      },
+      "blurb": {
+        "B1": "Speak with Dr. Wanda Dorsett and you'll complete the quest."
+      }
+    }
+  },
+  "dialog": [
+    {
+      "id": 1,
+      "speaker_guid": "8ca73de2-160d-4006-afb9-0ab323c47edb",
+      "speaker": "Captain_Irion (Male)",
+      "utterance": "Tremendous work, friend! Here I was readying a daring maneuver, and you've come and saved me the trouble!",
+      "support_knowledge": [
+        "O2_B2",
+        "O2_B3"
+      ]
+    },
+    {
+      "id": 10,
+      "speaker_guid": "3e7897af-a6cb-4c42-91af-5a265346d14a",
+      "speaker": "Irions_Medbot (Neuter)",
+      "utterance": "Symptoms detected: elevated heart rate; dilated pupils; increased sweat production. Subject appears to be terrified.",
+      "support_knowledge": []
+    },
+    {
+      "id": 15,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Captain Irion, I take it?",
+      "support_knowledge": [
+        "captain_irion_02"
+      ]
+    },
+    {
+      "id": 19,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Sure, buddy. What were they after?",
+      "support_knowledge": []
+    },
+    {
+      "id": 14,
+      "speaker_guid": "8ca73de2-160d-4006-afb9-0ab323c47edb",
+      "speaker": "Captain_Irion (Male)",
+      "utterance": "I'm not terrified, you bucket of bolts! That's victory sweat!",
+      "support_knowledge": []
+    },
+    {
+      "id": 16,
+      "speaker_guid": "8ca73de2-160d-4006-afb9-0ab323c47edb",
+      "speaker": "Captain_Irion (Male)",
+      "utterance": "The one and only!",
+      "support_knowledge": [
+        "captain_irion_02"
+      ]
+    },
+    {
+      "id": 38,
+      "speaker_guid": "8ca73de2-160d-4006-afb9-0ab323c47edb",
+      "speaker": "Captain_Irion (Male)",
+      "utterance": "Wait, who's asking? Wanda didn't send you, did she?",
+      "support_knowledge": [
+        "O2_S1",
+        "O2_S2"
+      ]
+    },
+    {
+      "id": 21,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "She did.",
+      "support_knowledge": []
+    },
+    {
+      "id": 22,
+      "speaker_guid": "8ca73de2-160d-4006-afb9-0ab323c47edb",
+      "speaker": "Captain_Irion (Male)",
+      "utterance": "I swear - land on Groundbreaker even a moment tardy, and that busybody's already been up your ass an hour.",
+      "support_knowledge": []
+    },
+    {
+      "id": 26,
+      "speaker_guid": "8ca73de2-160d-4006-afb9-0ab323c47edb",
+      "speaker": "Captain_Irion (Male)",
+      "utterance": "You tell her these automechs are coming, and sending a hired stooge to rescue me from certain peril only furthers my delay! No offense.",
+      "support_knowledge": [
+        "O0_S2",
+        "O2_B1"
+      ]
+    },
+    {
+      "id": 28,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "None taken. I'll let Wanda know her shipment's on the way.",
+      "support_knowledge": []
+    },
+    {
+      "id": 29,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "You ought to be thanking me. You're lucky you're alive.",
+      "support_knowledge": []
+    },
+    {
+      "id": 60,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Any idea what those pirates were after?",
+      "support_knowledge": []
+    },
+    {
+      "id": 51,
+      "speaker_guid": "8ca73de2-160d-4006-afb9-0ab323c47edb",
+      "speaker": "Captain_Irion (Male)",
+      "utterance": "Magnificent! And do please give Wanda my chilliest regards!",
+      "support_knowledge": []
+    },
+    {
+      "id": 31,
+      "speaker_guid": "8ca73de2-160d-4006-afb9-0ab323c47edb",
+      "speaker": "Captain_Irion (Male)",
+      "utterance": "Yes, well, I shan't. Give Wanda my chilliest regards!",
+      "support_knowledge": []
+    },
+    {
+      "id": 20,
+      "speaker_guid": "8ca73de2-160d-4006-afb9-0ab323c47edb",
+      "speaker": "Captain_Irion (Male)",
+      "utterance": "Meds, I'm guessing. Pirates love bits, and unlabeled meds are worth a bundle.",
+      "support_knowledge": []
+    },
+    {
+      "id": 32,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "What will you do now?",
+      "support_knowledge": []
+    },
+    {
+      "id": 56,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "What corporation do you work for?",
+      "support_knowledge": [
+        "captain_irion_03"
+      ]
+    },
+    {
+      "id": 52,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Who are these meds for?",
+      "support_knowledge": []
+    },
+    {
+      "id": 35,
+      "speaker_guid": "8ca73de2-160d-4006-afb9-0ab323c47edb",
+      "speaker": "Captain_Irion (Male)",
+      "utterance": "Well. I've got some repairs to do -thankfully, I'm as skilled a mechanic as I am a violence resolution expert!",
+      "support_knowledge": [
+        "captain_irion_04"
+      ]
+    },
+    {
+      "id": 36,
+      "speaker_guid": "8ca73de2-160d-4006-afb9-0ab323c47edb",
+      "speaker": "Captain_Irion (Male)",
+      "utterance": "Then... to the Groundbreaker. Better late than never, I say! Unless you're very late. Then you might consider defaulting and skipping station. Those fees will bankrupt you.",
+      "support_knowledge": []
+    },
+    {
+      "id": 57,
+      "speaker_guid": "8ca73de2-160d-4006-afb9-0ab323c47edb",
+      "speaker": "Captain_Irion (Male)",
+      "utterance": "Not a damned one! I'm a free man - there isn't a corporate snake that can hold down the inimitable Captain Irion.",
+      "support_knowledge": [
+        "captain_irion_03"
+      ]
+    },
+    {
+      "id": 53,
+      "speaker_guid": "8ca73de2-160d-4006-afb9-0ab323c47edb",
+      "speaker": "Captain_Irion (Male)",
+      "utterance": "Supposed to be for the Groundbreaker, but getting shot tends to hinder one's delivery plans.",
+      "support_knowledge": []
+    }
+  ],
+  "dialog_edges": [
+    [
+      1,
+      10
+    ],
+    [
+      1,
+      15
+    ],
+    [
+      1,
+      19
+    ],
+    [
+      10,
+      14
+    ],
+    [
+      14,
+      15
+    ],
+    [
+      14,
+      19
+    ],
+    [
+      15,
+      16
+    ],
+    [
+      16,
+      38
+    ],
+    [
+      38,
+      21
+    ],
+    [
+      21,
+      22
+    ],
+    [
+      22,
+      26
+    ],
+    [
+      26,
+      28
+    ],
+    [
+      26,
+      29
+    ],
+    [
+      26,
+      60
+    ],
+    [
+      28,
+      51
+    ],
+    [
+      29,
+      31
+    ],
+    [
+      60,
+      20
+    ],
+    [
+      20,
+      15
+    ],
+    [
+      20,
+      32
+    ],
+    [
+      20,
+      56
+    ],
+    [
+      20,
+      52
+    ],
+    [
+      32,
+      35
+    ],
+    [
+      35,
+      36
+    ],
+    [
+      56,
+      57
+    ],
+    [
+      57,
+      20
+    ],
+    [
+      52,
+      53
+    ],
+    [
+      53,
+      20
+    ],
+    [
+      19,
+      20
+    ]
+  ]
+}

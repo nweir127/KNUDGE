@@ -1,0 +1,594 @@
+{
+  "id": "canids_cradle_02",
+  "quest_name": "canids_cradle",
+  "conversation": {
+    "filename": "0403_cv_zora_graham_showdown",
+    "start_node": 1,
+    "end_nodes": [],
+    "force_include": [
+      2
+    ]
+  },
+  "in_objective": "O4",
+  "out_objective": "O4",
+  "participants": [
+    "zora_blackwood",
+    "graham_bryant"
+  ],
+  "dialog_edges": [
+    [
+      1,
+      2
+    ],
+    [
+      2,
+      6
+    ],
+    [
+      6,
+      9
+    ],
+    [
+      6,
+      7
+    ],
+    [
+      6,
+      8
+    ],
+    [
+      9,
+      10
+    ],
+    [
+      10,
+      12
+    ],
+    [
+      12,
+      13
+    ],
+    [
+      13,
+      14
+    ],
+    [
+      14,
+      15
+    ],
+    [
+      15,
+      16
+    ],
+    [
+      15,
+      17
+    ],
+    [
+      15,
+      18
+    ],
+    [
+      15,
+      30
+    ],
+    [
+      16,
+      19
+    ],
+    [
+      19,
+      20
+    ],
+    [
+      20,
+      22
+    ],
+    [
+      22,
+      29
+    ],
+    [
+      29,
+      26
+    ],
+    [
+      29,
+      27
+    ],
+    [
+      29,
+      28
+    ],
+    [
+      29,
+      30
+    ],
+    [
+      26,
+      31
+    ],
+    [
+      31,
+      32
+    ],
+    [
+      32,
+      34
+    ],
+    [
+      34,
+      35
+    ],
+    [
+      35,
+      37
+    ],
+    [
+      35,
+      38
+    ],
+    [
+      35,
+      42
+    ],
+    [
+      37,
+      39
+    ],
+    [
+      39,
+      40
+    ],
+    [
+      40,
+      41
+    ],
+    [
+      38,
+      51
+    ],
+    [
+      51,
+      39
+    ],
+    [
+      42,
+      41
+    ],
+    [
+      27,
+      48
+    ],
+    [
+      48,
+      31
+    ],
+    [
+      28,
+      49
+    ],
+    [
+      49,
+      31
+    ],
+    [
+      17,
+      46
+    ],
+    [
+      46,
+      19
+    ],
+    [
+      18,
+      47
+    ],
+    [
+      47,
+      19
+    ],
+    [
+      30,
+      50
+    ],
+    [
+      50,
+      34
+    ],
+    [
+      7,
+      44
+    ],
+    [
+      44,
+      12
+    ],
+    [
+      8,
+      45
+    ],
+    [
+      45,
+      12
+    ]
+  ],
+  "dialog": [
+    {
+      "id": 1,
+      "speaker_guid": "cee405f5-2ec3-4c75-a60e-4f2c0a2ed77c",
+      "speaker": "graham_bryant (Male)",
+      "utterance": "Captain! You must be back with the access codes to our new ship.",
+      "support_knowledge": [
+        "O2_S1"
+      ]
+    },
+    {
+      "id": 2,
+      "speaker_guid": "ac9307ba-1ad4-4577-9f68-b0ff8cbc2740",
+      "speaker": "Zora (Female)",
+      "utterance": "Graham. We need to talk.",
+      "support_knowledge": [
+        "O4_B4"
+      ]
+    },
+    {
+      "id": 6,
+      "speaker_guid": "cee405f5-2ec3-4c75-a60e-4f2c0a2ed77c",
+      "speaker": "graham_bryant (Male)",
+      "utterance": "We have work to do. This isn't the time for one of our spats.",
+      "support_knowledge": []
+    },
+    {
+      "id": 9,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I'm sorry, Graham, but... Zora's taking over.",
+      "support_knowledge": [
+        "zora_blackwood_13",
+        "iconoclasts_22"
+      ]
+    },
+    {
+      "id": 7,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Stand down, Graham.",
+      "support_knowledge": [
+        "iconoclasts_22"
+      ]
+    },
+    {
+      "id": 8,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "We aren't here to argue. We're here to act.",
+      "support_knowledge": [
+        "iconoclasts_22"
+      ]
+    },
+    {
+      "id": 10,
+      "speaker_guid": "cee405f5-2ec3-4c75-a60e-4f2c0a2ed77c",
+      "speaker": "graham_bryant (Male)",
+      "utterance": "What? ...Zora?",
+      "support_knowledge": []
+    },
+    {
+      "id": 12,
+      "speaker_guid": "ac9307ba-1ad4-4577-9f68-b0ff8cbc2740",
+      "speaker": "Zora (Female)",
+      "utterance": "You're running the Iconoclasts into the ground, and I don't believe it'll get better after we take Stellar Bay.",
+      "support_knowledge": [
+        "stellar_bay_02",
+        "iconoclasts_13",
+        "iconoclasts_16",
+        "iconoclasts_17"
+      ]
+    },
+    {
+      "id": 13,
+      "speaker_guid": "ac9307ba-1ad4-4577-9f68-b0ff8cbc2740",
+      "speaker": "Zora (Female)",
+      "utterance": "The troops take orders from me already. And you've... you've brought me as far as you can down the Eternal path. It's time to step down.",
+      "support_knowledge": [
+        "iconoclasts_08",
+        "iconoclasts_10",
+        "iconoclasts_12"
+      ]
+    },
+    {
+      "id": 14,
+      "speaker_guid": "cee405f5-2ec3-4c75-a60e-4f2c0a2ed77c",
+      "speaker": "graham_bryant (Male)",
+      "utterance": "The troops. Listen to you. This isn't an army. They aren't soldiers. They're believers. Followers. They pick up a gun because you tell them to, not because they want to.",
+      "support_knowledge": [
+        "O4_B5",
+        "iconoclasts_08",
+        "iconoclasts_09"
+      ]
+    },
+    {
+      "id": 15,
+      "speaker_guid": "cee405f5-2ec3-4c75-a60e-4f2c0a2ed77c",
+      "speaker": "graham_bryant (Male)",
+      "utterance": "And you, Captain. After all you've done for me. For us. You throw behind this mutinous blasphemer?",
+      "support_knowledge": [
+        "O4_B5"
+      ]
+    },
+    {
+      "id": 16,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I do. She's got the best interests of the Iconoclasts at heart.",
+      "support_knowledge": [
+        "graham_bryant_20",
+        "zora_blackwood_02",
+        "zora_blackwood_13",
+        "iconoclasts_11"
+      ]
+    },
+    {
+      "id": 17,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "You're about to take over a planet. You can't handle that responsibility.",
+      "support_knowledge": []
+    },
+    {
+      "id": 18,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I just think she'll be a better leader.",
+      "support_knowledge": [
+        "zora_blackwood_13"
+      ]
+    },
+    {
+      "id": 30,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Let's get on with it, Zora.",
+      "support_knowledge": []
+    },
+    {
+      "id": 19,
+      "speaker_guid": "cee405f5-2ec3-4c75-a60e-4f2c0a2ed77c",
+      "speaker": "graham_bryant (Male)",
+      "utterance": "I built this movement from the ground up. I've brought freedom to Monarch, and all these years later, we're still free.",
+      "support_knowledge": [
+        "graham_bryant_01",
+        "iconoclasts_01"
+      ]
+    },
+    {
+      "id": 20,
+      "speaker_guid": "ac9307ba-1ad4-4577-9f68-b0ff8cbc2740",
+      "speaker": "Zora (Female)",
+      "utterance": "I joined because I believed that you were in it for the Iconoclasts. That you wanted nothing more than to bring freedom to Halcyon. That you were selfless.",
+      "support_knowledge": [
+        "iconoclasts_10",
+        "iconoclasts_11"
+      ]
+    },
+    {
+      "id": 22,
+      "speaker_guid": "ac9307ba-1ad4-4577-9f68-b0ff8cbc2740",
+      "speaker": "Zora (Female)",
+      "utterance": "But... I know the truth now, Graham. I know what happened in Amber Heights. You didn't start this movement because you wanted to save us. You wanted to save yourself.",
+      "support_knowledge": [
+        "O4_B6",
+        "graham_bryant_20",
+        "graham_bryant_21",
+        "iconoclasts_23"
+      ]
+    },
+    {
+      "id": 29,
+      "speaker_guid": "cee405f5-2ec3-4c75-a60e-4f2c0a2ed77c",
+      "speaker": "graham_bryant (Male)",
+      "utterance": "No...",
+      "support_knowledge": []
+    },
+    {
+      "id": 26,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Those deaths are on your hands, Graham. No amount of meditating will clean them.",
+      "support_knowledge": [
+        "graham_bryant_21"
+      ]
+    },
+    {
+      "id": 27,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "You ran. You needed a clear conscience, so you ran.",
+      "support_knowledge": [
+        "graham_bryant_21"
+      ]
+    },
+    {
+      "id": 28,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "You don't seek enlightenment. You just feel guilty.",
+      "support_knowledge": [
+        "graham_bryant_21"
+      ]
+    },
+    {
+      "id": 31,
+      "speaker_guid": "cee405f5-2ec3-4c75-a60e-4f2c0a2ed77c",
+      "speaker": "graham_bryant (Male)",
+      "utterance": "I've spent years atoning for my sins! I've studied. Meditated. Taught. I built the Iconoclasts so that any man could cast away his past for a fresh start.",
+      "support_knowledge": [
+        "graham_bryant_21",
+        "iconoclasts_01",
+        "iconoclasts_08",
+        "iconoclasts_09"
+      ]
+    },
+    {
+      "id": 32,
+      "speaker_guid": "ac9307ba-1ad4-4577-9f68-b0ff8cbc2740",
+      "speaker": "Zora (Female)",
+      "utterance": "That's your answer, Graham? You... needed a fresh start? After all those innocent lives...",
+      "support_knowledge": [
+        "O4_B6",
+        "graham_bryant_20",
+        "graham_bryant_21"
+      ]
+    },
+    {
+      "id": 34,
+      "speaker_guid": "ac9307ba-1ad4-4577-9f68-b0ff8cbc2740",
+      "speaker": "Zora (Female)",
+      "utterance": "I'm sorry. I believed in you once. I did. But... it's over. Stand down.",
+      "support_knowledge": [
+        "O4_B6",
+        "iconoclasts_11"
+      ]
+    },
+    {
+      "id": 35,
+      "speaker_guid": "cee405f5-2ec3-4c75-a60e-4f2c0a2ed77c",
+      "speaker": "graham_bryant (Male)",
+      "utterance": "I won't. What happened back then was a mistake, and the colony has moved on. This is my movement. These are my people. If you want to lead them, you'll have to kill me.",
+      "support_knowledge": [
+        "O4_B7",
+        "graham_bryant_21",
+        "graham_bryant_22",
+        "iconoclasts_09"
+      ]
+    },
+    {
+      "id": 37,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "That isn't necessary.",
+      "support_knowledge": []
+    },
+    {
+      "id": 38,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Not much of a choice here, Zora.",
+      "support_knowledge": [
+        "graham_bryant_22"
+      ]
+    },
+    {
+      "id": 42,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Let's get this over with.",
+      "support_knowledge": [
+        "graham_bryant_22"
+      ]
+    },
+    {
+      "id": 39,
+      "speaker_guid": "ac9307ba-1ad4-4577-9f68-b0ff8cbc2740",
+      "speaker": "Zora (Female)",
+      "utterance": "Please... don't make me do this, Graham.",
+      "support_knowledge": [
+        "graham_bryant_22"
+      ]
+    },
+    {
+      "id": 40,
+      "speaker_guid": "cee405f5-2ec3-4c75-a60e-4f2c0a2ed77c",
+      "speaker": "graham_bryant (Male)",
+      "utterance": "If this is where my path ends, I accept it. But as long as I draw breath, I will not abandon them.",
+      "support_knowledge": [
+        "O4_B7",
+        "graham_bryant_22"
+      ]
+    },
+    {
+      "id": 41,
+      "speaker_guid": "ac9307ba-1ad4-4577-9f68-b0ff8cbc2740",
+      "speaker": "Zora (Female)",
+      "utterance": "So be it.",
+      "support_knowledge": [
+        "graham_bryant_22"
+      ]
+    },
+    {
+      "id": 51,
+      "speaker_guid": "ac9307ba-1ad4-4577-9f68-b0ff8cbc2740",
+      "speaker": "Zora (Female)",
+      "utterance": "Yeah. I... I had hoped.",
+      "support_knowledge": [
+        "graham_bryant_22"
+      ]
+    },
+    {
+      "id": 48,
+      "speaker_guid": "cee405f5-2ec3-4c75-a60e-4f2c0a2ed77c",
+      "speaker": "graham_bryant (Male)",
+      "utterance": "I escaped the corruption of the endless cycle of corporate greed. Yes, I ran from that. But now I'm ready to face it once more!",
+      "support_knowledge": []
+    },
+    {
+      "id": 49,
+      "speaker_guid": "cee405f5-2ec3-4c75-a60e-4f2c0a2ed77c",
+      "speaker": "graham_bryant (Male)",
+      "utterance": "Guilty? I didn't mean for them to die. I'm not a monster. Of course I feel fucking guilty!",
+      "support_knowledge": [
+        "graham_bryant_21"
+      ]
+    },
+    {
+      "id": 46,
+      "speaker_guid": "cee405f5-2ec3-4c75-a60e-4f2c0a2ed77c",
+      "speaker": "graham_bryant (Male)",
+      "utterance": "I can and shall. All I've done, I've done for my people, and look at where that path has led me.",
+      "support_knowledge": [
+        "graham_bryant_01",
+        "iconoclasts_09"
+      ]
+    },
+    {
+      "id": 47,
+      "speaker_guid": "cee405f5-2ec3-4c75-a60e-4f2c0a2ed77c",
+      "speaker": "graham_bryant (Male)",
+      "utterance": "How can you say that after all I've done for the Iconoclasts? They wouldn't be here without me.",
+      "support_knowledge": [
+        "graham_bryant_01",
+        "iconoclasts_01",
+        "iconoclasts_09"
+      ]
+    },
+    {
+      "id": 50,
+      "speaker_guid": "ac9307ba-1ad4-4577-9f68-b0ff8cbc2740",
+      "speaker": "Zora (Female)",
+      "utterance": "Yeah. I... yeah. Let's.",
+      "support_knowledge": [
+        "graham_bryant_22"
+      ]
+    },
+    {
+      "id": 44,
+      "speaker_guid": "cee405f5-2ec3-4c75-a60e-4f2c0a2ed77c",
+      "speaker": "graham_bryant (Male)",
+      "utterance": "Stand... down? I'm afraid I don't understand, Captain.",
+      "support_knowledge": [
+        "graham_bryant_20"
+      ]
+    },
+    {
+      "id": 45,
+      "speaker_guid": "cee405f5-2ec3-4c75-a60e-4f2c0a2ed77c",
+      "speaker": "graham_bryant (Male)",
+      "utterance": "Yes. We are acting. On Stellar Bay. What's this about?",
+      "support_knowledge": [
+        "graham_bryant_20",
+        "stellar_bay_02"
+      ]
+    }
+  ]
+}

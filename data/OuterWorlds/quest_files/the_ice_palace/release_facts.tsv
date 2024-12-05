@@ -1,0 +1,154 @@
+ID	fact
+OBJECTIVE O0	
+O0_S1	214:83
+O0_S2	She gave you an override bypass that should stake her claim over HRS-1084 as the rightful property of SubLight Salvage.
+O0_B1	Speaking with Lilya Hagen after completing Space-Crime Continuum will start this quest.
+O0_B2	Lilya will tell the Stranger about HRS-1084,
+O0_B3	an abandoned research station which SubLight wants to acquire for its own.
+O0_B4	She gives them an Override Cartridge which will allow SubLight to take over the station.
+OBJECTIVE O1	
+O1_S1	460:83
+O1_S2	544:44
+O1_B1	1132:49
+O1_B2	1249:69
+O1_B3	1319:64
+O1_B4	1384:131
+O1_B5	1516:173
+O1_B6	1690:101
+O1_B7	1792:67
+O1_B8	1860:81
+O1_B9	1942:39
+O1_B10	1982:71
+O1_B11	2600:71
+O1_B12	2672:43
+O1_B13	2716:105
+O1_B14	2822:64
+O1_B15	3117:31
+O1_B16	3149:64
+O1_B17	3214:169
+O1_B18	3385:65
+OBJECTIVE O2	
+O2_S1	806:71
+O2_S2	878:44
+O2_S3	She can be found in SubLight Headquarters on the Groundbreaker.
+O2_B1	3589:41
+O2_B2	3631:114
+O2_B3	3746:117
+O2_B4	Lilya will ask you if you encountered any resistance at the station,
+O2_B5	3932:56
+O2_B6	3989:65
+O2_B7	4055:19
+O2_B8	4075:48
+O2_B9	4124:38
+O2_B10	4162:37
+O2_B11	4200:79
+O2_B12	4280:37
+O2_B13	4318:45
+O2_B14	4364:38
+O2_B15	4403:122
+ada	
+ada_01	ADA (Autonomous Digital Astrogator) is an advanced AI aboard the Unreliable.
+ada_02	She controls the navigation and communications systems of the ship.
+ada_03	As ADA was programmed to recognize only Alex Hawthorne as the legal owner of the Unreliable,
+ada_04	"the Stranger has no choice but to allow her to identify them as ""Captain Alex Hawthorne"" in order to circumvent the restriction."
+ada_05	She is able to adapt and learn from the ship's operators to be able to better anticipate their needs.
+automechanicals	
+automechanicals_01	Automechanicals are robots in The Outer Worlds.
+automechanicals_02	Taking on various shapes and forms,
+automechanicals_03	from quadrupedal walkers,
+automechanicals_04	to hovering drones,
+automechanicals_05	to large humanoid mechs,
+automechanicals_06	automechanicals function to provide various services to corporations and their owners in Halcyon.
+automechanicals_07	Mechanicals are equipped with a large automatic cannon.
+automechanicals_08	They are vulnerable to electromagnetic damage weaponry,
+automechanicals_09	such as the stun baton.
+cascadia	
+cascadia_01	Cascadia is an abandoned company town that was owned and operated by Rizzo's before it withdrew from Monarch.
+cascadia_02	It is now used as a stronghold by the Marauders.
+cascadia_03	The main attraction is the Cascadia Bottling Plant and,
+cascadia_04	for those in the know,
+cascadia_05	the Rizzo Secret Laboratory hidden underneath the Rizzo Sweets Shoppe.
+groundbreaker	
+groundbreaker_01	UDL-001 The Groundbreaker or simply Groundbreaker was the first colony ship to arrive in Halcyon during the Crossing.
+groundbreaker_02	By 2355, it has been converted into an independent orbital station,
+groundbreaker_03	and is the only place in the entire Halcyon system that is not controlled by the Halcyon Holdings Corporate Board or any other corporation.
+groundbreaker_04	The crew of the Groundbreaker is fiercely protective of their independence from the corporations,
+groundbreaker_05	and the corporations value the station's role as a thriving freeport enough that they are willing to deal with it on relatively equal terms.
+groundbreaker_06	In practical terms, while the Groundbreaker rules itself,
+groundbreaker_07	it cooperates with the corporations to an extent,
+groundbreaker_08	such as by impounding ships that the Board happens to flag.
+groundbreaker_09	The Groundbreaker is commanded by engineer-turned-captain Junlei Tennyson.
+groundbreaker_10	Udom Bedford is the Halcyon Holdings Corporation representative stationed aboard.
+groundbreaker_11	According to Junlei, lots of corners were cut when the ship was built,
+groundbreaker_12	prompting Captain Guiying Tennyson to spend half of her career attempting to patch the ship back together after the Crossing from Earth to Halcyon.
+groundbreaker_13	In addition, the ship has tinkerings and bypasses that only the Tennysons know about.
+groundbreaker_14	The Groundbreaker maintains a somewhat tense relationship with the Board,
+groundbreaker_15	owing to their declared independence from Board authority,
+groundbreaker_16	as well as their control of shipping routes outward from the Halcyon System.
+groundbreaker_17	Nonetheless, given that Groundbreaker lacks any semblance of military might against the Board beyond the mardets stationed aboard the ship,
+groundbreaker_18	the loose hierarchy in charge of the Groundbreaker often seeks to find (illicit) ways of delaying, stymieing, or pitting corporations under the Board's thumb against each other,
+groundbreaker_19	usually through black market fences like Gladys Culkelly.
+groundbreaker_20	Nonetheless, the Board maintains an embassy aboard the Groundbreaker run by bureaucrat Udom Bedford.
+groundbreaker_21	Depending on the actions of the Stranger, the Groundbreaker's crew may be compelled to rebel against the Board's system-wide authority.
+groundbreaker_22	The Groundbreaker is generally neutral to Sublight Salvage and Shipping Corporation,
+groundbreaker_23	and allows them to operate an office and warehouse aboard the ship, helmed by Lilya Hagen.
+hrs-1084	
+hrs-1084_01	The Heliospheric Research Station 1084,
+hrs-1084_02	otherwise known as HRS-1084 (or just ten-eighty-four),
+hrs-1084_03	is a giant research station orbiting around in the Halcyon system.
+hrs-1084_04	The Stranger can only travel to this location after starting the quest, The Ice Palace.
+hrs-1084_05	Lilya Hagen tasks the Stranger with claiming the abandoned station in SubLight's name during the quest The Ice Palace.
+hrs-1084_06	The station has been dark for some time and emits only a very weak docking signal.
+lilya_hagen	
+lilya_hagen_01	Lilya Hagen is the CEO of SubLight Salvage and Shipping Corporation,
+lilya_hagen_02	based aboard the Groundbreaker.
+lilya_hagen_03	Not much is known about Lilya’s early life besides for being a descendant from the original Groundbreaker colonists.
+lilya_hagen_04	At some point Lilya joined the SubLight Salvage and Shipping Corporation and worked her way up to CEO.
+lilya_hagen_05	The company was a full time job which caused her to lose sleep making her impatient and emotionless.
+lilya_hagen_06	Lilya eventually only cared about profit and started to invest in dangerous jobs which (if not caught) would make her very rich.
+lilya_hagen_07	Not wanting to get her hands dirty,
+lilya_hagen_08	Lilya offers these jobs to mercenaries,
+lilya_hagen_09	this eventually gets the attention of the Stranger.
+lilya_hagen_10	She gets them to do to big jobs until she thinks a scientist in Byzantium is helping aliens after seeing evidence from the jobs.
+lilya_hagen_11	If the scientist gets killed,
+lilya_hagen_12	she makes the Stranger a high-ranking member.
+override_cartridge	
+override_cartridge_01	This cartridge is used to override a terminals remote access protocols on the HRS-1084.
+override_cartridge_02	The keycard cartridge is given to the Stranger by Lilya Hagen on the Groundbreaker at the start of The Ice Palace.
+sublight	
+sublight_01	"The SubLight Salvage and Shipping Corporation, also known as SubLight Salvage and Shipping or simply SubLight , is a network of ""salvagers"" with business ties to ""transportation"" and ""waste disposal""."
+sublight_02	A tangled web of contractors and secretive vice presidents make up their official hierarchy,
+sublight_03	leaving no one to speak on the record about SubLight's more legally dubious activities.
+sublight_04	SubLight as a business operates activities that would be considered illicit by some,
+sublight_05	amoral by others,
+sublight_06	and at odds with the Board,
+sublight_07	such as the takeover of abandoned space habitats,
+sublight_08	smuggling contraband,
+sublight_09	and serving as a front for companies to bypass the infamous Hazard Clause applied on Monarch.
+sublight_10	According to director Lilya Hagen,
+sublight_11	operating off of Groundbreaker,
+sublight_12	"SubLight ""occupies a legal blind spot."
+sublight_13	No one knows what [they're] licensed to do,
+sublight_14	"and that gives [their] little business some freedom."""
+sublight_15	Although the Board tolerates and sees the value of SubLight's activities,
+sublight_16	there are still limits to what the latter can get away with.
+sublight_17	SubLight maintains an office aboard the Groundbreaker as well as a settlement on Monarch known as Fallbrook.
+the_board	
+the_board_01	The Halcyon Holdings Corporate Board, also simply known as The Board,
+the_board_02	institutes policy and law throughout the Halcyon Colony.
+the_board_03	The details surrounding the board's founding remain largely unknown,
+the_board_04	though its activities suggest that it was originally founded some seventy-odd years ago, give or take.
+the_board_05	In that time, it has managed to terraform Terra I
+the_board_06	(a catastrophic failure due to mutations rendering the wildlife overwhelmingly hostile to human life).
+the_board_07	The Board maintains a very tense relationship with MSI, owing to MSI's democratic ideals and their declared ownership of Monarch.
+the_board_08	As a result, the Board has placed Monarch, and by extension, MSI, under the Hazard Clause, which forbids off-world businesses from doing transactions on Monarch without the correct (and deliberately impossible to complete) documents.
+the_board_09	Depending on the actions of the Stranger, MSI may be compelled to rebel against the Board's authoritarianism.
+udl	
+udl_01	Universal Defense Logistics (UDL) is one of the ten corporations that founded the Halcyon Holdings Corporation.
+udl_02	Its CEO, Rockwell, also serves as the Chairman of the Halcyon Holdings Corporate Board.
+udl_03	They're the largest of the corps in Halcyon,
+udl_04	having the largest stake there and in the board,
+udl_05	as well as being the main presence in Byzantium,
+udl_06	especially through their CEO, Chairman Rockwell.
+udl_07	They're also the parent corporation to Spacer's Choice.
+udl_08	They're pretty much the guiding hand in much of The Board's policies, actions, and screw ups.

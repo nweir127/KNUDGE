@@ -1,0 +1,219 @@
+{
+  "id": "the_commuter_01",
+  "quest_name": "the_commuter",
+  "conversation": {
+    "filename": "0401_cv_carlotta_intercom",
+    "start_node": 2,
+    "end_nodes": [],
+    "force_include": []
+  },
+  "in_objective": "O1",
+  "out_objective": "O1",
+  "participants": [
+    "carlotta"
+  ],
+  "dialog": [
+    {
+      "id": 2,
+      "speaker_guid": "2076f022-e986-401f-b4b8-9814ce4e0d9d",
+      "speaker": "CarlottaIntercom (Female)",
+      "utterance": "It's... too quiet. What are you up to out there?",
+      "support_knowledge": [
+        "carlotta_03",
+        "O1_B2",
+        "O1_B3"
+      ]
+    },
+    {
+      "id": 8,
+      "speaker_guid": "2076f022-e986-401f-b4b8-9814ce4e0d9d",
+      "speaker": "CarlottaIntercom (Female)",
+      "utterance": "Hello?",
+      "support_knowledge": [
+        "carlotta_03",
+        "O1_B2",
+        "O1_B3"
+      ]
+    },
+    {
+      "id": 7,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Relax. The SubLight squad is gone.",
+      "support_knowledge": [
+        "O1_B1"
+      ]
+    },
+    {
+      "id": 6,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Do you have a moment to talk about our salvation through the Order of Scientific Inquiry?",
+      "support_knowledge": [
+        "carlotta_01"
+      ]
+    },
+    {
+      "id": 22,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Carlotta, is that you?",
+      "support_knowledge": []
+    },
+    {
+      "id": 9,
+      "speaker_guid": "2076f022-e986-401f-b4b8-9814ce4e0d9d",
+      "speaker": "CarlottaIntercom (Female)",
+      "utterance": "Relax? I've been cooped up in here for almost two days!",
+      "support_knowledge": [
+        "carlotta_03",
+        "O1_B1",
+        "O1_B2"
+      ]
+    },
+    {
+      "id": 13,
+      "speaker_guid": "2076f022-e986-401f-b4b8-9814ce4e0d9d",
+      "speaker": "CarlottaIntercom (Female)",
+      "utterance": "Who are you, anyway?",
+      "support_knowledge": []
+    },
+    {
+      "id": 15,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I'm PlayerName. Graham sent me to collect supplies.",
+      "support_knowledge": [
+        "O1_S1",
+        "O1_S2"
+      ]
+    },
+    {
+      "id": 16,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Just your friendly neighborhood Iconoclast.",
+      "support_knowledge": [
+        "carlotta_03"
+      ]
+    },
+    {
+      "id": 17,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "It doesn't matter who I am. I'm here to pick up Graham's supplies.",
+      "support_knowledge": [
+        "O1_S1",
+        "O1_S2"
+      ]
+    },
+    {
+      "id": 18,
+      "speaker_guid": "2076f022-e986-401f-b4b8-9814ce4e0d9d",
+      "speaker": "CarlottaIntercom (Female)",
+      "utterance": "Oh, for - finally. Tell Graham that this is the last run I'm doing.",
+      "support_knowledge": [
+        "carlotta_06",
+        "carlotta_07"
+      ]
+    },
+    {
+      "id": 19,
+      "speaker_guid": "2076f022-e986-401f-b4b8-9814ce4e0d9d",
+      "speaker": "CarlottaIntercom (Female)",
+      "utterance": "Sanjar's declared a stop-sale to you lot, but even if he hadn't, I'm not risking my neck anymore.",
+      "support_knowledge": [
+        "carlotta_06",
+        "carlotta_07",
+        "sanjar_nandi_01"
+      ]
+    },
+    {
+      "id": 10,
+      "speaker_guid": "2076f022-e986-401f-b4b8-9814ce4e0d9d",
+      "speaker": "CarlottaIntercom (Female)",
+      "utterance": "You can't be serious.",
+      "support_knowledge": []
+    },
+    {
+      "id": 23,
+      "speaker_guid": "2076f022-e986-401f-b4b8-9814ce4e0d9d",
+      "speaker": "CarlottaIntercom (Female)",
+      "utterance": "Yeah, and for the hundredth time, I'm not opening this door.",
+      "support_knowledge": [
+        "O1_B1",
+        "O1_B2"
+      ]
+    }
+  ],
+  "dialog_edges": [
+    [
+      2,
+      8
+    ],
+    [
+      8,
+      7
+    ],
+    [
+      8,
+      6
+    ],
+    [
+      8,
+      22
+    ],
+    [
+      7,
+      9
+    ],
+    [
+      9,
+      13
+    ],
+    [
+      13,
+      15
+    ],
+    [
+      13,
+      16
+    ],
+    [
+      13,
+      17
+    ],
+    [
+      15,
+      18
+    ],
+    [
+      18,
+      19
+    ],
+    [
+      16,
+      18
+    ],
+    [
+      17,
+      18
+    ],
+    [
+      6,
+      10
+    ],
+    [
+      10,
+      13
+    ],
+    [
+      22,
+      23
+    ],
+    [
+      23,
+      13
+    ]
+  ]
+}

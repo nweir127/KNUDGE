@@ -1,0 +1,385 @@
+{
+  "id": "spratkings_00",
+  "quest_name": "spratkings",
+  "conversation": {
+    "filename": "0407_cv_nelson_mayson",
+    "start_node": 1,
+    "end_nodes": [],
+    "force_include": [
+      176,
+      52
+    ]
+  },
+  "in_objective": "O0",
+  "out_objective": "O1",
+  "participants": [
+    "nelson_mayson"
+  ],
+  "dialog_edges": [
+    [
+      1,
+      164
+    ],
+    [
+      164,
+      44
+    ],
+    [
+      44,
+      2
+    ],
+    [
+      44,
+      45
+    ],
+    [
+      44,
+      3
+    ],
+    [
+      2,
+      48
+    ],
+    [
+      48,
+      5
+    ],
+    [
+      5,
+      174
+    ],
+    [
+      5,
+      175
+    ],
+    [
+      5,
+      176
+    ],
+    [
+      174,
+      172
+    ],
+    [
+      172,
+      127
+    ],
+    [
+      127,
+      51
+    ],
+    [
+      51,
+      52
+    ],
+    [
+      51,
+      9
+    ],
+    [
+      51,
+      10
+    ],
+    [
+      52,
+      58
+    ],
+    [
+      58,
+      59
+    ],
+    [
+      59,
+      57
+    ],
+    [
+      9,
+      11
+    ],
+    [
+      11,
+      14
+    ],
+    [
+      14,
+      20
+    ],
+    [
+      20,
+      82
+    ],
+    [
+      20,
+      11
+    ],
+    [
+      82,
+      84
+    ],
+    [
+      84,
+      86
+    ],
+    [
+      86,
+      11
+    ],
+    [
+      10,
+      55
+    ],
+    [
+      175,
+      173
+    ],
+    [
+      173,
+      172
+    ],
+    [
+      176,
+      173
+    ],
+    [
+      45,
+      49
+    ],
+    [
+      49,
+      5
+    ]
+  ],
+  "dialog": [
+    {
+      "id": 1,
+      "speaker_guid": "ae1a3987-7c1e-411e-9d2c-1273ec7ed3d9",
+      "speaker": "NelsonMayson (Male)",
+      "utterance": "Take a gander at that mug. I ain't ever seen someone so adept-looking my whole life.",
+      "support_knowledge": [
+        "O0_B1"
+      ]
+    },
+    {
+      "id": 164,
+      "speaker_guid": "ae1a3987-7c1e-411e-9d2c-1273ec7ed3d9",
+      "speaker": "NelsonMayson (Male)",
+      "utterance": "You don't seem like the usual pigeons we pluck. No offense, of course, if you ARE a Byzantium gold-blood. ",
+      "support_knowledge": [
+        "nelson_mayson_04"
+      ]
+    },
+    {
+      "id": 44,
+      "speaker_guid": "ae1a3987-7c1e-411e-9d2c-1273ec7ed3d9",
+      "speaker": "NelsonMayson (Male)",
+      "utterance": "Say, I'd like to do you a favor. Might I interest you in a surefire scheme? Wink, wink.",
+      "support_knowledge": [
+        "O0_B2"
+      ]
+    },
+    {
+      "id": 2,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Did you just say \"wink\" at me... instead of actually winking?",
+      "support_knowledge": []
+    },
+    {
+      "id": 45,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "<Cross your arms.> This ought to be good.",
+      "support_knowledge": []
+    },
+    {
+      "id": 3,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I don't have time for this.",
+      "support_knowledge": []
+    },
+    {
+      "id": 48,
+      "speaker_guid": "ae1a3987-7c1e-411e-9d2c-1273ec7ed3d9",
+      "speaker": "NelsonMayson (Male)",
+      "utterance": "Don't believe I did, no. Wink.",
+      "support_knowledge": []
+    },
+    {
+      "id": 5,
+      "speaker_guid": "ae1a3987-7c1e-411e-9d2c-1273ec7ed3d9",
+      "speaker": "NelsonMayson (Male)",
+      "utterance": "Pure and simple it's like this - I run our drug delivery service. Recently, I had the genius idea to cut costs in half by swapping our auto loaders with faster, cheaper sprats.",
+      "support_knowledge": [
+        "O0_B4",
+        "O0_B5",
+        "sprat_01"
+      ]
+    },
+    {
+      "id": 174,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Let me guess, we pocket the half you save?",
+      "support_knowledge": []
+    },
+    {
+      "id": 175,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "That *is* a genius idea.",
+      "support_knowledge": []
+    },
+    {
+      "id": 176,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "That's a stroke of sheer brilliance.",
+      "support_knowledge": []
+    },
+    {
+      "id": 172,
+      "speaker_guid": "ae1a3987-7c1e-411e-9d2c-1273ec7ed3d9",
+      "speaker": "NelsonMayson (Male)",
+      "utterance": "Too right, you are. Only problem is my sprat carriers ain't arrived from their latest run. ",
+      "support_knowledge": [
+        "O0_B6"
+      ]
+    },
+    {
+      "id": 127,
+      "speaker_guid": "ae1a3987-7c1e-411e-9d2c-1273ec7ed3d9",
+      "speaker": "NelsonMayson (Male)",
+      "utterance": "As I was saying, you look more capable than most of the hoopleheads around these parts. What say you locate 'em and retrieve the goods for me?",
+      "support_knowledge": [
+        "O0_B3"
+      ]
+    },
+    {
+      "id": 51,
+      "speaker_guid": "ae1a3987-7c1e-411e-9d2c-1273ec7ed3d9",
+      "speaker": "NelsonMayson (Male)",
+      "utterance": "In return, I'll cut you five percent of the profit.",
+      "support_knowledge": [
+        "O0_B7"
+      ]
+    },
+    {
+      "id": 52,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Make it thirty-five plus a sample of the goods, and you've got a deal. Wink.",
+      "support_knowledge": [
+        "O0_B7"
+      ]
+    },
+    {
+      "id": 9,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Before I agree to this, I want some questions answered.",
+      "support_knowledge": []
+    },
+    {
+      "id": 10,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Not interested.",
+      "support_knowledge": []
+    },
+    {
+      "id": 58,
+      "speaker_guid": "ae1a3987-7c1e-411e-9d2c-1273ec7ed3d9",
+      "speaker": "NelsonMayson (Male)",
+      "utterance": "Thirty - ?! Thirty-five percent?! Are you -?! Are you out of your gourd?! ",
+      "support_knowledge": [
+        "O0_B7"
+      ]
+    },
+    {
+      "id": 59,
+      "speaker_guid": "ae1a3987-7c1e-411e-9d2c-1273ec7ed3d9",
+      "speaker": "NelsonMayson (Male)",
+      "utterance": "If I wasn't recovering from a bout of Morgellons, I wouldn't stand for this. But things are what they are so... I'll agree to it. But not half a percent more!",
+      "support_knowledge": [
+        "O0_B7"
+      ]
+    },
+    {
+      "id": 57,
+      "speaker_guid": "ae1a3987-7c1e-411e-9d2c-1273ec7ed3d9",
+      "speaker": "NelsonMayson (Male)",
+      "utterance": "My sprat carriers scurry back and forth through the shipping tunnels. Any trail ought to start there. When you've got the goods, I'll be here.",
+      "support_knowledge": [
+        "O1_S1"
+      ]
+    },
+    {
+      "id": 11,
+      "speaker_guid": "ae1a3987-7c1e-411e-9d2c-1273ec7ed3d9",
+      "speaker": "NelsonMayson (Male)",
+      "utterance": "Hit me. I won't even hit back. ",
+      "support_knowledge": []
+    },
+    {
+      "id": 14,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "What do you do around here?",
+      "support_knowledge": []
+    },
+    {
+      "id": 20,
+      "speaker_guid": "ae1a3987-7c1e-411e-9d2c-1273ec7ed3d9",
+      "speaker": "NelsonMayson (Male)",
+      "utterance": "Officially, I keep the books for Ms. Malin, provide loans to the Byzantium gold-bloods for gaming, and oversee our drug-running operations.",
+      "support_knowledge": [
+        "nelson_mayson_03",
+        "nelson_mayson_04",
+        "nelson_mayson_05"
+      ]
+    },
+    {
+      "id": 82,
+      "speaker_guid": "ae1a3987-7c1e-411e-9d2c-1273ec7ed3d9",
+      "speaker": "NelsonMayson (Male)",
+      "utterance": "Speaking of... might I interest you in a purchase? I'll give you a first-time discount. That's five percent off and a free drink at the Ante Up. You're welcome.",
+      "support_knowledge": []
+    },
+    {
+      "id": 84,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I'll pass.",
+      "support_knowledge": []
+    },
+    {
+      "id": 86,
+      "speaker_guid": "ae1a3987-7c1e-411e-9d2c-1273ec7ed3d9",
+      "speaker": "NelsonMayson (Male)",
+      "utterance": "Suit yourself.",
+      "support_knowledge": []
+    },
+    {
+      "id": 55,
+      "speaker_guid": "ae1a3987-7c1e-411e-9d2c-1273ec7ed3d9",
+      "speaker": "NelsonMayson (Male)",
+      "utterance": "Well, my ma always did say, you want any dealing done right, you got to do it yourself.",
+      "support_knowledge": []
+    },
+    {
+      "id": 173,
+      "speaker_guid": "ae1a3987-7c1e-411e-9d2c-1273ec7ed3d9",
+      "speaker": "NelsonMayson (Male)",
+      "utterance": "See? I know a fellow genius when I clap eyes on 'em. ",
+      "support_knowledge": []
+    },
+    {
+      "id": 49,
+      "speaker_guid": "ae1a3987-7c1e-411e-9d2c-1273ec7ed3d9",
+      "speaker": "NelsonMayson (Male)",
+      "utterance": "Oh, I enjoy a good challenge. I'll get right to it then.",
+      "support_knowledge": []
+    }
+  ]
+}

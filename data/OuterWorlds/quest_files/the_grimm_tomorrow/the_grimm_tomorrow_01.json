@@ -1,0 +1,107 @@
+{
+  "id": "the_grimm_tomorrow_01",
+  "quest_name": "the_grimm_tomorrow",
+  "conversation": {
+    "filename": "0402_cv_celia",
+    "start_node": 81,
+    "end_nodes": [
+      86,
+      87
+    ],
+    "force_include": [
+      153
+    ],
+    "force_sequence": []
+  },
+  "in_objective": "O1",
+  "out_objective": "O2",
+  "participants": [
+    "celia_robbins"
+  ],
+  "dialog_edges": [
+    [
+      81,
+      84
+    ],
+    [
+      84,
+      153
+    ],
+    [
+      84,
+      88
+    ],
+    [
+      153,
+      155
+    ],
+    [
+      155,
+      156
+    ],
+    [
+      156,
+      166
+    ]
+  ],
+  "dialog": [
+    {
+      "id": 81,
+      "speaker_guid": "88e2a5c4-832b-4533-b593-28ef1edc16f2",
+      "speaker": "Celia (Female)",
+      "utterance": "Greetings, and welcome to Monarch Stellar Industries, producers and purveyors of the finest saltuna in Halcyon.",
+      "support_knowledge": [
+        "celia_robbins_01"
+      ]
+    },
+    {
+      "id": 84,
+      "speaker_guid": "88e2a5c4-832b-4533-b593-28ef1edc16f2",
+      "speaker": "Celia (Female)",
+      "utterance": "What can I do for you today?",
+      "support_knowledge": []
+    },
+    {
+      "id": 153,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Grimm asked me to check with you about his tossball poster.",
+      "support_knowledge": [
+        "O0_B3"
+      ]
+    },
+    {
+      "id": 88,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Never mind.",
+      "support_knowledge": []
+    },
+    {
+      "id": 155,
+      "speaker_guid": "88e2a5c4-832b-4533-b593-28ef1edc16f2",
+      "speaker": "Celia (Female)",
+      "utterance": "You know, sending you is the first bright idea I've seen from that man. Because I told him to stop bothering me about it a week ago.",
+      "support_knowledge": []
+    },
+    {
+      "id": 156,
+      "speaker_guid": "88e2a5c4-832b-4533-b593-28ef1edc16f2",
+      "speaker": "Celia (Female)",
+      "utterance": "I still don't know anything about it. But if you want to help him, Velma's the one to ask. She's in the warehouse.",
+      "support_knowledge": [
+        "O1_B2",
+        "O1_B3"
+      ]
+    },
+    {
+      "id": 166,
+      "speaker_guid": "88e2a5c4-832b-4533-b593-28ef1edc16f2",
+      "speaker": "Celia (Female)",
+      "utterance": "But I'll warn you, Grimm wore her patience thin a long time ago.",
+      "support_knowledge": [
+        "O1_B4"
+      ]
+    }
+  ]
+}

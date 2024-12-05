@@ -1,0 +1,84 @@
+[
+  {
+    "id": "happiness_is_a_warm_spaceship_00",
+    "quest_name": "happiness_is_a_warm_spaceship",
+    "conversation": {
+      "filename": "01_cv_tennyson_junlei_new",
+      "start_node": 25,
+      "end_nodes": [],
+      "force_include": [
+        115,
+        14,
+        579,
+        576
+      ],
+      "force_sequence": []
+    },
+    "in_objective": "O0",
+    "out_objective": "O1",
+    "participants": [
+      "junlei_tennyson"
+    ]
+  },
+  {
+    "id": "happiness_is_a_warm_spaceship_01",
+    "quest_name": "happiness_is_a_warm_spaceship",
+    "conversation": {
+      "filename": "01_cv_macredd",
+      "start_node": 78,
+      "end_nodes": [],
+      "force_include": [
+        115,
+        83,
+        85,
+        3,
+        25,
+        27
+      ],
+      "force_sequence": []
+    },
+    "in_objective": "O1",
+    "out_objective": "O2",
+    "participants": [
+      "gunnar_macredd"
+    ]
+  },
+  {
+    "id": "happiness_is_a_warm_spaceship_02",
+    "quest_name": "happiness_is_a_warm_spaceship",
+    "conversation": {
+      "filename": "01_cv_tennyson_junlei_new",
+      "start_node": 563,
+      "end_nodes": [
+        692,
+        770
+      ],
+      "force_include": [
+        32
+      ],
+      "force_sequence": []
+    },
+    "in_objective": "O2",
+    "out_objective": "O3",
+    "participants": [
+      "junlei_tennyson"
+    ]
+  },
+  {
+    "id": "happiness_is_a_warm_spaceship_03",
+    "quest_name": "happiness_is_a_warm_spaceship",
+    "conversation": {
+      "filename": "01_cv_tennyson_junlei_new",
+      "start_node": 251,
+      "end_nodes": [
+        557
+      ],
+      "force_include": [],
+      "force_sequence": []
+    },
+    "in_objective": "O4",
+    "participants": [
+      "junlei_tennyson"
+    ]
+  }
+]

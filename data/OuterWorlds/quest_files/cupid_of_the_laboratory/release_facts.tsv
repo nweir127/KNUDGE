@@ -1,0 +1,60 @@
+ID	fact
+OBJECTIVE O0	
+O0_S1	183:39
+O0_S2	223:100
+O0_B1	Find Giles Molina near the maintenance tunnels in Byzantium.
+O0_B2	he will admit to losing his research sprats.
+O0_B3	They fled into the maintenance tunnels,
+O0_B4	and it’s too dangerous in there for him,
+O0_B5	with the rabid sewer sprats and automechanicals.
+O0_B6	He’s too attached to his sprats to turn down your help if you offer it.
+O0_B7	He even has names and backstories for them all
+OBJECTIVE O1	
+O1_S1	339:78
+O1_S2	418:96
+O1_B1	754:47
+O1_B2	802:34
+O1_B3	837:46
+O1_B4	991:113
+OBJECTIVE O2	
+O2_S1	530:31
+O2_S2	562:45
+O2_B1	1105:78
+byzantium	
+byzantium_01	Byzantium is the capital city of Terra 2 and the crown jewel of Halcyon.
+byzantium_02	All the opulence, elegance, and decadence of the colony is concentrated in the city.
+byzantium_03	Its residents are colloquially referred to as gold-bloods.
+byzantium_04	"Referred to as the ""gilded city of the well-to-do"","
+byzantium_05	Byzantium is where every Halcyon colonist wishes they could live.
+byzantium_06	The city is closed off to those without the means to be appropriate residents;
+byzantium_07	it’s a literal gated community with secrets that lesser company workers will simply never learn.
+byzantium_08	The city of Byzantium was built in a radial layout,
+byzantium_09	with streets and docking bays encircling the Halcyon Holdings Corporation headquarters,
+byzantium_10	located in the restricted Acropolis District.
+byzantium_11	Many buildings constructed in Byzantium are well-maintained,
+byzantium_12	and are built in a futuristic Art Nouveau style,
+byzantium_13	as opposed to the simpler prefabricated frontier designs of Edgewater or Stellar Bay.
+byzantium_14	The Acropolis District is a wealthy district for the most prominent citizens of both Byzantium and the entire Halcyon Colony.
+byzantium_15	Located here are the headquarters of the Halcyon Holdings Corporation,
+byzantium_16	housed inside a towering skyscraper.
+byzantium_17	Docking bays for various vessels and ships have been constructed into a large, deep trench encircling the mid-section of Byzantium.
+byzantium_18	Only those individuals with the appropriate navkey are allowed to land on Byzantium's docking bays.
+byzantium_19	A district bordering the Acropolis District,
+byzantium_20	the Estate District is known as the residence of Minister Clarke.
+byzantium_21	Prosperity Plaza is the beating hub of commerce and culture in Byzantium,
+byzantium_22	fronted by famous establishments such as Bijou's Revue, Rococo's Decor, and Billingsly's House of Inebriation.
+byzantium_23	At the center of the plaza is a large decorative orrery in the likeness of the Halcyon system.
+giles_molina	
+giles_molina_01	Giles Molina is a scientist working for the Ministry of Accuracy and Morale,
+giles_molina_02	owned by the Halcyon Holdings Corporation in Byzantium.
+giles_molina_03	He can be found near the elevator to the Maintenance Tunnels in Prosperity Plaza of Byzantium
+maintenance_tunnels	
+maintenance_tunnels_01	The maintenance tunnels are a location in Byzantium on Terra 2.
+maintenance_tunnels_02	The maintenance tunnels are located beneath the streets of Byzantium and are home to a sprat infestation alongside several hostile mechanical sentries sent to exterminate the sprats.
+sprat	
+sprat_01	Sprats are a rat-like creature found across every human colony world.
+sprat_02	Sprat is an abbreviated contraction of Space Rat.
+sprat_03	Sprats are small, gecko-like creatures that are often treated as vermin by the residents of the Halcyon Colony.
+sprat_04	Bertrand, with a blessing from Catherine Malin, oversees an animal rescue service in Fallbrook.
+sprat_05	He is responsible for spaying and feeding sprats under his care and he didn't hesitate to capture and save sprats Nelson Mayson was using to smuggle drugs.
+sprat_06	Sprats are voracious omnivores and are known to occasionally attack humans if there are enough sprats to swarm.

@@ -1,0 +1,1076 @@
+{
+  "id": "little_memento_00",
+  "quest_name": "little_memento",
+  "conversation": {
+    "filename": "0403_cv_revolutionary_barwarstories",
+    "start_node": 1,
+    "end_nodes": [],
+    "force_include": [
+      65,
+      39
+    ],
+    "force_sequence": []
+  },
+  "in_objective": "O0",
+  "out_objective": "O1",
+  "participants": [
+    "ash"
+  ],
+  "dialog_edges": [
+    [
+      1,
+      4
+    ],
+    [
+      1,
+      5
+    ],
+    [
+      1,
+      6
+    ],
+    [
+      4,
+      7
+    ],
+    [
+      7,
+      21
+    ],
+    [
+      21,
+      8
+    ],
+    [
+      8,
+      38
+    ],
+    [
+      8,
+      273
+    ],
+    [
+      8,
+      39
+    ],
+    [
+      38,
+      62
+    ],
+    [
+      62,
+      63
+    ],
+    [
+      62,
+      64
+    ],
+    [
+      62,
+      65
+    ],
+    [
+      63,
+      85
+    ],
+    [
+      85,
+      84
+    ],
+    [
+      84,
+      8
+    ],
+    [
+      64,
+      87
+    ],
+    [
+      87,
+      84
+    ],
+    [
+      65,
+      91
+    ],
+    [
+      91,
+      84
+    ],
+    [
+      273,
+      274
+    ],
+    [
+      274,
+      275
+    ],
+    [
+      275,
+      276
+    ],
+    [
+      276,
+      318
+    ],
+    [
+      276,
+      317
+    ],
+    [
+      276,
+      319
+    ],
+    [
+      318,
+      321
+    ],
+    [
+      321,
+      323
+    ],
+    [
+      323,
+      324
+    ],
+    [
+      324,
+      278
+    ],
+    [
+      324,
+      280
+    ],
+    [
+      324,
+      286
+    ],
+    [
+      324,
+      283
+    ],
+    [
+      324,
+      282
+    ],
+    [
+      278,
+      279
+    ],
+    [
+      279,
+      324
+    ],
+    [
+      280,
+      277
+    ],
+    [
+      277,
+      324
+    ],
+    [
+      286,
+      287
+    ],
+    [
+      287,
+      324
+    ],
+    [
+      283,
+      285
+    ],
+    [
+      282,
+      284
+    ],
+    [
+      317,
+      322
+    ],
+    [
+      322,
+      323
+    ],
+    [
+      319,
+      320
+    ],
+    [
+      320,
+      323
+    ],
+    [
+      39,
+      50
+    ],
+    [
+      50,
+      92
+    ],
+    [
+      92,
+      96
+    ],
+    [
+      92,
+      97
+    ],
+    [
+      96,
+      102
+    ],
+    [
+      102,
+      104
+    ],
+    [
+      104,
+      112
+    ],
+    [
+      112,
+      113
+    ],
+    [
+      112,
+      114
+    ],
+    [
+      112,
+      115
+    ],
+    [
+      113,
+      118
+    ],
+    [
+      118,
+      117
+    ],
+    [
+      117,
+      119
+    ],
+    [
+      119,
+      120
+    ],
+    [
+      120,
+      121
+    ],
+    [
+      121,
+      122
+    ],
+    [
+      122,
+      123
+    ],
+    [
+      123,
+      124
+    ],
+    [
+      123,
+      125
+    ],
+    [
+      123,
+      126
+    ],
+    [
+      123,
+      127
+    ],
+    [
+      124,
+      131
+    ],
+    [
+      131,
+      129
+    ],
+    [
+      129,
+      132
+    ],
+    [
+      132,
+      8
+    ],
+    [
+      125,
+      130
+    ],
+    [
+      130,
+      129
+    ],
+    [
+      126,
+      129
+    ],
+    [
+      127,
+      128
+    ],
+    [
+      128,
+      129
+    ],
+    [
+      114,
+      117
+    ],
+    [
+      115,
+      116
+    ],
+    [
+      116,
+      117
+    ],
+    [
+      97,
+      101
+    ],
+    [
+      101,
+      102
+    ],
+    [
+      5,
+      9
+    ],
+    [
+      9,
+      11
+    ],
+    [
+      9,
+      12
+    ],
+    [
+      9,
+      13
+    ],
+    [
+      9,
+      19
+    ],
+    [
+      11,
+      14
+    ],
+    [
+      14,
+      8
+    ],
+    [
+      12,
+      15
+    ],
+    [
+      15,
+      16
+    ],
+    [
+      16,
+      8
+    ],
+    [
+      13,
+      17
+    ],
+    [
+      17,
+      8
+    ],
+    [
+      19,
+      20
+    ],
+    [
+      20,
+      22
+    ],
+    [
+      22,
+      8
+    ],
+    [
+      6,
+      10
+    ],
+    [
+      10,
+      18
+    ],
+    [
+      18,
+      8
+    ]
+  ],
+  "dialog": [
+    {
+      "id": 1,
+      "speaker_guid": "9a07b1ac-bc9d-412a-85b9-3a5f53e2dc27",
+      "speaker": "Kane (Male)",
+      "utterance": "Never seen you before.",
+      "support_knowledge": [
+        "ash_01"
+      ]
+    },
+    {
+      "id": 4,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I'm new here.",
+      "support_knowledge": []
+    },
+    {
+      "id": 5,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "You say that like it's a problem.",
+      "support_knowledge": []
+    },
+    {
+      "id": 6,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "You sure about that? You're so drunk, you're barely sitting up straight.",
+      "support_knowledge": [
+        "O0_B2"
+      ]
+    },
+    {
+      "id": 7,
+      "speaker_guid": "9a07b1ac-bc9d-412a-85b9-3a5f53e2dc27",
+      "speaker": "Kane (Male)",
+      "utterance": "Take my advice. Move on. Get offworld if you can. If you can't, get to the Bay.",
+      "support_knowledge": [
+        "monarch_07"
+      ]
+    },
+    {
+      "id": 21,
+      "speaker_guid": "9a07b1ac-bc9d-412a-85b9-3a5f53e2dc27",
+      "speaker": "Kane (Male)",
+      "utterance": "I been halfway around T1... heh. Monarch, they call it now. Been around it twice. Stood at the Hot Pole and the Cold. ",
+      "support_knowledge": [
+        "monarch_01"
+      ]
+    },
+    {
+      "id": 8,
+      "speaker_guid": "9a07b1ac-bc9d-412a-85b9-3a5f53e2dc27",
+      "speaker": "Kane (Male)",
+      "utterance": "Nothing on this moon for nobody. Just a lotta heartbreak.",
+      "support_knowledge": [
+        "monarch_07"
+      ]
+    },
+    {
+      "id": 38,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "What's your story?",
+      "support_knowledge": []
+    },
+    {
+      "id": 273,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Heartbreak? What happened to you here?",
+      "support_knowledge": []
+    },
+    {
+      "id": 39,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "<Pay 20 Bits> Buy yourself a drink.",
+      "support_knowledge": [
+        "O0_B6",
+        "ash_10"
+      ]
+    },
+    {
+      "id": 62,
+      "speaker_guid": "9a07b1ac-bc9d-412a-85b9-3a5f53e2dc27",
+      "speaker": "Kane (Male)",
+      "utterance": "It's pretty simple, kid. I sit at the bar. I drink. I mind my own business. That's it.",
+      "support_knowledge": [
+        "O0_B2",
+        "ash_08"
+      ]
+    },
+    {
+      "id": 63,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "You said you've been around the whole moon. You must know a few things no one else does.",
+      "support_knowledge": []
+    },
+    {
+      "id": 64,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I can buy you a bottle, or I can bust one over your head. And don't call me \"kid.\"",
+      "support_knowledge": []
+    },
+    {
+      "id": 65,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I overheard somebody saying you were the best to ask about the real Monarch.",
+      "support_knowledge": [
+        "monarch_01"
+      ]
+    },
+    {
+      "id": 85,
+      "speaker_guid": "9a07b1ac-bc9d-412a-85b9-3a5f53e2dc27",
+      "speaker": "Kane (Male)",
+      "utterance": "The only thing I got to teach is, \"get the fuck off T1.\" Or whatever they're calling is this week. Anybody with half a brain could tell you that.",
+      "support_knowledge": []
+    },
+    {
+      "id": 84,
+      "speaker_guid": "9a07b1ac-bc9d-412a-85b9-3a5f53e2dc27",
+      "speaker": "Kane (Male)",
+      "utterance": "Look. You want to buy the drinks, I'll do my bit to keep you entertained. Just don't ask me to dance.",
+      "support_knowledge": [
+        "O0_B7",
+        "ash_11",
+        "ash_12"
+      ]
+    },
+    {
+      "id": 87,
+      "speaker_guid": "9a07b1ac-bc9d-412a-85b9-3a5f53e2dc27",
+      "speaker": "Kane (Male)",
+      "utterance": "Denting my skull would be a waste of perfectly good alcohol. I got two exes who'd vouch.",
+      "support_knowledge": []
+    },
+    {
+      "id": 91,
+      "speaker_guid": "9a07b1ac-bc9d-412a-85b9-3a5f53e2dc27",
+      "speaker": "Kane (Male)",
+      "utterance": "Whoever said that must've been lying. Or maybe they was drunk. I don't know nothing a dozen better folk couldn't tell you.",
+      "support_knowledge": []
+    },
+    {
+      "id": 274,
+      "speaker_guid": "9a07b1ac-bc9d-412a-85b9-3a5f53e2dc27",
+      "speaker": "Kane (Male)",
+      "utterance": "A great many things. I'll tell you what - you want to listen to an old man ramble, might be a job in it for you.",
+      "support_knowledge": [
+        "O0_B1"
+      ]
+    },
+    {
+      "id": 275,
+      "speaker_guid": "9a07b1ac-bc9d-412a-85b9-3a5f53e2dc27",
+      "speaker": "Kane (Male)",
+      "utterance": "I used to run with a squad of mercenaries here. Good folk. Fella named Lamont introduced me. Thing is, I ain't seen them in an age.",
+      "support_knowledge": [
+        "O0_B1"
+      ]
+    },
+    {
+      "id": 276,
+      "speaker_guid": "9a07b1ac-bc9d-412a-85b9-3a5f53e2dc27",
+      "speaker": "Kane (Male)",
+      "utterance": "Stands to reason they got themselves ate.",
+      "support_knowledge": []
+    },
+    {
+      "id": 318,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Mercenaries? What'd they do?",
+      "support_knowledge": []
+    },
+    {
+      "id": 317,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Was this a long time ago?",
+      "support_knowledge": []
+    },
+    {
+      "id": 319,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "If they got killed, they must not have been terribly talented.",
+      "support_knowledge": []
+    },
+    {
+      "id": 321,
+      "speaker_guid": "9a07b1ac-bc9d-412a-85b9-3a5f53e2dc27",
+      "speaker": "Kane (Male)",
+      "utterance": "Mostly we protected folk from the beasts here. If it spat, scratched or stung, we'd kill it for you, so long as you had the bits.",
+      "support_knowledge": []
+    },
+    {
+      "id": 323,
+      "speaker_guid": "9a07b1ac-bc9d-412a-85b9-3a5f53e2dc27",
+      "speaker": "Kane (Male)",
+      "utterance": "We split ways 'round the time this twice-fucked moon got abandoned.",
+      "support_knowledge": []
+    },
+    {
+      "id": 324,
+      "speaker_guid": "9a07b1ac-bc9d-412a-85b9-3a5f53e2dc27",
+      "speaker": "Kane (Male)",
+      "utterance": "Thing is, I got myself some fond memories. We had some keepsakes of ours we kept in a lockbox, and I've been thinkin' about seeing it found.",
+      "support_knowledge": [
+        "O0_S2",
+        "O0_B4"
+      ]
+    },
+    {
+      "id": 278,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "You want... mementos? What, photographs, or...",
+      "support_knowledge": [
+        "O0_B4"
+      ]
+    },
+    {
+      "id": 280,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "What if they're still alive?",
+      "support_knowledge": []
+    },
+    {
+      "id": 286,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Can't you find them yourself?",
+      "support_knowledge": []
+    },
+    {
+      "id": 283,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "All right. One lockbox, coming right up.",
+      "support_knowledge": [
+        "O0_B4"
+      ]
+    },
+    {
+      "id": 282,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I'll think about it.",
+      "support_knowledge": []
+    },
+    {
+      "id": 279,
+      "speaker_guid": "9a07b1ac-bc9d-412a-85b9-3a5f53e2dc27",
+      "speaker": "Kane (Male)",
+      "utterance": "Thereabouts.",
+      "support_knowledge": [
+        "O0_B4"
+      ]
+    },
+    {
+      "id": 277,
+      "speaker_guid": "9a07b1ac-bc9d-412a-85b9-3a5f53e2dc27",
+      "speaker": "Kane (Male)",
+      "utterance": "I'll be glad for it, but I ain't stupid. This planet tends to get people killed. I just want some closure.",
+      "support_knowledge": []
+    },
+    {
+      "id": 287,
+      "speaker_guid": "9a07b1ac-bc9d-412a-85b9-3a5f53e2dc27",
+      "speaker": "Kane (Male)",
+      "utterance": "I'm getting on in years, kid. Legs ain't working like they used to. Sulfur burns a little too long in the lungs. This joint's looking like my last home.",
+      "support_knowledge": []
+    },
+    {
+      "id": 285,
+      "speaker_guid": "9a07b1ac-bc9d-412a-85b9-3a5f53e2dc27",
+      "speaker": "Kane (Male)",
+      "utterance": "Appreciate it, kid. I'll mark an outpost on your map - we spent a lot of time out there. Might be a good place to start. Here's a key for the door.",
+      "support_knowledge": [
+        "O0_B5"
+      ]
+    },
+    {
+      "id": 284,
+      "speaker_guid": "9a07b1ac-bc9d-412a-85b9-3a5f53e2dc27",
+      "speaker": "Kane (Male)",
+      "utterance": "You do that. I'll be here doing the very same.",
+      "support_knowledge": []
+    },
+    {
+      "id": 322,
+      "speaker_guid": "9a07b1ac-bc9d-412a-85b9-3a5f53e2dc27",
+      "speaker": "Kane (Male)",
+      "utterance": "Oh, sure. I was with 'em when the corps were leaving Monarch. Hell of a time, that.",
+      "support_knowledge": [
+        "monarch_08",
+        "monarch_09"
+      ]
+    },
+    {
+      "id": 320,
+      "speaker_guid": "9a07b1ac-bc9d-412a-85b9-3a5f53e2dc27",
+      "speaker": "Kane (Male)",
+      "utterance": "Better folk than you and me. It don't take much of a slip to end up in a sulfur pool or a rapt's stomach.",
+      "support_knowledge": []
+    },
+    {
+      "id": 50,
+      "speaker_guid": "9a07b1ac-bc9d-412a-85b9-3a5f53e2dc27",
+      "speaker": "Kane (Male)",
+      "utterance": "I can't repay no kindnesses, now.",
+      "support_knowledge": []
+    },
+    {
+      "id": 92,
+      "speaker_guid": "9a07b1ac-bc9d-412a-85b9-3a5f53e2dc27",
+      "speaker": "Kane (Male)",
+      "utterance": "All right, so... I reckon one of the most interesting places I been is the Hot Pole. You know what that is?",
+      "support_knowledge": [
+        "O0_B7",
+        "ash_12"
+      ]
+    },
+    {
+      "id": 96,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I've got no idea.",
+      "support_knowledge": []
+    },
+    {
+      "id": 97,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "If I knew anything about Monarch, I wouldn't be asking you.",
+      "support_knowledge": []
+    },
+    {
+      "id": 102,
+      "speaker_guid": "9a07b1ac-bc9d-412a-85b9-3a5f53e2dc27",
+      "speaker": "Kane (Male)",
+      "utterance": "This moon ain't big enough to rotate. It's locked, one side always facing Olympus, the other always facing away.",
+      "support_knowledge": [
+        "O0_B7",
+        "ash_12"
+      ]
+    },
+    {
+      "id": 104,
+      "speaker_guid": "9a07b1ac-bc9d-412a-85b9-3a5f53e2dc27",
+      "speaker": "Kane (Male)",
+      "utterance": "Olympus might not be a star, but it throws off assloads of heat. Monarch's Hot Pole is the part that's always closest to the gas giant.",
+      "support_knowledge": [
+        "O0_B7",
+        "ash_12"
+      ]
+    },
+    {
+      "id": 112,
+      "speaker_guid": "9a07b1ac-bc9d-412a-85b9-3a5f53e2dc27",
+      "speaker": "Kane (Male)",
+      "utterance": "It's in the middle of this big mountain plateau. Volcanoes so high, the peaks are in space.",
+      "support_knowledge": [
+        "O0_B7",
+        "ash_12"
+      ]
+    },
+    {
+      "id": 113,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "If there's no air, how did you survive?",
+      "support_knowledge": [
+        "O0_B7",
+        "ash_12"
+      ]
+    },
+    {
+      "id": 114,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "So it's hot, it's high, and there's no air. Or not much. Nice views, though.",
+      "support_knowledge": [
+        "O0_B7",
+        "ash_12"
+      ]
+    },
+    {
+      "id": 115,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Sounds like a boring place. Nothing could live there.",
+      "support_knowledge": []
+    },
+    {
+      "id": 118,
+      "speaker_guid": "9a07b1ac-bc9d-412a-85b9-3a5f53e2dc27",
+      "speaker": "Kane (Male)",
+      "utterance": "O2 breathers. The heat from Olympus is worse, though. Close your eyes, you can see rays bursting through your eyeballs. Little streaks of light.",
+      "support_knowledge": [
+        "O0_B7",
+        "ash_12"
+      ]
+    },
+    {
+      "id": 117,
+      "speaker_guid": "9a07b1ac-bc9d-412a-85b9-3a5f53e2dc27",
+      "speaker": "Kane (Male)",
+      "utterance": "The funny thing is, dead in the middle there's just smooth rock. Circular-like. All the dust blown away. Pale gray, with hair-fine cracks all over.",
+      "support_knowledge": [
+        "O0_B7",
+        "ash_12"
+      ]
+    },
+    {
+      "id": 119,
+      "speaker_guid": "9a07b1ac-bc9d-412a-85b9-3a5f53e2dc27",
+      "speaker": "Kane (Male)",
+      "utterance": "I don't know what I was thinking - maybe I was light-headed from the O2. But I felt like I ought to take off the breather for a moment, and put my ear to the ground.",
+      "support_knowledge": [
+        "O0_B7",
+        "ash_12"
+      ]
+    },
+    {
+      "id": 120,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "...and?",
+      "support_knowledge": []
+    },
+    {
+      "id": 121,
+      "speaker_guid": "9a07b1ac-bc9d-412a-85b9-3a5f53e2dc27",
+      "speaker": "Kane (Male)",
+      "utterance": "I wonder now if I imagined it. A trick of the air. The heat.",
+      "support_knowledge": [
+        "O0_B7",
+        "ash_12"
+      ]
+    },
+    {
+      "id": 122,
+      "speaker_guid": "9a07b1ac-bc9d-412a-85b9-3a5f53e2dc27",
+      "speaker": "Kane (Male)",
+      "utterance": "It was at the edge of hearing. Deep down, far off. Irregular. Tap-tap-tap. Tap-tap. Tap-tap-tap.",
+      "support_knowledge": [
+        "O0_B7",
+        "ash_12"
+      ]
+    },
+    {
+      "id": 123,
+      "speaker_guid": "9a07b1ac-bc9d-412a-85b9-3a5f53e2dc27",
+      "speaker": "Kane (Male)",
+      "utterance": "The sound of a bird pecking out of a shell.",
+      "support_knowledge": [
+        "O0_B7",
+        "ash_12"
+      ]
+    },
+    {
+      "id": 124,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "You made that whole thing up.",
+      "support_knowledge": [
+        "ash_12"
+      ]
+    },
+    {
+      "id": 125,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "You had me going there a minute. Good story. Definitely worth the drink.",
+      "support_knowledge": [
+        "ash_11",
+        "ash_12"
+      ]
+    },
+    {
+      "id": 126,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Well that's fucking terrifying.",
+      "support_knowledge": []
+    },
+    {
+      "id": 127,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "What's it mean?",
+      "support_knowledge": []
+    },
+    {
+      "id": 131,
+      "speaker_guid": "9a07b1ac-bc9d-412a-85b9-3a5f53e2dc27",
+      "speaker": "Kane (Male)",
+      "utterance": "You go on and tell yourself that.",
+      "support_knowledge": []
+    },
+    {
+      "id": 129,
+      "speaker_guid": "9a07b1ac-bc9d-412a-85b9-3a5f53e2dc27",
+      "speaker": "Kane (Male)",
+      "utterance": "When there's a groundquake now, I hold my breath. Because I don't know if it's Olympus squeezing us with gravity...",
+      "support_knowledge": [
+        "O0_B7",
+        "ash_12"
+      ]
+    },
+    {
+      "id": 132,
+      "speaker_guid": "9a07b1ac-bc9d-412a-85b9-3a5f53e2dc27",
+      "speaker": "Kane (Male)",
+      "utterance": "...or wings getting stretched.",
+      "support_knowledge": [
+        "O0_B7",
+        "ash_12"
+      ]
+    },
+    {
+      "id": 130,
+      "speaker_guid": "9a07b1ac-bc9d-412a-85b9-3a5f53e2dc27",
+      "speaker": "Kane (Male)",
+      "utterance": "Heh. I don't like to tell that one sober. Get the shakes something fierce.",
+      "support_knowledge": [
+        "O0_B7",
+        "ash_12"
+      ]
+    },
+    {
+      "id": 128,
+      "speaker_guid": "9a07b1ac-bc9d-412a-85b9-3a5f53e2dc27",
+      "speaker": "Kane (Male)",
+      "utterance": "Hell if I know.",
+      "support_knowledge": []
+    },
+    {
+      "id": 116,
+      "speaker_guid": "9a07b1ac-bc9d-412a-85b9-3a5f53e2dc27",
+      "speaker": "Kane (Male)",
+      "utterance": "I found it peaceful. No wind. No animals. No people. You ever heard *nothing?* You hold your breath, and nothing? It's... profound.",
+      "support_knowledge": [
+        "O0_B7",
+        "ash_12"
+      ]
+    },
+    {
+      "id": 101,
+      "speaker_guid": "9a07b1ac-bc9d-412a-85b9-3a5f53e2dc27",
+      "speaker": "Kane (Male)",
+      "utterance": "Fair enough.",
+      "support_knowledge": []
+    },
+    {
+      "id": 9,
+      "speaker_guid": "9a07b1ac-bc9d-412a-85b9-3a5f53e2dc27",
+      "speaker": "Kane (Male)",
+      "utterance": "Not for me. Maybe for you. You come out here looking for some better life, kid?",
+      "support_knowledge": []
+    },
+    {
+      "id": 11,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "\"Better life?\" On this shithole moon?",
+      "support_knowledge": []
+    },
+    {
+      "id": 12,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Do people actually come here? Like... willingly?",
+      "support_knowledge": []
+    },
+    {
+      "id": 13,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Just passing through.",
+      "support_knowledge": []
+    },
+    {
+      "id": 19,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Maybe not in this particular town. But in general, sure.",
+      "support_knowledge": [
+        "amber_heights_01"
+      ]
+    },
+    {
+      "id": 14,
+      "speaker_guid": "9a07b1ac-bc9d-412a-85b9-3a5f53e2dc27",
+      "speaker": "Kane (Male)",
+      "utterance": "Ain't that the fucking truth.",
+      "support_knowledge": []
+    },
+    {
+      "id": 15,
+      "speaker_guid": "9a07b1ac-bc9d-412a-85b9-3a5f53e2dc27",
+      "speaker": "Kane (Male)",
+      "utterance": "Buncha corporate-types from Tee-Two flew in last month. Paid SubLight to bring them.",
+      "support_knowledge": []
+    },
+    {
+      "id": 16,
+      "speaker_guid": "9a07b1ac-bc9d-412a-85b9-3a5f53e2dc27",
+      "speaker": "Kane (Male)",
+      "utterance": "After two weeks, all but one of them were dead. Rapts. Mantis. Fungus. Storm. And that last fella? His brain broke.",
+      "support_knowledge": []
+    },
+    {
+      "id": 17,
+      "speaker_guid": "9a07b1ac-bc9d-412a-85b9-3a5f53e2dc27",
+      "speaker": "Kane (Male)",
+      "utterance": "Good on you. Make a little money, move on. Don't get killed out there, kid.",
+      "support_knowledge": []
+    },
+    {
+      "id": 20,
+      "speaker_guid": "9a07b1ac-bc9d-412a-85b9-3a5f53e2dc27",
+      "speaker": "Kane (Male)",
+      "utterance": "That ain't likely to happen on T1. Monarch. Whatever they call this shithole now.",
+      "support_knowledge": [
+        "monarch_01"
+      ]
+    },
+    {
+      "id": 22,
+      "speaker_guid": "9a07b1ac-bc9d-412a-85b9-3a5f53e2dc27",
+      "speaker": "Kane (Male)",
+      "utterance": "Take my advice. Get yourself a berth offworld. Anywhere. Don't look back. Just keep flying.",
+      "support_knowledge": []
+    },
+    {
+      "id": 10,
+      "speaker_guid": "9a07b1ac-bc9d-412a-85b9-3a5f53e2dc27",
+      "speaker": "Kane (Male)",
+      "utterance": "I may not remember today tomorrow, but I damn well remember yesterday now.",
+      "support_knowledge": []
+    },
+    {
+      "id": 18,
+      "speaker_guid": "9a07b1ac-bc9d-412a-85b9-3a5f53e2dc27",
+      "speaker": "Kane (Male)",
+      "utterance": "Wait. I mean- Nah, that's what I meant.",
+      "support_knowledge": []
+    }
+  ]
+}

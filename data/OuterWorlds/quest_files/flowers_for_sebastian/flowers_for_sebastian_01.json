@@ -1,0 +1,354 @@
+{
+  "id": "flowers_for_sebastian_01",
+  "quest_name": "flowers_for_sebastian",
+  "conversation": {
+    "filename": "0402_cv_sebastianadams",
+    "start_node": 102,
+    "end_nodes": [
+      100,
+      104
+    ],
+    "force_include": [
+      108,
+      122,
+      134
+    ]
+  },
+  "in_objective": "O1",
+  "out_objective": "O2",
+  "participants": [
+    "sebastian_adams"
+  ],
+  "dialog_edges": [
+    [
+      102,
+      108
+    ],
+    [
+      108,
+      110
+    ],
+    [
+      110,
+      112
+    ],
+    [
+      112,
+      123
+    ],
+    [
+      112,
+      124
+    ],
+    [
+      123,
+      118
+    ],
+    [
+      118,
+      119
+    ],
+    [
+      119,
+      120
+    ],
+    [
+      120,
+      113
+    ],
+    [
+      120,
+      122
+    ],
+    [
+      120,
+      134
+    ],
+    [
+      120,
+      121
+    ],
+    [
+      113,
+      117
+    ],
+    [
+      117,
+      131
+    ],
+    [
+      131,
+      120
+    ],
+    [
+      122,
+      136
+    ],
+    [
+      136,
+      137
+    ],
+    [
+      134,
+      138
+    ],
+    [
+      138,
+      137
+    ],
+    [
+      124,
+      125
+    ],
+    [
+      125,
+      127
+    ],
+    [
+      125,
+      126
+    ],
+    [
+      127,
+      118
+    ],
+    [
+      126,
+      128
+    ],
+    [
+      128,
+      129
+    ],
+    [
+      128,
+      130
+    ],
+    [
+      129,
+      118
+    ],
+    [
+      130,
+      118
+    ]
+  ],
+  "dialog": [
+    {
+      "id": 102,
+      "speaker_guid": "9fdf2427-4140-49ca-ba6a-23f032cd079d",
+      "speaker": "sebastianadams (Male)",
+      "utterance": "You look like a man who's looking for some mostly-fresh animal parts.",
+      "support_knowledge": [
+        "sebastian_adams_01"
+      ]
+    },
+    {
+      "id": 108,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Let's talk about Celia.",
+      "support_knowledge": [
+        "celia_robbins_01",
+        "celia_robbins_02"
+      ]
+    },
+    {
+      "id": 110,
+      "speaker_guid": "9fdf2427-4140-49ca-ba6a-23f032cd079d",
+      "speaker": "sebastianadams (Male)",
+      "utterance": "Oh. Haven't seen her in a few days, but I've been meaning to ask her how that raptidon acid is working out.",
+      "support_knowledge": [
+        "celia_robbins_02"
+      ]
+    },
+    {
+      "id": 112,
+      "speaker_guid": "9fdf2427-4140-49ca-ba6a-23f032cd079d",
+      "speaker": "sebastianadams (Male)",
+      "utterance": "I hope it's working okay, because no one else really seems interested in this stuff.",
+      "support_knowledge": []
+    },
+    {
+      "id": 123,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Would you consider going on a date with her?",
+      "support_knowledge": [
+        "O1_B2",
+        "sebastian_adams_02"
+      ]
+    },
+    {
+      "id": 124,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "She likes you. ",
+      "support_knowledge": [
+        "O1_B2"
+      ]
+    },
+    {
+      "id": 118,
+      "speaker_guid": "9fdf2427-4140-49ca-ba6a-23f032cd079d",
+      "speaker": "sebastianadams (Male)",
+      "utterance": "Wait, I see what's going on. She put you up to this so she could get a discount, hm?",
+      "support_knowledge": [
+        "O1_B3"
+      ]
+    },
+    {
+      "id": 119,
+      "speaker_guid": "9fdf2427-4140-49ca-ba6a-23f032cd079d",
+      "speaker": "sebastianadams (Male)",
+      "utterance": "Don't get me wrong. I'd like to give her a discount. She's a real fine lady. Always talks nice and slow so I understand.",
+      "support_knowledge": [
+        "O1_B3"
+      ]
+    },
+    {
+      "id": 120,
+      "speaker_guid": "9fdf2427-4140-49ca-ba6a-23f032cd079d",
+      "speaker": "sebastianadams (Male)",
+      "utterance": "But if I give her one, I won't hardly make a bit. On account of no one else having any use for raptidon tongues.",
+      "support_knowledge": [
+        "O1_B3",
+        "celia_robbins_02"
+      ]
+    },
+    {
+      "id": 113,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "She doesn't want a discount. She's attracted to you.",
+      "support_knowledge": [
+        "O1_B2"
+      ]
+    },
+    {
+      "id": 122,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Don't take my word for it. Spend some time with her - I promise she won't ask for a discount.",
+      "support_knowledge": [
+        "O1_B2",
+        "sebastian_adams_02",
+        "celia_robbins_07"
+      ]
+    },
+    {
+      "id": 134,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Consider this a <oeiglobal>Bribe_Amount</oeiglobal>-bit advance against lost business.",
+      "support_knowledge": [
+        "O1_B4"
+      ]
+    },
+    {
+      "id": 121,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Forget this.",
+      "support_knowledge": []
+    },
+    {
+      "id": 117,
+      "speaker_guid": "9fdf2427-4140-49ca-ba6a-23f032cd079d",
+      "speaker": "sebastianadams (Male)",
+      "utterance": "Nuh-uh. Lot of people think I'm not too bright, but you're not fooling me.",
+      "support_knowledge": [
+        "O1_B3"
+      ]
+    },
+    {
+      "id": 131,
+      "speaker_guid": "9fdf2427-4140-49ca-ba6a-23f032cd079d",
+      "speaker": "sebastianadams (Male)",
+      "utterance": "I know she can't get these goods anywhere else.",
+      "support_knowledge": [
+        "sebastian_adams_01"
+      ]
+    },
+    {
+      "id": 136,
+      "speaker_guid": "9fdf2427-4140-49ca-ba6a-23f032cd079d",
+      "speaker": "sebastianadams (Male)",
+      "utterance": "You sound pretty sure. And she is awful nice...",
+      "support_knowledge": [
+        "O1_B4"
+      ]
+    },
+    {
+      "id": 137,
+      "speaker_guid": "9fdf2427-4140-49ca-ba6a-23f032cd079d",
+      "speaker": "sebastianadams (Male)",
+      "utterance": "Okay. I'll do it. Once her shift ends, we'll go someplace nice. Maybe to Chef Raymond's.",
+      "support_knowledge": [
+        "O1_B5"
+      ]
+    },
+    {
+      "id": 138,
+      "speaker_guid": "9fdf2427-4140-49ca-ba6a-23f032cd079d",
+      "speaker": "sebastianadams (Male)",
+      "utterance": "I guess I could afford to take a risk...",
+      "support_knowledge": [
+        "O1_B4"
+      ]
+    },
+    {
+      "id": 125,
+      "speaker_guid": "9fdf2427-4140-49ca-ba6a-23f032cd079d",
+      "speaker": "sebastianadams (Male)",
+      "utterance": "Nice of you to say. I like her, too.",
+      "support_knowledge": []
+    },
+    {
+      "id": 127,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "She's interested in you. Romantically.",
+      "support_knowledge": [
+        "O1_B2"
+      ]
+    },
+    {
+      "id": 126,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "No, I mean she really likes you. ",
+      "support_knowledge": [
+        "O1_B2"
+      ]
+    },
+    {
+      "id": 128,
+      "speaker_guid": "9fdf2427-4140-49ca-ba6a-23f032cd079d",
+      "speaker": "sebastianadams (Male)",
+      "utterance": "And I gotta admire anyone with her passion for canid hides. But you don't have to butter me up.",
+      "support_knowledge": [
+        "O1_B3",
+        "celia_robbins_02"
+      ]
+    },
+    {
+      "id": 129,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Since you've got so much in common, maybe you should let her take you out.",
+      "support_knowledge": [
+        "O1_B2"
+      ]
+    },
+    {
+      "id": 130,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "You idiot. I'm trying to tell you she wants to date you.",
+      "support_knowledge": [
+        "O1_B2"
+      ]
+    }
+  ]
+}

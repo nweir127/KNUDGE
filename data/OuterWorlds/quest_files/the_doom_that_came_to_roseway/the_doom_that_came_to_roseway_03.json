@@ -1,0 +1,1198 @@
+{
+  "id": "the_doom_that_came_to_roseway_03",
+  "quest_name": "the_doom_that_came_to_roseway",
+  "conversation": {
+    "filename": "08_cv_anarchist_cassandra_new",
+    "start_node": 3,
+    "end_nodes": [],
+    "force_include": [
+      5,
+      20,
+      14,
+      18,
+      19,
+      353,
+      31,
+      50,
+      34
+    ],
+    "force_sequence": []
+  },
+  "in_objective": "O3",
+  "out_objective": "O4",
+  "participants": [
+    "cassandra_omalley"
+  ],
+  "objectives": {
+    "O3": {
+      "summary": "Recover Anton's Data",
+      "description": {
+        "S1": "Anton's research data was taken from his safe,",
+        "S2": "likely by outlaws.",
+        "S3": "Search the lab and get it back for them.",
+        "S4": "There's a terminal in Chief Porter's office that can print a security keycard to unlock the doors trapping some of the outlaws."
+      },
+      "blurb": {
+        "B1": "If you go toward the middle of the map you'll meet outlaw leader,",
+        "B2": "Cassandra O'Malley - she is trapped inside a room and ready to negotiate for her life.",
+        "B3": "She needs a keycard to get out of the room and then you'll either have to talk Porter into letting her go,",
+        "B4": "or make safe passage for her to take the Vents out.",
+        "B5": "If you decide to help her escape she says will give your Anton's Data and the quest will update  \"find an escape route\".",
+        "B6": "You can persuade (30) her to have her people stand down.",
+        "B7": "She will then ask you to clear a path and says she will pay you once she is clear."
+      }
+    },
+    "O4": {
+      "summary": "Create an Escape Route",
+      "description": {
+        "S1": "You've agreed to help open up an escape route for Cassandra.",
+        "S2": "You'll need to find a keycard to unlock her pen gate and clear out either the Auntie Cleo security forces near the front entrance or the raptidons infesting the loading dock.",
+        "S3": "The keycard can be printed from the security console terminal."
+      },
+      "blurb": {
+        "B1": "If you help her, go back to Porter and use Persuade (45) to tell him they are standing down.",
+        "B2": "You can tell him that you'll put in a good word for him and he'll pull out,",
+        "B3": "you'll gain Covert Lab Security Keycard and 3333xp"
+      }
+    }
+  },
+  "dialog": [
+    {
+      "id": 3,
+      "speaker_guid": "2cdce55c-cb84-4cfa-90e7-2fe17d1acbc7",
+      "speaker": "CassandraOMalley (Female)",
+      "utterance": "Oh good. You're not shooting at me. That's a start.",
+      "support_knowledge": []
+    },
+    {
+      "id": 4,
+      "speaker_guid": "2cdce55c-cb84-4cfa-90e7-2fe17d1acbc7",
+      "speaker": "CassandraOMalley (Female)",
+      "utterance": "It's been a bit of a day, so I'll get to the point. Yes, I have Crane's research. No, I'm not giving it back. Sorry to disappoint you.",
+      "support_knowledge": [
+        "O3_S1",
+        "O3_S2"
+      ]
+    },
+    {
+      "id": 5,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Anton wants a problem fixed. I imagine he means you.",
+      "support_knowledge": [
+        "anton_crane_08"
+      ]
+    },
+    {
+      "id": 51,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "You've got the wrong idea about me.",
+      "support_knowledge": []
+    },
+    {
+      "id": 6,
+      "speaker_guid": "2cdce55c-cb84-4cfa-90e7-2fe17d1acbc7",
+      "speaker": "CassandraOMalley (Female)",
+      "utterance": "Yes, I imagine he does. But we all have problems - it is the human condition. I am myself ensnared in this wretched place.",
+      "support_knowledge": []
+    },
+    {
+      "id": 11,
+      "speaker_guid": "2cdce55c-cb84-4cfa-90e7-2fe17d1acbc7",
+      "speaker": "CassandraOMalley (Female)",
+      "utterance": "You want to kill me. I don't want to die. Therefore, it is in my best interest to negotiate with you. Help me get out of here, and I will pay you for my life.",
+      "support_knowledge": [
+        "O3_B2"
+      ]
+    },
+    {
+      "id": 12,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Tell me what you need.",
+      "support_knowledge": []
+    },
+    {
+      "id": 76,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "We're not friends. If you expect me to help you, I expect you to hand over that research.",
+      "support_knowledge": [
+        "O3_B5"
+      ]
+    },
+    {
+      "id": 54,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Why are you down here?",
+      "support_knowledge": []
+    },
+    {
+      "id": 80,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "You're going to have to make me a better offer.",
+      "support_knowledge": []
+    },
+    {
+      "id": 294,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "<Attack> Or I could just shoot you and skip all the hassle.",
+      "support_knowledge": []
+    },
+    {
+      "id": 20,
+      "speaker_guid": "2cdce55c-cb84-4cfa-90e7-2fe17d1acbc7",
+      "speaker": "CassandraOMalley (Female)",
+      "utterance": "The first thing I need is a keycard to unlock my door. Then I'd need you to clear me a path out of here.",
+      "support_knowledge": [
+        "O3_B3",
+        "O3_B4",
+        "cassandra_omalley_09",
+        "cassandra_omalley_10"
+      ]
+    },
+    {
+      "id": 18,
+      "speaker_guid": "2cdce55c-cb84-4cfa-90e7-2fe17d1acbc7",
+      "speaker": "CassandraOMalley (Female)",
+      "utterance": "There are two ways out. The quickest is through the front door, but Cleo security's bottled up in there. If you don't want to shoot them, I suppose you could talk to them.",
+      "support_knowledge": [
+        "cassandra_omalley_10",
+        "cassandra_omalley_11",
+        "cassandra_omalley_12"
+      ]
+    },
+    {
+      "id": 19,
+      "speaker_guid": "2cdce55c-cb84-4cfa-90e7-2fe17d1acbc7",
+      "speaker": "CassandraOMalley (Female)",
+      "utterance": "The other way out is through the loading bay, but you'd have to clear out the rapts for me. Then I could just slip out the back, sight unseen.",
+      "support_knowledge": [
+        "cassandra_omalley_10",
+        "cassandra_omalley_11"
+      ]
+    },
+    {
+      "id": 353,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "All right. I'll help you out.",
+      "support_knowledge": []
+    },
+    {
+      "id": 31,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I'm not about to run errands for some pompous bandit.",
+      "support_knowledge": []
+    },
+    {
+      "id": 34,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I'm going to need a good reason to risk my neck for you.",
+      "support_knowledge": []
+    },
+    {
+      "id": 50,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Forget it. I'm not helping you.",
+      "support_knowledge": []
+    },
+    {
+      "id": 400,
+      "speaker_guid": "2cdce55c-cb84-4cfa-90e7-2fe17d1acbc7",
+      "speaker": "CassandraOMalley (Female)",
+      "utterance": "You might be the first stroke of luck I've had all day. Thank you. I'm in your debt.",
+      "support_knowledge": []
+    },
+    {
+      "id": 185,
+      "speaker_guid": "2cdce55c-cb84-4cfa-90e7-2fe17d1acbc7",
+      "speaker": "CassandraOMalley (Female)",
+      "utterance": "Outstanding. I knew you would come around.",
+      "support_knowledge": []
+    },
+    {
+      "id": 186,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Don't flatter yourself. I expect you to pay me for my trouble.",
+      "support_knowledge": []
+    },
+    {
+      "id": 187,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "This doesn't make us friends.",
+      "support_knowledge": []
+    },
+    {
+      "id": 188,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Sit tight.",
+      "support_knowledge": []
+    },
+    {
+      "id": 189,
+      "speaker_guid": "2cdce55c-cb84-4cfa-90e7-2fe17d1acbc7",
+      "speaker": "CassandraOMalley (Female)",
+      "utterance": "On my honor, you will be well-rewarded.",
+      "support_knowledge": [
+        "cassandra_omalley_13"
+      ]
+    },
+    {
+      "id": 190,
+      "speaker_guid": "2cdce55c-cb84-4cfa-90e7-2fe17d1acbc7",
+      "speaker": "CassandraOMalley (Female)",
+      "utterance": "I do not have friends. I have associates.",
+      "support_knowledge": []
+    },
+    {
+      "id": 78,
+      "speaker_guid": "2cdce55c-cb84-4cfa-90e7-2fe17d1acbc7",
+      "speaker": "CassandraOMalley (Female)",
+      "utterance": "Take your time. I am, to my chagrin, not going anywhere.",
+      "support_knowledge": [
+        "O3_B2"
+      ]
+    },
+    {
+      "id": 111,
+      "speaker_guid": "2cdce55c-cb84-4cfa-90e7-2fe17d1acbc7",
+      "speaker": "CassandraOMalley (Female)",
+      "utterance": "You and I are on the same side. We both possess the means to fight back against a tyrannical and oppressive corporate regime.",
+      "support_knowledge": [
+        "cassandra_omalley_03"
+      ]
+    },
+    {
+      "id": 112,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "You aren't going to be fighting much of anything stuck down here.",
+      "support_knowledge": []
+    },
+    {
+      "id": 114,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "The corporate regime has been generous to freelancers like me.",
+      "support_knowledge": []
+    },
+    {
+      "id": 102,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I'm through talking.",
+      "support_knowledge": []
+    },
+    {
+      "id": 115,
+      "speaker_guid": "2cdce55c-cb84-4cfa-90e7-2fe17d1acbc7",
+      "speaker": "CassandraOMalley (Female)",
+      "utterance": "We are all of us trapped. You, me, the scientists. This is not a colony. It is a slave camp. ",
+      "support_knowledge": [
+        "cassandra_omalley_03",
+        "cassandra_omalley_04"
+      ]
+    },
+    {
+      "id": 116,
+      "speaker_guid": "2cdce55c-cb84-4cfa-90e7-2fe17d1acbc7",
+      "speaker": "CassandraOMalley (Female)",
+      "utterance": "Yes. We raided the lab. Shot some guards. Killed a few scientists in the crossfire. But it was all for a higher cause.",
+      "support_knowledge": [
+        "cassandra_omalley_08"
+      ]
+    },
+    {
+      "id": 117,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "So you're a murderer with a conscience.",
+      "support_knowledge": []
+    },
+    {
+      "id": 251,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "The corporations don't care about the cause. Whatever you tear down, they can rebuild.",
+      "support_knowledge": []
+    },
+    {
+      "id": 110,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I'm done talking to you.",
+      "support_knowledge": []
+    },
+    {
+      "id": 108,
+      "speaker_guid": "2cdce55c-cb84-4cfa-90e7-2fe17d1acbc7",
+      "speaker": "CassandraOMalley (Female)",
+      "utterance": "All wars have casualties. I regret taking a life, but we were doing them a mercy. Better to die than live in a state of slavery.",
+      "support_knowledge": [
+        "cassandra_omalley_07",
+        "cassandra_omalley_08"
+      ]
+    },
+    {
+      "id": 109,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "You're pretty conceited for a common bandit.",
+      "support_knowledge": []
+    },
+    {
+      "id": 49,
+      "speaker_guid": "2cdce55c-cb84-4cfa-90e7-2fe17d1acbc7",
+      "speaker": "CassandraOMalley (Female)",
+      "utterance": "I prefer \"freedom fighter,\" but I will not quibble over semantics. ",
+      "support_knowledge": []
+    },
+    {
+      "id": 288,
+      "speaker_guid": "2cdce55c-cb84-4cfa-90e7-2fe17d1acbc7",
+      "speaker": "CassandraOMalley (Female)",
+      "utterance": "Come on now. Do you want to be dull and boring and servile like everyone else? Or do you want to break some rules?",
+      "support_knowledge": []
+    },
+    {
+      "id": 252,
+      "speaker_guid": "2cdce55c-cb84-4cfa-90e7-2fe17d1acbc7",
+      "speaker": "CassandraOMalley (Female)",
+      "utterance": "Then we will tear it down again. Do you know what propaganda by the deed means? It means we set an example by our actions. It means we send a message.",
+      "support_knowledge": [
+        "cassandra_omalley_03"
+      ]
+    },
+    {
+      "id": 253,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "What makes you think anyone's going to listen to your message?",
+      "support_knowledge": []
+    },
+    {
+      "id": 254,
+      "speaker_guid": "2cdce55c-cb84-4cfa-90e7-2fe17d1acbc7",
+      "speaker": "CassandraOMalley (Female)",
+      "utterance": "Because it is fun. You have not lived until you have taken a hammer to the establishment.",
+      "support_knowledge": []
+    },
+    {
+      "id": 255,
+      "speaker_guid": "2cdce55c-cb84-4cfa-90e7-2fe17d1acbc7",
+      "speaker": "CassandraOMalley (Female)",
+      "utterance": "Come on now. Do you want to be dull and boring and servile like everyone else? Or do you want to break some rules?",
+      "support_knowledge": []
+    },
+    {
+      "id": 77,
+      "speaker_guid": "2cdce55c-cb84-4cfa-90e7-2fe17d1acbc7",
+      "speaker": "CassandraOMalley (Female)",
+      "utterance": "Think it over. I am not going anywhere. Which is, I suppose, rather the point.",
+      "support_knowledge": [
+        "O3_B2"
+      ]
+    },
+    {
+      "id": 118,
+      "speaker_guid": "2cdce55c-cb84-4cfa-90e7-2fe17d1acbc7",
+      "speaker": "CassandraOMalley (Female)",
+      "utterance": "Then you are nothing more than a hired gun. No better than an inanimate object, with no will or spirit of your own.",
+      "support_knowledge": []
+    },
+    {
+      "id": 46,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Being a hired gun is good work. It's always a seller's market.",
+      "support_knowledge": []
+    },
+    {
+      "id": 120,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "And you're just a two-bit bandit who likes to put on airs.",
+      "support_knowledge": []
+    },
+    {
+      "id": 47,
+      "speaker_guid": "2cdce55c-cb84-4cfa-90e7-2fe17d1acbc7",
+      "speaker": "CassandraOMalley (Female)",
+      "utterance": "Say what you please. So long as you are on the establishment's payroll, you are nothing more than a confederate to tyranny.",
+      "support_knowledge": [
+        "cassandra_omalley_03"
+      ]
+    },
+    {
+      "id": 48,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I'm not about to be lectured on morality by some jumped-up bandit.",
+      "support_knowledge": []
+    },
+    {
+      "id": 119,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "At least I'm not trapped in an underground lab because I botched a raid.",
+      "support_knowledge": []
+    },
+    {
+      "id": 372,
+      "speaker_guid": "2cdce55c-cb84-4cfa-90e7-2fe17d1acbc7",
+      "speaker": "CassandraOMalley (Female)",
+      "utterance": "You're asking a great deal from me. This research is my only bargaining chip.",
+      "support_knowledge": []
+    },
+    {
+      "id": 375,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Then I suggest you hurry up and make your case.",
+      "support_knowledge": []
+    },
+    {
+      "id": 374,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "You need my help more than I need yours.",
+      "support_knowledge": []
+    },
+    {
+      "id": 373,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "You're in no position to bargain.",
+      "support_knowledge": []
+    },
+    {
+      "id": 377,
+      "speaker_guid": "2cdce55c-cb84-4cfa-90e7-2fe17d1acbc7",
+      "speaker": "CassandraOMalley (Female)",
+      "utterance": "You're not wrong. Help me get out of here, and I might be willing to hand over my research.",
+      "support_knowledge": [
+        "O3_B5"
+      ]
+    },
+    {
+      "id": 55,
+      "speaker_guid": "2cdce55c-cb84-4cfa-90e7-2fe17d1acbc7",
+      "speaker": "CassandraOMalley (Female)",
+      "utterance": "Same reason you are, more than likely. I imagine we picked up the same tip. Secret research facility, abandoned town, minimal security?",
+      "support_knowledge": []
+    },
+    {
+      "id": 57,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "No, I'm tracking down a distress call.",
+      "support_knowledge": [
+        "O0_S4"
+      ]
+    },
+    {
+      "id": 85,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Doesn't look minimal security to me. Or abandoned.",
+      "support_knowledge": []
+    },
+    {
+      "id": 86,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I'm not a bandit like you.",
+      "support_knowledge": []
+    },
+    {
+      "id": 58,
+      "speaker_guid": "2cdce55c-cb84-4cfa-90e7-2fe17d1acbc7",
+      "speaker": "CassandraOMalley (Female)",
+      "utterance": "Crane actually sent out a cry for help? Oh, the poor bastard, seeing his life's work snatched from him. It must be like losing a child.",
+      "support_knowledge": [
+        "anton_crane_01"
+      ]
+    },
+    {
+      "id": 87,
+      "speaker_guid": "2cdce55c-cb84-4cfa-90e7-2fe17d1acbc7",
+      "speaker": "CassandraOMalley (Female)",
+      "utterance": "No, but it is a secret. Well-hidden. Off the map. Any place worth hiding is worth raiding.",
+      "support_knowledge": []
+    },
+    {
+      "id": 88,
+      "speaker_guid": "2cdce55c-cb84-4cfa-90e7-2fe17d1acbc7",
+      "speaker": "CassandraOMalley (Female)",
+      "utterance": "Granted, diet toothpaste is not exactly what comes to mind when I imagine secret research and underground labs.",
+      "support_knowledge": [
+        "anton_crane_02"
+      ]
+    },
+    {
+      "id": 91,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Nothing wrong with taking care of your teeth.",
+      "support_knowledge": []
+    },
+    {
+      "id": 264,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I'm done listening to this. You're on your own.",
+      "support_knowledge": []
+    },
+    {
+      "id": 63,
+      "speaker_guid": "2cdce55c-cb84-4cfa-90e7-2fe17d1acbc7",
+      "speaker": "CassandraOMalley (Female)",
+      "utterance": "Diet toothpaste. Can you imagine a more pernicious example of corporate materialism? I do not know what is worse - working here or dying here.",
+      "support_knowledge": [
+        "anton_crane_02"
+      ]
+    },
+    {
+      "id": 64,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "So you went through all this trouble to steal a formula for ... diet toothpaste.",
+      "support_knowledge": [
+        "anton_crane_02"
+      ]
+    },
+    {
+      "id": 94,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I'm glad you're finding time for soul-searching, what with being moments away from death.",
+      "support_knowledge": []
+    },
+    {
+      "id": 96,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I imagine you're about to find out. Goodbye.",
+      "support_knowledge": []
+    },
+    {
+      "id": 65,
+      "speaker_guid": "2cdce55c-cb84-4cfa-90e7-2fe17d1acbc7",
+      "speaker": "CassandraOMalley (Female)",
+      "utterance": "What matters is that I have been lied to. I was led to believe this was a high-priority corporate facility hiding valuable research.",
+      "support_knowledge": []
+    },
+    {
+      "id": 66,
+      "speaker_guid": "2cdce55c-cb84-4cfa-90e7-2fe17d1acbc7",
+      "speaker": "CassandraOMalley (Female)",
+      "utterance": "This job was not supposed to end with me stuck in some wretched lab, smelling like rapts. So I would be very much obliged if you gave me a break.",
+      "support_knowledge": []
+    },
+    {
+      "id": 286,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "What's in it for me?",
+      "support_knowledge": []
+    },
+    {
+      "id": 98,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Forget it. You're on your own.",
+      "support_knowledge": []
+    },
+    {
+      "id": 81,
+      "speaker_guid": "2cdce55c-cb84-4cfa-90e7-2fe17d1acbc7",
+      "speaker": "CassandraOMalley (Female)",
+      "utterance": "You mean other than the satisfaction of doing me a good turn? Trust me - I'll make it worth your while.",
+      "support_knowledge": []
+    },
+    {
+      "id": 82,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I don't know. My while is worth a lot.",
+      "support_knowledge": []
+    },
+    {
+      "id": 83,
+      "speaker_guid": "2cdce55c-cb84-4cfa-90e7-2fe17d1acbc7",
+      "speaker": "CassandraOMalley (Female)",
+      "utterance": "I am good for my word! You will be equitably rewarded, on my honor. But I will not haggle or bargain with you until you help me.",
+      "support_knowledge": []
+    },
+    {
+      "id": 97,
+      "speaker_guid": "2cdce55c-cb84-4cfa-90e7-2fe17d1acbc7",
+      "speaker": "CassandraOMalley (Female)",
+      "utterance": "And I am glad you have the luxury of sarcasm, whereas I have been made to spend my day listening to my crew die to corporate guns and hungry rapts.",
+      "support_knowledge": []
+    },
+    {
+      "id": 132,
+      "speaker_guid": "2cdce55c-cb84-4cfa-90e7-2fe17d1acbc7",
+      "speaker": "CassandraOMalley (Female)",
+      "utterance": "Oh, please. I'm not shaking down valuables from hapless travelers. I'm stealing corporate secrets. ",
+      "support_knowledge": [
+        "cassandra_omalley_03"
+      ]
+    },
+    {
+      "id": 133,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "What kind of secrets are we talking?",
+      "support_knowledge": []
+    },
+    {
+      "id": 134,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I'm not interested in helping you.",
+      "support_knowledge": []
+    },
+    {
+      "id": 135,
+      "speaker_guid": "2cdce55c-cb84-4cfa-90e7-2fe17d1acbc7",
+      "speaker": "CassandraOMalley (Female)",
+      "utterance": "This is an underground lab. Off the radar. That means their research is secret, and secrets are always valuable.",
+      "support_knowledge": []
+    },
+    {
+      "id": 52,
+      "speaker_guid": "2cdce55c-cb84-4cfa-90e7-2fe17d1acbc7",
+      "speaker": "CassandraOMalley (Female)",
+      "utterance": "I suppose it does not matter. Either Crane sent you, or you are some scavenger come to rob me in my moment of weakness.",
+      "support_knowledge": []
+    },
+    {
+      "id": 53,
+      "speaker_guid": "2cdce55c-cb84-4cfa-90e7-2fe17d1acbc7",
+      "speaker": "CassandraOMalley (Female)",
+      "utterance": "Let's make a deal. I'd like to go on living. You'd probably like to make some money. Help me get out of here, and I will pay you for your trouble.",
+      "support_knowledge": [
+        "O3_B2"
+      ]
+    }
+  ],
+  "dialog_edges": [
+    [
+      3,
+      4
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      4,
+      51
+    ],
+    [
+      5,
+      6
+    ],
+    [
+      6,
+      11
+    ],
+    [
+      11,
+      12
+    ],
+    [
+      11,
+      76
+    ],
+    [
+      11,
+      54
+    ],
+    [
+      11,
+      80
+    ],
+    [
+      11,
+      294
+    ],
+    [
+      12,
+      20
+    ],
+    [
+      20,
+      18
+    ],
+    [
+      18,
+      19
+    ],
+    [
+      19,
+      353
+    ],
+    [
+      19,
+      31
+    ],
+    [
+      19,
+      34
+    ],
+    [
+      19,
+      50
+    ],
+    [
+      353,
+      400
+    ],
+    [
+      400,
+      185
+    ],
+    [
+      185,
+      186
+    ],
+    [
+      185,
+      187
+    ],
+    [
+      185,
+      188
+    ],
+    [
+      186,
+      189
+    ],
+    [
+      189,
+      188
+    ],
+    [
+      187,
+      190
+    ],
+    [
+      190,
+      188
+    ],
+    [
+      188,
+      78
+    ],
+    [
+      31,
+      111
+    ],
+    [
+      111,
+      112
+    ],
+    [
+      111,
+      114
+    ],
+    [
+      111,
+      102
+    ],
+    [
+      112,
+      115
+    ],
+    [
+      115,
+      116
+    ],
+    [
+      116,
+      353
+    ],
+    [
+      116,
+      117
+    ],
+    [
+      116,
+      251
+    ],
+    [
+      116,
+      110
+    ],
+    [
+      117,
+      108
+    ],
+    [
+      108,
+      353
+    ],
+    [
+      108,
+      109
+    ],
+    [
+      108,
+      110
+    ],
+    [
+      109,
+      49
+    ],
+    [
+      49,
+      288
+    ],
+    [
+      288,
+      353
+    ],
+    [
+      288,
+      34
+    ],
+    [
+      288,
+      50
+    ],
+    [
+      251,
+      252
+    ],
+    [
+      252,
+      353
+    ],
+    [
+      252,
+      109
+    ],
+    [
+      252,
+      253
+    ],
+    [
+      252,
+      50
+    ],
+    [
+      253,
+      254
+    ],
+    [
+      254,
+      255
+    ],
+    [
+      255,
+      353
+    ],
+    [
+      255,
+      50
+    ],
+    [
+      255,
+      294
+    ],
+    [
+      110,
+      77
+    ],
+    [
+      114,
+      118
+    ],
+    [
+      118,
+      353
+    ],
+    [
+      118,
+      46
+    ],
+    [
+      118,
+      120
+    ],
+    [
+      118,
+      110
+    ],
+    [
+      46,
+      47
+    ],
+    [
+      47,
+      353
+    ],
+    [
+      47,
+      48
+    ],
+    [
+      47,
+      119
+    ],
+    [
+      47,
+      110
+    ],
+    [
+      48,
+      49
+    ],
+    [
+      119,
+      115
+    ],
+    [
+      120,
+      49
+    ],
+    [
+      102,
+      77
+    ],
+    [
+      34,
+      111
+    ],
+    [
+      50,
+      77
+    ],
+    [
+      76,
+      372
+    ],
+    [
+      372,
+      375
+    ],
+    [
+      372,
+      374
+    ],
+    [
+      372,
+      373
+    ],
+    [
+      374,
+      377
+    ],
+    [
+      373,
+      377
+    ],
+    [
+      54,
+      55
+    ],
+    [
+      55,
+      57
+    ],
+    [
+      55,
+      85
+    ],
+    [
+      55,
+      86
+    ],
+    [
+      57,
+      58
+    ],
+    [
+      58,
+      12
+    ],
+    [
+      85,
+      87
+    ],
+    [
+      87,
+      88
+    ],
+    [
+      88,
+      91
+    ],
+    [
+      88,
+      264
+    ],
+    [
+      91,
+      63
+    ],
+    [
+      63,
+      64
+    ],
+    [
+      63,
+      94
+    ],
+    [
+      63,
+      96
+    ],
+    [
+      64,
+      65
+    ],
+    [
+      65,
+      66
+    ],
+    [
+      66,
+      12
+    ],
+    [
+      66,
+      286
+    ],
+    [
+      66,
+      98
+    ],
+    [
+      286,
+      81
+    ],
+    [
+      81,
+      12
+    ],
+    [
+      81,
+      82
+    ],
+    [
+      81,
+      54
+    ],
+    [
+      81,
+      50
+    ],
+    [
+      82,
+      83
+    ],
+    [
+      83,
+      12
+    ],
+    [
+      83,
+      54
+    ],
+    [
+      83,
+      50
+    ],
+    [
+      98,
+      77
+    ],
+    [
+      94,
+      97
+    ],
+    [
+      97,
+      66
+    ],
+    [
+      96,
+      77
+    ],
+    [
+      264,
+      77
+    ],
+    [
+      86,
+      132
+    ],
+    [
+      132,
+      12
+    ],
+    [
+      132,
+      133
+    ],
+    [
+      132,
+      134
+    ],
+    [
+      133,
+      135
+    ],
+    [
+      135,
+      88
+    ],
+    [
+      134,
+      77
+    ],
+    [
+      80,
+      81
+    ],
+    [
+      51,
+      52
+    ],
+    [
+      52,
+      53
+    ],
+    [
+      53,
+      12
+    ],
+    [
+      53,
+      54
+    ],
+    [
+      53,
+      80
+    ],
+    [
+      53,
+      294
+    ]
+  ]
+}

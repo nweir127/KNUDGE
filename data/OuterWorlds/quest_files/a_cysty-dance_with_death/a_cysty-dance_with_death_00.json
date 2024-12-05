@@ -1,0 +1,362 @@
+{
+  "id": "a_cysty-dance_with_death_00",
+  "quest_name": "a_cysty-dance_with_death",
+  "conversation": {
+    "filename": "0411_cv_clive_lumbergh",
+    "start_node": 1,
+    "end_nodes": [
+      58,
+      10,
+      63
+    ],
+    "force_include": [
+      2,
+      84,
+      6
+    ]
+  },
+  "in_objective": "O0",
+  "out_objective": "O1",
+  "participants": [
+    "clive_lumbergh"
+  ],
+  "dialog_edges": [
+    [
+      1,
+      80
+    ],
+    [
+      80,
+      78
+    ],
+    [
+      80,
+      81
+    ],
+    [
+      80,
+      84
+    ],
+    [
+      78,
+      79
+    ],
+    [
+      79,
+      106
+    ],
+    [
+      79,
+      107
+    ],
+    [
+      106,
+      108
+    ],
+    [
+      108,
+      109
+    ],
+    [
+      109,
+      20
+    ],
+    [
+      20,
+      2
+    ],
+    [
+      20,
+      4
+    ],
+    [
+      2,
+      89
+    ],
+    [
+      89,
+      5
+    ],
+    [
+      5,
+      6
+    ],
+    [
+      6,
+      16
+    ],
+    [
+      16,
+      97
+    ],
+    [
+      97,
+      20
+    ],
+    [
+      107,
+      110
+    ],
+    [
+      110,
+      88
+    ],
+    [
+      88,
+      20
+    ],
+    [
+      81,
+      86
+    ],
+    [
+      86,
+      87
+    ],
+    [
+      87,
+      20
+    ],
+    [
+      84,
+      85
+    ],
+    [
+      85,
+      112
+    ],
+    [
+      85,
+      107
+    ],
+    [
+      112,
+      108
+    ]
+  ],
+  "dialog": [
+    {
+      "id": 1,
+      "speaker_guid": "80e3a161-67e3-4306-9fe9-c2ab685db5d9",
+      "speaker": "CliveLumbergh (Male)",
+      "utterance": "Whoa, now! And just what do you figure you are doing up here?",
+      "support_knowledge": [
+        "clive_lumbergh_05"
+      ]
+    },
+    {
+      "id": 80,
+      "speaker_guid": "80e3a161-67e3-4306-9fe9-c2ab685db5d9",
+      "speaker": "CliveLumbergh (Male)",
+      "utterance": "These are my private quarters, friend. I don't allow tours up here. Don't allow tours ever, on deeper consideration.",
+      "support_knowledge": []
+    },
+    {
+      "id": 78,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Seems I caught you off guard.",
+      "support_knowledge": []
+    },
+    {
+      "id": 81,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I'm not here for a tour.",
+      "support_knowledge": [
+        "clive_lumbergh_05"
+      ]
+    },
+    {
+      "id": 84,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "You've got blood on your shirt. Right... there. No, lower.",
+      "support_knowledge": [
+        "c&p_boarst_factory_14"
+      ]
+    },
+    {
+      "id": 79,
+      "speaker_guid": "80e3a161-67e3-4306-9fe9-c2ab685db5d9",
+      "speaker": "CliveLumbergh (Male)",
+      "utterance": "Untrue. I merely did not expect a visitor in my private chambers. Where I expect solitude while I slaughter them who disobey - ahem. While I butcher my dinner.",
+      "support_knowledge": [
+        "c&p_boarst_factory_14"
+      ]
+    },
+    {
+      "id": 106,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Dinner of what?",
+      "support_knowledge": [
+        "c&p_boarst_factory_14"
+      ]
+    },
+    {
+      "id": 107,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Sorry to disturb you.",
+      "support_knowledge": []
+    },
+    {
+      "id": 108,
+      "speaker_guid": "80e3a161-67e3-4306-9fe9-c2ab685db5d9",
+      "speaker": "CliveLumbergh (Male)",
+      "utterance": "I do own a factory known for specializing in the canning of boarstwurst. On occasion, I like to imbibe other parts of the cystypig.",
+      "support_knowledge": [
+        "clive_lumbergh_01",
+        "c&p_boarst_factory_01",
+        "c&p_boarst_factory_02",
+        "cystypig_01"
+      ]
+    },
+    {
+      "id": 109,
+      "speaker_guid": "80e3a161-67e3-4306-9fe9-c2ab685db5d9",
+      "speaker": "CliveLumbergh (Male)",
+      "utterance": "Did you fancy me a cannibal? Perish the thought. No, I don't eat the bodies I disappear. A joke, that last was.",
+      "support_knowledge": [
+        "c&p_boarst_factory_10",
+        "c&p_boarst_factory_11",
+        "c&p_boarst_factory_12",
+        "c&p_boarst_factory_13",
+        "c&p_boarst_factory_14"
+      ]
+    },
+    {
+      "id": 20,
+      "speaker_guid": "80e3a161-67e3-4306-9fe9-c2ab685db5d9",
+      "speaker": "CliveLumbergh (Male)",
+      "utterance": "So. What can I do for you? My full attention is at your disposal.",
+      "support_knowledge": []
+    },
+    {
+      "id": 2,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "SubLight sent me to kill you. But I'm sure we can work something out.",
+      "support_knowledge": [
+        "O0_B1",
+        "O0_B2"
+      ]
+    },
+    {
+      "id": 4,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I should go.",
+      "support_knowledge": []
+    },
+    {
+      "id": 89,
+      "speaker_guid": "80e3a161-67e3-4306-9fe9-c2ab685db5d9",
+      "speaker": "CliveLumbergh (Male)",
+      "utterance": "By SubLight, you mean Catherine, do you not? That greedy star-crossed sow.",
+      "support_knowledge": [
+        "clive_lumbergh_03",
+        "sublight_01",
+        "catherine_malin_01"
+      ]
+    },
+    {
+      "id": 5,
+      "speaker_guid": "80e3a161-67e3-4306-9fe9-c2ab685db5d9",
+      "speaker": "CliveLumbergh (Male)",
+      "utterance": "Listen, friend. The Boarst King of Monarch does not negotiate with coveters. How about you bring me Catherine's severed head, and I will gift you a lifetime supply of boarst. ",
+      "support_knowledge": [
+        "O0_S3",
+        "O0_S4",
+        "O0_S5",
+        "O0_B3",
+        "clive_lumbergh_01",
+        "catherine_malin_01"
+      ]
+    },
+    {
+      "id": 6,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Good deal. I'll kill Catherine for you.",
+      "support_knowledge": [
+        "O0_B3"
+      ]
+    },
+    {
+      "id": 16,
+      "speaker_guid": "80e3a161-67e3-4306-9fe9-c2ab685db5d9",
+      "speaker": "CliveLumbergh (Male)",
+      "utterance": "Oh, the King will make it awful worth your while. In fact, he would fancy to mount her head right above his desk.",
+      "support_knowledge": [
+        "O0_S5",
+        "O0_B3",
+        "clive_lumbergh_01"
+      ]
+    },
+    {
+      "id": 97,
+      "speaker_guid": "80e3a161-67e3-4306-9fe9-c2ab685db5d9",
+      "speaker": "CliveLumbergh (Male)",
+      "utterance": "Make it so. And make it swift. And the King shall reward you with a mountain of cysty-flesh like you cannot believe.",
+      "support_knowledge": [
+        "O0_S5",
+        "O0_B3",
+        "cystypig_01",
+        "cystypig_07"
+      ]
+    },
+    {
+      "id": 110,
+      "speaker_guid": "80e3a161-67e3-4306-9fe9-c2ab685db5d9",
+      "speaker": "CliveLumbergh (Male)",
+      "utterance": "Apology considered. Whether accepted is yet to be determined.",
+      "support_knowledge": []
+    },
+    {
+      "id": 88,
+      "speaker_guid": "80e3a161-67e3-4306-9fe9-c2ab685db5d9",
+      "speaker": "CliveLumbergh (Male)",
+      "utterance": "Intrusions - and infractions - really quicken me with anger.",
+      "support_knowledge": [
+        "c&p_boarst_factory_10",
+        "c&p_boarst_factory_11"
+      ]
+    },
+    {
+      "id": 86,
+      "speaker_guid": "80e3a161-67e3-4306-9fe9-c2ab685db5d9",
+      "speaker": "CliveLumbergh (Male)",
+      "utterance": "Right. On account of - ahem - seeing as I ain't ever approved one. So, as my way of saying welcome, I must ask you.",
+      "support_knowledge": []
+    },
+    {
+      "id": 87,
+      "speaker_guid": "80e3a161-67e3-4306-9fe9-c2ab685db5d9",
+      "speaker": "CliveLumbergh (Male)",
+      "utterance": "What in the blackest hole would possess you to traipse into my office? Uninvited. Unannounced. Propelled, no doubt, by some form of death wish.",
+      "support_knowledge": [
+        "clive_lumbergh_05"
+      ]
+    },
+    {
+      "id": 85,
+      "speaker_guid": "80e3a161-67e3-4306-9fe9-c2ab685db5d9",
+      "speaker": "CliveLumbergh (Male)",
+      "utterance": "Certain things require a mess to do well. See, I was just killing... some time. I prefer to prepare my dinner by my own hand. Nothing like fresh and bloody... boarstwurst.",
+      "support_knowledge": [
+        "c&p_boarst_factory_14"
+      ]
+    },
+    {
+      "id": 112,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Those parts are from cystypigs?",
+      "support_knowledge": [
+        "c&p_boarst_factory_14"
+      ]
+    }
+  ]
+}

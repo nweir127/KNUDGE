@@ -1,0 +1,919 @@
+{
+  "id": "a_small_grave_matter_00",
+  "quest_name": "a_small_grave_matter",
+  "conversation": {
+    "filename": "00_cv_silas",
+    "start_node": 176,
+    "end_nodes": [],
+    "force_include": [
+      216,
+      34
+    ],
+    "force_sequence": [
+      [
+        216,
+        74
+      ]
+    ]
+  },
+  "in_objective": "O0",
+  "out_objective": [
+    "O1",
+    "O2",
+    "O3",
+    "O4"
+  ],
+  "participants": [
+    "silas"
+  ],
+  "objectives": {
+    "O0": {
+      "description": {
+        "S1": "Silas, the local gravedigger, asked you to collect money from a few workers late on their payments."
+      },
+      "blurb": {
+        "B1": "Quest obtained by talking to Silas at the entrance of Edgewater, in the Emerald Vale.",
+        "B2": "Silas wants you to collect overdue grave fees from several other workers."
+      }
+    },
+    "O1": {
+      "summary": "Collect Ludwig's Gravesite Fees",
+      "description": {
+        "S1": "Ludwig is one of the four people Silas sent you to collect from.",
+        "S2": "He's stationed as a guard at the Landing Pad southeast of Edgewater."
+      },
+      "blurb": {
+        "B1": "Ludwig Miller can be found at Edgewater Landing Pad,",
+        "B2": "just outside Edgewater to the southeast.",
+        "B3": "When you talk to him, you'll learn he fears an impending war against machines.",
+        "B4": "Go along with it and offer to help.",
+        "B5": "When you deal with the robot he will tell you there's a weapon in the Cantina's lavatory.",
+        "B6": "After, mention Silas and he will pay up assuming Silas has heard the calling.",
+        "B7": "You can lie (5) to get some extra loot out of him.",
+        "B8": "Alternatively: You can kill him and collect his fees."
+      }
+    },
+    "O2": {
+      "summary": "Collect Conrad's Gravesite Fees",
+      "description": {
+        "S1": "Conrad is one of the four people Silas sent you to collect from.",
+        "S2": "He runs a barber shop in Edgewater."
+      },
+      "blurb": {
+        "B1": "Conrad Sadik is located in the Barber Shop inside Edgewater.",
+        "B2": "You can talk to him and find out he is quite happy with his position at Edgewater,",
+        "B3": "but he is broke and cannot afford the gravesite fee.",
+        "B4": "He will offer his apologies and acceptance to have his Medical Rights revoked as he will have to default on this payment.",
+        "B5": "He reveals he had the plague and was deemed worthy of treatment,",
+        "B6": "but since the barber shop is not profitable he has spent his savings to keep it afloat.",
+        "B7": "Tell him to give Silas an \"I owe you\".",
+        "B8": "He will need something to give as collateral.",
+        "B9": "Go to the back room and inspect a ledger and you'll find a note from Phyllis mentioning a receptionist's suicide and asking Conrad to pull the teeth.",
+        "B10": "You can find the Golden Teeth items at the Botanical Labs greenhouse and bring them back,",
+        "B11": "then use Persuade (1) and tell him that you have them.",
+        "B12": "You will then receive 360xp and complete this portion of the quest.",
+        "B13": "Alternatively: You can kill him for his Gravesite Fee"
+      }
+    },
+    "O3": {
+      "summary": "Collect Abernathy's Gravesite Fees",
+      "description": {
+        "S1": "Abernathy is one of the four people Silas sent you to collect from.",
+        "S2": "He's been feeling under the weather and is probably at his residence."
+      },
+      "blurb": {
+        "B1": "Martin Abernathy can be found in his home inside Edgewater.",
+        "B2": "You can easily talk him into paying you his Gravesite Fee (360xp),",
+        "B3": "and he'll give you the Quest: The Long Tomorrow if you agree to help him retrieve the medicine cache from the Community Center,",
+        "B4": "as the company policy excludes him from treatment."
+      }
+    },
+    "O4": {
+      "summary": "Collect Phyllis's Gravesite Fees",
+      "description": {
+        "S1": "Phyllis is one of the four people Silas sent you to collect from.",
+        "S2": "She works as a supervisor in the Edgewater cannery."
+      },
+      "blurb": {
+        "B1": "Phyllis Granger can be found at the Saltuna Cannery, on the upper ramparts.",
+        "B2": "She is the foreman and not a pleasant conversationalist,",
+        "B3": "so get to the point and ask her about the gravesite fees.",
+        "B4": "She will immediately pay up.",
+        "B5": "You will notice that the papers are not signed in her name.",
+        "B6": "She will reveal she's paying for one of her worker's grave.",
+        "B7": "Since Eugene \"vandalized company property\" by killing himself,",
+        "B8": "Phyllis has to pay for discovering it."
+      }
+    }
+  },
+  "dialog_edges": [
+    [
+      176,
+      178
+    ],
+    [
+      176,
+      177
+    ],
+    [
+      178,
+      185
+    ],
+    [
+      185,
+      188
+    ],
+    [
+      185,
+      186
+    ],
+    [
+      185,
+      190
+    ],
+    [
+      188,
+      193
+    ],
+    [
+      193,
+      195
+    ],
+    [
+      195,
+      216
+    ],
+    [
+      195,
+      17
+    ],
+    [
+      195,
+      24
+    ],
+    [
+      216,
+      214
+    ],
+    [
+      214,
+      55
+    ],
+    [
+      55,
+      108
+    ],
+    [
+      108,
+      56
+    ],
+    [
+      108,
+      59
+    ],
+    [
+      108,
+      61
+    ],
+    [
+      108,
+      304
+    ],
+    [
+      108,
+      112
+    ],
+    [
+      56,
+      57
+    ],
+    [
+      57,
+      243
+    ],
+    [
+      57,
+      34
+    ],
+    [
+      57,
+      58
+    ],
+    [
+      243,
+      244
+    ],
+    [
+      244,
+      34
+    ],
+    [
+      244,
+      247
+    ],
+    [
+      244,
+      58
+    ],
+    [
+      247,
+      74
+    ],
+    [
+      74,
+      64
+    ],
+    [
+      74,
+      289
+    ],
+    [
+      74,
+      51
+    ],
+    [
+      74,
+      72
+    ],
+    [
+      64,
+      65
+    ],
+    [
+      65,
+      66
+    ],
+    [
+      66,
+      51
+    ],
+    [
+      66,
+      67
+    ],
+    [
+      289,
+      290
+    ],
+    [
+      290,
+      294
+    ],
+    [
+      294,
+      297
+    ],
+    [
+      297,
+      299
+    ],
+    [
+      299,
+      64
+    ],
+    [
+      299,
+      51
+    ],
+    [
+      299,
+      303
+    ],
+    [
+      51,
+      52
+    ],
+    [
+      52,
+      53
+    ],
+    [
+      53,
+      289
+    ],
+    [
+      53,
+      64
+    ],
+    [
+      53,
+      63
+    ],
+    [
+      34,
+      35
+    ],
+    [
+      35,
+      245
+    ],
+    [
+      245,
+      243
+    ],
+    [
+      245,
+      247
+    ],
+    [
+      245,
+      47
+    ],
+    [
+      59,
+      60
+    ],
+    [
+      60,
+      109
+    ],
+    [
+      60,
+      61
+    ],
+    [
+      60,
+      112
+    ],
+    [
+      109,
+      57
+    ],
+    [
+      61,
+      62
+    ],
+    [
+      62,
+      109
+    ],
+    [
+      62,
+      113
+    ],
+    [
+      62,
+      112
+    ],
+    [
+      113,
+      74
+    ],
+    [
+      304,
+      74
+    ],
+    [
+      17,
+      18
+    ],
+    [
+      18,
+      19
+    ],
+    [
+      19,
+      216
+    ],
+    [
+      19,
+      23
+    ],
+    [
+      19,
+      24
+    ],
+    [
+      23,
+      74
+    ],
+    [
+      186,
+      191
+    ],
+    [
+      191,
+      195
+    ],
+    [
+      190,
+      194
+    ],
+    [
+      194,
+      205
+    ],
+    [
+      194,
+      185
+    ],
+    [
+      205,
+      206
+    ],
+    [
+      206,
+      185
+    ],
+    [
+      177,
+      181
+    ],
+    [
+      181,
+      185
+    ]
+  ],
+  "dialog": [
+    {
+      "id": 176,
+      "speaker_guid": "00321122-e5a6-4668-8cfa-0ec409b0e955",
+      "speaker": "Silas (Male)",
+      "utterance": "Don't go ambling out in those hills. That's marauder territory, friend.",
+      "support_knowledge": []
+    },
+    {
+      "id": 178,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I'm just passing through.",
+      "support_knowledge": []
+    },
+    {
+      "id": 177,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "How do you know I'm not a marauder?",
+      "support_knowledge": []
+    },
+    {
+      "id": 185,
+      "speaker_guid": "00321122-e5a6-4668-8cfa-0ec409b0e955",
+      "speaker": "Silas (Male)",
+      "utterance": "Ain't safe out here. You'd best head into town, avail yourself of Edgewater's high walls and low, low prices.",
+      "support_knowledge": [
+        "edgewater_01",
+        "spacers_choice_03",
+        "spacers_choice_07"
+      ]
+    },
+    {
+      "id": 188,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I never got your name. I'm <oeitoken>PlayerName</oeitoken>.",
+      "support_knowledge": []
+    },
+    {
+      "id": 186,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Do they pay you to chat with strangers?",
+      "support_knowledge": [
+        "silas_02"
+      ]
+    },
+    {
+      "id": 190,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Is that why you've got a pair of armed guards?",
+      "support_knowledge": []
+    },
+    {
+      "id": 193,
+      "speaker_guid": "00321122-e5a6-4668-8cfa-0ec409b0e955",
+      "speaker": "Silas (Male)",
+      "utterance": "Pleased to make your acquaintanceship. I'd shake your hand, but I been hauling corpses. You don't want none of that on you.",
+      "support_knowledge": [
+        "silas_01"
+      ]
+    },
+    {
+      "id": 195,
+      "speaker_guid": "00321122-e5a6-4668-8cfa-0ec409b0e955",
+      "speaker": "Silas (Male)",
+      "utterance": "Name's Silas. Junior Inhumer for the town of Edgewater. We're all part of the Spacer's Choice family.",
+      "support_knowledge": [
+        "silas_01",
+        "spacers_choice_01"
+      ]
+    },
+    {
+      "id": 216,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I'm looking to make a little money while I'm here.",
+      "support_knowledge": [
+        "O0_B1"
+      ]
+    },
+    {
+      "id": 17,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "This place looks like it's falling to pieces.",
+      "support_knowledge": [
+        "edgewater_04"
+      ]
+    },
+    {
+      "id": 24,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I'll be on my way.",
+      "support_knowledge": []
+    },
+    {
+      "id": 214,
+      "speaker_guid": "00321122-e5a6-4668-8cfa-0ec409b0e955",
+      "speaker": "Silas (Male)",
+      "utterance": "Got a knack for being discreet-like? There's money to be made, long as you keep your nose clean.",
+      "support_knowledge": [
+        "O0_B1",
+        "spacers_choice_08"
+      ]
+    },
+    {
+      "id": 55,
+      "speaker_guid": "00321122-e5a6-4668-8cfa-0ec409b0e955",
+      "speaker": "Silas (Male)",
+      "utterance": "Edgewater is a company town. Board owned and operated. That includes the cemetery. None of us own our gravesites - we rent 'em from the company.",
+      "support_knowledge": [
+        "edgewater_01",
+        "silas_04"
+      ]
+    },
+    {
+      "id": 108,
+      "speaker_guid": "00321122-e5a6-4668-8cfa-0ec409b0e955",
+      "speaker": "Silas (Male)",
+      "utterance": "Renting means money. Money means paperwork. Paperwork means signatures. Some of our family's become a mite delinquent in paying their dues, you see.",
+      "support_knowledge": [
+        "silas_04",
+        "silas_08"
+      ]
+    },
+    {
+      "id": 56,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "You want me to collect what's owed to you. I can do that.",
+      "support_knowledge": [
+        "O0_B2"
+      ]
+    },
+    {
+      "id": 59,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "You're making people pay for their own graves?",
+      "support_knowledge": []
+    },
+    {
+      "id": 61,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Why can't you collect these fees yourself?",
+      "support_knowledge": [
+        "silas_10"
+      ]
+    },
+    {
+      "id": 304,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Let me ask you about something else.",
+      "support_knowledge": []
+    },
+    {
+      "id": 112,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I'm sure you'll figure something out. Excuse me.",
+      "support_knowledge": []
+    },
+    {
+      "id": 57,
+      "speaker_guid": "00321122-e5a6-4668-8cfa-0ec409b0e955",
+      "speaker": "Silas (Male)",
+      "utterance": "Four workers still haven't paid up. Phyllis, Conrad, Ludwig, and Martin Abernathy. He's a special case. You may wanna twist his arm a little.",
+      "support_knowledge": [
+        "O0_B2",
+        "O1_S1",
+        "O2_S1",
+        "O3_S1",
+        "O4_S1"
+      ]
+    },
+    {
+      "id": 243,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Why is Abernathy a special case?",
+      "support_knowledge": [
+        "O3_S1"
+      ]
+    },
+    {
+      "id": 34,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Where can I find these people?",
+      "support_knowledge": [
+        "O0_B2"
+      ]
+    },
+    {
+      "id": 58,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I'll be back.",
+      "support_knowledge": []
+    },
+    {
+      "id": 244,
+      "speaker_guid": "00321122-e5a6-4668-8cfa-0ec409b0e955",
+      "speaker": "Silas (Male)",
+      "utterance": "He just is. Look, I don't want to get into it. Just make sure he pays up.",
+      "support_knowledge": [
+        "O3_S1"
+      ]
+    },
+    {
+      "id": 247,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "There was something else I wanted to ask you.",
+      "support_knowledge": []
+    },
+    {
+      "id": 74,
+      "speaker_guid": "00321122-e5a6-4668-8cfa-0ec409b0e955",
+      "speaker": "Silas (Male)",
+      "utterance": "Yeah?",
+      "support_knowledge": []
+    },
+    {
+      "id": 64,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "This town must be in pretty bad shape, if it's keeping you employed.",
+      "support_knowledge": [
+        "silas_01",
+        "silas_02"
+      ]
+    },
+    {
+      "id": 289,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "You lose a lot of people to marauders?",
+      "support_knowledge": [
+        "edgewater_04"
+      ]
+    },
+    {
+      "id": 51,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "How long have you been a Junior Inhumer? Gravedigger. Whatever.",
+      "support_knowledge": [
+        "silas_01",
+        "silas_02"
+      ]
+    },
+    {
+      "id": 72,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I should go.",
+      "support_knowledge": []
+    },
+    {
+      "id": 65,
+      "speaker_guid": "00321122-e5a6-4668-8cfa-0ec409b0e955",
+      "speaker": "Silas (Male)",
+      "utterance": "You could look at it that way, I suppose. You could look at us and say, \"Those Edgewater saps lost near every soul to plague.\"",
+      "support_knowledge": [
+        "edgewater_01",
+        "edgewater_06"
+      ]
+    },
+    {
+      "id": 66,
+      "speaker_guid": "00321122-e5a6-4668-8cfa-0ec409b0e955",
+      "speaker": "Silas (Male)",
+      "utterance": "But you'd be wrong. We're survivors. Loyal company folk braving the wilds.",
+      "support_knowledge": [
+        "edgewater_01",
+        "spacers_choice_01"
+      ]
+    },
+    {
+      "id": 67,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I should go.",
+      "support_knowledge": []
+    },
+    {
+      "id": 290,
+      "speaker_guid": "00321122-e5a6-4668-8cfa-0ec409b0e955",
+      "speaker": "Silas (Male)",
+      "utterance": "Former people, yeah. Marauders been raiding my graves, you see. Hence the armed guards.",
+      "support_knowledge": [
+        "silas_01"
+      ]
+    },
+    {
+      "id": 294,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Any idea where they're coming from?",
+      "support_knowledge": []
+    },
+    {
+      "id": 297,
+      "speaker_guid": "00321122-e5a6-4668-8cfa-0ec409b0e955",
+      "speaker": "Silas (Male)",
+      "utterance": "Couldn't tell you. No, I mean, I'm contractually prohibited from saying anything that might reflect poorly on Spacer's Choice.",
+      "support_knowledge": [
+        "spacers_choice_01",
+        "spacers_choice_08"
+      ]
+    },
+    {
+      "id": 299,
+      "speaker_guid": "00321122-e5a6-4668-8cfa-0ec409b0e955",
+      "speaker": "Silas (Male)",
+      "utterance": "Ah, void it. Shouldn't have said that either. Look, forget I said anything.",
+      "support_knowledge": [
+        "spacers_choice_08"
+      ]
+    },
+    {
+      "id": 303,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Thanks for your time.",
+      "support_knowledge": []
+    },
+    {
+      "id": 52,
+      "speaker_guid": "00321122-e5a6-4668-8cfa-0ec409b0e955",
+      "speaker": "Silas (Male)",
+      "utterance": "Hang on. I'm doing some math in my head. Twenty, thirty, carry the one - uh, all my life.",
+      "support_knowledge": [
+        "silas_02"
+      ]
+    },
+    {
+      "id": 53,
+      "speaker_guid": "00321122-e5a6-4668-8cfa-0ec409b0e955",
+      "speaker": "Silas (Male)",
+      "utterance": "Work's been real good to me. Fresh air. Exercise. Only problem's the paperwork. Can't get anybody to pay their gravesite fees.",
+      "support_knowledge": [
+        "silas_04",
+        "silas_06",
+        "silas_07",
+        "silas_08",
+        "silas_10"
+      ]
+    },
+    {
+      "id": 63,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "That's all for now.",
+      "support_knowledge": []
+    },
+    {
+      "id": 35,
+      "speaker_guid": "00321122-e5a6-4668-8cfa-0ec409b0e955",
+      "speaker": "Silas (Male)",
+      "utterance": "Conrad's got a barber shop in town. Phyllis works at the cannery most hours. Abernathy - I ain't seen him in a few days. His domicile is near the cannery.",
+      "support_knowledge": [
+        "O0_B2",
+        "O2_S2",
+        "O3_S2",
+        "O4_S2"
+      ]
+    },
+    {
+      "id": 245,
+      "speaker_guid": "00321122-e5a6-4668-8cfa-0ec409b0e955",
+      "speaker": "Silas (Male)",
+      "utterance": "You'll find 'em in town. All except Ludwig, that is. He's over by the landing pad.",
+      "support_knowledge": [
+        "O0_B2",
+        "O1_S2"
+      ]
+    },
+    {
+      "id": 47,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I'll be back.",
+      "support_knowledge": []
+    },
+    {
+      "id": 60,
+      "speaker_guid": "00321122-e5a6-4668-8cfa-0ec409b0e955",
+      "speaker": "Silas (Male)",
+      "utterance": "Company policy. If it was up to me, I'd put the whole town ten feet under, free of charge.",
+      "support_knowledge": [
+        "silas_06"
+      ]
+    },
+    {
+      "id": 109,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "All right. I'll collect your fees for you.",
+      "support_knowledge": [
+        "O0_B2"
+      ]
+    },
+    {
+      "id": 62,
+      "speaker_guid": "00321122-e5a6-4668-8cfa-0ec409b0e955",
+      "speaker": "Silas (Male)",
+      "utterance": "Quotas, mostly. Got a backlog of graves to fill. Bodies won't bury themselves, you know. ",
+      "support_knowledge": [
+        "silas_09"
+      ]
+    },
+    {
+      "id": 113,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Never mind that. Let me ask you something else.",
+      "support_knowledge": []
+    },
+    {
+      "id": 18,
+      "speaker_guid": "00321122-e5a6-4668-8cfa-0ec409b0e955",
+      "speaker": "Silas (Male)",
+      "utterance": "Heard a lot of new workers say that. First time they set eyes on Edgewater, they'll say, \"I can't work here. I don't belong here.\"",
+      "support_knowledge": []
+    },
+    {
+      "id": 19,
+      "speaker_guid": "00321122-e5a6-4668-8cfa-0ec409b0e955",
+      "speaker": "Silas (Male)",
+      "utterance": "Well, we do belong here. The Spacer's Choice family takes care of us from the cradle to the grave. Long as we provide our own cradles.",
+      "support_knowledge": [
+        "spacers_choice_01",
+        "spacers_choice_07",
+        "spacers_choice_08"
+      ]
+    },
+    {
+      "id": 23,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "There was something else I wanted to ask.",
+      "support_knowledge": []
+    },
+    {
+      "id": 191,
+      "speaker_guid": "00321122-e5a6-4668-8cfa-0ec409b0e955",
+      "speaker": "Silas (Male)",
+      "utterance": "I am employed by the Retirement Department of Spacer's Choice. That's fancy-talk for working in the cemetery.",
+      "support_knowledge": [
+        "silas_01"
+      ]
+    },
+    {
+      "id": 194,
+      "speaker_guid": "00321122-e5a6-4668-8cfa-0ec409b0e955",
+      "speaker": "Silas (Male)",
+      "utterance": "I'm being vigilant. Don't wanna get blindsided by some corpse-chewing marauder come stalking out the shadows.",
+      "support_knowledge": []
+    },
+    {
+      "id": 205,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "You're telling me there's cannibals out there?",
+      "support_knowledge": []
+    },
+    {
+      "id": 206,
+      "speaker_guid": "00321122-e5a6-4668-8cfa-0ec409b0e955",
+      "speaker": "Silas (Male)",
+      "utterance": "Worse. *Unemployed* cannibals. You ever seen a marauder hold down a job?  Or put a stake into society?",
+      "support_knowledge": [
+        "spacers_choice_09"
+      ]
+    },
+    {
+      "id": 181,
+      "speaker_guid": "00321122-e5a6-4668-8cfa-0ec409b0e955",
+      "speaker": "Silas (Male)",
+      "utterance": "You talk too pretty for a marauder. Most of 'em just grunt and yell.",
+      "support_knowledge": []
+    }
+  ]
+}

@@ -1,0 +1,196 @@
+{
+  "id": "makes_space_suits_wont_travel_03",
+  "quest_name": "makes_space_suits_wont_travel",
+  "conversation": {
+    "filename": "0202_cv_hps_clerk_01",
+    "start_node": 1,
+    "end_nodes": [
+      10
+    ],
+    "force_include": [
+      72
+    ],
+    "force_sequence": []
+  },
+  "in_objective": "O6",
+  "out_objective": "O6",
+  "participants": [
+    "olive_yates"
+  ],
+  "objectives": {
+    "O6": {
+      "summary": "Get the Lapel from HPS",
+      "description": {
+        "S1": "Every Jolicoeur Original comes with a hand-crafted golden lapel.",
+        "S2": "Celeste ordered a lapel to commemorate her prototype,",
+        "S3": "but the parcel must be signed for and is still at HPS.",
+        "S4": "Head to HPS and retrieve the parcel containing her lapel."
+      },
+      "blurb": {
+        "B1": "Head there and speak to Olive Yates.",
+        "B2": "She'll tell you to go to window B.",
+        "B3": "Speak to Wanda Chen in window B to learn the parcel is already out for delivery.",
+        "B4": "Head to the nav marker in the Estates District and read the note left on the door to learn that the parcel is now back at the HPS,",
+        "B5": "you'll get the HPS Delivery Unsuccessful quest item.",
+        "B6": "Speak to Wanda Chen again and she'll tell you to head to window A.",
+        "B7": "Speak with Olive in Window A and show her your verification to receive the parcel and the Gold Lapel quest item.",
+        "B8": "Then head back to Celeste."
+      }
+    }
+  },
+  "dialog": [
+    {
+      "id": 1,
+      "speaker_guid": "171a7841-0093-44af-9464-d7f5f0cc12fd",
+      "speaker": "HPSClerk (Female)",
+      "utterance": "Welcome to Halcyon Parcel Service. Deliveries guaranteed within standard margins of accuracy!",
+      "support_knowledge": [
+        "halcyon_parcel_service_01",
+        "olive_yates_01"
+      ]
+    },
+    {
+      "id": 2,
+      "speaker_guid": "171a7841-0093-44af-9464-d7f5f0cc12fd",
+      "speaker": "HPSClerk (Female)",
+      "utterance": "How may I be of assistance?",
+      "support_knowledge": []
+    },
+    {
+      "id": 3,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "What exactly do you do here?",
+      "support_knowledge": []
+    },
+    {
+      "id": 72,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Celeste Jolicoeur sent me. I'm here to sign for a parcel.",
+      "support_knowledge": [
+        "O6_S4"
+      ]
+    },
+    {
+      "id": 4,
+      "speaker_guid": "171a7841-0093-44af-9464-d7f5f0cc12fd",
+      "speaker": "HPSClerk (Female)",
+      "utterance": "Halcyon Parcel Service is the most dependable parcel delivery service in the colony. You might even say we're part and parcel of Halcyon's commercial enterprise!",
+      "support_knowledge": [
+        "halcyon_parcel_service_01"
+      ]
+    },
+    {
+      "id": 42,
+      "speaker_guid": "171a7841-0093-44af-9464-d7f5f0cc12fd",
+      "speaker": "HPSClerk (Female)",
+      "utterance": "That's just a little parcel joke.",
+      "support_knowledge": []
+    },
+    {
+      "id": 43,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "So if someone needed a package delivered, they'd come here?",
+      "support_knowledge": []
+    },
+    {
+      "id": 44,
+      "speaker_guid": "171a7841-0093-44af-9464-d7f5f0cc12fd",
+      "speaker": "HPSClerk (Female)",
+      "utterance": "Nope. Just parcels. We don't deal in packages.",
+      "support_knowledge": []
+    },
+    {
+      "id": 45,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "What's the difference?",
+      "support_knowledge": []
+    },
+    {
+      "id": 46,
+      "speaker_guid": "171a7841-0093-44af-9464-d7f5f0cc12fd",
+      "speaker": "HPSClerk (Female)",
+      "utterance": "It's very technical. Halcyon Parcel Service strictly adheres to the standards and definitions of packaging as outlined by the Executive Ministry of Accuracy and Morale.",
+      "support_knowledge": []
+    },
+    {
+      "id": 47,
+      "speaker_guid": "171a7841-0093-44af-9464-d7f5f0cc12fd",
+      "speaker": "HPSClerk (Female)",
+      "utterance": "We can ship all the parcels you want. But if I start shipping packages, I could get into some real trouble. Handcuffs and hard labor trouble.",
+      "support_knowledge": []
+    },
+    {
+      "id": 73,
+      "speaker_guid": "171a7841-0093-44af-9464-d7f5f0cc12fd",
+      "speaker": "HPSClerk (Female)",
+      "utterance": "If you would like to sign for a parcel, please go to Window B.",
+      "support_knowledge": []
+    }
+  ],
+  "dialog_edges": [
+    [
+      1,
+      2
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      2,
+      72
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      4,
+      42
+    ],
+    [
+      42,
+      43
+    ],
+    [
+      42,
+      2
+    ],
+    [
+      43,
+      44
+    ],
+    [
+      44,
+      45
+    ],
+    [
+      44,
+      2
+    ],
+    [
+      45,
+      46
+    ],
+    [
+      46,
+      47
+    ],
+    [
+      47,
+      2
+    ],
+    [
+      72,
+      73
+    ],
+    [
+      73,
+      2
+    ]
+  ]
+}

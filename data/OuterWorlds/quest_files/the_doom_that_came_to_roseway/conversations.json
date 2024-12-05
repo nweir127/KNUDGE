@@ -1,0 +1,167 @@
+[
+  {
+    "id": "the_doom_that_came_to_roseway_00",
+    "quest_name": "the_doom_that_came_to_roseway",
+    "conversation": {
+      "filename": "03_cv_playership",
+      "start_node": 140,
+      "end_nodes": [
+        1
+      ],
+      "force_include": [],
+      "force_sequence": []
+    },
+    "in_objective": "O0",
+    "out_objective": "O1",
+    "participants": [
+      "ada",
+      "unknown_character"
+    ]
+  },
+  {
+    "id": "the_doom_that_came_to_roseway_01",
+    "quest_name": "the_doom_that_came_to_roseway",
+    "conversation": {
+      "filename": "08_cv_scientist_anton",
+      "start_node": 1,
+      "end_nodes": [],
+      "force_include": [
+        786,
+        5,
+        6,
+        14,
+        65,
+        121,
+        69,
+        27,
+        32,
+        432
+      ],
+      "force_sequence": []
+    },
+    "in_objective": "O1",
+    "out_objective": "O2",
+    "participants": [
+      "anton_crane"
+    ]
+  },
+  {
+    "id": "the_doom_that_came_to_roseway_02",
+    "quest_name": "the_doom_that_came_to_roseway",
+    "conversation": {
+      "filename": "08_cv_cleo_porter",
+      "start_node": 3,
+      "end_nodes": [],
+      "force_include": [
+        4,
+        28,
+        223,
+        53,
+        48,
+        51,
+        232,
+        62
+      ],
+      "force_sequence": []
+    },
+    "in_objective": "O2",
+    "out_objective": "O3",
+    "participants": [
+      "porter"
+    ]
+  },
+  {
+    "id": "the_doom_that_came_to_roseway_03",
+    "quest_name": "the_doom_that_came_to_roseway",
+    "conversation": {
+      "filename": "08_cv_anarchist_cassandra_new",
+      "start_node": 3,
+      "end_nodes": [],
+      "force_include": [
+        5,
+        20,
+        14,
+        18,
+        19,
+        353,
+        31,
+        50,
+        34
+      ],
+      "force_sequence": []
+    },
+    "in_objective": "O3",
+    "out_objective": "O4",
+    "participants": [
+      "cassandra_omalley"
+    ]
+  },
+  {
+    "id": "the_doom_that_came_to_roseway_04",
+    "quest_name": "the_doom_that_came_to_roseway",
+    "conversation": {
+      "filename": "08_cv_cleo_porter",
+      "start_node": 283,
+      "end_nodes": [],
+      "force_include": [
+        167
+      ],
+      "force_sequence": []
+    },
+    "in_objective": "O4",
+    "out_objective": "O5",
+    "participants": [
+      "porter"
+    ]
+  },
+  {
+    "id": "the_doom_that_came_to_roseway_05",
+    "quest_name": "the_doom_that_came_to_roseway",
+    "conversation": {
+      "filename": "08_cv_anarchist_cassandra_new",
+      "start_node": 408,
+      "end_nodes": [
+        320,
+        276
+      ],
+      "force_include": [
+        23,
+        344,
+        151,
+        152,
+        157,
+        156,
+        223
+      ],
+      "force_sequence": []
+    },
+    "in_objective": "O5",
+    "out_objective": "O6",
+    "participants": [
+      "cassandra_omalley"
+    ]
+  },
+  {
+    "id": "the_doom_that_came_to_roseway_06",
+    "quest_name": "the_doom_that_came_to_roseway",
+    "conversation": {
+      "filename": "08_cv_scientist_anton",
+      "start_node": 549,
+      "end_nodes": [
+        167
+      ],
+      "force_include": [
+        335,
+        746,
+        328,
+        745,
+        212
+      ],
+      "force_sequence": []
+    },
+    "in_objective": "O6",
+    "participants": [
+      "anton_crane"
+    ]
+  }
+]

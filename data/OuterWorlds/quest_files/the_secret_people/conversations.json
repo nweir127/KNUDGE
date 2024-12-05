@@ -1,0 +1,133 @@
+[
+  {
+    "id": "the_secret_people_00",
+    "quest_name": "the_secret_people",
+    "conversation": {
+      "filename": "0402_cv_velmaballard",
+      "start_node": 64,
+      "end_nodes": [],
+      "force_include": [
+        87
+      ],
+      "force_sequence": []
+    },
+    "in_objective": "O0",
+    "out_objective": "O1",
+    "participants": [
+      "velma_ballard"
+    ]
+  },
+  {
+    "id": "the_secret_people_01",
+    "quest_name": "the_secret_people",
+    "conversation": {
+      "filename": "0402_cv_laura_aptconversation",
+      "start_node": 1,
+      "end_nodes": [],
+      "force_include": [
+        2,
+        12,
+        17
+      ],
+      "force_sequence": []
+    },
+    "in_objective": "O1",
+    "out_objective": "O2",
+    "participants": [
+      "laura"
+    ]
+  },
+  {
+    "id": "the_secret_people_02",
+    "quest_name": "the_secret_people",
+    "conversation": {
+      "filename": "0402_cv_edger_cannibalhouse",
+      "start_node": 2,
+      "end_nodes": [],
+      "force_include": [
+        5,
+        35,
+        37
+      ],
+      "force_sequence": []
+    },
+    "in_objective": "O2",
+    "out_objective": "O3",
+    "participants": [
+      "edgar_mather"
+    ]
+  },
+  {
+    "id": "the_secret_people_03",
+    "quest_name": "the_secret_people",
+    "conversation": {
+      "filename": "0402_cv_martha_cannibalfamily",
+      "start_node": 1,
+      "end_nodes": [],
+      "force_include": [],
+      "force_sequence": []
+    },
+    "in_objective": "O3",
+    "out_objective": "O3",
+    "participants": [
+      "martha_mather"
+    ]
+  },
+  {
+    "id": "the_secret_people_04",
+    "quest_name": "the_secret_people",
+    "conversation": {
+      "filename": "0402_cv_lizzie_cannibalhouse",
+      "start_node": 1,
+      "end_nodes": [],
+      "force_include": [
+        11,
+        19
+      ],
+      "force_sequence": []
+    },
+    "in_objective": "O3",
+    "out_objective": "O3",
+    "participants": [
+      "lizzie_mather"
+    ]
+  },
+  {
+    "id": "the_secret_people_05",
+    "quest_name": "the_secret_people",
+    "conversation": {
+      "filename": "0402_cv_edger_cannibalhouse",
+      "start_node": 20,
+      "end_nodes": [],
+      "force_include": [
+        64
+      ],
+      "force_sequence": []
+    },
+    "in_objective": "O4",
+    "out_objective": "O5",
+    "participants": [
+      "edgar_mather",
+      "martha_mather"
+    ]
+  },
+  {
+    "id": "the_secret_people_06",
+    "quest_name": "the_secret_people",
+    "conversation": {
+      "filename": "0402_cv_velmaballard",
+      "start_node": 13,
+      "end_nodes": [],
+      "force_include": [
+        13,
+        76,
+        46
+      ],
+      "force_sequence": []
+    },
+    "in_objective": "O5",
+    "participants": [
+      "velma_ballard"
+    ]
+  }
+]

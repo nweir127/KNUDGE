@@ -1,0 +1,95 @@
+ID	fact
+OBJECTIVE O0	
+O0_S1	175:56
+O0_B1	505:96
+O0_B2	602:62
+O0_B3	665:39
+O0_B4	705:103
+OBJECTIVE O1	
+O1_S1	263:56
+O1_S2	320:125
+O1_S3	445:57
+O1_B1	809:119
+O1_B2	929:95
+O1_B3	1025:75
+O1_B4	1101:46
+O1_B5	he has nothing important to say so go left and unlock the door with Minister's HHC Access Card
+O1_B6	1243:90
+O1_B7	1334:146
+aloysius_clarke	
+aloysius_clarke_01	Aloysius Clarke is the Minister of Earth,
+aloysius_clarke_02	representing the Earth Directorate to the Halcyon Holdings Corporation.
+aloysius_clarke_03	Placed put under domiciliary arrest by Charles Rockwell with his communications with Earth cut off,
+aloysius_clarke_04	(so Rockwell could conduct business in his name unimpeded),
+aloysius_clarke_05	Aloysius is waiting for assistance to send a message to Earth to request aid.
+byzantium	
+byzantium_01	Byzantium is the capital city of Terra 2 and the crown jewel of Halcyon.
+byzantium_02	All the opulence, elegance, and decadence of the colony is concentrated in the city.
+byzantium_03	Its residents are colloquially referred to as gold-bloods.
+byzantium_04	"Referred to as the ""gilded city of the well-to-do"","
+byzantium_05	Byzantium is where every Halcyon colonist wishes they could live.
+byzantium_06	The city is closed off to those without the means to be appropriate residents;
+byzantium_07	it’s a literal gated community with secrets that lesser company workers will simply never learn.
+byzantium_08	The city of Byzantium was built in a radial layout,
+byzantium_09	with streets and docking bays encircling the Halcyon Holdings Corporation headquarters,
+byzantium_10	located in the restricted Acropolis District.
+byzantium_11	Many buildings constructed in Byzantium are well-maintained,
+byzantium_12	and are built in a futuristic Art Nouveau style,
+byzantium_13	as opposed to the simpler prefabricated frontier designs of Edgewater or Stellar Bay.
+byzantium_14	The Acropolis District is a wealthy district for the most prominent citizens of both Byzantium and the entire Halcyon Colony.
+byzantium_15	Located here are the headquarters of the Halcyon Holdings Corporation,
+byzantium_16	housed inside a towering skyscraper.
+byzantium_17	Docking bays for various vessels and ships have been constructed into a large, deep trench encircling the mid-section of Byzantium.
+byzantium_18	Only those individuals with the appropriate navkey are allowed to land on Byzantium's docking bays.
+byzantium_19	A district bordering the Acropolis District,
+byzantium_20	the Estate District is known as the residence of Minister Clarke.
+byzantium_21	Prosperity Plaza is the beating hub of commerce and culture in Byzantium,
+byzantium_22	fronted by famous establishments such as Bijou's Revue, Rococo's Decor, and Billingsly's House of Inebriation.
+byzantium_23	At the center of the plaza is a large decorative orrery in the likeness of the Halcyon system.
+charles_rockwell	
+charles_rockwell_01	Charles Rockwell is the CEO of Universal Defense Logistics and the Chairman of the Halcyon Holdings Corporate Board.
+charles_rockwell_02	Rockwell authorized the Lifetime Employment Program,
+charles_rockwell_03	"a Universal Defense Logistics experiment ""to repeatedly revive human subjects from extended hibernation without causing the death of the human subject and the loss of associated productivity."""
+charles_rockwell_04	"The results were inconclusive and prognosis ""cautiously optimistic""."
+earth_directorate	
+earth_directorate_01	The Earth Directorate (ED) is a regulatory and tribunal body located on Earth,
+earth_directorate_02	who regulate trade and resolve disputes that arise in both international, and inter-corporate.
+earth_directorate_03	The organisation is also responsible for cataloging and licensing of star systems to various corporations.
+earth_directorate_04	The Earth Directorate was formed on Earth in the years following the Great War to regulate trade and arbitrate international, and inter-corporate disputes.
+earth_directorate_05	Between the Great War of the mid-21st century and the invention of the skip drive,
+earth_directorate_06	theorists had disputed the power of the skip drive,
+earth_directorate_07	but rather attributed the Earth Directorate's rise to power as being a pre-War entity,
+earth_directorate_08	dominating the corporations,
+earth_directorate_09	having been weakened by the costs of the Great War,
+earth_directorate_10	with the drive giving them extra power over them.
+earth_directorate_11	By the 23rd century, the Directorate is also responsible for the cataloging and licensing of star systems to various corporations or corporate entities.
+earth_directorate_12	At some point the ED sold Halcyon to the Halcyon Holdings Corporation.
+earth_directorate_13	It is currently unknown if the Earth Directorate still exists in any official form following the disconnection of Earth from its colonies.
+guard_bachmeyer	
+guard_bachmeyer_01	Guard Bachmeyer is the head of security at the Halcyon Holdings Corporation Building.
+guard_bachmeyer_02	His group guards the elevator to the top floor lobby, where executive offices are housed.
+halcyon_holdings_corporation	
+halcyon_holdings_corporation_01	"The Halcyon Holdings Corporation (commonly abbreviated as HHC) is the corporation and ""de facto government"" that rules the Halcyon system"
+halcyon_holdings_corporation_02	It is controlled by the Halcyon Holdings Corporate Board,[2]which represents HHC's ten member corporations and effectively serves as Halcyon's ruling council. HHC was formed by the ten corporations specifically to purchase the rights to Halcyon from the Earth Directorate. The names for Halcyon's planets were decided by the HHC.
+halcyon_holdings_corporation_building	
+halcyon_holdings_corporation_building_01	The Halcyon Holdings Corporation Building is the headquarters for the Halcyon Holdings Corporation, located in Byzantium.
+halcyon_holdings_corporation_building_02	Chairman Rockwell and Minister Clarke both have offices on the top floor.
+halcyon_holdings_corporation_building_03	Rockwell had begun renovations to convert Clarke's office into an extension to his own.
+halcyon_holdings_corporation_building_04	Entering from the Acropolis District one enters into a large lobby.
+halcyon_holdings_corporation_building_05	Ahead of the entrance is the receptionist, Beatrice Reichert.
+halcyon_holdings_corporation_building_06	Behind her is a security checkpoint guarded by Bachmeyer and Corporate Guards.
+halcyon_holdings_corporation_building_07	Through this checkpoint is an elevator to the top floor lobby,
+halcyon_holdings_corporation_building_08	housing Minister Clarke and Chairman Rockwell's offices.
+halcyon_holdings_corporation_building_09	Ahead of the elevator is a reception desk stationed by Percival Platt.
+halcyon_holdings_corporation_building_10	The upper floor is also guarded by Corporate Sentinels.
+halcyon_holdings_corporation_building_11	The door directly behind Percival leads to Rockwell's office.
+halcyon_holdings_corporation_building_12	Facing him, the door to the left leads to Clarke's office,
+halcyon_holdings_corporation_building_13	and contains a massive hole in the wall leading to Rockwell's office.
+halcyon_holdings_corporation_building_14	Inside Rockwell's office, there is a bar and terminal.
+percival_platt	
+percival_platt_01	Percival Platt is the personal assistant to Adjutant Akande and Chairman Rockwell.
+percival_platt_02	Percival got his position as the personal assistant of Akande and Rockwell due to his reputation for discretion and his family's connections.
+percival_platt_03	His tasks include completing paperwork and providing rewards on behalf of Akande,
+percival_platt_04	as well as providing a selection of Board-certified equipment to acting agents of the Board.
+percival_platt_05	His hobby is organizing the Adjutant's stationery,
+percival_platt_06	as he has a weakness for personalized stationery.

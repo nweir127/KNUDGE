@@ -1,0 +1,419 @@
+{
+  "id": "canids_cradle_01",
+  "quest_name": "canids_cradle",
+  "conversation": {
+    "filename": "0403_cv_zora",
+    "start_node": 103,
+    "end_nodes": [],
+    "force_include": []
+  },
+  "in_objective": "O4",
+  "out_objective": "O4",
+  "participants": [
+    "zora_blackwood"
+  ],
+  "dialog_edges": [
+    [
+      103,
+      104
+    ],
+    [
+      104,
+      105
+    ],
+    [
+      105,
+      106
+    ],
+    [
+      105,
+      107
+    ],
+    [
+      105,
+      108
+    ],
+    [
+      106,
+      127
+    ],
+    [
+      107,
+      109
+    ],
+    [
+      109,
+      110
+    ],
+    [
+      109,
+      112
+    ],
+    [
+      109,
+      113
+    ],
+    [
+      110,
+      114
+    ],
+    [
+      114,
+      109
+    ],
+    [
+      112,
+      116
+    ],
+    [
+      116,
+      109
+    ],
+    [
+      113,
+      477
+    ],
+    [
+      477,
+      478
+    ],
+    [
+      477,
+      108
+    ],
+    [
+      478,
+      127
+    ],
+    [
+      108,
+      117
+    ],
+    [
+      117,
+      539
+    ],
+    [
+      117,
+      118
+    ],
+    [
+      117,
+      120
+    ],
+    [
+      117,
+      212
+    ],
+    [
+      117,
+      214
+    ],
+    [
+      539,
+      127
+    ],
+    [
+      118,
+      121
+    ],
+    [
+      121,
+      211
+    ],
+    [
+      211,
+      117
+    ],
+    [
+      120,
+      125
+    ],
+    [
+      125,
+      117
+    ],
+    [
+      212,
+      122
+    ],
+    [
+      214,
+      215
+    ],
+    [
+      215,
+      122
+    ]
+  ],
+  "dialog": [
+    {
+      "id": 103,
+      "speaker_guid": "ac9307ba-1ad4-4577-9f68-b0ff8cbc2740",
+      "speaker": "Zora (Female)",
+      "utterance": "Captain. We should chat.",
+      "support_knowledge": [
+        "O4_B1"
+      ]
+    },
+    {
+      "id": 104,
+      "speaker_guid": "ac9307ba-1ad4-4577-9f68-b0ff8cbc2740",
+      "speaker": "Zora (Female)",
+      "utterance": "Graham's got the right idea, but he isn't the right guy to execute it. I don't even think he's motivated by Philosophism anymore. I think he's just... guilt-ridden.",
+      "support_knowledge": [
+        "O4_B1",
+        "O4_B2",
+        "graham_bryant_01",
+        "graham_bryant_13",
+        "graham_bryant_15",
+        "graham_bryant_20",
+        "iconoclasts_23"
+      ]
+    },
+    {
+      "id": 105,
+      "speaker_guid": "ac9307ba-1ad4-4577-9f68-b0ff8cbc2740",
+      "speaker": "Zora (Female)",
+      "utterance": "I... can't believe I'm even saying this, but... I keep going over and over it in my head, and the only way I see the Iconoclasts surviving is... we depose him.",
+      "support_knowledge": [
+        "O4_B2",
+        "graham_bryant_01",
+        "graham_bryant_18",
+        "graham_bryant_18",
+        "graham_bryant_20",
+        "iconoclasts_22",
+        "iconoclasts_23"
+      ]
+    },
+    {
+      "id": 106,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I'm with you there. Let's go talk to him.",
+      "support_knowledge": [
+        "O4_B3",
+        "zora_blackwood_13",
+        "iconoclasts_22"
+      ]
+    },
+    {
+      "id": 107,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "And you'd run it in his stead?",
+      "support_knowledge": [
+        "O4_B2",
+        "graham_bryant_20",
+        "zora_blackwood_02"
+      ]
+    },
+    {
+      "id": 108,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I'm not going against Graham.",
+      "support_knowledge": [
+        "iconoclasts_22"
+      ]
+    },
+    {
+      "id": 127,
+      "speaker_guid": "ac9307ba-1ad4-4577-9f68-b0ff8cbc2740",
+      "speaker": "Zora (Female)",
+      "utterance": "Okay. Deep breaths. This is what's best, Zora. Time to save Monarch.",
+      "support_knowledge": [
+        "O4_B3",
+        "iconoclasts_22"
+      ]
+    },
+    {
+      "id": 109,
+      "speaker_guid": "ac9307ba-1ad4-4577-9f68-b0ff8cbc2740",
+      "speaker": "Zora (Female)",
+      "utterance": "Yeah. Hell, most of our people listen to me already.",
+      "support_knowledge": [
+        "O4_B2",
+        "graham_bryant_20",
+        "zora_blackwood_02",
+        "iconoclasts_10",
+        "iconoclasts_12"
+      ]
+    },
+    {
+      "id": 110,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "The Iconoclasts may take your orders, but most of them believe in him and his teachings.",
+      "support_knowledge": [
+        "graham_bryant_01",
+        "iconoclasts_08",
+        "iconoclasts_09"
+      ]
+    },
+    {
+      "id": 112,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "And what's next? What will you do when you're in charge?",
+      "support_knowledge": [
+        "O4_B2"
+      ]
+    },
+    {
+      "id": 113,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Fair enough.",
+      "support_knowledge": []
+    },
+    {
+      "id": 114,
+      "speaker_guid": "ac9307ba-1ad4-4577-9f68-b0ff8cbc2740",
+      "speaker": "Zora (Female)",
+      "utterance": "Sometimes, you gotta do what's best for someone even if they think you're wrong. Even if it's painful. When we're in Stellar Bay... they'll come around.",
+      "support_knowledge": [
+        "zora_blackwood_13",
+        "iconoclasts_07",
+        "stellar_bay_02"
+      ]
+    },
+    {
+      "id": 116,
+      "speaker_guid": "ac9307ba-1ad4-4577-9f68-b0ff8cbc2740",
+      "speaker": "Zora (Female)",
+      "utterance": "Take Stellar Bay. Lick our wounds. Eventually figure out how the hell we're going to spread the word to the rest of the colony.",
+      "support_knowledge": [
+        "zora_blackwood_13",
+        "iconoclasts_07",
+        "stellar_bay_02"
+      ]
+    },
+    {
+      "id": 477,
+      "speaker_guid": "ac9307ba-1ad4-4577-9f68-b0ff8cbc2740",
+      "speaker": "Zora (Female)",
+      "utterance": "I'm going to confront him. Can I count on your support?",
+      "support_knowledge": [
+        "O4_B2"
+      ]
+    },
+    {
+      "id": 478,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Yes. Let's go talk to him.",
+      "support_knowledge": [
+        "O4_B3",
+        "zora_blackwood_13",
+        "iconoclasts_22"
+      ]
+    },
+    {
+      "id": 117,
+      "speaker_guid": "ac9307ba-1ad4-4577-9f68-b0ff8cbc2740",
+      "speaker": "Zora (Female)",
+      "utterance": "It has to happen!",
+      "support_knowledge": [
+        "graham_bryant_20"
+      ]
+    },
+    {
+      "id": 539,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Fine. If you really think it's necessary.",
+      "support_knowledge": [
+        "O4_B3",
+        "zora_blackwood_13",
+        "iconoclasts_22"
+      ]
+    },
+    {
+      "id": 118,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Amber Heights was a long time ago. He's changed.",
+      "support_knowledge": [
+        "graham_bryant_09",
+        "graham_bryant_07",
+        "graham_bryant_21"
+      ]
+    },
+    {
+      "id": 120,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Graham's free to do what he thinks is right. Isn't that what this is all about?",
+      "support_knowledge": [
+        "iconoclasts_08",
+        "iconoclasts_09"
+      ]
+    },
+    {
+      "id": 212,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I'm going to need some time to decide.",
+      "support_knowledge": []
+    },
+    {
+      "id": 214,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I'm not doing this, Zora.",
+      "support_knowledge": []
+    },
+    {
+      "id": 121,
+      "speaker_guid": "ac9307ba-1ad4-4577-9f68-b0ff8cbc2740",
+      "speaker": "Zora (Female)",
+      "utterance": "For the worse. I get him now. His guilt is so heavy that he's seeking absolution through Philosophism. It's become an obsession.",
+      "support_knowledge": [
+        "graham_bryant_13",
+        "graham_bryant_15",
+        "graham_bryant_17",
+        "graham_bryant_18",
+        "graham_bryant_18",
+        "graham_bryant_20",
+        "iconoclasts_23"
+      ]
+    },
+    {
+      "id": 211,
+      "speaker_guid": "ac9307ba-1ad4-4577-9f68-b0ff8cbc2740",
+      "speaker": "Zora (Female)",
+      "utterance": "But it isn't going to come. And in the meantime, our people need a real leader.",
+      "support_knowledge": [
+        "O4_B2"
+      ]
+    },
+    {
+      "id": 125,
+      "speaker_guid": "ac9307ba-1ad4-4577-9f68-b0ff8cbc2740",
+      "speaker": "Zora (Female)",
+      "utterance": "You're right. And he's right. Don't get me wrong, Captain. I still believe in the message. The Iconoclast way is strong. But... right now, that's not enough.",
+      "support_knowledge": [
+        "O4_B2",
+        "iconoclasts_05"
+      ]
+    },
+    {
+      "id": 122,
+      "speaker_guid": "ac9307ba-1ad4-4577-9f68-b0ff8cbc2740",
+      "speaker": "Zora (Female)",
+      "utterance": "I get it. This is a tough decision. I won't act without you, but we're out of time. Once you give us that targeting module, I gotta prepare to march.",
+      "support_knowledge": [
+        "O2_S1",
+        "iconoclasts_22"
+      ]
+    },
+    {
+      "id": 215,
+      "speaker_guid": "ac9307ba-1ad4-4577-9f68-b0ff8cbc2740",
+      "speaker": "Zora (Female)",
+      "utterance": "Dammit, Captain. I thought you and I were starting to see eye to eye.",
+      "support_knowledge": []
+    }
+  ]
+}

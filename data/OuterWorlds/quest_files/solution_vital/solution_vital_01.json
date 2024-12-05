@@ -1,0 +1,468 @@
+{
+  "id": "solution_vital_01",
+  "quest_name": "solution_vital",
+  "conversation": {
+    "filename": "01_cv_dorsett_wanda",
+    "start_node": 1,
+    "end_nodes": [],
+    "force_include": [
+      3,
+      2,
+      82,
+      15,
+      16
+    ],
+    "force_sequence": []
+  },
+  "in_objective": "O1",
+  "out_objective": "O2",
+  "participants": [
+    "wanda_dorsett"
+  ],
+  "objectives": {
+    "O1": {
+      "summary": "Talk to Dr. Wanda Dorsett in the Sick Bay",
+      "description": {
+        "S1": "Corporal Wheeler at Groundbreaker customs asked you to update Dr. Dorsett in sick bay with the status of her shipment."
+      },
+      "blurb": {
+        "B1": "She can be found at Sick Bay in the Groundbreaker"
+      }
+    },
+    "O2": {
+      "summary": "Find Captain Irion on Scylla",
+      "description": {
+        "S1": "Dr. Dorsett said that Captain Irion is most likely somewhere on Scylla.",
+        "S2": "Go find him and make sure he is okay."
+      },
+      "blurb": {
+        "B1": "the objective is to head to Scylla and rescue Captain Irion from the Outlaws there.",
+        "B2": "Speak with him once they are dead,",
+        "B3": "and he will update this quest"
+      }
+    }
+  },
+  "dialog": [
+    {
+      "id": 1,
+      "speaker_guid": "ce023342-d841-492e-9898-a98420e11825",
+      "speaker": "WandaDorsett (Female)",
+      "utterance": "Can't say I've seen you before. I take it you're a freighter captain?",
+      "support_knowledge": []
+    },
+    {
+      "id": 3,
+      "speaker_guid": "ce023342-d841-492e-9898-a98420e11825",
+      "speaker": "WandaDorsett (Female)",
+      "utterance": "If you're here to better yourself, you'll have to wait. We're having a spot of trouble with our delivery service.",
+      "support_knowledge": [
+        "O0_S1",
+        "O0_S2"
+      ]
+    },
+    {
+      "id": 2,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Wheeler told me to tell you to get off his ass about your shipment.",
+      "support_knowledge": [
+        "O0_B5",
+        "O1_S1"
+      ]
+    },
+    {
+      "id": 82,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Wheeler says your shipment won't be coming in soon.",
+      "support_knowledge": [
+        "O0_B5",
+        "O1_S1"
+      ]
+    },
+    {
+      "id": 10,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "What's going on?",
+      "support_knowledge": []
+    },
+    {
+      "id": 38,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "\"Better myself?\" Isn't this the medbay?",
+      "support_knowledge": []
+    },
+    {
+      "id": 83,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I'll be on my way.",
+      "support_knowledge": []
+    },
+    {
+      "id": 4,
+      "speaker_guid": "ce023342-d841-492e-9898-a98420e11825",
+      "speaker": "WandaDorsett (Female)",
+      "utterance": "Did he, now? The mouth on that man, I swear - his late mother'd be ashamed.",
+      "support_knowledge": []
+    },
+    {
+      "id": 14,
+      "speaker_guid": "ce023342-d841-492e-9898-a98420e11825",
+      "speaker": "WandaDorsett (Female)",
+      "utterance": "He must be referring to Irion. I'm sure the fool's gotten himself into another scrape.",
+      "support_knowledge": [
+        "captain_irion_01"
+      ]
+    },
+    {
+      "id": 58,
+      "speaker_guid": "ce023342-d841-492e-9898-a98420e11825",
+      "speaker": "WandaDorsett (Female)",
+      "utterance": "I'm beginning to wonder if I'm ever going to get my service mechanicals at this rate.",
+      "support_knowledge": [
+        "O0_S2"
+      ]
+    },
+    {
+      "id": 15,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I could try to find him.",
+      "support_knowledge": []
+    },
+    {
+      "id": 16,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Who's Irion?",
+      "support_knowledge": [
+        "captain_irion_02"
+      ]
+    },
+    {
+      "id": 57,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "What do you need mechanicals for?",
+      "support_knowledge": []
+    },
+    {
+      "id": 18,
+      "speaker_guid": "ce023342-d841-492e-9898-a98420e11825",
+      "speaker": "WandaDorsett (Female)",
+      "utterance": "I'd be grateful if you'd spare the time. We need his delivery soon as yesterday.",
+      "support_knowledge": []
+    },
+    {
+      "id": 33,
+      "speaker_guid": "ce023342-d841-492e-9898-a98420e11825",
+      "speaker": "WandaDorsett (Female)",
+      "utterance": "Last he told me, he was taking a 'shortcut' by Scylla, an asteroid in the Charybdis Cluster. That's where I'd start, were I the adventuring type.",
+      "support_knowledge": [
+        "O2_S1",
+        "scylla_01"
+      ]
+    },
+    {
+      "id": 44,
+      "speaker_guid": "ce023342-d841-492e-9898-a98420e11825",
+      "speaker": "WandaDorsett (Female)",
+      "utterance": "You look out, though. The place is probably crawling with outlaws.",
+      "support_knowledge": [
+        "outlaws_01"
+      ]
+    },
+    {
+      "id": 36,
+      "speaker_guid": "ce023342-d841-492e-9898-a98420e11825",
+      "speaker": "WandaDorsett (Female)",
+      "utterance": "Our delivery man.",
+      "support_knowledge": []
+    },
+    {
+      "id": 32,
+      "speaker_guid": "ce023342-d841-492e-9898-a98420e11825",
+      "speaker": "WandaDorsett (Female)",
+      "utterance": "A brave idiot with a penchant for getting himself delayed... sometimes by dates, usually by bandits.",
+      "support_knowledge": [
+        "captain_irion_01"
+      ]
+    },
+    {
+      "id": 59,
+      "speaker_guid": "ce023342-d841-492e-9898-a98420e11825",
+      "speaker": "WandaDorsett (Female)",
+      "utterance": "Surgery, mostly. Medical personnel are difficult to come by on Groundbreaker.",
+      "support_knowledge": [
+        "wanda_dorsett_02",
+        "wanda_dorsett_03",
+        "wanda_dorsett_04"
+      ]
+    },
+    {
+      "id": 61,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Why's that?",
+      "support_knowledge": []
+    },
+    {
+      "id": 62,
+      "speaker_guid": "ce023342-d841-492e-9898-a98420e11825",
+      "speaker": "WandaDorsett (Female)",
+      "utterance": "The Board won't let their doctors and nurses station here, and they own all the medical schools. If we can't hire their people, we can't hire anyone.",
+      "support_knowledge": []
+    },
+    {
+      "id": 63,
+      "speaker_guid": "ce023342-d841-492e-9898-a98420e11825",
+      "speaker": "WandaDorsett (Female)",
+      "utterance": "Everyone on staff here on Groundbreaker was trained by me or Idris. We're good, don't get me wrong, but we've only two heads between us, and we don't know everything.",
+      "support_knowledge": [
+        "wanda_dorsett_02",
+        "wanda_dorsett_03",
+        "wanda_dorsett_04"
+      ]
+    },
+    {
+      "id": 11,
+      "speaker_guid": "ce023342-d841-492e-9898-a98420e11825",
+      "speaker": "WandaDorsett (Female)",
+      "utterance": "I'm expecting our delivery fellow to stop through with medical supplies and service automechanicals. Name's Captain Irion.",
+      "support_knowledge": [
+        "O0_S2",
+        "captain_irion_02"
+      ]
+    },
+    {
+      "id": 39,
+      "speaker_guid": "ce023342-d841-492e-9898-a98420e11825",
+      "speaker": "WandaDorsett (Female)",
+      "utterance": "Sure is. You need a deft hand to straighten a busted nose or sparkle up those not so pearly whites, I'm your gal.",
+      "support_knowledge": []
+    },
+    {
+      "id": 41,
+      "speaker_guid": "ce023342-d841-492e-9898-a98420e11825",
+      "speaker": "WandaDorsett (Female)",
+      "utterance": "'Course, there's not much cosmetic improvement going on at the moment, not without my mechanicals. Where the Law is Irion, anyway?",
+      "support_knowledge": [
+        "captain_irion_02"
+      ]
+    },
+    {
+      "id": 49,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "You do cosmetic surgery on this rickety space station? Really?",
+      "support_knowledge": []
+    },
+    {
+      "id": 47,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Whoever he is, he's not my problem.",
+      "support_knowledge": []
+    },
+    {
+      "id": 50,
+      "speaker_guid": "ce023342-d841-492e-9898-a98420e11825",
+      "speaker": "WandaDorsett (Female)",
+      "utterance": "Sure. How do you think we keep this pile of junk in the sky? It costs bits, and a little prettying up brings in a fair few of 'em.",
+      "support_knowledge": [
+        "wanda_dorsett_05"
+      ]
+    },
+    {
+      "id": 51,
+      "speaker_guid": "ce023342-d841-492e-9898-a98420e11825",
+      "speaker": "WandaDorsett (Female)",
+      "utterance": "Or it would, if I had my danged mechanicals.",
+      "support_knowledge": []
+    },
+    {
+      "id": 48,
+      "speaker_guid": "ce023342-d841-492e-9898-a98420e11825",
+      "speaker": "WandaDorsett (Female)",
+      "utterance": "You have yourself a day, then.",
+      "support_knowledge": []
+    }
+  ],
+  "dialog_edges": [
+    [
+      1,
+      3
+    ],
+    [
+      3,
+      2
+    ],
+    [
+      3,
+      82
+    ],
+    [
+      3,
+      10
+    ],
+    [
+      3,
+      38
+    ],
+    [
+      3,
+      83
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      4,
+      14
+    ],
+    [
+      14,
+      58
+    ],
+    [
+      58,
+      15
+    ],
+    [
+      58,
+      16
+    ],
+    [
+      58,
+      57
+    ],
+    [
+      58,
+      83
+    ],
+    [
+      15,
+      18
+    ],
+    [
+      18,
+      33
+    ],
+    [
+      33,
+      44
+    ],
+    [
+      16,
+      36
+    ],
+    [
+      36,
+      32
+    ],
+    [
+      32,
+      15
+    ],
+    [
+      32,
+      16
+    ],
+    [
+      32,
+      57
+    ],
+    [
+      32,
+      83
+    ],
+    [
+      57,
+      59
+    ],
+    [
+      59,
+      61
+    ],
+    [
+      59,
+      58
+    ],
+    [
+      61,
+      62
+    ],
+    [
+      62,
+      63
+    ],
+    [
+      63,
+      58
+    ],
+    [
+      82,
+      14
+    ],
+    [
+      10,
+      11
+    ],
+    [
+      11,
+      32
+    ],
+    [
+      38,
+      39
+    ],
+    [
+      39,
+      41
+    ],
+    [
+      41,
+      2
+    ],
+    [
+      41,
+      49
+    ],
+    [
+      41,
+      10
+    ],
+    [
+      41,
+      47
+    ],
+    [
+      41,
+      83
+    ],
+    [
+      49,
+      50
+    ],
+    [
+      50,
+      51
+    ],
+    [
+      51,
+      2
+    ],
+    [
+      51,
+      10
+    ],
+    [
+      47,
+      48
+    ]
+  ]
+}

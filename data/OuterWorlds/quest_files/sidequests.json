@@ -1,0 +1,278 @@
+{
+  "quests": [
+    {
+      "name": "a_family_matter",
+      "location": "monarch",
+      "fandom_url": "https://theouterworlds.fandom.com/wiki/A_Family_Matter",
+      "fextralife_url": "https://theouterworlds.wiki.fextralife.com/A+Family+Matter"
+    },
+    {
+      "name": "bolt_with_his_name",
+      "location": "monarch",
+      "fandom_url": "https://theouterworlds.fandom.com/wiki/BOLT_With_His_Name",
+      "fextralife_url": "https://theouterworlds.wiki.fextralife.com/BOLT+with+His+Name"
+    },
+    {
+      "name": "errors_unseen",
+      "location": "monarch",
+      "fandom_url": "https://theouterworlds.fandom.com/wiki/Errors_Unseen",
+      "fextralife_url": "https://theouterworlds.wiki.fextralife.com/Errors+Unseen",
+      "guid": "DBAFFD33-38eb-4236-8986-6554564e690b"
+    },
+    {
+      "name": "the_commuter",
+      "location": "monarch",
+      "fandom_url": "https://theouterworlds.fandom.com/wiki/The_Commuter",
+      "fextralife_url": "https://theouterworlds.wiki.fextralife.com/The+Commuter",
+      "guid": "UNK"
+    },
+    {
+      "name": "pay_for_the_printer",
+      "location": "monarch",
+      "fandom_url": "https://theouterworlds.fandom.com/wiki/Pay_for_the_Printer",
+      "fextralife_url": "https://theouterworlds.wiki.fextralife.com/Pay+for+the+Printer",
+      "guid": "UNK"
+    },
+    {
+      "name": "sucker_bait",
+      "location": "monarch",
+      "fandom_url": "https://theouterworlds.fandom.com/wiki/Sucker_Bait",
+      "fextralife_url": "https://theouterworlds.wiki.fextralife.com/Sucker+Bait",
+      "guid": "UNK"
+    },
+    {
+      "name": "canids_cradle",
+      "location": "monarch",
+      "fandom_url": "https://theouterworlds.fandom.com/wiki/Canid%27s_Cradle",
+      "fextralife_url": "https://theouterworlds.wiki.fextralife.com/Canid's+Cradle"
+    },
+    {
+      "name": "herricks_handiwork",
+      "location": "monarch",
+      "fandom_url": "https://theouterworlds.fandom.com/wiki/Herrick's_Handiwork",
+      "fextralife_url": "https://theouterworlds.wiki.fextralife.com/Herrick's+Handiwork"
+    },
+    {
+      "name": "the_secret_people",
+      "location": "monarch",
+      "fandom_url": "https://theouterworlds.fandom.com/wiki/The_Secret_People",
+      "fextralife_url": "https://theouterworlds.wiki.fextralife.com/The+Secret+People"
+    },
+    {
+      "name": "passion_pills",
+      "location": "monarch",
+      "fandom_url": "https://theouterworlds.fandom.com/wiki/Passion_Pills",
+      "fextralife_url": "https://theouterworlds.wiki.fextralife.com/Passion+Pills"
+    },
+    {
+      "name": "the_grimm_tomorrow",
+      "location": "monarch",
+      "fandom_url": "https://theouterworlds.fandom.com/wiki/The_Grimm_Tomorrow",
+      "fextralife_url": "https://theouterworlds.wiki.fextralife.com/The+Grimm+Tomorrow"
+    },
+    {
+      "name": "the_stainless_steel_rat",
+      "location": "monarch",
+      "fandom_url": "https://theouterworlds.fandom.com/wiki/The_Stainless_Steel_Rat",
+      "fextralife_url": "https://theouterworlds.wiki.fextralife.com/The+Stainless+Steel+Rat"
+    },
+    {
+      "name": "flowers_for_sebastian",
+      "location": "monarch",
+      "fandom_url": "https://theouterworlds.fandom.com/wiki/Flowers_for_Sebastian",
+      "fextralife_url": "https://theouterworlds.wiki.fextralife.com/Flowers+for+Sebastian"
+    },
+    {
+      "name": "mr_picketts_biggest_game",
+      "location": "monarch",
+      "fandom_url": "https://theouterworlds.fandom.com/wiki/Mr._Pickett%27s_Biggest_Game",
+      "fextralife_url": "https://theouterworlds.wiki.fextralife.com/Mr.+Pickett's+Biggest+Game"
+    },
+    {
+      "name": "mandibles_of_doom",
+      "location": "monarch",
+      "fandom_url": "https://theouterworlds.fandom.com/wiki/Mandibles_of_Doom",
+      "fextralife_url": "https://theouterworlds.wiki.fextralife.com/Mandibles+of+Doom"
+    },
+    {
+      "name": "little_memento",
+      "location": "monarch",
+      "fandom_url": "https://theouterworlds.fandom.com/wiki/Little_Memento",
+      "fextralife_url": "https://theouterworlds.wiki.fextralife.com/Little+Memento"
+    },
+    {
+      "name": "odd_jobs",
+      "location": "monarch",
+      "fandom_url": "https://theouterworlds.fandom.com/wiki/Odd_Job",
+      "fextralife_url": "shttps://theouterworlds.wiki.fextralife.com/Odd+Jobs"
+    },
+    {
+      "name": "slaughterhouse_clive",
+      "location": "monarch",
+      "fandom_url": "https://theouterworlds.fandom.com/wiki/Slaughterhouse_Clive",
+      "fextralife_url": "https://theouterworlds.wiki.fextralife.com/Slaughterhouse+Clive"
+    },
+    {
+      "name": "spratkings",
+      "location": "monarch",
+      "fandom_url": "https://theouterworlds.fandom.com/wiki/Spratkings",
+      "fextralife_url": "https://theouterworlds.wiki.fextralife.com/Spratkings"
+    },
+    {
+      "name": "a_cysty-dance_with_death",
+      "location": "monarch",
+      "fandom_url": "https://theouterworlds.fandom.com/wiki/A_Cysty-Dance_with_Death",
+      "fextralife_url": "https://theouterworlds.wiki.fextralife.com/A+Cysty-Dance+with+Death"
+    },
+    {
+      "name": "the_long_tomorrow",
+      "location": "edgewater",
+      "fandom_url": "https://theouterworlds.fandom.com/wiki/The_Long_Tomorrow",
+      "fextralife_url": "https://theouterworlds.wiki.fextralife.com/The+Long+Tomorrow"
+    },
+    {
+      "name": "a_small_grave_matter",
+      "location": "edgewater",
+      "fandom_url": "https://theouterworlds.fandom.com/wiki/A_Small_Grave_Matter",
+      "fextralife_url": "https://theouterworlds.wiki.fextralife.com/A+Small+Grave+Matter"
+    },
+    {
+      "name": "die_robot",
+      "location": "edgewater",
+      "fandom_url": "https://theouterworlds.fandom.com/wiki/Die,_Robot",
+      "fextralife_url": "https://theouterworlds.wiki.fextralife.com/Die,+Robot"
+    },
+    {
+      "name": "the_distress_signal",
+      "location": "roseway",
+      "fandom_url": "https://theouterworlds.fandom.com/wiki/The_Distress_Signal",
+      "fextralife_url": "https://theouterworlds.wiki.fextralife.com/The+Distress+Signal"
+    },
+    {
+      "name": "the_doom_that_came_to_roseway",
+      "location": "roseway",
+      "fandom_url": "https://theouterworlds.fandom.com/wiki/The_Doom_That_Came_to_Roseway",
+      "fextralife_url": "https://theouterworlds.wiki.fextralife.com/The+Doom+that+Came+to+Roseway"
+    },
+    {
+      "name": "by_his_bootstraps",
+      "location": "roseway",
+      "fandom_url": "https://theouterworlds.fandom.com/wiki/By_His_Bootstraps",
+      "fextralife_url": "https://theouterworlds.wiki.fextralife.com/By+His+Bootstraps"
+    },
+    {
+      "name": "vulcans_hammer",
+      "location": "roseway",
+      "fandom_url": "https://theouterworlds.fandom.com/wiki/Vulcan%27s_Hammer",
+      "fextralife_url": "https://theouterworlds.wiki.fextralife.com/Vulcan's+Hammer"
+    },
+    {
+      "name": "the_amateur_alchemist",
+      "location": "roseway",
+      "fandom_url": "https://theouterworlds.fandom.com/wiki/The_Amateur_Alchemist",
+      "fextralife_url": "https://theouterworlds.wiki.fextralife.com/The+Amateur+Alchemist"
+    },
+    {
+      "name": "journey_into_smoke",
+      "location": "roseway",
+      "fandom_url": "https://theouterworlds.fandom.com/wiki/Journey_Into_Smoke",
+      "fextralife_url": "https://theouterworlds.wiki.fextralife.com/Journey+Into+Smoke"
+    },
+    {
+      "name": "a_few_kindred_spirits",
+      "location": "emerald_vale",
+      "fandom_url": "https://theouterworlds.fandom.com/wiki/A_Few_Kindred_Spirits",
+      "fextralife_url": "https://theouterworlds.wiki.fextralife.com/A+Few+Kindred+Spirits"
+    },
+    {
+      "name": "the_frightened_engineer",
+      "location": "emerald_vale",
+      "fandom_url": "https://theouterworlds.fandom.com/wiki/The_Frightened_Engineer",
+      "fextralife_url": "https://theouterworlds.wiki.fextralife.com/The+Frightened+Engineer"
+    },
+    {
+      "name": "fistful_of_digits",
+      "location": "emerald_vale",
+      "fandom_url": "https://theouterworlds.fandom.com/wiki/Fistful_of_Digits",
+      "fextralife_url": "https://theouterworlds.wiki.fextralife.com/Fistful+of+Digits"
+    },
+    {
+      "name": "happiness_is_a_warm_spaceship",
+      "location": "groundbreaker",
+      "fandom_url": "https://theouterworlds.fandom.com/wiki/Happiness_is_a_Warm_Spaceship",
+      "fextralife_url": "https://theouterworlds.wiki.fextralife.com/Happiness+is+a+Warm+Spaceship"
+    },
+    {
+      "name": "the_silent_voices",
+      "location": "groundbreaker",
+      "fandom_url": "https://theouterworlds.fandom.com/wiki/QUESTNAME_URL",
+      "fextralife_url": "https://theouterworlds.wiki.fextralife.com/The+Silent+Voices"
+    },
+    {
+      "name": "solution_vital",
+      "location": "groundbreaker",
+      "fandom_url": "https://theouterworlds.fandom.com/wiki/Solution_Vital",
+      "fextralife_url": "https://theouterworlds.wiki.fextralife.com/Solution+Vital"
+    },
+    {
+      "name": "who_goes_there",
+      "location": "groundbreaker",
+      "fandom_url": "https://theouterworlds.fandom.com/wiki/Who_Goes_There%3F",
+      "fextralife_url": "https://theouterworlds.wiki.fextralife.com/Who+Goes+There?"
+    },
+    {
+      "name": "space-crime_continuum",
+      "location": "groundbreaker",
+      "fandom_url": "https://theouterworlds.fandom.com/wiki/Space-Crime_Continuum",
+      "fextralife_url": "https://theouterworlds.wiki.fextralife.com/Space-Crime+Continuum"
+    },
+    {
+      "name": "the_ice_palace",
+      "location": "groundbreaker",
+      "fandom_url": "https://theouterworlds.fandom.com/wiki/The_Ice_Palace",
+      "fextralife_url": "https://theouterworlds.wiki.fextralife.com/The+Ice+Palace"
+    },
+    {
+      "name": "the_chimerists_last_experiment",
+      "location": "groundbreaker",
+      "fandom_url": "https://theouterworlds.fandom.com/wiki/The_Chimerist%27s_Last_Experiment",
+      "fextralife_url": "https://theouterworlds.wiki.fextralife.com/The+Chimerist's+Last+Experiment"
+    },
+    {
+      "name": "at_central",
+      "location": "byzantium",
+      "fandom_url": "https://theouterworlds.fandom.com/wiki/QUESTNAME_URL",
+      "fextralife_url": "https://theouterworlds.wiki.fextralife.com/At+Central"
+    },
+    {
+      "name": "why_call_them_back_from_retirement",
+      "location": "byzantium",
+      "fandom_url": "https://theouterworlds.fandom.com/wiki/Why_Call_Them_Back_From_Retirement%3F",
+      "fextralife_url": "https://theouterworlds.wiki.fextralife.com/Why+Call+Them+Back+From+Retirement"
+    },
+    {
+      "name": "makes_space_suits_wont_travel",
+      "location": "byzantium",
+      "fandom_url": "https://theouterworlds.fandom.com/wiki/Makes_Space_Suits,_Won%27t_Travel",
+      "fextralife_url": "https://theouterworlds.wiki.fextralife.com/Makes+Space+Suits,+Won't+Travel"
+    },
+    {
+      "name": "the_lying_earth",
+      "location": "byzantium",
+      "fandom_url": "https://theouterworlds.fandom.com/wiki/The_Lying_Earth",
+      "fextralife_url": "https://theouterworlds.wiki.fextralife.com/The+Lying+Earth"
+    },
+    {
+      "name": "cupid_of_the_laboratory",
+      "location": "byzantium",
+      "fandom_url": "https://theouterworlds.fandom.com/wiki/Cupid_of_the_Laboratory",
+      "fextralife_url": "https://theouterworlds.wiki.fextralife.com/Cupid+of+the+Laboratory"
+    },
+    {
+      "name": "all_halcyon_in_a_day",
+      "location": "byzantium",
+      "fandom_url": "https://theouterworlds.fandom.com/wiki/All_Halcyon_in_a_Day",
+      "fextralife_url": "https://theouterworlds.wiki.fextralife.com/All+Halcyon+in+a+Day"
+    }
+  ]
+}

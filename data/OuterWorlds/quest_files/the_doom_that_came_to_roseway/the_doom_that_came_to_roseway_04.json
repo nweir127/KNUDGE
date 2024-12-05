@@ -1,0 +1,520 @@
+{
+  "id": "the_doom_that_came_to_roseway_04",
+  "quest_name": "the_doom_that_came_to_roseway",
+  "conversation": {
+    "filename": "08_cv_cleo_porter",
+    "start_node": 283,
+    "end_nodes": [],
+    "force_include": [
+      167
+    ],
+    "force_sequence": []
+  },
+  "in_objective": "O4",
+  "out_objective": "O5",
+  "participants": [
+    "porter"
+  ],
+  "objectives": {
+    "O4": {
+      "summary": "Create an Escape Route",
+      "description": {
+        "S1": "You've agreed to help open up an escape route for Cassandra.",
+        "S2": "You'll need to find a keycard to unlock her pen gate and clear out either the Auntie Cleo security forces near the front entrance or the raptidons infesting the loading dock.",
+        "S3": "The keycard can be printed from the security console terminal."
+      },
+      "blurb": {
+        "B1": "If you help her, go back to Porter and use Persuade (45) to tell him they are standing down.",
+        "B2": "You can tell him that you'll put in a good word for him and he'll pull out,",
+        "B3": "you'll gain Covert Lab Security Keycard and 3333xp"
+      }
+    },
+    "O5": {
+      "summary": "Release Cassandra",
+      "description": {
+        "S1": "You found the needed keycard and opened up a route out of the lab for Cassandra.",
+        "S2": "Unlock her door and inform her of her available escape routes."
+      },
+      "blurb": {
+        "B1": "Talk to her after opening the door and Lie (30), Intimidate (51) or Persuade (21) to get her to give you the research (2000xp).",
+        "B2": "Tell her you didn't save her for free and obtain 1200 Bit Cartridge.",
+        "B3": "You can Persuade or Intimidate (both 31) to get her to give you a further 625 Bit Cartridge."
+      }
+    }
+  },
+  "dialog": [
+    {
+      "id": 283,
+      "speaker_guid": "457e9243-edd4-4f1d-a550-a65d5c61d567",
+      "speaker": "Porter (Male)",
+      "utterance": "You must think me a fool. I was watching on the security cameras. You got downright friendly with the outlaw leader.",
+      "support_knowledge": [
+        "O4_S1"
+      ]
+    },
+    {
+      "id": 1,
+      "speaker_guid": "457e9243-edd4-4f1d-a550-a65d5c61d567",
+      "speaker": "Porter (Male)",
+      "utterance": "I reckon we got nothing to say to each other. You best back yourself outta here. Nice and slow.",
+      "support_knowledge": []
+    },
+    {
+      "id": 162,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Ease off the trigger. Hear me out.",
+      "support_knowledge": [
+        "cassandra_omalley_12"
+      ]
+    },
+    {
+      "id": 163,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Nobody needs to die here. Least of all me.",
+      "support_knowledge": [
+        "cassandra_omalley_12"
+      ]
+    },
+    {
+      "id": 161,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "You sure you want to take me on?",
+      "support_knowledge": []
+    },
+    {
+      "id": 165,
+      "speaker_guid": "457e9243-edd4-4f1d-a550-a65d5c61d567",
+      "speaker": "Porter (Male)",
+      "utterance": "You got one minute. Starting now.",
+      "support_knowledge": []
+    },
+    {
+      "id": 167,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I convinced Cassandra to let you leave in peace. The lab's a wreck. The staff's half-dead.",
+      "support_knowledge": [
+        "O4_B1",
+        "cassandra_omalley_12"
+      ]
+    },
+    {
+      "id": 199,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "The outlaws just want to leave. Let them go.",
+      "support_knowledge": [
+        "O4_B1",
+        "cassandra_omalley_12"
+      ]
+    },
+    {
+      "id": 173,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "<Attack> Fine. We'll do this the hard way.",
+      "support_knowledge": []
+    },
+    {
+      "id": 481,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Never mind. I'm leaving.",
+      "support_knowledge": []
+    },
+    {
+      "id": 170,
+      "speaker_guid": "457e9243-edd4-4f1d-a550-a65d5c61d567",
+      "speaker": "Porter (Male)",
+      "utterance": "You convinced *her* to let *us* leave in peace? Listing the ills we been done ain't exactly putting me in a mind to compromise.",
+      "support_knowledge": [
+        "O4_B1"
+      ]
+    },
+    {
+      "id": 174,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Look around. Hasn't there been enough death?",
+      "support_knowledge": []
+    },
+    {
+      "id": 175,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I can't change what's done. I can change what happens from here. Just walk out.",
+      "support_knowledge": []
+    },
+    {
+      "id": 176,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "You did your job. Probably better than anybody expected you to.",
+      "support_knowledge": []
+    },
+    {
+      "id": 178,
+      "speaker_guid": "457e9243-edd4-4f1d-a550-a65d5c61d567",
+      "speaker": "Porter (Male)",
+      "utterance": "I gotta believe that all we done will mean something to the company. To Doc Crane. That effort'll make up for mistakes.",
+      "support_knowledge": []
+    },
+    {
+      "id": 177,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "This isn't a cause worth dying for. You're meant for better.",
+      "support_knowledge": []
+    },
+    {
+      "id": 183,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "You think the company cares about you? Or do they care about their lab? Their research?",
+      "support_knowledge": []
+    },
+    {
+      "id": 185,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Cassandra can't win. You can't win. Why throw more lives away?",
+      "support_knowledge": []
+    },
+    {
+      "id": 276,
+      "speaker_guid": "457e9243-edd4-4f1d-a550-a65d5c61d567",
+      "speaker": "Porter (Male)",
+      "utterance": "I trust that we all end up where we're supposed to be. That all the variables come together in the end.",
+      "support_knowledge": []
+    },
+    {
+      "id": 486,
+      "speaker_guid": "457e9243-edd4-4f1d-a550-a65d5c61d567",
+      "speaker": "Porter (Male)",
+      "utterance": "I reckon I don't see any better solution. Fine, damn it. We'll pull out.",
+      "support_knowledge": [
+        "O4_B1"
+      ]
+    },
+    {
+      "id": 275,
+      "speaker_guid": "457e9243-edd4-4f1d-a550-a65d5c61d567",
+      "speaker": "Porter (Male)",
+      "utterance": "I've  worked for Auntie Cleo eighteen years. Done my best for them. Always expected they'd do right by us in turn.",
+      "support_knowledge": []
+    },
+    {
+      "id": 188,
+      "speaker_guid": "457e9243-edd4-4f1d-a550-a65d5c61d567",
+      "speaker": "Porter (Male)",
+      "utterance": "I let them walk, Doc Crane'll be so far up my ass, everything will smell of flop sweat.",
+      "support_knowledge": []
+    },
+    {
+      "id": 179,
+      "speaker_guid": "457e9243-edd4-4f1d-a550-a65d5c61d567",
+      "speaker": "Porter (Male)",
+      "utterance": "Think it's that easy, huh? You fly in with your fancy ship, say a few words, and everyone gets a happy ending?",
+      "support_knowledge": []
+    },
+    {
+      "id": 191,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I think it can be easy, if you decide to let it be.",
+      "support_knowledge": [
+        "O4_B1"
+      ]
+    },
+    {
+      "id": 192,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I don't think walking away from a fight's ever easy.",
+      "support_knowledge": [
+        "O4_B1"
+      ]
+    },
+    {
+      "id": 271,
+      "speaker_guid": "457e9243-edd4-4f1d-a550-a65d5c61d567",
+      "speaker": "Porter (Male)",
+      "utterance": "You ever had a good thing? A place it felt like you were supposed to be? I had that here.",
+      "support_knowledge": []
+    },
+    {
+      "id": 266,
+      "speaker_guid": "457e9243-edd4-4f1d-a550-a65d5c61d567",
+      "speaker": "Porter (Male)",
+      "utterance": "I'm gonna guess you don't do it that often.",
+      "support_knowledge": []
+    },
+    {
+      "id": 180,
+      "speaker_guid": "457e9243-edd4-4f1d-a550-a65d5c61d567",
+      "speaker": "Porter (Male)",
+      "utterance": "Don't reckon the company's gonna see it that way.",
+      "support_knowledge": []
+    },
+    {
+      "id": 181,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "They aren't here. I'll say you fought like hell.",
+      "support_knowledge": [
+        "O4_B2"
+      ]
+    },
+    {
+      "id": 182,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Think about the people in this room. They're your responsibility.",
+      "support_knowledge": []
+    },
+    {
+      "id": 464,
+      "speaker_guid": "457e9243-edd4-4f1d-a550-a65d5c61d567",
+      "speaker": "Porter (Male)",
+      "utterance": "Don't know how much that'll help, but I appreciate it.",
+      "support_knowledge": [
+        "O4_B2"
+      ]
+    },
+    {
+      "id": 187,
+      "speaker_guid": "457e9243-edd4-4f1d-a550-a65d5c61d567",
+      "speaker": "Porter (Male)",
+      "utterance": "Think I don't know my own responsibilities, mister?",
+      "support_knowledge": []
+    },
+    {
+      "id": 201,
+      "speaker_guid": "457e9243-edd4-4f1d-a550-a65d5c61d567",
+      "speaker": "Porter (Male)",
+      "utterance": "Tell your friends there's just two ways outta here. A cell or a box.",
+      "support_knowledge": []
+    },
+    {
+      "id": 164,
+      "speaker_guid": "457e9243-edd4-4f1d-a550-a65d5c61d567",
+      "speaker": "Porter (Male)",
+      "utterance": "I ain't seeing a compelling reason to not blow your head off.",
+      "support_knowledge": []
+    },
+    {
+      "id": 166,
+      "speaker_guid": "457e9243-edd4-4f1d-a550-a65d5c61d567",
+      "speaker": "Porter (Male)",
+      "utterance": "I don't want to take anyone on today. I'm just doing my damn job.",
+      "support_knowledge": [
+        "O4_B1"
+      ]
+    }
+  ],
+  "dialog_edges": [
+    [
+      283,
+      1
+    ],
+    [
+      1,
+      162
+    ],
+    [
+      1,
+      163
+    ],
+    [
+      1,
+      161
+    ],
+    [
+      162,
+      165
+    ],
+    [
+      165,
+      167
+    ],
+    [
+      165,
+      199
+    ],
+    [
+      165,
+      173
+    ],
+    [
+      165,
+      481
+    ],
+    [
+      167,
+      170
+    ],
+    [
+      170,
+      174
+    ],
+    [
+      170,
+      175
+    ],
+    [
+      170,
+      176
+    ],
+    [
+      174,
+      178
+    ],
+    [
+      178,
+      177
+    ],
+    [
+      178,
+      183
+    ],
+    [
+      178,
+      185
+    ],
+    [
+      177,
+      276
+    ],
+    [
+      276,
+      486
+    ],
+    [
+      183,
+      275
+    ],
+    [
+      275,
+      486
+    ],
+    [
+      185,
+      188
+    ],
+    [
+      188,
+      486
+    ],
+    [
+      175,
+      179
+    ],
+    [
+      179,
+      191
+    ],
+    [
+      179,
+      192
+    ],
+    [
+      179,
+      185
+    ],
+    [
+      191,
+      271
+    ],
+    [
+      271,
+      486
+    ],
+    [
+      192,
+      266
+    ],
+    [
+      266,
+      486
+    ],
+    [
+      176,
+      180
+    ],
+    [
+      180,
+      181
+    ],
+    [
+      180,
+      182
+    ],
+    [
+      180,
+      185
+    ],
+    [
+      181,
+      464
+    ],
+    [
+      464,
+      486
+    ],
+    [
+      182,
+      187
+    ],
+    [
+      187,
+      486
+    ],
+    [
+      199,
+      201
+    ],
+    [
+      163,
+      164
+    ],
+    [
+      164,
+      167
+    ],
+    [
+      164,
+      199
+    ],
+    [
+      164,
+      173
+    ],
+    [
+      164,
+      481
+    ],
+    [
+      161,
+      166
+    ],
+    [
+      166,
+      167
+    ],
+    [
+      166,
+      199
+    ],
+    [
+      166,
+      173
+    ],
+    [
+      166,
+      481
+    ]
+  ]
+}

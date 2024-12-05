@@ -1,0 +1,126 @@
+ID	fact
+OBJECTIVE O0	
+O0_S1	201:70
+O0_B1	Speaking to Junlei Tennyson about why the ship seems extraordinarily warm will reveal that Groundbreaker's radiators need replacement parts to prevent them from continuing to dump super-heated air onto the ship.
+O0_B2	Junlei has been unable to get new parts as the Board is refusing to part with any for a fair price.
+O0_B3	Offering to assist with the situation will start the quest.
+O0_B4	Junlei will tell the Stranger that spare radiator parts can likely be found in the ship's Back Bays -
+O0_B5	an abandoned area on a lower deck which is now inhabited by crazed outlaws.
+O0_B6	She asks the Stranger to retrieve the parts by whatever means is necessary,
+O0_B7	but preferably without violence.
+O0_B8	If asked, she will also explain that she previously sent an engineer with a small security detail to retrieve the parts,
+O0_B9	but they did not return.
+OBJECTIVE O1	
+O1_S1	303:92
+O1_S2	396:92
+O1_B1	Travel to the Back Bays using the elevator directly opposite Engineering.
+O1_B2	Upon entering the Back Bays,
+O1_B3	the Stranger will be confronted by Captain MacRedd,
+O1_B4	"a crazed outlaw leader and self-proclaimed ""king""."
+O1_B5	There are some options available,
+O1_B6	each of which will allow the Stranger to pass through the Back Bays and retrieve the parts:
+O1_B7	Attack and kill MacRedd and his outlaws.
+O1_B8	With Persuade 40 or Intimidate 40, MacRedd will ask for tribute in exchange for the parts.
+O1_B9	Lie 40 can be used to lie about the parts leaking deadly toxins,
+O1_B10	or he can be bribed with 630 bits.
+O1_B11	With Felix in your party MacRedd will only need to be bribed.
+O1_B12	The spare parts are located on the upper level of the Back Bays.
+OBJECTIVE O2	
+O2_S1	622:77
+O2_B1	Return to Junlei to move on to the next step of repairing the radiators.
+O2_B2	Junlei asks the Stranger to take the elevator at the back of Engineering down to the machinery shaft and activate the terminal they find there.
+O2_B3	She warns them of a mantipillar infestation and advises that they go armed.
+OBJECTIVE O3	
+O3_S1	717:100
+O3_S2	818:27
+O3_B1	Travel to the machinery shaft.
+O3_B2	It is populated with mantipillars and hostile automechanicals which must either be defeated or sneaked around to reach the required terminal.
+O3_B3	Activate the Fluid Circulation Pump Terminal and cycle the droplet pumps to fix the radiators and return the temperature on Groundbreaker to a more comfortable level.
+OBJECTIVE O4	
+O4_S1	862:87
+O4_B1	Return and speak to Junlei to complete the quest.
+back_bays	
+back_bays_01	Back Bays is a location in the lower levels of Groundbreaker.
+back_bays_02	MacRedd and his crew of outlaws have taken over the area.
+back_bays_03	The Back Bays is possibly a cargo holding area and/or repair bay for the Groundbreaker' automatons.
+back_bays_04	Around the area: A large supply of robot remains lie scatted about, and
+back_bays_05	the outlaws' mushroom farm
+groundbreaker	
+groundbreaker_01	UDL-001 The Groundbreaker or simply Groundbreaker was the first colony ship to arrive in Halcyon during the Crossing.
+groundbreaker_02	By 2355, it has been converted into an independent orbital station,
+groundbreaker_03	and is the only place in the entire Halcyon system that is not controlled by the Halcyon Holdings Corporate Board or any other corporation.
+groundbreaker_04	The crew of the Groundbreaker is fiercely protective of their independence from the corporations,
+groundbreaker_05	and the corporations value the station's role as a thriving freeport enough that they are willing to deal with it on relatively equal terms.
+groundbreaker_06	In practical terms, while the Groundbreaker rules itself,
+groundbreaker_07	it cooperates with the corporations to an extent,
+groundbreaker_08	such as by impounding ships that the Board happens to flag.
+groundbreaker_09	The Groundbreaker is commanded by engineer-turned-captain Junlei Tennyson.
+groundbreaker_10	Udom Bedford is the Halcyon Holdings Corporation representative stationed aboard.
+groundbreaker_11	According to Junlei, lots of corners were cut when the ship was built,
+groundbreaker_12	prompting Captain Guiying Tennyson to spend half of her career attempting to patch the ship back together after the Crossing from Earth to Halcyon.
+groundbreaker_13	In addition, the ship has tinkerings and bypasses that only the Tennysons know about.
+groundbreaker_14	The Groundbreaker maintains a somewhat tense relationship with the Board,
+groundbreaker_15	owing to their declared independence from Board authority,
+groundbreaker_16	as well as their control of shipping routes outward from the Halcyon System.
+groundbreaker_17	Nonetheless, given that Groundbreaker lacks any semblance of military might against the Board beyond the mardets stationed aboard the ship,
+groundbreaker_18	the loose hierarchy in charge of the Groundbreaker often seeks to find (illicit) ways of delaying, stymieing, or pitting corporations under the Board's thumb against each other,
+groundbreaker_19	usually through black market fences like Gladys Culkelly.
+groundbreaker_20	Nonetheless, the Board maintains an embassy aboard the Groundbreaker run by bureaucrat Udom Bedford.
+groundbreaker_21	Depending on the actions of the Stranger, the Groundbreaker's crew may be compelled to rebel against the Board's system-wide authority.
+groundbreaker_22	The Groundbreaker is generally neutral to Sublight Salvage and Shipping Corporation,
+groundbreaker_23	and allows them to operate an office and warehouse aboard the ship, helmed by Lilya Hagen.
+gunnar_macredd	
+gunnar_macredd_01	Captain Gunnar MacRedd is a known criminal and leader of a group of outlaws found in the Back Bays of Groundbreaker.
+gunnar_macredd_02	"MacRedd is a pyromaniac with a criminal record which includes ""several counts of flying under the influence,"
+gunnar_macredd_03	carrying open alcoholic containers,
+gunnar_macredd_04	failure to pay docking fees,
+gunnar_macredd_05	resisting arrest,
+gunnar_macredd_06	"and assaulting not one but two officers."""
+gunnar_macredd_07	"He has a lighter which he claims was given to him by Commandant Sanita a few years back when the two had a ""carnal understanding""."
+gunnar_macredd_08	"However, Sanita claims that this understanding only consisted of her ""kick[ing] his ass from one end of the Groundbreaker to the other""."
+junlei_tennyson	
+junlei_tennyson_01	Junlei Tennyson is a self described engineer-turned-captain and is the leader of Groundbreaker,
+junlei_tennyson_02	the only community in Halcyon operating outside The Board's control.
+junlei_tennyson_03	She harbours a strong dislike for the Board due to their continued attempts to exert control over Groundbreaker,
+junlei_tennyson_04	and because she believes they are only after two things—bits and power—which they get by sticking their nose where it doesn't belong.
+junlei_tennyson_05	She considers the Mardets, crew, and engineers of Groundbreaker to be family.
+junlei_tennyson_06	Junlei Tennyson is the third generation of Tennyson leadership aboard Groundbreaker,
+junlei_tennyson_07	recently promoted from chief engineer to captain after the death of her mother.
+junlei_tennyson_08	She was close to her mother but frequently argued with her father over how Groundbreaker should be run.
+junlei_tennyson_09	Junlei was previously in a relationship with a woman named Isabelle who tried and failed to earn the approval of Junlei's father.
+junlei_tennyson_10	They continued seeing each other anyway,
+junlei_tennyson_11	but the relationship eventually ended poorly.
+junlei_tennyson_12	Junlei can be found in her office in Groundbreaker Engineering.
+junlei_tennyson_13	She introduces herself to the Stranger as captain of Groundbreaker,
+junlei_tennyson_14	and notes that her friends call her Chief.
+junlei_tennyson_15	The explanation she gives for the formal introduction is that Groundbreaker doesn't see many visitors.
+junlei_tennyson_16	Junlei then goes on to make it clear that she has the final say on the ship,
+junlei_tennyson_17	and welcomes the Stranger on board as they seem to be different to the usual outsiders who are mostly 'Board spies and corporate sprats'.
+junlei_tennyson_18	If the player asks Junlei about the heat problem on Groundbreaker,
+junlei_tennyson_19	they can offer to help her obtain new radiator parts.
+junlei_tennyson_20	After the radiator parts are installed,
+junlei_tennyson_21	more dialogue options become available to ask her about herself and Groundbreaker.
+junlei_tennyson_22	She will also direct the player to Edna Ingmire to help her with a comms issue,
+junlei_tennyson_23	and inform the player that they are now authorized to trade with Doctor Mfuru.
+junlei_tennyson_24	Junlei will appear on the Unreliable if the player helps to set up a date between her and Parvati.
+junlei_tennyson_25	When interacted with, she thanks them for welcoming her aboard the ship.
+mantipillar	
+mantipillar_01	Mantipillar is a creature in The Outer Worlds.
+mantipillar_02	A mantipillar spits plasma balls that burn its victims.
+mantipillar_03	Mantipillars are native to Monarch.
+radiator_parts	
+radiator_parts_01	Salvaged from old machinery in Groundbreaker's Back Bays,
+radiator_parts_02	these parts are vital to repairing the station's radiators.
+radiator_parts_03	Without these parts the station will continue to overheat,
+radiator_parts_04	eventually reaching critical temperatures.
+radiator_parts_05	The spare parts are located on the upper level of the Back Bays.
+the_board	
+the_board_01	The Halcyon Holdings Corporate Board, also simply known as The Board,
+the_board_02	institutes policy and law throughout the Halcyon Colony.
+the_board_03	The details surrounding the board's founding remain largely unknown,
+the_board_04	though its activities suggest that it was originally founded some seventy-odd years ago, give or take.
+the_board_05	In that time, it has managed to terraform Terra I
+the_board_06	(a catastrophic failure due to mutations rendering the wildlife overwhelmingly hostile to human life).
+the_board_07	The Board maintains a very tense relationship with MSI, owing to MSI's democratic ideals and their declared ownership of Monarch.
+the_board_08	As a result, the Board has placed Monarch, and by extension, MSI, under the Hazard Clause, which forbids off-world businesses from doing transactions on Monarch without the correct (and deliberately impossible to complete) documents.
+the_board_09	Depending on the actions of the Stranger, MSI may be compelled to rebel against the Board's authoritarianism.

@@ -1,0 +1,66 @@
+{
+  "id": "pay_for_the_printer_02",
+  "quest_name": "pay_for_the_printer",
+  "conversation": {
+    "filename": "0403_cv_may_van_noy",
+    "start_node": 4,
+    "end_nodes": [],
+    "force_include": [
+      8
+    ]
+  },
+  "in_objective": "O3",
+  "out_objective": "O4",
+  "participants": [
+    "may_van_noy"
+  ],
+  "dialog_edges": [
+    [
+      4,
+      8
+    ],
+    [
+      4,
+      123
+    ],
+    [
+      8,
+      113
+    ]
+  ],
+  "dialog": [
+    {
+      "id": 4,
+      "speaker_guid": "aeddaed7-992d-4374-93b7-3e2ef7fe4a6c",
+      "speaker": "MayVanNoy (Female)",
+      "utterance": "Any luck out there?",
+      "support_knowledge": []
+    },
+    {
+      "id": 8,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I found your trauma kit. Your medic is dead.",
+      "support_knowledge": [
+        "O3_B1",
+        "terra_one_publications_05"
+      ]
+    },
+    {
+      "id": 123,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Not yet.",
+      "support_knowledge": []
+    },
+    {
+      "id": 113,
+      "speaker_guid": "aeddaed7-992d-4374-93b7-3e2ef7fe4a6c",
+      "speaker": "MayVanNoy (Female)",
+      "utterance": "Oh, fuck. Well... that's better than nothing. Thanks. We'll head out soon as we're patched up.",
+      "support_knowledge": [
+        "O3_B2"
+      ]
+    }
+  ]
+}

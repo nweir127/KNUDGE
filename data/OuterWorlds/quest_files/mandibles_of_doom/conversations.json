@@ -1,0 +1,64 @@
+[
+  {
+    "id": "mandibles_of_doom_00",
+    "quest_name": "mandibles_of_doom",
+    "conversation": {
+      "filename": "0401_cv_donald",
+      "start_node": 38,
+      "end_nodes": [
+        144,
+        26
+      ],
+      "force_include": [
+        28,
+        31,
+        35
+      ],
+      "force_sequence": [
+        [
+          30,
+          31
+        ]
+      ]
+    },
+    "in_objective": "O0",
+    "out_objective": "O1",
+    "participants": [
+      "donald_anderson",
+      "lance"
+    ]
+  },
+  {
+    "id": "mandibles_of_doom_01",
+    "quest_name": "mandibles_of_doom",
+    "conversation": {
+      "filename": "0401_cv_berthold",
+      "start_node": 2,
+      "end_nodes": [],
+      "force_include": [
+        5
+      ],
+      "force_sequence": []
+    },
+    "in_objective": "O2",
+    "out_objective": "O3",
+    "participants": [
+      "berthold_fox"
+    ]
+  },
+  {
+    "id": "mandibles_of_doom_02",
+    "quest_name": "mandibles_of_doom",
+    "conversation": {
+      "filename": "0401_cv_berthold",
+      "start_node": 9,
+      "end_nodes": [],
+      "force_include": [],
+      "force_sequence": []
+    },
+    "in_objective": "O3",
+    "participants": [
+      "berthold_fox"
+    ]
+  }
+]

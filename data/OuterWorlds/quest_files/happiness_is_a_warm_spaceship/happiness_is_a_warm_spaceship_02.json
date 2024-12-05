@@ -1,0 +1,218 @@
+{
+  "id": "happiness_is_a_warm_spaceship_02",
+  "quest_name": "happiness_is_a_warm_spaceship",
+  "conversation": {
+    "filename": "01_cv_tennyson_junlei_new",
+    "start_node": 563,
+    "end_nodes": [
+      692,
+      770
+    ],
+    "force_include": [
+      32
+    ],
+    "force_sequence": []
+  },
+  "in_objective": "O2",
+  "out_objective": "O3",
+  "participants": [
+    "junlei_tennyson"
+  ],
+  "objectives": {
+    "O2": {
+      "summary": "Talk to Junlei about the Parts",
+      "description": {
+        "S1": "Go talk to Junlei to figure out what to do with the radiator parts you found."
+      },
+      "blurb": {
+        "B1": "Return to Junlei to move on to the next step of repairing the radiators.",
+        "B2": "Junlei asks the Stranger to take the elevator at the back of Engineering down to the machinery shaft and activate the terminal they find there.",
+        "B3": "She warns them of a mantipillar infestation and advises that they go armed."
+      }
+    },
+    "O3": {
+      "summary": "Fix the Radiators",
+      "description": {
+        "S1": "Junlei told you to enter the maintenance shaft and help her install the new parts for the radiators.",
+        "S2": "She warned you to go armed."
+      },
+      "blurb": {
+        "B1": "Travel to the machinery shaft.",
+        "B2": "It is populated with mantipillars and hostile automechanicals which must either be defeated or sneaked around to reach the required terminal.",
+        "B3": "Activate the Fluid Circulation Pump Terminal and cycle the droplet pumps to fix the radiators and return the temperature on Groundbreaker to a more comfortable level."
+      }
+    }
+  },
+  "dialog": [
+    {
+      "id": 563,
+      "speaker_guid": "ad470aeb-75cf-4136-b950-a971370a0f70",
+      "speaker": "JunleiTennyson (Female)",
+      "utterance": "You've returned - and in one piece. Color me impressed.",
+      "support_knowledge": [
+        "O2_B1"
+      ]
+    },
+    {
+      "id": 25,
+      "speaker_guid": "ad470aeb-75cf-4136-b950-a971370a0f70",
+      "speaker": "JunleiTennyson (Female)",
+      "utterance": "Captain. What can I do for you?",
+      "support_knowledge": []
+    },
+    {
+      "id": 32,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I got the parts for the radiators. What now?",
+      "support_knowledge": [
+        "O2_B1"
+      ]
+    },
+    {
+      "id": 594,
+      "speaker_guid": "ad470aeb-75cf-4136-b950-a971370a0f70",
+      "speaker": "JunleiTennyson (Female)",
+      "utterance": "Good work.",
+      "support_knowledge": []
+    },
+    {
+      "id": 33,
+      "speaker_guid": "ad470aeb-75cf-4136-b950-a971370a0f70",
+      "speaker": "JunleiTennyson (Female)",
+      "utterance": "I'll take those. I need you to head through the large door at the far end of engineering. Take the elevator down into the machinery shaft.",
+      "support_knowledge": [
+        "O2_B2"
+      ]
+    },
+    {
+      "id": 34,
+      "speaker_guid": "ad470aeb-75cf-4136-b950-a971370a0f70",
+      "speaker": "JunleiTennyson (Female)",
+      "utterance": "There's a terminal in the back. Activate it when I call over the ship's PA. And bring weapons. There's a slight mantipillar infestation.",
+      "support_knowledge": [
+        "O2_B3",
+        "mantipillar_01"
+      ]
+    },
+    {
+      "id": 36,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I'll make my way down there.",
+      "support_knowledge": []
+    },
+    {
+      "id": 239,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Define \"slight.\"",
+      "support_knowledge": []
+    },
+    {
+      "id": 35,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I got your parts, why do I have to go to some maintenance shaft?",
+      "support_knowledge": [
+        "O2_B2"
+      ]
+    },
+    {
+      "id": 243,
+      "speaker_guid": "ad470aeb-75cf-4136-b950-a971370a0f70",
+      "speaker": "JunleiTennyson (Female)",
+      "utterance": "More than a few. Less than a hive. Nothing you can't handle.",
+      "support_knowledge": [
+        "O2_B3",
+        "mantipillar_01"
+      ]
+    },
+    {
+      "id": 244,
+      "speaker_guid": "ad470aeb-75cf-4136-b950-a971370a0f70",
+      "speaker": "JunleiTennyson (Female)",
+      "utterance": "We were salvaging parts from a ship. Turned out there were eggs inside. They got into the radiators, and here we are.",
+      "support_knowledge": [
+        "O2_B3",
+        "mantipillar_01"
+      ]
+    },
+    {
+      "id": 37,
+      "speaker_guid": "ad470aeb-75cf-4136-b950-a971370a0f70",
+      "speaker": "JunleiTennyson (Female)",
+      "utterance": "If every repair was a one-woman job, I wouldn't need an engineering team. As it is, my staff is busy keeping the station from melting down.",
+      "support_knowledge": [
+        "O2_B2"
+      ]
+    },
+    {
+      "id": 236,
+      "speaker_guid": "ad470aeb-75cf-4136-b950-a971370a0f70",
+      "speaker": "JunleiTennyson (Female)",
+      "utterance": "You can flip a switch for me, but you can't install these parts. Not quickly at least. Not on the first try. Able though you've proven to be.",
+      "support_knowledge": [
+        "O2_B2"
+      ]
+    }
+  ],
+  "dialog_edges": [
+    [
+      563,
+      25
+    ],
+    [
+      25,
+      32
+    ],
+    [
+      32,
+      594
+    ],
+    [
+      594,
+      33
+    ],
+    [
+      33,
+      34
+    ],
+    [
+      34,
+      36
+    ],
+    [
+      34,
+      239
+    ],
+    [
+      34,
+      35
+    ],
+    [
+      239,
+      243
+    ],
+    [
+      243,
+      244
+    ],
+    [
+      244,
+      34
+    ],
+    [
+      35,
+      37
+    ],
+    [
+      37,
+      236
+    ],
+    [
+      236,
+      34
+    ]
+  ]
+}

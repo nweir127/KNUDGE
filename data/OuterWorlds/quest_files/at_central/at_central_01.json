@@ -1,0 +1,166 @@
+{
+  "id": "at_central_01",
+  "quest_name": "at_central",
+  "conversation": {
+    "filename": "0202_cv_maverick_intercom",
+    "start_node": 1,
+    "end_nodes": [],
+    "force_include": [],
+    "force_sequence": []
+  },
+  "in_objective": "O1",
+  "out_objective": "O2",
+  "participants": [
+    "maverick_johnston"
+  ],
+  "objectives": {
+    "O1": {
+      "summary": "Attend the Audition",
+      "description": {
+        "S1": "Maverick said the audition would be held on the top floor of the Odeon Pictures building."
+      },
+      "blurb": {
+        "B1": "Head to Odeon Pictures near the Bureau of Exploration in Byzantium,",
+        "B2": "and take the elevator up.",
+        "B3": "Use the intercom on the wall and speak to Maverick Johnston.",
+        "B4": "He'll tell you that the other actors have real weapons,",
+        "B5": "and you'll gain 9000 XP and the quest will update."
+      }
+    },
+    "O2": {
+      "summary": "Break a Leg!",
+      "description": {
+        "S1": "Enter the soundstage and put on a show."
+      },
+      "blurb": {
+        "B1": "Head inside the now open door and move to the quest marker to automatically initiate dialogue with the Actor",
+        "B2": "at the end of the scene,",
+        "B3": "you can <Attack> and kill all of the actors,",
+        "B4": "or you can choose any other option to end the scene peacefully.",
+        "B5": "Either way you'll gain 9000 XP and Maverick will want to speak to you."
+      }
+    }
+  },
+  "dialog": [
+    {
+      "id": 1,
+      "speaker_guid": "abe8fd8f-51de-41d2-a5e8-22590f65efed",
+      "speaker": "MaverickIntercom (Male)",
+      "utterance": "Great, you made it! Listen, I know you're expecting a script, but you're the real deal. Just go in there and do what feels natural!",
+      "support_knowledge": [
+        "O1_B3"
+      ]
+    },
+    {
+      "id": 14,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Got it.",
+      "support_knowledge": []
+    },
+    {
+      "id": 15,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "What's that supposed to mean?",
+      "support_knowledge": []
+    },
+    {
+      "id": 2,
+      "speaker_guid": "abe8fd8f-51de-41d2-a5e8-22590f65efed",
+      "speaker": "MaverickIntercom (Male)",
+      "utterance": "We gave the other actors real weapons to keep things authentic. And 'cause Joch is paying to see their logo on the big screen.",
+      "support_knowledge": [
+        "O1_B4"
+      ]
+    },
+    {
+      "id": 19,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I can work with that.",
+      "support_knowledge": []
+    },
+    {
+      "id": 20,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I don't think that's a good idea.",
+      "support_knowledge": []
+    },
+    {
+      "id": 21,
+      "speaker_guid": "abe8fd8f-51de-41d2-a5e8-22590f65efed",
+      "speaker": "MaverickIntercom (Male)",
+      "utterance": "See, I knew you'd get it. ",
+      "support_knowledge": []
+    },
+    {
+      "id": 3,
+      "speaker_guid": "abe8fd8f-51de-41d2-a5e8-22590f65efed",
+      "speaker": "MaverickIntercom (Male)",
+      "utterance": "Now go in there, find your mark, and show us what you got!",
+      "support_knowledge": []
+    },
+    {
+      "id": 22,
+      "speaker_guid": "abe8fd8f-51de-41d2-a5e8-22590f65efed",
+      "speaker": "MaverickIntercom (Male)",
+      "utterance": "Don't think, kid. Just act.",
+      "support_knowledge": []
+    },
+    {
+      "id": 18,
+      "speaker_guid": "abe8fd8f-51de-41d2-a5e8-22590f65efed",
+      "speaker": "MaverickIntercom (Male)",
+      "utterance": "No, no, no, don't question yourself! Just feel the scene and go with it. I got a feeling you'll know what to do.",
+      "support_knowledge": []
+    }
+  ],
+  "dialog_edges": [
+    [
+      1,
+      14
+    ],
+    [
+      1,
+      15
+    ],
+    [
+      14,
+      2
+    ],
+    [
+      2,
+      19
+    ],
+    [
+      2,
+      20
+    ],
+    [
+      19,
+      21
+    ],
+    [
+      21,
+      3
+    ],
+    [
+      20,
+      22
+    ],
+    [
+      22,
+      3
+    ],
+    [
+      15,
+      18
+    ],
+    [
+      18,
+      2
+    ]
+  ]
+}

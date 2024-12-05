@@ -1,0 +1,38 @@
+[
+  {
+    "id": "odd_jobs_00",
+    "quest_name": "odd_jobs",
+    "conversation": {
+      "filename": "0403_bronson_vendor",
+      "start_node": 14,
+      "end_nodes": [
+        15
+      ],
+      "force_include": [
+        48,
+        8
+      ],
+      "force_sequence": []
+    },
+    "in_objective": "O0",
+    "out_objective": "O1",
+    "participants": [
+      "bronson"
+    ]
+  },
+  {
+    "id": "odd_jobs_01",
+    "quest_name": "odd_jobs",
+    "conversation": {
+      "filename": "0403_bronson_vendor",
+      "start_node": 10,
+      "end_nodes": [],
+      "force_include": [],
+      "force_sequence": []
+    },
+    "in_objective": "O4",
+    "participants": [
+      "bronson"
+    ]
+  }
+]

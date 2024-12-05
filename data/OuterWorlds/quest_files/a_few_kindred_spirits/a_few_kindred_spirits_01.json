@@ -1,0 +1,334 @@
+{
+  "id": "a_few_kindred_spirits_01",
+  "quest_name": "a_few_kindred_spirits",
+  "conversation": {
+    "filename": "00_cv_stefan",
+    "start_node": 26,
+    "end_nodes": [],
+    "force_include": [
+      9,
+      20
+    ],
+    "force_sequence": []
+  },
+  "in_objective": "O1",
+  "out_objective": "O1",
+  "participants": [
+    "stefan_garcia"
+  ],
+  "objectives": {
+    "O1": {
+      "summary": "Search Zoe's Home for Clues.",
+      "description": {
+        "S1": "Grace doesn't know where Zoe might have gone.",
+        "S2": "She suggested checking the shack where Zoe beds down for any hints at where she might have gone."
+      },
+      "blurb": {
+        "B1": "Speaking with Stefan Garcia will not give any clues to Zoe's whereabouts.",
+        "B2": "However, Stefan will reveal that he and Zoe used to watch the serial, The Masked Marketeer, together",
+        "B3": "and that he was planning to surprise her with a genuine copy of the latest episode before she went missing.",
+        "B4": "He will also allude to her habit of writing things down on pieces of paper (\"journaling\"),",
+        "B5": "which he considers a bit odd.",
+        "B6": "Zoe's house is located in the southeast of the botanical labs.",
+        "B7": "Pages from her journal can be found inside and Page 22 will reveal that Zoe left the camp to join the marauders and become a bandit queen."
+      }
+    }
+  },
+  "dialog": [
+    {
+      "id": 26,
+      "speaker_guid": "978fb512-b660-48da-b292-6e2071943cb7",
+      "speaker": "StefanGarcia (Male)",
+      "utterance": "You hungry? We got canid ribs. Canid flank. Canid snout, too.",
+      "support_knowledge": [
+        "stefan_garcia_01"
+      ]
+    },
+    {
+      "id": 2,
+      "speaker_guid": "978fb512-b660-48da-b292-6e2071943cb7",
+      "speaker": "StefanGarcia (Male)",
+      "utterance": "Something I can help you with?",
+      "support_knowledge": []
+    },
+    {
+      "id": 9,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I'm told one of your number's gone missing.",
+      "support_knowledge": [
+        "O0_B3",
+        "stefan_garcia_02",
+        "stefan_garcia_03"
+      ]
+    },
+    {
+      "id": 31,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "What are you selling?",
+      "support_knowledge": [
+        "stefan_garcia_01"
+      ]
+    },
+    {
+      "id": 5,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "See you around.",
+      "support_knowledge": []
+    },
+    {
+      "id": 10,
+      "speaker_guid": "978fb512-b660-48da-b292-6e2071943cb7",
+      "speaker": "StefanGarcia (Male)",
+      "utterance": "You mean Zoe? Yeah, we were pretty close. Not like her to go loping off.",
+      "support_knowledge": [
+        "stefan_garcia_02",
+        "stefan_garcia_03"
+      ]
+    },
+    {
+      "id": 20,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "What was that about surprising Zoe?",
+      "support_knowledge": [
+        "O1_B3"
+      ]
+    },
+    {
+      "id": 13,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "What happened on the day Zoe disappeared?",
+      "support_knowledge": [
+        "O1_B3",
+        "stefan_garcia_06"
+      ]
+    },
+    {
+      "id": 17,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Tell me a little about Zoe.",
+      "support_knowledge": [
+        "stefan_garcia_06"
+      ]
+    },
+    {
+      "id": 14,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Was she acting strange before she disappeared?",
+      "support_knowledge": [
+        "O1_B4",
+        "O1_B5",
+        "stefan_garcia_05"
+      ]
+    },
+    {
+      "id": 15,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Hold on. There was something else.",
+      "support_knowledge": []
+    },
+    {
+      "id": 21,
+      "speaker_guid": "978fb512-b660-48da-b292-6e2071943cb7",
+      "speaker": "StefanGarcia (Male)",
+      "utterance": "The other day I got my hands on a genuine copy of the latest Masked Marketeer. I was gonna surprise Zoe with it, but she was gone the next day.",
+      "support_knowledge": [
+        "O1_B3"
+      ]
+    },
+    {
+      "id": 12,
+      "speaker_guid": "978fb512-b660-48da-b292-6e2071943cb7",
+      "speaker": "StefanGarcia (Male)",
+      "utterance": "Zoe and I were gonna watch the serials, as is our custom. She never turned up. I looked around, but she was nowhere to be found.",
+      "support_knowledge": [
+        "O1_B2",
+        "stefan_garcia_04"
+      ]
+    },
+    {
+      "id": 29,
+      "speaker_guid": "978fb512-b660-48da-b292-6e2071943cb7",
+      "speaker": "StefanGarcia (Male)",
+      "utterance": "You sound like some type of corporate fixer, asking all these questions.",
+      "support_knowledge": []
+    },
+    {
+      "id": 18,
+      "speaker_guid": "978fb512-b660-48da-b292-6e2071943cb7",
+      "speaker": "StefanGarcia (Male)",
+      "utterance": "Zoe was always obsessed with this serial. Masked Marketeer. A scion of Byzantium turns to banditry, and teaches his marauder companions the wisdom of free market economics.",
+      "support_knowledge": [
+        "O1_B2"
+      ]
+    },
+    {
+      "id": 19,
+      "speaker_guid": "978fb512-b660-48da-b292-6e2071943cb7",
+      "speaker": "StefanGarcia (Male)",
+      "utterance": "Shame she up and vanished when she did. I had a surprise lined up for her.",
+      "support_knowledge": [
+        "O1_B3"
+      ]
+    },
+    {
+      "id": 11,
+      "speaker_guid": "978fb512-b660-48da-b292-6e2071943cb7",
+      "speaker": "StefanGarcia (Male)",
+      "utterance": "Can't say I recall Zoe ever acting strange. Well, except for her habit of writing things down on scraps of paper. ",
+      "support_knowledge": [
+        "O1_B4",
+        "O1_B5",
+        "stefan_garcia_05"
+      ]
+    },
+    {
+      "id": 30,
+      "speaker_guid": "978fb512-b660-48da-b292-6e2071943cb7",
+      "speaker": "StefanGarcia (Male)",
+      "utterance": "She called it \"journaling,\" but I think it's just plain odd. ",
+      "support_knowledge": [
+        "O1_B4",
+        "O1_B5",
+        "stefan_garcia_05"
+      ]
+    },
+    {
+      "id": 16,
+      "speaker_guid": "978fb512-b660-48da-b292-6e2071943cb7",
+      "speaker": "StefanGarcia (Male)",
+      "utterance": "Hey, I got time.",
+      "support_knowledge": []
+    },
+    {
+      "id": 32,
+      "speaker_guid": "978fb512-b660-48da-b292-6e2071943cb7",
+      "speaker": "StefanGarcia (Male)",
+      "utterance": "Fresh off the limb! And that includes canid meat.",
+      "support_knowledge": [
+        "stefan_garcia_01"
+      ]
+    }
+  ],
+  "dialog_edges": [
+    [
+      26,
+      2
+    ],
+    [
+      2,
+      9
+    ],
+    [
+      2,
+      31
+    ],
+    [
+      2,
+      5
+    ],
+    [
+      9,
+      10
+    ],
+    [
+      10,
+      20
+    ],
+    [
+      10,
+      13
+    ],
+    [
+      10,
+      17
+    ],
+    [
+      10,
+      14
+    ],
+    [
+      10,
+      15
+    ],
+    [
+      10,
+      5
+    ],
+    [
+      20,
+      21
+    ],
+    [
+      21,
+      10
+    ],
+    [
+      13,
+      12
+    ],
+    [
+      12,
+      29
+    ],
+    [
+      12,
+      10
+    ],
+    [
+      29,
+      10
+    ],
+    [
+      17,
+      18
+    ],
+    [
+      18,
+      19
+    ],
+    [
+      19,
+      29
+    ],
+    [
+      19,
+      10
+    ],
+    [
+      14,
+      11
+    ],
+    [
+      11,
+      30
+    ],
+    [
+      30,
+      29
+    ],
+    [
+      30,
+      10
+    ],
+    [
+      15,
+      16
+    ],
+    [
+      16,
+      2
+    ],
+    [
+      31,
+      32
+    ]
+  ]
+}

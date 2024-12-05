@@ -1,0 +1,44 @@
+[
+  {
+    "id": "fearless_fergus_00",
+    "quest_name": "fearless_fergus",
+    "conversation": null,
+    "in_objective": "O0",
+    "out_objective": "O1",
+    "participants": [
+      "clara_ryan"
+    ]
+  },
+  {
+    "id": "fearless_fergus_01",
+    "quest_name": "fearless_fergus",
+    "conversation": null,
+    "in_objective": "O1",
+    "out_objective": "O2",
+    "participants": [
+      "celia_robbins"
+    ]
+  },
+  {
+    "id": "fearless_fergus_02",
+    "quest_name": "fearless_fergus",
+    "conversation": null,
+    "in_objective": "O2",
+    "out_objective": "O3",
+    "participants": [
+      "ebele"
+    ]
+  },
+  {
+    "id": "fearless_fergus_03",
+    "quest_name": "fearless_fergus",
+    "conversation": null,
+    "in_objective": [
+      "O4",
+      "O5"
+    ],
+    "participants": [
+      "clara_ryan"
+    ]
+  }
+]

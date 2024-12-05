@@ -1,0 +1,347 @@
+{
+  "id": "who_goes_there_00",
+  "quest_name": "who_goes_there",
+  "conversation": {
+    "filename": "01_cv_chawla_ellen_new",
+    "start_node": 1,
+    "end_nodes": [
+      107
+    ],
+    "force_include": [
+      134,
+      2,
+      105
+    ],
+    "force_sequence": [
+      [
+        134,
+        105
+      ]
+    ]
+  },
+  "in_objective": "O0",
+  "out_objective": "O1",
+  "participants": [
+    "commandant_sanita"
+  ],
+  "objectives": {
+    "O0": {
+      "description": {
+        "S1": "The Groundbreaker's Mardets have a bounty for a criminal on the run in the Groundbreaker's Back Bays.",
+        "S2": "You've agreed to hunt down the unlawful Captain Gunnar MacRedd.",
+        "S3": "Return his lighter to Commandant Sanita to claim the bounty."
+      },
+      "blurb": {
+        "B1": "This quest is obtained at Groundbreaker,",
+        "B2": "by speaking to Comdt. Sanita or perusing the bounty board"
+      }
+    },
+    "O1": {
+      "summary": "Hunt Down and Kill Captain McRedd",
+      "description": {
+        "S1": "Based on the bounty listing, Captain McRedd was last sighted in the Back Bays.",
+        "S2": "Head there and take him out."
+      },
+      "blurb": {
+        "B1": "You can find Captain MacRedd in the Back Bays area of the Groundbreaker.",
+        "B2": "To get there head down the elevator in the promenade,",
+        "B3": "and you can't miss him.",
+        "B4": "You can pass a Persuade (40) check to get him to put his gun down,",
+        "B5": "otherwise you'll have to kill him and all his guards.",
+        "B6": "If you kill him he drops the Unique Weapon: Montag.",
+        "B7": "You'll get 6000xp and MacRedd's Lighter.",
+        "B8": "If you persuaded him, use Perception to note it says \"Sanita\" on the lighter.",
+        "B9": "MacRedd will mention it was given to him by Sanita in remembrance of a 'carnal understanding' they had a few years back."
+      }
+    }
+  },
+  "dialog": [
+    {
+      "id": 1,
+      "speaker_guid": "c544de5c-8cc4-4bfe-a3a9-97346f35a957",
+      "speaker": "EllenChawla (Female)",
+      "utterance": "Unless you're here to file an incident report or to inquire about the bounty posting, I must kindly ask you to clear out. The Mardet's offices aren't for leisure time nor loitering.",
+      "support_knowledge": [
+        "O0_S1",
+        "mardets_01"
+      ]
+    },
+    {
+      "id": 134,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I'm interested in that MacRedd bounty. Where can I find him?",
+      "support_knowledge": [
+        "O0_S1",
+        "gunnar_macredd_01"
+      ]
+    },
+    {
+      "id": 2,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "What bounties do you have available?",
+      "support_knowledge": []
+    },
+    {
+      "id": 3,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "So what's it like, working security detail on a space station?",
+      "support_knowledge": [
+        "mardets_01"
+      ]
+    },
+    {
+      "id": 4,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I'll be on my way.",
+      "support_knowledge": []
+    },
+    {
+      "id": 7,
+      "speaker_guid": "c544de5c-8cc4-4bfe-a3a9-97346f35a957",
+      "speaker": "EllenChawla (Female)",
+      "utterance": "Last tip we got pointed toward the Back Bays. You want the reward? Do the legwork.",
+      "support_knowledge": [
+        "O1_S1",
+        "back_bays_01"
+      ]
+    },
+    {
+      "id": 11,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Why don't you send a Mardet to apprehend him?",
+      "support_knowledge": [
+        "mardets_01"
+      ]
+    },
+    {
+      "id": 10,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I'll think about it.",
+      "support_knowledge": []
+    },
+    {
+      "id": 12,
+      "speaker_guid": "c544de5c-8cc4-4bfe-a3a9-97346f35a957",
+      "speaker": "EllenChawla (Female)",
+      "utterance": "Oh, I will. Soon as the Chief approves the personnel re-org required for a bounty dispatch. So in about three to seven weeks.",
+      "support_knowledge": []
+    },
+    {
+      "id": 15,
+      "speaker_guid": "c544de5c-8cc4-4bfe-a3a9-97346f35a957",
+      "speaker": "EllenChawla (Female)",
+      "utterance": "Suit yourself. Not everyone's cut out for detective work and so forth. I understand.",
+      "support_knowledge": []
+    },
+    {
+      "id": 105,
+      "speaker_guid": "c544de5c-8cc4-4bfe-a3a9-97346f35a957",
+      "speaker": "EllenChawla (Female)",
+      "utterance": "Still waitin' to hear back on that bounty for MacRedd. That aside, not much else - Groundbreaker's keepin' calm at the moment.",
+      "support_knowledge": [
+        "O0_S1",
+        "gunnar_macredd_01"
+      ]
+    },
+    {
+      "id": 69,
+      "speaker_guid": "c544de5c-8cc4-4bfe-a3a9-97346f35a957",
+      "speaker": "EllenChawla (Female)",
+      "utterance": "Nothing excessive, mind you. But the scoundrel deserves a light beating at least before he kicks off.",
+      "support_knowledge": []
+    },
+    {
+      "id": 70,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Forget about the bounty for now. I want to talk with you about something else.",
+      "support_knowledge": []
+    },
+    {
+      "id": 19,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I'm working on it.",
+      "support_knowledge": []
+    },
+    {
+      "id": 71,
+      "speaker_guid": "c544de5c-8cc4-4bfe-a3a9-97346f35a957",
+      "speaker": "EllenChawla (Female)",
+      "utterance": "Have at it, then.",
+      "support_knowledge": []
+    },
+    {
+      "id": 5,
+      "speaker_guid": "c544de5c-8cc4-4bfe-a3a9-97346f35a957",
+      "speaker": "EllenChawla (Female)",
+      "utterance": "Do I look like your gossipy best friend? While I'm on post, I take my duties real serious. I would have no qualms whatsoever escorting you to a cell. Understand?",
+      "support_knowledge": [
+        "commandant_sanita_02"
+      ]
+    },
+    {
+      "id": 49,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Fine, fine.",
+      "support_knowledge": []
+    },
+    {
+      "id": 78,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Whoa, all right. Just trying to make conversation.",
+      "support_knowledge": []
+    },
+    {
+      "id": 80,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Hey! No one talks to me like that.",
+      "support_knowledge": []
+    },
+    {
+      "id": 51,
+      "speaker_guid": "c544de5c-8cc4-4bfe-a3a9-97346f35a957",
+      "speaker": "EllenChawla (Female)",
+      "utterance": "Then get to business or get moving.",
+      "support_knowledge": []
+    },
+    {
+      "id": 79,
+      "speaker_guid": "c544de5c-8cc4-4bfe-a3a9-97346f35a957",
+      "speaker": "EllenChawla (Female)",
+      "utterance": "I'm not here for a chat. Now get moving before I see you moved.",
+      "support_knowledge": [
+        "commandant_sanita_02"
+      ]
+    },
+    {
+      "id": 81,
+      "speaker_guid": "c544de5c-8cc4-4bfe-a3a9-97346f35a957",
+      "speaker": "EllenChawla (Female)",
+      "utterance": "Now, let's not start a fuss. I'm just trying to do my job, and I can't do it while chit-chatting with you.",
+      "support_knowledge": [
+        "commandant_sanita_02",
+        "commandant_sanita_04"
+      ]
+    }
+  ],
+  "dialog_edges": [
+    [
+      1,
+      134
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      1,
+      4
+    ],
+    [
+      134,
+      7
+    ],
+    [
+      7,
+      11
+    ],
+    [
+      7,
+      10
+    ],
+    [
+      11,
+      12
+    ],
+    [
+      12,
+      7
+    ],
+    [
+      10,
+      15
+    ],
+    [
+      2,
+      105
+    ],
+    [
+      105,
+      69
+    ],
+    [
+      105,
+      1
+    ],
+    [
+      69,
+      70
+    ],
+    [
+      69,
+      19
+    ],
+    [
+      70,
+      71
+    ],
+    [
+      71,
+      1
+    ],
+    [
+      3,
+      5
+    ],
+    [
+      5,
+      49
+    ],
+    [
+      5,
+      78
+    ],
+    [
+      5,
+      80
+    ],
+    [
+      49,
+      51
+    ],
+    [
+      51,
+      1
+    ],
+    [
+      78,
+      79
+    ],
+    [
+      79,
+      1
+    ],
+    [
+      80,
+      81
+    ],
+    [
+      81,
+      1
+    ]
+  ]
+}

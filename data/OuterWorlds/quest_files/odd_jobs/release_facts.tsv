@@ -1,0 +1,57 @@
+ID	fact
+OBJECTIVE O0	
+O0_S1	168:103
+O0_B1	To start the quest, speak to Bronson in Amber Heights and offer to help.
+OBJECTIVE O1	
+O1_S1	301:102
+O1_S2	404:43
+OBJECTIVE O2	
+O2_S1	486:57
+O2_S2	544:47
+OBJECTIVE O3	
+O3_S1	611:51
+O3_S2	663:51
+OBJECTIVE O4	
+O4_S1	732:80
+O4_B1	1864:103
+amber_heights	
+amber_heights_01	Amber Heights is a location in the Monarch Wilderness and the base of operations for the Iconoclasts.
+amber_heights_02	The Iconoclasts run the place somewhat like a commune.
+amber_heights_03	Amber Heights was once the place of residence of the entire executive dome of Monarch Stellar Industries.
+amber_heights_04	It is now in ruins after a massacre in the past.
+amber_heights_05	They lived there with their families and it was the company's operations center on Monarch.
+amber_heights_06	Just after The Board approved the evacuation of the planet through the Hazard Clause, Amber Heights was besieged by a gang of pirates who ransacked the town and massacred all its inhabitants.
+amber_heights_07	"This tragedy was known as ""The Amber Heights Massacre""."
+amber_heights_08	They were secretly assisted by MSI employee, Graham Bryant, who believed that the massacre would aid him in his quest to rid the colony of corporate influence.
+amber_heights_09	In 2345, the same Graham Bryant formed the Iconoclasts and settled the group in the deserted town.
+bronson	
+bronson_01	Bronson is the quartermaster for the Iconoclasts.
+bronson_02	He is a vendor in Amber Heights.
+bronson_03	Bronson acts as a jack of all trades for the Iconoclasts,
+bronson_04	identifying himself as a quartermaster, chef, handyman,
+bronson_05	and whatever other role the residents of Amber Heights need him to play.
+iconoclasts	
+iconoclasts_01	The Iconoclasts are a group of survivalists living in the ruins of Amber Heights on Monarch.
+iconoclasts_02	They hope to one day tear down the corporate establishment that they believe has brought the colony to the brink of death.
+iconoclasts_03	The Iconoclasts are a group of idealistic revolutionaries that seek to overthrow the corporate establishment that runs the Halcyon Colony.
+iconoclasts_04	Based in the ruins of the Amber Heights settlement on Monarch,
+iconoclasts_05	they are a tenacious group,
+iconoclasts_06	and share some democratic ideals with Monarch Stellar Industries (MSI) against the more repressive actions of the Board.
+iconoclasts_07	However, the Iconoclast's anti-corporate nature has put them at odds with MSI, a dispute that threatens to spill into all-out warfare.
+iconoclasts_08	Given that the Iconoclasts are mostly followers of the Philosophist faith, they have been blacklisted and demonized by the Board as dissenters and anarchists.
+iconoclasts_09	The group is led by Graham Bryant, a staunch Philosophist.
+iconoclasts_10	Zora Blackwood, the Iconoclasts' chief of medicine, is also considered a de facto leader of the group,
+iconoclasts_11	as she was alongside Graham when he founded the Iconoclasts,
+iconoclasts_12	and almost every member of the Iconoclasts owes her their life in some way.
+iconoclasts_13	The Iconoclasts maintain a tense relationship with MSI.
+iconoclasts_14	Despite sharing democratic values and a common desire towards egalitarianism for the people of Monarch and the wider Halcyon colony,
+iconoclasts_15	"MSI's ""egalitarian corporate structure"" has proven to be at odds with some of the Iconoclasts' more radical, anti-capitalist views."
+iconoclasts_16	Depending on the actions of the Stranger, this tense relationship can either be resolved,
+iconoclasts_17	or can spill into a drawn-out and bloody war.
+iconoclasts_18	The Stranger meets the Iconoclasts in Amber Heights just as the tension between them and MSI is reaching boiling point.
+iconoclasts_19	They can either side with the Iconoclasts and assist them in storming and taking over Stellar Bay,
+iconoclasts_20	"""solve"" the Iconoclast problem for Stellar Bay,"
+iconoclasts_21	or broker peace between the two factions.
+iconoclasts_22	The Stranger can also have an impact on the leadership of the Iconoclasts - siding with either Graham Bryant or Zora Blackwood.
+iconoclasts_23	To supplant Graham with Zora, evidence of Graham's involvement in the Amber Heights massacre must be found and presented to Zora.
+iconoclasts_24	The Van Noys are the Iconoclasts' best unit.

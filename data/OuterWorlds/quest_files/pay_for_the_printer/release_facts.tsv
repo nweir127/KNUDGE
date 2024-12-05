@@ -1,0 +1,101 @@
+ID	fact
+OBJECTIVE O0	
+O0_S1	580:134
+O0_S2	715:95
+O0_B1	1257:92
+O0_B2	1350:35
+O0_B3	1386:183
+OBJECTIVE O1	
+O1_S1	837:65
+O1_B1	1571:76
+O1_B2	1648:60
+O1_B3	You'll come to a battle between Canids, Marauders and August & May Van Noy.
+O1_B4	1785:44
+OBJECTIVE O2	
+O2_S1	935:109
+O2_S2	1045:71
+O2_B1	Before you can escort Zora's team to safety, you'll be informed they have lost track of their medic.
+OBJECTIVE O3	
+O3_B1	2421:60
+O3_B2	2482:60
+OBJECTIVE O4	
+O4_S1	1187:34
+O4_S2	1222:32
+O4_B1	3120:110
+august_van_noy	
+august_van_noy_01	August Van Noy is a member of the Iconoclasts, encountered near Terra One Publications.
+august_van_noy_02	August is a relative of May Van Noy.
+august_van_noy_03	He is less enthusiastic about the mission Graham sends the Van Noys on than May.
+graham_bryant	
+graham_bryant_01	Graham Bryant is the leader of the Iconoclasts on Monarch.
+graham_bryant_02	Graham used to work for MSI, before splitting off and forming the Iconoclasts
+graham_bryant_03	When the Hazard Clause was invoked and the evacuation of Monarch began, he and fellow MSI executive, Sanjar Nandi were informed by Hiram Blythe about a loophole which would allow for MSI to take full control of the planet.
+graham_bryant_04	Graham and Sanjar believed that this provided them with an opportunity to dismantle the corporate system, even if they had different interpretations of this intention.
+graham_bryant_05	However, they were unable to convince the other MSI executives of their plan, so Graham made an arrangement to remove this hurdle.
+graham_bryant_06	Graham informed a crew of pirates about the wealth that could be found in Amber Heights and provided them with the gate access codes to break into the settlement.
+graham_bryant_07	On the night of the pirate attack, Graham slept safe in Stellar Bay, while the rest of his colleagues were being massacred.
+graham_bryant_08	Graham's frustration with the inaction made him desperate.
+graham_bryant_09	He informed a crew of pirates about the wealth that could be found in Amber Heights and provided them with the gate access codes to break into the settlement.
+graham_bryant_10	Even as the Iconoclasts settled in Amber Heights,
+graham_bryant_11	Graham was reluctant to speak of the events that happened there.
+graham_bryant_12	This was interpreted by his followers as grief over the loss of his former colleagues.
+graham_bryant_13	His true reaction to the events that happened ranged from guilt to denial to belief that his actions were ultimately justified.
+graham_bryant_14	After the Amber Heights massacre, Sanjar took over ownership of MSI, something which Graham viewed as a betrayal of the ideals which he believed motivated them both.
+graham_bryant_15	As leader of the Iconoclasts, Graham prioritised the spreading of Philosophism to the rest of Halcyon,
+graham_bryant_16	using the Devil's Peak Station broadcast channel to hijack Halcyon News Network's programming on locations including Groundbreaker
+graham_bryant_17	and spending Iconoclast resources on securing a printing press which would allow them to better disseminate their message.
+graham_bryant_18	This has led to disagreements between Graham and his second-in-charge, Zora Blackwood, who disapproved of prioritising evangelism over the welfare of their people.
+graham_bryant_19	If the Stranger investigates the pasts of both Graham Bryant and Zora Blackwood,
+graham_bryant_20	Blackwood can be led to believe that she must supplant Graham as Iconoclast leader,
+graham_bryant_21	based on his actions amid the infamous Amber Heights massacre.
+graham_bryant_22	Graham can't be persuaded to accept this move, and must be killed to make room for Blackwood.
+graham_bryant_23	These events can enable the establishment of an Iconoclast-MSI alliance.
+iconoclasts	
+iconoclasts_01	The Iconoclasts are a group of survivalists living in the ruins of Amber Heights on Monarch.
+iconoclasts_02	They hope to one day tear down the corporate establishment that they believe has brought the colony to the brink of death.
+iconoclasts_03	The Iconoclasts are a group of idealistic revolutionaries that seek to overthrow the corporate establishment that runs the Halcyon Colony.
+iconoclasts_04	Based in the ruins of the Amber Heights settlement on Monarch,
+iconoclasts_05	they are a tenacious group,
+iconoclasts_06	and share some democratic ideals with Monarch Stellar Industries (MSI) against the more repressive actions of the Board.
+iconoclasts_07	However, the Iconoclast's anti-corporate nature has put them at odds with MSI, a dispute that threatens to spill into all-out warfare.
+iconoclasts_08	Given that the Iconoclasts are mostly followers of the Philosophist faith, they have been blacklisted and demonized by the Board as dissenters and anarchists.
+iconoclasts_09	The group is led by Graham Bryant, a staunch Philosophist.
+iconoclasts_10	Zora Blackwood, the Iconoclasts' chief of medicine, is also considered a de facto leader of the group,
+iconoclasts_11	as she was alongside Graham when he founded the Iconoclasts,
+iconoclasts_12	and almost every member of the Iconoclasts owes her their life in some way.
+iconoclasts_13	The Iconoclasts maintain a tense relationship with MSI.
+iconoclasts_14	Despite sharing democratic values and a common desire towards egalitarianism for the people of Monarch and the wider Halcyon colony,
+iconoclasts_15	"MSI's ""egalitarian corporate structure"" has proven to be at odds with some of the Iconoclasts' more radical, anti-capitalist views."
+iconoclasts_16	Depending on the actions of the Stranger, this tense relationship can either be resolved,
+iconoclasts_17	or can spill into a drawn-out and bloody war.
+iconoclasts_18	The Stranger meets the Iconoclasts in Amber Heights just as the tension between them and MSI is reaching boiling point.
+iconoclasts_19	They can either side with the Iconoclasts and assist them in storming and taking over Stellar Bay,
+iconoclasts_20	"""solve"" the Iconoclast problem for Stellar Bay,"
+iconoclasts_21	or broker peace between the two factions.
+iconoclasts_22	The Stranger can also have an impact on the leadership of the Iconoclasts - siding with either Graham Bryant or Zora Blackwood.
+iconoclasts_23	To supplant Graham with Zora, evidence of Graham's involvement in the Amber Heights massacre must be found and presented to Zora.
+iconoclasts_24	The Van Noys are the Iconoclasts' best unit.
+may_van_noy	
+may_van_noy_01	May Van Noy is a member of the Iconoclasts who is encountered near Terra One Publications.
+terra_one_publications	
+terra_one_publications_01	Before the corporate evacuation of Monarch, this was a printing facility, designation #OD-2214, belonging to Universal Defense Logistics.
+terra_one_publications_02	The facility was responsible for printing a variety of different publications including the Dissident Hunter series.
+terra_one_publications_03	When the Stranger lands on Monarch, Graham Bryant plans to reclaim the facility in hopes of using it to print propaganda for the Iconoclasts.
+terra_one_publications_04	He has sent the Van Noys and some men to take control of the building.
+terra_one_publications_05	However, they have run into trouble with the rapts that now infest the area.
+zora_blackwood	
+zora_blackwood_01	Zora Blackwood is one of the two leaders of the Iconoclasts, based out of Amber Heights.
+zora_blackwood_02	Zora Blackwood is a member of the Iconoclasts and, alongside Graham Bryant, is one of the group's de facto leaders.
+zora_blackwood_03	She is known to be the backbone of the Iconoclasts, keeping the group together through thick or thin.
+zora_blackwood_04	She joined Graham Bryant and helped start the Iconoclasts, patching up those who got wounded while fighting for their cause.
+zora_blackwood_05	Nearly every member of the Iconoclasts owes her their life in some way.
+zora_blackwood_06	However, her methods of operation including her desire to impose some form of scheduling on the faction, has ruffled some feathers.
+zora_blackwood_07	This has led to conflicts between herself and Graham Bryant, the latter being more focused on spreading the message of Philosophism
+zora_blackwood_08	Graham considers Zora's concerns about food and medicine to be a distracting attachment to corporate materialism.
+zora_blackwood_09	Zora values the lives of the Van Noys more than securing the printing press
+zora_blackwood_10	Zora does not know that Graham Bryant helped aid in the Amber Heights Massacre
+zora_blackwood_11	Before joining the Iconoclasts, Zora lived in Cascadia and worked for Rizzo's in the bottling plant as a doctor.
+zora_blackwood_12	"She was an excellent employee and described as a ""top-notch sawbones with a good head for working under pressure""."
+zora_blackwood_13	The Stranger can back Zora in taking over as leader of the Iconoclasts and either brokering peace with Stellar Bay or defeating MSI.
+zora_blackwood_14	If the player sides with MSI, they will be tasked with killing her.
+zora_blackwood_15	If the player earns her trust, they can instead convince her to make peace with MSI.

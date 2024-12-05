@@ -1,0 +1,260 @@
+{
+  "id": "canids_cradle_03",
+  "quest_name": "canids_cradle",
+  "conversation": {
+    "filename": "0403_cv_zora",
+    "start_node": 134,
+    "end_nodes": [],
+    "force_include": [
+      176,
+      179,
+      180,
+      181,
+      194,
+      233
+    ]
+  },
+  "in_objective": "O4",
+  "out_objective": "O5",
+  "participants": [
+    "zora_blackwood"
+  ],
+  "dialog_edges": [
+    [
+      134,
+      135
+    ],
+    [
+      135,
+      176
+    ],
+    [
+      135,
+      138
+    ],
+    [
+      176,
+      178
+    ],
+    [
+      178,
+      179
+    ],
+    [
+      178,
+      181
+    ],
+    [
+      178,
+      180
+    ],
+    [
+      178,
+      183
+    ],
+    [
+      179,
+      185
+    ],
+    [
+      185,
+      227
+    ],
+    [
+      227,
+      189
+    ],
+    [
+      189,
+      194
+    ],
+    [
+      194,
+      205
+    ],
+    [
+      181,
+      186
+    ],
+    [
+      186,
+      189
+    ],
+    [
+      180,
+      187
+    ],
+    [
+      187,
+      227
+    ],
+    [
+      183,
+      545
+    ],
+    [
+      545,
+      135
+    ]
+  ],
+  "dialog": [
+    {
+      "id": 134,
+      "speaker_guid": "ac9307ba-1ad4-4577-9f68-b0ff8cbc2740",
+      "speaker": "Zora (Female)",
+      "utterance": "Well, Captain. Here we are. I've killed a lot of people in the name of the Iconoclasts, and it never feels right, but this time it's... especially wrong.",
+      "support_knowledge": [
+        "O4_B10"
+      ]
+    },
+    {
+      "id": 135,
+      "speaker_guid": "ac9307ba-1ad4-4577-9f68-b0ff8cbc2740",
+      "speaker": "Zora (Female)",
+      "utterance": "You've got the... void help me, I'll never remember what that thing is called. The device from the ship. Do you have it?",
+      "support_knowledge": [
+        "O2_S1"
+      ]
+    },
+    {
+      "id": 176,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Hold on. I was thinking you and Sanjar could join forces.",
+      "support_knowledge": [
+        "O4_B11"
+      ]
+    },
+    {
+      "id": 138,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Not yet. I'll be back.",
+      "support_knowledge": []
+    },
+    {
+      "id": 178,
+      "speaker_guid": "ac9307ba-1ad4-4577-9f68-b0ff8cbc2740",
+      "speaker": "Zora (Female)",
+      "utterance": "I've thought about it, but... I think we're too far gone. Pulling Carlotta's support was crossing a line.",
+      "support_knowledge": [
+        "O3_S1",
+        "monarch_stellar_industries_11",
+        "monarch_stellar_industries_14",
+        "iconoclasts_07",
+        "iconoclasts_13",
+        "iconoclasts_17"
+      ]
+    },
+    {
+      "id": 179,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "How many of your believers are going to die for this?",
+      "support_knowledge": [
+        "O4_B12",
+        "iconoclasts_07",
+        "iconoclasts_08",
+        "iconoclasts_13"
+      ]
+    },
+    {
+      "id": 181,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Sanjar has corporate resources you could use to spread the message.",
+      "support_knowledge": [
+        "O4_B12",
+        "monarch_stellar_industries_02",
+        "monarch_stellar_industries_03"
+      ]
+    },
+    {
+      "id": 180,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Neither of you can afford this fight. Monarch is going to devour the victor.",
+      "support_knowledge": [
+        "O4_B12",
+        "stellar_bay_01"
+      ]
+    },
+    {
+      "id": 183,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Fair enough.",
+      "support_knowledge": []
+    },
+    {
+      "id": 185,
+      "speaker_guid": "ac9307ba-1ad4-4577-9f68-b0ff8cbc2740",
+      "speaker": "Zora (Female)",
+      "utterance": "I... you've got me there. A fair few.",
+      "support_knowledge": [
+        "O4_B12"
+      ]
+    },
+    {
+      "id": 227,
+      "speaker_guid": "ac9307ba-1ad4-4577-9f68-b0ff8cbc2740",
+      "speaker": "Zora (Female)",
+      "utterance": "We've lost a hell of a lot to this fight. Graham would never agree to this, but... I'm starting to realize how often he led us astray.",
+      "support_knowledge": [
+        "O4_B12"
+      ]
+    },
+    {
+      "id": 189,
+      "speaker_guid": "ac9307ba-1ad4-4577-9f68-b0ff8cbc2740",
+      "speaker": "Zora (Female)",
+      "utterance": "All right. If he's willing to talk... I'll give him a chance.",
+      "support_knowledge": [
+        "O4_B13"
+      ]
+    },
+    {
+      "id": 194,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I've already spoken to him. He's agreed to meet.",
+      "support_knowledge": [
+        "O4_B13"
+      ]
+    },
+    {
+      "id": 205,
+      "speaker_guid": "ac9307ba-1ad4-4577-9f68-b0ff8cbc2740",
+      "speaker": "Zora (Female)",
+      "utterance": "Well, then. I've got to prepare a few just-in-case measures, but when you're ready, let's meet at the old OSI church outside Stellar Bay.",
+      "support_knowledge": [
+        "O4_B13",
+        "O5_S1"
+      ]
+    },
+    {
+      "id": 186,
+      "speaker_guid": "ac9307ba-1ad4-4577-9f68-b0ff8cbc2740",
+      "speaker": "Zora (Female)",
+      "utterance": "You know, Captain... I never thought about that. Maybe he could be taught the Eternal truth. Spread the message from within the corporations.",
+      "support_knowledge": [
+        "O4_B12",
+        "iconoclasts_08"
+      ]
+    },
+    {
+      "id": 187,
+      "speaker_guid": "ac9307ba-1ad4-4577-9f68-b0ff8cbc2740",
+      "speaker": "Zora (Female)",
+      "utterance": "Yeah, well, we'll die tryi - fuck. I sound like Graham. Throwing lives at a problem.",
+      "support_knowledge": []
+    },
+    {
+      "id": 545,
+      "speaker_guid": "ac9307ba-1ad4-4577-9f68-b0ff8cbc2740",
+      "speaker": "Zora (Female)",
+      "utterance": "Anything else?",
+      "support_knowledge": []
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "id": "die_robot_03",
+  "quest_name": "die_robot",
+  "conversation": {
+    "filename": "00_cv_ludwig",
+    "start_node": 54,
+    "end_nodes": [],
+    "force_include": [],
+    "force_sequence": []
+  },
+  "in_objective": "O4",
+  "participants": [
+    "ludwig_miller"
+  ],
+  "objectives": {
+    "O4": {
+      "summary": "Return to Ludwig",
+      "description": {
+        "S1": "You found the weapon that Ludwig had stashed in Edgewater.",
+        "S2": "Return to him and learn how he intends to use it against the mechanical menace."
+      },
+      "blurb": {
+        "B1": "After retrieving the Sealed Bundle,",
+        "B2": "return it to Ludwig to receive a Mag-2-Zap as a reward.",
+        "B3": "Ludwig then asks the Stranger to retrieve an undamaged logic module in the geothermal power plant."
+      }
+    }
+  },
+  "dialog": [
+    {
+      "id": 54,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "You mentioned a logic module. I found one in the geothermal plant.",
+      "support_knowledge": [
+        "O6_B1"
+      ]
+    },
+    {
+      "id": 55,
+      "speaker_guid": "2bc7a436-3eff-4d01-983e-cc1aa9630287",
+      "speaker": "LudwigMiller (Male)",
+      "utterance": "Bang-up work, soldier. You're a credit to your uniform. Oh, that reminds me. Gotta look into getting us a uniform.",
+      "support_knowledge": []
+    },
+    {
+      "id": 58,
+      "speaker_guid": "2bc7a436-3eff-4d01-983e-cc1aa9630287",
+      "speaker": "LudwigMiller (Male)",
+      "utterance": "So this is it, then. The key to humanity's victory over the mechanical hordes. ",
+      "support_knowledge": [
+        "O0_S2",
+        "ludwig_miller_02"
+      ]
+    },
+    {
+      "id": 113,
+      "speaker_guid": "2bc7a436-3eff-4d01-983e-cc1aa9630287",
+      "speaker": "LudwigMiller (Male)",
+      "utterance": "I would reward you with the gratitude of the Resistance, but I'm guessing you want something tactile. So here's a couple bits for your trouble, and a little something to remember me by.",
+      "support_knowledge": [
+        "O6_B1"
+      ]
+    },
+    {
+      "id": 59,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Take care.",
+      "support_knowledge": []
+    }
+  ],
+  "dialog_edges": [
+    [
+      54,
+      55
+    ],
+    [
+      55,
+      58
+    ],
+    [
+      58,
+      113
+    ],
+    [
+      113,
+      59
+    ]
+  ]
+}

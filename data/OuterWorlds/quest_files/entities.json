@@ -1,0 +1,1587 @@
+
+{
+  "ada": {
+    "ada_01": "ADA (Autonomous Digital Astrogator) is an advanced AI aboard the Unreliable.",
+    "ada_02": "She controls the navigation and communications systems of the ship.",
+    "ada_03": "As ADA was programmed to recognize only Alex Hawthorne as the legal owner of the Unreliable,",
+    "ada_04": "the Stranger has no choice but to allow her to identify them as \"Captain Alex Hawthorne\" in order to circumvent the restriction.",
+    "ada_05": "She is able to adapt and learn from the ship's operators to be able to better anticipate their needs."
+  },
+  "junlei_tennyson": {
+    "junlei_tennyson_01": "Junlei Tennyson is a self described engineer-turned-captain and is the leader of Groundbreaker,",
+    "junlei_tennyson_02": "the only community in Halcyon operating outside The Board's control.",
+    "junlei_tennyson_03": "She harbours a strong dislike for the Board due to their continued attempts to exert control over Groundbreaker,",
+    "junlei_tennyson_04": "and because she believes they are only after two things\u2014bits and power\u2014which they get by sticking their nose where it doesn't belong.",
+    "junlei_tennyson_05": "She considers the Mardets, crew, and engineers of Groundbreaker to be family.",
+    "junlei_tennyson_06": "Junlei Tennyson is the third generation of Tennyson leadership aboard Groundbreaker,",
+    "junlei_tennyson_07": "recently promoted from chief engineer to captain after the death of her mother.",
+    "junlei_tennyson_08": "She was close to her mother but frequently argued with her father over how Groundbreaker should be run.",
+    "junlei_tennyson_09": "Junlei was previously in a relationship with a woman named Isabelle who tried and failed to earn the approval of Junlei's father.",
+    "junlei_tennyson_10": "They continued seeing each other anyway,",
+    "junlei_tennyson_11": "but the relationship eventually ended poorly.",
+    "junlei_tennyson_12": "Junlei can be found in her office in Groundbreaker Engineering.",
+    "junlei_tennyson_13": "She introduces herself to the Stranger as captain of Groundbreaker,",
+    "junlei_tennyson_14": "and notes that her friends call her Chief.",
+    "junlei_tennyson_15": "The explanation she gives for the formal introduction is that Groundbreaker doesn't see many visitors.",
+    "junlei_tennyson_16": "Junlei then goes on to make it clear that she has the final say on the ship,",
+    "junlei_tennyson_17": "and welcomes the Stranger on board as they seem to be different to the usual outsiders who are mostly 'Board spies and corporate sprats'.",
+    "junlei_tennyson_18": "If the player asks Junlei about the heat problem on Groundbreaker,",
+    "junlei_tennyson_19": "they can offer to help her obtain new radiator parts.",
+    "junlei_tennyson_20": "After the radiator parts are installed,",
+    "junlei_tennyson_21": "more dialogue options become available to ask her about herself and Groundbreaker.",
+    "junlei_tennyson_22": "She will also direct the player to Edna Ingmire to help her with a comms issue,",
+    "junlei_tennyson_23": "and inform the player that they are now authorized to trade with Doctor Mfuru.",
+    "junlei_tennyson_24": "Junlei will appear on the Unreliable if the player helps to set up a date between her and Parvati.",
+    "junlei_tennyson_25": "When interacted with, she thanks them for welcoming her aboard the ship."
+  },
+  "mantipillar": {
+    "mantipillar_01": "Mantipillar is a creature in The Outer Worlds.",
+    "mantipillar_02": "A mantipillar spits plasma balls that burn its victims.",
+    "mantipillar_03": "Mantipillars are native to Monarch."
+  },
+  "radiator_parts": {
+    "radiator_parts_01": "Salvaged from old machinery in Groundbreaker's Back Bays,",
+    "radiator_parts_02": "these parts are vital to repairing the station's radiators.",
+    "radiator_parts_03": "Without these parts the station will continue to overheat,",
+    "radiator_parts_04": "eventually reaching critical temperatures.",
+    "radiator_parts_05": "The spare parts are located on the upper level of the Back Bays."
+  },
+  "gunnar_macredd": {
+    "gunnar_macredd_01": "Captain Gunnar MacRedd is a known criminal and leader of a group of outlaws found in the Back Bays of Groundbreaker.",
+    "gunnar_macredd_02": "MacRedd is a pyromaniac with a criminal record which includes \"several counts of flying under the influence,",
+    "gunnar_macredd_03": "carrying open alcoholic containers,",
+    "gunnar_macredd_04": "failure to pay docking fees,",
+    "gunnar_macredd_05": "resisting arrest,",
+    "gunnar_macredd_06": "and assaulting not one but two officers.\"",
+    "gunnar_macredd_07": "He has a lighter which he claims was given to him by Commandant Sanita a few years back when the two had a \"carnal understanding\".",
+    "gunnar_macredd_08": "However, Sanita claims that this understanding only consisted of her \"kick[ing] his ass from one end of the Groundbreaker to the other\"."
+  },
+  "back_bays": {
+    "back_bays_01": "Back Bays is a location in the lower levels of Groundbreaker.",
+    "back_bays_02": "MacRedd and his crew of outlaws have taken over the area.",
+    "back_bays_03": "The Back Bays is possibly a cargo holding area and/or repair bay for the Groundbreaker' automatons.",
+    "back_bays_04": "Around the area: A large supply of robot remains lie scatted about, and",
+    "back_bays_05": "the outlaws' mushroom farm"
+  },
+  "the_board": {
+    "the_board_01": "The Halcyon Holdings Corporate Board, also simply known as The Board,",
+    "the_board_02": "institutes policy and law throughout the Halcyon Colony.",
+    "the_board_03": "The details surrounding the board's founding remain largely unknown,",
+    "the_board_04": "though its activities suggest that it was originally founded some seventy-odd years ago, give or take.",
+    "the_board_05": "In that time, it has managed to terraform Terra I",
+    "the_board_06": "(a catastrophic failure due to mutations rendering the wildlife overwhelmingly hostile to human life).",
+    "the_board_07": "The Board maintains a very tense relationship with MSI, owing to MSI's democratic ideals and their declared ownership of Monarch.",
+    "the_board_08": "As a result, the Board has placed Monarch, and by extension, MSI, under the Hazard Clause, which forbids off-world businesses from doing transactions on Monarch without the correct (and deliberately impossible to complete) documents.",
+    "the_board_09": "Depending on the actions of the Stranger, MSI may be compelled to rebel against the Board's authoritarianism."
+  },
+  "automechanicals": {
+    "automechanicals_01": "Automechanicals are robots in The Outer Worlds.",
+    "automechanicals_02": "Taking on various shapes and forms,",
+    "automechanicals_03": "from quadrupedal walkers,",
+    "automechanicals_04": "to hovering drones,",
+    "automechanicals_05": "to large humanoid mechs,",
+    "automechanicals_06": "automechanicals function to provide various services to corporations and their owners in Halcyon.",
+    "automechanicals_07": "Mechanicals are equipped with a large automatic cannon.",
+    "automechanicals_08": "They are vulnerable to electromagnetic damage weaponry,",
+    "automechanicals_09": "such as the stun baton."
+  },
+  "groundbreaker": {
+    "groundbreaker_01": "UDL-001 The Groundbreaker or simply Groundbreaker was the first colony ship to arrive in Halcyon during the Crossing.",
+    "groundbreaker_02": "By 2355, it has been converted into an independent orbital station,",
+    "groundbreaker_03": "and is the only place in the entire Halcyon system that is not controlled by the Halcyon Holdings Corporate Board or any other corporation.",
+    "groundbreaker_04": "The crew of the Groundbreaker is fiercely protective of their independence from the corporations,",
+    "groundbreaker_05": "and the corporations value the station's role as a thriving freeport enough that they are willing to deal with it on relatively equal terms.",
+    "groundbreaker_06": "In practical terms, while the Groundbreaker rules itself,",
+    "groundbreaker_07": "it cooperates with the corporations to an extent,",
+    "groundbreaker_08": "such as by impounding ships that the Board happens to flag.",
+    "groundbreaker_09": "The Groundbreaker is commanded by engineer-turned-captain Junlei Tennyson.",
+    "groundbreaker_10": "Udom Bedford is the Halcyon Holdings Corporation representative stationed aboard.",
+    "groundbreaker_11": "According to Junlei, lots of corners were cut when the ship was built,",
+    "groundbreaker_12": "prompting Captain Guiying Tennyson to spend half of her career attempting to patch the ship back together after the Crossing from Earth to Halcyon.",
+    "groundbreaker_13": "In addition, the ship has tinkerings and bypasses that only the Tennysons know about.",
+    "groundbreaker_14": "The Groundbreaker maintains a somewhat tense relationship with the Board,",
+    "groundbreaker_15": "owing to their declared independence from Board authority,",
+    "groundbreaker_16": "as well as their control of shipping routes outward from the Halcyon System.",
+    "groundbreaker_17": "Nonetheless, given that Groundbreaker lacks any semblance of military might against the Board beyond the mardets stationed aboard the ship,",
+    "groundbreaker_18": "the loose hierarchy in charge of the Groundbreaker often seeks to find (illicit) ways of delaying, stymieing, or pitting corporations under the Board's thumb against each other,",
+    "groundbreaker_19": "usually through black market fences like Gladys Culkelly.",
+    "groundbreaker_20": "Nonetheless, the Board maintains an embassy aboard the Groundbreaker run by bureaucrat Udom Bedford.",
+    "groundbreaker_21": "Depending on the actions of the Stranger, the Groundbreaker's crew may be compelled to rebel against the Board's system-wide authority.",
+    "groundbreaker_22": "The Groundbreaker is generally neutral to Sublight Salvage and Shipping Corporation,",
+    "groundbreaker_23": "and allows them to operate an office and warehouse aboard the ship, helmed by Lilya Hagen."
+  },
+  "commandant_sanita": {
+    "commandant_sanita_01": "Commandant Sanita is the head of security on Groundbreaker.",
+    "commandant_sanita_02": "Commandant Sanita takes her security duties seriously and is not easily diverted into conversations with passersby.",
+    "commandant_sanita_03": "She expects the same from her subordinates and will reprimand them for unprofessional behavior,",
+    "commandant_sanita_04": "such as chatting too much while on duty.",
+    "commandant_sanita_05": "She is only concerned with affairs on Groundbreaker and as long as someone has no infractions on the station,",
+    "commandant_sanita_06": "she has no problems with them,",
+    "commandant_sanita_07": "regardless of their relationship with the Board."
+  },
+  "mardets": {
+    "mardets_01": "The Mardets or Groundbreaker Security are the security force on the Groundbreaker.",
+    "mardets_02": "The Mardets started as the original security force on Groundbreaker before the Crossing.",
+    "mardets_03": "The original force was made up of a marine detachment from the 77th Marine Expeditionary Unit, Trailward Fleet.",
+    "mardets_04": "Over time people started to call them Mardets because it was easier to say and the name stuck.",
+    "mardets_05": "The Mardets that currently protect Groundbreaker are descended from the original marine detachment and still wear colony ship guard armor as a uniform."
+  },
+  "macredds_lighter": {
+    "macredds_lighter_01": "A lighter which originally belonged to Commandant Sanita but is now in the possession of Captain Gunnar MacRedd.",
+    "macredds_lighter_02": "The latter claims that it was given to him when the two had a carnal understanding."
+  },
+  "sublight": {
+    "sublight_01": "The SubLight Salvage and Shipping Corporation, also known as SubLight Salvage and Shipping or simply SubLight , is a network of \"salvagers\" with business ties to \"transportation\" and \"waste disposal\".",
+    "sublight_02": "A tangled web of contractors and secretive vice presidents make up their official hierarchy,",
+    "sublight_03": "leaving no one to speak on the record about SubLight's more legally dubious activities.",
+    "sublight_04": "SubLight as a business operates activities that would be considered illicit by some,",
+    "sublight_05": "amoral by others,",
+    "sublight_06": "and at odds with the Board,",
+    "sublight_07": "such as the takeover of abandoned space habitats,",
+    "sublight_08": "smuggling contraband,",
+    "sublight_09": "and serving as a front for companies to bypass the infamous Hazard Clause applied on Monarch.",
+    "sublight_10": "According to director Lilya Hagen,",
+    "sublight_11": "operating off of Groundbreaker,",
+    "sublight_12": "SubLight \"occupies a legal blind spot.",
+    "sublight_13": "No one knows what [they're] licensed to do,",
+    "sublight_14": "and that gives [their] little business some freedom.\"",
+    "sublight_15": "Although the Board tolerates and sees the value of SubLight's activities,",
+    "sublight_16": "there are still limits to what the latter can get away with.",
+    "sublight_17": "SubLight maintains an office aboard the Groundbreaker as well as a settlement on Monarch known as Fallbrook."
+  },
+  "lilya_hagen": {
+    "lilya_hagen_01": "Lilya Hagen is the CEO of SubLight Salvage and Shipping Corporation,",
+    "lilya_hagen_02": "based aboard the Groundbreaker.",
+    "lilya_hagen_03": "Not much is known about Lilya\u2019s early life besides for being a descendant from the original Groundbreaker colonists.",
+    "lilya_hagen_04": "At some point Lilya joined the SubLight Salvage and Shipping Corporation and worked her way up to CEO.",
+    "lilya_hagen_05": "The company was a full time job which caused her to lose sleep making her impatient and emotionless.",
+    "lilya_hagen_06": "Lilya eventually only cared about profit and started to invest in dangerous jobs which (if not caught) would make her very rich.",
+    "lilya_hagen_07": "Not wanting to get her hands dirty,",
+    "lilya_hagen_08": "Lilya offers these jobs to mercenaries,",
+    "lilya_hagen_09": "this eventually gets the attention of the Stranger.",
+    "lilya_hagen_10": "She gets them to do to big jobs until she thinks a scientist in Byzantium is helping aliens after seeing evidence from the jobs.",
+    "lilya_hagen_11": "If the scientist gets killed,",
+    "lilya_hagen_12": "she makes the Stranger a high-ranking member."
+  },
+  "catherine_malin": {
+    "catherine_malin_01": "Catherine Malin is the outpost administrator of Fallbrook and owner of Malin's House of Hospitality.",
+    "catherine_malin_02": "Catherine, acting on behalf of SubLight Salvage and Shipping Corporation, is the \"top dog\" in Fallbrook, and a mastermind behind it's construction.",
+    "catherine_malin_03": "She is known for a violent temper and won't hesitate to hire a hitman to get somebody whacked.",
+    "catherine_malin_04": "Sanjar Nandi is afraid of Catherine.",
+    "catherine_malin_05": "According to him, she has certain ambitions for Stellar Bay and Sanjar fears asking her for help during Errors Unseen because it may give her the leverage she has been looking for.",
+    "catherine_malin_06": "Celia, his assistant, tries to calm him down and says it's perfectly normal to have a healthy fear of her."
+  },
+  "fallbrook": {
+    "fallbrook_01": "Fallbrook is a company town located on Monarch,",
+    "fallbrook_02": "loosely run by the SubLight Salvage and Shipping Corporation.",
+    "fallbrook_03": "Fallbrook is a small town built into the side of a mountain,",
+    "fallbrook_04": "whose construction was masterminded by Catherine Malin.",
+    "fallbrook_05": "Fallbrook has a lot of activities to offer to its visitors,",
+    "fallbrook_06": "from those who search for activities of leisure to those with proclivities for vice."
+  },
+  "cascadia": {
+    "cascadia_01": "Cascadia is an abandoned company town that was owned and operated by Rizzo's before it withdrew from Monarch.",
+    "cascadia_02": "It is now used as a stronghold by the Marauders.",
+    "cascadia_03": "The main attraction is the Cascadia Bottling Plant and,",
+    "cascadia_04": "for those in the know,",
+    "cascadia_05": "the Rizzo Secret Laboratory hidden underneath the Rizzo Sweets Shoppe."
+  },
+  "rizzo_secret_laboratory": {
+    "rizzo_secret_laboratory_01": "Rizzo's Secret Laboratory is an underground location in Cascadia.",
+    "rizzo_secret_laboratory_02": "A password protected labratory originally owned by Rizzo for flavor research and development.",
+    "rizzo_secret_laboratory_03": "Prior to the Board enacting the Hazard Clause,",
+    "rizzo_secret_laboratory_04": "Rizzo volunteered to provide lab space for the chimerist Eva Chartrand and her team to conduct experiments to \"lead to a better Halcyon\".",
+    "rizzo_secret_laboratory_05": "The tests conducted in the lab were primarily animal tests,",
+    "rizzo_secret_laboratory_06": "with the test subjects including native fauna of Monarch (then called Terra 1) and cystypigs from the nearby C&P Boarst Factory.",
+    "rizzo_secret_laboratory_07": "One human trial was also done in the lab,",
+    "rizzo_secret_laboratory_08": "as one member of the research team, Thomas Lynwood Ryall,",
+    "rizzo_secret_laboratory_09": "sacrificed himself to further the research that the team was doing.",
+    "rizzo_secret_laboratory_10": "The tank containing his body can be found in one of the chambers.",
+    "rizzo_secret_laboratory_11": "Regardless, the team was not able to make significant strides in their research prior to the companies pulling out of Terra 1,",
+    "rizzo_secret_laboratory_12": "when the project was reassigned to a secondary lab."
+  },
+  "unreliable": {
+    "unreliable_01": "The Unreliable is a Yakita LHA one-twenty, A-two Apex Transport starship,",
+    "unreliable_02": "constructed in 2325,",
+    "unreliable_03": "that the Stranger uses to travel across Halcyon.",
+    "unreliable_04": "It is the player character's mobile base.",
+    "unreliable_05": "The ship's systems are managed by the AI ADA.",
+    "unreliable_06": "Originally christened the Reliable it came into the possession of Captain Alex Hawthorne,",
+    "unreliable_07": "who renamed it the Unreliable and used it for smuggling across the colonies.",
+    "unreliable_08": "Hawthorne ended up in the Halcyon system by 2355,",
+    "unreliable_09": "where he was hired by Phineas Vernon Welles to aid the Stranger in a bid to liberate the colonists of the Hope,",
+    "unreliable_10": "a late-arriving colony ship that the Halcyon Holdings Corporate Board decided to abandon and cover up.",
+    "unreliable_11": "After Hawthorne's accidental death on Terra 2,",
+    "unreliable_12": "the Stranger assumed ownership of the vessel and set about searching for a new power regulator for it.",
+    "unreliable_13": "Hawthorne was responsible for ADA's programming and modification.",
+    "unreliable_14": "He made her solely responsible for the ship's operating and navigation systems and conceived ADA her own personality to make the crew instance more enjoyable during their travels.",
+    "unreliable_15": "He also installed a shock-trap on the airlock in the event of an invasion.",
+    "unreliable_16": "Now, the unreliable is The Stranger's starship."
+  },
+  "alex_hawthorne": {
+    "alex_hawthorne_01": "Before his death, Hawthorne was considered a dear friend by the Groundbreaker's resident Board representative Udom Bedford,",
+    "alex_hawthorne_02": "though it is unclear if the sentiment was returned.",
+    "alex_hawthorne_03": "He also had done business with Lilya Hagen,",
+    "alex_hawthorne_04": "the CEO of SubLight Salvage and Shipping Corporation,",
+    "alex_hawthorne_05": "who is also based aboard the Groundbreaker.",
+    "alex_hawthorne_06": "Hawthorne preferred solitude rather than company on his flights.",
+    "alex_hawthorne_07": "He was also mechanically trained,",
+    "alex_hawthorne_08": "with the ability to install the Vocational Competence Respecification Machine in the Unreliable.",
+    "alex_hawthorne_09": "He would often play board games and socialize with ADA.",
+    "alex_hawthorne_10": "At some point he was hired by Phineas Vernon Welles to help the Stranger in their mission to free the remaining colonists aboard the Hope.",
+    "alex_hawthorne_11": "In his final moments, he was holding onto the guide beacon for the Stranger's pod to make its landing.",
+    "alex_hawthorne_12": "Rather than putting the beacon down and stepping away,",
+    "alex_hawthorne_13": "Hawthorne was crushed by the Stranger's pod when it made landfall on Terra 2.",
+    "alex_hawthorne_14": "His ship's AI, ADA, believes this error in judgement might have been due to a recent head injury.",
+    "alex_hawthorne_15": "The Stranger eventually takes command of his ship, the Unreliable,",
+    "alex_hawthorne_16": "and takes his name as an alias."
+  },
+  "monarch": {
+    "monarch_01": "Monarch, previously known as Terra 1, is one of the many moons of the gas giant Olympus and the site of a failed colony.",
+    "monarch_02": "Terra 1 was initially designated as the primary colonization target of the Halcyon system.",
+    "monarch_03": "The Halcyon Holdings Corporate Board had intended to completely terraform the moon,",
+    "monarch_04": "wiping out the local fauna and flora and replacing it with plants and wildlife native to Earth.",
+    "monarch_05": "However, the terraforming process unexpectedly caused the native species to mutate and grow to significantly larger sizes,",
+    "monarch_06": "rendering them more dangerous and severely crippling the colonization effort.",
+    "monarch_07": "Due to the hostile environment which they had created,",
+    "monarch_08": "the Board was forced to enact a Hazard Clause covering the entirety of Terra 1.",
+    "monarch_09": "Public notice of the clause's issuance was sent to everyone operating on Terra 1 and led to the evacuation of almost all corporations from the moon.",
+    "monarch_10": "However, one corporation took advantage of the chaos of the evacuation to exploit a legal loophole which allowed them to,",
+    "monarch_11": "as the last corporation remaining on the planet,",
+    "monarch_12": "acquire the planet from the Board.",
+    "monarch_13": "This corporation, under the leadership of Sanjar Nandi and Graham Bryant subsequently rebranded itself to Monarch Stellar Industries (MSI),",
+    "monarch_14": "in line with the renaming of the planet to 'Monarch'.",
+    "monarch_15": "The actions of MSI earned them the ire of the Board,",
+    "monarch_16": "who retaliated by effectively placing the moon under indefinite embargo,",
+    "monarch_17": "refusing to allow legal transit either in or out.",
+    "monarch_18": "the Board aggressively spread propaganda about Monarch to convince the rest of the population that it was both uninhabited and uninhabitable.",
+    "monarch_19": "This has greatly hampered MSI's attempts to be recognized as a legitimate corporation and is a thorn in the side of its CEO, Sanjar Nandi.",
+    "monarch_20": "Monarch also has an ocean which goes around the moon at the \"twilight band\".",
+    "monarch_21": "It is where the colonists and Monarch Stellar Industries farm their saltuna."
+  },
+  "udl": {
+    "udl_01": "Universal Defense Logistics (UDL) is one of the ten corporations that founded the Halcyon Holdings Corporation.",
+    "udl_02": "Its CEO, Rockwell, also serves as the Chairman of the Halcyon Holdings Corporate Board.",
+    "udl_03": "They're the largest of the corps in Halcyon,",
+    "udl_04": "having the largest stake there and in the board,",
+    "udl_05": "as well as being the main presence in Byzantium,",
+    "udl_06": "especially through their CEO, Chairman Rockwell.",
+    "udl_07": "They're also the parent corporation to Spacer's Choice.",
+    "udl_08": "They're pretty much the guiding hand in much of The Board's policies, actions, and screw ups."
+  },
+  "hrs-1084": {
+    "hrs-1084_01": "The Heliospheric Research Station 1084,",
+    "hrs-1084_02": "otherwise known as HRS-1084 (or just ten-eighty-four),",
+    "hrs-1084_03": "is a giant research station orbiting around in the Halcyon system.",
+    "hrs-1084_04": "The Stranger can only travel to this location after starting the quest, The Ice Palace.",
+    "hrs-1084_05": "Lilya Hagen tasks the Stranger with claiming the abandoned station in SubLight's name during the quest The Ice Palace.",
+    "hrs-1084_06": "The station has been dark for some time and emits only a very weak docking signal."
+  },
+  "override_cartridge": {
+    "override_cartridge_01": "This cartridge is used to override a terminals remote access protocols on the HRS-1084.",
+    "override_cartridge_02": "The keycard cartridge is given to the Stranger by Lilya Hagen on the Groundbreaker at the start of The Ice Palace."
+  },
+  "eva_chartrand": {
+    "eva_chartrand_01": "Eva Chartrand is a scientist who works for UDL.",
+    "eva_chartrand_02": "Eva Chartrand is a scientist desperately looking for a solution to Halcyon's problems by conducting extreme experiments that affect the nuclein of humans,",
+    "eva_chartrand_03": "making them less-than-human but more adaptable to the Halcyon system.",
+    "eva_chartrand_04": "She is a scientist whose research was conducted on willing test subjects,",
+    "eva_chartrand_05": "all of whom were her colleagues and had agreed to be part of the effort.",
+    "eva_chartrand_06": "Letting her live will cause Lilya Hagen to fire you."
+  },
+  "byzantium": {
+    "byzantium_01": "Byzantium is the capital city of Terra 2 and the crown jewel of Halcyon.",
+    "byzantium_02": "All the opulence, elegance, and decadence of the colony is concentrated in the city.",
+    "byzantium_03": "Its residents are colloquially referred to as gold-bloods.",
+    "byzantium_04": "Referred to as the \"gilded city of the well-to-do\",",
+    "byzantium_05": "Byzantium is where every Halcyon colonist wishes they could live.",
+    "byzantium_06": "The city is closed off to those without the means to be appropriate residents;",
+    "byzantium_07": "it\u2019s a literal gated community with secrets that lesser company workers will simply never learn.",
+    "byzantium_08": "The city of Byzantium was built in a radial layout,",
+    "byzantium_09": "with streets and docking bays encircling the Halcyon Holdings Corporation headquarters,",
+    "byzantium_10": "located in the restricted Acropolis District.",
+    "byzantium_11": "Many buildings constructed in Byzantium are well-maintained,",
+    "byzantium_12": "and are built in a futuristic Art Nouveau style,",
+    "byzantium_13": "as opposed to the simpler prefabricated frontier designs of Edgewater or Stellar Bay.",
+    "byzantium_14": "The Acropolis District is a wealthy district for the most prominent citizens of both Byzantium and the entire Halcyon Colony.",
+    "byzantium_15": "Located here are the headquarters of the Halcyon Holdings Corporation,",
+    "byzantium_16": "housed inside a towering skyscraper.",
+    "byzantium_17": "Docking bays for various vessels and ships have been constructed into a large, deep trench encircling the mid-section of Byzantium.",
+    "byzantium_18": "Only those individuals with the appropriate navkey are allowed to land on Byzantium's docking bays.",
+    "byzantium_19": "A district bordering the Acropolis District,",
+    "byzantium_20": "the Estate District is known as the residence of Minister Clarke.",
+    "byzantium_21": "Prosperity Plaza is the beating hub of commerce and culture in Byzantium,",
+    "byzantium_22": "fronted by famous establishments such as Bijou's Revue, Rococo's Decor, and Billingsly's House of Inebriation.",
+    "byzantium_23": "At the center of the plaza is a large decorative orrery in the likeness of the Halcyon system."
+  },
+  "sophia_akande": {
+    "sophia_akande_01": "Sophia Akande is the Adjutant of Halcyon Holdings Corporation.",
+    "sophia_akande_02": "Sophia Akande is first met by the player on their passage through Byzantium.",
+    "sophia_akande_03": "She will hold the Stranger in high regard if they diverted power from Edgewater to the Botanical Labs,",
+    "sophia_akande_04": "saving her the costs of having to run a failing outpost.",
+    "sophia_akande_05": "If she has not been killed up to that point,",
+    "sophia_akande_06": "Akande will serve as the main antagonist for the final mission Brave New World.",
+    "sophia_akande_07": "When arriving at the last floor of The Labyrinth,",
+    "sophia_akande_08": "she will greet you via computer,",
+    "sophia_akande_09": "berating your way of always spoiling her plans.",
+    "sophia_akande_10": "However, unlike Chairman Rockwell, she can be reasoned with,",
+    "sophia_akande_11": "provided you can pass enough difficult skill or character checks.",
+    "sophia_akande_12": "In which case, she will allow you free passage to Phineas Welles and flee Tartarus.",
+    "sophia_akande_13": "Otherwise, you will have to fight an automechanical warden,",
+    "sophia_akande_14": "then proceed to kill Akande for good.",
+    "sophia_akande_15": "If spared, she has a section of her own in the epilogue sequence.",
+    "sophia_akande_16": "It will be said that she never was seen again,",
+    "sophia_akande_17": "but that the Stranger's final conversation with her may have changed her outlook on Halcyon and that she might be the source behind a large anonymous donation of resources provided towards the cause of saving the colony."
+  },
+  "charles_rockwell": {
+    "charles_rockwell_01": "Charles Rockwell is the CEO of Universal Defense Logistics and the Chairman of the Halcyon Holdings Corporate Board.",
+    "charles_rockwell_02": "Rockwell authorized the Lifetime Employment Program,",
+    "charles_rockwell_03": "a Universal Defense Logistics experiment \"to repeatedly revive human subjects from extended hibernation without causing the death of the human subject and the loss of associated productivity.\"",
+    "charles_rockwell_04": "The results were inconclusive and prognosis \"cautiously optimistic\"."
+  },
+  "raptidon": {
+    "raptidon_01": "Raptidons are giant cat/reptile-like creatures that inhabit various planets in Halcyon.",
+    "raptidon_02": "They are creatures native to Monarch.",
+    "raptidon_03": "however some corporations have illegally imported them to other planets,",
+    "raptidon_04": "such as Auntie Cleo who relocated a group of them to Roseway.",
+    "raptidon_05": "Raptidons are of corporate interest due to their potential for producing new chemical by-products which,",
+    "raptidon_06": "when refined, can be used to create new board approved products."
+  },
+  "earth": {
+    "earth_01": "Earth, located in the Sol System,",
+    "earth_02": "was the homeworld of humanity,",
+    "earth_03": "and capital of the Earth Directorate.",
+    "earth_04": "Prior to the 21st Century, Earth was divided into various nations,",
+    "earth_05": "one of which was the United States of America.",
+    "earth_06": "In the early 1900s, the tenure of US President William McKinley led to the empowerment and deregulation of powerful business trusts,",
+    "earth_07": "effectively sending the nation (and subsequently, the world) into a seemingly eternal Gilded Age of unfettered capitalism.",
+    "earth_08": "In the wake of the catastrophic Great War of the 21st Century,",
+    "earth_09": "the Earth Directorate was formed as a planet-wide government and regulatory body,",
+    "earth_10": "which would serve to catalogue and allot off-world colonies and systems beyond Directorate control to the highest bidders,",
+    "earth_11": "as well as to settle and arbitrate disputes between Earth's remaining nation-states.",
+    "earth_12": "During this period in time, the Skip Drive was developed,",
+    "earth_13": "which allowed spacecraft to \"skip\" beyond the speed of light,",
+    "earth_14": "effectively allowing humanity to explore the stars.",
+    "earth_15": "With the presumed gradual weakening of the influence of the traditional nation-state and the continued rise of powerful corporations and firms,",
+    "earth_16": "many colonization efforts were spearheaded in the name of business,",
+    "earth_17": "rather than for science, religion, or political ideologies.",
+    "earth_18": "Over a year prior to the events of the game,",
+    "earth_19": "the Earth Directorate cruiser J.J. Astor was the only Earth Directorate ship remaining in the Halcyon system,",
+    "earth_20": "dedicated to preserving the prosperity and peace of Halcyon's government.",
+    "earth_21": "During the course of the game,",
+    "earth_22": "it is eventually revealed that the last Earth Directorate ship headed for Earth from Halcyon, the Cornelius Vanderbilt,",
+    "earth_23": "vanished, apparently discovering something that led to Earth \"going dark\",",
+    "earth_24": "effectively cutting off all communications and supplies from Earth to Halcyon and numerous other off-world colonies.",
+    "earth_25": "As a result, depending on the choices made by the Stranger,",
+    "earth_26": "the Halcyon Colony was left to fend on its own as an independent colony or remain under Board control."
+  },
+  "maverick_johnston": {
+    "maverick_johnston_01": "Maverick Johnston is the director of Odeon Pictures.",
+    "maverick_johnston_02": "He can be found at Prosperity Plaza in the city of Byzantium"
+  },
+  "odeon_pictures": {
+    "odeon_pictures_01": "Odeon Pictures is a film company based in Byzantium on Terra 2.",
+    "odeon_pictures_02": "The company is known for producing the following films: \"Terror on Monarch\" and \"Titus Androidicus\""
+  },
+  "hortense_ingalsbee": {
+    "hortense_ingalsbee_01": "Hortense Ingalsbee is a wealthy Byzantium citizen found near the entrance to the Halcyon Holdings Corporation.",
+    "hortense_ingalsbee_02": "Hortense has her wealth traced back to her grandfather,",
+    "hortense_ingalsbee_03": "who worked as the CIO (Chief Idea Officer) for the Tile corporation.",
+    "hortense_ingalsbee_04": "She considers herself having earned her place as a successful woman due to this inherited sum and looks down on anyone with few possessions,",
+    "hortense_ingalsbee_05": "thinking of them as \"vagrants\".",
+    "hortense_ingalsbee_06": "Some of the other residents of Byzantium do not think highly of her,",
+    "hortense_ingalsbee_07": "calling her a \"tiresome creature\" and saying she always sat on her bench judging others.",
+    "hortense_ingalsbee_08": "She is also known among the guards for her griping and criticism.",
+    "hortense_ingalsbee_09": "Ingalsbee can be first encountered in the way to Halcyon Holdings Corporation,",
+    "hortense_ingalsbee_10": "arguing with a guard over the type of people being allowed into Byzantium.",
+    "hortense_ingalsbee_11": "Talking with her, she will voice her frustration at the Early Retirement program the city is offering.",
+    "hortense_ingalsbee_12": "If the player takes up her offer to investigate the district,",
+    "hortense_ingalsbee_13": "the quest Why Call Them Back From Retirement? will begin.",
+    "hortense_ingalsbee_14": "Upon returning from the task,",
+    "hortense_ingalsbee_15": "the player can either relay to her the true gruesome nature of the program,",
+    "hortense_ingalsbee_16": "which will make her relieved at not missing out on any luxuries,",
+    "hortense_ingalsbee_17": "or lie and encourage her to try out the program for herself,",
+    "hortense_ingalsbee_18": "in which her deceased corpse can be found in the kill chamber upon revisiting the Retirement District."
+  },
+  "early_retirement_district": {
+    "early_retirement_district_01": "Early Retirement District is a location in Byzantium on Terra 2.",
+    "early_retirement_district_02": "The early retirement district is where winners of the early retirement program are sent.",
+    "early_retirement_district_03": "The idea for the program came from Aloysius Clarke and is endorsed by Charles Rockwell.",
+    "early_retirement_district_04": "The early retirement district advertised as an exclusive and luxurious district with various amenities,",
+    "early_retirement_district_05": "such as a luxury penthouse.",
+    "early_retirement_district_06": "The amenities are said to be complimentary for the entirety of the retirees' stay,",
+    "early_retirement_district_07": "courtesy of Halcyon Holdings Corporation,",
+    "early_retirement_district_08": "meaning that residents will not have to spend any bits.",
+    "early_retirement_district_09": "Some services advertised to be in the district include C&P's Blazin' Boarst Barbecue, Rizzo's All You Can Crunch Cereal Buffet and a Spacer's Choice bar.",
+    "early_retirement_district_10": "The retirees are chosen by lottery that anyone can enter,",
+    "early_retirement_district_11": "and nobody besides the winners are allowed to enter the district.",
+    "early_retirement_district_12": "In reality, however, the retirees are executed upon entry into the lower level of the area by automechanicals.",
+    "early_retirement_district_13": "If told the true nature of the program,",
+    "early_retirement_district_14": "Hortense Ingalsbee phrases it as a sham perpetuated by the Board to \"dispose of the rabble\" by removing \"the most burdensome members of our society.\"",
+    "early_retirement_district_15": "More and more retirees have been sent to their death in the past month to the point that guards outside the district feel like factory workers.",
+    "early_retirement_district_16": "Halcyon Holdings Corporation and its subsidiaries are relieved of of all responsibility,",
+    "early_retirement_district_17": "because before entering the district,",
+    "early_retirement_district_18": "the retirees must sign a liability waiver where they assume all liability for injury, death or loss of personal items."
+  },
+  "halcyon_holdings_corporation": {
+    "halcyon_holdings_corporation_01": "The Halcyon Holdings Corporation (commonly abbreviated as HHC) is the corporation and \"de facto government\" that rules the Halcyon system",
+    "halcyon_holdings_corporation_02": "It is controlled by the Halcyon Holdings Corporate Board,[2]which represents HHC's ten member corporations and effectively serves as Halcyon's ruling council. HHC was formed by the ten corporations specifically to purchase the rights to Halcyon from the Earth Directorate. The names for Halcyon's planets were decided by the HHC."
+  },
+  "rizzo": {
+    "rizzo_01": "Rizzo, also known as Rizzo, Inc. or Rizzo's Beverages,",
+    "rizzo_02": "is one of the corporations that are part of the Halcyon Holdings Corporation.",
+    "rizzo_03": "Rizzo is a foodstuffs corporation based out of the Halcyon Colony.",
+    "rizzo_04": "Their primary products are alcoholic drinks, cereals, and confectionery, such as Rizzo's Lemon Slapp, Spectrum Vodka, and Purpleberry Punch.",
+    "rizzo_05": "Rizzo's operated a company town and laboratory known as Cascadia,",
+    "rizzo_06": "before abandoning it on May 4th, 2243 due to the Hazard Clause.",
+    "rizzo_07": "Rizzo owns and operates the professional Tossball team the Rizzo's Rangers.",
+    "rizzo_08": "They also produced the Halcyon Helen serial in conjunction with Odeon Pictures.",
+    "rizzo_09": "The majority of food and drink products manufactured by Rizzo are made using \u201cpurpleberries\u201d.",
+    "rizzo_10": "All company armor is colored in Purpleberry Pink, Nanner Blue, and white."
+  },
+  "maintenance_tunnels": {
+    "maintenance_tunnels_01": "The maintenance tunnels are a location in Byzantium on Terra 2.",
+    "maintenance_tunnels_02": "The maintenance tunnels are located beneath the streets of Byzantium and are home to a sprat infestation alongside several hostile mechanical sentries sent to exterminate the sprats."
+  },
+  "celeste_jolicoeur": {
+    "celeste_jolicoeur_01": "Celeste Jolicoeur is a high-profile fashion designer in Byzantium who runs Jolicoeur's Haberdashery.",
+    "celeste_jolicoeur_02": "Celeste has her own fashion line of \"Jolicoeur Originals\" that are of the most premium grade and even require her own personal seal to be \"truly authentic\".",
+    "celeste_jolicoeur_03": "the tagline for all her clothes is \"Well-made clothing. Made for fashion, not for protection.\"",
+    "celeste_jolicoeur_04": "She will send the player on a quest to bring back outfits and materials she needs to create the player a unique and one-of-a-kind outfit, the Chimaera.",
+    "celeste_jolicoeur_05": "However, this will come at the cost of her life,",
+    "celeste_jolicoeur_06": "and the player will have no other source for her wares."
+  },
+  "chimaera": {
+    "chimaera_01": "The Chimaera is an original work by fashion designer Celeste Jolicoeur.",
+    "chimaera_02": "It is crafted out of raptidon flank, mantiqueen chitin and primal leather.",
+    "chimaera_03": "The Chimaera is awarded to the player upon completing Makes Space Suits, Won't Travel."
+  },
+  "corporate_soldiers": {
+    "corporate_soldiers_01": "Corporate Soldiers are the security forces for each of the corporations."
+  },
+  "spacers_choice": {
+    "spacers_choice_01": "Spacer's Choice is a wholly-owned subsidiary of Universal Defense Logistics.",
+    "spacers_choice_02": "Their mascot is the Moon Man.",
+    "spacers_choice_03": "Specializing in making a wide range of products as cheap as possible for the consumer,",
+    "spacers_choice_04": "Spacer's Choice cater to a broad range of clientele.",
+    "spacers_choice_05": "While their products are not very durable,",
+    "spacers_choice_06": "they are cheap to repair or replace.",
+    "spacers_choice_07": "Their employees will quote the company's sales line,",
+    "spacers_choice_08": "regardless of their own condition and are not to accept assistance from outside the company.",
+    "spacers_choice_09": "They can also be reprimanded for fraternizing with employees labelled as \"incompetent\" - those unavailable to work."
+  },
+  "marauders": {
+    "marauders_01": "The Marauders are an enemy faction in The Outer Worlds.",
+    "marauders_02": "Humans that have lost their minds due to excessive use of Adrena-Time,",
+    "marauders_03": "marauders are violent individuals with very little in the way of comprehension or compassion.",
+    "marauders_04": "Originating on Gorgon,",
+    "marauders_05": "where Adrena-Time was being developed,",
+    "marauders_06": "they spread out initially to Edgewater as a trial by Spacer's Choice,",
+    "marauders_07": "who were aware of the violent, long term effects."
+  },
+  "sprat": {
+    "sprat_01": "Sprats are a rat-like creature found across every human colony world.",
+    "sprat_02": "Sprat is an abbreviated contraction of Space Rat.",
+    "sprat_03": "Sprats are small, gecko-like creatures that are often treated as vermin by the residents of the Halcyon Colony.",
+    "sprat_04": "Bertrand, with a blessing from Catherine Malin, oversees an animal rescue service in Fallbrook.",
+    "sprat_05": "He is responsible for spaying and feeding sprats under his care and he didn't hesitate to capture and save sprats Nelson Mayson was using to smuggle drugs.",
+    "sprat_06": "Sprats are voracious omnivores and are known to occasionally attack humans if there are enough sprats to swarm."
+  },
+  "iconoclasts": {
+    "iconoclasts_01": "The Iconoclasts are a group of survivalists living in the ruins of Amber Heights on Monarch.",
+    "iconoclasts_02": "They hope to one day tear down the corporate establishment that they believe has brought the colony to the brink of death.",
+    "iconoclasts_03": "The Iconoclasts are a group of idealistic revolutionaries that seek to overthrow the corporate establishment that runs the Halcyon Colony.",
+    "iconoclasts_04": "Based in the ruins of the Amber Heights settlement on Monarch,",
+    "iconoclasts_05": "they are a tenacious group,",
+    "iconoclasts_06": "and share some democratic ideals with Monarch Stellar Industries (MSI) against the more repressive actions of the Board.",
+    "iconoclasts_07": "However, the Iconoclast's anti-corporate nature has put them at odds with MSI, a dispute that threatens to spill into all-out warfare.",
+    "iconoclasts_08": "Given that the Iconoclasts are mostly followers of the Philosophist faith, they have been blacklisted and demonized by the Board as dissenters and anarchists.",
+    "iconoclasts_09": "The group is led by Graham Bryant, a staunch Philosophist.",
+    "iconoclasts_10": "Zora Blackwood, the Iconoclasts' chief of medicine, is also considered a de facto leader of the group,",
+    "iconoclasts_11": "as she was alongside Graham when he founded the Iconoclasts,",
+    "iconoclasts_12": "and almost every member of the Iconoclasts owes her their life in some way.",
+    "iconoclasts_13": "The Iconoclasts maintain a tense relationship with MSI.",
+    "iconoclasts_14": "Despite sharing democratic values and a common desire towards egalitarianism for the people of Monarch and the wider Halcyon colony,",
+    "iconoclasts_15": "MSI's \"egalitarian corporate structure\" has proven to be at odds with some of the Iconoclasts' more radical, anti-capitalist views.",
+    "iconoclasts_16": "Depending on the actions of the Stranger, this tense relationship can either be resolved,",
+    "iconoclasts_17": "or can spill into a drawn-out and bloody war.",
+    "iconoclasts_18": "The Stranger meets the Iconoclasts in Amber Heights just as the tension between them and MSI is reaching boiling point.",
+    "iconoclasts_19": "They can either side with the Iconoclasts and assist them in storming and taking over Stellar Bay,",
+    "iconoclasts_20": "\"solve\" the Iconoclast problem for Stellar Bay,",
+    "iconoclasts_21": "or broker peace between the two factions.",
+    "iconoclasts_22": "The Stranger can also have an impact on the leadership of the Iconoclasts - siding with either Graham Bryant or Zora Blackwood.",
+    "iconoclasts_23": "To supplant Graham with Zora, evidence of Graham's involvement in the Amber Heights massacre must be found and presented to Zora.",
+    "iconoclasts_24": "The Van Noys are the Iconoclasts' best unit."
+  },
+  "graham_bryant": {
+    "graham_bryant_01": "Graham Bryant is the leader of the Iconoclasts on Monarch.",
+    "graham_bryant_02": "Graham used to work for MSI, before splitting off and forming the Iconoclasts",
+    "graham_bryant_03": "When the Hazard Clause was invoked and the evacuation of Monarch began, he and fellow MSI executive, Sanjar Nandi were informed by Hiram Blythe about a loophole which would allow for MSI to take full control of the planet.",
+    "graham_bryant_04": "Graham and Sanjar believed that this provided them with an opportunity to dismantle the corporate system, even if they had different interpretations of this intention.",
+    "graham_bryant_05": "However, they were unable to convince the other MSI executives of their plan, so Graham made an arrangement to remove this hurdle.",
+    "graham_bryant_06": "Graham informed a crew of pirates about the wealth that could be found in Amber Heights and provided them with the gate access codes to break into the settlement.",
+    "graham_bryant_07": "On the night of the pirate attack, Graham slept safe in Stellar Bay, while the rest of his colleagues were being massacred.",
+    "graham_bryant_08": "Graham's frustration with the inaction made him desperate.",
+    "graham_bryant_09": "He informed a crew of pirates about the wealth that could be found in Amber Heights and provided them with the gate access codes to break into the settlement.",
+    "graham_bryant_10": "Even as the Iconoclasts settled in Amber Heights,",
+    "graham_bryant_11": "Graham was reluctant to speak of the events that happened there.",
+    "graham_bryant_12": "This was interpreted by his followers as grief over the loss of his former colleagues.",
+    "graham_bryant_13": "His true reaction to the events that happened ranged from guilt to denial to belief that his actions were ultimately justified.",
+    "graham_bryant_14": "After the Amber Heights massacre, Sanjar took over ownership of MSI, something which Graham viewed as a betrayal of the ideals which he believed motivated them both.",
+    "graham_bryant_15": "As leader of the Iconoclasts, Graham prioritised the spreading of Philosophism to the rest of Halcyon,",
+    "graham_bryant_16": "using the Devil's Peak Station broadcast channel to hijack Halcyon News Network's programming on locations including Groundbreaker",
+    "graham_bryant_17": "and spending Iconoclast resources on securing a printing press which would allow them to better disseminate their message.",
+    "graham_bryant_18": "This has led to disagreements between Graham and his second-in-charge, Zora Blackwood, who disapproved of prioritising evangelism over the welfare of their people.",
+    "graham_bryant_19": "If the Stranger investigates the pasts of both Graham Bryant and Zora Blackwood,",
+    "graham_bryant_20": "Blackwood can be led to believe that she must supplant Graham as Iconoclast leader,",
+    "graham_bryant_21": "based on his actions amid the infamous Amber Heights massacre.",
+    "graham_bryant_22": "Graham can't be persuaded to accept this move, and must be killed to make room for Blackwood.",
+    "graham_bryant_23": "These events can enable the establishment of an Iconoclast-MSI alliance."
+  },
+  "anton_crane": {
+    "anton_crane_01": "Anton Crane is the Outpost Administrator of Roseway and a lead scientist of Auntie Cleo.",
+    "anton_crane_02": "Crane was tasked to develop the world's most effective appetite suppressant dental gel,",
+    "anton_crane_03": "using Raptidons as research subjects.",
+    "anton_crane_04": "Crane is first encountered in the Roseway Communication Room.",
+    "anton_crane_05": "The scientist will explain that a group of outlaws,",
+    "anton_crane_06": "led by Cassandra O'Malley, broke into his lab and released the imprisoned raptidons,",
+    "anton_crane_07": "in a search for his valuable research.",
+    "anton_crane_08": "He will then ask you to kill the outlaws,",
+    "anton_crane_09": "put the raptidons to sleep and retrieve his research data,",
+    "anton_crane_10": "looking into his missing apprentice Jameson on the way.",
+    "anton_crane_11": "It is up to the player to follow any of the objectives Crane tasks them with.",
+    "anton_crane_12": "He will become angered with Porter if the player convinces him to abandon his post and upset if the search for Jameson ends up in failure.",
+    "anton_crane_13": "If the player fails to save Jameson,",
+    "anton_crane_14": "and fails to return the toothpaste recipe,",
+    "anton_crane_15": "they can tell Crane he is better off dead.",
+    "anton_crane_16": "After leaving the building and walking a short distance a gun shot is heard and upon re-entering the comms center will find him sitting dead at the central terminal pillar after shooting himself in the head."
+  },
+  "jameson_avery": {
+    "jameson_avery_01": "Jameson Avery is an assistant research engineer for Auntie Cleo.",
+    "jameson_avery_02": "Anton Crane considers Jameson the only person in Roseway of worth and refers to him as his 'protege'.",
+    "jameson_avery_03": "However, this feeling is not reciprocated by Jameson who resents Anton and his micromanagement with a passion.",
+    "jameson_avery_04": "Anton sent Jameson to the Auntie-Biotics Lab to retrieve the metabolic precursors from the last test they conducted and,",
+    "jameson_avery_05": "in the chaos of the raptidons getting loose,",
+    "jameson_avery_06": "forgot about him.",
+    "jameson_avery_07": "When the Stranger first meets Jameson in the lab,",
+    "jameson_avery_08": "he is trapped behind a locked door.",
+    "jameson_avery_09": "When the door is unlocked,",
+    "jameson_avery_10": "he is more aggrieved at the breach of protocol involved in a non-employee accessing the lab than the raptidons which threatened his life"
+  },
+  "autie_biotics_lab_0013": {
+    "autie_biotics_lab_0013_01": "Auntie-Biotics Lab 0013 is a location in Roseway Gardens located just south of the town of Roseway.",
+    "autie_biotics_lab_0013_02": "This lab was used to run experiments involving raptidons and their potential usefulness in Auntie Cleo products.",
+    "autie_biotics_lab_0013_03": "One of the experiments run was to determine the maximum amount of raptidon digestive acid that could be safely ingested by humans before adverse effects presented themselves.",
+    "autie_biotics_lab_0013_04": "This experiment was conducted on randomly selected workers.",
+    "autie_biotics_lab_0013_05": "Due to the construction of a newer lab,",
+    "autie_biotics_lab_0013_06": "Lab 0013 is now mostly used for storage.",
+    "autie_biotics_lab_0013_07": "Reuben Porter is the Chief Site Safety Engineer for the lab."
+  },
+  "cassandra_omalley": {
+    "cassandra_omalley_01": "Cassandra O'Malley is the leader of an Outlaw crew,",
+    "cassandra_omalley_02": "leading the Outlaws assault on Roseway's covert lab.",
+    "cassandra_omalley_03": "Cassandra is rebellious and has a strong disliking for the Board and the corporations under its wing,",
+    "cassandra_omalley_04": "feeling that they do not care for people's lives and only their ability to work.",
+    "cassandra_omalley_05": "Her way of rebelling against the system is to \"stab at the heart of corporate power,\"",
+    "cassandra_omalley_06": "something she takes great pleasure from.",
+    "cassandra_omalley_07": "However in doing so she and her outlaws are also responsible for the deaths of corporate employees.",
+    "cassandra_omalley_08": "Cassandra sees these killed guards and the few scientists caught in the crossfire as a necessary evil.",
+    "cassandra_omalley_09": "When first encountered in the Covert Lab she is locked in a room and asks the player to get the keycard to release her.",
+    "cassandra_omalley_10": "She also wants them clear a path for her to flee,",
+    "cassandra_omalley_11": "by either killing all the Raptidons in the loading bay or Porter and the rest of the Auntie Cleo's guards towards the front entrance.",
+    "cassandra_omalley_12": "If one wishes to avoid bloodshed Porter can also be persuaded to leave.",
+    "cassandra_omalley_13": "Afterwards Cassandra rewards the player some bits and with a Persuasion check of 31 she will give Crane's research to the player."
+  },
+  "porter": {
+    "porter_01": "Reuben Porter is the leader of security in the secret Auntie-Biotics Lab in Roseway Gardens.",
+    "porter_02": "Porter is in charge of Site Safety Engineering,",
+    "porter_03": "which most of the days mean making sure \"folks don't run in the halls\"."
+  },
+  "outlaws": {
+    "outlaws_01": "The Outlaws are interplanetary raiders with their own independent agendas.",
+    "outlaws_02": "Unlike the Marauders, some Outlaws can interact with the Stranger."
+  },
+  "philosophists": {
+    "philosophists_01": "The Philosophists are one of two main religious groups in Halcyon.",
+    "philosophists_02": "Philosophists seek to maintain a natural flow with the universe.",
+    "philosophists_03": "Their beliefs have earned them the ire of the corporations, which officially practice and enforce Scientism.",
+    "philosophists_04": "At the core of Philosophism is the belief that the universe was created in an organic and natural way without any specific purpose.",
+    "philosophists_05": "Two of the most important concepts of Philosophism are the \"Awakening\" and the \"Eternal Truth\".",
+    "philosophists_06": "The Eternal Truth is the ability to be part of the consciousness of the cosmos and to fulfill the role that the universe has given people in its eternal quest to understand itself.",
+    "philosophists_07": "Coming to understand and be part of that journey is what makes any being divine.",
+    "philosophists_08": "The Awakening is the point of no return.",
+    "philosophists_09": "It is the moment when the mind opens to the Eternal Truth.",
+    "philosophists_10": "It is the experience that any Philosophist goes through and that can come from different vital experiences such as witnessing the death of a loved one.",
+    "philosophists_11": "Philosophism opposes corporate materialism."
+  },
+  "zora_blackwood": {
+    "zora_blackwood_01": "Zora Blackwood is one of the two leaders of the Iconoclasts, based out of Amber Heights.",
+    "zora_blackwood_02": "Zora Blackwood is a member of the Iconoclasts and, alongside Graham Bryant, is one of the group's de facto leaders.",
+    "zora_blackwood_03": "She is known to be the backbone of the Iconoclasts, keeping the group together through thick or thin.",
+    "zora_blackwood_04": "She joined Graham Bryant and helped start the Iconoclasts, patching up those who got wounded while fighting for their cause.",
+    "zora_blackwood_05": "Nearly every member of the Iconoclasts owes her their life in some way.",
+    "zora_blackwood_06": "However, her methods of operation including her desire to impose some form of scheduling on the faction, has ruffled some feathers.",
+    "zora_blackwood_07": "This has led to conflicts between herself and Graham Bryant, the latter being more focused on spreading the message of Philosophism",
+    "zora_blackwood_08": "Graham considers Zora's concerns about food and medicine to be a distracting attachment to corporate materialism.",
+    "zora_blackwood_09": "Zora values the lives of the Van Noys more than securing the printing press",
+    "zora_blackwood_10": "Zora does not know that Graham Bryant helped aid in the Amber Heights Massacre",
+    "zora_blackwood_11": "Before joining the Iconoclasts, Zora lived in Cascadia and worked for Rizzo's in the bottling plant as a doctor.",
+    "zora_blackwood_12": "She was an excellent employee and described as a \"top-notch sawbones with a good head for working under pressure\".",
+    "zora_blackwood_13": "The Stranger can back Zora in taking over as leader of the Iconoclasts and either brokering peace with Stellar Bay or defeating MSI.",
+    "zora_blackwood_14": "If the player sides with MSI, they will be tasked with killing her.",
+    "zora_blackwood_15": "If the player earns her trust, they can instead convince her to make peace with MSI."
+  },
+  "mantisaur": {
+    "mantisaur_01": "Mantisaurs are insectoid creatures native to Monarch.",
+    "mantisaur_02": "They are aggressive, territorial, and very strong.",
+    "mantisaur_03": "It is possible to deal with them one on one, but it is best to avoid groups of them for your safety.",
+    "mantisaur_04": "The mantiqueen is the largest breed of Mantisaur."
+  },
+  "primal": {
+    "primal_01": "The Primal are an ogre-like simian primitive species native to Terra 2 in the Halcyon.",
+    "primal_02": "Primals are large gorilla-like creatures native to Terra 2,",
+    "primal_03": "and can also be found on abandoned mining outposts on the asteroid of Scylla.",
+    "primal_04": "Primals are covered in extremely thick skin,",
+    "primal_05": "which also appears to have bioluminescent qualities.",
+    "primal_06": "They are also incredibly strong,",
+    "primal_07": "and possess the ability to dig underground,",
+    "primal_08": "only to jump out in order to attack unwitting enemies.",
+    "primal_09": "Some Primal variants are known to have limited psychokinetic abilities,",
+    "primal_10": "owing by their power to infuse rocks with N-Rays that can damage foes and prey.",
+    "primal_11": "Primal brains are known to be biologically similar to the brains of Earth primates."
+  },
+  "olive_yates": {
+    "olive_yates_01": "Olive Yates is a postal worker and an employee of the Halcyon Parcel Service."
+  },
+  "halcyon_parcel_service": {
+    "halcyon_parcel_service_01": "The Halcyon Parcel Service, also known as HPS,",
+    "halcyon_parcel_service_02": "is in Byzantium on Terra 2.",
+    "halcyon_parcel_service_03": "It is the only parcel service in the colony."
+  },
+  "wanda_chen": {
+    "wanda_chen_01": "Wanda Chen is a parcel worker at the Halcyon Parcel Service."
+  },
+  "guard_bachmeyer": {
+    "guard_bachmeyer_01": "Guard Bachmeyer is the head of security at the Halcyon Holdings Corporation Building.",
+    "guard_bachmeyer_02": "His group guards the elevator to the top floor lobby, where executive offices are housed."
+  },
+  "aloysius_clarke": {
+    "aloysius_clarke_01": "Aloysius Clarke is the Minister of Earth,",
+    "aloysius_clarke_02": "representing the Earth Directorate to the Halcyon Holdings Corporation.",
+    "aloysius_clarke_03": "Placed put under domiciliary arrest by Charles Rockwell with his communications with Earth cut off,",
+    "aloysius_clarke_04": "(so Rockwell could conduct business in his name unimpeded),",
+    "aloysius_clarke_05": "Aloysius is waiting for assistance to send a message to Earth to request aid."
+  },
+  "earth_directorate": {
+    "earth_directorate_01": "The Earth Directorate (ED) is a regulatory and tribunal body located on Earth,",
+    "earth_directorate_02": "who regulate trade and resolve disputes that arise in both international, and inter-corporate.",
+    "earth_directorate_03": "The organisation is also responsible for cataloging and licensing of star systems to various corporations.",
+    "earth_directorate_04": "The Earth Directorate was formed on Earth in the years following the Great War to regulate trade and arbitrate international, and inter-corporate disputes.",
+    "earth_directorate_05": "Between the Great War of the mid-21st century and the invention of the skip drive,",
+    "earth_directorate_06": "theorists had disputed the power of the skip drive,",
+    "earth_directorate_07": "but rather attributed the Earth Directorate's rise to power as being a pre-War entity,",
+    "earth_directorate_08": "dominating the corporations,",
+    "earth_directorate_09": "having been weakened by the costs of the Great War,",
+    "earth_directorate_10": "with the drive giving them extra power over them.",
+    "earth_directorate_11": "By the 23rd century, the Directorate is also responsible for the cataloging and licensing of star systems to various corporations or corporate entities.",
+    "earth_directorate_12": "At some point the ED sold Halcyon to the Halcyon Holdings Corporation.",
+    "earth_directorate_13": "It is currently unknown if the Earth Directorate still exists in any official form following the disconnection of Earth from its colonies."
+  },
+  "halcyon_holdings_corporation_building": {
+    "halcyon_holdings_corporation_building_01": "The Halcyon Holdings Corporation Building is the headquarters for the Halcyon Holdings Corporation, located in Byzantium.",
+    "halcyon_holdings_corporation_building_02": "Chairman Rockwell and Minister Clarke both have offices on the top floor.",
+    "halcyon_holdings_corporation_building_03": "Rockwell had begun renovations to convert Clarke's office into an extension to his own.",
+    "halcyon_holdings_corporation_building_04": "Entering from the Acropolis District one enters into a large lobby.",
+    "halcyon_holdings_corporation_building_05": "Ahead of the entrance is the receptionist, Beatrice Reichert.",
+    "halcyon_holdings_corporation_building_06": "Behind her is a security checkpoint guarded by Bachmeyer and Corporate Guards.",
+    "halcyon_holdings_corporation_building_07": "Through this checkpoint is an elevator to the top floor lobby,",
+    "halcyon_holdings_corporation_building_08": "housing Minister Clarke and Chairman Rockwell's offices.",
+    "halcyon_holdings_corporation_building_09": "Ahead of the elevator is a reception desk stationed by Percival Platt.",
+    "halcyon_holdings_corporation_building_10": "The upper floor is also guarded by Corporate Sentinels.",
+    "halcyon_holdings_corporation_building_11": "The door directly behind Percival leads to Rockwell's office.",
+    "halcyon_holdings_corporation_building_12": "Facing him, the door to the left leads to Clarke's office,",
+    "halcyon_holdings_corporation_building_13": "and contains a massive hole in the wall leading to Rockwell's office.",
+    "halcyon_holdings_corporation_building_14": "Inside Rockwell's office, there is a bar and terminal."
+  },
+  "percival_platt": {
+    "percival_platt_01": "Percival Platt is the personal assistant to Adjutant Akande and Chairman Rockwell.",
+    "percival_platt_02": "Percival got his position as the personal assistant of Akande and Rockwell due to his reputation for discretion and his family's connections.",
+    "percival_platt_03": "His tasks include completing paperwork and providing rewards on behalf of Akande,",
+    "percival_platt_04": "as well as providing a selection of Board-certified equipment to acting agents of the Board.",
+    "percival_platt_05": "His hobby is organizing the Adjutant's stationery,",
+    "percival_platt_06": "as he has a weakness for personalized stationery."
+  },
+  "giles_molina": {
+    "giles_molina_01": "Giles Molina is a scientist working for the Ministry of Accuracy and Morale,",
+    "giles_molina_02": "owned by the Halcyon Holdings Corporation in Byzantium.",
+    "giles_molina_03": "He can be found near the elevator to the Maintenance Tunnels in Prosperity Plaza of Byzantium"
+  },
+  "alonzo_vallejos": {
+    "alonzo_vallejos_01": "Alonzo Vallejos works at the Bureau of Exploration in Byzantium.",
+    "alonzo_vallejos_02": "He has set up a fake sightseeing tour of Halcyon,",
+    "alonzo_vallejos_03": "with the goal of recording footage of mercenaries dying gruesome deaths,",
+    "alonzo_vallejos_04": "then selling them for a large profit in Byzantium."
+  },
+  "force_pistol_schematics": {
+    "force_pistol_schematics_01": "The schematics depict a 'Phlogisynchotron Pistol' from a brand named FORCE,",
+    "force_pistol_schematics_02": "which is not native to the Halcyon colony.",
+    "force_pistol_schematics_03": "It is unclear from these plans what a 'phlogisynchotron' does.",
+    "force_pistol_schematics_04": "The schematics belong to Orson Shaw in Roseway who will pay 1,875 bits for their safe return."
+  },
+  "bronson": {
+    "bronson_01": "Bronson is the quartermaster for the Iconoclasts.",
+    "bronson_02": "He is a vendor in Amber Heights.",
+    "bronson_03": "Bronson acts as a jack of all trades for the Iconoclasts,",
+    "bronson_04": "identifying himself as a quartermaster, chef, handyman,",
+    "bronson_05": "and whatever other role the residents of Amber Heights need him to play."
+  },
+  "amber_heights": {
+    "amber_heights_01": "Amber Heights is a location in the Monarch Wilderness and the base of operations for the Iconoclasts.",
+    "amber_heights_02": "The Iconoclasts run the place somewhat like a commune.",
+    "amber_heights_03": "Amber Heights was once the place of residence of the entire executive dome of Monarch Stellar Industries.",
+    "amber_heights_04": "It is now in ruins after a massacre in the past.",
+    "amber_heights_05": "They lived there with their families and it was the company's operations center on Monarch.",
+    "amber_heights_06": "Just after The Board approved the evacuation of the planet through the Hazard Clause, Amber Heights was besieged by a gang of pirates who ransacked the town and massacred all its inhabitants.",
+    "amber_heights_07": "This tragedy was known as \"The Amber Heights Massacre\".",
+    "amber_heights_08": "They were secretly assisted by MSI employee, Graham Bryant, who believed that the massacre would aid him in his quest to rid the colony of corporate influence.",
+    "amber_heights_09": "In 2345, the same Graham Bryant formed the Iconoclasts and settled the group in the deserted town."
+  },
+  "donald_anderson": {
+    "donald_anderson_01": "Donald Anderson is a member of the Corporate Compliance Crew who can be found at the C3 Barracks near Devil's Peak Station in Monarch."
+  },
+  "corporate_compliance_group": {
+    "corporate_compliance_group_01": "The Corporate Compliance Crew, also known as C3,",
+    "corporate_compliance_group_02": "are a band of mercenaries operating in Monarch.",
+    "corporate_compliance_group_03": "C3 was contracted by Hiram Blythe to kill creatures and persons that emerge from Devil's Peak Cavern.",
+    "corporate_compliance_group_04": "They demonstrate some overall leniency in how they execute the terms of their contracts, willing to make concessions if they receive the appropriate financial compensation.",
+    "corporate_compliance_group_05": "C3 uses the corporate model because it is the \"oldest and most efficient, not to mention stable\" structure, and because corporations have certain rights that individuals do not."
+  },
+  "berthold_fox": {
+    "berthold_fox_01": "Berthold Fox is the founder, president and CEO of the Corporate Compliance Crew.",
+    "berthold_fox_02": "Berthold's tasks include leading and making plans for the Corporate Compliance Crew.",
+    "berthold_fox_03": "Donald Anderson describes him as a hands-on type who likes to handle the tougher tasks himself.",
+    "berthold_fox_04": "While the crew were undertaking a contract for \"the Broker\" on Monarch, Berthold entered the Devil's Peak Cavern with fellow C3, Constance, to search for marauders.",
+    "berthold_fox_05": "They did not expect the cavern to also contain mantisaurs,",
+    "berthold_fox_06": "who killed Constance and trapped Berthold on a ledge for around six hours before being found by the Stranger."
+  },
+  "devils_peak_cavern": {
+    "devils_peak_cavern_01": "Devil's Peak Cavern is a location in the Monarch Wilderness on Monarch."
+  },
+  "roseway": {
+    "roseway_01": "Roseway is a company town in Roseway Gardens on Terra 2.",
+    "roseway_02": "It is owned and operated by Auntie Cleo.",
+    "roseway_03": "Once the home of a prosperous settlement,",
+    "roseway_04": "Roseway now stands as a partly abandoned site.",
+    "roseway_05": "It is now a ramshackle excuse for a town,",
+    "roseway_06": "and visitors are encouraged to travel to other settlements instead."
+  },
+  "auntie_cleo": {
+    "auntie_cleo_01": "Auntie Cleo's is a subsidiary of Kolway Pharmaceuticals, a partner of Halcyon Holdings Corporation.",
+    "auntie_cleo_02": "Auntie Cleo's is a large corporation based on Terra 2 with various facilities located in the area of Roseway.",
+    "auntie_cleo_03": "Primarily a manufacturer of various pharmaceuticals,",
+    "auntie_cleo_04": "they are known both for their unethical experiments done in the name of producing high-quality cosmetics and drugs,",
+    "auntie_cleo_05": "as well as their rivalry with Spacer's Choice.",
+    "auntie_cleo_06": "They are also known to run a Tossball team known as the Auntie Cleo's Darlings.",
+    "auntie_cleo_07": "According to Clarence Mostly, the family name behind Auntie Cleo's is the Skylers."
+  },
+  "relay_gb-23": {
+    "relay_gb-23_01": "Relay GB-23 is one of Groundbreaker's backup auxiliary communications relay stations,",
+    "relay_gb-23_02": "located in Halcyon.",
+    "relay_gb-23_03": "Like other relay stations,",
+    "relay_gb-23_04": "Relay GB-23 orbits the edge of the Halcyon system and therefore receives a significant proportion of the transmissions from Earth.",
+    "relay_gb-23_05": "Relay GB-23 went offline some months ago for unknown reasons and Edna Ingmire on Groundbreaker has so far been unsuccessful in arranging for a diagnostic expedition to the station to get it back online,",
+    "relay_gb-23_06": "as Junlei Tennyson keeps denying the personnel loss allocation associated with sending a technical team to the station.",
+    "relay_gb-23_07": "Edna asks the Stranger to assist with getting the relay back online.",
+    "relay_gb-23_08": "The transmitter array on the station was manually deactivated by Alexander Frey,",
+    "relay_gb-23_09": "a resident of Byzantium who fled to the station after being plagued with mysterious voices in his head.",
+    "relay_gb-23_10": "He powered down the transmitter as he believed it to be the source of the voices.",
+    "relay_gb-23_11": "This was not the case and the voices persisted even after deactivating the relay,",
+    "relay_gb-23_12": "driving him mad and eventually causing him to commit suicide."
+  },
+  "halcyon": {
+    "halcyon_01": "Halcyon, also called the Halcyon Colony, or simply the Colony,",
+    "halcyon_02": "is a star system on the fringe of known space.",
+    "halcyon_03": "It is part of the Halcyon Cluster,",
+    "halcyon_04": "so named because Halcyon itself is the brightest star in the cluster when viewed from Earth.",
+    "halcyon_05": "Halcyon is proudly advertised as the only system entirely owned and operated by corporations.",
+    "halcyon_06": "Most of the planets in the system are named after locations, deities, or creatures from Greek mythology."
+  },
+  "edna_ingmire": {
+    "edna_ingmire_01": "Edna Ingmire is an engineer on Groundbreaker.",
+    "edna_ingmire_02": "Edna is friends with Gladys Culkelly and occasionally passes on transmissions that she thinks Gladys may find interesting.",
+    "edna_ingmire_03": "For all her good judgment when it comes to identifying transmissions of interest,",
+    "edna_ingmire_04": "this does not translate when it comes to men."
+  },
+  "alexander_frey": {
+    "alexander_frey_01": "Alexander J. Frey is a man whose body can be found on Relay GB-23.",
+    "alexander_frey_02": "Alexander Frey was a man who lived in Byzantium who began hearing strange voices inside his head.",
+    "alexander_frey_03": "The voices told him to \"help\" the people he saw by killing them,",
+    "alexander_frey_04": "and he began having dreams about murder,",
+    "alexander_frey_05": "including one where he strangled his work supervisor, Delilah, to death.",
+    "alexander_frey_06": "He fled Byzantium,",
+    "alexander_frey_07": "believing that he would be locked up,",
+    "alexander_frey_08": "after he once confessed his thoughts to an old friend.",
+    "alexander_frey_09": "He took refuge on Relay GB-23,",
+    "alexander_frey_10": "bringing with him enough supplies to last decades.",
+    "alexander_frey_11": "In an attempt to stop the whispers in his head,",
+    "alexander_frey_12": "he deactivated the relay station's transmitter relay,",
+    "alexander_frey_13": "creating a risk to Groundbreaker's communications capabilities when their primary comms relay experienced an occlusion event.",
+    "alexander_frey_14": "Unfortunately, deactivating the transmitter failed to stop the voices in Frey's head.",
+    "alexander_frey_15": "This led him to committing suicide to end the whispers once and for all."
+  },
+  "martin_abernathy": {
+    "martin_abernathy_01": "Martin Abernathy is a resident of Edgewater.",
+    "martin_abernathy_02": "Paranoid and a well-known hypochondriac,",
+    "martin_abernathy_03": "Martin believes that he has the plague and is close to death.",
+    "martin_abernathy_04": "He has attempted to self-medicate with Adrena-Time but hasn't felt a difference and thinks that he needs something a little stronger.",
+    "martin_abernathy_05": "He is afraid of being reported to either Reed Tobson or Constable Reyes and being thrown in the sick house."
+  },
+  "esther_blaine": {
+    "esther_blaine_01": "Esther Blaine is an actuary for Spacer's Choice, living in Edgewater.",
+    "esther_blaine_02": "As an actuary, Esther is responsible for keeping tabs on how much it costs to feed, clothe, shelter, bury and replace an average human worker.",
+    "esther_blaine_03": "She is employed by the Spacer's Choice Department of Human Resources."
+  },
+  "grimm": {
+    "grimm_01": "Grimm is a guard at the Stellar Bay landing pad.",
+    "grimm_02": "He is a fan of the Rizzo's Ranger's tossball team."
+  },
+  "signed_tossball_poster": {
+    "signed_tossball_poster_01": "A tossball poster which has been signed personally by Bertie \"Black Hole\" Holcomb.",
+    "signed_tossball_poster_02": "It is a prized tossball artifact because Bertie Holcomb no longer signs memorabilia for fans,",
+    "signed_tossball_poster_03": "he just puts a stamp on it"
+  },
+  "raptidon_musk": {
+    "raptidon_musk_01": "A vial of musk extracted from a raptidon as a byproduct of experimentation.",
+    "raptidon_musk_02": "It is the main ingredient in the aphrodisiac,",
+    "raptidon_musk_03": "\"N-Raptured\" and fetches a high price due to the current embargo on Monarch,",
+    "raptidon_musk_04": "the raptidons' native habitat."
+  },
+  "ash": {
+    "ash_01": "Ash is a veteran mercenary who can be found in a bar in Amber Heights.",
+    "ash_02": "During the corporate evacuation of Monarch after the Hazard Clause was enacted,",
+    "ash_03": "Ash was hired to transport a hunter unit off-world.",
+    "ash_04": "Shortly before he was scheduled to pick up the unit,",
+    "ash_05": "he received a better offer and abandoned the group at their rendezvous point,",
+    "ash_06": "and they were killed while waiting for transport which would never arrive.",
+    "ash_07": "He does not disclose this to the Stranger when they first meet him.",
+    "ash_08": "He now spends most of his time at the bar in Amber Heights,",
+    "ash_09": "telling fantastical tales about his time as a mercenary on Monarch.",
+    "ash_10": "The Stranger can buy up to three drinks for Ash for 20 bits each.",
+    "ash_11": "Every time he receives a drink,",
+    "ash_12": "Ash will tell a fantastical story about his experiences on Monarch."
+  },
+  "abandoned_safehouse": {
+    "abandoned_safehouse_01": "The Abandoned Safehouse is a point of interest in Monarch Wilderness.",
+    "abandoned_safehouse_02": "The lock on the door leading to the hunter outpost cannot be picked and can only be unlocked with the Hunter Outpost Keycard.",
+    "abandoned_safehouse_03": "This location was a safehouse for a mercenary unit which was stationed on Monarch before the Hazard Clause was enacted.",
+    "abandoned_safehouse_04": "The mercenary unit contained at least two members - Lamont and Delilah.",
+    "abandoned_safehouse_05": "This mercenary unit engaged Ash to evacuate them from the planet but the latter took a different job at the last minute,",
+    "abandoned_safehouse_06": "abandoning the mercenary unit to die to a mantipillar at the rendezvous site."
+  },
+  "nyoka": {
+    "nyoka_01": "Nyoka Ramnarim-Wentworth III, more simply referred to as Nyoka,",
+    "nyoka_02": "is a Monarch native,",
+    "nyoka_03": "big game hunter and potential companion for the Stranger.",
+    "nyoka_04": "Nyoka is a booze-fueled hunter from the wild planet of Monarch."
+  },
+  "caffenoid": {
+    "caffenoid_01": "A bottle of Caffenoid pills which is subject to careful rationing by Abigail Edwards.",
+    "caffenoid_02": "Excessive Caffenoid consumption may lead to side effects including: irritability, fatigue, uncontrollable bowel movements, nausea and death.",
+    "caffenoid_03": "The pills may be given to the Stranger by Abigail Edwards in Stellar Bay.",
+    "caffenoid_04": "This requires either bumping up Nyoka's monthly allotment using the terminal upstairs or threatening her.",
+    "caffenoid_05": "The pills can be found in the MSI Dispensary's locked supply room."
+  },
+  "abigail_edwards": {
+    "abigail_edwards_01": "Abigail Edwards runs the dispensary in Stellar Bay.",
+    "abigail_edwards_02": "Abigail loves her job at the dispensary as she gets to see plenty of people and pick up on all the local gossip.",
+    "abigail_edwards_03": "She writes romance novels in her spare time,",
+    "abigail_edwards_04": "all which are set on Monarch and some of which boast word counts of over 100,000 words.",
+    "abigail_edwards_05": "Her fondness for the salacious is reflected in her overly suggestive manner of speaking."
+  },
+  "dr_williams": {
+    "dr_williams_01": "Dr. E. Williams is a deceased doctor from Stellar Bay.",
+    "dr_williams_02": "His corpse can be found in a graveyard in Stellar Bay Ruins (South),",
+    "dr_williams_03": "being feasted upon by raptidons.",
+    "dr_williams_04": "Dr. Williams was fixated on searching for the \"Flower of Enlightenment\" -",
+    "dr_williams_05": "an endeavor which would eventually lead to his death.",
+    "dr_williams_06": "He hoped that by doing so, his mind and senses would be awakened to the greater realities around him.",
+    "dr_williams_07": "In pursuit of the Flower of Enlightenment,",
+    "dr_williams_08": "he experimented with different combinations of drugs, the last of which killed him."
+  },
+  "hazard_clause": {
+    "hazard_clause_01": "The Hazard Clause is a legal provision that gives the Halcyon Holdings Corporate Board the authority to cordon off any planet or location that it deems dangerous and an infeasible workplace environment.",
+    "hazard_clause_02": "After the Hazard Clause has been issued for a location,",
+    "hazard_clause_03": "all corporations are required to evacuate within 6 months,",
+    "hazard_clause_04": "after which the location is deemed illegal territory and any corporation caught operating in the area will face fines and possible disbarment,",
+    "hazard_clause_05": "as defined in Halcyon Code 22.1.",
+    "hazard_clause_06": "The Hazard Clause was most notably issued in relation to operations on Terra 1,  AKA Monarch."
+  },
+  "huxley": {
+    "huxley_01": "Huxley is a runner for the Iconoclasts.",
+    "huxley_02": "Huxley is a relatively recent member of the Iconoclasts.",
+    "huxley_03": "Although she likes being a part of the group,",
+    "huxley_04": "the details and importance of Philosophism sometimes escapes her.",
+    "huxley_05": "She is naive and scatterbrained but otherwise but good-natured and eager to help.",
+    "huxley_06": "Huxley was entrusted with delivering rollers for a broken printing press Graham had ordered.",
+    "huxley_07": "Unfortunately, while she and her group were scavenging the ruins of Stellar Bay a mantiqueen followed by raptidons appeared and she was locked inside the ARMS building by one of her friends for her protection.",
+    "huxley_08": "This is where the Stranger can find her for the first time."
+  },
+  "bolt-52_cartridge": {
+    "bolt-52_cartridge_01": "The cartridge contains a BOLT-52 (Bill of Liquidation/Transfer Form 52).",
+    "bolt-52_cartridge_02": "Sanjar believes it will protect MSI's holdings on Monarch when he makes his move against the Board by temporarily assigning them to a pass-through entity."
+  },
+  "arms_building": {
+    "arms_building_01": "ARMS is an abandoned building in Stellar Bay Ruins (North)."
+  },
+  "ludwig_miller": {
+    "ludwig_miller_01": "Ludwig Miller is the Associate Security Officer for Transportation stationed at the Edgewater Landing Pad outside the walls of Edgewater.",
+    "ludwig_miller_02": "Ludwig is paranoid and believes that the automechanicals which are seen all over Halcyon have been programmed to eliminate the human race and replace them.",
+    "ludwig_miller_03": "He has been requisitioning backup for the inevitable war on the mechanicals for months and is looking for people to recruit to be a part of his Resistance,",
+    "ludwig_miller_04": "as he believes that he is the only thing standing between Edgewater and total annihilation.",
+    "ludwig_miller_05": "His concerns have gone largely unheeded by Edgewater's leadership;",
+    "ludwig_miller_06": "Reed Tobson has even implemented an automatic rule which sets all trouble tickets lodged by Ludwig with the Maintenance Division to low priority.",
+    "ludwig_miller_07": "Ludwig asks the Stranger to join the (imaginary) war against the automechanicals."
+  },
+  "reed_tobson": {
+    "reed_tobson_01": "Reed Tobson is the outpost administrator for the town of Edgewater.",
+    "reed_tobson_02": "About two years before the events of the game,",
+    "reed_tobson_03": "there was a shortage of saltuna in the area,",
+    "reed_tobson_04": "leading to \"supplements\" being added to the canning process such as wood chips and canine meat,",
+    "reed_tobson_05": "as according to Reed, no one noticed a difference in taste.",
+    "reed_tobson_06": "As a result, many in the town fell ill with the plague,",
+    "reed_tobson_07": "while Reed championed that the key to healing was to work harder.",
+    "reed_tobson_08": "Despite the very obvious connection between the two,",
+    "reed_tobson_09": "Reed cannot seem to fathom that the new canning process directly led to the plague,",
+    "reed_tobson_10": "and simply shrugs off the town's illness as a \"fact of life\".",
+    "reed_tobson_11": "Tobson is not malicious in the traditional sense, and generally has a positive,",
+    "reed_tobson_12": "upbeat attitude about life in Edgewater.",
+    "reed_tobson_13": "Due to being a Spacer's Choice executive,",
+    "reed_tobson_14": "he is bound by the rules they set in place,",
+    "reed_tobson_15": "which involve producing products as cheaply as possible.",
+    "reed_tobson_16": "Despite his executive position,",
+    "reed_tobson_17": "he knows next to nothing about the cannery's production process,",
+    "reed_tobson_18": "and is ignorant of even the most basic needs of his workers.",
+    "reed_tobson_19": "His belief that workers can survive on nothing but saltuna,",
+    "reed_tobson_20": "and his introduction of wood-chips and mushrooms to the production process is responsible for the \"plague\" currently infesting Edgewater.",
+    "reed_tobson_21": "The foreign material is also responsible for the cannery's frequent malfunctions,",
+    "reed_tobson_22": "as it is not set up to process anything other than saltuna.",
+    "reed_tobson_23": "He has so little understanding of how health works, he believes in \"the four humors\".",
+    "reed_tobson_24": "Overall, despite his incompetence, his outlook on life is highly altruistic.",
+    "reed_tobson_25": "He is more concerned for the health of Edgewater as a community than he is for his own life."
+  },
+  "geothermal_power_plant": {
+    "geothermal_power_plant_01": "The Geothermal Power Plant, also called the Edgewater Geothermal Plant and the Emerald Vale Geothermal Plant, is a location in the Emerald Vale.",
+    "geothermal_power_plant_02": "It is the only source of power for Edgewater and the Emerald Vale Botanical Labs.",
+    "geothermal_power_plant_03": "The power plant is currently under security lockdown due to an apparent malfunction in the automechanicals which guard the area,",
+    "geothermal_power_plant_04": "causing them to target and fire upon all the human inhabitants in the area.",
+    "geothermal_power_plant_05": "It is likely that the malfunction was deliberate due to the power plant's poor profitability,",
+    "geothermal_power_plant_06": "despite manager Juno Braden's best attempts to reassure Spacer's Choice of the power plant's value.",
+    "geothermal_power_plant_07": "Shortly before the incident, Spacer's Choice took out a significant insurance policy against the plant and deployed a team of engineering specialists to refit the plant's population of automechanicals.",
+    "geothermal_power_plant_08": "These technicians modified the automechanicals' logic modules by installing a kill-on-sight contingency.",
+    "geothermal_power_plant_09": "One of the power plant's mechanics, Chester Higgins,",
+    "geothermal_power_plant_10": "grew suspicious when he found evidence of these modifications but was told by his supervisor to not worry about it."
+  },
+  "spacers_choice_cantina": {
+    "spacers_choice_cantina_01": "The Spacer's Choice Cantina is a location in Edgewater.",
+    "spacers_choice_cantina_02": "It is located directly opposite the south entrance to the town."
+  },
+  "sealed_bundle": {
+    "sealed_bundle_01": "This bundled was stashed by Ludwig Miller to protect it from automechanicals.",
+    "sealed_bundle_02": "It contains a Mag-2-Zap which will be given to the Stranger when the bundle is returned to Ludwig."
+  },
+  "mag-2-zap": {
+    "mag-2-zap_01": "The Mag-2-Zap is a ranged weapon modification that fits into the weapon's magazine slot.",
+    "mag-2-zap_02": "This modification changes the weapon's damage type to shock."
+  },
+  "thomas_kemp": {
+    "thomas_kemp_01": "Thomas Kemp is one of Edgewater's deserters residing at Botanical Labs.",
+    "thomas_kemp_02": "Thomas used to work at Edgewater's Saltuna Cannery where he would closely follow around Parvati Holcomb.",
+    "thomas_kemp_03": "He pretended to be eager to learn from her,",
+    "thomas_kemp_04": "when in reality his interest in Parvati was mostly romantic.",
+    "thomas_kemp_05": "Whereas the other deserters chose to quit work in hopes of a better life,",
+    "thomas_kemp_06": "Thomas was fired due to a lack of skills.",
+    "thomas_kemp_07": "When he was barely scraping by alone in the wilderness,",
+    "thomas_kemp_08": "he was taken in by Adelaide McDevitt and her fellow deserters,",
+    "thomas_kemp_09": "whom he lied to and told that he was a proficient engineer.",
+    "thomas_kemp_10": "When the player meets Thomas in Botanical Labs he admits to not knowing anything about engineering.",
+    "thomas_kemp_11": "He tasks them with finding three parts of an engineering guide so that he may learn what he pretended to know.",
+    "thomas_kemp_12": "If his quest is completed he will send a message to the player's terminal in The Unreliable to thank them."
+  },
+  "deserters": {
+    "deserters_01": "The Deserters are a faction that has set up shop in the Emerald Vale botanical labs after they left Edgewater.",
+    "deserters_02": "The members of the group left Edgewater for various reasons but largely due to the work conditions imposed by Spacer's Choice.",
+    "deserters_03": "They are led by Adelaide McDevitt,",
+    "deserters_04": "a former flavor specialist for the Edgewater Saltuna Cannery."
+  },
+  "saltuna_cannery": {
+    "saltuna_cannery_01": "The Edgewater Saltuna Cannery is a factory in Edgewater,",
+    "saltuna_cannery_02": "owned and operated by Spacer's Choice.",
+    "saltuna_cannery_03": "The Saltuna Cannery is Edgewater's main source of employment."
+  },
+  "emerald_vale_community_center": {
+    "emerald_vale_community_center_01": "The Emerald Vale Community Center is a location in the Emerald Vale and is owned by Spacer's Choice."
+  },
+  "constable_reyes": {
+    "constable_reyes_01": "Constable Reyes is the law enforcer in Edgewater.",
+    "constable_reyes_02": "Bounties on wanted marauders can be turned into her in exchange for bits.",
+    "constable_reyes_03": "A bureaucrat by role, if not by perception,",
+    "constable_reyes_04": "Reyes is responsible for enforcing the company policy of Spacer's Choice in the region of Emerald Vale.",
+    "constable_reyes_05": "This includes all infractions from minor ones such as \"unlicensed terraforming\",",
+    "constable_reyes_06": "to major ones involving the execution of marauders who used to work for the company.",
+    "constable_reyes_07": "She is happy to answer any questions which \"fall within acceptable margins of curiosity\"."
+  },
+  "constabulary": {
+    "constabulary_01": "The Constabulary is a building located in southwest Edgewater,",
+    "constabulary_02": "owned and operated by Spacer's Choice.",
+    "constabulary_03": "This building houses the Spacer's Choice Constabulary,",
+    "constabulary_04": "as represented and led by Constable Reyes.",
+    "constabulary_05": "The service that it provides is touted as \"Halcyon's leading brand in frontier justice\".",
+    "constabulary_06": "The constabulary is currently running a promotion -",
+    "constabulary_07": "for every three criminal investigations purchased, one can receive a fourth for free."
+  },
+  "bertie_cotton": {
+    "bertie_cotton_01": "Bertie Cotton is a wanted marauder in Emerald Vale.",
+    "bertie_cotton_02": "The former Order of Scientific Inquiry vicar to Edgewater,",
+    "bertie_cotton_03": "Bertie was reported as \"suffering a psychological breakdown upon showing symptoms of the plague\".",
+    "bertie_cotton_04": "A writ of execution was issued for him and his sermons are now considered \"defunct and obsolete\".",
+    "bertie_cotton_05": "According to Constable Reyes, Bertie was always quick to remind the citizens of the town that \"we all get what we deserve in the end\"."
+  },
+  "guillaume_antrim": {
+    "guillaume_antrim_01": "Guillaume Antrim is a wanted marauder in Emerald Vale.",
+    "guillaume_antrim_02": "A former mechanic of the Saltuna Cannery in Edgewater,",
+    "guillaume_antrim_03": "there is now a writ of execution for him.",
+    "guillaume_antrim_04": "When you turn in his finger for the bounty,",
+    "guillaume_antrim_05": "Constable Reyes says \"he was just a kid, last I saw him\"."
+  },
+  "maybell_burgess": {
+    "maybell_burgess_01": "\"Doc\" Maybell Burgess is a former physician and a wanted marauder.",
+    "maybell_burgess_02": "Originally in the employ of Spacer's Choice as Edgewater's physician,",
+    "maybell_burgess_03": "Maybell abandoned her post and stole two parcels of Adrena-Time.",
+    "maybell_burgess_04": "The thefts of the two parcels and was classified as three counts of larceny and a writ of execution was issued."
+  },
+  "silas": {
+    "silas_01": "Silas is a Junior Inhumer for the town of Edgewater.",
+    "silas_02": "He has worked for the cemetery all his life,",
+    "silas_03": "holding jobs such as Junior Gravesite Builder, Junior Interment Engineer, and Junior Burial Assistant.",
+    "silas_04": "As a Junior Inhumer, Silas is responsible for digging graves and collecting gravesite fees from the town's inhabitants,",
+    "silas_05": "and he believes that he is about 50 to 60 graves away from becoming an Associate Inhumer.",
+    "silas_06": "Silas enjoys his job,",
+    "silas_07": "citing fresh air and exercise as salient benefit of the work.",
+    "silas_08": "However, he greatly dislikes the paperwork involved.",
+    "silas_09": "Due to a backlog of graves to fill,",
+    "silas_10": "Silas is behind on collecting delinquent gravesite fees from several Edgewater residents."
+  },
+  "conrad_sadik": {
+    "conrad_sadik_01": "Conrad Sadik is a barber and embalmer in Edgewater.",
+    "conrad_sadik_02": "Residents report to him when their hair needs does not meet company standards,",
+    "conrad_sadik_03": "or in the event of their death.",
+    "conrad_sadik_04": "Conrad fell sick with the plague and was allowed to receive treatment for his illness due to his services as a surgeon and embalmer.",
+    "conrad_sadik_05": "However, as he cannot pay his gravesite fees,",
+    "conrad_sadik_06": "he believes this right will soon be revoked from him.",
+    "conrad_sadik_07": "He accepts that his body will be tossed into a ditch upon his death.",
+    "conrad_sadik_08": "Conrad is certified as a surgeon by Spacer's Choice.",
+    "conrad_sadik_09": "However, his certification does not come from a proper medical school,",
+    "conrad_sadik_10": "but rather from five pamphlets with corresponding editions of \"So You Want To Be An Embalmer\" that were given to him after his aptitude test.",
+    "conrad_sadik_11": "He doesn't have the greatest track record when it comes to his patents not becoming infected after the procedure is complete and can only stitch a severed thumb with a 58% chance of avoiding gangrene.",
+    "conrad_sadik_12": "He has also developed his own personal plague palliative which consists of boiled canid liver and a splash of ethanol.",
+    "conrad_sadik_13": "He does not approve of fantasizing about things,",
+    "conrad_sadik_14": "deeming it a dreadful habit which is \"corrosive to the mental faculties.\"",
+    "conrad_sadik_15": "Similarly, he despises watching serials."
+  },
+  "eugene": {
+    "eugene_01": "Eugene was a Spacer's Choice employee in the town of Edgewater,",
+    "eugene_02": "who killed himself prior to the events of The Outer Worlds.",
+    "eugene_03": "Eugene was a receptionist at the Saltuna Cannery in Edgewater.",
+    "eugene_04": "One day, he shot himself and his body was found by Phyllis Granger.",
+    "eugene_05": "If Eugene's death had been ruled a suicide,",
+    "eugene_06": "it would pose a significant risk to the town as a whole,",
+    "eugene_07": "as suicide is considered vandalism of company property,",
+    "eugene_08": "and Edgewater does not have the means to pay the body-price of a suicide.",
+    "eugene_09": "However, while preparing Eugene's body for interment,",
+    "eugene_10": "Conrad Sadik discovered that, not only was Eugene showing plague symptoms,",
+    "eugene_11": "he was also self-medicating with Adrena-Time.",
+    "eugene_12": "His death was a result of overdosing on the drug which is known to cause psychosis and paranoia,",
+    "eugene_13": "and Edgewater is therefore not responsible for the fines associated with a suicide.",
+    "eugene_14": "Eugene had a full set of gold teeth which had been passed down for three generations,",
+    "eugene_15": "representing his personal savings.",
+    "eugene_16": "Not knowing that Eugene's death had been ruled out as suicide,",
+    "eugene_17": "Phyllis Granger wrote to Conrad Sadik,",
+    "eugene_18": "proposing that Eugene's teeth be pawned to pay for his body price.",
+    "eugene_19": "This ends up not being a viable option as Eugene's body was stolen from the Edgewater Cemetery before Silas was able to bury it.",
+    "eugene_20": "Silas presumes the body was either stolen by marauders or that Eugene rose from the dead and walked away."
+  },
+  "phyllis_granger": {
+    "phyllis_granger_01": "Phyllis Granger, known to her subordinates as Foreman Granger is the foreman of the Saltuna Cannery in Edgewater.",
+    "phyllis_granger_02": "As a supervisor for Spacer's Choice,",
+    "phyllis_granger_03": "Phyllis treats her workers as cogs in a machine and has little time for small talk.",
+    "phyllis_granger_04": "She does things by the book which renders her immune to potential extortion attempts.",
+    "phyllis_granger_05": "Her hard work and positive attitude has led Reed Tobson to allow her access to medical treatment and Edgewater's limited medical supplies, should she fall ill with plague.",
+    "phyllis_granger_06": "However, she will acknowledge the low quality of Spacer's Choice's products,",
+    "phyllis_granger_07": "stating that their pistols can misfire.",
+    "phyllis_granger_08": "Shortly before the Stranger's arrival in Edgewater, Phyllis discovered the body of the cannery's receptionist, Eugene.",
+    "phyllis_granger_09": "As the closest living person relative to the body at time of death,",
+    "phyllis_granger_10": "she is now responsible for paying for Eugene's gravesite fees.",
+    "phyllis_granger_11": "In hopes of alleviating part of this financial burden on both herself and the town as a whole,",
+    "phyllis_granger_12": "Phyllis wrote to Conrad Sadik with information about Eugene's gold teeth,",
+    "phyllis_granger_13": "suggesting that they could be pawned to pay for the body price of Eugene's suicide.",
+    "phyllis_granger_14": "Like everyone else in Edgewater,",
+    "phyllis_granger_15": "Phyllis spouts the propaganda given to her by Spacer's Choice,",
+    "phyllis_granger_16": "and views those under her supervision as \"assets\" to the company.",
+    "phyllis_granger_17": "She uses this term positively, however,",
+    "phyllis_granger_18": "and takes offense if the player criticizes her use of the term."
+  },
+  "bits": {
+    "bits_01": "Bits are the primary currency of the Halcyon system which are stored on physical bit cartridges."
+  },
+  "terra_one_publications": {
+    "terra_one_publications_01": "Before the corporate evacuation of Monarch, this was a printing facility, designation #OD-2214, belonging to Universal Defense Logistics.",
+    "terra_one_publications_02": "The facility was responsible for printing a variety of different publications including the Dissident Hunter series.",
+    "terra_one_publications_03": "When the Stranger lands on Monarch, Graham Bryant plans to reclaim the facility in hopes of using it to print propaganda for the Iconoclasts.",
+    "terra_one_publications_04": "He has sent the Van Noys and some men to take control of the building.",
+    "terra_one_publications_05": "However, they have run into trouble with the rapts that now infest the area."
+  },
+  "carlotta": {
+    "carlotta_01": "Carlotta is a resident of Stellar Bay and an Iconoclasts sympathizer.",
+    "carlotta_02": "She can be found in the Bayside Terrace Warehouse after starting the quest, The Commuter.",
+    "carlotta_03": "She is behind a sealed door and will open it if spoken to using the intercom.",
+    "carlotta_04": "Carlotta envies the freedom enjoyed by the Iconoclasts and respects Graham Bryant for his dedication to living a life separate from the corporations,",
+    "carlotta_05": "even though she herself requires structure and could not adapt to their way of living.",
+    "carlotta_06": "She has been secretly supplying the Iconoclasts, buying supplies from Stellar Bay on their behalf, despite the group's disagreements with MSI.",
+    "carlotta_07": "However, she has recently grown tired of sticking her neck out for them and would have stopped trading with them even if Sanjar Nandi hadn't made it illegal."
+  },
+  "sanjar_nandi": {
+    "sanjar_nandi_01": "Sanjar Nandi is the current CEO of Monarch Stellar Industries, based in Stellar Bay.",
+    "sanjar_nandi_02": "Sanjar began working for MSI at a young age and it was there where he met Graham Bryant, who would eventually become his best friend.",
+    "sanjar_nandi_03": "Sanjar was ambitious but his attention to detail at the expense of big-picture thinking hampered his efforts within MSI.",
+    "sanjar_nandi_04": "This led to negative performance reviews regarding his tendency to pad reports and talks with numbers and data,",
+    "sanjar_nandi_05": "feedback which continues to haunt him many years on.",
+    "sanjar_nandi_06": "However, the negative feedback did not dampen Sanjar's desire to move up within the company,",
+    "sanjar_nandi_07": "even donating a kidney to one of the executives in hopes of promotion.",
+    "sanjar_nandi_08": "Despite his poor performance, Sanjar always showed himself to be a loyal employee of the company.",
+    "sanjar_nandi_09": "Despite Sanjar's best efforts, he has found it extremely challenging to continue operating MSI on Monarch without the backing of the Board.",
+    "sanjar_nandi_10": "In order to improve the lives of the people he is responsible for, Sanjar has a plan to rejoin the Board through the use of a BOLT-52 form and proof of another corporate presence on Monarch.",
+    "sanjar_nandi_11": "He is simultaneously working on a plan to reorganize the Board,",
+    "sanjar_nandi_12": "hoping that his plans are not found out until MSI has been reinstated.",
+    "sanjar_nandi_13": "Sanjar choosing to take over as head of MSI rather than dismantling it entirely caused a rift between him and Graham Bryant.",
+    "sanjar_nandi_14": "The latter started the Iconoclasts,",
+    "sanjar_nandi_15": "a group dedicated to spreading the word of Philosophism throughout the galaxy,",
+    "sanjar_nandi_16": "and Sanjar was left in Stellar Bay to run the company and look after the employees who were left behind.",
+    "sanjar_nandi_17": "He can also tell you more about the planet, that used to be called Terra 1",
+    "sanjar_nandi_18": "and the reform that he and Monarch Stellar Industries tried to achieve to give more humane working conditions for everyone within."
+  },
+  "monarch_stellar_industries": {
+    "monarch_stellar_industries_01": "Monarch Stellar Industries (MSI) is a corporation based on Monarch.",
+    "monarch_stellar_industries_02": "Once a loyal Board-owned corporation, Monarch Stellar Industries split off to become their own private entity under the leadership of Sanjar Nandi.",
+    "monarch_stellar_industries_03": "Espousing worker-centric rights and democratic ideals, Sanjar seeks to bring his own brand of freedom to the rest of Halcyon.",
+    "monarch_stellar_industries_04": "MSI farms saltuna on Monarch.",
+    "monarch_stellar_industries_05": "Following the failed terraforming of Monarch and the abandonment of other corporations due to the imposition of the Hazard Clause,",
+    "monarch_stellar_industries_06": "the precursor to Monarch Stellar took advantage of a legal loophole to acquire possession of Monarch and re-branded their corporation to match that of their newest asset.",
+    "monarch_stellar_industries_07": "Monarch Stellar's acquisition of the planet earned the ire of the Board,",
+    "monarch_stellar_industries_08": "due to the loss of their asset and as such enforced an embargo on Monarch.",
+    "monarch_stellar_industries_09": "MSI as a corporation espouses a more egalitarian philosophy than the other companies on The Board, valuing the rights and individual liberties of its workers and employees.",
+    "monarch_stellar_industries_10": "However, the violent and wild ecosystem of Monarch, coupled with the pressure applied from the Board-authorized Hazard Clause, have forced MSI to cut corners in their attempt at survival.",
+    "monarch_stellar_industries_11": "MSI maintains a tense relationship with the revolutionary band of survivalists known as the Iconoclasts,",
+    "monarch_stellar_industries_12": "in part due to the Iconoclasts believing in total anti-corporate ideals,",
+    "monarch_stellar_industries_13": "as opposed to MSI's more corporate-egalitarian views.",
+    "monarch_stellar_industries_14": "Depending on the actions of the Stranger, the tense relationship can spill out into warfare, or be resolved peacefully.",
+    "monarch_stellar_industries_15": "The Board maintains a very tense relationship with MSI, owing to MSI's democratic ideals and their declared ownership of Monarch.",
+    "monarch_stellar_industries_16": "As a result, the Board has placed Monarch, and by extension, MSI, under the Hazard Clause, which forbids off-world businesses from doing transactions on Monarch without the correct (and deliberately impossible to complete) documents."
+  },
+  "celia_robbins": {
+    "celia_robbins_01": "Celia Robbins is a middle manager for Monarch Stellar Industries and works with Sanjar Nandi at MSI Headquarters in Stellar Bay.",
+    "celia_robbins_02": "Celia has a crush on Sebastian Adams and will buy whatever he has in stock,",
+    "celia_robbins_03": "just as an excuse to talk to him.",
+    "celia_robbins_04": "Unfortunately her apartment is filling up with exotic creature parts and her neighbors are starting to complain about the smell.",
+    "celia_robbins_05": "She is not concerned that she and Sebastian may not have much to talk about,",
+    "celia_robbins_06": "as everyone else in Stellar Bay either smells like saltuna or are her boss.",
+    "celia_robbins_07": "The Stranger can offer to set her and Sebastian up on a date."
+  },
+  "arthur": {
+    "arthur_01": "Arthur was part of the Catherine's team that was hired to make blind supply drops.",
+    "arthur_02": "Arthur's team was ambushed, and he was wounded.",
+    "arthur_03": "He escaped to a cave and set booby traps."
+  },
+  "emerald_vale": {
+    "emerald_vale_01": "Emerald Vale is a region on the planet Terra 2."
+  },
+  "botanical_labs": {
+    "botanical_labs_01": "The Botanical Labs are a location in Emerald Vale,",
+    "botanical_labs_02": "occupied by a group of deserters from the town of Edgewater who are led by Adelaide McDevitt.",
+    "botanical_labs_03": "This facility is owned and formally operated by Spacer's Choice,",
+    "botanical_labs_04": "however the company shut it down when its botanists were unable to grow decent crops due to the poor soil quality.",
+    "botanical_labs_05": "It currently serves as a refuge for Adelaide McDevitt and other deserters from Edgewater,",
+    "botanical_labs_06": "and the former has made the soil fertile again by (unbeknownst to most) grinding up human corpses to mix with her fertilizer.",
+    "botanical_labs_07": "The location is powered solely by the nearby geothermal power plant."
+  },
+  "grace_romero": {
+    "grace_romero_01": "Grace Romero is a member of the deserters who guards the entrance to the Botanical Labs in Emerald Vale.",
+    "grace_romero_02": "As the only member of the deserters who knows her way around a gun,",
+    "grace_romero_03": "Grace is mistrustful of armed strangers wandering into her camp.",
+    "grace_romero_04": "When the Stranger meets her, she is concerned about Zoe Chandler,",
+    "grace_romero_05": "a member of the deserters who has recently gone missing.",
+    "grace_romero_06": "Although Grace never got on with Zoe and considers her lazy and thoughtless,",
+    "grace_romero_07": "she is concerned about her whereabouts as Zoe is still one of their own.",
+    "grace_romero_08": "She does not understand the excitement around serial dramas and was once caught snooping in Zoe's room trying to understand Zoe's obsession with them."
+  },
+  "stefan_garcia": {
+    "stefan_garcia_01": "Stefan Garcia is a member of the Deserters and a vendor at the Botanical Labs in Emerald Vale.",
+    "stefan_garcia_02": "Stefan is friends with Zoe Chandler,",
+    "stefan_garcia_03": "a girl who went missing from the Deserters camp at the Botanical Labs.",
+    "stefan_garcia_04": "Prior to her disappearance, they had a regular habit of watching serials together.",
+    "stefan_garcia_05": "He thinks that Zoe's habit of writing things down on pieces of paper (\"journaling\") is odd.",
+    "stefan_garcia_06": "Stefan can provide the Stranger with more information about Zoe's disappearance and may give them a copy of The Masked Marketeer: episode thirty-eight to assist them with persuading Zoe to return to the camp."
+  },
+  "abandoned_industrial_zone": {
+    "abandoned_industrial_zone_01": "The abandoned industrial zone is a location to the northeast of Edgewater in the Emerald Vale."
+  },
+  "zoe_chandler": {
+    "zoe_chandler_01": "Zoe Chandler is a former member of the deserters who the Stranger encounters in the abandoned industrial zone in Emerald Vale.",
+    "zoe_chandler_02": "A former employee of the Edgewater Saltuna Cannery,",
+    "zoe_chandler_03": "Zoe fell ill with plague and stole more than her allotment of Adrena-Time to treat herself.",
+    "zoe_chandler_04": "As a result she was accused of larceny and kicked out the town.",
+    "zoe_chandler_05": "Like many of those who had deserted the town,",
+    "zoe_chandler_06": "Zoe made her way to the Botanical Labs where her illness was treated by Adelaide McDevitt with a green leafy drink twice a day.",
+    "zoe_chandler_07": "During her recovery she took to watching aetherwave serials and would later also watch them with Stefan Garcia.",
+    "zoe_chandler_08": "However, she hated living in the botanical labs and considered it worse than the cannery because people constantly talked to her.",
+    "zoe_chandler_09": "The only two people she could tolerate were Stefan and Grace Romero,",
+    "zoe_chandler_10": "the latter who she respected for her ability to use a rifle.",
+    "zoe_chandler_11": "Eventually, Zoe's fascination with the serials,",
+    "zoe_chandler_12": "particularly The Masked Marketeer,",
+    "zoe_chandler_13": "led to her dreaming of becoming the pre-eminent bandit queen of Emerald Vale.",
+    "zoe_chandler_14": "Eventually, she decided to realize this dream and throw in with the marauders who lived in the hills of Emerald Vale.",
+    "zoe_chandler_15": "To do so, she stocked up on additional rations and Adrena-Time,",
+    "zoe_chandler_16": "correctly believing that the marauders could easily be bribed with the drug.",
+    "zoe_chandler_17": "She bartered much of her stash to the marauder gang in the Abandoned Industrial Zone,",
+    "zoe_chandler_18": "and they allowed her to stay, becoming \"practically their queen\".",
+    "zoe_chandler_19": "Zoe's abrupt disappearance from the Botanical Labs was noted by Grace Romero,",
+    "zoe_chandler_20": "who is worried that she has been captured by marauders.",
+    "zoe_chandler_21": "However, Grace is unable to go look for Zoe herself,",
+    "zoe_chandler_22": "as she is the only one at the Botanical Labs able to handle a gun and therefore defend the camp.",
+    "zoe_chandler_23": "Grace asks the Stranger for help in locating and bringing Zoe back to the deserters camp.",
+    "zoe_chandler_24": "When the marauder gang in the Abandoned Industrial Zone is defeated by the Stranger,",
+    "zoe_chandler_25": "Zoe expresses her admiration for their skills and asks them to teach her their ways.",
+    "zoe_chandler_26": "She can be convinced to rejoin the deserters and return to the Botanical Labs.",
+    "zoe_chandler_27": "If she returns, she will tell Stefan that she escaped the clutches of the marauders by fighting her way out with her bare hands."
+  },
+  "adrena-time": {
+    "adrena-time_01": "Adrena-Time is a drug manufactured by Spacer's Choice.",
+    "adrena-time_02": "It applies the Adrena-Time High buff for 15 seconds and the Adrena-Time Crash debuff indefinitely,",
+    "adrena-time_03": "until the user sleeps.",
+    "adrena-time_04": "Adrena-Time began when Spacer's Choice employees noticed a steady increase in the productivity of the miner's working there.",
+    "adrena-time_05": "They then discovered the xenocytes, and thus, Adrena-Time was born.",
+    "adrena-time_06": "It applies the Adrena-Time High buff for 15 seconds and the Adrena-Time Crash debuff indefinitely."
+  },
+  "edgewater": {
+    "edgewater_01": "Edgewater is a Spacer's Choice company town located in the Emerald Vale on the planet Terra 2.",
+    "edgewater_02": "Its primary function is supporting the operation of the town's Saltuna Cannery which is supervised by Reed Tobson.",
+    "edgewater_03": "The town's power comes from the local Geothermal Power Plant and shares its power with the region's Botanical Labs.",
+    "edgewater_04": "When the Stranger arrives in Edgewater, the town is struggling.",
+    "edgewater_05": "It has been several seasons since the town has seen any visitors",
+    "edgewater_06": "and a significant proportion of its population has fallen ill with a plague that began in the last few years.",
+    "edgewater_07": "The plague is caused by poor diet and began when the cannery began experiencing a shortage of saltuna and had to stretch its supplies by adding other ingredients to its mixture including wood chips, mushrooms, sand, and canid bits."
+  },
+  "agnes_needham": {
+    "agnes_needham_01": "Agnes Needham is a resident of Stellar Bay and the mother of Tucker Needham.",
+    "agnes_needham_02": "Agnes' overprotective style of mothering has led her son, Tucker Needham, to run away from home so he can experience life.",
+    "agnes_needham_03": "Despite Tucker being 42 years old, she still thinks of him as her 'little boy'.",
+    "agnes_needham_04": "You can find her by Stellar Bay's south-east exit, visibly shaken and calling for help."
+  },
+  "tucker_needham": {
+    "tucker_needham_01": "Tucker Needham is a former resident of Stellar Bay who left to join the Iconoclasts.",
+    "tucker_needham_02": "Before the quest A Family Matter, he can be found in Amber Heights.",
+    "tucker_needham_03": "Tucker was coddled by his mother from a very young age,",
+    "tucker_needham_04": "the latter insisting that danger lurked around every corner on Monarch.",
+    "tucker_needham_05": "His mother's overprotectiveness extended well into Tucker's adulthood,",
+    "tucker_needham_06": "leading him to seek to be free in any way possible.",
+    "tucker_needham_07": "After hearing Graham Bryant's broadcasts, Tucker left Stellar Bay to be truly free by joining the Iconoclasts at Amber Heights.",
+    "tucker_needham_08": "He is dazzled by Graham's preachings on true unfettered freedom from the corporate way of life and attributes his enthusiasm to his 'childhood trauma'.",
+    "tucker_needham_09": "He is willing to do anything to remain free, even faking his own death to prevent his mother from continuing to send people to look for him."
+  },
+  "stellar_bay": {
+    "stellar_bay_01": "Outside the city walls, the lands were overrun by the native wildlife, as well as marauders and outlaws.",
+    "stellar_bay_02": "Stellar Bay is a company town located on the planet Monarch. It is owned and operated by Monarch Stellar Industries.",
+    "stellar_bay_03": "Stellar Bay is the largest saltuna producer on the Halcyon colony and used to be one of the most important suppliers of this resource."
+  },
+  "sulfur_pits": {
+    "sulfur_pits_01": "The Sulfur Pits are a point of interest on the western side of Monarch.",
+    "sulfur_pits_02": "They are located southwest of Terra One Publications and directly northeast of the Gunship Crash Site.",
+    "sulfur_pits_03": "The Sulfur Pits have a large variety of Raptidons and many deceased marauders.",
+    "sulfur_pits_04": "The area consists largely of Sulfur Pits.",
+    "sulfur_pits_05": "When an entity comes in contact with a sulfur pit,",
+    "sulfur_pits_06": "they receive the acid effect for the duration of touching the pit."
+  },
+  "orson_shaw": {
+    "orson_shaw_01": "Orson Shaw is a scientist working with Auntie Cleo in Roseway.",
+    "orson_shaw_02": "Orson was sent to Roseway to study raptidon behavior and ensure the safety of the research team in case the raptidons would cause problems.",
+    "orson_shaw_03": "Unfortunately, he soon found out they cannot be controlled or make them less aggressive.",
+    "orson_shaw_04": "Orson likes to tinker, even if it can get him into trouble.",
+    "orson_shaw_05": "When the Stranger encounters him in Roseway,",
+    "orson_shaw_06": "he is working on \"personal defensive device\",",
+    "orson_shaw_07": "although he is not allowed to mess with tech like that.",
+    "orson_shaw_08": "Moreover Orson seems content Porter is away dealing with outlaws and Anton is busy \"holding his head in his hands\" because Orson can finally do some serious work.",
+    "orson_shaw_09": "Orson is forbidden from using the comms room.",
+    "orson_shaw_10": "The Stranger can choose to tell on Orson to Anton Crane.",
+    "orson_shaw_11": "Surprisingly, Anton is actually pleased when he hears Orson is working on a weapon to use on raptidons,",
+    "orson_shaw_12": "mostly because it may keep him from wasting Anton's time"
+  },
+  "force": {
+    "force_01": "The FORCE Arms Corporation is a weapon manufacturer and conglomerate in The Outer Worlds.",
+    "force_02": "Not much is known about FORCE.",
+    "force_03": "While the Stranger is exploring Roseway,",
+    "force_04": "they are told that citizens are banned from having FORCE weapons in the Halcyon Colony,",
+    "force_05": "and that all FORCE weapons should be turned over to the board.",
+    "force_06": "The company manufactures standard issue weapons for Earth Directorate soldiers,",
+    "force_07": "such as the advanced handgun,",
+    "force_08": "Ultimatum.",
+    "force_09": "FORCE also owns their own colony in the Septerra system."
+  },
+  "ultimatum": {
+    "ultimatum_01": "The Ultimatum is a handgun manufactured by FORCE.",
+    "ultimatum_02": "The Ultimatum is a phlogisynchotron pistol,",
+    "ultimatum_03": "standard issue for Earth Directorate soldiers.",
+    "ultimatum_04": "It was created by FORCE,",
+    "ultimatum_05": "a weapons manufacturer from the Septerra system.",
+    "ultimatum_06": "Since FORCE is not native to Halcyon,",
+    "ultimatum_07": "all of their products are banned in Halcyon by order of The Board.",
+    "ultimatum_08": "Due to Halcyon's prohibiton of FORCE products,",
+    "ultimatum_09": "the Ultimatum obtainable by the player is likely the only one in the system.",
+    "ultimatum_10": "The gun and its schematics were originally in the possession of Orson Shaw;",
+    "ultimatum_11": "it was badly damaged and Orson sought to fix it.",
+    "ultimatum_12": "He was able to sneak the contraband pistol into Roseway's storage facility by claiming it was a cigarette lighter.",
+    "ultimatum_13": "He secretly worked on upgrading and repairing the gun in the mechanical maintenance room.",
+    "ultimatum_14": "Later, Orson fled to Roseway with the pistol after outlaws invaded the region."
+  },
+  "august_van_noy": {
+    "august_van_noy_01": "August Van Noy is a member of the Iconoclasts, encountered near Terra One Publications.",
+    "august_van_noy_02": "August is a relative of May Van Noy.",
+    "august_van_noy_03": "He is less enthusiastic about the mission Graham sends the Van Noys on than May."
+  },
+  "may_van_noy": {
+    "may_van_noy_01": "May Van Noy is a member of the Iconoclasts who is encountered near Terra One Publications."
+  },
+  "sebastian_adams": {
+    "sebastian_adams_01": "Sebastian Adams is a vendor in Stellar Bay who specializes in parts from exotic creatures.",
+    "sebastian_adams_02": "The Stranger can help Celia Robbins ask Sebastian out on a date."
+  },
+  "msi_headquarters": {
+    "msi_headquarters_01": "The MSI Headquarters is a location in Stellar Bay."
+  },
+  "saltuna": {
+    "saltuna_01": "The saltuna is an aquatic creature native to Terra 2.",
+    "saltuna_02": "They are commonly cultivated as a food source,",
+    "saltuna_03": "being used to produce various products around the system.",
+    "saltuna_04": "The saltuna (Salmonidae salinis) is an aquatic creature native to Terra 2."
+  },
+  "talmadge_kerr": {
+    "talmadge_kerr_01": "Talmadge Kerr is a resident of Stellar Bay.",
+    "talmadge_kerr_02": "almadge cleans the Stellar Bay Apartments while the residents are at work.",
+    "talmadge_kerr_03": "He was therefore the first to find Isaac Rose's body after he had been murdered by Elijah.",
+    "talmadge_kerr_04": "After finding the body,",
+    "talmadge_kerr_05": "he ran out onto the the street yelling for help where the Stranger meets him.",
+    "talmadge_kerr_06": "He is very much traumatized by the ordeal."
+  },
+  "left_field_tossball_betting": {
+    "left_field_tossball_betting_01": "Left Field Tossball Betting is a location in Stellar Bay on Monarch.",
+    "left_field_tossball_betting_02": "Nell and other Stellar Bay residents watch tossball games here."
+  },
+  "nell": {
+    "nell_01": "Nell is the proprietor of Left Field Tossball Betting in Stellar Bay.",
+    "nell_02": "Nell is a major tossball fan.",
+    "nell_03": "She is more interested in watching tossball than serving patrons.",
+    "nell_04": "She is happy to spend a large number of bits on related memorabilia and recently ordered a shipment of Tossball Jerseys to decorate her bar which has unfortunately gone missing.",
+    "nell_05": "To make up for the loss of the merchandise,",
+    "nell_06": "she has made an offer to Velma Ballard for a poster signed by Bertie \"Black Hole\" Holcomb which she plans to hang in her bar."
+  },
+  "isaac_rose": {
+    "isaac_rose_01": "Isaac Rose is a murder victim who can be found in the Stellar Bay Apartments.",
+    "isaac_rose_02": "He was an avid fan of tossball and had been known to go on hour-long rants about his favourite team, Mostly Colonists."
+  },
+  "yacht_club": {
+    "yacht_club_01": "The Yacht Club is a bar in Stellar Bay."
+  },
+  "elijah": {
+    "elijah_01": "Elijah is SubLight contractor who can be found in Stellar Bay.",
+    "elijah_02": "Elijah is a hooligan and bully from Fallbrook.",
+    "elijah_03": "According to Nell, he and his buddies are known for dropping off supplies behind a warehouse and getting rowdy over tossball games,",
+    "elijah_04": "so much so that he's not allowed in the bar anymore.",
+    "elijah_05": "He usually loiters in the alley behind The Yacht Club."
+  },
+  "tossball": {
+    "tossball_01": "Tossball is a sport in The Outer Worlds."
+  },
+  "mr_pickett": {
+    "mr_pickett_01": "Pickett was a Halcyon wildlife aficionado who used to tell fantastical stories to the children in Edgewater about the wildlife, not all of them true.",
+    "mr_pickett_02": "While he was in charge of the Emerald Vale Community Center,",
+    "mr_pickett_03": "Pickett was obsessed with acquiring a mantiqueen for the History of Emerald Vale Exhibit.",
+    "mr_pickett_04": "After a failed attempt to acquire a mantiqueen by Hunters & Trackers Ltd,",
+    "mr_pickett_05": "Pickett went to Monarch to acquire the mantiqueen himself.",
+    "mr_pickett_06": "After receiving information from Sebastian Adams about the location of a mantiqueen,",
+    "mr_pickett_07": "he headed out into the wilderness to see it for himself.",
+    "mr_pickett_08": "Sebastian's information was accurate but Pickett was eaten by his quarry in the process.",
+    "mr_pickett_09": "Only his journal would be recoverable from the mantiqueen's digestive system."
+  },
+  "covert_lab": {
+    "covert_lab_01": "Auntie-Biotics secret lab 0027,",
+    "covert_lab_02": "also known as the Covert Lab,",
+    "covert_lab_03": "is a location in the southern part of Roseway Gardens."
+  },
+  "lillian": {
+    "lillian_01": "Lillian is a part of the crew hired by Cassandra O'Malley to assault Auntie Cleo's outpost in Roseway Gardens.",
+    "lillian_02": "She is not very fond of her boss and doesn't care much about the cause Cassandra is fighting for.",
+    "lillian_03": "She isn't heart-broken about losing her crew since she wasn't close with any of them,",
+    "lillian_04": "but she regrets losing her Commemorative Cigarette Case while fleeing the raptidons who got loose.",
+    "lillian_05": "Lillian is a smoker and will ask the Stranger to spare a cigarette. (A pack of cigarettes can be found nearby.)"
+  },
+  "raptidon_pens": {
+    "raptidon_pens_01": "The Raptidon Pens are a point of interest in Roseway Gardens on Terra 2.",
+    "raptidon_pens_02": "They are located south of the Covert Lab.",
+    "raptidon_pens_03": "The raptidons housed in the Raptidon Pens were imported from Monarch for the purposes of experimentation.",
+    "raptidon_pens_04": "However, Lionel Han, who was responsible for managing the raptidons experienced some difficulties in getting the creatures to breed.",
+    "raptidon_pens_05": "When the pens were attacked by Lillian and her crew of outlaws,",
+    "raptidon_pens_06": "the electric fence deactivated for unknown reasons and the raptidons escaped,",
+    "raptidon_pens_07": "killing several of the outlaws."
+  },
+  "commemorative_cigarette_case": {
+    "commemorative_cigarette_case_01": "This cigarette case is metal-lined and embossed with an iconic rendering of The Hope.",
+    "commemorative_cigarette_case_02": "The name, \"Lillian,\" is signed on the inside of the metal lid."
+  },
+  "nelson_mayson": {
+    "nelson_mayson_01": "Nelson Mayson is a SubLight employee operating in Fallbrook.",
+    "nelson_mayson_02": "Nelson works for the SubLight Salvage and Shipping Corporation.",
+    "nelson_mayson_03": "Officially, he keeps the books for Catherine Malin,",
+    "nelson_mayson_04": "provides loans to the Byzantium gold-bloods for gaming,",
+    "nelson_mayson_05": "and oversees Fallbrook's drug-running operations."
+  },
+  "bertrand": {
+    "bertrand_01": "Bertrand runs an animal rescue in his domicile in Fallbrook.",
+    "bertrand_02": "He pitied the sprats Nelson Mayson was using to smuggle drugs through Fallbrook tunnels,",
+    "bertrand_03": "so he stole them and brought them home with him."
+  },
+  "clive_lumbergh": {
+    "clive_lumbergh_01": "Clive Lumbergh is the self-proclaimed boarst king of Monarch and owner of the C&P Boarst Factory.",
+    "clive_lumbergh_02": "A \"self-made man\" in his own eyes, who believes himself to be \"rich in meat and money\".",
+    "clive_lumbergh_03": "Catherine Malin takes notice of Clive's profits and status and wants to take over the factory.",
+    "clive_lumbergh_04": "She eventually asks The Stranger to help her gain control of the factory,",
+    "clive_lumbergh_05": "by either killing Clive or by offering a partnership between the two."
+  },
+  "c&p_boarst_factory": {
+    "c&p_boarst_factory_01": "C&P Boarst Factory is a location in the Monarch Wilderness on Monarch dedicated to the processing and canning of cystypig products such as Boarst Wurst or Boarst 'n Baked Beans.",
+    "c&p_boarst_factory_02": "The factory is owned and run by Clive Lumbergh.",
+    "c&p_boarst_factory_03": "After the hazard clause came into effect and C&P abandoned Monarch like the other companies,",
+    "c&p_boarst_factory_04": "the factory's original employees started showing up to shifts less and less and did not receive their wages.",
+    "c&p_boarst_factory_05": "Eventually the factory stopped its operations until Clive Lumbergh took over and made the factory operational again,",
+    "c&p_boarst_factory_06": "hiring new employees, as well as some of the old ones who had not left Monarch yet.",
+    "c&p_boarst_factory_07": "Under Clive's leadership, the employees were paid well and had steady work,",
+    "c&p_boarst_factory_08": "however their shifts were 23 hours long, and they needed to document the entire shift in 15 minute increments once it had ended.",
+    "c&p_boarst_factory_09": "Clive also threatened the employees frequently and had them call him King.",
+    "c&p_boarst_factory_10": "The cystypigs in the factory are fed human meat,",
+    "c&p_boarst_factory_11": "such as employees who have been given pink slips or disobeyed,",
+    "c&p_boarst_factory_12": "various other Monarch residents such as an Iconoclast and a scientist whose bodies can sometimes be found in the cystypig pens,",
+    "c&p_boarst_factory_13": "and conditionally also the bodies that SubLight's Fallbrook operations may accumulate.",
+    "c&p_boarst_factory_14": "The human remains that Clive is preparing in his office can also be identified as such with a medical skill of 55 during Slaughterhouse Clive."
+  },
+  "duncan_elley": {
+    "duncan_elley_01": "Duncan Elley runs Dry Goods & Sundry in Fallbrook."
+  },
+  "forlorn_crossroads": {
+    "forlorn_crossroads_01": "Forlorn Crossroads is a fast travel location in Monarch Wilderness."
+  },
+  "cystypig": {
+    "cystypig_01": "Cystypigs are creatures in The Outer Worlds.",
+    "cystypig_02": "Bred by the local corporations, cystypigs are pigs that grow bacon tasting tumors on their necks,",
+    "cystypig_03": "which then slough off when matured, ready for harvesting and packaging into \"sustainable meat product.\"",
+    "cystypig_04": "The hooves of slaughtered cystypigs are used as a feed supplement, which provides rich amounts of protein.",
+    "cystypig_05": "At the C&P Boarst Factory, Clive Lumbergh maintains that cystypigs are to be fed exactly five cans of Boarst Wurst each meal every day.",
+    "cystypig_06": "Bred by the local corporations,",
+    "cystypig_07": "cystypigs are pigs that grow bacon tasting tumors on their necks,",
+    "cystypig_08": "which then slough off when matured,",
+    "cystypig_09": "ready for harvesting and packaging into \"sustainable meat product.\"",
+    "cystypig_10": "The hooves of slaughtered cystypigs are used as a feed supplement,",
+    "cystypig_11": "which provides rich amounts of protein.",
+    "cystypig_12": "At the C&P Boarst Factory,",
+    "cystypig_13": "Clive Lumbergh maintains that cystypigs are to be fed exactly five cans of Boarst Wurst each meal every day."
+  },
+  "gladys_culkelly": {
+    "gladys_culkelly_01": "Gladys Culkelly is a fence aboard the Groundbreaker.",
+    "gladys_culkelly_02": "Her office is in the Rest-N-Go.",
+    "gladys_culkelly_03": "Gladys runs a pawn shop and is a black market fence.",
+    "gladys_culkelly_04": "She can sell the Stranger a Navkey to Stellar Bay on Monarch,",
+    "gladys_culkelly_05": "and is also an information broker.",
+    "gladys_culkelly_06": "The old lady, as she calls herself,",
+    "gladys_culkelly_07": "is famous for her cooking and \"do it yourself\" abilities",
+    "gladys_culkelly_08": "she is particularly proud of her sugar cookies,",
+    "gladys_culkelly_09": "but she also knits pillows stuffed with the hair of famous tossball players",
+    "gladys_culkelly_10": "Gladys gives the Stranger a copy of a distress signal from Roseway and offers to buy any valuable data that they find there."
+  },
+  "vaughn_cortes": {
+    "vaughn_cortes_01": "Vaughn Cortes is a scientist in Roseway.",
+    "vaughn_cortes_02": "Vaughn is an endocrinologist who is part of the team stationed at Roseway,",
+    "vaughn_cortes_03": "studying raptidons which have been shipped there from Monarch for anything that can be used in Auntie Cleo products.",
+    "vaughn_cortes_04": "He is specifically responsible for analyzing the raptidon equivalent of hormones, mostly their leptin analogues.",
+    "vaughn_cortes_05": "He has a secret side business extracting raptidon musk as an experimental byproduct and selling it to a buyer from Byzantium known only as \"Gary.\"",
+    "vaughn_cortes_06": "His buyers use the musk to manufacture \"N-Raptured\",",
+    "vaughn_cortes_07": "an aphrodisiac in which it is the key ingredient.",
+    "vaughn_cortes_08": "Vaughn's Raptidon Musk is one of the corporate secrets which may be sold to Gladys Culkelly on Groundbreaker."
+  },
+  "wanda_dorsett": {
+    "wanda_dorsett_01": "Wanda Dorsett is a doctor aboard Groundbreaker.",
+    "wanda_dorsett_02": "Doctor Dorsett is one of the only two doctors on Groundbreaker,",
+    "wanda_dorsett_03": "along with Doctor Idris Mfuru.",
+    "wanda_dorsett_04": "Between the two of them, they trained all the staff in Groundbreaker's Medical Bay.",
+    "wanda_dorsett_05": "She has been struggling with procuring the necessary medical supplies and personnel to continue to serve her patients and is growing concerned with the cost of maintaining Groundbreaker's independence."
+  },
+  "captain_irion": {
+    "captain_irion_01": "Captain Irion is a freelancer who can be found, held hostage, on Scylla.",
+    "captain_irion_02": "Irion is a freelance starship captain.",
+    "captain_irion_03": "He doesn't work for any corporation and has a low opinion on their employees.",
+    "captain_irion_04": "He considers himself to be a skilled mechanic and mediator.",
+    "captain_irion_05": "The medical automechanical accompanying Irion diagnoses him with \"constipation, hair loss, reduction of fertility due to tight trousers.\""
+  },
+  "leonard_wheeler": {
+    "leonard_wheeler_01": "Leonard Wheeler is a corporal aboard the Groundbreaker who mans the customs and immigration desk.",
+    "leonard_wheeler_02": "He asks the Stranger to do him a favor and advise Dr. Wanda Dorsett in the Medical Bay that her shipment hasn't arrived."
+  },
+  "scylla": {
+    "scylla_01": "Scylla is the largest asteroid in the Halcyon system",
+    "scylla_02": "which contains some laboratories and transmitting stations.",
+    "scylla_03": "It was originally claimed by the Hephaestus Mining Company,",
+    "scylla_04": "which has since abandoned it and focused its attention on the planet Hephaestus."
+  },
+  "udom_bedford": {
+    "udom_bedford_01": "Udom Bedford is the representative of the Halcyon Holdings Corporation (HHC) to the Groundbreaker.",
+    "udom_bedford_02": "Emissary to the Board,",
+    "udom_bedford_03": "Udom is a bureaucrat stationed at the main gateway to HHC controlled space.",
+    "udom_bedford_04": "Seeking a way to Byzantium,",
+    "udom_bedford_05": "Udom fostered a relationship with Alex Hawthorne as a means to locate Phineas Vernon Welles and use the fugitive as his ticket off the Groundbreaker,",
+    "udom_bedford_06": "routinely impounding Alex's ship to ensure they meet whenever Alex docks.",
+    "udom_bedford_07": "Outwardly to Alex and others,",
+    "udom_bedford_08": "Udom considers him a friend."
+  },
+  "velma_ballard": {
+    "velma_ballard_01": "Velma Ballard is the supervisor in charge of the Saltuna Warehouse in Stellar Bay.",
+    "velma_ballard_02": "Velma has a tense relationship with Catherine Malin."
+  },
+  "saltuna_warehouse": {
+    "saltuna_warehouse_01": "The Saltuna Warehouse is a location in Stellar Bay on Monarch.",
+    "saltuna_warehouse_02": "The Saltuna Warehouse is run by Velma Ballard.",
+    "saltuna_warehouse_03": "The Warehouse is owned by Monarch Stellar Industries (MSI)",
+    "saltuna_warehouse_04": "When the Stranger first arrives, she has had to pull extra shifts,",
+    "saltuna_warehouse_05": "as Braxton Hecht has not shown up for work in several days",
+    "saltuna_warehouse_06": "and Caleb Herrick, along with his crew, have gone on strike demanding an increase in pay.",
+    "saltuna_warehouse_07": "Since the corporation pullout of the Terra 1 colony,",
+    "saltuna_warehouse_08": "and the blockade by The Board,",
+    "saltuna_warehouse_09": "the warehouse has not been able to find buyers as easily,",
+    "saltuna_warehouse_10": "and have had a total of four batches rot in a span of two months due to this."
+  },
+  "caleb_herrick": {
+    "caleb_herrick_01": "Caleb Herrick is an auto loader operator who works at the Saltuna Warehouse in Stellar Bay.",
+    "caleb_herrick_02": "Caleb at his fellow auto loader operators have walked off their jobs at the Saltuna Warehouse.",
+    "caleb_herrick_03": "Their decision to strike is due to a multitude of factors including having to work longer shifts for less bits and the rising cost of living.",
+    "caleb_herrick_04": "They are taking advantage of the fact that, unlike other Board-run towns, on Monarch they have the right to lobby for better hours and pay.",
+    "caleb_herrick_05": "Caleb intends to strike until he runs out of the bits which he has stashed in his home near the diner.",
+    "caleb_herrick_06": "He estimates that he can hold out for a few weeks.",
+    "caleb_herrick_07": "Despite his desire for better working conditions, Caleb does not want to hurt anyone in the strike process.",
+    "caleb_herrick_08": "He isn't willing to blackmail Velma as some of the others have suggested,",
+    "caleb_herrick_09": "nor is he willing to sacrifice Velma and her job just to get better pay."
+  }
+}

@@ -1,0 +1,73 @@
+[
+  {
+    "id": "herricks_handiwork_00",
+    "quest_name": "herricks_handiwork",
+    "conversation": {
+      "filename": "0402_cv_caleb_herrick",
+      "start_node": 2,
+      "end_nodes": [],
+      "force_include": [
+        13,
+        26,
+        14,
+        50,
+        32,
+        36
+      ],
+      "force_sequence": [
+        [
+          13,
+          26,
+          14
+        ],
+        [
+          50,
+          36
+        ]
+      ]
+    },
+    "in_objective": "O0",
+    "out_objective": "O1",
+    "participants": [
+      "caleb_herrick"
+    ]
+  },
+  {
+    "id": "herricks_handiwork_01",
+    "quest_name": "herricks_handiwork",
+    "conversation": {
+      "filename": "0402_cv_velmaballard",
+      "start_node": 1,
+      "end_nodes": [],
+      "force_include": [
+        133,
+        148
+      ]
+    },
+    "in_objective": [
+      "O1"
+    ],
+    "out_objective": "O2",
+    "participants": [
+      "velma_ballard"
+    ]
+  },
+  {
+    "id": "herricks_handiwork_02",
+    "quest_name": "herricks_handiwork",
+    "conversation": {
+      "filename": "0402_cv_caleb_herrick",
+      "start_node": 40,
+      "end_nodes": [],
+      "force_include": [
+        43
+      ]
+    },
+    "in_objective": [
+      "O2"
+    ],
+    "participants": [
+      "caleb_herrick"
+    ]
+  }
+]

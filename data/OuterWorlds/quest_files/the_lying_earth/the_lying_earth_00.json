@@ -1,0 +1,462 @@
+{
+  "id": "the_lying_earth_00",
+  "quest_name": "the_lying_earth",
+  "conversation": {
+    "filename": "0202_cv_minister_of_earth",
+    "start_node": 89,
+    "end_nodes": [],
+    "force_include": [],
+    "force_sequence": []
+  },
+  "in_objective": "O0",
+  "out_objective": "O1",
+  "participants": [
+    "aloysius_clarke"
+  ],
+  "objectives": {
+    "O0": {
+      "description": {
+        "S1": "Minister Clarke has asked you to send a message to Earth"
+      },
+      "blurb": {
+        "B1": "You will obtain this quest when talking to Minister Clarke for the quest The City and the Stars.",
+        "B2": "Clarke will ask you to use Rockwell's access to message Earth.",
+        "B3": "This unlocks the task: The Lying Earth,",
+        "B4": "and gets you a cartridge with details on corruption on mismanagement: Minister Clarke's Data Cartridge."
+      }
+    },
+    "O1": {
+      "summary": "Send Minister Clarke's Message",
+      "description": {
+        "S1": "Minister Clarke has a message for the Earth Directorate,",
+        "S2": "and one of the only terminals in Halcyon capable of transmitting to the Earthbound message drone is in the Chairman's office.",
+        "S3": "Go to the HHC building in Byzantium and send his message."
+      },
+      "blurb": {
+        "B1": "If you've completed Balance Due you will have access to the HHC building and won't need to use the Maintenance Tunnels.",
+        "B2": "You can also skip the tunnels by walking to the front door and bribing the guard for 2000 bits.",
+        "B3": "Once inside the HHC building go straight ahead and talk to Guard Bachmayer.",
+        "B4": "You'll take a lift heading to Percival Platt -",
+        "B5": "he has nothing important to say so go left and unlock the door with Minister's HHC Access Card",
+        "B6": "You can print the keycard at the terminal to gain the Ministry of Accuracy and Morale Key.",
+        "B7": "You can also send Minister Clarke's message completing the Lying Earth quest and earning you a small amount of Negative Reputation with The Board."
+      }
+    }
+  },
+  "dialog": [
+    {
+      "id": 89,
+      "speaker_guid": "2022d67c-fb94-4895-9fb7-e131419c7c95",
+      "speaker": "MinisterClarke (Male)",
+      "utterance": "When you reach the HHC building, this access card should get you up to the executive suites. Where the Chairman's office and what used to be my office are.",
+      "support_knowledge": [
+        "O1_S3",
+        "halcyon_holdings_corporation_building_01",
+        "halcyon_holdings_corporation_building_02",
+        "halcyon_holdings_corporation_building_03"
+      ]
+    },
+    {
+      "id": 91,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Then I'll be on my way.",
+      "support_knowledge": []
+    },
+    {
+      "id": 120,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "What used to be your office?",
+      "support_knowledge": [
+        "halcyon_holdings_corporation_building_03"
+      ]
+    },
+    {
+      "id": 128,
+      "speaker_guid": "2022d67c-fb94-4895-9fb7-e131419c7c95",
+      "speaker": "MinisterClarke (Male)",
+      "utterance": "Wait! Rockwell has one of the only terminals capable of transmitting to the Earthbound message drone. This is our chance. ",
+      "support_knowledge": [
+        "O1_S2"
+      ]
+    },
+    {
+      "id": 521,
+      "speaker_guid": "2022d67c-fb94-4895-9fb7-e131419c7c95",
+      "speaker": "MinisterClarke (Male)",
+      "utterance": "Please, take this and transmit it from his office. Rockwell hasn't given me any messages from Earth for years - he's desperate to keep me out of contact with the Earth Directorate.",
+      "support_knowledge": [
+        "O1_S1",
+        "aloysius_clarke_03"
+      ]
+    },
+    {
+      "id": 94,
+      "speaker_guid": "2022d67c-fb94-4895-9fb7-e131419c7c95",
+      "speaker": "MinisterClarke (Male)",
+      "utterance": "But they need to know what's happening here.",
+      "support_knowledge": [
+        "aloysius_clarke_05"
+      ]
+    },
+    {
+      "id": 95,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "What's on the cartridge?",
+      "support_knowledge": [
+        "O0_B4",
+        "aloysius_clarke_05"
+      ]
+    },
+    {
+      "id": 259,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Why are you trusting me to help you?",
+      "support_knowledge": []
+    },
+    {
+      "id": 130,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "You can count on me, Minister Clarke.",
+      "support_knowledge": []
+    },
+    {
+      "id": 385,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "No promises.",
+      "support_knowledge": []
+    },
+    {
+      "id": 432,
+      "speaker_guid": "2022d67c-fb94-4895-9fb7-e131419c7c95",
+      "speaker": "MinisterClarke (Male)",
+      "utterance": "What ISN'T on it is the real question! ",
+      "support_knowledge": []
+    },
+    {
+      "id": 131,
+      "speaker_guid": "2022d67c-fb94-4895-9fb7-e131419c7c95",
+      "speaker": "MinisterClarke (Male)",
+      "utterance": "I've gathered meeting minutes, internal messages, sustainability reports, and more, all exposing the corruption and mismanagement plaguing Halcyon. ",
+      "support_knowledge": []
+    },
+    {
+      "id": 132,
+      "speaker_guid": "2022d67c-fb94-4895-9fb7-e131419c7c95",
+      "speaker": "MinisterClarke (Male)",
+      "utterance": "Once the rest of the Earth Directorate sees it, they'll have to send help.",
+      "support_knowledge": [
+        "earth_directorate_01",
+        "earth_directorate_02"
+      ]
+    },
+    {
+      "id": 133,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Good plan.",
+      "support_knowledge": []
+    },
+    {
+      "id": 134,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "That's idiotic.",
+      "support_knowledge": []
+    },
+    {
+      "id": 263,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "How long will that take?",
+      "support_knowledge": []
+    },
+    {
+      "id": 136,
+      "speaker_guid": "2022d67c-fb94-4895-9fb7-e131419c7c95",
+      "speaker": "MinisterClarke (Male)",
+      "utterance": "Perhaps there is hope, after all.",
+      "support_knowledge": []
+    },
+    {
+      "id": 183,
+      "speaker_guid": "2022d67c-fb94-4895-9fb7-e131419c7c95",
+      "speaker": "MinisterClarke (Male)",
+      "utterance": "And now I entrust it to you. Good luck, and trust no one in the Acropolis District.",
+      "support_knowledge": [
+        "byzantium_14",
+        "byzantium_15"
+      ]
+    },
+    {
+      "id": 135,
+      "speaker_guid": "2022d67c-fb94-4895-9fb7-e131419c7c95",
+      "speaker": "MinisterClarke (Male)",
+      "utterance": "In the name of the Architect. What hope is there if this is our best chance? ",
+      "support_knowledge": []
+    },
+    {
+      "id": 434,
+      "speaker_guid": "2022d67c-fb94-4895-9fb7-e131419c7c95",
+      "speaker": "MinisterClarke (Male)",
+      "utterance": "It's all I can do. Please, won't you at least try?",
+      "support_knowledge": []
+    },
+    {
+      "id": 264,
+      "speaker_guid": "2022d67c-fb94-4895-9fb7-e131419c7c95",
+      "speaker": "MinisterClarke (Male)",
+      "utterance": "Depending on the nature of their response? Months, at least. Perhaps years.",
+      "support_knowledge": []
+    },
+    {
+      "id": 265,
+      "speaker_guid": "2022d67c-fb94-4895-9fb7-e131419c7c95",
+      "speaker": "MinisterClarke (Male)",
+      "utterance": "Organizing and sending personnel all the way out here is no mean feat.",
+      "support_knowledge": []
+    },
+    {
+      "id": 266,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Well, it's something.",
+      "support_knowledge": []
+    },
+    {
+      "id": 267,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "But if it works, it'll be worth it.",
+      "support_knowledge": []
+    },
+    {
+      "id": 268,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "This is a waste of time.",
+      "support_knowledge": []
+    },
+    {
+      "id": 260,
+      "speaker_guid": "2022d67c-fb94-4895-9fb7-e131419c7c95",
+      "speaker": "MinisterClarke (Male)",
+      "utterance": "Why indeed? I know so little about you, much less your motivations...",
+      "support_knowledge": []
+    },
+    {
+      "id": 433,
+      "speaker_guid": "2022d67c-fb94-4895-9fb7-e131419c7c95",
+      "speaker": "MinisterClarke (Male)",
+      "utterance": "But I'm afraid I don't have many options, confined as I am. ",
+      "support_knowledge": []
+    },
+    {
+      "id": 261,
+      "speaker_guid": "2022d67c-fb94-4895-9fb7-e131419c7c95",
+      "speaker": "MinisterClarke (Male)",
+      "utterance": "Besides, I've nothing to lose. If you're looking into Rockwell, I can only hope you're also looking out for Halcyon.",
+      "support_knowledge": [
+        "aloysius_clarke_04",
+        "charles_rockwell_01"
+      ]
+    },
+    {
+      "id": 436,
+      "speaker_guid": "2022d67c-fb94-4895-9fb7-e131419c7c95",
+      "speaker": "MinisterClarke (Male)",
+      "utterance": "Good. Halcyon is in dire need of someone like you.",
+      "support_knowledge": []
+    },
+    {
+      "id": 435,
+      "speaker_guid": "2022d67c-fb94-4895-9fb7-e131419c7c95",
+      "speaker": "MinisterClarke (Male)",
+      "utterance": "Then I suppose I can only hope. Good luck.",
+      "support_knowledge": []
+    },
+    {
+      "id": 121,
+      "speaker_guid": "2022d67c-fb94-4895-9fb7-e131419c7c95",
+      "speaker": "MinisterClarke (Male)",
+      "utterance": "Oh, I haven't been allowed up there in years. I shudder to think what Rockwell's done with the place. ",
+      "support_knowledge": [
+        "aloysius_clarke_03"
+      ]
+    },
+    {
+      "id": 262,
+      "speaker_guid": "2022d67c-fb94-4895-9fb7-e131419c7c95",
+      "speaker": "MinisterClarke (Male)",
+      "utterance": "A gilded minibar, perhaps? A personal theater? The man has too much money and too little sense.",
+      "support_knowledge": []
+    }
+  ],
+  "dialog_edges": [
+    [
+      89,
+      91
+    ],
+    [
+      89,
+      120
+    ],
+    [
+      91,
+      128
+    ],
+    [
+      128,
+      521
+    ],
+    [
+      521,
+      94
+    ],
+    [
+      94,
+      95
+    ],
+    [
+      94,
+      259
+    ],
+    [
+      94,
+      130
+    ],
+    [
+      94,
+      385
+    ],
+    [
+      95,
+      432
+    ],
+    [
+      432,
+      131
+    ],
+    [
+      131,
+      132
+    ],
+    [
+      132,
+      133
+    ],
+    [
+      132,
+      134
+    ],
+    [
+      132,
+      263
+    ],
+    [
+      133,
+      136
+    ],
+    [
+      136,
+      183
+    ],
+    [
+      134,
+      135
+    ],
+    [
+      135,
+      434
+    ],
+    [
+      434,
+      130
+    ],
+    [
+      434,
+      385
+    ],
+    [
+      263,
+      264
+    ],
+    [
+      264,
+      265
+    ],
+    [
+      265,
+      266
+    ],
+    [
+      265,
+      267
+    ],
+    [
+      265,
+      268
+    ],
+    [
+      266,
+      183
+    ],
+    [
+      267,
+      136
+    ],
+    [
+      268,
+      135
+    ],
+    [
+      259,
+      260
+    ],
+    [
+      260,
+      433
+    ],
+    [
+      433,
+      261
+    ],
+    [
+      261,
+      95
+    ],
+    [
+      261,
+      130
+    ],
+    [
+      261,
+      385
+    ],
+    [
+      130,
+      436
+    ],
+    [
+      385,
+      435
+    ],
+    [
+      120,
+      121
+    ],
+    [
+      121,
+      262
+    ],
+    [
+      262,
+      91
+    ]
+  ]
+}

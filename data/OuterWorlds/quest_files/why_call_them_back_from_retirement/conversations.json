@@ -1,0 +1,45 @@
+[
+  {
+    "id": "why_call_them_back_from_retirement_00",
+    "quest_name": "why_call_them_back_from_retirement",
+    "conversation": {
+      "filename": "0202_cv_hortense_ingalsbee",
+      "start_node": 1,
+      "end_nodes": [],
+      "force_include": [
+        211,
+        7,
+        108,
+        33,
+        154,
+        5
+      ],
+      "force_sequence": []
+    },
+    "in_objective": "O0",
+    "out_objective": "O1",
+    "participants": [
+      "hortense_ingalsbee"
+    ]
+  },
+  {
+    "id": "why_call_them_back_from_retirement_01",
+    "quest_name": "why_call_them_back_from_retirement",
+    "conversation": {
+      "filename": "0202_cv_hortense_ingalsbee",
+      "start_node": 99,
+      "end_nodes": [
+        6
+      ],
+      "force_include": [
+        165,
+        41
+      ],
+      "force_sequence": []
+    },
+    "in_objective": "O3",
+    "participants": [
+      "hortense_ingalsbee"
+    ]
+  }
+]

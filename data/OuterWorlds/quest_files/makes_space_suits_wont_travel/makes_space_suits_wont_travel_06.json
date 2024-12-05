@@ -1,0 +1,144 @@
+{
+  "id": "makes_space_suits_wont_travel_06",
+  "quest_name": "makes_space_suits_wont_travel",
+  "conversation": {
+    "filename": "0202_cv_hps_clerk_01",
+    "start_node": 2,
+    "end_nodes": [
+      10,
+      3
+    ],
+    "force_include": [
+      74
+    ],
+    "force_sequence": []
+  },
+  "in_objective": "O6",
+  "out_objective": "O7",
+  "participants": [
+    "olive_yates"
+  ],
+  "objectives": {
+    "O6": {
+      "summary": "Get the Lapel from HPS",
+      "description": {
+        "S1": "Every Jolicoeur Original comes with a hand-crafted golden lapel.",
+        "S2": "Celeste ordered a lapel to commemorate her prototype,",
+        "S3": "but the parcel must be signed for and is still at HPS.",
+        "S4": "Head to HPS and retrieve the parcel containing her lapel."
+      },
+      "blurb": {
+        "B1": "Head there and speak to Olive Yates.",
+        "B2": "She'll tell you to go to window B.",
+        "B3": "Speak to Wanda Chen in window B to learn the parcel is already out for delivery.",
+        "B4": "Head to the nav marker in the Estates District and read the note left on the door to learn that the parcel is now back at the HPS,",
+        "B5": "you'll get the HPS Delivery Unsuccessful quest item.",
+        "B6": "Speak to Wanda Chen again and she'll tell you to head to window A.",
+        "B7": "Speak with Olive in Window A and show her your verification to receive the parcel and the Gold Lapel quest item.",
+        "B8": "Then head back to Celeste."
+      }
+    },
+    "O7": {
+      "summary": "Return to Celeste",
+      "description": {
+        "S1": "Now that you have Celeste's lapel,",
+        "S2": "she can finally place the finishing touches on her prototype."
+      },
+      "blurb": {
+        "B1": "returning to Ms. Jolicoeur,",
+        "B2": "the player will find her dead,",
+        "B3": "in the middle of her store.",
+        "B4": "A Corporate Commander will instruct the player to stand back.",
+        "B5": "Pressing further reveals that whatever the Chimaera was supposed to look like,",
+        "B6": "was not in fact legal in Byzantium.",
+        "B7": "As such, being caught red handed with the garment in her possession,",
+        "B8": "an attempt at her arrest was made by the Corporate Troopers,",
+        "B9": "but unfortunately for her, she didn't feel like cooperating,",
+        "B10": "and the guards didn't feel like negotiating,",
+        "B11": "so they shot her.",
+        "B12": "The player has the option to accuse the Trooper of murder and attack,",
+        "B13": "but this understandably a bad idea being that this individual is a high ranking member of Byzantium's Police Force.",
+        "B14": "The other option is to simply call them insane,",
+        "B15": "in which case they say UDL's motto, and walk off."
+      }
+    }
+  },
+  "dialog": [
+    {
+      "id": 2,
+      "speaker_guid": "171a7841-0093-44af-9464-d7f5f0cc12fd",
+      "speaker": "HPSClerk (Female)",
+      "utterance": "How may I be of assistance?",
+      "support_knowledge": [
+        "olive_yates_01"
+      ]
+    },
+    {
+      "id": 74,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I'm here to pick up a parcel for Celeste Jolicoeur.",
+      "support_knowledge": [
+        "O6_S4"
+      ]
+    },
+    {
+      "id": 75,
+      "speaker_guid": "171a7841-0093-44af-9464-d7f5f0cc12fd",
+      "speaker": "HPSClerk (Female)",
+      "utterance": "Of course. If you could just verify for me that you are Jolicoeur-comma-Celeste, or an officially authorized proxy?",
+      "support_knowledge": [
+        "O6_S4"
+      ]
+    },
+    {
+      "id": 78,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "<Show her your authorization.> Celeste gave me this.",
+      "support_knowledge": [
+        "O6_B7"
+      ]
+    },
+    {
+      "id": 76,
+      "speaker_guid": "171a7841-0093-44af-9464-d7f5f0cc12fd",
+      "speaker": "HPSClerk (Female)",
+      "utterance": "Everything seems to be in order. Here you are - one parcel.",
+      "support_knowledge": [
+        "O6_B7"
+      ]
+    },
+    {
+      "id": 80,
+      "speaker_guid": "171a7841-0093-44af-9464-d7f5f0cc12fd",
+      "speaker": "HPSClerk (Female)",
+      "utterance": "I hope this has been a pleasant and satisfying transaction. Halcyon Parcel Service thanks you for your patronage.",
+      "support_knowledge": [
+        "halcyon_parcel_service_01"
+      ]
+    }
+  ],
+  "dialog_edges": [
+    [
+      2,
+      74
+    ],
+    [
+      74,
+      75
+    ],
+    [
+      75,
+      78
+    ],
+    [
+      78,
+      76
+    ],
+    [
+      76,
+      80
+    ]
+  ]
+}

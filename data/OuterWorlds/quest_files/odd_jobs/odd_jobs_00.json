@@ -1,0 +1,209 @@
+{
+  "id": "odd_jobs_00",
+  "quest_name": "odd_jobs",
+  "conversation": {
+    "filename": "0403_bronson_vendor",
+    "start_node": 14,
+    "end_nodes": [
+      15
+    ],
+    "force_include": [
+      48,
+      8
+    ],
+    "force_sequence": []
+  },
+  "in_objective": "O0",
+  "out_objective": "O1",
+  "participants": [
+    "bronson"
+  ],
+  "dialog_edges": [
+    [
+      14,
+      48
+    ],
+    [
+      14,
+      56
+    ],
+    [
+      48,
+      41
+    ],
+    [
+      41,
+      42
+    ],
+    [
+      42,
+      43
+    ],
+    [
+      43,
+      8
+    ],
+    [
+      43,
+      58
+    ],
+    [
+      8,
+      13
+    ],
+    [
+      13,
+      11
+    ],
+    [
+      11,
+      51
+    ],
+    [
+      11,
+      12
+    ],
+    [
+      51,
+      52
+    ],
+    [
+      52,
+      53
+    ],
+    [
+      52,
+      54
+    ],
+    [
+      58,
+      59
+    ]
+  ],
+  "dialog": [
+    {
+      "id": 14,
+      "speaker_guid": "57906545-d811-4f7f-870d-3b0fef7b8e4d",
+      "speaker": "Bronson (Male)",
+      "utterance": "What're you buying?",
+      "support_knowledge": [
+        "bronson_01",
+        "bronson_02"
+      ]
+    },
+    {
+      "id": 48,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Anything I can do to help you out?",
+      "support_knowledge": [
+        "O0_B1"
+      ]
+    },
+    {
+      "id": 56,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Nothing, nevermind.",
+      "support_knowledge": []
+    },
+    {
+      "id": 41,
+      "speaker_guid": "57906545-d811-4f7f-870d-3b0fef7b8e4d",
+      "speaker": "Bronson (Male)",
+      "utterance": "Yeah, plenty. If you're the type to fix a thing or two, I've got a couple reports I need to follow up on.",
+      "support_knowledge": []
+    },
+    {
+      "id": 42,
+      "speaker_guid": "57906545-d811-4f7f-870d-3b0fef7b8e4d",
+      "speaker": "Bronson (Male)",
+      "utterance": "The pipes up on Milton's house burst. Someone needs to shut 'em off. Then there are the cables outside the bar - a sprat chewed through 'em and now they're spitting lightning.",
+      "support_knowledge": [
+        "O1_S1",
+        "O3_S1"
+      ]
+    },
+    {
+      "id": 43,
+      "speaker_guid": "57906545-d811-4f7f-870d-3b0fef7b8e4d",
+      "speaker": "Bronson (Male)",
+      "utterance": "Then there's the old guard house - outside town, on the way to the old Bayside Terrace. Someone needs to reset the comms breaker there.",
+      "support_knowledge": [
+        "O2_S1"
+      ]
+    },
+    {
+      "id": 8,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Simple enough. I'll let you know when they're done.",
+      "support_knowledge": []
+    },
+    {
+      "id": 58,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Wow. Things are really falling apart around here.",
+      "support_knowledge": []
+    },
+    {
+      "id": 13,
+      "speaker_guid": "57906545-d811-4f7f-870d-3b0fef7b8e4d",
+      "speaker": "Bronson (Male)",
+      "utterance": "I oughta tell you - most of these systems are routed through one of our terminals. You might be able to handle some of 'em remotely if you know your way around a computer.",
+      "support_knowledge": []
+    },
+    {
+      "id": 11,
+      "speaker_guid": "57906545-d811-4f7f-870d-3b0fef7b8e4d",
+      "speaker": "Bronson (Male)",
+      "utterance": "We sent Milton out to check on the comms tower a while ago. Ain't heard back. I'd wager he got ate.",
+      "support_knowledge": [
+        "O2_S1"
+      ]
+    },
+    {
+      "id": 51,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Where's this terminal?",
+      "support_knowledge": []
+    },
+    {
+      "id": 12,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Great. I'll keep an eye out.",
+      "support_knowledge": []
+    },
+    {
+      "id": 52,
+      "speaker_guid": "57906545-d811-4f7f-870d-3b0fef7b8e4d",
+      "speaker": "Bronson (Male)",
+      "utterance": "Up the hill. It's right on the cliff's edge.",
+      "support_knowledge": []
+    },
+    {
+      "id": 53,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Ok. Thanks for the tip.",
+      "support_knowledge": []
+    },
+    {
+      "id": 54,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "All right. I'll let you know if I \"get ate.\"",
+      "support_knowledge": []
+    },
+    {
+      "id": 59,
+      "speaker_guid": "57906545-d811-4f7f-870d-3b0fef7b8e4d",
+      "speaker": "Bronson (Male)",
+      "utterance": "That's one way to look at it. Another is: Those are the only things in this whole fucking town that are broke. Maybe we appreciate that.",
+      "support_knowledge": []
+    }
+  ]
+}

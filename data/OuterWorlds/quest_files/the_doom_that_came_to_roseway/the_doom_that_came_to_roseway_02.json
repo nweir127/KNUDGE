@@ -1,0 +1,530 @@
+{
+  "id": "the_doom_that_came_to_roseway_02",
+  "quest_name": "the_doom_that_came_to_roseway",
+  "conversation": {
+    "filename": "08_cv_cleo_porter",
+    "start_node": 3,
+    "end_nodes": [],
+    "force_include": [
+      4,
+      28,
+      223,
+      53,
+      48,
+      51,
+      232,
+      62
+    ],
+    "force_sequence": []
+  },
+  "in_objective": "O2",
+  "out_objective": "O3",
+  "participants": [
+    "porter"
+  ],
+  "objectives": {
+    "O2": {
+      "summary": "Find Anton's Safe",
+      "description": {
+        "S1": "You've been asked to recover research data from the safe in Anton Crane's office."
+      },
+      "blurb": {
+        "B1": "Head out of Roseway to the southeastern part of the map and enter the Covert Lab.",
+        "B2": "You will meet Porter,",
+        "B3": "who is in charge of security and gives you a summary of the situation.",
+        "B4": "You can persuade (45) Porter to give you access to his office,",
+        "B5": "via Porter's Office Keycard.",
+        "B6": "As you explore the area,",
+        "B7": "you'll come to Anton's Office and his safe,",
+        "B8": "only to found that the research has been taken by the Outlaws."
+      }
+    },
+    "O3": {
+      "summary": "Recover Anton's Data",
+      "description": {
+        "S1": "Anton's research data was taken from his safe,",
+        "S2": "likely by outlaws.",
+        "S3": "Search the lab and get it back for them.",
+        "S4": "There's a terminal in Chief Porter's office that can print a security keycard to unlock the doors trapping some of the outlaws."
+      },
+      "blurb": {
+        "B1": "If you go toward the middle of the map you'll meet outlaw leader,",
+        "B2": "Cassandra O'Malley - she is trapped inside a room and ready to negotiate for her life.",
+        "B3": "She needs a keycard to get out of the room and then you'll either have to talk Porter into letting her go,",
+        "B4": "or make safe passage for her to take the Vents out.",
+        "B5": "If you decide to help her escape she says will give your Anton's Data and the quest will update  \"find an escape route\".",
+        "B6": "You can persuade (30) her to have her people stand down.",
+        "B7": "She will then ask you to clear a path and says she will pay you once she is clear."
+      }
+    }
+  },
+  "dialog": [
+    {
+      "id": 3,
+      "speaker_guid": "457e9243-edd4-4f1d-a550-a65d5c61d567",
+      "speaker": "Porter (Male)",
+      "utterance": "You care to explain what you're doing here? Did you miss the big sign outside?",
+      "support_knowledge": [
+        "O2_B2"
+      ]
+    },
+    {
+      "id": 4,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Anton sent me to help. You're in charge of security?",
+      "support_knowledge": [
+        "porter_01"
+      ]
+    },
+    {
+      "id": 5,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I'm no threat. Just a passing freelancer looking for work.",
+      "support_knowledge": []
+    },
+    {
+      "id": 10,
+      "speaker_guid": "457e9243-edd4-4f1d-a550-a65d5c61d567",
+      "speaker": "Porter (Male)",
+      "utterance": "That I am. Name's Porter. If Doc Crane did send you, I'd be glad for the help.",
+      "support_knowledge": [
+        "porter_01"
+      ]
+    },
+    {
+      "id": 19,
+      "speaker_guid": "457e9243-edd4-4f1d-a550-a65d5c61d567",
+      "speaker": "Porter (Male)",
+      "utterance": "Bad news is, we haven't been able to clean these outlaws out of the lab. Good news is, they haven't been able escape, neither.",
+      "support_knowledge": [
+        "O2_B3"
+      ]
+    },
+    {
+      "id": 25,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "So it's a stalemate.",
+      "support_knowledge": []
+    },
+    {
+      "id": 28,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Could they get out through the vents?",
+      "support_knowledge": []
+    },
+    {
+      "id": 44,
+      "speaker_guid": "457e9243-edd4-4f1d-a550-a65d5c61d567",
+      "speaker": "Porter (Male)",
+      "utterance": "For now. I reckon they got no backup. On the other hand, we don't neither. And our mechanicals all went haywire for some damn reason.",
+      "support_knowledge": [
+        "O2_B3"
+      ]
+    },
+    {
+      "id": 234,
+      "speaker_guid": "457e9243-edd4-4f1d-a550-a65d5c61d567",
+      "speaker": "Porter (Male)",
+      "utterance": "Damn mechanicals have always been more trouble than they're worth.",
+      "support_knowledge": []
+    },
+    {
+      "id": 48,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Where can I find your office?",
+      "support_knowledge": [
+        "O2_B4"
+      ]
+    },
+    {
+      "id": 223,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "How are you holding the attackers down there? A place like this must have more than one exit.",
+      "support_knowledge": []
+    },
+    {
+      "id": 53,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "What exactly do you do here?",
+      "support_knowledge": []
+    },
+    {
+      "id": 58,
+      "speaker_guid": "457e9243-edd4-4f1d-a550-a65d5c61d567",
+      "speaker": "Porter (Male)",
+      "utterance": "Why you wanna know that?",
+      "support_knowledge": [
+        "O2_B4"
+      ]
+    },
+    {
+      "id": 51,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I need a security keycard.",
+      "support_knowledge": [
+        "O2_B4"
+      ]
+    },
+    {
+      "id": 232,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I want to be sure it's secure. You said the outlaws could make a card there.",
+      "support_knowledge": [
+        "O2_B4"
+      ]
+    },
+    {
+      "id": 54,
+      "speaker_guid": "457e9243-edd4-4f1d-a550-a65d5c61d567",
+      "speaker": "Porter (Male)",
+      "utterance": "What for?",
+      "support_knowledge": []
+    },
+    {
+      "id": 62,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I'm going down after these guys. I don't want to get trapped by a door you locked behind you.",
+      "support_knowledge": [
+        "O2_B4"
+      ]
+    },
+    {
+      "id": 55,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Honestly, I just want to look around this place.",
+      "support_knowledge": []
+    },
+    {
+      "id": 60,
+      "speaker_guid": "457e9243-edd4-4f1d-a550-a65d5c61d567",
+      "speaker": "Porter (Male)",
+      "utterance": "Fair point. Here's a keycard to my office. Head left from here and downstairs. It's across from the cafeteria. I got a machine that makes pass cards for us.",
+      "support_knowledge": [
+        "O2_B4"
+      ]
+    },
+    {
+      "id": 224,
+      "speaker_guid": "457e9243-edd4-4f1d-a550-a65d5c61d567",
+      "speaker": "Porter (Male)",
+      "utterance": "Just don't knock over any paperwork in there. I got a system.",
+      "support_knowledge": []
+    },
+    {
+      "id": 93,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Enough talk. Those outlaws won't wait forever.",
+      "support_knowledge": []
+    },
+    {
+      "id": 66,
+      "speaker_guid": "457e9243-edd4-4f1d-a550-a65d5c61d567",
+      "speaker": "Porter (Male)",
+      "utterance": "I'm gonna be honest in turn and say ''no.'' Bad enough we got outlaws trying to pick the place clean.",
+      "support_knowledge": []
+    },
+    {
+      "id": 233,
+      "speaker_guid": "457e9243-edd4-4f1d-a550-a65d5c61d567",
+      "speaker": "Porter (Male)",
+      "utterance": "One level down, across from the cafeteria. But I locked it up, and I got the only keycard. To get in, they'd have to blow it. We'd hear.",
+      "support_knowledge": [
+        "O2_B4"
+      ]
+    },
+    {
+      "id": 69,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "If you're wrong, they'll take everything you've got stashed in there.",
+      "support_knowledge": [
+        "O2_B4"
+      ]
+    },
+    {
+      "id": 70,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "And you've been watching to make sure no one sneaks in the whole time since?",
+      "support_knowledge": [
+        "O2_B4"
+      ]
+    },
+    {
+      "id": 71,
+      "speaker_guid": "457e9243-edd4-4f1d-a550-a65d5c61d567",
+      "speaker": "Porter (Male)",
+      "utterance": "If they reach my office, we're screwed anyway.",
+      "support_knowledge": []
+    },
+    {
+      "id": 73,
+      "speaker_guid": "457e9243-edd4-4f1d-a550-a65d5c61d567",
+      "speaker": "Porter (Male)",
+      "utterance": "Well, no. But like I said, to get it open, they'd have to bust the lock.",
+      "support_knowledge": []
+    },
+    {
+      "id": 226,
+      "speaker_guid": "457e9243-edd4-4f1d-a550-a65d5c61d567",
+      "speaker": "Porter (Male)",
+      "utterance": "The garage and the front door are it. These bastards got in through the vent system, but we locked that down.",
+      "support_knowledge": [
+        "O2_B3"
+      ]
+    },
+    {
+      "id": 231,
+      "speaker_guid": "457e9243-edd4-4f1d-a550-a65d5c61d567",
+      "speaker": "Porter (Male)",
+      "utterance": "They're not getting back out that way without a security keycard. They'd need to take mine. Or make a new one in my office, I guess.",
+      "support_knowledge": [
+        "O2_B3"
+      ]
+    },
+    {
+      "id": 221,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I'll be back.",
+      "support_knowledge": []
+    },
+    {
+      "id": 74,
+      "speaker_guid": "457e9243-edd4-4f1d-a550-a65d5c61d567",
+      "speaker": "Porter (Male)",
+      "utterance": "Who, me? Or you mean the lab in general?",
+      "support_knowledge": []
+    },
+    {
+      "id": 78,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Never mind. I'm heading downstairs.",
+      "support_knowledge": []
+    },
+    {
+      "id": 29,
+      "speaker_guid": "457e9243-edd4-4f1d-a550-a65d5c61d567",
+      "speaker": "Porter (Male)",
+      "utterance": "That's how they got in. We got that locked down. There's no access from their level without a security keycard.",
+      "support_knowledge": [
+        "O2_B3"
+      ]
+    },
+    {
+      "id": 143,
+      "speaker_guid": "457e9243-edd4-4f1d-a550-a65d5c61d567",
+      "speaker": "Porter (Male)",
+      "utterance": "That also means no fresh air down there. Probably reeks of raptidon musk. Couldn't happen to a nicer bunch.",
+      "support_knowledge": [
+        "O2_B3"
+      ]
+    },
+    {
+      "id": 23,
+      "speaker_guid": "457e9243-edd4-4f1d-a550-a65d5c61d567",
+      "speaker": "Porter (Male)",
+      "utterance": "I'm Porter, chief of \"Site Safety Engineering.\" That's a fancy way of saying \"guards.\"",
+      "support_knowledge": [
+        "O2_B2",
+        "O2_B3",
+        "porter_02"
+      ]
+    }
+  ],
+  "dialog_edges": [
+    [
+      3,
+      4
+    ],
+    [
+      3,
+      5
+    ],
+    [
+      4,
+      10
+    ],
+    [
+      10,
+      19
+    ],
+    [
+      19,
+      25
+    ],
+    [
+      19,
+      28
+    ],
+    [
+      25,
+      44
+    ],
+    [
+      44,
+      234
+    ],
+    [
+      234,
+      48
+    ],
+    [
+      234,
+      223
+    ],
+    [
+      234,
+      53
+    ],
+    [
+      48,
+      58
+    ],
+    [
+      58,
+      51
+    ],
+    [
+      58,
+      232
+    ],
+    [
+      51,
+      54
+    ],
+    [
+      54,
+      62
+    ],
+    [
+      54,
+      55
+    ],
+    [
+      62,
+      60
+    ],
+    [
+      60,
+      224
+    ],
+    [
+      224,
+      53
+    ],
+    [
+      224,
+      93
+    ],
+    [
+      55,
+      66
+    ],
+    [
+      66,
+      53
+    ],
+    [
+      66,
+      93
+    ],
+    [
+      232,
+      233
+    ],
+    [
+      233,
+      69
+    ],
+    [
+      233,
+      70
+    ],
+    [
+      69,
+      71
+    ],
+    [
+      71,
+      53
+    ],
+    [
+      71,
+      93
+    ],
+    [
+      70,
+      73
+    ],
+    [
+      73,
+      53
+    ],
+    [
+      73,
+      93
+    ],
+    [
+      223,
+      226
+    ],
+    [
+      226,
+      231
+    ],
+    [
+      231,
+      48
+    ],
+    [
+      231,
+      53
+    ],
+    [
+      231,
+      221
+    ],
+    [
+      53,
+      74
+    ],
+    [
+      74,
+      78
+    ],
+    [
+      28,
+      29
+    ],
+    [
+      29,
+      143
+    ],
+    [
+      143,
+      25
+    ],
+    [
+      5,
+      23
+    ],
+    [
+      23,
+      19
+    ]
+  ]
+}

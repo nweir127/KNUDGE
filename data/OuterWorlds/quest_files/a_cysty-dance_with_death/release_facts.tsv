@@ -1,0 +1,119 @@
+ID	fact
+OBJECTIVE O0	
+O0_S1	196:15
+O0_S2	212:25
+O0_S3	238:81
+O0_S4	320:18
+O0_S5	339:17
+O0_B1	This quest is started by informing Clive that the player was sent there by SubLight to kill him,
+O0_B2	but that something can be worked out.
+O0_B3	Clive will ask the player to go kill Catherine.
+OBJECTIVE O1	
+O1_S1	371:55
+O1_B1	She is found in Malin's House of Hospitality in Fallbrook.
+O1_B2	She can be talked to,
+O1_B3	but aside from her usual dialogue options,
+O1_B4	the only option is to attack her by saying that Clive made a counter offer that starts with taking her head.
+OBJECTIVE O2	
+O2_S1	Deliver proof of Catherine's death to Clive Lumbergh in his office in the C&P Factory.
+O2_B1	After speaking to Clive,
+O2_B2	the quest is completed and he will say to expect periodic deliveries of boarst wurst to the Unreliable.
+O2_B3	C&P Boarst Factory reputation is also gained.
+c&p_boarst_factory	
+c&p_boarst_factory_01	C&P Boarst Factory is a location in the Monarch Wilderness on Monarch dedicated to the processing and canning of cystypig products such as Boarst Wurst or Boarst 'n Baked Beans.
+c&p_boarst_factory_02	The factory is owned and run by Clive Lumbergh.
+c&p_boarst_factory_03	After the hazard clause came into effect and C&P abandoned Monarch like the other companies,
+c&p_boarst_factory_04	the factory's original employees started showing up to shifts less and less and did not receive their wages.
+c&p_boarst_factory_05	Eventually the factory stopped its operations until Clive Lumbergh took over and made the factory operational again,
+c&p_boarst_factory_06	hiring new employees, as well as some of the old ones who had not left Monarch yet.
+c&p_boarst_factory_07	Under Clive's leadership, the employees were paid well and had steady work,
+c&p_boarst_factory_08	however their shifts were 23 hours long, and they needed to document the entire shift in 15 minute increments once it had ended.
+c&p_boarst_factory_09	Clive also threatened the employees frequently and had them call him King.
+c&p_boarst_factory_10	The cystypigs in the factory are fed human meat,
+c&p_boarst_factory_11	such as employees who have been given pink slips or disobeyed,
+c&p_boarst_factory_12	various other Monarch residents such as an Iconoclast and a scientist whose bodies can sometimes be found in the cystypig pens,
+c&p_boarst_factory_13	and conditionally also the bodies that SubLight's Fallbrook operations may accumulate.
+c&p_boarst_factory_14	The human remains that Clive is preparing in his office can also be identified as such with a medical skill of 55 during Slaughterhouse Clive.
+catherine_malin	
+catherine_malin_01	Catherine Malin is the outpost administrator of Fallbrook and owner of Malin's House of Hospitality.
+catherine_malin_02	"Catherine, acting on behalf of SubLight Salvage and Shipping Corporation, is the ""top dog"" in Fallbrook, and a mastermind behind it's construction."
+catherine_malin_03	She is known for a violent temper and won't hesitate to hire a hitman to get somebody whacked.
+catherine_malin_04	Sanjar Nandi is afraid of Catherine.
+catherine_malin_05	According to him, she has certain ambitions for Stellar Bay and Sanjar fears asking her for help during Errors Unseen because it may give her the leverage she has been looking for.
+catherine_malin_06	Celia, his assistant, tries to calm him down and says it's perfectly normal to have a healthy fear of her.
+clive_lumbergh	
+clive_lumbergh_01	Clive Lumbergh is the self-proclaimed boarst king of Monarch and owner of the C&P Boarst Factory.
+clive_lumbergh_02	"A ""self-made man"" in his own eyes, who believes himself to be ""rich in meat and money""."
+clive_lumbergh_03	Catherine Malin takes notice of Clive's profits and status and wants to take over the factory.
+clive_lumbergh_04	She eventually asks The Stranger to help her gain control of the factory,
+clive_lumbergh_05	by either killing Clive or by offering a partnership between the two.
+cystypig	
+cystypig_01	Cystypigs are creatures in The Outer Worlds.
+cystypig_02	Bred by the local corporations, cystypigs are pigs that grow bacon tasting tumors on their necks,
+cystypig_03	"which then slough off when matured, ready for harvesting and packaging into ""sustainable meat product."""
+cystypig_04	The hooves of slaughtered cystypigs are used as a feed supplement, which provides rich amounts of protein.
+cystypig_05	At the C&P Boarst Factory, Clive Lumbergh maintains that cystypigs are to be fed exactly five cans of Boarst Wurst each meal every day.
+cystypig_06	Bred by the local corporations,
+cystypig_07	cystypigs are pigs that grow bacon tasting tumors on their necks,
+cystypig_08	which then slough off when matured,
+cystypig_09	"ready for harvesting and packaging into ""sustainable meat product."""
+cystypig_10	The hooves of slaughtered cystypigs are used as a feed supplement,
+cystypig_11	which provides rich amounts of protein.
+cystypig_12	At the C&P Boarst Factory,
+cystypig_13	Clive Lumbergh maintains that cystypigs are to be fed exactly five cans of Boarst Wurst each meal every day.
+duncan_elley	
+duncan_elley_01	Duncan Elley runs Dry Goods & Sundry in Fallbrook.
+fallbrook	
+fallbrook_01	Fallbrook is a company town located on Monarch,
+fallbrook_02	loosely run by the SubLight Salvage and Shipping Corporation.
+fallbrook_03	Fallbrook is a small town built into the side of a mountain,
+fallbrook_04	whose construction was masterminded by Catherine Malin.
+fallbrook_05	Fallbrook has a lot of activities to offer to its visitors,
+fallbrook_06	from those who search for activities of leisure to those with proclivities for vice.
+forlorn_crossroads	
+forlorn_crossroads_01	Forlorn Crossroads is a fast travel location in Monarch Wilderness.
+monarch	
+monarch_01	Monarch, previously known as Terra 1, is one of the many moons of the gas giant Olympus and the site of a failed colony.
+monarch_02	Terra 1 was initially designated as the primary colonization target of the Halcyon system.
+monarch_03	The Halcyon Holdings Corporate Board had intended to completely terraform the moon,
+monarch_04	wiping out the local fauna and flora and replacing it with plants and wildlife native to Earth.
+monarch_05	However, the terraforming process unexpectedly caused the native species to mutate and grow to significantly larger sizes,
+monarch_06	rendering them more dangerous and severely crippling the colonization effort.
+monarch_07	Due to the hostile environment which they had created,
+monarch_08	the Board was forced to enact a Hazard Clause covering the entirety of Terra 1.
+monarch_09	Public notice of the clause's issuance was sent to everyone operating on Terra 1 and led to the evacuation of almost all corporations from the moon.
+monarch_10	However, one corporation took advantage of the chaos of the evacuation to exploit a legal loophole which allowed them to,
+monarch_11	as the last corporation remaining on the planet,
+monarch_12	acquire the planet from the Board.
+monarch_13	This corporation, under the leadership of Sanjar Nandi and Graham Bryant subsequently rebranded itself to Monarch Stellar Industries (MSI),
+monarch_14	in line with the renaming of the planet to 'Monarch'.
+monarch_15	The actions of MSI earned them the ire of the Board,
+monarch_16	who retaliated by effectively placing the moon under indefinite embargo,
+monarch_17	refusing to allow legal transit either in or out.
+monarch_18	the Board aggressively spread propaganda about Monarch to convince the rest of the population that it was both uninhabited and uninhabitable.
+monarch_19	This has greatly hampered MSI's attempts to be recognized as a legitimate corporation and is a thorn in the side of its CEO, Sanjar Nandi.
+monarch_20	"Monarch also has an ocean which goes around the moon at the ""twilight band""."
+monarch_21	It is where the colonists and Monarch Stellar Industries farm their saltuna.
+saltuna	
+saltuna_01	The saltuna is an aquatic creature native to Terra 2.
+saltuna_02	They are commonly cultivated as a food source,
+saltuna_03	being used to produce various products around the system.
+saltuna_04	The saltuna (Salmonidae salinis) is an aquatic creature native to Terra 2.
+sublight	
+sublight_01	"The SubLight Salvage and Shipping Corporation, also known as SubLight Salvage and Shipping or simply SubLight , is a network of ""salvagers"" with business ties to ""transportation"" and ""waste disposal""."
+sublight_02	A tangled web of contractors and secretive vice presidents make up their official hierarchy,
+sublight_03	leaving no one to speak on the record about SubLight's more legally dubious activities.
+sublight_04	SubLight as a business operates activities that would be considered illicit by some,
+sublight_05	amoral by others,
+sublight_06	and at odds with the Board,
+sublight_07	such as the takeover of abandoned space habitats,
+sublight_08	smuggling contraband,
+sublight_09	and serving as a front for companies to bypass the infamous Hazard Clause applied on Monarch.
+sublight_10	According to director Lilya Hagen,
+sublight_11	operating off of Groundbreaker,
+sublight_12	"SubLight ""occupies a legal blind spot."
+sublight_13	No one knows what [they're] licensed to do,
+sublight_14	"and that gives [their] little business some freedom."""
+sublight_15	Although the Board tolerates and sees the value of SubLight's activities,
+sublight_16	there are still limits to what the latter can get away with.
+sublight_17	SubLight maintains an office aboard the Groundbreaker as well as a settlement on Monarch known as Fallbrook.

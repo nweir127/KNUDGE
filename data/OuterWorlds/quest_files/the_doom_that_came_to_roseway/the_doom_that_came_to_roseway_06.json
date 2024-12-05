@@ -1,0 +1,203 @@
+{
+  "id": "the_doom_that_came_to_roseway_06",
+  "quest_name": "the_doom_that_came_to_roseway",
+  "conversation": {
+    "filename": "08_cv_scientist_anton",
+    "start_node": 549,
+    "end_nodes": [
+      167
+    ],
+    "force_include": [
+      335,
+      746,
+      328,
+      745,
+      212
+    ],
+    "force_sequence": []
+  },
+  "in_objective": "O6",
+  "participants": [
+    "anton_crane"
+  ],
+  "objectives": {
+    "O6": {
+      "summary": "Speak to Anton",
+      "description": {
+        "S1": "You got Anton's diet toothpaste research data.",
+        "S2": "Head to Roseway and speak with him."
+      },
+      "blurb": {
+        "B1": "If you return to Anton Crane after resolving the lab peacefully,",
+        "B2": "he and Porter will be arguing about it.",
+        "B3": "You can give him the research data for massive Auntie Cleo Reputation Up, 3755 Bit Cartridge, 23000xp and Researcher's Scrubs.",
+        "B4": "He will further reward you with Auntie Cleo reputation if you didn't kill the Raptidons."
+      }
+    }
+  },
+  "dialog": [
+    {
+      "id": 549,
+      "speaker_guid": "b6b89b91-20f7-4e45-a3a5-58a37608bc32",
+      "speaker": "Anton (Male)",
+      "utterance": "That no account fool Porter and his crew are even more worthless than I could've imagined. They've abandoned their posts! This is madness!",
+      "support_knowledge": [
+        "O6_B1",
+        "O6_B2",
+        "anton_crane_12"
+      ]
+    },
+    {
+      "id": 335,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I convinced the outlaws that staying would be hazardous to their health.",
+      "support_knowledge": []
+    },
+    {
+      "id": 326,
+      "speaker_guid": "b6b89b91-20f7-4e45-a3a5-58a37608bc32",
+      "speaker": "Anton (Male)",
+      "utterance": "My research? Please tell me you've recovered it.",
+      "support_knowledge": [
+        "O6_S1",
+        "O6_S2"
+      ]
+    },
+    {
+      "id": 327,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Yes, here it is.",
+      "support_knowledge": [
+        "O6_S2"
+      ]
+    },
+    {
+      "id": 328,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I have not.",
+      "support_knowledge": []
+    },
+    {
+      "id": 727,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "No, I'm keeping it.",
+      "support_knowledge": []
+    },
+    {
+      "id": 746,
+      "speaker_guid": "b6b89b91-20f7-4e45-a3a5-58a37608bc32",
+      "speaker": "Anton (Male)",
+      "utterance": "That's... you can't possibly understand the enormity of what you've done for me. ",
+      "support_knowledge": [
+        "O6_B3"
+      ]
+    },
+    {
+      "id": 243,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "It was no trouble.",
+      "support_knowledge": []
+    },
+    {
+      "id": 210,
+      "speaker_guid": "b6b89b91-20f7-4e45-a3a5-58a37608bc32",
+      "speaker": "Anton (Male)",
+      "utterance": "Excellent. If we're done here, I'd like to get back to work. You understand.",
+      "support_knowledge": []
+    },
+    {
+      "id": 212,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Of course.",
+      "support_knowledge": []
+    },
+    {
+      "id": 329,
+      "speaker_guid": "b6b89b91-20f7-4e45-a3a5-58a37608bc32",
+      "speaker": "Anton (Male)",
+      "utterance": "That's all manner of distressing. There truly is nothing left for me...",
+      "support_knowledge": []
+    },
+    {
+      "id": 597,
+      "speaker_guid": "b6b89b91-20f7-4e45-a3a5-58a37608bc32",
+      "speaker": "Anton (Male)",
+      "utterance": "Keeping it? But why? Do you expect there is a black market for toothpaste formulae? ",
+      "support_knowledge": []
+    },
+    {
+      "id": 599,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I'm sure I can find someone who will pay for it.",
+      "support_knowledge": []
+    },
+    {
+      "id": 600,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "No reason, just want to mess with you.",
+      "support_knowledge": []
+    }
+  ],
+  "dialog_edges": [
+    [
+      549,
+      335
+    ],
+    [
+      335,
+      326
+    ],
+    [
+      326,
+      327
+    ],
+    [
+      326,
+      328
+    ],
+    [
+      326,
+      727
+    ],
+    [
+      327,
+      746
+    ],
+    [
+      746,
+      243
+    ],
+    [
+      243,
+      210
+    ],
+    [
+      210,
+      212
+    ],
+    [
+      328,
+      329
+    ],
+    [
+      727,
+      597
+    ],
+    [
+      597,
+      599
+    ],
+    [
+      597,
+      600
+    ]
+  ]
+}

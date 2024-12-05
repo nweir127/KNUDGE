@@ -1,0 +1,646 @@
+{
+  "id": "herricks_handiwork_00",
+  "quest_name": "herricks_handiwork",
+  "conversation": {
+    "filename": "0402_cv_caleb_herrick",
+    "start_node": 2,
+    "end_nodes": [],
+    "force_include": [
+      13,
+      26,
+      14,
+      50,
+      32,
+      36
+    ],
+    "force_sequence": [
+      [
+        13,
+        26,
+        14
+      ],
+      [
+        50,
+        36
+      ]
+    ]
+  },
+  "in_objective": "O0",
+  "out_objective": "O1",
+  "participants": [
+    "caleb_herrick"
+  ],
+  "dialog_edges": [
+    [
+      2,
+      3
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      2,
+      5
+    ],
+    [
+      3,
+      6
+    ],
+    [
+      6,
+      8
+    ],
+    [
+      8,
+      13
+    ],
+    [
+      8,
+      26
+    ],
+    [
+      8,
+      14
+    ],
+    [
+      8,
+      36
+    ],
+    [
+      8,
+      15
+    ],
+    [
+      13,
+      16
+    ],
+    [
+      16,
+      71
+    ],
+    [
+      71,
+      18
+    ],
+    [
+      18,
+      19
+    ],
+    [
+      18,
+      20
+    ],
+    [
+      18,
+      65
+    ],
+    [
+      19,
+      21
+    ],
+    [
+      21,
+      23
+    ],
+    [
+      23,
+      25
+    ],
+    [
+      25,
+      8
+    ],
+    [
+      20,
+      22
+    ],
+    [
+      22,
+      23
+    ],
+    [
+      65,
+      66
+    ],
+    [
+      66,
+      23
+    ],
+    [
+      26,
+      27
+    ],
+    [
+      27,
+      28
+    ],
+    [
+      28,
+      29
+    ],
+    [
+      28,
+      30
+    ],
+    [
+      29,
+      31
+    ],
+    [
+      31,
+      8
+    ],
+    [
+      14,
+      41
+    ],
+    [
+      41,
+      50
+    ],
+    [
+      41,
+      32
+    ],
+    [
+      41,
+      36
+    ],
+    [
+      41,
+      15
+    ],
+    [
+      50,
+      52
+    ],
+    [
+      52,
+      41
+    ],
+    [
+      32,
+      33
+    ],
+    [
+      33,
+      35
+    ],
+    [
+      35,
+      8
+    ],
+    [
+      36,
+      37
+    ],
+    [
+      37,
+      68
+    ],
+    [
+      68,
+      8
+    ],
+    [
+      4,
+      6
+    ],
+    [
+      5,
+      7
+    ],
+    [
+      7,
+      9
+    ],
+    [
+      7,
+      73
+    ],
+    [
+      7,
+      10
+    ],
+    [
+      7,
+      11
+    ],
+    [
+      9,
+      6
+    ],
+    [
+      73,
+      6
+    ],
+    [
+      10,
+      64
+    ],
+    [
+      64,
+      8
+    ],
+    [
+      11,
+      12
+    ],
+    [
+      12,
+      8
+    ]
+  ],
+  "dialog": [
+    {
+      "id": 2,
+      "speaker_guid": "6c6d7f08-927e-49c1-979f-33ce36a2d17f",
+      "speaker": "Caleb_Herrick (Male)",
+      "utterance": "New face, huh? You from offworld?",
+      "support_knowledge": [
+        "O0_B1"
+      ]
+    },
+    {
+      "id": 3,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Yep. Captain <PlayerName>, of the Unreliable.",
+      "support_knowledge": [
+        "unreliable_16"
+      ]
+    },
+    {
+      "id": 4,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Yeah. Captain Hawthorne, of the Unreliable.",
+      "support_knowledge": [
+        "unreliable_16"
+      ]
+    },
+    {
+      "id": 5,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "What's it to you?",
+      "support_knowledge": []
+    },
+    {
+      "id": 6,
+      "speaker_guid": "6c6d7f08-927e-49c1-979f-33ce36a2d17f",
+      "speaker": "Caleb_Herrick (Male)",
+      "utterance": "A ship captain! Well, I'll be. Here, let me buy you a drink. Consider it an MSI welcome.",
+      "support_knowledge": [
+        "O0_B2",
+        "stellar_bay_02"
+      ]
+    },
+    {
+      "id": 8,
+      "speaker_guid": "6c6d7f08-927e-49c1-979f-33ce36a2d17f",
+      "speaker": "Caleb_Herrick (Male)",
+      "utterance": "Why don't you grab a chair. Sit a spell and revel with us.",
+      "support_knowledge": [
+        "O0_B2"
+      ]
+    },
+    {
+      "id": 13,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "What are you celebrating?",
+      "support_knowledge": []
+    },
+    {
+      "id": 26,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I happen to be pretty good with negotiations.",
+      "support_knowledge": []
+    },
+    {
+      "id": 14,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "We need to talk about Velma.",
+      "support_knowledge": [
+        "O0_S1"
+      ]
+    },
+    {
+      "id": 36,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "What's this about blackmail, now?",
+      "support_knowledge": [
+        "O0_B7",
+        "caleb_herrick_08"
+      ]
+    },
+    {
+      "id": 15,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I'll talk to you later.",
+      "support_knowledge": []
+    },
+    {
+      "id": 16,
+      "speaker_guid": "6c6d7f08-927e-49c1-979f-33ce36a2d17f",
+      "speaker": "Caleb_Herrick (Male)",
+      "utterance": "Me and my friends have taken our destiny into our own hands. We're untethered. Free of responsibility and worldly cares.",
+      "support_knowledge": [
+        "O0_B3"
+      ]
+    },
+    {
+      "id": 71,
+      "speaker_guid": "6c6d7f08-927e-49c1-979f-33ce36a2d17f",
+      "speaker": "Caleb_Herrick (Male)",
+      "utterance": "Well, as long as we don't run out of bits.",
+      "support_knowledge": [
+        "caleb_herrick_05",
+        "bits_01"
+      ]
+    },
+    {
+      "id": 18,
+      "speaker_guid": "6c6d7f08-927e-49c1-979f-33ce36a2d17f",
+      "speaker": "Caleb_Herrick (Male)",
+      "utterance": "But until the windfall's gone, we're riding high. See, we just walked out on our work. Had enough, we did. So now we're striking!",
+      "support_knowledge": [
+        "O0_B3",
+        "caleb_herrick_02",
+        "caleb_herrick_04",
+        "caleb_herrick_05",
+        "saltuna_warehouse_06"
+      ]
+    },
+    {
+      "id": 19,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "What could be so bad it made you walk off the job?",
+      "support_knowledge": [
+        "O0_B3"
+      ]
+    },
+    {
+      "id": 20,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Won't you get in trouble for that?",
+      "support_knowledge": [
+        "caleb_herrick_04"
+      ]
+    },
+    {
+      "id": 65,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Good luck with that.",
+      "support_knowledge": []
+    },
+    {
+      "id": 21,
+      "speaker_guid": "6c6d7f08-927e-49c1-979f-33ce36a2d17f",
+      "speaker": "Caleb_Herrick (Male)",
+      "utterance": "It ain't any one thing but the sum of it all. Having to working longer shifts for less bits. And the wages we do earn don't cover as much they used to.",
+      "support_knowledge": [
+        "O0_B3",
+        "caleb_herrick_03",
+        "bits_01"
+      ]
+    },
+    {
+      "id": 23,
+      "speaker_guid": "6c6d7f08-927e-49c1-979f-33ce36a2d17f",
+      "speaker": "Caleb_Herrick (Male)",
+      "utterance": "Our supervisor, Velma, goes on and on about quarterly profits and meeting quotas. But that ain't what Sanjar promised us. Velma refuses to negotiate, so we're refusing to work.",
+      "support_knowledge": [
+        "O0_S1",
+        "O0_B3",
+        "O1_S1",
+        "velma_ballard_01",
+        "saltuna_warehouse_02",
+        "sanjar_nandi_01"
+      ]
+    },
+    {
+      "id": 25,
+      "speaker_guid": "6c6d7f08-927e-49c1-979f-33ce36a2d17f",
+      "speaker": "Caleb_Herrick (Male)",
+      "utterance": "We won't go back until she agrees to pay us fair and proper. Us on Monarch, we're free from the Board, you know. We have the right to lobby for better hours and pay.",
+      "support_knowledge": [
+        "O0_S1",
+        "caleb_herrick_01",
+        "caleb_herrick_04",
+        "saltuna_warehouse_01"
+      ]
+    },
+    {
+      "id": 22,
+      "speaker_guid": "6c6d7f08-927e-49c1-979f-33ce36a2d17f",
+      "speaker": "Caleb_Herrick (Male)",
+      "utterance": "I don't see how. When Sanjar took over MSI, he tossed all the old corporate rules. We ain't required no more to work whatever job the company demands.",
+      "support_knowledge": [
+        "caleb_herrick_04",
+        "sanjar_nandi_01"
+      ]
+    },
+    {
+      "id": 66,
+      "speaker_guid": "6c6d7f08-927e-49c1-979f-33ce36a2d17f",
+      "speaker": "Caleb_Herrick (Male)",
+      "utterance": "Why, thank you.",
+      "support_knowledge": []
+    },
+    {
+      "id": 27,
+      "speaker_guid": "6c6d7f08-927e-49c1-979f-33ce36a2d17f",
+      "speaker": "Caleb_Herrick (Male)",
+      "utterance": "I wouldn't doubt it. You look like the type who tends to come out on top. Not like us cogs... trying to be the squeaky wheel but just getting deadlocked.",
+      "support_knowledge": [
+        "O0_B4",
+        "caleb_herrick_01"
+      ]
+    },
+    {
+      "id": 28,
+      "speaker_guid": "6c6d7f08-927e-49c1-979f-33ce36a2d17f",
+      "speaker": "Caleb_Herrick (Male)",
+      "utterance": "It's been days but Velma won't even hear us out. Maybe you could make her listen to our demands?",
+      "support_knowledge": [
+        "O0_S1",
+        "O0_B4",
+        "velma_ballard_01"
+      ]
+    },
+    {
+      "id": 29,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I'll mediate on your behalf.",
+      "support_knowledge": [
+        "O0_B5"
+      ]
+    },
+    {
+      "id": 30,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Maybe another time.",
+      "support_knowledge": []
+    },
+    {
+      "id": 31,
+      "speaker_guid": "6c6d7f08-927e-49c1-979f-33ce36a2d17f",
+      "speaker": "Caleb_Herrick (Male)",
+      "utterance": "You would do that? We sure are lucky you decided to come up to the patio today. I knew drinking up here would be good for more than the view.",
+      "support_knowledge": [
+        "O0_B1",
+        "yacht_club_01"
+      ]
+    },
+    {
+      "id": 41,
+      "speaker_guid": "6c6d7f08-927e-49c1-979f-33ce36a2d17f",
+      "speaker": "Caleb_Herrick (Male)",
+      "utterance": "Sure thing. What did you want to discuss?",
+      "support_knowledge": []
+    },
+    {
+      "id": 50,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "How long can you afford to miss work?",
+      "support_knowledge": [
+        "O0_B6"
+      ]
+    },
+    {
+      "id": 32,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Any suggestions for how to put pressure on Velma to negotiate?",
+      "support_knowledge": [
+        "O0_B4"
+      ]
+    },
+    {
+      "id": 52,
+      "speaker_guid": "6c6d7f08-927e-49c1-979f-33ce36a2d17f",
+      "speaker": "Caleb_Herrick (Male)",
+      "utterance": "Not forever, but we've each saved up our bits, and I stashed 'em safe in my home by the diner. I reckon we could last a week or two at least.",
+      "support_knowledge": [
+        "O0_B6",
+        "caleb_herrick_05",
+        "caleb_herrick_06"
+      ]
+    },
+    {
+      "id": 33,
+      "speaker_guid": "6c6d7f08-927e-49c1-979f-33ce36a2d17f",
+      "speaker": "Caleb_Herrick (Male)",
+      "utterance": "If I knew that, I'd have tried it. Talking reasonably got me nowhere. Maybe you'll fare better.",
+      "support_knowledge": [
+        "O0_S1",
+        "O0_B4"
+      ]
+    },
+    {
+      "id": 35,
+      "speaker_guid": "6c6d7f08-927e-49c1-979f-33ce36a2d17f",
+      "speaker": "Caleb_Herrick (Male)",
+      "utterance": "The others wanted to blackmail her, but we're above that. 'Sides them are just rumors. We got no proof they're true.",
+      "support_knowledge": [
+        "O0_B7",
+        "caleb_herrick_08"
+      ]
+    },
+    {
+      "id": 37,
+      "speaker_guid": "6c6d7f08-927e-49c1-979f-33ce36a2d17f",
+      "speaker": "Caleb_Herrick (Male)",
+      "utterance": "I would never endorse such a untoward tactic you know... but well... there're rumors that Velma's taking a cut of the profits.",
+      "support_knowledge": [
+        "O0_B7",
+        "O0_B8",
+        "O1_S2",
+        "caleb_herrick_08"
+      ]
+    },
+    {
+      "id": 68,
+      "speaker_guid": "6c6d7f08-927e-49c1-979f-33ce36a2d17f",
+      "speaker": "Caleb_Herrick (Male)",
+      "utterance": "So far, it's just gossip, you know? But if there was any proof to be had, it'd be in the Saltuna warehouse, I reckon.",
+      "support_knowledge": [
+        "O0_B7",
+        "O0_B8",
+        "velma_ballard_01",
+        "caleb_herrick_08",
+        "saltuna_warehouse_01"
+      ]
+    },
+    {
+      "id": 7,
+      "speaker_guid": "6c6d7f08-927e-49c1-979f-33ce36a2d17f",
+      "speaker": "Caleb_Herrick (Male)",
+      "utterance": "Nothing at all. Just like to be friendly-like with newcomers. It's the MSI way.",
+      "support_knowledge": [
+        "stellar_bay_02"
+      ]
+    },
+    {
+      "id": 9,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Fair enough. Captain <oeitoken>PlayerName</oeitoken>, of the Unreliable.",
+      "support_knowledge": [
+        "unreliable_16"
+      ]
+    },
+    {
+      "id": 73,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Fair enough. Captain Hawthorne, of the Unreliable.",
+      "support_knowledge": [
+        "unreliable_16"
+      ]
+    },
+    {
+      "id": 10,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Why would you want to do that?",
+      "support_knowledge": []
+    },
+    {
+      "id": 11,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "If I see a newcomer, I'll tell them you're buying.",
+      "support_knowledge": []
+    },
+    {
+      "id": 64,
+      "speaker_guid": "6c6d7f08-927e-49c1-979f-33ce36a2d17f",
+      "speaker": "Caleb_Herrick (Male)",
+      "utterance": "Isn't so often we get new faces around town. Plus, we've cause for celebration today.",
+      "support_knowledge": [
+        "O0_B2"
+      ]
+    },
+    {
+      "id": 12,
+      "speaker_guid": "6c6d7f08-927e-49c1-979f-33ce36a2d17f",
+      "speaker": "Caleb_Herrick (Male)",
+      "utterance": "Mighty accommodating of you, newcomer. Er, I mean traveler.",
+      "support_knowledge": []
+    }
+  ]
+}

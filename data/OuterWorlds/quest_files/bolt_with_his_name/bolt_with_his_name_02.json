@@ -1,0 +1,249 @@
+{
+  "id": "bolt_with_his_name_02",
+  "quest_name": "bolt_with_his_name",
+  "conversation": {
+    "filename": "0401_cv_huxley_iconoclast",
+    "start_node": 41,
+    "end_nodes": [],
+    "force_include": []
+  },
+  "in_objective": "O3",
+  "out_objective": "O4",
+  "participants": [
+    "huxley"
+  ],
+  "objectives": {
+    "O3": {
+      "summary": "Obtain the BOLT-52",
+      "description": {
+        "S1": "The BOLT-52 is in a locked closet.",
+        "S2": "Find a way inside and retrieve it."
+      },
+      "blurb": {
+        "B1": "Huxley's partner had the key to the door, but he was probably killed by raptidons.",
+        "B2": "You might find the key on his body, or in a raptidon's stomach.",
+        "B3": "You found the key to the closet.",
+        "B4": "You can also ask Huxley to open the door from inside, it takes Perception, or Engineering (35), Intimidate (55) or Persuade (55).",
+        "B5": "The door will open and Huxley will come outand you'll get Iconoclasts reputation.",
+        "B6": "You can ask her for a reward, and obtain some Iconoclast reputation.",
+        "B7": "Inside the room, loot Mag-Pick, Ammo and Bit Cartridge and the BOLT-52 Cartridge."
+      }
+    },
+    "O4": {
+      "summary": "Return to Sanjar",
+      "description": {
+        "S1": "Return the BOLT-52 to Sanjar in Stellar Bay."
+      },
+      "blurb": {
+        "B1": "Return to Sanjar and tell him you saw the review.",
+        "B2": "He will mention he even gave a kidney to the company in order to improve his chances of being promoted.",
+        "B3": "You can encourage him for the part he plays now."
+      }
+    }
+  },
+  "dialog_edges": [
+    [
+      41,
+      43
+    ],
+    [
+      43,
+      44
+    ],
+    [
+      43,
+      45
+    ],
+    [
+      43,
+      46
+    ],
+    [
+      43,
+      47
+    ],
+    [
+      43,
+      64
+    ],
+    [
+      44,
+      48
+    ],
+    [
+      48,
+      43
+    ],
+    [
+      45,
+      49
+    ],
+    [
+      49,
+      68
+    ],
+    [
+      49,
+      53
+    ],
+    [
+      68,
+      69
+    ],
+    [
+      69,
+      70
+    ],
+    [
+      70,
+      43
+    ],
+    [
+      53,
+      58
+    ],
+    [
+      58,
+      43
+    ],
+    [
+      46,
+      59
+    ],
+    [
+      47,
+      60
+    ]
+  ],
+  "dialog": [
+    {
+      "id": 41,
+      "speaker_guid": "50acb95a-e260-4570-8590-2064a43a28e5",
+      "speaker": "Huxley (Female)",
+      "utterance": "AHH! Whew! Thank you so much! It was getting all stuffy in there and I was getting a mite light-headed and I think maybe I was gonna die.",
+      "support_knowledge": [
+        "huxley_05"
+      ]
+    },
+    {
+      "id": 43,
+      "speaker_guid": "50acb95a-e260-4570-8590-2064a43a28e5",
+      "speaker": "Huxley (Female)",
+      "utterance": "But now I'm out HERE! I'm headed back to Amber Heights.",
+      "support_knowledge": [
+        "iconoclasts_04"
+      ]
+    },
+    {
+      "id": 44,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "You sure you're okay to travel?",
+      "support_knowledge": []
+    },
+    {
+      "id": 45,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Normally, when you help someone, they give you something for their trouble.",
+      "support_knowledge": [
+        "O3_B6"
+      ]
+    },
+    {
+      "id": 46,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Good luck.",
+      "support_knowledge": []
+    },
+    {
+      "id": 47,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Yeah, yeah. Just beat it.",
+      "support_knowledge": []
+    },
+    {
+      "id": 64,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "<Attack> With the trouble you caused me, you're dying here.",
+      "support_knowledge": []
+    },
+    {
+      "id": 48,
+      "speaker_guid": "50acb95a-e260-4570-8590-2064a43a28e5",
+      "speaker": "Huxley (Female)",
+      "utterance": "Oh, sure. I'm a runner. I'm used to getting all dizzy and hey who's your identical, slightly blurry friend?",
+      "support_knowledge": [
+        "huxley_01"
+      ]
+    },
+    {
+      "id": 49,
+      "speaker_guid": "50acb95a-e260-4570-8590-2064a43a28e5",
+      "speaker": "Huxley (Female)",
+      "utterance": "Wh- I ain't got nothin' on me! How's about a heaping helping of appreciation and respect?",
+      "support_knowledge": [
+        "O3_B6"
+      ]
+    },
+    {
+      "id": 68,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Surely you have something on you.",
+      "support_knowledge": []
+    },
+    {
+      "id": 53,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Put in a good word for me with the Iconoclasts and we'll call it even.",
+      "support_knowledge": [
+        "O3_B6",
+        "iconoclasts_03"
+      ]
+    },
+    {
+      "id": 69,
+      "speaker_guid": "50acb95a-e260-4570-8590-2064a43a28e5",
+      "speaker": "Huxley (Female)",
+      "utterance": "'Fraid not, mister!",
+      "support_knowledge": []
+    },
+    {
+      "id": 70,
+      "speaker_guid": "50acb95a-e260-4570-8590-2064a43a28e5",
+      "speaker": "Huxley (Female)",
+      "utterance": "I gotta pack light if I'm gonna run away from monsters.",
+      "support_knowledge": [
+        "huxley_01"
+      ]
+    },
+    {
+      "id": 58,
+      "speaker_guid": "50acb95a-e260-4570-8590-2064a43a28e5",
+      "speaker": "Huxley (Female)",
+      "utterance": "Can do!",
+      "support_knowledge": [
+        "O3_B6"
+      ]
+    },
+    {
+      "id": 59,
+      "speaker_guid": "50acb95a-e260-4570-8590-2064a43a28e5",
+      "speaker": "Huxley (Female)",
+      "utterance": "Thanks a lot, mister!",
+      "support_knowledge": []
+    },
+    {
+      "id": 60,
+      "speaker_guid": "50acb95a-e260-4570-8590-2064a43a28e5",
+      "speaker": "Huxley (Female)",
+      "utterance": "Yes sir!",
+      "support_knowledge": []
+    }
+  ]
+}

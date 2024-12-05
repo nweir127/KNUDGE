@@ -1,0 +1,425 @@
+{
+  "id": "the_stainless_steel_rat_01",
+  "quest_name": "the_stainless_steel_rat",
+  "conversation": {
+    "filename": "0402_cv_otto_tossballbetting",
+    "start_node": 1,
+    "end_nodes": [
+      5,
+      4
+    ],
+    "force_include": [
+      3
+    ],
+    "force_sequence": []
+  },
+  "in_objective": [
+    "O1",
+    "O2"
+  ],
+  "out_objective": "O3",
+  "participants": [
+    "nell"
+  ],
+  "dialog_edges": [
+    [
+      1,
+      33
+    ],
+    [
+      33,
+      38
+    ],
+    [
+      33,
+      36
+    ],
+    [
+      33,
+      34
+    ],
+    [
+      38,
+      48
+    ],
+    [
+      48,
+      49
+    ],
+    [
+      49,
+      30
+    ],
+    [
+      30,
+      3
+    ],
+    [
+      3,
+      6
+    ],
+    [
+      6,
+      7
+    ],
+    [
+      7,
+      172
+    ],
+    [
+      7,
+      162
+    ],
+    [
+      7,
+      170
+    ],
+    [
+      172,
+      23
+    ],
+    [
+      23,
+      24
+    ],
+    [
+      24,
+      25
+    ],
+    [
+      25,
+      26
+    ],
+    [
+      25,
+      173
+    ],
+    [
+      26,
+      167
+    ],
+    [
+      173,
+      174
+    ],
+    [
+      174,
+      167
+    ],
+    [
+      162,
+      20
+    ],
+    [
+      20,
+      21
+    ],
+    [
+      21,
+      73
+    ],
+    [
+      21,
+      169
+    ],
+    [
+      73,
+      23
+    ],
+    [
+      169,
+      175
+    ],
+    [
+      175,
+      23
+    ],
+    [
+      170,
+      171
+    ],
+    [
+      171,
+      21
+    ],
+    [
+      36,
+      43
+    ],
+    [
+      43,
+      30
+    ],
+    [
+      34,
+      46
+    ],
+    [
+      46,
+      47
+    ],
+    [
+      47,
+      30
+    ]
+  ],
+  "dialog": [
+    {
+      "id": 1,
+      "speaker_guid": "09f69989-f794-42b6-b754-2bbc431f6843",
+      "speaker": "Nellie (Female)",
+      "utterance": "Ooh, you're the new face! Wow, you must be up on all the latest tossball games.",
+      "support_knowledge": [
+        "nell_02",
+        "tossball_01"
+      ]
+    },
+    {
+      "id": 33,
+      "speaker_guid": "09f69989-f794-42b6-b754-2bbc431f6843",
+      "speaker": "Nellie (Female)",
+      "utterance": "So who do you follow? Wait, don't tell me. You look like a Hammersmith Thunder fan! No, Glacial Age Mammoths.",
+      "support_knowledge": [
+        "nell_02",
+        "nell_03",
+        "tossball_01"
+      ]
+    },
+    {
+      "id": 38,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "They're all pretty great!",
+      "support_knowledge": []
+    },
+    {
+      "id": 36,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I'm not here to chat about teams.",
+      "support_knowledge": []
+    },
+    {
+      "id": 34,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Who has time to watch grown men and women hit balls with sticks?",
+      "support_knowledge": []
+    },
+    {
+      "id": 48,
+      "speaker_guid": "09f69989-f794-42b6-b754-2bbc431f6843",
+      "speaker": "Nellie (Female)",
+      "utterance": "Aren't they just? When I get to worrying about the marauders outside, the raptidons chewing at the walls, I just turn my transceiver up to drown it all out!",
+      "support_knowledge": [
+        "nell_02"
+      ]
+    },
+    {
+      "id": 49,
+      "speaker_guid": "09f69989-f794-42b6-b754-2bbc431f6843",
+      "speaker": "Nellie (Female)",
+      "utterance": "Most of the time it's static on account of the frequency being clogged up. But sometimes, it's tossball!",
+      "support_knowledge": [
+        "nell_02"
+      ]
+    },
+    {
+      "id": 30,
+      "speaker_guid": "09f69989-f794-42b6-b754-2bbc431f6843",
+      "speaker": "Nellie (Female)",
+      "utterance": "So, what can I do for you?",
+      "support_knowledge": []
+    },
+    {
+      "id": 3,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I found this betting slip in a dead man's apartment. Any idea what might have happened to him?",
+      "support_knowledge": [
+        "O1_S3",
+        "O2_S1",
+        "O2_S2",
+        "O2_B1"
+      ]
+    },
+    {
+      "id": 6,
+      "speaker_guid": "09f69989-f794-42b6-b754-2bbc431f6843",
+      "speaker": "Nellie (Female)",
+      "utterance": "Poor Isaac! I was wondering why I hadn't seen him in a few days.",
+      "support_knowledge": []
+    },
+    {
+      "id": 7,
+      "speaker_guid": "09f69989-f794-42b6-b754-2bbc431f6843",
+      "speaker": "Nellie (Female)",
+      "utterance": "I'd really like to help - Isaac was a sweet fellow. Even if he did have terrible teeth.",
+      "support_knowledge": [
+        "isaac_rose_01"
+      ]
+    },
+    {
+      "id": 172,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Cut to the chase. Do you know who did it or not?",
+      "support_knowledge": [
+        "O2_B1"
+      ]
+    },
+    {
+      "id": 162,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I'm listening.",
+      "support_knowledge": []
+    },
+    {
+      "id": 170,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "What do his teeth have to do with anything?",
+      "support_knowledge": []
+    },
+    {
+      "id": 23,
+      "speaker_guid": "09f69989-f794-42b6-b754-2bbc431f6843",
+      "speaker": "Nellie (Female)",
+      "utterance": "I don't know for sure, but I saw Elijah and his buddies pushing Isaac around. ",
+      "support_knowledge": [
+        "O2_B3",
+        "O3_S1"
+      ]
+    },
+    {
+      "id": 24,
+      "speaker_guid": "09f69989-f794-42b6-b754-2bbc431f6843",
+      "speaker": "Nellie (Female)",
+      "utterance": "They're hooligans from Fallbrook - they sweep into town, drop supplies off behind the warehouse, and spend the rest of their stay getting rowdy over tossball games.",
+      "support_knowledge": [
+        "O3_S2",
+        "elijah_02",
+        "elijah_03"
+      ]
+    },
+    {
+      "id": 25,
+      "speaker_guid": "09f69989-f794-42b6-b754-2bbc431f6843",
+      "speaker": "Nellie (Female)",
+      "utterance": "They usually loiter in the alley behind The Yacht Club - they're not allowed in the bar anymore. I bet you anything Isaac ran into trouble with one of them.",
+      "support_knowledge": [
+        "O2_B4",
+        "O3_S1",
+        "yacht_club_01",
+        "elijah_04",
+        "elijah_05"
+      ]
+    },
+    {
+      "id": 26,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Thanks for the tip.",
+      "support_knowledge": []
+    },
+    {
+      "id": 173,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I'll make them pay.",
+      "support_knowledge": []
+    },
+    {
+      "id": 167,
+      "speaker_guid": "09f69989-f794-42b6-b754-2bbc431f6843",
+      "speaker": "Nellie (Female)",
+      "utterance": "Mr. Sanjar'll be pleased to hear about it when you're done. I know he gets fed up with the Fallbrook bullies, but there's not much he can do.",
+      "support_knowledge": [
+        "O2_B5"
+      ]
+    },
+    {
+      "id": 174,
+      "speaker_guid": "09f69989-f794-42b6-b754-2bbc431f6843",
+      "speaker": "Nellie (Female)",
+      "utterance": "Good! Someone's gotta.",
+      "support_knowledge": []
+    },
+    {
+      "id": 20,
+      "speaker_guid": "09f69989-f794-42b6-b754-2bbc431f6843",
+      "speaker": "Nellie (Female)",
+      "utterance": "Right, so the thing with Isaac is he didn't know where to stop. He'd get stuck on something, and he just couldn't let it go.",
+      "support_knowledge": []
+    },
+    {
+      "id": 21,
+      "speaker_guid": "09f69989-f794-42b6-b754-2bbc431f6843",
+      "speaker": "Nellie (Female)",
+      "utterance": "Sometimes he'd drink Purpleberry Punch by the liter. Other times he'd keep betting on a losing team. Started owing the wrong people money.",
+      "support_knowledge": [
+        "O2_B2"
+      ]
+    },
+    {
+      "id": 73,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "So who did he owe?",
+      "support_knowledge": [
+        "O2_B2"
+      ]
+    },
+    {
+      "id": 169,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Focus, please.",
+      "support_knowledge": [
+        "O2_B1"
+      ]
+    },
+    {
+      "id": 175,
+      "speaker_guid": "09f69989-f794-42b6-b754-2bbc431f6843",
+      "speaker": "Nellie (Female)",
+      "utterance": "Sorry.",
+      "support_knowledge": []
+    },
+    {
+      "id": 171,
+      "speaker_guid": "09f69989-f794-42b6-b754-2bbc431f6843",
+      "speaker": "Nellie (Female)",
+      "utterance": "They were pretty distinct. Monarch doesn't exactly have a thriving dental industry, and Isaac seemed to get stuck in all sorts of bad habits. Dietary and otherwise.",
+      "support_knowledge": []
+    },
+    {
+      "id": 43,
+      "speaker_guid": "09f69989-f794-42b6-b754-2bbc431f6843",
+      "speaker": "Nellie (Female)",
+      "utterance": "That's a shame. Tossball's just about the only good news we get around here. When our frequency's not too clogged up, anyway.",
+      "support_knowledge": [
+        "nell_02"
+      ]
+    },
+    {
+      "id": 46,
+      "speaker_guid": "09f69989-f794-42b6-b754-2bbc431f6843",
+      "speaker": "Nellie (Female)",
+      "utterance": "Everyone needs a good diversion! That's what keeps you from thinking about the marauders outside town. The raptidons chewing at the walls...",
+      "support_knowledge": [
+        "nell_02"
+      ]
+    },
+    {
+      "id": 47,
+      "speaker_guid": "09f69989-f794-42b6-b754-2bbc431f6843",
+      "speaker": "Nellie (Female)",
+      "utterance": "Tossball's just about the only good news we get around here. When our frequency's not too clogged up, anyway.",
+      "support_knowledge": [
+        "nell_02"
+      ]
+    }
+  ]
+}

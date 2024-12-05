@@ -1,0 +1,183 @@
+ID	fact
+OBJECTIVE O0	
+O0_S1	181:99
+O0_B1	1223:85
+O0_B2	1309:73
+OBJECTIVE O1	
+O1_S1	312:64
+O1_S2	377:68
+O1_B1	1383:52
+O1_B2	1436:40
+O1_B3	1477:78
+O1_B4	Go along with it and offer to help.
+O1_B5	1697:89
+O1_B6	1787:77
+O1_B7	1865:50
+O1_B8	Alternatively: You can kill him and collect his fees.
+OBJECTIVE O2	
+O2_S1	477:64
+O2_S2	542:35
+O2_B1	2273:60
+O2_B2	2334:82
+O2_B3	2417:52
+O2_B4	2470:121
+O2_B5	2592:64
+O2_B6	2657:87
+O2_B7	2745:38
+O2_B8	2784:45
+O2_B9	2830:149
+O2_B10	2980:89
+O2_B11	3070:54
+O2_B12	3125:67
+O2_B13	3192:53
+OBJECTIVE O3	
+O3_S1	832:67
+O3_S2	900:69
+O3_B1	3437:59
+O3_B2	3497:66
+O3_B3	3564:127
+O3_B4	3692:50
+OBJECTIVE O4	
+O4_S1	1002:65
+O4_S2	1068:51
+O4_B1	4026:75
+O4_B2	4102:56
+O4_B3	4159:57
+O4_B4	4217:28
+O4_B5	4246:59
+O4_B6	4306:59
+O4_B7	4366:62
+O4_B8	4429:38
+OBJECTIVE O5	
+O5_S1	1135:68
+O5_S2	1204:16
+O5_B1	After gathering all the gravesite fees,
+O5_B2	return to Silas to receive a reward of 300 bits.
+O5_B3	With a Persuade 6 check, Silas will agree to upping the reward by 150 bits.
+conrad_sadik	
+conrad_sadik_01	Conrad Sadik is a barber and embalmer in Edgewater.
+conrad_sadik_02	Residents report to him when their hair needs does not meet company standards,
+conrad_sadik_03	or in the event of their death.
+conrad_sadik_04	Conrad fell sick with the plague and was allowed to receive treatment for his illness due to his services as a surgeon and embalmer.
+conrad_sadik_05	However, as he cannot pay his gravesite fees,
+conrad_sadik_06	he believes this right will soon be revoked from him.
+conrad_sadik_07	He accepts that his body will be tossed into a ditch upon his death.
+conrad_sadik_08	Conrad is certified as a surgeon by Spacer's Choice.
+conrad_sadik_09	However, his certification does not come from a proper medical school,
+conrad_sadik_10	"but rather from five pamphlets with corresponding editions of ""So You Want To Be An Embalmer"" that were given to him after his aptitude test."
+conrad_sadik_11	He doesn't have the greatest track record when it comes to his patents not becoming infected after the procedure is complete and can only stitch a severed thumb with a 58% chance of avoiding gangrene.
+conrad_sadik_12	He has also developed his own personal plague palliative which consists of boiled canid liver and a splash of ethanol.
+conrad_sadik_13	He does not approve of fantasizing about things,
+conrad_sadik_14	"deeming it a dreadful habit which is ""corrosive to the mental faculties."""
+conrad_sadik_15	Similarly, he despises watching serials.
+edgewater	
+edgewater_01	Edgewater is a Spacer's Choice company town located in the Emerald Vale on the planet Terra 2.
+edgewater_02	Its primary function is supporting the operation of the town's Saltuna Cannery which is supervised by Reed Tobson.
+edgewater_03	The town's power comes from the local Geothermal Power Plant and shares its power with the region's Botanical Labs.
+edgewater_04	When the Stranger arrives in Edgewater, the town is struggling.
+edgewater_05	It has been several seasons since the town has seen any visitors
+edgewater_06	and a significant proportion of its population has fallen ill with a plague that began in the last few years.
+edgewater_07	The plague is caused by poor diet and began when the cannery began experiencing a shortage of saltuna and had to stretch its supplies by adding other ingredients to its mixture including wood chips, mushrooms, sand, and canid bits.
+emerald_vale	
+emerald_vale_01	Emerald Vale is a region on the planet Terra 2.
+eugene	
+eugene_01	Eugene was a Spacer's Choice employee in the town of Edgewater,
+eugene_02	who killed himself prior to the events of The Outer Worlds.
+eugene_03	Eugene was a receptionist at the Saltuna Cannery in Edgewater.
+eugene_04	One day, he shot himself and his body was found by Phyllis Granger.
+eugene_05	If Eugene's death had been ruled a suicide,
+eugene_06	it would pose a significant risk to the town as a whole,
+eugene_07	as suicide is considered vandalism of company property,
+eugene_08	and Edgewater does not have the means to pay the body-price of a suicide.
+eugene_09	However, while preparing Eugene's body for interment,
+eugene_10	Conrad Sadik discovered that, not only was Eugene showing plague symptoms,
+eugene_11	he was also self-medicating with Adrena-Time.
+eugene_12	His death was a result of overdosing on the drug which is known to cause psychosis and paranoia,
+eugene_13	and Edgewater is therefore not responsible for the fines associated with a suicide.
+eugene_14	Eugene had a full set of gold teeth which had been passed down for three generations,
+eugene_15	representing his personal savings.
+eugene_16	Not knowing that Eugene's death had been ruled out as suicide,
+eugene_17	Phyllis Granger wrote to Conrad Sadik,
+eugene_18	proposing that Eugene's teeth be pawned to pay for his body price.
+eugene_19	This ends up not being a viable option as Eugene's body was stolen from the Edgewater Cemetery before Silas was able to bury it.
+eugene_20	Silas presumes the body was either stolen by marauders or that Eugene rose from the dead and walked away.
+ludwig_miller	
+ludwig_miller_01	Ludwig Miller is the Associate Security Officer for Transportation stationed at the Edgewater Landing Pad outside the walls of Edgewater.
+ludwig_miller_02	Ludwig is paranoid and believes that the automechanicals which are seen all over Halcyon have been programmed to eliminate the human race and replace them.
+ludwig_miller_03	He has been requisitioning backup for the inevitable war on the mechanicals for months and is looking for people to recruit to be a part of his Resistance,
+ludwig_miller_04	as he believes that he is the only thing standing between Edgewater and total annihilation.
+ludwig_miller_05	His concerns have gone largely unheeded by Edgewater's leadership;
+ludwig_miller_06	Reed Tobson has even implemented an automatic rule which sets all trouble tickets lodged by Ludwig with the Maintenance Division to low priority.
+ludwig_miller_07	Ludwig asks the Stranger to join the (imaginary) war against the automechanicals.
+martin_abernathy	
+martin_abernathy_01	Martin Abernathy is a resident of Edgewater.
+martin_abernathy_02	Paranoid and a well-known hypochondriac,
+martin_abernathy_03	Martin believes that he has the plague and is close to death.
+martin_abernathy_04	He has attempted to self-medicate with Adrena-Time but hasn't felt a difference and thinks that he needs something a little stronger.
+martin_abernathy_05	He is afraid of being reported to either Reed Tobson or Constable Reyes and being thrown in the sick house.
+phyllis_granger	
+phyllis_granger_01	Phyllis Granger, known to her subordinates as Foreman Granger is the foreman of the Saltuna Cannery in Edgewater.
+phyllis_granger_02	As a supervisor for Spacer's Choice,
+phyllis_granger_03	Phyllis treats her workers as cogs in a machine and has little time for small talk.
+phyllis_granger_04	She does things by the book which renders her immune to potential extortion attempts.
+phyllis_granger_05	Her hard work and positive attitude has led Reed Tobson to allow her access to medical treatment and Edgewater's limited medical supplies, should she fall ill with plague.
+phyllis_granger_06	However, she will acknowledge the low quality of Spacer's Choice's products,
+phyllis_granger_07	stating that their pistols can misfire.
+phyllis_granger_08	Shortly before the Stranger's arrival in Edgewater, Phyllis discovered the body of the cannery's receptionist, Eugene.
+phyllis_granger_09	As the closest living person relative to the body at time of death,
+phyllis_granger_10	she is now responsible for paying for Eugene's gravesite fees.
+phyllis_granger_11	In hopes of alleviating part of this financial burden on both herself and the town as a whole,
+phyllis_granger_12	Phyllis wrote to Conrad Sadik with information about Eugene's gold teeth,
+phyllis_granger_13	suggesting that they could be pawned to pay for the body price of Eugene's suicide.
+phyllis_granger_14	Like everyone else in Edgewater,
+phyllis_granger_15	Phyllis spouts the propaganda given to her by Spacer's Choice,
+phyllis_granger_16	"and views those under her supervision as ""assets"" to the company."
+phyllis_granger_17	She uses this term positively, however,
+phyllis_granger_18	and takes offense if the player criticizes her use of the term.
+reed_tobson	
+reed_tobson_01	Reed Tobson is the outpost administrator for the town of Edgewater.
+reed_tobson_02	About two years before the events of the game,
+reed_tobson_03	there was a shortage of saltuna in the area,
+reed_tobson_04	"leading to ""supplements"" being added to the canning process such as wood chips and canine meat,"
+reed_tobson_05	as according to Reed, no one noticed a difference in taste.
+reed_tobson_06	As a result, many in the town fell ill with the plague,
+reed_tobson_07	while Reed championed that the key to healing was to work harder.
+reed_tobson_08	Despite the very obvious connection between the two,
+reed_tobson_09	Reed cannot seem to fathom that the new canning process directly led to the plague,
+reed_tobson_10	"and simply shrugs off the town's illness as a ""fact of life""."
+reed_tobson_11	Tobson is not malicious in the traditional sense, and generally has a positive,
+reed_tobson_12	upbeat attitude about life in Edgewater.
+reed_tobson_13	Due to being a Spacer's Choice executive,
+reed_tobson_14	he is bound by the rules they set in place,
+reed_tobson_15	which involve producing products as cheaply as possible.
+reed_tobson_16	Despite his executive position,
+reed_tobson_17	he knows next to nothing about the cannery's production process,
+reed_tobson_18	and is ignorant of even the most basic needs of his workers.
+reed_tobson_19	His belief that workers can survive on nothing but saltuna,
+reed_tobson_20	"and his introduction of wood-chips and mushrooms to the production process is responsible for the ""plague"" currently infesting Edgewater."
+reed_tobson_21	The foreign material is also responsible for the cannery's frequent malfunctions,
+reed_tobson_22	as it is not set up to process anything other than saltuna.
+reed_tobson_23	"He has so little understanding of how health works, he believes in ""the four humors""."
+reed_tobson_24	Overall, despite his incompetence, his outlook on life is highly altruistic.
+reed_tobson_25	He is more concerned for the health of Edgewater as a community than he is for his own life.
+silas	
+silas_01	Silas is a Junior Inhumer for the town of Edgewater.
+silas_02	He has worked for the cemetery all his life,
+silas_03	holding jobs such as Junior Gravesite Builder, Junior Interment Engineer, and Junior Burial Assistant.
+silas_04	As a Junior Inhumer, Silas is responsible for digging graves and collecting gravesite fees from the town's inhabitants,
+silas_05	and he believes that he is about 50 to 60 graves away from becoming an Associate Inhumer.
+silas_06	Silas enjoys his job,
+silas_07	citing fresh air and exercise as salient benefit of the work.
+silas_08	However, he greatly dislikes the paperwork involved.
+silas_09	Due to a backlog of graves to fill,
+silas_10	Silas is behind on collecting delinquent gravesite fees from several Edgewater residents.
+spacers_choice	
+spacers_choice_01	Spacer's Choice is a wholly-owned subsidiary of Universal Defense Logistics.
+spacers_choice_02	Their mascot is the Moon Man.
+spacers_choice_03	Specializing in making a wide range of products as cheap as possible for the consumer,
+spacers_choice_04	Spacer's Choice cater to a broad range of clientele.
+spacers_choice_05	While their products are not very durable,
+spacers_choice_06	they are cheap to repair or replace.
+spacers_choice_07	Their employees will quote the company's sales line,
+spacers_choice_08	regardless of their own condition and are not to accept assistance from outside the company.
+spacers_choice_09	"They can also be reprimanded for fraternizing with employees labelled as ""incompetent"" - those unavailable to work."

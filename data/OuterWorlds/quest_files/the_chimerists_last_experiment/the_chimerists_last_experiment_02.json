@@ -1,0 +1,190 @@
+{
+  "id": "the_chimerists_last_experiment_02",
+  "quest_name": "the_chimerists_last_experiment",
+  "conversation": {
+    "filename": "01_cv_hagen_lilya_revision",
+    "start_node": 486,
+    "end_nodes": [
+      487
+    ],
+    "force_include": [
+      68,
+      335
+    ],
+    "force_sequence": []
+  },
+  "in_objective": "O2",
+  "participants": [
+    "lilya_hagen"
+  ],
+  "objectives": {
+    "O2": {
+      "summary": "Return to Lilya Hagen",
+      "description": {
+        "S1": "Lilya will want to know what happened at Dr. Chartrand's estate.",
+        "S2": "She can be found at SubLight Headquarters on the Groundbreaker."
+      },
+      "blurb": {
+        "B1": "Afterwards, report back to Hagen on the Groundbreaker for either the reward and some ship decorations in the Captain's quarters,",
+        "B2": "or the dismissal from Sublight (along with a Reputation decrease),",
+        "B3": "depending on whether or not Dr. Chartrand was killed."
+      }
+    }
+  },
+  "dialog": [
+    {
+      "id": 486,
+      "speaker_guid": "a5ed6fdd-91ed-41cf-9866-92b9da2e6b64",
+      "speaker": "LilyaHagen (Female)",
+      "utterance": "Is it done?",
+      "support_knowledge": []
+    },
+    {
+      "id": 68,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I spoke to Chartrand. I'm not going to kill her.",
+      "support_knowledge": [
+        "eva_chartrand_06"
+      ]
+    },
+    {
+      "id": 69,
+      "speaker_guid": "a5ed6fdd-91ed-41cf-9866-92b9da2e6b64",
+      "speaker": "LilyaHagen (Female)",
+      "utterance": "Well damn. The contractor grew a conscience. As your employer I'm both angry and disappointed. I'll add that to your file.",
+      "support_knowledge": [
+        "O2_B2"
+      ]
+    },
+    {
+      "id": 334,
+      "speaker_guid": "a5ed6fdd-91ed-41cf-9866-92b9da2e6b64",
+      "speaker": "LilyaHagen (Female)",
+      "utterance": "Technically I owe you an exit interview. Care to justify your betrayal of our species, or are we finished here?",
+      "support_knowledge": [
+        "O2_B2",
+        "eva_chartrand_06"
+      ]
+    },
+    {
+      "id": 335,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "You misunderstood Chartrand's research. She's our best shot at survival in Halcyon.",
+      "support_knowledge": [
+        "eva_chartrand_02",
+        "eva_chartrand_03"
+      ]
+    },
+    {
+      "id": 336,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "You're crazy, Lilya. I'm not killing someone to feed your paranoia.",
+      "support_knowledge": []
+    },
+    {
+      "id": 341,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Do I at least get a letter of referral?",
+      "support_knowledge": []
+    },
+    {
+      "id": 337,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "We're finished here.",
+      "support_knowledge": []
+    },
+    {
+      "id": 339,
+      "speaker_guid": "a5ed6fdd-91ed-41cf-9866-92b9da2e6b64",
+      "speaker": "LilyaHagen (Female)",
+      "utterance": "You're awfully quick to trust someone who offed her colleagues and called it a good start.",
+      "support_knowledge": []
+    },
+    {
+      "id": 338,
+      "speaker_guid": "a5ed6fdd-91ed-41cf-9866-92b9da2e6b64",
+      "speaker": "LilyaHagen (Female)",
+      "utterance": "Out of my office. We're done.",
+      "support_knowledge": [
+        "O2_B2"
+      ]
+    },
+    {
+      "id": 340,
+      "speaker_guid": "a5ed6fdd-91ed-41cf-9866-92b9da2e6b64",
+      "speaker": "LilyaHagen (Female)",
+      "utterance": "Seeing as you're the first one to complain about my paranoia, have you ever considered that *you* might be the problem?",
+      "support_knowledge": []
+    },
+    {
+      "id": 342,
+      "speaker_guid": "a5ed6fdd-91ed-41cf-9866-92b9da2e6b64",
+      "speaker": "LilyaHagen (Female)",
+      "utterance": "Oh *sure.* I'll get right on it. Everyone hear that? Yeah. This guy's getting a letter of referral.",
+      "support_knowledge": []
+    }
+  ],
+  "dialog_edges": [
+    [
+      486,
+      68
+    ],
+    [
+      68,
+      69
+    ],
+    [
+      69,
+      334
+    ],
+    [
+      334,
+      335
+    ],
+    [
+      334,
+      336
+    ],
+    [
+      334,
+      341
+    ],
+    [
+      334,
+      337
+    ],
+    [
+      335,
+      339
+    ],
+    [
+      339,
+      338
+    ],
+    [
+      336,
+      340
+    ],
+    [
+      340,
+      338
+    ],
+    [
+      341,
+      342
+    ],
+    [
+      342,
+      338
+    ],
+    [
+      337,
+      338
+    ]
+  ]
+}

@@ -1,0 +1,176 @@
+{
+  "id": "the_stainless_steel_rat_03",
+  "quest_name": "the_stainless_steel_rat",
+  "conversation": {
+    "filename": "0402_cv_sanjar_nandi_new",
+    "start_node": 572,
+    "end_nodes": [
+      577,
+      1348
+    ],
+    "force_include": [
+      996
+    ],
+    "force_sequence": []
+  },
+  "in_objective": "O4",
+  "participants": [
+    "sanjar_nandi"
+  ],
+  "dialog_edges": [
+    [
+      572,
+      573
+    ],
+    [
+      573,
+      996
+    ],
+    [
+      996,
+      574
+    ],
+    [
+      574,
+      997
+    ],
+    [
+      997,
+      1264
+    ],
+    [
+      997,
+      1265
+    ],
+    [
+      1264,
+      1266
+    ],
+    [
+      1266,
+      998
+    ],
+    [
+      998,
+      292
+    ],
+    [
+      292,
+      572
+    ],
+    [
+      292,
+      242
+    ],
+    [
+      1265,
+      1529
+    ],
+    [
+      1529,
+      998
+    ]
+  ],
+  "dialog": [
+    {
+      "id": 572,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Isaac Rose is dead. I found the people who killed him.",
+      "support_knowledge": [
+        "O4_S1",
+        "O4_S2",
+        "O4_B1"
+      ]
+    },
+    {
+      "id": 573,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "But that's terrible! What happened?",
+      "support_knowledge": [
+        "O4_S1",
+        "O4_S2",
+        "O4_B1"
+      ]
+    },
+    {
+      "id": 996,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "It was Elijah and his hooligan friends. I ran them out of town.",
+      "support_knowledge": [
+        "O3_B3",
+        "elijah_02"
+      ]
+    },
+    {
+      "id": 574,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "I'm glad to hear you've dealt with them. They've been causing quite a bit of trouble around town.",
+      "support_knowledge": [
+        "elijah_02",
+        "elijah_03"
+      ]
+    },
+    {
+      "id": 997,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "I've been consumed with other matters of late, but I would have dealt with them. Eventually.",
+      "support_knowledge": []
+    },
+    {
+      "id": 1264,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Of course you would have.",
+      "support_knowledge": []
+    },
+    {
+      "id": 1265,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "If you say so. ",
+      "support_knowledge": []
+    },
+    {
+      "id": 1266,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "Of course I would have.",
+      "support_knowledge": []
+    },
+    {
+      "id": 998,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "Still, your intervention in the matter is much appreciated. Please consider this payment for your services.",
+      "support_knowledge": [
+        "O2_B5"
+      ]
+    },
+    {
+      "id": 292,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "What can I do for you?",
+      "support_knowledge": []
+    },
+    {
+      "id": 242,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I've got to go.",
+      "support_knowledge": []
+    },
+    {
+      "id": 1529,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "It really was on my to-do list.",
+      "support_knowledge": []
+    }
+  ]
+}

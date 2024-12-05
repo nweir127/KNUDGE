@@ -1,0 +1,670 @@
+{
+  "id": "the_distress_signal_04",
+  "quest_name": "the_distress_signal",
+  "conversation": {
+    "filename": "08_cv_scientist_vaughn",
+    "start_node": 3,
+    "end_nodes": [],
+    "force_include": [
+      6,
+      290,
+      304,
+      21,
+      33,
+      67,
+      84
+    ],
+    "force_sequence": []
+  },
+  "in_objective": "O2",
+  "out_objective": "O5",
+  "participants": [
+    "vaughn_cortes"
+  ],
+  "objectives": {
+    "O2": {
+      "summary": "Search for secrets in Roseway",
+      "description": {
+        "S1": "Investigate Roseway to find potential company secrets that could be sold to the highest bidder through Gladys.",
+        "S2": "Talking to the scientists around the town would probably be a good place to start."
+      },
+      "blurb": {
+        "B1": "After landing at Roseway Landing Pad, you'll make your way through a desolate street and enter Roseway proper.",
+        "B2": "If you speak with Orson Shaw and offer to help then you will get the objective to get a hold of his weapon plans.",
+        "B3": "These can be found in the Storage Facility to the southeast of Roseway.",
+        "B4": "Head to Roseway Communications Room and you can meet Anton Crane, who sent the distress call.",
+        "B5": "He reveals that his work might not be entirely legal,",
+        "B6": "so corporate cannot know of what has happened.",
+        "B7": "You can intimidate (25) to get him to tell you what is going on.",
+        "B8": "He's tasked with formulating new and improved dental gel,",
+        "B9": "and they accidentally discovered an appetite suppresant.",
+        "B10": "He claims a group of malcontents attacked them,",
+        "B11": "freed the Raptidons and stole his research.",
+        "B12": "You will get 3300xp for agreeing to help,",
+        "B13": "and obtain Anton's Lab Keycard and Anton's Pass Code.",
+        "B14": "He will also mention you should not kill the Raptidon mother,",
+        "B15": "and that the old lab has Jameson, his protege.",
+        "B16": "Agree to find him and you'll obtain the quest By His Bootstraps."
+      }
+    },
+    "O5": {
+      "summary": "Acquire Vaughn's Research",
+      "description": {
+        "S1": "Vaughn's semi-legal research would likely be valuable to Gladys."
+      },
+      "blurb": {
+        "B1": "Near Cassandra through a door you'll find Vaughn's Research and the Unique Weapon: Rapti-prod.",
+        "B2": "Use the terminal to determine what do with the data,",
+        "B3": "but if you want it then you won't destroy it."
+      }
+    }
+  },
+  "dialog": [
+    {
+      "id": 3,
+      "speaker_guid": "526f2b56-5602-4316-a480-e8a6f5adcdbb",
+      "speaker": "VaughnCortes (Male)",
+      "utterance": "You picked a hell of a day to visit. I'm Vaughn. Vaughn Cortes. Uh, Dr. Vaughn Cortes. But just Vaughn's fine. Really.",
+      "support_knowledge": [
+        "vaughn_cortes_01"
+      ]
+    },
+    {
+      "id": 290,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Where were you when the outlaws attacked?",
+      "support_knowledge": []
+    },
+    {
+      "id": 6,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Have you lived here long?",
+      "support_knowledge": []
+    },
+    {
+      "id": 291,
+      "speaker_guid": "526f2b56-5602-4316-a480-e8a6f5adcdbb",
+      "speaker": "VaughnCortes (Male)",
+      "utterance": "Over in the main labs. I rabbited back here when I realized I was hearing gunshots, not blown fuses.",
+      "support_knowledge": [
+        "O2_B10"
+      ]
+    },
+    {
+      "id": 11,
+      "speaker_guid": "526f2b56-5602-4316-a480-e8a6f5adcdbb",
+      "speaker": "VaughnCortes (Male)",
+      "utterance": "We've been cooped up in here... I dunno, hours? Too long. I have to get back to - to work.",
+      "support_knowledge": []
+    },
+    {
+      "id": 12,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "No job's worth dying for.",
+      "support_knowledge": []
+    },
+    {
+      "id": 13,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "You're dedicated to your work.",
+      "support_knowledge": []
+    },
+    {
+      "id": 14,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "You look nervous.",
+      "support_knowledge": []
+    },
+    {
+      "id": 19,
+      "speaker_guid": "526f2b56-5602-4316-a480-e8a6f5adcdbb",
+      "speaker": "VaughnCortes (Male)",
+      "utterance": "Dr. Crane might say otherwise. Me? When those guys started shooting the place up, I was first out the door.",
+      "support_knowledge": []
+    },
+    {
+      "id": 20,
+      "speaker_guid": "526f2b56-5602-4316-a480-e8a6f5adcdbb",
+      "speaker": "VaughnCortes (Male)",
+      "utterance": "I had to leave an experiment running at the lab. Something I've been working on a long while. Something that could really get me ahead. Know what I mean?",
+      "support_knowledge": []
+    },
+    {
+      "id": 304,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Not until you explain. Details, please.",
+      "support_knowledge": []
+    },
+    {
+      "id": 22,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Are we talking about something dangerous?",
+      "support_knowledge": []
+    },
+    {
+      "id": 21,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "You want me to take care of it for you, of course.",
+      "support_knowledge": []
+    },
+    {
+      "id": 272,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Can't say as I do. Good day.",
+      "support_knowledge": []
+    },
+    {
+      "id": 26,
+      "speaker_guid": "526f2b56-5602-4316-a480-e8a6f5adcdbb",
+      "speaker": "VaughnCortes (Male)",
+      "utterance": "I've been extracting organic compounds from raptidons. Compounds that have, uh, benefits.",
+      "support_knowledge": [
+        "vaughn_cortes_04"
+      ]
+    },
+    {
+      "id": 27,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "\"...Benefits?\"",
+      "support_knowledge": []
+    },
+    {
+      "id": 29,
+      "speaker_guid": "526f2b56-5602-4316-a480-e8a6f5adcdbb",
+      "speaker": "VaughnCortes (Male)",
+      "utterance": "In certain social situations. Personal situations. Where you might want to, uh, enhance your charisma.",
+      "support_knowledge": [
+        "vaughn_cortes_04",
+        "vaughn_cortes_06",
+        "vaughn_cortes_07"
+      ]
+    },
+    {
+      "id": 254,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "You're going to have to be more specific.",
+      "support_knowledge": []
+    },
+    {
+      "id": 255,
+      "speaker_guid": "526f2b56-5602-4316-a480-e8a6f5adcdbb",
+      "speaker": "VaughnCortes (Male)",
+      "utterance": "Some people say rapt musk makes it easier to attract \"companionship.\" Makes you more, uh, \"appealing.\"",
+      "support_knowledge": [
+        "vaughn_cortes_07"
+      ]
+    },
+    {
+      "id": 33,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Yeah, I really don't want to know any more. Cut to the chase.",
+      "support_knowledge": []
+    },
+    {
+      "id": 32,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "It's an aphrodisiac? Does it work?",
+      "support_knowledge": [
+        "vaughn_cortes_07"
+      ]
+    },
+    {
+      "id": 62,
+      "speaker_guid": "526f2b56-5602-4316-a480-e8a6f5adcdbb",
+      "speaker": "VaughnCortes (Male)",
+      "utterance": "Sure. Of course. Our lab's south of here, down the road. Not the old public lab. The one past that, built into the mountainside.",
+      "support_knowledge": []
+    },
+    {
+      "id": 70,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Second lab down the road. And when I get there?",
+      "support_knowledge": []
+    },
+    {
+      "id": 67,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Anton told me about the other lab.",
+      "support_knowledge": []
+    },
+    {
+      "id": 68,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I'll bite. Why are there two labs?",
+      "support_knowledge": []
+    },
+    {
+      "id": 66,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Should you be telling me about this place?",
+      "support_knowledge": []
+    },
+    {
+      "id": 76,
+      "speaker_guid": "526f2b56-5602-4316-a480-e8a6f5adcdbb",
+      "speaker": "VaughnCortes (Male)",
+      "utterance": "My equipment's in the lower levels, way in the back. I have a big room all to myself. Dissection tables and whatnot.",
+      "support_knowledge": []
+    },
+    {
+      "id": 83,
+      "speaker_guid": "526f2b56-5602-4316-a480-e8a6f5adcdbb",
+      "speaker": "VaughnCortes (Male)",
+      "utterance": "It should have been running this whole time. Just grab the results and bring them here.",
+      "support_knowledge": []
+    },
+    {
+      "id": 84,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "All right, I'll head up there and keep an eye out.",
+      "support_knowledge": []
+    },
+    {
+      "id": 85,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "So this stuff is valuable?",
+      "support_knowledge": [
+        "O5_S1",
+        "vaughn_cortes_08"
+      ]
+    },
+    {
+      "id": 87,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I don't want to get mixed up in this.",
+      "support_knowledge": []
+    },
+    {
+      "id": 237,
+      "speaker_guid": "526f2b56-5602-4316-a480-e8a6f5adcdbb",
+      "speaker": "VaughnCortes (Male)",
+      "utterance": "Great! This is really gonna save my ass.",
+      "support_knowledge": []
+    },
+    {
+      "id": 89,
+      "speaker_guid": "526f2b56-5602-4316-a480-e8a6f5adcdbb",
+      "speaker": "VaughnCortes (Male)",
+      "utterance": "If you have a buyer. I got a contact who wants to haul the entire batch to Byzantium.",
+      "support_knowledge": [
+        "vaughn_cortes_05"
+      ]
+    },
+    {
+      "id": 93,
+      "speaker_guid": "526f2b56-5602-4316-a480-e8a6f5adcdbb",
+      "speaker": "VaughnCortes (Male)",
+      "utterance": "Help me out, I'll cut you in for a share. I'll even pay you before I am. When you deliver to me.",
+      "support_knowledge": []
+    },
+    {
+      "id": 92,
+      "speaker_guid": "526f2b56-5602-4316-a480-e8a6f5adcdbb",
+      "speaker": "VaughnCortes (Male)",
+      "utterance": "Yeah, I get it. It's just, there's sure to be some big corporate cleanup crew after this. They'll find my stuff.",
+      "support_knowledge": []
+    },
+    {
+      "id": 94,
+      "speaker_guid": "526f2b56-5602-4316-a480-e8a6f5adcdbb",
+      "speaker": "VaughnCortes (Male)",
+      "utterance": "If you change your mind, I'll make it worth your time.",
+      "support_knowledge": []
+    },
+    {
+      "id": 239,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "See you around.",
+      "support_knowledge": []
+    },
+    {
+      "id": 71,
+      "speaker_guid": "526f2b56-5602-4316-a480-e8a6f5adcdbb",
+      "speaker": "VaughnCortes (Male)",
+      "utterance": "Uh, don't mention this to Anton, okay? He's kind of a tight-ass about the lab. Like, squeeze coal into diamond tight.",
+      "support_knowledge": [
+        "anton_crane_01"
+      ]
+    },
+    {
+      "id": 75,
+      "speaker_guid": "526f2b56-5602-4316-a480-e8a6f5adcdbb",
+      "speaker": "VaughnCortes (Male)",
+      "utterance": "The newer lab is built for, uh, more sensitive work. We mostly use the old lab for storage these days. ",
+      "support_knowledge": [
+        "autie_biotics_lab_0013_05",
+        "autie_biotics_lab_0013_06"
+      ]
+    },
+    {
+      "id": 74,
+      "speaker_guid": "526f2b56-5602-4316-a480-e8a6f5adcdbb",
+      "speaker": "VaughnCortes (Male)",
+      "utterance": "No. But there are outlaws shooting it up. I'm guessing it hasn't been \"secret\" for a while.",
+      "support_knowledge": [
+        "anton_crane_05",
+        "anton_crane_06"
+      ]
+    },
+    {
+      "id": 34,
+      "speaker_guid": "526f2b56-5602-4316-a480-e8a6f5adcdbb",
+      "speaker": "VaughnCortes (Male)",
+      "utterance": "The results are outside the margin of error. Technically.",
+      "support_knowledge": []
+    },
+    {
+      "id": 24,
+      "speaker_guid": "526f2b56-5602-4316-a480-e8a6f5adcdbb",
+      "speaker": "VaughnCortes (Male)",
+      "utterance": "No, no. Not unless you break the- But why would you? Let me explain.",
+      "support_knowledge": []
+    },
+    {
+      "id": 25,
+      "speaker_guid": "526f2b56-5602-4316-a480-e8a6f5adcdbb",
+      "speaker": "VaughnCortes (Male)",
+      "utterance": "Why? Are you heading to the lab? Because that would be-",
+      "support_knowledge": []
+    },
+    {
+      "id": 17,
+      "speaker_guid": "526f2b56-5602-4316-a480-e8a6f5adcdbb",
+      "speaker": "VaughnCortes (Male)",
+      "utterance": "Sure. Loyal company fella. That's me. \"Auntie Knows Best!\"",
+      "support_knowledge": [
+        "auntie_cleo_02"
+      ]
+    },
+    {
+      "id": 268,
+      "speaker_guid": "526f2b56-5602-4316-a480-e8a6f5adcdbb",
+      "speaker": "VaughnCortes (Male)",
+      "utterance": "Look, I don't wanna go back out there, but there's a thing I got to do.",
+      "support_knowledge": []
+    },
+    {
+      "id": 15,
+      "speaker_guid": "526f2b56-5602-4316-a480-e8a6f5adcdbb",
+      "speaker": "VaughnCortes (Male)",
+      "utterance": "What? Uh. I mean... we're surrounded by hungry raptidons. Who wouldn't be? Am I right?",
+      "support_knowledge": [
+        "raptidon_01"
+      ]
+    },
+    {
+      "id": 215,
+      "speaker_guid": "526f2b56-5602-4316-a480-e8a6f5adcdbb",
+      "speaker": "VaughnCortes (Male)",
+      "utterance": "Sure. I guess. I'm not supposed to talk to-- I mean, why do you ask?",
+      "support_knowledge": []
+    }
+  ],
+  "dialog_edges": [
+    [
+      3,
+      290
+    ],
+    [
+      3,
+      6
+    ],
+    [
+      290,
+      291
+    ],
+    [
+      291,
+      11
+    ],
+    [
+      11,
+      12
+    ],
+    [
+      11,
+      13
+    ],
+    [
+      11,
+      14
+    ],
+    [
+      12,
+      19
+    ],
+    [
+      19,
+      20
+    ],
+    [
+      20,
+      304
+    ],
+    [
+      20,
+      22
+    ],
+    [
+      20,
+      21
+    ],
+    [
+      20,
+      272
+    ],
+    [
+      304,
+      26
+    ],
+    [
+      26,
+      27
+    ],
+    [
+      27,
+      29
+    ],
+    [
+      29,
+      254
+    ],
+    [
+      254,
+      255
+    ],
+    [
+      255,
+      33
+    ],
+    [
+      255,
+      32
+    ],
+    [
+      33,
+      62
+    ],
+    [
+      62,
+      70
+    ],
+    [
+      62,
+      67
+    ],
+    [
+      62,
+      68
+    ],
+    [
+      62,
+      66
+    ],
+    [
+      70,
+      76
+    ],
+    [
+      76,
+      83
+    ],
+    [
+      83,
+      84
+    ],
+    [
+      83,
+      85
+    ],
+    [
+      83,
+      87
+    ],
+    [
+      84,
+      237
+    ],
+    [
+      85,
+      89
+    ],
+    [
+      89,
+      93
+    ],
+    [
+      93,
+      84
+    ],
+    [
+      93,
+      87
+    ],
+    [
+      87,
+      92
+    ],
+    [
+      92,
+      94
+    ],
+    [
+      94,
+      6
+    ],
+    [
+      94,
+      239
+    ],
+    [
+      67,
+      71
+    ],
+    [
+      71,
+      76
+    ],
+    [
+      68,
+      75
+    ],
+    [
+      75,
+      70
+    ],
+    [
+      75,
+      67
+    ],
+    [
+      75,
+      66
+    ],
+    [
+      66,
+      74
+    ],
+    [
+      74,
+      70
+    ],
+    [
+      74,
+      67
+    ],
+    [
+      74,
+      68
+    ],
+    [
+      32,
+      34
+    ],
+    [
+      34,
+      33
+    ],
+    [
+      22,
+      24
+    ],
+    [
+      24,
+      26
+    ],
+    [
+      21,
+      25
+    ],
+    [
+      25,
+      26
+    ],
+    [
+      13,
+      17
+    ],
+    [
+      17,
+      268
+    ],
+    [
+      268,
+      20
+    ],
+    [
+      14,
+      15
+    ],
+    [
+      15,
+      268
+    ],
+    [
+      6,
+      215
+    ]
+  ]
+}

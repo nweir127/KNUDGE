@@ -1,0 +1,155 @@
+{
+  "id": "a_small_grave_matter_06",
+  "quest_name": "a_small_grave_matter",
+  "conversation": {
+    "filename": "00_cv_silas",
+    "start_node": 117,
+    "end_nodes": [
+      93,
+      48,
+      30,
+      122
+    ],
+    "force_include": [
+      28,
+      119,
+      27
+    ],
+    "force_sequence": []
+  },
+  "in_objective": "O5",
+  "participants": [
+    "silas"
+  ],
+  "objectives": {
+    "O5": {
+      "summary": "Return to Silas",
+      "description": {
+        "S1": "You finished collecting gravesite fees from the people of Edgewater.",
+        "S2": "Return to Silas."
+      },
+      "blurb": {
+        "B1": "After gathering all the gravesite fees,",
+        "B2": "return to Silas to receive a reward of 300 bits.",
+        "B3": "With a Persuade 6 check, Silas will agree to upping the reward by 150 bits."
+      }
+    }
+  },
+  "dialog_edges": [
+    [
+      117,
+      27
+    ],
+    [
+      27,
+      28
+    ],
+    [
+      28,
+      29
+    ],
+    [
+      29,
+      119
+    ],
+    [
+      119,
+      120
+    ],
+    [
+      120,
+      121
+    ],
+    [
+      121,
+      123
+    ],
+    [
+      123,
+      169
+    ]
+  ],
+  "dialog": [
+    {
+      "id": 117,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Hey, about those fees you wanted.",
+      "support_knowledge": [
+        "O5_S1",
+        "O5_S2"
+      ]
+    },
+    {
+      "id": 27,
+      "speaker_guid": "00321122-e5a6-4668-8cfa-0ec409b0e955",
+      "speaker": "Silas (Male)",
+      "utterance": "You run into any trouble?",
+      "support_knowledge": [
+        "O0_B2"
+      ]
+    },
+    {
+      "id": 28,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I'm all done. Paperwork, fees, and signatures.",
+      "support_knowledge": [
+        "O5_S2",
+        "O5_B1"
+      ]
+    },
+    {
+      "id": 29,
+      "speaker_guid": "00321122-e5a6-4668-8cfa-0ec409b0e955",
+      "speaker": "Silas (Male)",
+      "utterance": "Reliable work from a freelancer. That's gonna take some getting used to.",
+      "support_knowledge": [
+        "O5_B2"
+      ]
+    },
+    {
+      "id": 119,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I went out of my way for you.",
+      "support_knowledge": [
+        "O5_B3"
+      ]
+    },
+    {
+      "id": 120,
+      "speaker_guid": "00321122-e5a6-4668-8cfa-0ec409b0e955",
+      "speaker": "Silas (Male)",
+      "utterance": "And I'll buy you a drink some time.",
+      "support_knowledge": [
+        "O5_B3"
+      ]
+    },
+    {
+      "id": 121,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I was hoping for something more tangible.",
+      "support_knowledge": [
+        "O5_B3"
+      ]
+    },
+    {
+      "id": 123,
+      "speaker_guid": "00321122-e5a6-4668-8cfa-0ec409b0e955",
+      "speaker": "Silas (Male)",
+      "utterance": "Well, suppose you've earned it. One good turn deserves another.",
+      "support_knowledge": [
+        "O5_B3"
+      ]
+    },
+    {
+      "id": 169,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Take care.",
+      "support_knowledge": []
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+[
+  {
+    "id": "die_robot_00",
+    "quest_name": "die_robot",
+    "conversation": {
+      "filename": "00_cv_ludwig",
+      "start_node": 1,
+      "end_nodes": [],
+      "force_include": [
+        4,
+        180,
+        87,
+        90
+      ],
+      "force_sequence": [
+        [
+          28,
+          87
+        ]
+      ]
+    },
+    "in_objective": "O0",
+    "out_objective": "O1",
+    "participants": [
+      "ludwig_miller"
+    ]
+  },
+  {
+    "id": "die_robot_01",
+    "quest_name": "die_robot",
+    "conversation": {
+      "filename": "00_cv_ludwig",
+      "start_node": 125,
+      "end_nodes": [
+        67
+      ],
+      "force_include": [
+        37,
+        38,
+        39,
+        40,
+        41
+      ],
+      "force_sequence": []
+    },
+    "in_objective": "O2",
+    "out_objective": "O3",
+    "participants": [
+      "ludwig_miller"
+    ]
+  },
+  {
+    "id": "die_robot_02",
+    "quest_name": "die_robot",
+    "conversation": {
+      "filename": "00_cv_ludwig",
+      "start_node": 48,
+      "end_nodes": [
+        3
+      ],
+      "force_include": [],
+      "force_sequence": []
+    },
+    "in_objective": "O3",
+    "out_objective": "O4",
+    "participants": [
+      "ludwig_miller"
+    ]
+  },
+  {
+    "id": "die_robot_03",
+    "quest_name": "die_robot",
+    "conversation": {
+      "filename": "00_cv_ludwig",
+      "start_node": 54,
+      "end_nodes": [],
+      "force_include": [],
+      "force_sequence": []
+    },
+    "in_objective": "O4",
+    "participants": [
+      "ludwig_miller"
+    ]
+  }
+]

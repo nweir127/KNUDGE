@@ -1,0 +1,88 @@
+{
+  "id": "fearless_fergus_02",
+  "quest_name": "fearless_fergus",
+  "conversation": null,
+  "in_objective": "O2",
+  "out_objective": "O3",
+  "participants": [
+    "ebele",
+    "mechanical_receptionist"
+  ],
+  "objectives": {
+    "O2": {
+      "summary": "Find Nolan's Personnel File",
+      "description": {
+        "S1": "Acquire Nolan's employee records from Odeon"
+      },
+      "blurb": {
+        "B1": "The Stranger returns to Byzantium to see what can be learned from Odeon Pictures.",
+        "B2": "In the Odeon lobby is Ebele,",
+        "B3": "trying in vain to engage the mechanical receptionist in conversation.",
+        "B4": "Speaking to Ebele, the Stranger learns that she is an Odeon HR rep,",
+        "B5": "which mostly involves compensation claims for stunts and handsy actors.",
+        "B6": "She is desperate to win tickets to see the Hammersmith Thunder tossball game.",
+        "B7": "The office has a limerick contest going,",
+        "B8": "and if she wins she'll not only have tickets to the game but will get to meet Ceiren and Cameron Fraser,",
+        "B9": "both of whom she has a crush on.",
+        "B10": "Ebele is desperate enough to hand over Nolan's HR file if the Stranger helps her come up with the perfect limerick that will help her win the contest.",
+        "B11": "After helping Ebele workshop her limerick the Stranger learns that Nolan was part of Odeon marketing and responsible for distributing new movies to remote outposts.",
+        "B12": "He was written up repeatedly for causing morale issues with his anti-corporate ideas,",
+        "B13": "and for constantly submitting unsolicited screenplay ideas.",
+        "B14": "His final assignment was the MSI Outpost.",
+        "B15": "If the Stranger returns to Clara, she directs them to the MSI outpost to find additional evidence."
+      }
+    },
+    "O3": {
+      "summary": "Find Nolan's Records",
+      "description": {
+        "S1": "Travel to the MSI outpost to uncover more of Nolan's records"
+      },
+      "blurb": {
+        "B1": "The Stranger reaches Asterion Outpost and finds it abandoned except for various robotic guardians and staff.",
+        "B2": "The external air locks are open and need to be sealed before exploration can happen.",
+        "B3": "Once the air locks are sealed,",
+        "B4": "the Stranger finds a sequence of documents and records outlining the events that unfolded at the outpost.",
+        "B5": "1) Marketing material for Titus Androidicus, showcasing it as a story of revolution against corruption and inevitable revenge.",
+        "B6": "2) Fergus's log, discussing how popular Titus Androidicus is with the outpost's crew.",
+        "B7": "They can't stop watching it -",
+        "B8": "granted, there's nothing else to do.",
+        "B9": "He's seen it many times even though he thinks it's awful.",
+        "B10": "3) Nolan's email back to Odeon Pictures, explaining the crew seems to be inspired by the movie's underdog story and is now comparing MSI and the Board's leadership to the film's oppressors.",
+        "B11": "He is amused that it may be fomenting anti-Board ideas.",
+        "B12": "4) Fergus's log, discussing how a portion of the crew is attempting to mutiny and throw-off MSI and Board leadership.",
+        "B13": "Fergus has gathered loyalists,",
+        "B14": "including Nolan,",
+        "B15": "and is leading them to end the mutiny.",
+        "B16": "5) Nolan's log, explaining how he originally joined the loyalists purely out of convenience -",
+        "B17": "this wasn't his battle to fight.",
+        "B18": "In his time with them Nolan developed feelings for Fergus,",
+        "B19": "and eventually adopted the loyalist cause out of that love.",
+        "B20": "6) Fergus's log, describing a recon mission that went wrong leaving him trapped in a vent above the theater.",
+        "B21": "Titus Androidicus is playing on a loop,",
+        "B22": "and after countless viewings, Fergus now understands the perspective of the revolutionaries.",
+        "B23": "He must help them find their freedom.",
+        "B24": "7) Nolan's final log, describing the mutiny as nearly over -",
+        "B25": "they have a plan to depressurize the station and blow the revolutionaries out the airlock.",
+        "B26": "He learned there was a traitor among the loyalists that had been giving intel to the revolutionaries.",
+        "B27": "He knows who the traitor is and what must be done,",
+        "B28": "and will pass this info on in a letter to Fergus."
+      }
+    }
+  },
+  "dialog": [
+    {
+      "id": 106,
+      "speaker_guid": "ebele",
+      "speaker": "Ebele",
+      "utterance": "C'mon, you gotta have heard of tossball before! You automechs know all about Halcyon and stuff. Has a single tossball player never walked through this lobby before?",
+      "support_knowledge": [
+        "ebele_1",
+        "ebele_2",
+        "ebele_5",
+        "O2_B2",
+        "O2_B3"
+      ]
+    }
+  ],
+  "dialog_edges": []
+}

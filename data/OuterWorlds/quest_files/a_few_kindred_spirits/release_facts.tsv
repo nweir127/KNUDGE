@@ -1,0 +1,132 @@
+ID	fact
+OBJECTIVE O0	
+O0_S1	193:63
+O0_S2	257:55
+O0_B1	The quest is started by speaking to Grace Romero at the entrance to the botanical labs.
+O0_B2	"She is concerned about members of her camp ""wandering out"" of it."
+O0_B3	In particular, a deserter named Zoe Chandler went missing a couple of nights ago and Grace is worried that marauders may have gotten her.
+O0_B4	She does not know where Zoe may have gone but suggests that the Stranger check her room or speak to Stefan Garcia,
+O0_B5	with whom Zoe used to be close.
+OBJECTIVE O1	
+O1_S1	340:45
+O1_S2	386:96
+O1_B1	Speaking with Stefan Garcia will not give any clues to Zoe's whereabouts.
+O1_B2	However, Stefan will reveal that he and Zoe used to watch the serial, The Masked Marketeer, together
+O1_B3	and that he was planning to surprise her with a genuine copy of the latest episode before she went missing.
+O1_B4	"He will also allude to her habit of writing things down on pieces of paper (""journaling""),"
+O1_B5	which he considers a bit odd.
+O1_B6	Zoe's house is located in the southeast of the botanical labs.
+O1_B7	Pages from her journal can be found inside and Page 22 will reveal that Zoe left the camp to join the marauders and become a bandit queen.
+OBJECTIVE O2	
+O2_S1	796:115
+O2_S2	912:31
+O2_S3	944:39
+O2_B1	Zoe is hiding out with the marauders based in the abandoned industrial zone in the northeastern part of Emerald Vale.
+O2_B2	These marauders will be hostile on sight.
+O2_B3	When they are defeated,
+O2_B4	Zoe will appear in the street in the center of the area.
+OBJECTIVE O3	
+O3_S1	1006:59
+O3_S2	1066:43
+O3_S3	1110:65
+O3_B1	"Zoe is unharmed and very impressed with how the Stranger killed all the marauders ""like some sort of heroic accountant running down a list""."
+O3_B2	She doesn't want to return to the camp,
+O3_B3	believing that she belongs with the marauders.
+O3_B4	3038:102
+O3_B5	3141:91
+O3_B6	3233:105
+O3_B7	She can be convinced with a Persuade 15 or Intimidate 65 check.
+O3_B8	Persuading her will give you the option to talk about Stefan,
+O3_B9	3468:79
+O3_B10	3548:64
+O3_B11	Alternatively, Zoe can be killed for the 8 Adrena-Time that she is carrying.
+O3_B12	"Zoe's ring can be looted from her corpse as proof of what ""happened"" to her."
+OBJECTIVE O4	
+O4_S1	You convinced Zoe to return to the Camp.
+O4_S2	1228:38
+O4_B1	3696:105
+O4_B2	3802:39
+O4_B3	Telling her the truth does not cause any problems and rewards with 4125xp and increased positive reputation with the Deserters faction,
+O4_B4	4033:49
+O4_B5	4083:32
+O4_B6	4116:81
+O4_B7	4198:68
+abandoned_industrial_zone	
+abandoned_industrial_zone_01	The abandoned industrial zone is a location to the northeast of Edgewater in the Emerald Vale.
+adrena-time	
+adrena-time_01	Adrena-Time is a drug manufactured by Spacer's Choice.
+adrena-time_02	It applies the Adrena-Time High buff for 15 seconds and the Adrena-Time Crash debuff indefinitely,
+adrena-time_03	until the user sleeps.
+adrena-time_04	Adrena-Time began when Spacer's Choice employees noticed a steady increase in the productivity of the miner's working there.
+adrena-time_05	They then discovered the xenocytes, and thus, Adrena-Time was born.
+adrena-time_06	It applies the Adrena-Time High buff for 15 seconds and the Adrena-Time Crash debuff indefinitely.
+botanical_labs	
+botanical_labs_01	The Botanical Labs are a location in Emerald Vale,
+botanical_labs_02	occupied by a group of deserters from the town of Edgewater who are led by Adelaide McDevitt.
+botanical_labs_03	This facility is owned and formally operated by Spacer's Choice,
+botanical_labs_04	however the company shut it down when its botanists were unable to grow decent crops due to the poor soil quality.
+botanical_labs_05	It currently serves as a refuge for Adelaide McDevitt and other deserters from Edgewater,
+botanical_labs_06	and the former has made the soil fertile again by (unbeknownst to most) grinding up human corpses to mix with her fertilizer.
+botanical_labs_07	The location is powered solely by the nearby geothermal power plant.
+edgewater	
+edgewater_01	Edgewater is a Spacer's Choice company town located in the Emerald Vale on the planet Terra 2.
+edgewater_02	Its primary function is supporting the operation of the town's Saltuna Cannery which is supervised by Reed Tobson.
+edgewater_03	The town's power comes from the local Geothermal Power Plant and shares its power with the region's Botanical Labs.
+edgewater_04	When the Stranger arrives in Edgewater, the town is struggling.
+edgewater_05	It has been several seasons since the town has seen any visitors
+edgewater_06	and a significant proportion of its population has fallen ill with a plague that began in the last few years.
+edgewater_07	The plague is caused by poor diet and began when the cannery began experiencing a shortage of saltuna and had to stretch its supplies by adding other ingredients to its mixture including wood chips, mushrooms, sand, and canid bits.
+emerald_vale	
+emerald_vale_01	Emerald Vale is a region on the planet Terra 2.
+grace_romero	
+grace_romero_01	Grace Romero is a member of the deserters who guards the entrance to the Botanical Labs in Emerald Vale.
+grace_romero_02	As the only member of the deserters who knows her way around a gun,
+grace_romero_03	Grace is mistrustful of armed strangers wandering into her camp.
+grace_romero_04	When the Stranger meets her, she is concerned about Zoe Chandler,
+grace_romero_05	a member of the deserters who has recently gone missing.
+grace_romero_06	Although Grace never got on with Zoe and considers her lazy and thoughtless,
+grace_romero_07	she is concerned about her whereabouts as Zoe is still one of their own.
+grace_romero_08	She does not understand the excitement around serial dramas and was once caught snooping in Zoe's room trying to understand Zoe's obsession with them.
+marauders	
+marauders_01	The Marauders are an enemy faction in The Outer Worlds.
+marauders_02	Humans that have lost their minds due to excessive use of Adrena-Time,
+marauders_03	marauders are violent individuals with very little in the way of comprehension or compassion.
+marauders_04	Originating on Gorgon,
+marauders_05	where Adrena-Time was being developed,
+marauders_06	they spread out initially to Edgewater as a trial by Spacer's Choice,
+marauders_07	who were aware of the violent, long term effects.
+stefan_garcia	
+stefan_garcia_01	Stefan Garcia is a member of the Deserters and a vendor at the Botanical Labs in Emerald Vale.
+stefan_garcia_02	Stefan is friends with Zoe Chandler,
+stefan_garcia_03	a girl who went missing from the Deserters camp at the Botanical Labs.
+stefan_garcia_04	Prior to her disappearance, they had a regular habit of watching serials together.
+stefan_garcia_05	"He thinks that Zoe's habit of writing things down on pieces of paper (""journaling"") is odd."
+stefan_garcia_06	Stefan can provide the Stranger with more information about Zoe's disappearance and may give them a copy of The Masked Marketeer: episode thirty-eight to assist them with persuading Zoe to return to the camp.
+zoe_chandler	
+zoe_chandler_01	Zoe Chandler is a former member of the deserters who the Stranger encounters in the abandoned industrial zone in Emerald Vale.
+zoe_chandler_02	A former employee of the Edgewater Saltuna Cannery,
+zoe_chandler_03	Zoe fell ill with plague and stole more than her allotment of Adrena-Time to treat herself.
+zoe_chandler_04	As a result she was accused of larceny and kicked out the town.
+zoe_chandler_05	Like many of those who had deserted the town,
+zoe_chandler_06	Zoe made her way to the Botanical Labs where her illness was treated by Adelaide McDevitt with a green leafy drink twice a day.
+zoe_chandler_07	During her recovery she took to watching aetherwave serials and would later also watch them with Stefan Garcia.
+zoe_chandler_08	However, she hated living in the botanical labs and considered it worse than the cannery because people constantly talked to her.
+zoe_chandler_09	The only two people she could tolerate were Stefan and Grace Romero,
+zoe_chandler_10	the latter who she respected for her ability to use a rifle.
+zoe_chandler_11	Eventually, Zoe's fascination with the serials,
+zoe_chandler_12	particularly The Masked Marketeer,
+zoe_chandler_13	led to her dreaming of becoming the pre-eminent bandit queen of Emerald Vale.
+zoe_chandler_14	Eventually, she decided to realize this dream and throw in with the marauders who lived in the hills of Emerald Vale.
+zoe_chandler_15	To do so, she stocked up on additional rations and Adrena-Time,
+zoe_chandler_16	correctly believing that the marauders could easily be bribed with the drug.
+zoe_chandler_17	She bartered much of her stash to the marauder gang in the Abandoned Industrial Zone,
+zoe_chandler_18	"and they allowed her to stay, becoming ""practically their queen""."
+zoe_chandler_19	Zoe's abrupt disappearance from the Botanical Labs was noted by Grace Romero,
+zoe_chandler_20	who is worried that she has been captured by marauders.
+zoe_chandler_21	However, Grace is unable to go look for Zoe herself,
+zoe_chandler_22	as she is the only one at the Botanical Labs able to handle a gun and therefore defend the camp.
+zoe_chandler_23	Grace asks the Stranger for help in locating and bringing Zoe back to the deserters camp.
+zoe_chandler_24	When the marauder gang in the Abandoned Industrial Zone is defeated by the Stranger,
+zoe_chandler_25	Zoe expresses her admiration for their skills and asks them to teach her their ways.
+zoe_chandler_26	She can be convinced to rejoin the deserters and return to the Botanical Labs.
+zoe_chandler_27	If she returns, she will tell Stefan that she escaped the clutches of the marauders by fighting her way out with her bare hands.

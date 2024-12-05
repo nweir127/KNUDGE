@@ -1,0 +1,847 @@
+{
+  "id": "the_chimerists_last_experiment_00",
+  "quest_name": "the_chimerists_last_experiment",
+  "conversation": {
+    "filename": "01_cv_hagen_lilya_revision",
+    "start_node": 233,
+    "end_nodes": [],
+    "force_include": [
+      285,
+      18,
+      60
+    ],
+    "force_sequence": []
+  },
+  "in_objective": "O0",
+  "out_objective": "O1",
+  "participants": [
+    "lilya_hagen"
+  ],
+  "objectives": {
+    "O0": {
+      "description": {
+        "S1": "The evidence you found in Cascadia and on HRS-1084 convinced Lilya Hagen that Dr. Eva Chartrand is at the center of an alien invasion conspiracy.",
+        "S2": "She wants Chartrand killed for the good of humanity.",
+        "S3": "Chartrand is a Board-sponsored Chimerist -",
+        "S4": "a scientist who manipulates the nuclein of plants and creatures from Earth to survive on colony worlds."
+      },
+      "blurb": {
+        "B1": "This quest is obtained after finishing The Ice Palace and speaking to Lilya Hagen on Groundbreaker.",
+        "B2": "Lilya thinks there is an Alien invasion happening,",
+        "B3": "and she wants you to put a stop to it.",
+        "B4": "You can ask what she means by Aliens,",
+        "B5": "and she will say that the gas is mixing the human nuclein with Halcyon biology,",
+        "B6": "making us something other than human.",
+        "B7": "If you ask how she knows you're not an alien,",
+        "B8": "she will say it was a calculated risk,",
+        "B9": "and she will say it's \"Probably nothing to worry about as long as you don't start growing tentacles or slowing down time\".",
+        "B10": "She believes that Eva Chartrand, a doctor working for UDL,",
+        "B11": "is running the gas experiments,",
+        "B12": "and wants you to kill her for the good of humanity."
+      }
+    },
+    "O1": {
+      "summary": "Find and Kill Eva Chartrand",
+      "description": {
+        "S1": "Eva Chartrand's home is on Byzantium.",
+        "S2": "Lilya gave you a keycard to the front door."
+      },
+      "blurb": {
+        "B1": "Head to Dr. Chartrand's house in Byzantium within the Estate District and use the Byzantium Estate Key to open the door and enter Dr. Chartrand's Home.",
+        "B2": "Once inside, use the terminal to read her logs and notes,",
+        "B3": "some of which talk about you checking the lab terminal on Cascadia and your takeover of HS-1084.",
+        "B4": "Use the same terminal to open the lab and head down the elevator.",
+        "B5": "Head forward and speak to Dr. Eva Chartrand.",
+        "B6": "You can tell her that Lilya Hagen sent you to kill her,",
+        "B7": "and she will say she does not know Lilya (if you bring her up) or wonder if you were sent by The Board.",
+        "B8": "You can Lie (1) to her to get her to tell you what she is doing,",
+        "B9": "which is finding a new way to feed the colony,",
+        "B10": "as the crops that humanity brought from Earth are not reacting well to the local soil and are not giving humans the needed nutrients to survive.",
+        "B11": "She will tell you that the colony will starve unless she can alter humans to thrive on the nutrients found in Halcyon,",
+        "B12": "and will try to dissuade your fears that there is any alien takeover if you bring it up.",
+        "B13": "She will also reveal that they didn't want to experiment on unwilling humans,",
+        "B14": "so they instead experimented on each other,",
+        "B15": "and will bring up the concerning fact that they contacted Earth about this years ago and never heard back.",
+        "B16": "At this point two choices can be made.",
+        "B17": "The Stranger could spare her letting her continue her research for the Board (this option increases Reputation with the Board),",
+        "B18": "or ask her to work with Phineas Welles to help better mankind.",
+        "B19": "She will not need convincing for either of these,",
+        "B20": "but the Corporate Commander who guards will.",
+        "B21": "If the Stranger has more positive Reputation with the Board than negative,",
+        "B22": "they can bribe, Persuade (150) him into letting them go,",
+        "B23": "or tell him they work for Adjutant Akande if they have completed at least one of her quests.",
+        "B24": "Otherwise, if the Dumb or the last dialogue option is chosen,",
+        "B25": "the UDL guards and the automechanichals will become hostile and the Stranger can either kill them gaining negative Reputation with the Board or run away."
+      }
+    }
+  },
+  "dialog": [
+    {
+      "id": 233,
+      "speaker_guid": "a5ed6fdd-91ed-41cf-9866-92b9da2e6b64",
+      "speaker": "LilyaHagen (Female)",
+      "utterance": "Before we go any further, I want you to keep an open mind. Can you do that for me, Captain?",
+      "support_knowledge": []
+    },
+    {
+      "id": 235,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I can do that.",
+      "support_knowledge": []
+    },
+    {
+      "id": 391,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I guess that depends on what we're talking about.",
+      "support_knowledge": []
+    },
+    {
+      "id": 236,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "This had better be good.",
+      "support_knowledge": []
+    },
+    {
+      "id": 237,
+      "speaker_guid": "a5ed6fdd-91ed-41cf-9866-92b9da2e6b64",
+      "speaker": "LilyaHagen (Female)",
+      "utterance": "Aliens. I'm talking about aliens. They're the ones responsible for the deaths at Ten Eighty-Four, and who knows what else. We have to put a stop to it. ",
+      "support_knowledge": [
+        "O0_S1",
+        "lilya_hagen_10"
+      ]
+    },
+    {
+      "id": 242,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Aliens?",
+      "support_knowledge": []
+    },
+    {
+      "id": 238,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Aliens.",
+      "support_knowledge": []
+    },
+    {
+      "id": 239,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Really?",
+      "support_knowledge": []
+    },
+    {
+      "id": 260,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "<Say nothing.>",
+      "support_knowledge": []
+    },
+    {
+      "id": 241,
+      "speaker_guid": "a5ed6fdd-91ed-41cf-9866-92b9da2e6b64",
+      "speaker": "LilyaHagen (Female)",
+      "utterance": "Hear me out.",
+      "support_knowledge": []
+    },
+    {
+      "id": 240,
+      "speaker_guid": "a5ed6fdd-91ed-41cf-9866-92b9da2e6b64",
+      "speaker": "LilyaHagen (Female)",
+      "utterance": "I'm saying it's aliens. I'm not asking you to like it. I'm not even asking you to believe it. But I need to act on this threat to the colony, and I can't do it alone.",
+      "support_knowledge": [
+        "O0_B2",
+        "O0_B3"
+      ]
+    },
+    {
+      "id": 244,
+      "speaker_guid": "a5ed6fdd-91ed-41cf-9866-92b9da2e6b64",
+      "speaker": "LilyaHagen (Female)",
+      "utterance": "I assume you have questions.",
+      "support_knowledge": []
+    },
+    {
+      "id": 245,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "A few.",
+      "support_knowledge": []
+    },
+    {
+      "id": 248,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "This is completely insane.",
+      "support_knowledge": []
+    },
+    {
+      "id": 246,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Skip to the part where I get paid. I don't care what hallucinogens you're on.",
+      "support_knowledge": []
+    },
+    {
+      "id": 250,
+      "speaker_guid": "a5ed6fdd-91ed-41cf-9866-92b9da2e6b64",
+      "speaker": "LilyaHagen (Female)",
+      "utterance": "If we're gonna see this through, I'll need your trust and commitment. Now's the time for setting doubts aside.",
+      "support_knowledge": []
+    },
+    {
+      "id": 261,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "When you say \"aliens,\" what are we talking about here?",
+      "support_knowledge": [
+        "O0_B4"
+      ]
+    },
+    {
+      "id": 285,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "How do you know I'm not an alien spy on a mission to silence you?",
+      "support_knowledge": [
+        "O0_B7"
+      ]
+    },
+    {
+      "id": 287,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Enough. Tell me what needs to be done.",
+      "support_knowledge": []
+    },
+    {
+      "id": 263,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I really don't know what to make of this, Lilya.",
+      "support_knowledge": []
+    },
+    {
+      "id": 264,
+      "speaker_guid": "a5ed6fdd-91ed-41cf-9866-92b9da2e6b64",
+      "speaker": "LilyaHagen (Female)",
+      "utterance": "A conspiracy. One carried out with the help of human collaborators, assuming they haven't all been replaced.",
+      "support_knowledge": []
+    },
+    {
+      "id": 284,
+      "speaker_guid": "a5ed6fdd-91ed-41cf-9866-92b9da2e6b64",
+      "speaker": "LilyaHagen (Female)",
+      "utterance": "This is an invasion of our very cells. That damned gas is mixing our nuclein with Halcyon biology to twist us. Change us. Make us more like those monsters on Monarch.",
+      "support_knowledge": [
+        "O0_B5"
+      ]
+    },
+    {
+      "id": 357,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I haven't seen any evidence of aliens.",
+      "support_knowledge": []
+    },
+    {
+      "id": 449,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I joined SubLight so I could do crimes. Not save humanity.",
+      "support_knowledge": []
+    },
+    {
+      "id": 425,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "The little green bastards must pay.",
+      "support_knowledge": []
+    },
+    {
+      "id": 358,
+      "speaker_guid": "a5ed6fdd-91ed-41cf-9866-92b9da2e6b64",
+      "speaker": "LilyaHagen (Female)",
+      "utterance": "No kidding. That's how they want it.",
+      "support_knowledge": []
+    },
+    {
+      "id": 359,
+      "speaker_guid": "a5ed6fdd-91ed-41cf-9866-92b9da2e6b64",
+      "speaker": "LilyaHagen (Female)",
+      "utterance": "When I lined up the evidence in my spreadsheet, there was only one possible conclusion looking back at me. This is my data talking, not my anxiety or lack of sleep.",
+      "support_knowledge": [
+        "lilya_hagen_10"
+      ]
+    },
+    {
+      "id": 450,
+      "speaker_guid": "a5ed6fdd-91ed-41cf-9866-92b9da2e6b64",
+      "speaker": "LilyaHagen (Female)",
+      "utterance": "We'll get back to \"business as usual\" when this is behind us. Promise.",
+      "support_knowledge": []
+    },
+    {
+      "id": 426,
+      "speaker_guid": "a5ed6fdd-91ed-41cf-9866-92b9da2e6b64",
+      "speaker": "LilyaHagen (Female)",
+      "utterance": "Terrific. That go-getter initiative will carry you far in SubLight. ",
+      "support_knowledge": []
+    },
+    {
+      "id": 286,
+      "speaker_guid": "a5ed6fdd-91ed-41cf-9866-92b9da2e6b64",
+      "speaker": "LilyaHagen (Female)",
+      "utterance": "Sharing my findings took a calculated risk. If you were a spy, I doubt you'd even realize it. Only your cells would know.",
+      "support_knowledge": [
+        "O0_B8"
+      ]
+    },
+    {
+      "id": 291,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Well that's comforting.",
+      "support_knowledge": []
+    },
+    {
+      "id": 292,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "<Cross your eyes.> We're coming to get you, Lilya.",
+      "support_knowledge": []
+    },
+    {
+      "id": 293,
+      "speaker_guid": "a5ed6fdd-91ed-41cf-9866-92b9da2e6b64",
+      "speaker": "LilyaHagen (Female)",
+      "utterance": "Probably nothing to worry about as long as you don't start growing tentacles or slowing down time. ",
+      "support_knowledge": [
+        "O0_B9"
+      ]
+    },
+    {
+      "id": 320,
+      "speaker_guid": "a5ed6fdd-91ed-41cf-9866-92b9da2e6b64",
+      "speaker": "LilyaHagen (Female)",
+      "utterance": "I'm not laughing, Captain. They got Tobias already. I won't let them get me too. ",
+      "support_knowledge": []
+    },
+    {
+      "id": 16,
+      "speaker_guid": "a5ed6fdd-91ed-41cf-9866-92b9da2e6b64",
+      "speaker": "LilyaHagen (Female)",
+      "utterance": "Dr. Chartrand is the crooked psychopath behind the gas experiments. She sold out her species. I need you to put a bullet through her skull. ",
+      "support_knowledge": [
+        "O0_B10",
+        "O0_B11",
+        "O0_B12"
+      ]
+    },
+    {
+      "id": 18,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Sounds messy, but I'll take the job.",
+      "support_knowledge": []
+    },
+    {
+      "id": 19,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Murder isn't covered under my contractor employment agreement. ",
+      "support_knowledge": []
+    },
+    {
+      "id": 303,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Why does Dr. Chartrand need to die?",
+      "support_knowledge": [
+        "O0_S2"
+      ]
+    },
+    {
+      "id": 17,
+      "speaker_guid": "a5ed6fdd-91ed-41cf-9866-92b9da2e6b64",
+      "speaker": "LilyaHagen (Female)",
+      "utterance": "This keycard will get you through the front door of her Byzantium estate. Don't ask how I got it. You might not like the answer.",
+      "support_knowledge": [
+        "O1_S1",
+        "O1_S2"
+      ]
+    },
+    {
+      "id": 304,
+      "speaker_guid": "a5ed6fdd-91ed-41cf-9866-92b9da2e6b64",
+      "speaker": "LilyaHagen (Female)",
+      "utterance": "By now the other side knows what you're doing. Don't trust anything Chartrand says. She's compromised down to the bone. Maybe even deeper than that.",
+      "support_knowledge": []
+    },
+    {
+      "id": 302,
+      "speaker_guid": "a5ed6fdd-91ed-41cf-9866-92b9da2e6b64",
+      "speaker": "LilyaHagen (Female)",
+      "utterance": "Just think of it as salvaging hope from the smoking wreckage of humanity. ",
+      "support_knowledge": []
+    },
+    {
+      "id": 24,
+      "speaker_guid": "a5ed6fdd-91ed-41cf-9866-92b9da2e6b64",
+      "speaker": "LilyaHagen (Female)",
+      "utterance": "This is your initiation into a future with SubLight. Want a steady position in our ranks? Buy one with a bullet.",
+      "support_knowledge": [
+        "sublight_01"
+      ]
+    },
+    {
+      "id": 460,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "What do I get for joining up?",
+      "support_knowledge": []
+    },
+    {
+      "id": 461,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I don't know about this, Lilya.",
+      "support_knowledge": []
+    },
+    {
+      "id": 462,
+      "speaker_guid": "a5ed6fdd-91ed-41cf-9866-92b9da2e6b64",
+      "speaker": "LilyaHagen (Female)",
+      "utterance": "Well, there's your usual fee. What else do you want, a promotion? It's yours. Even better - I'll owe you one. ",
+      "support_knowledge": []
+    },
+    {
+      "id": 463,
+      "speaker_guid": "a5ed6fdd-91ed-41cf-9866-92b9da2e6b64",
+      "speaker": "LilyaHagen (Female)",
+      "utterance": "If you don't want the job, just walk away. I'm giving you first dibs because you've seen what's at stake.",
+      "support_knowledge": []
+    },
+    {
+      "id": 305,
+      "speaker_guid": "a5ed6fdd-91ed-41cf-9866-92b9da2e6b64",
+      "speaker": "LilyaHagen (Female)",
+      "utterance": "She's a research scientist, and a damn good one. Before UDL poached her, she engineered a point two percent increase in cystipig juiciness.",
+      "support_knowledge": [
+        "eva_chartrand_01"
+      ]
+    },
+    {
+      "id": 322,
+      "speaker_guid": "a5ed6fdd-91ed-41cf-9866-92b9da2e6b64",
+      "speaker": "LilyaHagen (Female)",
+      "utterance": "Now she's doing the same thing with humanity. Her fingerprints were all over Station Ten Eighty-Four. You saw what she did to her team. ",
+      "support_knowledge": [
+        "eva_chartrand_04",
+        "eva_chartrand_05"
+      ]
+    },
+    {
+      "id": 395,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "When did SubLight get so principled?",
+      "support_knowledge": []
+    },
+    {
+      "id": 396,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Your concern for the fate of our species is admirable. ",
+      "support_knowledge": []
+    },
+    {
+      "id": 397,
+      "speaker_guid": "a5ed6fdd-91ed-41cf-9866-92b9da2e6b64",
+      "speaker": "LilyaHagen (Female)",
+      "utterance": "It's cute that you'd think that about me. ",
+      "support_knowledge": []
+    },
+    {
+      "id": 399,
+      "speaker_guid": "a5ed6fdd-91ed-41cf-9866-92b9da2e6b64",
+      "speaker": "LilyaHagen (Female)",
+      "utterance": "I just want to add \"Savior of Humanity\" to my resume. I've got ambitions outside of this office, you know. Besides, this way SubLight gets first dibs on alien salvage.",
+      "support_knowledge": []
+    },
+    {
+      "id": 400,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Ah. Now it all makes sense.",
+      "support_knowledge": []
+    },
+    {
+      "id": 401,
+      "speaker_guid": "a5ed6fdd-91ed-41cf-9866-92b9da2e6b64",
+      "speaker": "LilyaHagen (Female)",
+      "utterance": "You don't just turn down an exclusive deal on extraterrestrial scrap. That's amateur shit.",
+      "support_knowledge": []
+    },
+    {
+      "id": 398,
+      "speaker_guid": "a5ed6fdd-91ed-41cf-9866-92b9da2e6b64",
+      "speaker": "LilyaHagen (Female)",
+      "utterance": "You've got me all wrong.",
+      "support_knowledge": []
+    },
+    {
+      "id": 290,
+      "speaker_guid": "a5ed6fdd-91ed-41cf-9866-92b9da2e6b64",
+      "speaker": "LilyaHagen (Female)",
+      "utterance": "If you don't believe me, go pay a visit to the puppet master who's working against her own kind.",
+      "support_knowledge": [
+        "O0_S1"
+      ]
+    },
+    {
+      "id": 249,
+      "speaker_guid": "a5ed6fdd-91ed-41cf-9866-92b9da2e6b64",
+      "speaker": "LilyaHagen (Female)",
+      "utterance": "Remember what I said about keeping an open mind?",
+      "support_knowledge": []
+    },
+    {
+      "id": 247,
+      "speaker_guid": "a5ed6fdd-91ed-41cf-9866-92b9da2e6b64",
+      "speaker": "LilyaHagen (Female)",
+      "utterance": "Huh. You took that better than I thought.",
+      "support_knowledge": []
+    },
+    {
+      "id": 392,
+      "speaker_guid": "a5ed6fdd-91ed-41cf-9866-92b9da2e6b64",
+      "speaker": "LilyaHagen (Female)",
+      "utterance": "You call that an open mind? All right. Here goes.",
+      "support_knowledge": []
+    }
+  ],
+  "dialog_edges": [
+    [
+      233,
+      235
+    ],
+    [
+      233,
+      391
+    ],
+    [
+      233,
+      236
+    ],
+    [
+      235,
+      237
+    ],
+    [
+      237,
+      242
+    ],
+    [
+      237,
+      238
+    ],
+    [
+      237,
+      239
+    ],
+    [
+      237,
+      260
+    ],
+    [
+      242,
+      241
+    ],
+    [
+      241,
+      240
+    ],
+    [
+      240,
+      244
+    ],
+    [
+      244,
+      245
+    ],
+    [
+      244,
+      248
+    ],
+    [
+      244,
+      246
+    ],
+    [
+      245,
+      250
+    ],
+    [
+      250,
+      261
+    ],
+    [
+      250,
+      285
+    ],
+    [
+      250,
+      287
+    ],
+    [
+      250,
+      263
+    ],
+    [
+      261,
+      264
+    ],
+    [
+      264,
+      284
+    ],
+    [
+      284,
+      357
+    ],
+    [
+      284,
+      449
+    ],
+    [
+      284,
+      425
+    ],
+    [
+      357,
+      358
+    ],
+    [
+      358,
+      359
+    ],
+    [
+      359,
+      250
+    ],
+    [
+      449,
+      450
+    ],
+    [
+      450,
+      357
+    ],
+    [
+      450,
+      425
+    ],
+    [
+      425,
+      426
+    ],
+    [
+      426,
+      250
+    ],
+    [
+      285,
+      286
+    ],
+    [
+      286,
+      291
+    ],
+    [
+      286,
+      292
+    ],
+    [
+      286,
+      287
+    ],
+    [
+      286,
+      263
+    ],
+    [
+      291,
+      293
+    ],
+    [
+      293,
+      250
+    ],
+    [
+      292,
+      320
+    ],
+    [
+      320,
+      250
+    ],
+    [
+      287,
+      16
+    ],
+    [
+      16,
+      18
+    ],
+    [
+      16,
+      19
+    ],
+    [
+      16,
+      303
+    ],
+    [
+      18,
+      17
+    ],
+    [
+      17,
+      304
+    ],
+    [
+      19,
+      302
+    ],
+    [
+      302,
+      24
+    ],
+    [
+      24,
+      460
+    ],
+    [
+      24,
+      461
+    ],
+    [
+      460,
+      462
+    ],
+    [
+      462,
+      16
+    ],
+    [
+      461,
+      463
+    ],
+    [
+      463,
+      16
+    ],
+    [
+      303,
+      305
+    ],
+    [
+      305,
+      322
+    ],
+    [
+      322,
+      395
+    ],
+    [
+      322,
+      396
+    ],
+    [
+      395,
+      397
+    ],
+    [
+      397,
+      399
+    ],
+    [
+      399,
+      400
+    ],
+    [
+      399,
+      16
+    ],
+    [
+      400,
+      401
+    ],
+    [
+      401,
+      16
+    ],
+    [
+      396,
+      398
+    ],
+    [
+      398,
+      399
+    ],
+    [
+      263,
+      290
+    ],
+    [
+      290,
+      16
+    ],
+    [
+      248,
+      249
+    ],
+    [
+      249,
+      250
+    ],
+    [
+      246,
+      247
+    ],
+    [
+      247,
+      16
+    ],
+    [
+      238,
+      240
+    ],
+    [
+      239,
+      241
+    ],
+    [
+      260,
+      241
+    ],
+    [
+      391,
+      392
+    ],
+    [
+      392,
+      237
+    ],
+    [
+      236,
+      237
+    ]
+  ]
+}

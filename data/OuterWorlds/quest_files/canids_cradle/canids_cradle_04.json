@@ -1,0 +1,995 @@
+{
+  "id": "canids_cradle_04",
+  "quest_name": "canids_cradle",
+  "conversation": {
+    "filename": "0401_cv_zora_sanjar_meeting",
+    "start_node": 1,
+    "end_nodes": [],
+    "force_include": [
+      33,
+      62,
+      185
+    ]
+  },
+  "in_objective": "O5",
+  "participants": [
+    "zora_blackwood",
+    "sanjar_nandi"
+  ],
+  "dialog_edges": [
+    [
+      1,
+      2
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      2,
+      5
+    ],
+    [
+      2,
+      6
+    ],
+    [
+      4,
+      9
+    ],
+    [
+      9,
+      10
+    ],
+    [
+      10,
+      11
+    ],
+    [
+      11,
+      12
+    ],
+    [
+      11,
+      14
+    ],
+    [
+      11,
+      13
+    ],
+    [
+      12,
+      15
+    ],
+    [
+      15,
+      21
+    ],
+    [
+      21,
+      24
+    ],
+    [
+      21,
+      25
+    ],
+    [
+      24,
+      28
+    ],
+    [
+      28,
+      29
+    ],
+    [
+      29,
+      30
+    ],
+    [
+      30,
+      16
+    ],
+    [
+      16,
+      48
+    ],
+    [
+      16,
+      49
+    ],
+    [
+      16,
+      50
+    ],
+    [
+      48,
+      51
+    ],
+    [
+      51,
+      113
+    ],
+    [
+      113,
+      114
+    ],
+    [
+      114,
+      115
+    ],
+    [
+      115,
+      116
+    ],
+    [
+      115,
+      117
+    ],
+    [
+      115,
+      118
+    ],
+    [
+      116,
+      135
+    ],
+    [
+      135,
+      57
+    ],
+    [
+      57,
+      67
+    ],
+    [
+      67,
+      68
+    ],
+    [
+      67,
+      70
+    ],
+    [
+      67,
+      69
+    ],
+    [
+      68,
+      72
+    ],
+    [
+      72,
+      194
+    ],
+    [
+      194,
+      77
+    ],
+    [
+      77,
+      78
+    ],
+    [
+      77,
+      80
+    ],
+    [
+      78,
+      81
+    ],
+    [
+      81,
+      77
+    ],
+    [
+      80,
+      82
+    ],
+    [
+      82,
+      83
+    ],
+    [
+      83,
+      108
+    ],
+    [
+      70,
+      74
+    ],
+    [
+      74,
+      94
+    ],
+    [
+      94,
+      77
+    ],
+    [
+      69,
+      84
+    ],
+    [
+      84,
+      85
+    ],
+    [
+      85,
+      77
+    ],
+    [
+      117,
+      119
+    ],
+    [
+      119,
+      57
+    ],
+    [
+      118,
+      120
+    ],
+    [
+      120,
+      57
+    ],
+    [
+      49,
+      113
+    ],
+    [
+      50,
+      56
+    ],
+    [
+      56,
+      113
+    ],
+    [
+      25,
+      44
+    ],
+    [
+      44,
+      45
+    ],
+    [
+      45,
+      30
+    ],
+    [
+      14,
+      18
+    ],
+    [
+      18,
+      33
+    ],
+    [
+      18,
+      62
+    ],
+    [
+      18,
+      35
+    ],
+    [
+      18,
+      36
+    ],
+    [
+      33,
+      20
+    ],
+    [
+      20,
+      37
+    ],
+    [
+      37,
+      39
+    ],
+    [
+      39,
+      48
+    ],
+    [
+      39,
+      49
+    ],
+    [
+      39,
+      50
+    ],
+    [
+      62,
+      65
+    ],
+    [
+      65,
+      37
+    ],
+    [
+      35,
+      40
+    ],
+    [
+      40,
+      42
+    ],
+    [
+      42,
+      43
+    ],
+    [
+      43,
+      16
+    ],
+    [
+      36,
+      41
+    ],
+    [
+      41,
+      42
+    ],
+    [
+      13,
+      17
+    ],
+    [
+      17,
+      61
+    ],
+    [
+      61,
+      32
+    ],
+    [
+      32,
+      16
+    ],
+    [
+      5,
+      8
+    ],
+    [
+      8,
+      10
+    ],
+    [
+      6,
+      7
+    ],
+    [
+      7,
+      10
+    ]
+  ],
+  "dialog": [
+    {
+      "id": 1,
+      "speaker_guid": "ac9307ba-1ad4-4577-9f68-b0ff8cbc2740",
+      "speaker": "Zora (Female)",
+      "utterance": "Hey. Thanks for coming.",
+      "support_knowledge": []
+    },
+    {
+      "id": 2,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "I wish I'd had more time to prepare a proper analysis on the costs and benefits of your proposed union, but I suppose we'll have to... improvise.",
+      "support_knowledge": [
+        "sanjar_nandi_03"
+      ]
+    },
+    {
+      "id": 4,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "That's the spirit.",
+      "support_knowledge": [
+        "O5_S2"
+      ]
+    },
+    {
+      "id": 5,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Sanjar, you have got to scale it back.",
+      "support_knowledge": []
+    },
+    {
+      "id": 6,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I don't have time for nonsense from either of you, so let's just get this done.",
+      "support_knowledge": []
+    },
+    {
+      "id": 9,
+      "speaker_guid": "ac9307ba-1ad4-4577-9f68-b0ff8cbc2740",
+      "speaker": "Zora (Female)",
+      "utterance": "Gotta admit... I really thought I was walking into a trap here. I'm ready.",
+      "support_knowledge": []
+    },
+    {
+      "id": 10,
+      "speaker_guid": "ac9307ba-1ad4-4577-9f68-b0ff8cbc2740",
+      "speaker": "Zora (Female)",
+      "utterance": "Sanjar. Stellar Bay's got food and walls, and my people need both. If you'll have us, we're willing to share the space.",
+      "support_knowledge": []
+    },
+    {
+      "id": 11,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "Do you have any idea what that would cost? Why, drawing up the budget alone is going to take weeks.",
+      "support_knowledge": [
+        "sanjar_nandi_03"
+      ]
+    },
+    {
+      "id": 12,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "You don't have weeks, Sanjar. Zora's ready to storm the city right now.",
+      "support_knowledge": [
+        "O5_B2"
+      ]
+    },
+    {
+      "id": 14,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "What if the Iconoclasts just supported your supply lines?",
+      "support_knowledge": [
+        "O5_B2",
+        "monarch_stellar_industries_10"
+      ]
+    },
+    {
+      "id": 13,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "If you're going to draw up a budget, I'd appreciate a paycheck.",
+      "support_knowledge": []
+    },
+    {
+      "id": 15,
+      "speaker_guid": "ac9307ba-1ad4-4577-9f68-b0ff8cbc2740",
+      "speaker": "Zora (Female)",
+      "utterance": "Though I admit I'd rather not. We've shed enough blood as it is.",
+      "support_knowledge": [
+        "zora_blackwood_13",
+        "iconoclasts_07"
+      ]
+    },
+    {
+      "id": 21,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "Is the only choice here between fighting and starving? We've got to be practical.",
+      "support_knowledge": []
+    },
+    {
+      "id": 24,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Come on, Sanjar, you can't start negotiations this way.",
+      "support_knowledge": []
+    },
+    {
+      "id": 25,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "So negative. No wonder the other execs didn't like you.",
+      "support_knowledge": [
+        "sanjar_nandi_04"
+      ]
+    },
+    {
+      "id": 28,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "This feels more like an assault than a negotiation.",
+      "support_knowledge": []
+    },
+    {
+      "id": 29,
+      "speaker_guid": "ac9307ba-1ad4-4577-9f68-b0ff8cbc2740",
+      "speaker": "Zora (Female)",
+      "utterance": "I'm getting a bit of deja vu, Captain.",
+      "support_knowledge": []
+    },
+    {
+      "id": 30,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "You did a strange thing with your eyes just now. Is this all supposed to mean something to me?",
+      "support_knowledge": [
+        "O5_B3",
+        "graham_bryant_21"
+      ]
+    },
+    {
+      "id": 16,
+      "speaker_guid": "ac9307ba-1ad4-4577-9f68-b0ff8cbc2740",
+      "speaker": "Zora (Female)",
+      "utterance": "Come on. You can't be this obtuse. Tell me Graham wasn't working alone. He couldn't have.",
+      "support_knowledge": [
+        "O5_B3",
+        "sanjar_nandi_02"
+      ]
+    },
+    {
+      "id": 48,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Careful, Zora. Graham was Sanjar's friend.",
+      "support_knowledge": []
+    },
+    {
+      "id": 49,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Something tells me Sanjar didn't know.",
+      "support_knowledge": [
+        "O5_B3"
+      ]
+    },
+    {
+      "id": 50,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I don't think Sanjar would have hurt anyone. If he knew, he didn't agree to it.",
+      "support_knowledge": [
+        "O5_B3"
+      ]
+    },
+    {
+      "id": 51,
+      "speaker_guid": "ac9307ba-1ad4-4577-9f68-b0ff8cbc2740",
+      "speaker": "Zora (Female)",
+      "utterance": "His fr - HIS friend? Are you fucking kidding me, Captain? I've been standing with Graham for the better part of a decade while this paperclip cowboy sat behind his walls!",
+      "support_knowledge": [
+        "sanjar_nandi_02",
+        "sanjar_nandi_13",
+        "stellar_bay_01",
+        "iconoclasts_10",
+        "iconoclasts_11"
+      ]
+    },
+    {
+      "id": 113,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "This feels like one of those times when everyone at headquarters but me is laughing at something. But you two aren't laughing.",
+      "support_knowledge": [
+        "O5_B3",
+        "sanjar_nandi_04",
+        "sanjar_nandi_05"
+      ]
+    },
+    {
+      "id": 114,
+      "speaker_guid": "ac9307ba-1ad4-4577-9f68-b0ff8cbc2740",
+      "speaker": "Zora (Female)",
+      "utterance": "Amber Heights, you hullhead! Ten years ago! Graham had all those people killed!",
+      "support_knowledge": [
+        "O5_B3",
+        "graham_bryant_21"
+      ]
+    },
+    {
+      "id": 115,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "What? That's not possible. Even for him, that's going too far. ",
+      "support_knowledge": [
+        "O5_B3",
+        "graham_bryant_21"
+      ]
+    },
+    {
+      "id": 116,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "It is. We found correspondences between him and the pirates.",
+      "support_knowledge": [
+        "O5_B3",
+        "graham_bryant_21"
+      ]
+    },
+    {
+      "id": 117,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Wasn't it convenient how they all died just after blocking your proposal?",
+      "support_knowledge": [
+        "O5_B3",
+        "graham_bryant_21"
+      ]
+    },
+    {
+      "id": 118,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "You're missing the big picture for the details again.",
+      "support_knowledge": [
+        "O5_B3",
+        "sanjar_nandi_03"
+      ]
+    },
+    {
+      "id": 135,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "But... that means...",
+      "support_knowledge": []
+    },
+    {
+      "id": 57,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "I had no idea, I swear. We were both fed up with corporate leadership, but I never guessed he'd do something like that.",
+      "support_knowledge": [
+        "O5_B3",
+        "monarch_stellar_industries_02",
+        "iconoclasts_06"
+      ]
+    },
+    {
+      "id": 67,
+      "speaker_guid": "ac9307ba-1ad4-4577-9f68-b0ff8cbc2740",
+      "speaker": "Zora (Female)",
+      "utterance": "And I'm supposed to believe that?",
+      "support_knowledge": [
+        "O5_B3"
+      ]
+    },
+    {
+      "id": 68,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Take it back a notch, Zora. You're here for your people, not the past.",
+      "support_knowledge": [
+        "O5_B3"
+      ]
+    },
+    {
+      "id": 70,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Sanjar, you're a leader. That means taking responsibility.",
+      "support_knowledge": [
+        "sanjar_nandi_01",
+        "sanjar_nandi_03"
+      ]
+    },
+    {
+      "id": 69,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Is this going to take much longer? I have places to be.",
+      "support_knowledge": []
+    },
+    {
+      "id": 72,
+      "speaker_guid": "ac9307ba-1ad4-4577-9f68-b0ff8cbc2740",
+      "speaker": "Zora (Female)",
+      "utterance": "You're right. Live in the moment.",
+      "support_knowledge": []
+    },
+    {
+      "id": 194,
+      "speaker_guid": "ac9307ba-1ad4-4577-9f68-b0ff8cbc2740",
+      "speaker": "Zora (Female)",
+      "utterance": "At this moment, I need a place for my people. You can share or we can take it. Up to you.",
+      "support_knowledge": [
+        "O5_S2",
+        "stellar_bay_01"
+      ]
+    },
+    {
+      "id": 77,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "This shall be good practice for working with the Board, I see. Still, anything's cheaper than war. You have a deal, Zora.",
+      "support_knowledge": [
+        "O5_B4"
+      ]
+    },
+    {
+      "id": 78,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "What about the targeting module?",
+      "support_knowledge": [
+        "O2_S1"
+      ]
+    },
+    {
+      "id": 80,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Guess that's that.",
+      "support_knowledge": [
+        "O5_B4"
+      ]
+    },
+    {
+      "id": 81,
+      "speaker_guid": "ac9307ba-1ad4-4577-9f68-b0ff8cbc2740",
+      "speaker": "Zora (Female)",
+      "utterance": "If we're in Stellar Bay, then we don't need it yet. I just need a promise that when we do, we'll share it.",
+      "support_knowledge": [
+        "O2_S1",
+        "O5_B4"
+      ]
+    },
+    {
+      "id": 82,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "Thank you for brokering this arrangement.",
+      "support_knowledge": [
+        "O5_B4"
+      ]
+    },
+    {
+      "id": 83,
+      "speaker_guid": "ac9307ba-1ad4-4577-9f68-b0ff8cbc2740",
+      "speaker": "Zora (Female)",
+      "utterance": "Yeah. Here's hoping we don't come to regret this.",
+      "support_knowledge": [
+        "O5_B4"
+      ]
+    },
+    {
+      "id": 108,
+      "speaker_guid": "ac9307ba-1ad4-4577-9f68-b0ff8cbc2740",
+      "speaker": "Zora (Female)",
+      "utterance": "Thanks for coming out, Sanjar. I, uh... guess I'll see you at Stellar Bay.",
+      "support_knowledge": [
+        "O5_B4",
+        "stellar_bay_02"
+      ]
+    },
+    {
+      "id": 74,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "For what? Graham was a rabid canid. He may have fooled me, but I wasn't the only one.",
+      "support_knowledge": [
+        "sanjar_nandi_13"
+      ]
+    },
+    {
+      "id": 94,
+      "speaker_guid": "ac9307ba-1ad4-4577-9f68-b0ff8cbc2740",
+      "speaker": "Zora (Female)",
+      "utterance": "It... you know, forget it. Look, my people need a place to live. You can give it to us or we can take it. Your choice.",
+      "support_knowledge": [
+        "O5_S2",
+        "stellar_bay_01"
+      ]
+    },
+    {
+      "id": 84,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "You know, I don't think you're taking this seriously.",
+      "support_knowledge": []
+    },
+    {
+      "id": 85,
+      "speaker_guid": "ac9307ba-1ad4-4577-9f68-b0ff8cbc2740",
+      "speaker": "Zora (Female)",
+      "utterance": "Fine, I'll speed this up for our impatient captain here. My people need a place to live and we're prepared to take it from you unless you want to share.",
+      "support_knowledge": [
+        "O5_S2",
+        "stellar_bay_01"
+      ]
+    },
+    {
+      "id": 119,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "I certainly didn't think so at the time, but now that you mention it...",
+      "support_knowledge": [
+        "O5_B3",
+        "graham_bryant_21"
+      ]
+    },
+    {
+      "id": 120,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "I... by the void, that's just what Celia would say.",
+      "support_knowledge": [
+        "celia_robbins_01"
+      ]
+    },
+    {
+      "id": 56,
+      "speaker_guid": "ac9307ba-1ad4-4577-9f68-b0ff8cbc2740",
+      "speaker": "Zora (Female)",
+      "utterance": "Void take his agreement. He stood by and let it happen.",
+      "support_knowledge": [
+        "O5_B3",
+        "graham_bryant_21"
+      ]
+    },
+    {
+      "id": 44,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "Now, there's no cause for rudeness.",
+      "support_knowledge": []
+    },
+    {
+      "id": 45,
+      "speaker_guid": "ac9307ba-1ad4-4577-9f68-b0ff8cbc2740",
+      "speaker": "Zora (Female)",
+      "utterance": "Rude would be slaughtering you while you're asleep in your home. Isn't that what we do to executive types?",
+      "support_knowledge": [
+        "O5_B3",
+        "graham_bryant_21"
+      ]
+    },
+    {
+      "id": 18,
+      "speaker_guid": "ac9307ba-1ad4-4577-9f68-b0ff8cbc2740",
+      "speaker": "Zora (Female)",
+      "utterance": "Not good enough. I need to move a fair amount of my people into the city. We need shelter, Captain.",
+      "support_knowledge": [
+        "O5_S2",
+        "stellar_bay_02"
+      ]
+    },
+    {
+      "id": 33,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I'm not saying live outside - just help out in the wilderness once in a while.",
+      "support_knowledge": [
+        "stellar_bay_02",
+        "stellar_bay_01"
+      ]
+    },
+    {
+      "id": 62,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Being stubborn about this isn't going to get you anywhere.",
+      "support_knowledge": []
+    },
+    {
+      "id": 35,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "At least that'd be better than nothing.",
+      "support_knowledge": []
+    },
+    {
+      "id": 36,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I'm sure you can find a way to make it work.",
+      "support_knowledge": []
+    },
+    {
+      "id": 20,
+      "speaker_guid": "ac9307ba-1ad4-4577-9f68-b0ff8cbc2740",
+      "speaker": "Zora (Female)",
+      "utterance": "Suppose some of our healthier folk could offer aid. Some of us need to stay in the city proper, though.",
+      "support_knowledge": [
+        "O5_S2",
+        "stellar_bay_02"
+      ]
+    },
+    {
+      "id": 37,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "Truly, a compromise? I'm not sure I'd ever have heard as much from Graham.",
+      "support_knowledge": [
+        "O5_S2"
+      ]
+    },
+    {
+      "id": 39,
+      "speaker_guid": "ac9307ba-1ad4-4577-9f68-b0ff8cbc2740",
+      "speaker": "Zora (Female)",
+      "utterance": "Graham was a murderous fiend, and I'd be shocked if you didn't already know that.",
+      "support_knowledge": [
+        "O5_B3",
+        "graham_bryant_21"
+      ]
+    },
+    {
+      "id": 65,
+      "speaker_guid": "ac9307ba-1ad4-4577-9f68-b0ff8cbc2740",
+      "speaker": "Zora (Female)",
+      "utterance": "Fine. Some of our people can help with supply lines. But I have to ask for some room in the city itself.",
+      "support_knowledge": [
+        "O5_S2",
+        "stellar_bay_02"
+      ]
+    },
+    {
+      "id": 40,
+      "speaker_guid": "ac9307ba-1ad4-4577-9f68-b0ff8cbc2740",
+      "speaker": "Zora (Female)",
+      "utterance": "We aren't here for \"better than nothing,\" Captain!",
+      "support_knowledge": [
+        "O5_S2",
+        "iconoclasts_07"
+      ]
+    },
+    {
+      "id": 42,
+      "speaker_guid": "ac9307ba-1ad4-4577-9f68-b0ff8cbc2740",
+      "speaker": "Zora (Female)",
+      "utterance": "If not for the professional courtesy I owe our friend here, we wouldn't even be talking about this.",
+      "support_knowledge": []
+    },
+    {
+      "id": 43,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "You said that with a very ominous tone just now. Was that intentional?",
+      "support_knowledge": [
+        "O5_B3"
+      ]
+    },
+    {
+      "id": 41,
+      "speaker_guid": "ac9307ba-1ad4-4577-9f68-b0ff8cbc2740",
+      "speaker": "Zora (Female)",
+      "utterance": "Graham was fit to just eke by on our will to survive. That \"make it work\" mentality got a lot of good people killed. No more.",
+      "support_knowledge": []
+    },
+    {
+      "id": 17,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "Come now, this is no time for one of your jokes.",
+      "support_knowledge": []
+    },
+    {
+      "id": 61,
+      "speaker_guid": "ac9307ba-1ad4-4577-9f68-b0ff8cbc2740",
+      "speaker": "Zora (Female)",
+      "utterance": "Hey, if we're taking over the company, I'm sure there're a lot of old life insurance policies to cash in.",
+      "support_knowledge": [
+        "O5_B3",
+        "graham_bryant_21"
+      ]
+    },
+    {
+      "id": 32,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "I'm confused. The look on your face does not match the words you just said.",
+      "support_knowledge": [
+        "O5_B3"
+      ]
+    },
+    {
+      "id": 8,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "This is very hard for me.",
+      "support_knowledge": []
+    },
+    {
+      "id": 7,
+      "speaker_guid": "a31db2ae-6126-46e1-b047-70fce1d9d624",
+      "speaker": "sanjar_nandi (Male)",
+      "utterance": "I certainly hope you don't mean to undercut the value of due diligence.",
+      "support_knowledge": []
+    }
+  ]
+}

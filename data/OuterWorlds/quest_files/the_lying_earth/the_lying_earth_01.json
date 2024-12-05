@@ -1,0 +1,356 @@
+{
+  "id": "the_lying_earth_01",
+  "quest_name": "the_lying_earth",
+  "conversation": {
+    "filename": "0203_cv_guard_bachmeyer",
+    "start_node": 20,
+    "end_nodes": [],
+    "force_include": [
+      9
+    ],
+    "force_sequence": []
+  },
+  "in_objective": "O1",
+  "out_objective": "O1",
+  "participants": [
+    "guard_bachmeyer"
+  ],
+  "objectives": {
+    "O1": {
+      "summary": "Send Minister Clarke's Message",
+      "description": {
+        "S1": "Minister Clarke has a message for the Earth Directorate,",
+        "S2": "and one of the only terminals in Halcyon capable of transmitting to the Earthbound message drone is in the Chairman's office.",
+        "S3": "Go to the HHC building in Byzantium and send his message."
+      },
+      "blurb": {
+        "B1": "If you've completed Balance Due you will have access to the HHC building and won't need to use the Maintenance Tunnels.",
+        "B2": "You can also skip the tunnels by walking to the front door and bribing the guard for 2000 bits.",
+        "B3": "Once inside the HHC building go straight ahead and talk to Guard Bachmayer.",
+        "B4": "You'll take a lift heading to Percival Platt -",
+        "B5": "he has nothing important to say so go left and unlock the door with Minister's HHC Access Card",
+        "B6": "You can print the keycard at the terminal to gain the Ministry of Accuracy and Morale Key.",
+        "B7": "You can also send Minister Clarke's message completing the Lying Earth quest and earning you a small amount of Negative Reputation with The Board."
+      }
+    }
+  },
+  "dialog": [
+    {
+      "id": 20,
+      "speaker_guid": "cd3a4efd-693e-4bc7-9de9-f7625c4eda5b",
+      "speaker": "GuardBachmeyer (Male)",
+      "utterance": "Please step away. This entry is for high-priority HHC business only.",
+      "support_knowledge": [
+        "guard_bachmeyer_02",
+        "halcyon_holdings_corporation_building_06"
+      ]
+    },
+    {
+      "id": 1,
+      "speaker_guid": "cd3a4efd-693e-4bc7-9de9-f7625c4eda5b",
+      "speaker": "GuardBachmeyer (Male)",
+      "utterance": "Are you here on HHC business?",
+      "support_knowledge": []
+    },
+    {
+      "id": 9,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "<Show him the minister's HHC access card.> Is this official enough for you?",
+      "support_knowledge": []
+    },
+    {
+      "id": 7,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "What's through here?",
+      "support_knowledge": []
+    },
+    {
+      "id": 6,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I'll be going now.",
+      "support_knowledge": []
+    },
+    {
+      "id": 10,
+      "speaker_guid": "cd3a4efd-693e-4bc7-9de9-f7625c4eda5b",
+      "speaker": "GuardBachmeyer (Male)",
+      "utterance": "Huh. I didn't realize we were still using those iridescent stickers. But this looks right.",
+      "support_knowledge": []
+    },
+    {
+      "id": 11,
+      "speaker_guid": "cd3a4efd-693e-4bc7-9de9-f7625c4eda5b",
+      "speaker": "GuardBachmeyer (Male)",
+      "utterance": "I'll just need you to register your weapons with a Revised Request to Carry 32-B form. Each weapon will need a separate form. ",
+      "support_knowledge": []
+    },
+    {
+      "id": 13,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Fine.",
+      "support_knowledge": []
+    },
+    {
+      "id": 26,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "That's ridiculous.",
+      "support_knowledge": []
+    },
+    {
+      "id": 27,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "You'd better be joking.",
+      "support_knowledge": []
+    },
+    {
+      "id": 12,
+      "speaker_guid": "cd3a4efd-693e-4bc7-9de9-f7625c4eda5b",
+      "speaker": "GuardBachmeyer (Male)",
+      "utterance": "Now, let's see... damn it, when did I run out of forms?!",
+      "support_knowledge": []
+    },
+    {
+      "id": 30,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I can wait.",
+      "support_knowledge": []
+    },
+    {
+      "id": 31,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Oh, what a SHAME.",
+      "support_knowledge": []
+    },
+    {
+      "id": 35,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "How about you save us both some trouble and let me through?",
+      "support_knowledge": []
+    },
+    {
+      "id": 32,
+      "speaker_guid": "cd3a4efd-693e-4bc7-9de9-f7625c4eda5b",
+      "speaker": "GuardBachmeyer (Male)",
+      "utterance": "Well, how nice for you! Do you have any idea how long it takes to request new forms? Or how many citations I'll get for \"impeding HHC business\" in the meantime?",
+      "support_knowledge": []
+    },
+    {
+      "id": 16,
+      "speaker_guid": "cd3a4efd-693e-4bc7-9de9-f7625c4eda5b",
+      "speaker": "GuardBachmeyer (Male)",
+      "utterance": "Just know there are a bunch of guards upstairs, and they're all high on Dervish Mist and low on patience. So, try anything funny, and they'll paint the walls with your guts.",
+      "support_knowledge": [
+        "halcyon_holdings_corporation_building_10"
+      ]
+    },
+    {
+      "id": 41,
+      "speaker_guid": "cd3a4efd-693e-4bc7-9de9-f7625c4eda5b",
+      "speaker": "GuardBachmeyer (Male)",
+      "utterance": "You don't have to be sarcastic about it.",
+      "support_knowledge": []
+    },
+    {
+      "id": 42,
+      "speaker_guid": "cd3a4efd-693e-4bc7-9de9-f7625c4eda5b",
+      "speaker": "GuardBachmeyer (Male)",
+      "utterance": "Look, you don't have time to wait on new forms, and I can't afford the citations for impeding HHC business. So I'm gonna save us both some trouble and waive your forms.",
+      "support_knowledge": []
+    },
+    {
+      "id": 36,
+      "speaker_guid": "cd3a4efd-693e-4bc7-9de9-f7625c4eda5b",
+      "speaker": "GuardBachmeyer (Male)",
+      "utterance": "I was going to suggest that myself.",
+      "support_knowledge": []
+    },
+    {
+      "id": 37,
+      "speaker_guid": "cd3a4efd-693e-4bc7-9de9-f7625c4eda5b",
+      "speaker": "GuardBachmeyer (Male)",
+      "utterance": "Look, you don't have time to wait on new forms, and I can't afford the citations for impeding HHC business. So I'm gonna save us both some trouble and waive your forms.",
+      "support_knowledge": []
+    },
+    {
+      "id": 38,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Mighty fine of you.",
+      "support_knowledge": []
+    },
+    {
+      "id": 39,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "<Roll your eyes.>",
+      "support_knowledge": []
+    },
+    {
+      "id": 40,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Fine, but I suggested it first.",
+      "support_knowledge": []
+    },
+    {
+      "id": 29,
+      "speaker_guid": "cd3a4efd-693e-4bc7-9de9-f7625c4eda5b",
+      "speaker": "GuardBachmeyer (Male)",
+      "utterance": "It's procedure.",
+      "support_knowledge": []
+    },
+    {
+      "id": 28,
+      "speaker_guid": "cd3a4efd-693e-4bc7-9de9-f7625c4eda5b",
+      "speaker": "GuardBachmeyer (Male)",
+      "utterance": "I'm not authorized to employ humor on the job, sir.",
+      "support_knowledge": []
+    },
+    {
+      "id": 8,
+      "speaker_guid": "cd3a4efd-693e-4bc7-9de9-f7625c4eda5b",
+      "speaker": "GuardBachmeyer (Male)",
+      "utterance": "If you're not cleared to know, then I'm definitely not cleared to tell you.",
+      "support_knowledge": []
+    }
+  ],
+  "dialog_edges": [
+    [
+      20,
+      1
+    ],
+    [
+      1,
+      9
+    ],
+    [
+      1,
+      7
+    ],
+    [
+      1,
+      6
+    ],
+    [
+      9,
+      10
+    ],
+    [
+      10,
+      11
+    ],
+    [
+      11,
+      13
+    ],
+    [
+      11,
+      26
+    ],
+    [
+      11,
+      27
+    ],
+    [
+      13,
+      12
+    ],
+    [
+      12,
+      30
+    ],
+    [
+      12,
+      31
+    ],
+    [
+      12,
+      35
+    ],
+    [
+      30,
+      32
+    ],
+    [
+      32,
+      16
+    ],
+    [
+      31,
+      41
+    ],
+    [
+      41,
+      42
+    ],
+    [
+      42,
+      16
+    ],
+    [
+      35,
+      36
+    ],
+    [
+      36,
+      37
+    ],
+    [
+      37,
+      38
+    ],
+    [
+      37,
+      39
+    ],
+    [
+      37,
+      40
+    ],
+    [
+      38,
+      16
+    ],
+    [
+      39,
+      16
+    ],
+    [
+      40,
+      16
+    ],
+    [
+      26,
+      29
+    ],
+    [
+      29,
+      12
+    ],
+    [
+      27,
+      28
+    ],
+    [
+      28,
+      12
+    ],
+    [
+      7,
+      8
+    ],
+    [
+      8,
+      1
+    ]
+  ]
+}

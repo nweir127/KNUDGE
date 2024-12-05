@@ -1,0 +1,331 @@
+{
+  "id": "die_robot_00",
+  "quest_name": "die_robot",
+  "conversation": {
+    "filename": "00_cv_ludwig",
+    "start_node": 1,
+    "end_nodes": [],
+    "force_include": [
+      4,
+      180,
+      87,
+      90
+    ],
+    "force_sequence": [
+      [
+        28,
+        87
+      ]
+    ]
+  },
+  "in_objective": "O0",
+  "out_objective": "O1",
+  "participants": [
+    "ludwig_miller"
+  ],
+  "objectives": {
+    "O0": {
+      "description": {
+        "S1": "Ludwig Miller, a guard watching over the landing pad south of Edgewater,",
+        "S2": "is convinced that automechanicals are planning to wipe out humanity.",
+        "S3": "He's asked you to help him wage a secret war against the mechanical menace."
+      },
+      "blurb": {
+        "B1": "The quest is started by speaking to Ludwig Miller near the entrance of the Edgewater landing pad and agreeing to join the resistance against the automechanicals.",
+        "B2": "With a Persuade 5 check, one can convince him to pay an upfront enlistment fee of 75 bits.",
+        "B3": "Ludwig's first task is to destroy a damaged mechanical sentry located at the Edgewater junkyard.",
+        "B4": "Miller claims it is a scout for the automechanicals at the geothermal power plant."
+      }
+    },
+    "O1": {
+      "summary": "Deal with the Mechanical Scout",
+      "description": {
+        "S1": "Ludwig reports that he's spotted a forward scout of the mechanical arm north of the landing pad.",
+        "S2": "As a test of your mettle,",
+        "S3": "he's requested that you dispose of this scout in the name of humanity."
+      },
+      "blurb": {
+        "B1": "The automechanical scout isn't hostile when it is approached.",
+        "B2": "It can either be destroyed per Ludwig's request or repaired,",
+        "B3": "as it is only roaming the junkyard because its navigation systems are damaged."
+      }
+    }
+  },
+  "dialog": [
+    {
+      "id": 1,
+      "speaker_guid": "2bc7a436-3eff-4d01-983e-cc1aa9630287",
+      "speaker": "LudwigMiller (Male)",
+      "utterance": "Thank the Law. I've been requisitioning backup for months. Guess the boss finally came to his senses.",
+      "support_knowledge": [
+        "O0_S1",
+        "ludwig_miller_03"
+      ]
+    },
+    {
+      "id": 3,
+      "speaker_guid": "2bc7a436-3eff-4d01-983e-cc1aa9630287",
+      "speaker": "LudwigMiller (Male)",
+      "utterance": "You ever swung a truncheon? Let me see your rifling stance. I wanna make sure you're up to snuff.",
+      "support_knowledge": [
+        "ludwig_miller_03"
+      ]
+    },
+    {
+      "id": 4,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "What are you babbling about?",
+      "support_knowledge": []
+    },
+    {
+      "id": 180,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Are you okay? You seem confused.",
+      "support_knowledge": []
+    },
+    {
+      "id": 87,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "If your Resistance needs another gun, I am for hire.",
+      "support_knowledge": []
+    },
+    {
+      "id": 6,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I'll let you be.",
+      "support_knowledge": []
+    },
+    {
+      "id": 7,
+      "speaker_guid": "2bc7a436-3eff-4d01-983e-cc1aa9630287",
+      "speaker": "LudwigMiller (Male)",
+      "utterance": "The war! The coming apocalypse. Man versus machine.",
+      "support_knowledge": [
+        "O0_S2",
+        "ludwig_miller_02",
+        "automechanicals_01"
+      ]
+    },
+    {
+      "id": 19,
+      "speaker_guid": "2bc7a436-3eff-4d01-983e-cc1aa9630287",
+      "speaker": "LudwigMiller (Male)",
+      "utterance": "I'm talking about mechanicals, soldier. Cold, heartless automatons made of iron and lies.",
+      "support_knowledge": [
+        "O0_S2",
+        "ludwig_miller_02",
+        "automechanicals_01"
+      ]
+    },
+    {
+      "id": 21,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Uh. Yeah. Gotta watch out for those mechanicals.",
+      "support_knowledge": []
+    },
+    {
+      "id": 24,
+      "speaker_guid": "2bc7a436-3eff-4d01-983e-cc1aa9630287",
+      "speaker": "LudwigMiller (Male)",
+      "utterance": "That's right. That's what I been saying. We gotta square our shoulders and stand ever vigilant.",
+      "support_knowledge": [
+        "ludwig_miller_03"
+      ]
+    },
+    {
+      "id": 27,
+      "speaker_guid": "2bc7a436-3eff-4d01-983e-cc1aa9630287",
+      "speaker": "LudwigMiller (Male)",
+      "utterance": "Au. To. Mechanicals. Creatures forged in the fires of malevolence. I seen them over by the old power plant. Clattering about. Firing at the birds. Orchestrating their uprising. ",
+      "support_knowledge": [
+        "O0_S2",
+        "ludwig_miller_02",
+        "automechanicals_01"
+      ]
+    },
+    {
+      "id": 28,
+      "speaker_guid": "2bc7a436-3eff-4d01-983e-cc1aa9630287",
+      "speaker": "LudwigMiller (Male)",
+      "utterance": "When the swarms of mechanicals come clanging on over that hill, where will you be? Cowering beneath your cot? Or standing shoulder to shoulder with the Resistance?",
+      "support_knowledge": [
+        "ludwig_miller_03"
+      ]
+    },
+    {
+      "id": 88,
+      "speaker_guid": "2bc7a436-3eff-4d01-983e-cc1aa9630287",
+      "speaker": "LudwigMiller (Male)",
+      "utterance": "I been gathering up a war chest over the years. Saltuna cans, mostly. Some Spacer's Chaw. Few bit carts. I'll reward you for your aid.",
+      "support_knowledge": [
+        "ludwig_miller_03"
+      ]
+    },
+    {
+      "id": 90,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Proper armies pay enlistment fees.",
+      "support_knowledge": [
+        "O0_B2"
+      ]
+    },
+    {
+      "id": 89,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "What do you need done?",
+      "support_knowledge": [
+        "O0_B1"
+      ]
+    },
+    {
+      "id": 91,
+      "speaker_guid": "2bc7a436-3eff-4d01-983e-cc1aa9630287",
+      "speaker": "LudwigMiller (Male)",
+      "utterance": "Enlistment fees? Yeah, I suppose. Wouldn't want to give the Resistance a bad name.",
+      "support_knowledge": [
+        "O0_B2"
+      ]
+    },
+    {
+      "id": 36,
+      "speaker_guid": "2bc7a436-3eff-4d01-983e-cc1aa9630287",
+      "speaker": "LudwigMiller (Male)",
+      "utterance": "They have sent a scout. Prowling around the junkyard, just behind our beloved town.",
+      "support_knowledge": [
+        "O0_B3",
+        "O0_B4"
+      ]
+    },
+    {
+      "id": 37,
+      "speaker_guid": "2bc7a436-3eff-4d01-983e-cc1aa9630287",
+      "speaker": "LudwigMiller (Male)",
+      "utterance": "This scout must not be permitted to return to its base of operations. Cross it off, then report back.",
+      "support_knowledge": [
+        "O0_B3",
+        "O0_B4"
+      ]
+    },
+    {
+      "id": 174,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "If I'm going after this mechanical scout, I could use a couple pointers.",
+      "support_knowledge": []
+    },
+    {
+      "id": 175,
+      "speaker_guid": "2bc7a436-3eff-4d01-983e-cc1aa9630287",
+      "speaker": "LudwigMiller (Male)",
+      "utterance": "Mechanicals got a weak spot in their midsections. I think the technical term is uh - the blue glowy square thing.",
+      "support_knowledge": [
+        "automechanicals_01"
+      ]
+    }
+  ],
+  "dialog_edges": [
+    [
+      1,
+      3
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      3,
+      180
+    ],
+    [
+      3,
+      87
+    ],
+    [
+      3,
+      6
+    ],
+    [
+      4,
+      7
+    ],
+    [
+      7,
+      19
+    ],
+    [
+      19,
+      21
+    ],
+    [
+      21,
+      24
+    ],
+    [
+      24,
+      27
+    ],
+    [
+      27,
+      28
+    ],
+    [
+      28,
+      3
+    ],
+    [
+      180,
+      19
+    ],
+    [
+      87,
+      88
+    ],
+    [
+      88,
+      90
+    ],
+    [
+      88,
+      89
+    ],
+    [
+      90,
+      91
+    ],
+    [
+      91,
+      89
+    ],
+    [
+      89,
+      36
+    ],
+    [
+      36,
+      37
+    ],
+    [
+      37,
+      174
+    ],
+    [
+      37,
+      3
+    ],
+    [
+      174,
+      175
+    ],
+    [
+      175,
+      3
+    ]
+  ]
+}

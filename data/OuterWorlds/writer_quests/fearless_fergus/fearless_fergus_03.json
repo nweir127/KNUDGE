@@ -1,0 +1,77 @@
+{
+  "id": "fearless_fergus_03",
+  "quest_name": "fearless_fergus",
+  "conversation": null,
+  "in_objective": [
+    "O4",
+    "O5"
+  ],
+  "participants": [
+    "clara_ryan"
+  ],
+  "objectives": {
+    "O4": {
+      "summary": "Find Fergus's Remains",
+      "description": {
+        "S1": "Fergus's remains are somewhere on the outpost."
+      },
+      "blurb": {
+        "B1": "The Stranger discovers Fergus's rotted corpse in the projection room of the theater,",
+        "B2": "watching Titus Androidicus still playing on a loop.",
+        "B3": "In addition to his personal effects,",
+        "B4": "the player finds Nolan's final letter.",
+        "B5": "In it Nolan calls out Fergus as the traitor,",
+        "B6": "and admits his love.",
+        "B7": "He knows the loyalist movement would be destroyed by Fergus's betrayal and his reputation ruined.",
+        "B8": "As an act of devotion Nolan offered to make him a martyr.",
+        "B9": "All Fergus had to do was come to the theater.",
+        "B10": "There, Nolan assassinated him and claimed it was the last act of the desperate revolutionaries.",
+        "B11": "Fergus had to die for his crimes,",
+        "B12": "but he would die a hero to the cause he betrayed - Fearless Fergus.",
+        "B13": "With Fergus eliminated,",
+        "B14": "the loyalists were able to successfully execute their plan to depressurize the base and end the fighting."
+      }
+    },
+    "O5": {
+      "summary": "Return to Clara",
+      "description": {
+        "S1": "Deliver the evidence to Clara"
+      },
+      "blurb": {
+        "B1": "With the mystery revealed,",
+        "B2": "the Stranger returns to Clara.",
+        "B3": "She is understandably troubled by what has been discovered.",
+        "B4": "The Stranger must then help Clara decide what to do with her family secrets.",
+        "B5": "They can choose to conceal the truth -",
+        "B6": "she has enough to make a movie about Fergus",
+        "B7": "(Title: Fearless Fergus!)",
+        "B8": "and keep the myth of his heroism alive.",
+        "B9": "She's aware that if she does this she'll really be continuing Nolan's script,",
+        "B10": "which she has some qualms about.",
+        "B11": "On one hand, he was the real loyalist and loved her uncle.",
+        "B12": "On the other hand, he's a dead hack and she has a career to advance.",
+        "B13": "Or, they can choose to reveal the truth -",
+        "B14": "she has evidence to destroy the myth of Uncle Fergus,",
+        "B15": "but will undoubtedly lose her job at Odeon in the process",
+        "B16": "(it's a continuity break!).",
+        "B17": "On the other hand, truth matters (right?)",
+        "B18": "and maybe she can get a job as an investigative journalist at the Halcyon Observer.",
+        "B19": "That's practically the same thing as a script writer,",
+        "B20": "and with her youth and vigor,",
+        "B21": "those old media hacks won't know what hit 'em."
+      }
+    }
+  },
+  "dialog": [
+    {
+      "id": 0,
+      "speaker_guid": "clara_ryan",
+      "speaker": "Clara Ryan",
+      "utterance": "If it isn't my favorite semi-legal Odeon subcontractor.  Any updates on my uncle?",
+      "support_knowledge": [
+        "clara_ryan_5", "clara_ryan_20"
+      ]
+    }
+  ],
+  "dialog_edges": []
+}

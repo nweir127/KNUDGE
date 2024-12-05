@@ -1,0 +1,388 @@
+{
+  "id": "by_his_bootstraps_02",
+  "quest_name": "by_his_bootstraps",
+  "conversation": {
+    "filename": "08_cv_scientist_anton",
+    "start_node": 138,
+    "end_nodes": [],
+    "force_include": [
+      185,
+      158,
+      159,
+      266,
+      317,
+      448,
+      302,
+      434,
+      579
+    ],
+    "force_sequence": []
+  },
+  "in_objective": "O2",
+  "participants": [
+    "anton_crane"
+  ],
+  "objectives": {
+    "O2": {
+      "summary": "Talk to Anton",
+      "description": {
+        "S1": "Jameson is pissed off but otherwise fine.",
+        "S2": "Head back to Roseway to give Anton the good news."
+      },
+      "blurb": {
+        "B1": "Return to Anton and talk to him to gain Auntie Cleo Reputation, 1000 Bit Cartridge and 11,000xp."
+      }
+    }
+  },
+  "dialog": [
+    {
+      "id": 138,
+      "speaker_guid": "b6b89b91-20f7-4e45-a3a5-58a37608bc32",
+      "speaker": "Anton (Male)",
+      "utterance": "Oh, it's you.",
+      "support_knowledge": []
+    },
+    {
+      "id": 185,
+      "speaker_guid": "b6b89b91-20f7-4e45-a3a5-58a37608bc32",
+      "speaker": "Anton (Male)",
+      "utterance": "As if my thoughts weren't dark enough already. What is it?",
+      "support_knowledge": []
+    },
+    {
+      "id": 158,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I found your associate Jameson. He's safe.",
+      "support_knowledge": [
+        "O2_S1",
+        "O2_S2"
+      ]
+    },
+    {
+      "id": 159,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I have unfortunate news, your associate, Jameson, is dead.",
+      "support_knowledge": [
+        "anton_crane_12"
+      ]
+    },
+    {
+      "id": 195,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I suppose I'll be going. Goodbye.",
+      "support_knowledge": []
+    },
+    {
+      "id": 266,
+      "speaker_guid": "b6b89b91-20f7-4e45-a3a5-58a37608bc32",
+      "speaker": "Anton (Male)",
+      "utterance": "That is wonderful news, I'd feared the worst. ",
+      "support_knowledge": [
+        "O2_S2"
+      ]
+    },
+    {
+      "id": 302,
+      "speaker_guid": "b6b89b91-20f7-4e45-a3a5-58a37608bc32",
+      "speaker": "Anton (Male)",
+      "utterance": "Jameson. I didn't do right by him, did I? Only cared about how he helped or hurt my research. ",
+      "support_knowledge": []
+    },
+    {
+      "id": 317,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "It's good to hear your employees actually mean more to you than your research. ",
+      "support_knowledge": []
+    },
+    {
+      "id": 434,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "You really didn't care about him at all, though, did you? It's all about your ambition.",
+      "support_knowledge": []
+    },
+    {
+      "id": 448,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "You know, there's more to care about than black marks and paperwork. ",
+      "support_knowledge": []
+    },
+    {
+      "id": 400,
+      "speaker_guid": "b6b89b91-20f7-4e45-a3a5-58a37608bc32",
+      "speaker": "Anton (Male)",
+      "utterance": "Of course they do. Please don't mistake my ambition for callousness.",
+      "support_knowledge": []
+    },
+    {
+      "id": 294,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "What should I mistake it for, compassion?",
+      "support_knowledge": []
+    },
+    {
+      "id": 397,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "You must see how one could do exactly that, can't you?",
+      "support_knowledge": []
+    },
+    {
+      "id": 300,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I stand corrected. I'll be off now.",
+      "support_knowledge": []
+    },
+    {
+      "id": 295,
+      "speaker_guid": "b6b89b91-20f7-4e45-a3a5-58a37608bc32",
+      "speaker": "Anton (Male)",
+      "utterance": "If my colleagues refuse to take their lives seriously, why should I? All they do is complain. They refuse to see the opportunity afforded us here.",
+      "support_knowledge": []
+    },
+    {
+      "id": 296,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Just wanted to hear you admit that you're a heartless bastard. Thanks.",
+      "support_knowledge": []
+    },
+    {
+      "id": 398,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "You can see why people might think you're callous, though, can't you?",
+      "support_knowledge": []
+    },
+    {
+      "id": 301,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "You make a good point. Good day to you, sir.",
+      "support_knowledge": []
+    },
+    {
+      "id": 297,
+      "speaker_guid": "b6b89b91-20f7-4e45-a3a5-58a37608bc32",
+      "speaker": "Anton (Male)",
+      "utterance": "Believe what you will, but I'm not the manipulative, ego driven person you think me to be. I'm not.",
+      "support_knowledge": []
+    },
+    {
+      "id": 298,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I guess I'll just have to take your word for it.",
+      "support_knowledge": []
+    },
+    {
+      "id": 687,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "You just keep telling yourself that.",
+      "support_knowledge": []
+    },
+    {
+      "id": 406,
+      "speaker_guid": "b6b89b91-20f7-4e45-a3a5-58a37608bc32",
+      "speaker": "Anton (Male)",
+      "utterance": "I understand I can come off as manipulative and ego driven. It's something I've always been forced to contend with.",
+      "support_knowledge": []
+    },
+    {
+      "id": 402,
+      "speaker_guid": "b6b89b91-20f7-4e45-a3a5-58a37608bc32",
+      "speaker": "Anton (Male)",
+      "utterance": "It's just that their constant complaining can begin to wear. They refuse to see the opportunity afforded us here. It's infuriating.",
+      "support_knowledge": []
+    },
+    {
+      "id": 403,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "You really are an insufferable jackass.",
+      "support_knowledge": []
+    },
+    {
+      "id": 435,
+      "speaker_guid": "b6b89b91-20f7-4e45-a3a5-58a37608bc32",
+      "speaker": "Anton (Male)",
+      "utterance": "You understand nothing. Me least of all.",
+      "support_knowledge": []
+    },
+    {
+      "id": 447,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I suppose it's none of my business. Goodbye.",
+      "support_knowledge": []
+    },
+    {
+      "id": 579,
+      "speaker_guid": "b6b89b91-20f7-4e45-a3a5-58a37608bc32",
+      "speaker": "Anton (Male)",
+      "utterance": "Not in this colony, there isn't. But success here will get me to Byzantium. I'll have recognition, money, proper facilities. It's the only place to lead a life of meaning in this system.",
+      "support_knowledge": []
+    },
+    {
+      "id": 785,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "That's not really for me to say, Anton. I'll be off now.",
+      "support_knowledge": []
+    }
+  ],
+  "dialog_edges": [
+    [
+      138,
+      185
+    ],
+    [
+      185,
+      158
+    ],
+    [
+      185,
+      159
+    ],
+    [
+      185,
+      195
+    ],
+    [
+      158,
+      266
+    ],
+    [
+      158,
+      302
+    ],
+    [
+      266,
+      317
+    ],
+    [
+      266,
+      434
+    ],
+    [
+      266,
+      448
+    ],
+    [
+      317,
+      400
+    ],
+    [
+      400,
+      294
+    ],
+    [
+      400,
+      397
+    ],
+    [
+      400,
+      300
+    ],
+    [
+      294,
+      295
+    ],
+    [
+      295,
+      296
+    ],
+    [
+      295,
+      398
+    ],
+    [
+      295,
+      301
+    ],
+    [
+      296,
+      297
+    ],
+    [
+      297,
+      298
+    ],
+    [
+      297,
+      687
+    ],
+    [
+      398,
+      406
+    ],
+    [
+      406,
+      298
+    ],
+    [
+      406,
+      301
+    ],
+    [
+      397,
+      402
+    ],
+    [
+      402,
+      403
+    ],
+    [
+      402,
+      298
+    ],
+    [
+      402,
+      301
+    ],
+    [
+      403,
+      297
+    ],
+    [
+      434,
+      435
+    ],
+    [
+      435,
+      447
+    ],
+    [
+      448,
+      579
+    ],
+    [
+      579,
+      447
+    ],
+    [
+      302,
+      434
+    ],
+    [
+      302,
+      448
+    ],
+    [
+      302,
+      785
+    ],
+    [
+      159,
+      302
+    ]
+  ]
+}

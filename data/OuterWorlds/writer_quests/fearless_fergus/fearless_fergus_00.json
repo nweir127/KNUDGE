@@ -1,0 +1,64 @@
+{
+     "id": "fearless_fergus_00",
+     "quest_name": "fearless_fergus",
+     "conversation": null,
+     "in_objective": "O0",
+     "out_objective": "O1",
+     "participants": [
+          "clara_ryan"
+     ],
+     "objectives": {
+          "O0": {
+               "description": {
+                    "S1": "Funes' records have only deepened the mystery surrounding Clara's Uncle Fergus.",
+                    "S2": "She asks the Stranger to continue the investigation,",
+                    "S3": "revealing additional details about Fergus, Nolan, and the revolt at the MSI Outpost.",
+                    "S4": "Ultimately the Stranger must help her decide whether or not to reveal old secrets and jeopardize her career."
+               },
+               "blurb": {
+                    "B1": "The Stranger returns the retrieved records to the screenwriter, Clara, at Billingsly's.",
+                    "B2": "She reads them and becomes indignant -",
+                    "B3": "her uncle's heroic death follows the plot of Odeon's hit picture, Titus Androidicus!",
+                    "B4": "She can't make a movie out of this!",
+                    "B5": "It'd be just a half-assed, genre-hopping remake.",
+                    "B6": "What sort of hack writer would do that?!",
+                    "B7": "Even more upsetting - maybe - is the doubt this casts on her family history.",
+                    "B8": "What really happened to Fergus and his loyalists?",
+                    "B9": "Art imitating history is one thing, but history imitating art? That's suspect.",
+                    "B10": "She needs to know more and will need the Stranger's help once again.",
+                    "B11": "She's particularly surprised the corporate records - the official history - were written by Nolan,",
+                    "B12": "who she knows little about.",
+                    "B13": "All Clara knows about Nolan is that he was one of her Uncle's loyalists,",
+                    "B14": "but given how suspicious the records are,",
+                    "B15": "she wants to know more.",
+                    "B16": "She recommends checking the crew manifest for the Asterion Outpost to learn more about him.",
+                    "B17": "The MSI leadership in Stellar Bay should have records.",
+                    "B18": "Alternately, the Stranger can go straight to the MSI outpost to explore there."
+               }
+          },
+          "O1": {
+               "summary": "Learn about Nolan",
+               "description": {
+                    "S1": "Learn more about Nolan and the crew of the MSI outpost"
+               },
+               "blurb": {
+                    "B1": "Visiting Stellar Bay again,",
+                    "B2": "the Stranger speaks with Celia Robbins.",
+                    "B3": "She remembers Nolan from years back,",
+                    "B4": "describing him as a \"morose weasel\" who worked for Odeon Pictures."
+               }
+          }
+     },
+     "dialog": [
+          {
+               "id": 0,
+               "speaker_guid": "clara_ryan",
+               "speaker": "Clara Ryan",
+               "utterance": "Please tell me you've got your hands on that info about my uncle. I've got a lot riding on this screenplay – It's really gotta WOW the higher-ups at Odeon!",
+               "support_knowledge": [
+                    "clara_ryan_1", "clara_ryan_2", "clara_ryan_6", "clara_ryan_14", "clara_ryan_19"
+               ]
+          }
+     ],
+     "dialog_edges": []
+}

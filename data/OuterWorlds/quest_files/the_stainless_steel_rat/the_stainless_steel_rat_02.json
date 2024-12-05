@@ -1,0 +1,265 @@
+{
+  "id": "the_stainless_steel_rat_02",
+  "quest_name": "the_stainless_steel_rat",
+  "conversation": {
+    "filename": "0402_cv_elijahhayes_stealthconvo",
+    "start_node": 9,
+    "end_nodes": [],
+    "force_include": [
+      10,
+      15,
+      25
+    ],
+    "force_sequence": []
+  },
+  "in_objective": "O3",
+  "out_objective": "O4",
+  "participants": [
+    "elijah"
+  ],
+  "dialog_edges": [
+    [
+      9,
+      18
+    ],
+    [
+      18,
+      10
+    ],
+    [
+      18,
+      12
+    ],
+    [
+      10,
+      14
+    ],
+    [
+      14,
+      17
+    ],
+    [
+      17,
+      15
+    ],
+    [
+      17,
+      34
+    ],
+    [
+      17,
+      16
+    ],
+    [
+      15,
+      24
+    ],
+    [
+      24,
+      25
+    ],
+    [
+      24,
+      33
+    ],
+    [
+      25,
+      26
+    ],
+    [
+      26,
+      27
+    ],
+    [
+      34,
+      35
+    ],
+    [
+      12,
+      19
+    ],
+    [
+      19,
+      22
+    ],
+    [
+      19,
+      36
+    ],
+    [
+      19,
+      16
+    ],
+    [
+      22,
+      14
+    ],
+    [
+      36,
+      37
+    ]
+  ],
+  "dialog": [
+    {
+      "id": 9,
+      "speaker_guid": "6944ae7f-2700-4c4c-b33f-42d36c129ffc",
+      "speaker": "Elijah (Male)",
+      "utterance": "Hey, what're you doing here? This is OUR secret alley.",
+      "support_knowledge": [
+        "elijah_05"
+      ]
+    },
+    {
+      "id": 18,
+      "speaker_guid": "6944ae7f-2700-4c4c-b33f-42d36c129ffc",
+      "speaker": "Elijah (Male)",
+      "utterance": "Berta already pissed by those crates to mark it.",
+      "support_knowledge": [
+        "O3_B5"
+      ]
+    },
+    {
+      "id": 10,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I know you murdered Isaac.",
+      "support_knowledge": [
+        "O3_B1"
+      ]
+    },
+    {
+      "id": 12,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "In that case, I should get going...",
+      "support_knowledge": []
+    },
+    {
+      "id": 14,
+      "speaker_guid": "6944ae7f-2700-4c4c-b33f-42d36c129ffc",
+      "speaker": "Elijah (Male)",
+      "utterance": "Listen, that purple-toothed twerp had it coming. Not that anyone has proof.",
+      "support_knowledge": [
+        "O3_B1"
+      ]
+    },
+    {
+      "id": 17,
+      "speaker_guid": "6944ae7f-2700-4c4c-b33f-42d36c129ffc",
+      "speaker": "Elijah (Male)",
+      "utterance": "And not that it's any of your business. ",
+      "support_knowledge": []
+    },
+    {
+      "id": 15,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I'm making it my business.",
+      "support_knowledge": [
+        "O3_B2"
+      ]
+    },
+    {
+      "id": 34,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Fine. Let's just forget this ever happened...",
+      "support_knowledge": []
+    },
+    {
+      "id": 16,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "<Attack> Wrong answer.",
+      "support_knowledge": []
+    },
+    {
+      "id": 24,
+      "speaker_guid": "6944ae7f-2700-4c4c-b33f-42d36c129ffc",
+      "speaker": "Elijah (Male)",
+      "utterance": "Oh yeah? What're you saying, exactly?",
+      "support_knowledge": [
+        "O3_B2"
+      ]
+    },
+    {
+      "id": 25,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "You've bullied people long enough. If you know what's good for you, you'll clear out and never come back.",
+      "support_knowledge": [
+        "O3_B3"
+      ]
+    },
+    {
+      "id": 33,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "<Attack> Just that I'm going to enjoy this.",
+      "support_knowledge": []
+    },
+    {
+      "id": 26,
+      "speaker_guid": "6944ae7f-2700-4c4c-b33f-42d36c129ffc",
+      "speaker": "Elijah (Male)",
+      "utterance": "Wow. Most of the pencil-pushers around here cave as soon as you look at 'em funny.",
+      "support_knowledge": [
+        "O3_B3"
+      ]
+    },
+    {
+      "id": 27,
+      "speaker_guid": "6944ae7f-2700-4c4c-b33f-42d36c129ffc",
+      "speaker": "Elijah (Male)",
+      "utterance": "Fine, we're going. This ain't worth it.",
+      "support_knowledge": [
+        "O3_B3"
+      ]
+    },
+    {
+      "id": 35,
+      "speaker_guid": "6944ae7f-2700-4c4c-b33f-42d36c129ffc",
+      "speaker": "Elijah (Male)",
+      "utterance": "I don't think so. You're a loose end now.",
+      "support_knowledge": [
+        "O3_B4"
+      ]
+    },
+    {
+      "id": 19,
+      "speaker_guid": "6944ae7f-2700-4c4c-b33f-42d36c129ffc",
+      "speaker": "Elijah (Male)",
+      "utterance": "Not so fast. You look like you got some bits. I'm thinking we take 'em off your corpse.",
+      "support_knowledge": [
+        "O3_B4"
+      ]
+    },
+    {
+      "id": 22,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Just like you did to Isaac?",
+      "support_knowledge": [
+        "O3_B1"
+      ]
+    },
+    {
+      "id": 36,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "No, really, how about I just leave...",
+      "support_knowledge": [
+        "O3_B4"
+      ]
+    },
+    {
+      "id": 37,
+      "speaker_guid": "6944ae7f-2700-4c4c-b33f-42d36c129ffc",
+      "speaker": "Elijah (Male)",
+      "utterance": "Not this time.",
+      "support_knowledge": [
+        "O3_B4"
+      ]
+    }
+  ]
+}

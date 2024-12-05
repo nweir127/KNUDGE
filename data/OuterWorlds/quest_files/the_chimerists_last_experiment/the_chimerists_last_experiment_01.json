@@ -1,0 +1,1412 @@
+{
+  "id": "the_chimerists_last_experiment_01",
+  "quest_name": "the_chimerists_last_experiment",
+  "conversation": {
+    "filename": "0202_cv_chartrand_eva",
+    "start_node": 139,
+    "end_nodes": [],
+    "force_include": [
+      228,
+      229,
+      5,
+      233,
+      182,
+      225,
+      270,
+      241,
+      123,
+      132,
+      340,
+      335,
+      334
+    ],
+    "force_sequence": []
+  },
+  "in_objective": "O1",
+  "out_objective": "O2",
+  "participants": [
+    "eva_chartrand",
+    "udl_commander"
+  ],
+  "objectives": {
+    "O1": {
+      "summary": "Find and Kill Eva Chartrand",
+      "description": {
+        "S1": "Eva Chartrand's home is on Byzantium.",
+        "S2": "Lilya gave you a keycard to the front door."
+      },
+      "blurb": {
+        "B1": "Head to Dr. Chartrand's house in Byzantium within the Estate District and use the Byzantium Estate Key to open the door and enter Dr. Chartrand's Home.",
+        "B2": "Once inside, use the terminal to read her logs and notes,",
+        "B3": "some of which talk about you checking the lab terminal on Cascadia and your takeover of HS-1084.",
+        "B4": "Use the same terminal to open the lab and head down the elevator.",
+        "B5": "Head forward and speak to Dr. Eva Chartrand.",
+        "B6": "You can tell her that Lilya Hagen sent you to kill her,",
+        "B7": "and she will say she does not know Lilya (if you bring her up) or wonder if you were sent by The Board.",
+        "B8": "You can Lie (1) to her to get her to tell you what she is doing,",
+        "B9": "which is finding a new way to feed the colony,",
+        "B10": "as the crops that humanity brought from Earth are not reacting well to the local soil and are not giving humans the needed nutrients to survive.",
+        "B11": "She will tell you that the colony will starve unless she can alter humans to thrive on the nutrients found in Halcyon,",
+        "B12": "and will try to dissuade your fears that there is any alien takeover if you bring it up.",
+        "B13": "She will also reveal that they didn't want to experiment on unwilling humans,",
+        "B14": "so they instead experimented on each other,",
+        "B15": "and will bring up the concerning fact that they contacted Earth about this years ago and never heard back.",
+        "B16": "At this point two choices can be made.",
+        "B17": "The Stranger could spare her letting her continue her research for the Board (this option increases Reputation with the Board),",
+        "B18": "or ask her to work with Phineas Welles to help better mankind.",
+        "B19": "She will not need convincing for either of these,",
+        "B20": "but the Corporate Commander who guards will.",
+        "B21": "If the Stranger has more positive Reputation with the Board than negative,",
+        "B22": "they can bribe, Persuade (150) him into letting them go,",
+        "B23": "or tell him they work for Adjutant Akande if they have completed at least one of her quests.",
+        "B24": "Otherwise, if the Dumb or the last dialogue option is chosen,",
+        "B25": "the UDL guards and the automechanichals will become hostile and the Stranger can either kill them gaining negative Reputation with the Board or run away."
+      }
+    },
+    "O2": {
+      "summary": "Return to Lilya Hagen",
+      "description": {
+        "S1": "Lilya will want to know what happened at Dr. Chartrand's estate.",
+        "S2": "She can be found at SubLight Headquarters on the Groundbreaker."
+      },
+      "blurb": {
+        "B1": "Afterwards, report back to Hagen on the Groundbreaker for either the reward and some ship decorations in the Captain's quarters,",
+        "B2": "or the dismissal from Sublight (along with a Reputation decrease),",
+        "B3": "depending on whether or not Dr. Chartrand was killed."
+      }
+    }
+  },
+  "dialog": [
+    {
+      "id": 139,
+      "speaker_guid": "ece7b8b9-b35c-473b-9c85-6136976686c4",
+      "speaker": "EvaChartrand (Female)",
+      "utterance": "That's far enough. What are you doing here? How did you even get inside?",
+      "support_knowledge": []
+    },
+    {
+      "id": 5,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Lilya Hagen sent me to kill you.",
+      "support_knowledge": [
+        "O1_B6"
+      ]
+    },
+    {
+      "id": 228,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I'm the one asking the questions. ",
+      "support_knowledge": []
+    },
+    {
+      "id": 229,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Your alien mind tricks won't fool me!",
+      "support_knowledge": []
+    },
+    {
+      "id": 231,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "<Attack> Let's skip the talk and get to the good part.",
+      "support_knowledge": []
+    },
+    {
+      "id": 9,
+      "speaker_guid": "ece7b8b9-b35c-473b-9c85-6136976686c4",
+      "speaker": "EvaChartrand (Female)",
+      "utterance": "Hagen? Never heard of her. Is she from the Board? Damn it, I knew this would happen. ",
+      "support_knowledge": [
+        "O1_B7"
+      ]
+    },
+    {
+      "id": 18,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Lilya runs Sublight Salvage on Groundbreaker. Good boss. Bit of a live wire.",
+      "support_knowledge": [
+        "lilya_hagen_01",
+        "lilya_hagen_02"
+      ]
+    },
+    {
+      "id": 179,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Why would the Board want you dead?",
+      "support_knowledge": []
+    },
+    {
+      "id": 182,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Cut the distractions. I know all about your alien conspiracy.",
+      "support_knowledge": []
+    },
+    {
+      "id": 26,
+      "speaker_guid": "ece7b8b9-b35c-473b-9c85-6136976686c4",
+      "speaker": "EvaChartrand (Female)",
+      "utterance": "This is utter nonsense. I've never even been to Groundbreaker!",
+      "support_knowledge": []
+    },
+    {
+      "id": 32,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "You've been to Cascadia. And Station Ten Eighty-Four. I know all of your dirty secrets.",
+      "support_knowledge": [
+        "cascadia_01",
+        "cascadia_05",
+        "hrs-1084_01",
+        "hrs-1084_02",
+        "hrs-1084_03"
+      ]
+    },
+    {
+      "id": 45,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "<Attack> And you never will.",
+      "support_knowledge": []
+    },
+    {
+      "id": 223,
+      "speaker_guid": "ece7b8b9-b35c-473b-9c85-6136976686c4",
+      "speaker": "EvaChartrand (Female)",
+      "utterance": "What happened to the team? Tell me you didn't move their suspension tanks?",
+      "support_knowledge": []
+    },
+    {
+      "id": 224,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "SubLight took over the lab. Your human aquariums are probably just office decor. ",
+      "support_knowledge": [
+        "O1_B16"
+      ]
+    },
+    {
+      "id": 225,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Lilya has orders to airlock your sleeping friends if I don't report in.",
+      "support_knowledge": [
+        "O1_B16"
+      ]
+    },
+    {
+      "id": 226,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "<Attack> I'm done talking.",
+      "support_knowledge": []
+    },
+    {
+      "id": 236,
+      "speaker_guid": "ece7b8b9-b35c-473b-9c85-6136976686c4",
+      "speaker": "EvaChartrand (Female)",
+      "utterance": "Small consolation. My team, the finest minds of their generation... reduced to salvage. ",
+      "support_knowledge": []
+    },
+    {
+      "id": 237,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "What were they trying to prove by experimenting on themselves?",
+      "support_knowledge": [
+        "O1_B13",
+        "O1_B14"
+      ]
+    },
+    {
+      "id": 238,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "At least they're no longer accomplices to your alien conspiracy.",
+      "support_knowledge": []
+    },
+    {
+      "id": 239,
+      "speaker_guid": "ece7b8b9-b35c-473b-9c85-6136976686c4",
+      "speaker": "EvaChartrand (Female)",
+      "utterance": "We were trying to prove that the colony could survive the crisis bearing down on us. ",
+      "support_knowledge": [
+        "O1_B11"
+      ]
+    },
+    {
+      "id": 270,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Crisis? What crisis?",
+      "support_knowledge": []
+    },
+    {
+      "id": 326,
+      "speaker_guid": "7a01aeb8-723d-49e0-8a0b-b9f8747bbe22",
+      "speaker": "0232_UDL_Commander (Male)",
+      "utterance": "What are you doing, Doctor? This information is beyond classified.",
+      "support_knowledge": [
+        "O1_B17"
+      ]
+    },
+    {
+      "id": 327,
+      "speaker_guid": "ece7b8b9-b35c-473b-9c85-6136976686c4",
+      "speaker": "EvaChartrand (Female)",
+      "utterance": "You can write me up in your report. It hardly matters. ",
+      "support_knowledge": []
+    },
+    {
+      "id": 190,
+      "speaker_guid": "ece7b8b9-b35c-473b-9c85-6136976686c4",
+      "speaker": "EvaChartrand (Female)",
+      "utterance": "I'm researching a new way to feed the colony. The crops we transplanted from Earth don't give us the nutrients we need. Our colonists might not realize it yet, but they're starving. ",
+      "support_knowledge": [
+        "O1_B9",
+        "O1_B10"
+      ]
+    },
+    {
+      "id": 191,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "This is startling. But it doesn't explain the research I found.",
+      "support_knowledge": []
+    },
+    {
+      "id": 268,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Wait. You're telling me this was all about vegetables?",
+      "support_knowledge": []
+    },
+    {
+      "id": 202,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Do you always have corporate guards in your home?",
+      "support_knowledge": []
+    },
+    {
+      "id": 196,
+      "speaker_guid": "ece7b8b9-b35c-473b-9c85-6136976686c4",
+      "speaker": "EvaChartrand (Female)",
+      "utterance": "The food we grow here barely sustains human life. The colony won't last under these conditions! So, the Board let me approach the problem from a different angle. ",
+      "support_knowledge": [
+        "O1_B10"
+      ]
+    },
+    {
+      "id": 197,
+      "speaker_guid": "ece7b8b9-b35c-473b-9c85-6136976686c4",
+      "speaker": "EvaChartrand (Female)",
+      "utterance": "I believed that I could adapt humans to live on Halcyon's terms... that I could change us, give us the ability to derive sustenance from the nutrients the food *does* have.",
+      "support_knowledge": [
+        "O1_B11"
+      ]
+    },
+    {
+      "id": 200,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Adaptation didn't save your research team.",
+      "support_knowledge": []
+    },
+    {
+      "id": 201,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "All you have to show for it is a lab full of preserved colleagues.",
+      "support_knowledge": []
+    },
+    {
+      "id": 192,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Hold on, what about the aliens?",
+      "support_knowledge": []
+    },
+    {
+      "id": 203,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "<Attack> Let's see how quickly you can adapt to a bullet.",
+      "support_knowledge": []
+    },
+    {
+      "id": 204,
+      "speaker_guid": "ece7b8b9-b35c-473b-9c85-6136976686c4",
+      "speaker": "EvaChartrand (Female)",
+      "utterance": "Not for lack of trying. I wanted to save them all, but I wasn't strong enough. ",
+      "support_knowledge": []
+    },
+    {
+      "id": 272,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "You burned through a lot of valuable scientists to arrive at zero solutions.",
+      "support_knowledge": []
+    },
+    {
+      "id": 273,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I'm surprised you don't have more support from the Board.",
+      "support_knowledge": []
+    },
+    {
+      "id": 205,
+      "speaker_guid": "ece7b8b9-b35c-473b-9c85-6136976686c4",
+      "speaker": "EvaChartrand (Female)",
+      "utterance": "I wouldn't allow us to experiment on convicts or the unemployed. It's wrong, no matter what the law says. Everyone agreed. We accepted the risks.",
+      "support_knowledge": [
+        "O1_B13",
+        "O1_B14"
+      ]
+    },
+    {
+      "id": 208,
+      "speaker_guid": "ece7b8b9-b35c-473b-9c85-6136976686c4",
+      "speaker": "EvaChartrand (Female)",
+      "utterance": "I'm desperate. I've already asked all the best institutes on Earth for help. Years ago we sent a message out on the Cornelius Vanderbilt, but heard nothing back.",
+      "support_knowledge": [
+        "O1_B15"
+      ]
+    },
+    {
+      "id": 247,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Enough talk. Where do we go from here?",
+      "support_knowledge": []
+    },
+    {
+      "id": 241,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Isn't Cornelius Vanderbilt one of the assault cruisers patrolling Halcyon?",
+      "support_knowledge": [
+        "O1_B18"
+      ]
+    },
+    {
+      "id": 102,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "The Board wants to \"adapt\" the entire population of Halcyon?",
+      "support_knowledge": []
+    },
+    {
+      "id": 215,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "That's a hell of a story. Lilya Hagen still wants me to kill you.",
+      "support_knowledge": []
+    },
+    {
+      "id": 248,
+      "speaker_guid": "ece7b8b9-b35c-473b-9c85-6136976686c4",
+      "speaker": "EvaChartrand (Female)",
+      "utterance": "You could always shoot me. I assume that's why you're here. ",
+      "support_knowledge": []
+    },
+    {
+      "id": 216,
+      "speaker_guid": "ece7b8b9-b35c-473b-9c85-6136976686c4",
+      "speaker": "EvaChartrand (Female)",
+      "utterance": "If I die, there's no one who can reproduce our work. Every sacrifice will have been for nothing. And we'll be no closer to a solution that feeds the colony. ",
+      "support_knowledge": []
+    },
+    {
+      "id": 123,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "You know Phineas Welles? If you work with him, I'll spare you.",
+      "support_knowledge": [
+        "O1_B22"
+      ]
+    },
+    {
+      "id": 132,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Keep working with the Board on a plan to save Halcyon. I'll leave you be.",
+      "support_knowledge": [
+        "O1_B21"
+      ]
+    },
+    {
+      "id": 119,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "<Attack> I can't let this go on. Sorry, Doc.",
+      "support_knowledge": []
+    },
+    {
+      "id": 142,
+      "speaker_guid": "ece7b8b9-b35c-473b-9c85-6136976686c4",
+      "speaker": "EvaChartrand (Female)",
+      "utterance": "The one on the wanted posters? They say he's an anarchist. A madman. A butcher.",
+      "support_knowledge": []
+    },
+    {
+      "id": 250,
+      "speaker_guid": "ece7b8b9-b35c-473b-9c85-6136976686c4",
+      "speaker": "EvaChartrand (Female)",
+      "utterance": "I'll do it. ",
+      "support_knowledge": [
+        "O1_B23"
+      ]
+    },
+    {
+      "id": 341,
+      "speaker_guid": "7a01aeb8-723d-49e0-8a0b-b9f8747bbe22",
+      "speaker": "0232_UDL_Commander (Male)",
+      "utterance": "Doctor!",
+      "support_knowledge": [
+        "O1_B24"
+      ]
+    },
+    {
+      "id": 342,
+      "speaker_guid": "ece7b8b9-b35c-473b-9c85-6136976686c4",
+      "speaker": "EvaChartrand (Female)",
+      "utterance": "What choice do I have, Commander?",
+      "support_knowledge": []
+    },
+    {
+      "id": 143,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "That didn't take much convincing.",
+      "support_knowledge": [
+        "O1_B23"
+      ]
+    },
+    {
+      "id": 161,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "In the future, try and stay away from plans that hack our species.",
+      "support_knowledge": []
+    },
+    {
+      "id": 144,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "So there really is no alien conspiracy?",
+      "support_knowledge": []
+    },
+    {
+      "id": 145,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "<Attack> Changed my mind.",
+      "support_knowledge": []
+    },
+    {
+      "id": 146,
+      "speaker_guid": "ece7b8b9-b35c-473b-9c85-6136976686c4",
+      "speaker": "EvaChartrand (Female)",
+      "utterance": "If working with Welles is the only way I can save the colony, then I will damn well do it!",
+      "support_knowledge": []
+    },
+    {
+      "id": 148,
+      "speaker_guid": "ece7b8b9-b35c-473b-9c85-6136976686c4",
+      "speaker": "EvaChartrand (Female)",
+      "utterance": "I need to get out of here. Phineas can contact me when he's ready to work together. ",
+      "support_knowledge": []
+    },
+    {
+      "id": 178,
+      "speaker_guid": "ece7b8b9-b35c-473b-9c85-6136976686c4",
+      "speaker": "EvaChartrand (Female)",
+      "utterance": "For now, I had better pack up the lab and head somewhere discreet.",
+      "support_knowledge": []
+    },
+    {
+      "id": 325,
+      "speaker_guid": "7a01aeb8-723d-49e0-8a0b-b9f8747bbe22",
+      "speaker": "0232_UDL_Commander (Male)",
+      "utterance": "Not so fast! Captain, what you just learned is beyond your clearance. Hell, it's beyond mine.",
+      "support_knowledge": [
+        "O1_B24"
+      ]
+    },
+    {
+      "id": 328,
+      "speaker_guid": "7a01aeb8-723d-49e0-8a0b-b9f8747bbe22",
+      "speaker": "0232_UDL_Commander (Male)",
+      "utterance": "Give me one reason why I should let you walk out of here alive.",
+      "support_knowledge": [
+        "O1_B24"
+      ]
+    },
+    {
+      "id": 334,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Because the fate of the colony is in my hands. ",
+      "support_knowledge": [
+        "O1_B26"
+      ]
+    },
+    {
+      "id": 335,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "What if I gave you <oeiglobal>Bribe_Amount</oeiglobal> reasons? ",
+      "support_knowledge": [
+        "O1_B26"
+      ]
+    },
+    {
+      "id": 340,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "It's less work than hauling my corpse out of here?",
+      "support_knowledge": [
+        "O1_B26"
+      ]
+    },
+    {
+      "id": 330,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "<Attack> Can't think of one.",
+      "support_knowledge": [
+        "O1_B29"
+      ]
+    },
+    {
+      "id": 337,
+      "speaker_guid": "7a01aeb8-723d-49e0-8a0b-b9f8747bbe22",
+      "speaker": "0232_UDL_Commander (Male)",
+      "utterance": "You sure have an inflated sense of self-importance. But that doesn't make you wrong.",
+      "support_knowledge": [
+        "O1_B26"
+      ]
+    },
+    {
+      "id": 338,
+      "speaker_guid": "7a01aeb8-723d-49e0-8a0b-b9f8747bbe22",
+      "speaker": "0232_UDL_Commander (Male)",
+      "utterance": "Now move along. The Doc has a lot of work ahead of her. Tidying up and such.",
+      "support_knowledge": [
+        "O1_B26"
+      ]
+    },
+    {
+      "id": 339,
+      "speaker_guid": "7a01aeb8-723d-49e0-8a0b-b9f8747bbe22",
+      "speaker": "0232_UDL_Commander (Male)",
+      "utterance": "That'll do. Sucker.",
+      "support_knowledge": []
+    },
+    {
+      "id": 331,
+      "speaker_guid": "7a01aeb8-723d-49e0-8a0b-b9f8747bbe22",
+      "speaker": "0232_UDL_Commander (Male)",
+      "utterance": "Wrong answer.",
+      "support_knowledge": [
+        "O1_B29"
+      ]
+    },
+    {
+      "id": 162,
+      "speaker_guid": "ece7b8b9-b35c-473b-9c85-6136976686c4",
+      "speaker": "EvaChartrand (Female)",
+      "utterance": "What kind of scientist would I be if I held to a promise like that?",
+      "support_knowledge": []
+    },
+    {
+      "id": 252,
+      "speaker_guid": "ece7b8b9-b35c-473b-9c85-6136976686c4",
+      "speaker": "EvaChartrand (Female)",
+      "utterance": "Alien conspiracy? No. What? Did you hit your head on your way in or something?",
+      "support_knowledge": [
+        "O1_B12"
+      ]
+    },
+    {
+      "id": 251,
+      "speaker_guid": "ece7b8b9-b35c-473b-9c85-6136976686c4",
+      "speaker": "EvaChartrand (Female)",
+      "utterance": "Oh, for pity's sake. I'll make sure you regret this!",
+      "support_knowledge": []
+    },
+    {
+      "id": 133,
+      "speaker_guid": "ece7b8b9-b35c-473b-9c85-6136976686c4",
+      "speaker": "EvaChartrand (Female)",
+      "utterance": "You won't regret this. I'm still far from the breakthrough I need, but you're at least giving me a chance. ",
+      "support_knowledge": []
+    },
+    {
+      "id": 113,
+      "speaker_guid": "ece7b8b9-b35c-473b-9c85-6136976686c4",
+      "speaker": "EvaChartrand (Female)",
+      "utterance": "It's been missing for over two years now. They never reestablished contact after the skip to Earth. Of course, the Board is keeping that under wraps.",
+      "support_knowledge": [
+        "O1_B18"
+      ]
+    },
+    {
+      "id": 115,
+      "speaker_guid": "ece7b8b9-b35c-473b-9c85-6136976686c4",
+      "speaker": "EvaChartrand (Female)",
+      "utterance": "The Board is uneasy about letting the colony know, seeing as half of their military force vanished without a trace. ",
+      "support_knowledge": [
+        "O1_B18"
+      ]
+    },
+    {
+      "id": 242,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Lilya sent me after a conspiracy, but it looks like I found a cover-up instead. ",
+      "support_knowledge": []
+    },
+    {
+      "id": 243,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Colonists might get unruly if they realized there was only one boot on their neck. ",
+      "support_knowledge": []
+    },
+    {
+      "id": 258,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "If the Board's authority is vulnerable, that's a crisis waiting to unfold.",
+      "support_knowledge": [
+        "the_board_01",
+        "the_board_02"
+      ]
+    },
+    {
+      "id": 246,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "<Attack> You've told me everything I need to know and more. Goodbye, Doc.",
+      "support_knowledge": []
+    },
+    {
+      "id": 245,
+      "speaker_guid": "ece7b8b9-b35c-473b-9c85-6136976686c4",
+      "speaker": "EvaChartrand (Female)",
+      "utterance": "I'd prefer if you didn't use my name when you talk about this. My contract has a list of very terrible consequences for breaking secrecy.",
+      "support_knowledge": []
+    },
+    {
+      "id": 244,
+      "speaker_guid": "ece7b8b9-b35c-473b-9c85-6136976686c4",
+      "speaker": "EvaChartrand (Female)",
+      "utterance": "The Board also has its brand to uphold. If you can't trust the brand, what else is there? ",
+      "support_knowledge": []
+    },
+    {
+      "id": 259,
+      "speaker_guid": "ece7b8b9-b35c-473b-9c85-6136976686c4",
+      "speaker": "EvaChartrand (Female)",
+      "utterance": "Exactly. If colonists know we can't feed them or protect them, they'll begin to wonder why they need us at all. ",
+      "support_knowledge": [
+        "O1_B10"
+      ]
+    },
+    {
+      "id": 218,
+      "speaker_guid": "ece7b8b9-b35c-473b-9c85-6136976686c4",
+      "speaker": "EvaChartrand (Female)",
+      "utterance": "Once we can replicate a success, the Board will move to rewire our nuclein. With any luck, our next generation will be eating and thriving off Halcyon crops. ",
+      "support_knowledge": [
+        "O1_B11"
+      ]
+    },
+    {
+      "id": 318,
+      "speaker_guid": "ece7b8b9-b35c-473b-9c85-6136976686c4",
+      "speaker": "EvaChartrand (Female)",
+      "utterance": "We haven't made enough strides to advance the plan. Hardly any at all. But we have to keep trying.",
+      "support_knowledge": []
+    },
+    {
+      "id": 274,
+      "speaker_guid": "ece7b8b9-b35c-473b-9c85-6136976686c4",
+      "speaker": "EvaChartrand (Female)",
+      "utterance": "There are other teams. We didn't want to experiment on human test subjects, so we used the only resources we had. Each other.",
+      "support_knowledge": [
+        "O1_B13",
+        "O1_B14"
+      ]
+    },
+    {
+      "id": 211,
+      "speaker_guid": "ece7b8b9-b35c-473b-9c85-6136976686c4",
+      "speaker": "EvaChartrand (Female)",
+      "utterance": "I know. I was there. Thomas was the first to take the gas. A simple test, he said. I told him not to, but he insisted.",
+      "support_knowledge": []
+    },
+    {
+      "id": 214,
+      "speaker_guid": "ece7b8b9-b35c-473b-9c85-6136976686c4",
+      "speaker": "EvaChartrand (Female)",
+      "utterance": "We learned a lot from his autopsy. Enough that we could try it on each other and know when to stop. No one else died! I must find a cure, so his sacrifice isn't in vain.",
+      "support_knowledge": []
+    },
+    {
+      "id": 194,
+      "speaker_guid": "ece7b8b9-b35c-473b-9c85-6136976686c4",
+      "speaker": "EvaChartrand (Female)",
+      "utterance": "Look around. We're the only intelligent aliens in Halcyon.",
+      "support_knowledge": [
+        "O1_B12"
+      ]
+    },
+    {
+      "id": 269,
+      "speaker_guid": "ece7b8b9-b35c-473b-9c85-6136976686c4",
+      "speaker": "EvaChartrand (Female)",
+      "utterance": "Our produce might get us through the day, but we're getting weaker as a species. And sicker.",
+      "support_knowledge": [
+        "O1_B11"
+      ]
+    },
+    {
+      "id": 235,
+      "speaker_guid": "ece7b8b9-b35c-473b-9c85-6136976686c4",
+      "speaker": "EvaChartrand (Female)",
+      "utterance": "A recent development, Captain. Apparently someone's broken into the laboratories where I used to work. The Board wanted me... protected.",
+      "support_knowledge": []
+    },
+    {
+      "id": 183,
+      "speaker_guid": "ece7b8b9-b35c-473b-9c85-6136976686c4",
+      "speaker": "EvaChartrand (Female)",
+      "utterance": "My WHAT conspiracy? ",
+      "support_knowledge": []
+    },
+    {
+      "id": 184,
+      "speaker_guid": "ece7b8b9-b35c-473b-9c85-6136976686c4",
+      "speaker": "EvaChartrand (Female)",
+      "utterance": "Let's talk about this. Please. I think there's been a crucial misunderstanding.",
+      "support_knowledge": []
+    },
+    {
+      "id": 185,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I'm listening.",
+      "support_knowledge": []
+    },
+    {
+      "id": 186,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "The alien theory did seem a little far-fetched.",
+      "support_knowledge": []
+    },
+    {
+      "id": 187,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "<Attack> I'm done talking.",
+      "support_knowledge": []
+    },
+    {
+      "id": 189,
+      "speaker_guid": "ece7b8b9-b35c-473b-9c85-6136976686c4",
+      "speaker": "EvaChartrand (Female)",
+      "utterance": "If you came looking for some elaborate scheme... it isn't here. All I'm doing is trying to keep Halcyon alive.",
+      "support_knowledge": [
+        "O1_B9"
+      ]
+    },
+    {
+      "id": 188,
+      "speaker_guid": "ece7b8b9-b35c-473b-9c85-6136976686c4",
+      "speaker": "EvaChartrand (Female)",
+      "utterance": "Just give me a second to explain myself. If you still want to shoot me, at least it'll be for an accurate reason.",
+      "support_knowledge": []
+    },
+    {
+      "id": 227,
+      "speaker_guid": "ece7b8b9-b35c-473b-9c85-6136976686c4",
+      "speaker": "EvaChartrand (Female)",
+      "utterance": "I'll tell you everything, just don't hurt them! Too many people have been harmed on my account.",
+      "support_knowledge": []
+    },
+    {
+      "id": 180,
+      "speaker_guid": "ece7b8b9-b35c-473b-9c85-6136976686c4",
+      "speaker": "EvaChartrand (Female)",
+      "utterance": "To keep me quiet. But if you didn't know that, I'm guessing they didn't send you. ",
+      "support_knowledge": []
+    },
+    {
+      "id": 181,
+      "speaker_guid": "ece7b8b9-b35c-473b-9c85-6136976686c4",
+      "speaker": "EvaChartrand (Female)",
+      "utterance": "I always assumed they would put a bullet in my head one of these days. I don't know anyone named Hagen.",
+      "support_knowledge": []
+    },
+    {
+      "id": 232,
+      "speaker_guid": "ece7b8b9-b35c-473b-9c85-6136976686c4",
+      "speaker": "EvaChartrand (Female)",
+      "utterance": "You're in MY house, and I'm not fucking around. Start talking.",
+      "support_knowledge": []
+    },
+    {
+      "id": 233,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I came to blow the lid off your alien conspiracy.",
+      "support_knowledge": []
+    },
+    {
+      "id": 234,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "<Attack> I hate negotiating.",
+      "support_knowledge": []
+    },
+    {
+      "id": 230,
+      "speaker_guid": "ece7b8b9-b35c-473b-9c85-6136976686c4",
+      "speaker": "EvaChartrand (Female)",
+      "utterance": "My WHAT? ",
+      "support_knowledge": []
+    }
+  ],
+  "dialog_edges": [
+    [
+      139,
+      5
+    ],
+    [
+      139,
+      228
+    ],
+    [
+      139,
+      229
+    ],
+    [
+      139,
+      231
+    ],
+    [
+      5,
+      9
+    ],
+    [
+      9,
+      18
+    ],
+    [
+      9,
+      179
+    ],
+    [
+      9,
+      182
+    ],
+    [
+      9,
+      231
+    ],
+    [
+      18,
+      26
+    ],
+    [
+      26,
+      32
+    ],
+    [
+      26,
+      182
+    ],
+    [
+      26,
+      45
+    ],
+    [
+      32,
+      223
+    ],
+    [
+      223,
+      224
+    ],
+    [
+      223,
+      225
+    ],
+    [
+      223,
+      226
+    ],
+    [
+      224,
+      236
+    ],
+    [
+      236,
+      237
+    ],
+    [
+      236,
+      238
+    ],
+    [
+      236,
+      226
+    ],
+    [
+      237,
+      239
+    ],
+    [
+      239,
+      270
+    ],
+    [
+      239,
+      226
+    ],
+    [
+      270,
+      326
+    ],
+    [
+      326,
+      327
+    ],
+    [
+      327,
+      190
+    ],
+    [
+      190,
+      191
+    ],
+    [
+      190,
+      268
+    ],
+    [
+      190,
+      202
+    ],
+    [
+      190,
+      226
+    ],
+    [
+      191,
+      196
+    ],
+    [
+      196,
+      197
+    ],
+    [
+      197,
+      200
+    ],
+    [
+      197,
+      201
+    ],
+    [
+      197,
+      192
+    ],
+    [
+      197,
+      203
+    ],
+    [
+      200,
+      204
+    ],
+    [
+      204,
+      272
+    ],
+    [
+      204,
+      273
+    ],
+    [
+      272,
+      205
+    ],
+    [
+      205,
+      208
+    ],
+    [
+      208,
+      247
+    ],
+    [
+      208,
+      241
+    ],
+    [
+      208,
+      102
+    ],
+    [
+      208,
+      215
+    ],
+    [
+      247,
+      248
+    ],
+    [
+      248,
+      216
+    ],
+    [
+      216,
+      123
+    ],
+    [
+      216,
+      132
+    ],
+    [
+      216,
+      119
+    ],
+    [
+      123,
+      142
+    ],
+    [
+      142,
+      250
+    ],
+    [
+      250,
+      341
+    ],
+    [
+      341,
+      342
+    ],
+    [
+      342,
+      143
+    ],
+    [
+      342,
+      161
+    ],
+    [
+      342,
+      144
+    ],
+    [
+      342,
+      145
+    ],
+    [
+      143,
+      146
+    ],
+    [
+      146,
+      148
+    ],
+    [
+      148,
+      178
+    ],
+    [
+      178,
+      325
+    ],
+    [
+      325,
+      328
+    ],
+    [
+      328,
+      334
+    ],
+    [
+      328,
+      335
+    ],
+    [
+      328,
+      340
+    ],
+    [
+      328,
+      330
+    ],
+    [
+      334,
+      337
+    ],
+    [
+      337,
+      338
+    ],
+    [
+      335,
+      339
+    ],
+    [
+      339,
+      338
+    ],
+    [
+      340,
+      331
+    ],
+    [
+      161,
+      162
+    ],
+    [
+      162,
+      148
+    ],
+    [
+      144,
+      252
+    ],
+    [
+      252,
+      148
+    ],
+    [
+      145,
+      251
+    ],
+    [
+      132,
+      133
+    ],
+    [
+      133,
+      178
+    ],
+    [
+      241,
+      113
+    ],
+    [
+      113,
+      115
+    ],
+    [
+      115,
+      242
+    ],
+    [
+      115,
+      243
+    ],
+    [
+      115,
+      258
+    ],
+    [
+      115,
+      246
+    ],
+    [
+      242,
+      245
+    ],
+    [
+      245,
+      208
+    ],
+    [
+      243,
+      244
+    ],
+    [
+      244,
+      208
+    ],
+    [
+      258,
+      259
+    ],
+    [
+      259,
+      208
+    ],
+    [
+      102,
+      218
+    ],
+    [
+      218,
+      318
+    ],
+    [
+      318,
+      208
+    ],
+    [
+      215,
+      216
+    ],
+    [
+      273,
+      274
+    ],
+    [
+      274,
+      208
+    ],
+    [
+      201,
+      211
+    ],
+    [
+      211,
+      214
+    ],
+    [
+      214,
+      272
+    ],
+    [
+      214,
+      273
+    ],
+    [
+      192,
+      194
+    ],
+    [
+      194,
+      197
+    ],
+    [
+      268,
+      269
+    ],
+    [
+      269,
+      196
+    ],
+    [
+      202,
+      235
+    ],
+    [
+      235,
+      190
+    ],
+    [
+      238,
+      183
+    ],
+    [
+      183,
+      184
+    ],
+    [
+      184,
+      185
+    ],
+    [
+      184,
+      186
+    ],
+    [
+      184,
+      187
+    ],
+    [
+      185,
+      189
+    ],
+    [
+      189,
+      326
+    ],
+    [
+      186,
+      188
+    ],
+    [
+      188,
+      189
+    ],
+    [
+      225,
+      227
+    ],
+    [
+      227,
+      326
+    ],
+    [
+      179,
+      180
+    ],
+    [
+      180,
+      181
+    ],
+    [
+      181,
+      9
+    ],
+    [
+      182,
+      183
+    ],
+    [
+      228,
+      232
+    ],
+    [
+      232,
+      5
+    ],
+    [
+      232,
+      233
+    ],
+    [
+      232,
+      234
+    ],
+    [
+      233,
+      183
+    ],
+    [
+      229,
+      230
+    ],
+    [
+      230,
+      184
+    ]
+  ]
+}

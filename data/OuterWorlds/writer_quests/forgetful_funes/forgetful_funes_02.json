@@ -1,0 +1,38 @@
+{
+     "id": "forgetful_funes_02",
+     "quest_name": "forgetful_funes",
+     "conversation": null,
+     "in_objective": "O2",
+     "out_objective": "O2",
+     "participants": [
+          "yvonne_brennan"
+     ],
+     "objectives": {
+          "O2": {
+               "summary": "Find the Remembery",
+               "description": {
+                    "S1": "Find Funes' HR representative and his dose of Remembery."
+               },
+               "blurb": {
+                    "B1": "Yvonne Brennan in Fallbrook can provide a clue to Dash's whereabouts,",
+                    "B2": "or the Stranger can search the roads.",
+                    "B3": "Dash can be discovered in an abandoned shack not far from the city.",
+                    "B4": "He is dead,",
+                    "B5": "showing clear signs of a marauder attack.",
+                    "B6": "His journal and a dose of Remembery lay on his corpse."
+               }
+          }
+     },
+     "dialog": [
+          {
+               "id": 0,
+               "speaker_guid": "yvonne_brennan",
+               "speaker": "Yvonne Brennan",
+               "utterance": "You look parched. Have a seat, stranger.",
+               "support_knowledge": [
+                    "yvonne_brennan_1"
+               ]
+          }
+     ],
+     "dialog_edges": []
+}

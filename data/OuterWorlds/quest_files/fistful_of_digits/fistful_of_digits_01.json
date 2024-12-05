@@ -1,0 +1,788 @@
+{
+  "id": "fistful_of_digits_01",
+  "quest_name": "fistful_of_digits",
+  "conversation": {
+    "filename": "00_cv_reyes",
+    "start_node": 21,
+    "end_nodes": [],
+    "force_include": [
+      35,
+      36,
+      38,
+      32,
+      40,
+      43,
+      41,
+      133
+    ],
+    "force_sequence": [
+      [
+        40,
+        43
+      ]
+    ]
+  },
+  "in_objective": [
+    "O4",
+    "O5",
+    "O6"
+  ],
+  "participants": [
+    "constable_reyes"
+  ],
+  "objectives": {
+    "O4": {
+      "summary": "Turn in Doc Maybell's Finger",
+      "description": {
+        "S1": "Now that you've collected Cod Maybell's finger,",
+        "S2": "you can turn it in to Constable Reyes in Edgewater to collect the bounty."
+      },
+      "blurb": {}
+    },
+    "O5": {
+      "summary": "Turn in Bertie Cotton's Finger",
+      "description": {
+        "S1": "Now that you've collected Bertie Cotton's finger,",
+        "S2": "you can turn it in to Constable Reyes in Edgewater to collect the bounty."
+      },
+      "blurb": {}
+    },
+    "O6": {
+      "summary": "Turn in Guillaume Antrim's Finger",
+      "description": {
+        "S1": "Now that you've collected Guillaume Antrim's finger,",
+        "S2": "you can turn it in to Constable Reyes in Edgewater to collect the bounty."
+      },
+      "blurb": {
+        "B1": "After the final bounty has been turned in to Constable Reyes,",
+        "B2": "she will take the liberty of deputizing the Stranger and presenting them with a junior deputy constable's badge."
+      }
+    }
+  },
+  "dialog": [
+    {
+      "id": 21,
+      "speaker_guid": "a84dc4fd-2cc4-4be0-b136-4cf3ebf281df",
+      "speaker": "ConstableReyes (Female)",
+      "utterance": "Something to report?",
+      "support_knowledge": []
+    },
+    {
+      "id": 32,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I'm here to turn in a bounty.",
+      "support_knowledge": [
+        "O0_B3",
+        "constable_reyes_02"
+      ]
+    },
+    {
+      "id": 133,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "How did so many of your people end up marauders?",
+      "support_knowledge": [
+        "marauders_01"
+      ]
+    },
+    {
+      "id": 77,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I've got some questions for you, if you don't mind.",
+      "support_knowledge": []
+    },
+    {
+      "id": 22,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Goodbye.",
+      "support_knowledge": []
+    },
+    {
+      "id": 33,
+      "speaker_guid": "a84dc4fd-2cc4-4be0-b136-4cf3ebf281df",
+      "speaker": "ConstableReyes (Female)",
+      "utterance": "We pay by the finger. What do you have for me?",
+      "support_knowledge": [
+        "O0_B3",
+        "constable_reyes_02"
+      ]
+    },
+    {
+      "id": 35,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "<Hand over Guillaume Antrim's finger.>",
+      "support_knowledge": [
+        "O6_S2"
+      ]
+    },
+    {
+      "id": 36,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "<Hand over Doc Maybell's finger.>",
+      "support_knowledge": [
+        "O4_S2"
+      ]
+    },
+    {
+      "id": 38,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "<Hand over Bertie Cotton's finger.>",
+      "support_knowledge": [
+        "O5_S2"
+      ]
+    },
+    {
+      "id": 44,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Actually, there was something else.",
+      "support_knowledge": []
+    },
+    {
+      "id": 34,
+      "speaker_guid": "a84dc4fd-2cc4-4be0-b136-4cf3ebf281df",
+      "speaker": "ConstableReyes (Female)",
+      "utterance": "Gill Antrim. Real name Guillaume. Duly processed by a freelancer on behalf of Spacer's Choice.",
+      "support_knowledge": [
+        "O6_S2"
+      ]
+    },
+    {
+      "id": 60,
+      "speaker_guid": "a84dc4fd-2cc4-4be0-b136-4cf3ebf281df",
+      "speaker": "ConstableReyes (Female)",
+      "utterance": "I remember him. Was just a kid, last I saw him. Shame.",
+      "support_knowledge": [
+        "guillaume_antrim_04",
+        "guillaume_antrim_05"
+      ]
+    },
+    {
+      "id": 41,
+      "speaker_guid": "a84dc4fd-2cc4-4be0-b136-4cf3ebf281df",
+      "speaker": "ConstableReyes (Female)",
+      "utterance": "Well, that's all three. I must remember to requisition some more fingerprint ink. Here's all the compensation you've earned, plus a bonus.",
+      "support_knowledge": [
+        "O6_B1",
+        "O6_B2"
+      ]
+    },
+    {
+      "id": 43,
+      "speaker_guid": "a84dc4fd-2cc4-4be0-b136-4cf3ebf281df",
+      "speaker": "ConstableReyes (Female)",
+      "utterance": "Still one outstanding bounty. If you've got a finger, I've got the paperwork.",
+      "support_knowledge": [
+        "O0_B3",
+        "constable_reyes_02"
+      ]
+    },
+    {
+      "id": 40,
+      "speaker_guid": "a84dc4fd-2cc4-4be0-b136-4cf3ebf281df",
+      "speaker": "ConstableReyes (Female)",
+      "utterance": "I'll just need your signature here, here, here, here, and here. Got any more fingers for me?",
+      "support_knowledge": [
+        "O0_B3",
+        "constable_reyes_02"
+      ]
+    },
+    {
+      "id": 63,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "What's this? Junior Deputy Constable?",
+      "support_knowledge": [
+        "O6_B2"
+      ]
+    },
+    {
+      "id": 42,
+      "speaker_guid": "a84dc4fd-2cc4-4be0-b136-4cf3ebf281df",
+      "speaker": "ConstableReyes (Female)",
+      "utterance": "You've done such a bang up job hunting down our former workers that I thought it only proper to deputize you. Congratulations.",
+      "support_knowledge": [
+        "O6_B2"
+      ]
+    },
+    {
+      "id": 37,
+      "speaker_guid": "a84dc4fd-2cc4-4be0-b136-4cf3ebf281df",
+      "speaker": "ConstableReyes (Female)",
+      "utterance": "Maybell Burgess. Age thirty-seven. Right or left handed? Let's just say... no longer applicable.",
+      "support_knowledge": [
+        "O4_S2"
+      ]
+    },
+    {
+      "id": 61,
+      "speaker_guid": "a84dc4fd-2cc4-4be0-b136-4cf3ebf281df",
+      "speaker": "ConstableReyes (Female)",
+      "utterance": "I remember Doc Burgess. Conducted my physical every fiscal quarter. Guess she couldn't keep her hands off her patients' medicine.",
+      "support_knowledge": [
+        "maybell_burgess_02",
+        "maybell_burgess_03"
+      ]
+    },
+    {
+      "id": 39,
+      "speaker_guid": "a84dc4fd-2cc4-4be0-b136-4cf3ebf281df",
+      "speaker": "ConstableReyes (Female)",
+      "utterance": "Here we are. Bertie Cotton. Cause of death - let's just say overwhelming physical trauma.",
+      "support_knowledge": [
+        "O5_S2"
+      ]
+    },
+    {
+      "id": 62,
+      "speaker_guid": "a84dc4fd-2cc4-4be0-b136-4cf3ebf281df",
+      "speaker": "ConstableReyes (Female)",
+      "utterance": "Bert was the local preacher, before Max took over. Always was quick to remind us that we all get what we deserve in the end.",
+      "support_knowledge": [
+        "bertie_cotton_02",
+        "bertie_cotton_05"
+      ]
+    },
+    {
+      "id": 134,
+      "speaker_guid": "a84dc4fd-2cc4-4be0-b136-4cf3ebf281df",
+      "speaker": "ConstableReyes (Female)",
+      "utterance": "Let me stop you there. It is official Spacer's Choice policy that all marauders, regardless of prior affiliation to the Spacer's Choice brand, no longer qualify as \"our people.\"",
+      "support_knowledge": [
+        "marauders_01",
+        "spacers_choice_07"
+      ]
+    },
+    {
+      "id": 136,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "That doesn't really answer my question.",
+      "support_knowledge": []
+    },
+    {
+      "id": 140,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Sounds like marauders have been a problem for a while.",
+      "support_knowledge": [
+        "marauders_01"
+      ]
+    },
+    {
+      "id": 138,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "All right. Forget I asked.",
+      "support_knowledge": []
+    },
+    {
+      "id": 135,
+      "speaker_guid": "a84dc4fd-2cc4-4be0-b136-4cf3ebf281df",
+      "speaker": "ConstableReyes (Female)",
+      "utterance": "Marauders are folk who lost the will to keep working. Wandered out into the wilds and gave in to their baser instincts. ",
+      "support_knowledge": []
+    },
+    {
+      "id": 137,
+      "speaker_guid": "a84dc4fd-2cc4-4be0-b136-4cf3ebf281df",
+      "speaker": "ConstableReyes (Female)",
+      "utterance": "Not everybody's cut out to work in Edgewater. Some turn deserter. Some turn marauder. None of 'em get my sympathy.",
+      "support_knowledge": [
+        "edgewater_01"
+      ]
+    },
+    {
+      "id": 148,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Marauders seem to like Adrena-Time.",
+      "support_knowledge": [
+        "marauders_02"
+      ]
+    },
+    {
+      "id": 145,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "There was something else I wanted to ask you.",
+      "support_knowledge": []
+    },
+    {
+      "id": 147,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "That's all for now.",
+      "support_knowledge": []
+    },
+    {
+      "id": 149,
+      "speaker_guid": "a84dc4fd-2cc4-4be0-b136-4cf3ebf281df",
+      "speaker": "ConstableReyes (Female)",
+      "utterance": "Everybody likes Adrena-Time. It is the finest medical drug ever developed by Spacer's Choice. Much better than that crap Auntie Cleo peddles.",
+      "support_knowledge": [
+        "spacers_choice_07"
+      ]
+    },
+    {
+      "id": 150,
+      "speaker_guid": "a84dc4fd-2cc4-4be0-b136-4cf3ebf281df",
+      "speaker": "ConstableReyes (Female)",
+      "utterance": "Sure, a little too much Adrena-Time can bring out the violent animal in you. But if overdosing on Adrena-Time turns you into a lunatic, you have only yourself to blame.",
+      "support_knowledge": [
+        "marauders_02"
+      ]
+    },
+    {
+      "id": 144,
+      "speaker_guid": "a84dc4fd-2cc4-4be0-b136-4cf3ebf281df",
+      "speaker": "ConstableReyes (Female)",
+      "utterance": "Says so right on the warning label. Violent psychosis is a well-documented and legally accounted-for side effect of Adrena-Time.",
+      "support_knowledge": [
+        "marauders_02"
+      ]
+    },
+    {
+      "id": 146,
+      "speaker_guid": "a84dc4fd-2cc4-4be0-b136-4cf3ebf281df",
+      "speaker": "ConstableReyes (Female)",
+      "utterance": "What's on your mind?",
+      "support_knowledge": []
+    },
+    {
+      "id": 141,
+      "speaker_guid": "a84dc4fd-2cc4-4be0-b136-4cf3ebf281df",
+      "speaker": "ConstableReyes (Female)",
+      "utterance": "Ever since the company first settled the Vale. Life's good out here, but it ain't easy. Some folk can't keep pace with the demands of frontier life.",
+      "support_knowledge": [
+        "emerald_vale_01"
+      ]
+    },
+    {
+      "id": 139,
+      "speaker_guid": "a84dc4fd-2cc4-4be0-b136-4cf3ebf281df",
+      "speaker": "ConstableReyes (Female)",
+      "utterance": "Something else I can do for you?",
+      "support_knowledge": []
+    },
+    {
+      "id": 70,
+      "speaker_guid": "a84dc4fd-2cc4-4be0-b136-4cf3ebf281df",
+      "speaker": "ConstableReyes (Female)",
+      "utterance": "As long as your questions fall within acceptable margins of curiosity.",
+      "support_knowledge": [
+        "constable_reyes_07"
+      ]
+    },
+    {
+      "id": 79,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "So who do you work for? Spacer's Choice or Edgewater?",
+      "support_knowledge": []
+    },
+    {
+      "id": 83,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Never mind.",
+      "support_knowledge": []
+    },
+    {
+      "id": 80,
+      "speaker_guid": "a84dc4fd-2cc4-4be0-b136-4cf3ebf281df",
+      "speaker": "ConstableReyes (Female)",
+      "utterance": "If this is the setup to a joke, you should know I've never found anything amusing in my life. ",
+      "support_knowledge": [
+        "edgewater_01",
+        "spacers_choice_01"
+      ]
+    },
+    {
+      "id": 103,
+      "speaker_guid": "a84dc4fd-2cc4-4be0-b136-4cf3ebf281df",
+      "speaker": "ConstableReyes (Female)",
+      "utterance": "I don't serve Edgewater. Edgewater, and the entire region of Emerald Vale, serves Spacer's Choice.",
+      "support_knowledge": [
+        "edgewater_01"
+      ]
+    },
+    {
+      "id": 104,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Who does Spacer's Choice answer to?",
+      "support_knowledge": []
+    },
+    {
+      "id": 105,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "That sounds like slavery.",
+      "support_knowledge": []
+    },
+    {
+      "id": 106,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "So you're basically a bureaucrat.",
+      "support_knowledge": [
+        "constable_reyes_03"
+      ]
+    },
+    {
+      "id": 82,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Thanks for your time.",
+      "support_knowledge": []
+    },
+    {
+      "id": 109,
+      "speaker_guid": "a84dc4fd-2cc4-4be0-b136-4cf3ebf281df",
+      "speaker": "ConstableReyes (Female)",
+      "utterance": "Spacer's Choice is a wholly owned subsidiary of Universal Defense Logistics, which occupies a seat on the Halcyon Holdings Corporation.",
+      "support_knowledge": [
+        "spacers_choice_01"
+      ]
+    },
+    {
+      "id": 110,
+      "speaker_guid": "a84dc4fd-2cc4-4be0-b136-4cf3ebf281df",
+      "speaker": "ConstableReyes (Female)",
+      "utterance": "Also known as the Board. I must admit, it bothers me that you don't already know this.",
+      "support_knowledge": []
+    },
+    {
+      "id": 111,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "There was one other thing.",
+      "support_knowledge": []
+    },
+    {
+      "id": 108,
+      "speaker_guid": "a84dc4fd-2cc4-4be0-b136-4cf3ebf281df",
+      "speaker": "ConstableReyes (Female)",
+      "utterance": "Careful, stranger. Talk like that comes dangerously close to sedition.",
+      "support_knowledge": []
+    },
+    {
+      "id": 107,
+      "speaker_guid": "a84dc4fd-2cc4-4be0-b136-4cf3ebf281df",
+      "speaker": "ConstableReyes (Female)",
+      "utterance": "Flattery won't get you anywhere with me. The bureaucracy is a noble profession, but not all of us are gifted enough to serve in it.",
+      "support_knowledge": [
+        "constable_reyes_03"
+      ]
+    }
+  ],
+  "dialog_edges": [
+    [
+      21,
+      32
+    ],
+    [
+      21,
+      133
+    ],
+    [
+      21,
+      77
+    ],
+    [
+      21,
+      22
+    ],
+    [
+      32,
+      33
+    ],
+    [
+      33,
+      35
+    ],
+    [
+      33,
+      36
+    ],
+    [
+      33,
+      38
+    ],
+    [
+      33,
+      44
+    ],
+    [
+      33,
+      22
+    ],
+    [
+      35,
+      34
+    ],
+    [
+      34,
+      60
+    ],
+    [
+      60,
+      41
+    ],
+    [
+      60,
+      43
+    ],
+    [
+      60,
+      40
+    ],
+    [
+      41,
+      63
+    ],
+    [
+      41,
+      22
+    ],
+    [
+      63,
+      42
+    ],
+    [
+      42,
+      21
+    ],
+    [
+      43,
+      33
+    ],
+    [
+      40,
+      33
+    ],
+    [
+      36,
+      37
+    ],
+    [
+      37,
+      61
+    ],
+    [
+      61,
+      41
+    ],
+    [
+      61,
+      43
+    ],
+    [
+      61,
+      40
+    ],
+    [
+      38,
+      39
+    ],
+    [
+      39,
+      62
+    ],
+    [
+      62,
+      41
+    ],
+    [
+      62,
+      43
+    ],
+    [
+      62,
+      40
+    ],
+    [
+      44,
+      21
+    ],
+    [
+      133,
+      134
+    ],
+    [
+      134,
+      136
+    ],
+    [
+      134,
+      140
+    ],
+    [
+      134,
+      138
+    ],
+    [
+      136,
+      135
+    ],
+    [
+      135,
+      137
+    ],
+    [
+      137,
+      148
+    ],
+    [
+      137,
+      145
+    ],
+    [
+      137,
+      147
+    ],
+    [
+      148,
+      149
+    ],
+    [
+      149,
+      150
+    ],
+    [
+      150,
+      144
+    ],
+    [
+      144,
+      145
+    ],
+    [
+      144,
+      147
+    ],
+    [
+      145,
+      146
+    ],
+    [
+      146,
+      21
+    ],
+    [
+      140,
+      141
+    ],
+    [
+      141,
+      137
+    ],
+    [
+      138,
+      139
+    ],
+    [
+      139,
+      21
+    ],
+    [
+      77,
+      70
+    ],
+    [
+      70,
+      79
+    ],
+    [
+      70,
+      83
+    ],
+    [
+      79,
+      80
+    ],
+    [
+      80,
+      103
+    ],
+    [
+      103,
+      104
+    ],
+    [
+      103,
+      105
+    ],
+    [
+      103,
+      106
+    ],
+    [
+      103,
+      82
+    ],
+    [
+      104,
+      109
+    ],
+    [
+      109,
+      110
+    ],
+    [
+      110,
+      106
+    ],
+    [
+      110,
+      111
+    ],
+    [
+      110,
+      70
+    ],
+    [
+      111,
+      21
+    ],
+    [
+      105,
+      108
+    ],
+    [
+      108,
+      104
+    ],
+    [
+      108,
+      111
+    ],
+    [
+      108,
+      70
+    ],
+    [
+      106,
+      107
+    ],
+    [
+      107,
+      104
+    ],
+    [
+      107,
+      111
+    ],
+    [
+      107,
+      70
+    ]
+  ]
+}

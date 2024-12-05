@@ -1,0 +1,850 @@
+{
+  "id": "a_family_matter_01",
+  "quest_name": "a_family_matter",
+  "conversation": {
+    "filename": "0402_cv_tucker_needham",
+    "start_node": 7,
+    "end_nodes": [],
+    "force_include": [
+      12,
+      41,
+      42,
+      43,
+      44
+    ]
+  },
+  "in_objective": [
+    "O0",
+    "O1",
+    "O2"
+  ],
+  "out_objective": "O3",
+  "participants": [
+    "tucker_needham"
+  ],
+  "dialog_edges": [
+    [
+      7,
+      8
+    ],
+    [
+      7,
+      9
+    ],
+    [
+      7,
+      73
+    ],
+    [
+      8,
+      74
+    ],
+    [
+      74,
+      10
+    ],
+    [
+      10,
+      12
+    ],
+    [
+      10,
+      14
+    ],
+    [
+      10,
+      15
+    ],
+    [
+      10,
+      16
+    ],
+    [
+      12,
+      17
+    ],
+    [
+      17,
+      35
+    ],
+    [
+      17,
+      36
+    ],
+    [
+      35,
+      37
+    ],
+    [
+      37,
+      38
+    ],
+    [
+      38,
+      39
+    ],
+    [
+      39,
+      41
+    ],
+    [
+      39,
+      42
+    ],
+    [
+      39,
+      43
+    ],
+    [
+      39,
+      44
+    ],
+    [
+      39,
+      16
+    ],
+    [
+      41,
+      45
+    ],
+    [
+      45,
+      49
+    ],
+    [
+      45,
+      50
+    ],
+    [
+      49,
+      51
+    ],
+    [
+      50,
+      51
+    ],
+    [
+      42,
+      46
+    ],
+    [
+      46,
+      52
+    ],
+    [
+      46,
+      53
+    ],
+    [
+      46,
+      54
+    ],
+    [
+      52,
+      55
+    ],
+    [
+      53,
+      55
+    ],
+    [
+      54,
+      56
+    ],
+    [
+      56,
+      39
+    ],
+    [
+      43,
+      47
+    ],
+    [
+      47,
+      63
+    ],
+    [
+      63,
+      62
+    ],
+    [
+      63,
+      64
+    ],
+    [
+      63,
+      65
+    ],
+    [
+      63,
+      66
+    ],
+    [
+      62,
+      67
+    ],
+    [
+      67,
+      63
+    ],
+    [
+      64,
+      68
+    ],
+    [
+      68,
+      65
+    ],
+    [
+      68,
+      66
+    ],
+    [
+      65,
+      69
+    ],
+    [
+      69,
+      71
+    ],
+    [
+      66,
+      70
+    ],
+    [
+      70,
+      39
+    ],
+    [
+      44,
+      48
+    ],
+    [
+      48,
+      57
+    ],
+    [
+      48,
+      58
+    ],
+    [
+      48,
+      16
+    ],
+    [
+      57,
+      59
+    ],
+    [
+      59,
+      39
+    ],
+    [
+      58,
+      60
+    ],
+    [
+      36,
+      40
+    ],
+    [
+      40,
+      38
+    ],
+    [
+      14,
+      19
+    ],
+    [
+      19,
+      10
+    ],
+    [
+      15,
+      78
+    ],
+    [
+      78,
+      28
+    ],
+    [
+      78,
+      29
+    ],
+    [
+      28,
+      30
+    ],
+    [
+      30,
+      10
+    ],
+    [
+      29,
+      31
+    ],
+    [
+      31,
+      10
+    ],
+    [
+      9,
+      10
+    ],
+    [
+      73,
+      75
+    ],
+    [
+      75,
+      76
+    ],
+    [
+      76,
+      10
+    ]
+  ],
+  "dialog": [
+    {
+      "id": 7,
+      "speaker_guid": "a837fbdf-1d17-4795-a09a-f39932aacd2e",
+      "speaker": "Tucker_Needham (Male)",
+      "utterance": "Looks like I'm not the only new face around here. What do I call you, stranger?",
+      "support_knowledge": [
+        "O0_S1"
+      ]
+    },
+    {
+      "id": 8,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "It's Captain <player_name>.",
+      "support_knowledge": []
+    },
+    {
+      "id": 9,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "It's Captain Hawthorne.",
+      "support_knowledge": []
+    },
+    {
+      "id": 73,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "'Stranger' suits me just fine.",
+      "support_knowledge": []
+    },
+    {
+      "id": 74,
+      "speaker_guid": "a837fbdf-1d17-4795-a09a-f39932aacd2e",
+      "speaker": "Tucker_Needham (Male)",
+      "utterance": "Welcome to Amber Heights, Captain. Call me Tucker.",
+      "support_knowledge": [
+        "O1_S1",
+        "O1_S2",
+        "tucker_needham_02"
+      ]
+    },
+    {
+      "id": 10,
+      "speaker_guid": "a837fbdf-1d17-4795-a09a-f39932aacd2e",
+      "speaker": "Tucker_Needham (Male)",
+      "utterance": "You here to join the Iconoclasts? Help us free this world?",
+      "support_knowledge": [
+        "tucker_needham_01",
+        "iconoclasts_03",
+        "iconoclasts_06"
+      ]
+    },
+    {
+      "id": 12,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Tucker? You're Agnes's 'little boy' from Stellar Bay?",
+      "support_knowledge": [
+        "O2_B1",
+        "agnes_needham_01",
+        "agnes_needham_03",
+        "stellar_bay_02"
+      ]
+    },
+    {
+      "id": 14,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "You're a new face, too, huh?",
+      "support_knowledge": [
+        "O0_S1"
+      ]
+    },
+    {
+      "id": 15,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Free from what?",
+      "support_knowledge": [
+        "iconoclasts_06"
+      ]
+    },
+    {
+      "id": 16,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I don't have time for this.",
+      "support_knowledge": []
+    },
+    {
+      "id": 17,
+      "speaker_guid": "a837fbdf-1d17-4795-a09a-f39932aacd2e",
+      "speaker": "Tucker_Needham (Male)",
+      "utterance": "I am not a 'little boy'. Haven't been one for decades. No matter what my mama wishes. I take it she's still looking for me? Had hoped she'd accept my decision.",
+      "support_knowledge": [
+        "O2_B1",
+        "agnes_needham_01",
+        "agnes_needham_03",
+        "tucker_needham_05"
+      ]
+    },
+    {
+      "id": 35,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "She made it seem like you were in danger. Asked me to rescue you.",
+      "support_knowledge": [
+        "O2_B2"
+      ]
+    },
+    {
+      "id": 36,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "She's offered a reward to anyone who brings you back to Stellar Bay.",
+      "support_knowledge": [
+        "O0_S2"
+      ]
+    },
+    {
+      "id": 37,
+      "speaker_guid": "a837fbdf-1d17-4795-a09a-f39932aacd2e",
+      "speaker": "Tucker_Needham (Male)",
+      "utterance": "According to her, stepping foot outside of the house in broad daylight is too dangerous. My entire life she crammed a fear of 'danger' down my throat.",
+      "support_knowledge": [
+        "O2_B3",
+        "agnes_needham_02",
+        "tucker_needham_03",
+        "tucker_needham_04",
+        "tucker_needham_05"
+      ]
+    },
+    {
+      "id": 38,
+      "speaker_guid": "a837fbdf-1d17-4795-a09a-f39932aacd2e",
+      "speaker": "Tucker_Needham (Male)",
+      "utterance": "Don't go play with friends, mantisaurs will tear your arms off! Don't leave the city, raptidons will spit acid on your face! Marauders can violate you! You'd fall in a sulfur pool!",
+      "support_knowledge": [
+        "agnes_needham_02",
+        "tucker_needham_04",
+        "tucker_needham_05",
+        "stellar_bay_01",
+        "raptidon_01",
+        "mantisaur_01",
+        "mantisaur_02",
+        "sulfur_pits_01"
+      ]
+    },
+    {
+      "id": 39,
+      "speaker_guid": "a837fbdf-1d17-4795-a09a-f39932aacd2e",
+      "speaker": "Tucker_Needham (Male)",
+      "utterance": "I stuck around way too long, ruled by her fears. I'm 42-years-old, but she still sees me as a little boy in need of her protection. I won't stand for it, I tell you!",
+      "support_knowledge": [
+        "agnes_needham_03",
+        "tucker_needham_05",
+        "tucker_needham_06"
+      ]
+    },
+    {
+      "id": 41,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Running away is for cowards. You need to face her and show her you've grown up.",
+      "support_knowledge": [
+        "O2_S1",
+        "O2_B5"
+      ]
+    },
+    {
+      "id": 42,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I'm getting that reward. Either you go back, or I'll beat it out of her.",
+      "support_knowledge": [
+        "O2_S1",
+        "O2_B5"
+      ]
+    },
+    {
+      "id": 43,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "So what do you want to do about it? She'll keep sending people to look for you.",
+      "support_knowledge": [
+        "O2_S1",
+        "O2_B6"
+      ]
+    },
+    {
+      "id": 44,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "You're going back to Stellar Bay. One way or another.",
+      "support_knowledge": [
+        "O2_S1",
+        "O2_B5"
+      ]
+    },
+    {
+      "id": 45,
+      "speaker_guid": "a837fbdf-1d17-4795-a09a-f39932aacd2e",
+      "speaker": "Tucker_Needham (Male)",
+      "utterance": "She doesn't want to see me as anything other than her baby boy. Why would I go back again? What'll be different this time?",
+      "support_knowledge": [
+        "agnes_needham_03",
+        "tucker_needham_05",
+        "tucker_needham_06"
+      ]
+    },
+    {
+      "id": 49,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "You've survived outside of Stellar Bay for weeks. Show her the skills you've learned.",
+      "support_knowledge": [
+        "O0_S1",
+        "O2_B5",
+        "stellar_bay_01"
+      ]
+    },
+    {
+      "id": 50,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Teach her the Iconoclasts' philosophies. Convert her so she might join you in freedom.",
+      "support_knowledge": [
+        "O2_B5",
+        "tucker_needham_08",
+        "iconoclasts_03",
+        "iconoclasts_06"
+      ]
+    },
+    {
+      "id": 51,
+      "speaker_guid": "a837fbdf-1d17-4795-a09a-f39932aacd2e",
+      "speaker": "Tucker_Needham (Male)",
+      "utterance": "You're right. I can do this. I just need to stand my ground and make her see she can't control me anymore. No one can.",
+      "support_knowledge": [
+        "O2_B5",
+        "tucker_needham_08"
+      ]
+    },
+    {
+      "id": 46,
+      "speaker_guid": "a837fbdf-1d17-4795-a09a-f39932aacd2e",
+      "speaker": "Tucker_Needham (Male)",
+      "utterance": "What in the nebula is wrong with you? She's an old woman! You'd threaten my flesh and blood just to get me to do what you want?",
+      "support_knowledge": [
+        "O2_B5"
+      ]
+    },
+    {
+      "id": 52,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "It's nothing personal. But I want that money.",
+      "support_knowledge": [
+        "O0_S2"
+      ]
+    },
+    {
+      "id": 53,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "<Shrug.>",
+      "support_knowledge": []
+    },
+    {
+      "id": 54,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Relax. I was only kidding. Don't take everything so seriously.",
+      "support_knowledge": []
+    },
+    {
+      "id": 55,
+      "speaker_guid": "a837fbdf-1d17-4795-a09a-f39932aacd2e",
+      "speaker": "Tucker_Needham (Male)",
+      "utterance": "You're real sick! Sure, she drives me crazy, but she doesn't deserve anyone getting violent with her. Look, I'll go back, all right? Just don't hurt her.",
+      "support_knowledge": [
+        "agnes_needham_03",
+        "tucker_needham_05"
+      ]
+    },
+    {
+      "id": 56,
+      "speaker_guid": "a837fbdf-1d17-4795-a09a-f39932aacd2e",
+      "speaker": "Tucker_Needham (Male)",
+      "utterance": "That was not even close to funny.",
+      "support_knowledge": []
+    },
+    {
+      "id": 47,
+      "speaker_guid": "a837fbdf-1d17-4795-a09a-f39932aacd2e",
+      "speaker": "Tucker_Needham (Male)",
+      "utterance": "Stars, I don't know. My mama's a stubborn woman. She won't quit until I'm dead.",
+      "support_knowledge": [
+        "O2_B7",
+        "agnes_needham_01"
+      ]
+    },
+    {
+      "id": 63,
+      "speaker_guid": "a837fbdf-1d17-4795-a09a-f39932aacd2e",
+      "speaker": "Tucker_Needham (Male)",
+      "utterance": "You know... that might just work. You go back and tell her you found my body beside the road. All mangled and tore up. If she believes me dead, she won't look for me no more.",
+      "support_knowledge": [
+        "O2_B7",
+        "tucker_needham_09"
+      ]
+    },
+    {
+      "id": 62,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "You want to fake your own death to avoid talking to your mother?",
+      "support_knowledge": [
+        "O2_B7",
+        "tucker_needham_09"
+      ]
+    },
+    {
+      "id": 64,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "You're okay with her thinking you've died? Don't you think that'll hurt her?",
+      "support_knowledge": [
+        "O2_B8",
+        "tucker_needham_09"
+      ]
+    },
+    {
+      "id": 65,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "If we do this, I'd need some proof that it was your body I found.",
+      "support_knowledge": [
+        "O2_B9"
+      ]
+    },
+    {
+      "id": 66,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "No, I won't do that to Agnes.",
+      "support_knowledge": [
+        "O2_B9"
+      ]
+    },
+    {
+      "id": 67,
+      "speaker_guid": "a837fbdf-1d17-4795-a09a-f39932aacd2e",
+      "speaker": "Tucker_Needham (Male)",
+      "utterance": "I know it sounds... extreme. But I can't go back. I just can't. This is the only way I can think of to be free.",
+      "support_knowledge": [
+        "O2_B7",
+        "tucker_needham_06",
+        "tucker_needham_09"
+      ]
+    },
+    {
+      "id": 68,
+      "speaker_guid": "a837fbdf-1d17-4795-a09a-f39932aacd2e",
+      "speaker": "Tucker_Needham (Male)",
+      "utterance": "I hate to think of her grieving, but it'll be good for her to move on. In the long run, you know?",
+      "support_knowledge": []
+    },
+    {
+      "id": 69,
+      "speaker_guid": "a837fbdf-1d17-4795-a09a-f39932aacd2e",
+      "speaker": "Tucker_Needham (Male)",
+      "utterance": "Oh, right. I guess you can take my daddy's ring. I've worn it ever since he died. Mama would recognize it right away.",
+      "support_knowledge": [
+        "O2_B9"
+      ]
+    },
+    {
+      "id": 71,
+      "speaker_guid": "a837fbdf-1d17-4795-a09a-f39932aacd2e",
+      "speaker": "Tucker_Needham (Male)",
+      "utterance": "You take this back to Stellar Bay. Tell my mama I died and you found that on my body. I know it'll hard on her, but it's the only way.",
+      "support_knowledge": [
+        "O2_B7",
+        "tucker_needham_09"
+      ]
+    },
+    {
+      "id": 70,
+      "speaker_guid": "a837fbdf-1d17-4795-a09a-f39932aacd2e",
+      "speaker": "Tucker_Needham (Male)",
+      "utterance": "I'm plain out of ideas then, Captain. I won't go back, and I can't think of a better way to get my mama to stop searching for me.",
+      "support_knowledge": [
+        "O2_B7",
+        "tucker_needham_09"
+      ]
+    },
+    {
+      "id": 48,
+      "speaker_guid": "a837fbdf-1d17-4795-a09a-f39932aacd2e",
+      "speaker": "Tucker_Needham (Male)",
+      "utterance": "No, that is not going to happen. I spent too many years there, smothered by my mama's fears. Now that I'm free, nothing can change my mind.",
+      "support_knowledge": [
+        "agnes_needham_02",
+        "tucker_needham_06"
+      ]
+    },
+    {
+      "id": 57,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "There's really nothing that could convince you to go home?",
+      "support_knowledge": [
+        "O2_S1"
+      ]
+    },
+    {
+      "id": 58,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "<Attack> I'll force you if I have to.",
+      "support_knowledge": [
+        "O2_S1",
+        "O2_B5"
+      ]
+    },
+    {
+      "id": 59,
+      "speaker_guid": "a837fbdf-1d17-4795-a09a-f39932aacd2e",
+      "speaker": "Tucker_Needham (Male)",
+      "utterance": "Stellar Bay is not my home - not anymore. I finally found the space to breath, and that's here in Amber Heights.",
+      "support_knowledge": [
+        "tucker_needham_01",
+        "tucker_needham_02",
+        "tucker_needham_05",
+        "tucker_needham_06"
+      ]
+    },
+    {
+      "id": 60,
+      "speaker_guid": "a837fbdf-1d17-4795-a09a-f39932aacd2e",
+      "speaker": "Tucker_Needham (Male)",
+      "utterance": "Only way I'm getting dragged back is as a corpse! Better dead than caged behind them walls again!",
+      "support_knowledge": [
+        "tucker_needham_06",
+        "stellar_bay_01"
+      ]
+    },
+    {
+      "id": 40,
+      "speaker_guid": "a837fbdf-1d17-4795-a09a-f39932aacd2e",
+      "speaker": "Tucker_Needham (Male)",
+      "utterance": "Let me guess. You're here to collect it. Well, I can tell you right now it is not going to happen. I won't go back. My entire life, she locked me in Stellar Bay 'cause she was afraid.",
+      "support_knowledge": [
+        "O0_S2",
+        "O2_B3",
+        "tucker_needham_06",
+        "stellar_bay_01"
+      ]
+    },
+    {
+      "id": 19,
+      "speaker_guid": "a837fbdf-1d17-4795-a09a-f39932aacd2e",
+      "speaker": "Tucker_Needham (Male)",
+      "utterance": "Yeah, to Amber Heights, anyway. Only got here a few weeks ago. Was living in Stellar Bay before then. But I can't tell you how great it is to finally be free of them walls!",
+      "support_knowledge": [
+        "tucker_needham_01",
+        "tucker_needham_02",
+        "tucker_needham_06",
+        "stellar_bay_02",
+        "stellar_bay_01"
+      ]
+    },
+    {
+      "id": 78,
+      "speaker_guid": "a837fbdf-1d17-4795-a09a-f39932aacd2e",
+      "speaker": "Tucker_Needham (Male)",
+      "utterance": "Why from the yoke of corporate tyranny! It's what all us Iconoclasts strive for.",
+      "support_knowledge": [
+        "tucker_needham_01",
+        "iconoclasts_03",
+        "iconoclasts_06"
+      ]
+    },
+    {
+      "id": 28,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "No rules or limits? Sounds like a utopia.",
+      "support_knowledge": []
+    },
+    {
+      "id": 29,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "You're describing pure anarchy. Rules are needed for people to coexist.",
+      "support_knowledge": []
+    },
+    {
+      "id": 30,
+      "speaker_guid": "a837fbdf-1d17-4795-a09a-f39932aacd2e",
+      "speaker": "Tucker_Needham (Male)",
+      "utterance": "It is! Just look at what a paradise Amber Heights is. We could take this world - no, galaxy - wide!",
+      "support_knowledge": [
+        "tucker_needham_01",
+        "tucker_needham_08",
+        "iconoclasts_03",
+        "iconoclasts_04",
+        "iconoclasts_06"
+      ]
+    },
+    {
+      "id": 31,
+      "speaker_guid": "a837fbdf-1d17-4795-a09a-f39932aacd2e",
+      "speaker": "Tucker_Needham (Male)",
+      "utterance": "See, that's what the corps want you to think! If you think rules are needed, they can force any and all they want down your throat. And you'll just swallow it.",
+      "support_knowledge": [
+        "tucker_needham_01",
+        "tucker_needham_08",
+        "iconoclasts_03",
+        "iconoclasts_06"
+      ]
+    },
+    {
+      "id": 75,
+      "speaker_guid": "a837fbdf-1d17-4795-a09a-f39932aacd2e",
+      "speaker": "Tucker_Needham (Male)",
+      "utterance": "Aw, c'mon. We like to be friendly around here. At the least let me call you Captain. Whether or not you command a ship, if you've found your way here, you must be a leader type.",
+      "support_knowledge": []
+    },
+    {
+      "id": 76,
+      "speaker_guid": "a837fbdf-1d17-4795-a09a-f39932aacd2e",
+      "speaker": "Tucker_Needham (Male)",
+      "utterance": "So then, Captain, welcome to Amber Heights. Oh and call me Tucker.",
+      "support_knowledge": [
+        "O1_S1",
+        "O1_S2",
+        "tucker_needham_02"
+      ]
+    }
+  ]
+}

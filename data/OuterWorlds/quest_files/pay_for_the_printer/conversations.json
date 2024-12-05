@@ -1,0 +1,64 @@
+[
+  {
+    "id": "pay_for_the_printer_00",
+    "quest_name": "pay_for_the_printer",
+    "conversation": {
+      "filename": "0403_cv_graham_bryant",
+      "start_node": 230,
+      "end_nodes": []
+    },
+    "in_objective": "O0",
+    "out_objective": "O1",
+    "participants": [
+      "graham_bryant",
+      "zora_blackwood"
+    ]
+  },
+  {
+    "id": "pay_for_the_printer_01",
+    "quest_name": "pay_for_the_printer",
+    "conversation": {
+      "filename": "0403_cv_may_van_noy",
+      "start_node": 3,
+      "end_nodes": []
+    },
+    "in_objective": "O2",
+    "out_objective": "O3",
+    "participants": [
+      "may_van_noy",
+      "august_van_noy"
+    ]
+  },
+  {
+    "id": "pay_for_the_printer_02",
+    "quest_name": "pay_for_the_printer",
+    "conversation": {
+      "filename": "0403_cv_may_van_noy",
+      "start_node": 4,
+      "end_nodes": [],
+      "force_include": [
+        8
+      ]
+    },
+    "in_objective": "O3",
+    "out_objective": "O4",
+    "participants": [
+      "may_van_noy"
+    ]
+  },
+  {
+    "id": "pay_for_the_printer_03",
+    "quest_name": "pay_for_the_printer",
+    "conversation": {
+      "filename": "0403_cv_graham_bryant",
+      "start_node": 34,
+      "end_nodes": [],
+      "force_include": []
+    },
+    "in_objective": "O4",
+    "participants": [
+      "graham_bryant",
+      "zora_blackwood"
+    ]
+  }
+]

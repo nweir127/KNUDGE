@@ -1,0 +1,496 @@
+{
+  "id": "the_frightened_engineer_00",
+  "quest_name": "the_frightened_engineer",
+  "conversation": {
+    "filename": "00_cv_thomas",
+    "start_node": 109,
+    "end_nodes": [
+      2
+    ],
+    "force_include": [
+      110,
+      235,
+      109,
+      160,
+      181,
+      117
+    ],
+    "force_sequence": []
+  },
+  "in_objective": "O0",
+  "out_objective": "O1",
+  "participants": [
+    "thomas_kemp",
+    "parvati_holcomb"
+  ],
+  "objectives": {
+    "O0": {
+      "description": {
+        "S1": "Thomas Kemp, one of the deserters living with Adelaide in the Botanical Lab,",
+        "S2": "is trying to teach himself engineering.",
+        "S3": "He has asked you to bring him any volumes of \"A Young Spacer's Guide to Mechanical Engineering\" that you find in the Emerald Vale."
+      },
+      "blurb": {
+        "B1": "You can obtain this quest by talking to Thomas Kemp near the Workbench at the Botanical Labs location in Emerald Vale.",
+        "B2": "Thomas will reveal that he is an incompetent engineer.",
+        "B3": "You have a chance to use your Engineering skill if it is high for some XP, and pressing him further will trigger the request for the books.",
+        "B4": "You can learn from him of the locations that he knows of:",
+        "B5": "One in the Community Center nearby,",
+        "B6": "one in Edgewater."
+      }
+    },
+    "O1": {
+      "summary": "Find the Three Volumes",
+      "description": {
+        "S1": "Thomas said he knows that at least one volume of the set is in the local community center,",
+        "S2": "and that another used to be in the town of Edgewater.",
+        "S3": "He also promised to reward you for any volumes you find,",
+        "S4": "so feel free to return to him with the books as you find them -",
+        "S5": "there's no need to wait until you've found all three.",
+        "S6": "Parvati mentioned her father reading a volume of \"A Young Spacer's Guide to Mechanical Engineering\" when he was working shifts at the cannery."
+      },
+      "blurb": {
+        "B1": "Head to the Edgewater cannery and go to the second floor,",
+        "B2": "you can pick up Guide to Mechanical Engineering: Volume 2.",
+        "B3": "Head to Emerald Vale Community Center,",
+        "B4": "and defeat the Marauder enemies guarding the area.",
+        "B5": "You can then go inside and face against a few Marauder enemies that have killed workers and residents and moved in.",
+        "B6": "Head right from the entrance and up the stairs to pick up Guide to Mechanical Engineering: Volume 1.",
+        "B7": "You'll end up finding Guide to Mechanical Engineering: Volume 3 right next to Higgins on 1F of the Power Plant, picking it up gives 2000xp."
+      }
+    }
+  },
+  "dialog": [
+    {
+      "id": 109,
+      "speaker_guid": "ddf2c259-099b-455a-9789-293c99a32e98",
+      "speaker": "ThomasKemp (Male)",
+      "utterance": "Wow. A new face. We're getting popular. I'm Thomas.",
+      "support_knowledge": [
+        "thomas_kemp_01"
+      ]
+    },
+    {
+      "id": 235,
+      "speaker_guid": "ddf2c259-099b-455a-9789-293c99a32e98",
+      "speaker": "ThomasKemp (Male)",
+      "utterance": "Whoa, Ms. Parvati! You're- what- how are- hi. Hi. Hello.",
+      "support_knowledge": []
+    },
+    {
+      "id": 160,
+      "speaker_guid": "ddf2c259-099b-455a-9789-293c99a32e98",
+      "speaker": "ThomasKemp (Male)",
+      "utterance": "Are you from town? I mean - you don't exactly look like you're from town.",
+      "support_knowledge": []
+    },
+    {
+      "id": 110,
+      "speaker_guid": "6ecbdc23-b215-450e-bac3-c3ecc78583cf",
+      "speaker": "Parvati (Female)",
+      "utterance": "Are you- um, are things safe out here? How are you keeping?",
+      "support_knowledge": []
+    },
+    {
+      "id": 111,
+      "speaker_guid": "ddf2c259-099b-455a-9789-293c99a32e98",
+      "speaker": "ThomasKemp (Male)",
+      "utterance": "Great! Just great! I've been trying to keep stuff running, just like you. Only I'm not so- wait, they didn't kick you out, did they?",
+      "support_knowledge": [
+        "thomas_kemp_02",
+        "thomas_kemp_03",
+        "thomas_kemp_06"
+      ]
+    },
+    {
+      "id": 240,
+      "speaker_guid": "6ecbdc23-b215-450e-bac3-c3ecc78583cf",
+      "speaker": "Parvati (Female)",
+      "utterance": "Oh gosh, no. I- I'm just along with this fella here.",
+      "support_knowledge": []
+    },
+    {
+      "id": 161,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I'm passing through.",
+      "support_knowledge": []
+    },
+    {
+      "id": 213,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I'll take that as a compliment.",
+      "support_knowledge": []
+    },
+    {
+      "id": 166,
+      "speaker_guid": "ddf2c259-099b-455a-9789-293c99a32e98",
+      "speaker": "ThomasKemp (Male)",
+      "utterance": "Sorry - just wasn't sure if you were from town or if you were one of us. Something's been chewing at me, you see.",
+      "support_knowledge": [
+        "O0_B2"
+      ]
+    },
+    {
+      "id": 178,
+      "speaker_guid": "ddf2c259-099b-455a-9789-293c99a32e98",
+      "speaker": "ThomasKemp (Male)",
+      "utterance": "Fact is, I been - well - lying. To everybody here. Camp thinks I'm a mechanical genius, but I couldn't fix a busted chair.",
+      "support_knowledge": [
+        "O0_B2",
+        "thomas_kemp_09",
+        "thomas_kemp_10"
+      ]
+    },
+    {
+      "id": 181,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Never too late to start learning. I could give you a couple pointers.",
+      "support_knowledge": [
+        "O0_B3"
+      ]
+    },
+    {
+      "id": 182,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Maybe you should come clean, then.",
+      "support_knowledge": []
+    },
+    {
+      "id": 285,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Why are you telling me this?",
+      "support_knowledge": []
+    },
+    {
+      "id": 180,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "You're lucky your camp's full of idiots.",
+      "support_knowledge": []
+    },
+    {
+      "id": 190,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I don't have time for this.",
+      "support_knowledge": []
+    },
+    {
+      "id": 183,
+      "speaker_guid": "ddf2c259-099b-455a-9789-293c99a32e98",
+      "speaker": "ThomasKemp (Male)",
+      "utterance": "I'll take all the help I can get. I have set my mind to learning the craft of the engineer, you see. I want to make something of myself.",
+      "support_knowledge": [
+        "O0_S2"
+      ]
+    },
+    {
+      "id": 116,
+      "speaker_guid": "ddf2c259-099b-455a-9789-293c99a32e98",
+      "speaker": "ThomasKemp (Male)",
+      "utterance": "You ever heard of The Young Spacer's Guide to Mechanical Engineering? Comes in a set of three. If I had my hands on one of those datapads, I could teach myself the ins-and-outs.",
+      "support_knowledge": [
+        "O0_S3",
+        "thomas_kemp_11"
+      ]
+    },
+    {
+      "id": 117,
+      "speaker_guid": "6ecbdc23-b215-450e-bac3-c3ecc78583cf",
+      "speaker": "Parvati (Female)",
+      "utterance": "Those are good. My dad kept a copy with him when he was working in the cannery.",
+      "support_knowledge": [
+        "O1_S6",
+        "saltuna_cannery_01",
+        "saltuna_cannery_03"
+      ]
+    },
+    {
+      "id": 284,
+      "speaker_guid": "ddf2c259-099b-455a-9789-293c99a32e98",
+      "speaker": "ThomasKemp (Male)",
+      "utterance": "There's one in the old community center. Should find one back in town, too. Parvati's dad had a copy. He used to take it with him when he worked at the cannery, before he passed.",
+      "support_knowledge": [
+        "O0_B5",
+        "O0_B6",
+        "O1_S1",
+        "O1_S2",
+        "O1_S3",
+        "saltuna_cannery_01",
+        "saltuna_cannery_03",
+        "emerald_vale_community_center_01"
+      ]
+    },
+    {
+      "id": 118,
+      "speaker_guid": "ddf2c259-099b-455a-9789-293c99a32e98",
+      "speaker": "ThomasKemp (Male)",
+      "utterance": "I know the old community center kept a copy. Should find another one back in town. If you could find me even one of those pads, I'd be greatly obliged.",
+      "support_knowledge": [
+        "O0_B5",
+        "O0_B6",
+        "O1_S1",
+        "O1_S2",
+        "O1_S3",
+        "emerald_vale_community_center_01"
+      ]
+    },
+    {
+      "id": 119,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I'll let you know if I find anything.",
+      "support_knowledge": []
+    },
+    {
+      "id": 122,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I expect a fair price for my trouble.",
+      "support_knowledge": []
+    },
+    {
+      "id": 215,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "You mentioned two pads. What about the third?",
+      "support_knowledge": []
+    },
+    {
+      "id": 189,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I can't promise anything.",
+      "support_knowledge": []
+    },
+    {
+      "id": 120,
+      "speaker_guid": "ddf2c259-099b-455a-9789-293c99a32e98",
+      "speaker": "ThomasKemp (Male)",
+      "utterance": "Would you? I'd be grateful.",
+      "support_knowledge": []
+    },
+    {
+      "id": 123,
+      "speaker_guid": "ddf2c259-099b-455a-9789-293c99a32e98",
+      "speaker": "ThomasKemp (Male)",
+      "utterance": "I'll pay you for every pad you bring me. If, by some miracle, you can bring me the full set, I'll give you something pretty I've been saving for a lucky day.",
+      "support_knowledge": [
+        "O1_S3"
+      ]
+    },
+    {
+      "id": 216,
+      "speaker_guid": "ddf2c259-099b-455a-9789-293c99a32e98",
+      "speaker": "ThomasKemp (Male)",
+      "utterance": "I wish I knew. I wager the town had the full set, once upon a time. Where the third has gone, I can't say.",
+      "support_knowledge": []
+    },
+    {
+      "id": 192,
+      "speaker_guid": "ddf2c259-099b-455a-9789-293c99a32e98",
+      "speaker": "ThomasKemp (Male)",
+      "utterance": "I appreciate you hearing me out, at least.",
+      "support_knowledge": []
+    },
+    {
+      "id": 185,
+      "speaker_guid": "ddf2c259-099b-455a-9789-293c99a32e98",
+      "speaker": "ThomasKemp (Male)",
+      "utterance": "I mean to. I mean to do right by my friends, too. They believed I was an engineer, and so I'll make an engineer out of myself.",
+      "support_knowledge": [
+        "O0_S2"
+      ]
+    },
+    {
+      "id": 286,
+      "speaker_guid": "ddf2c259-099b-455a-9789-293c99a32e98",
+      "speaker": "ThomasKemp (Male)",
+      "utterance": "Well, because - because I needed to tell somebody. You ain't one of us and you ain't from Edgewater. So maybe you won't judge me as harshly.",
+      "support_knowledge": []
+    },
+    {
+      "id": 186,
+      "speaker_guid": "ddf2c259-099b-455a-9789-293c99a32e98",
+      "speaker": "ThomasKemp (Male)",
+      "utterance": "They're not idiots. They're just trusting. I got away with replacing the odd water filter or battery, but I can't keep this charade up. Time's come for me to learn my craft.",
+      "support_knowledge": [
+        "O0_S2"
+      ]
+    },
+    {
+      "id": 214,
+      "speaker_guid": "ddf2c259-099b-455a-9789-293c99a32e98",
+      "speaker": "ThomasKemp (Male)",
+      "utterance": "Well - what I meant was you're reasonably well-armed and don't look stricken with plague.",
+      "support_knowledge": []
+    }
+  ],
+  "dialog_edges": [
+    [
+      109,
+      235
+    ],
+    [
+      109,
+      160
+    ],
+    [
+      235,
+      110
+    ],
+    [
+      110,
+      111
+    ],
+    [
+      111,
+      240
+    ],
+    [
+      240,
+      160
+    ],
+    [
+      160,
+      161
+    ],
+    [
+      160,
+      213
+    ],
+    [
+      161,
+      166
+    ],
+    [
+      166,
+      178
+    ],
+    [
+      178,
+      181
+    ],
+    [
+      178,
+      182
+    ],
+    [
+      178,
+      285
+    ],
+    [
+      178,
+      180
+    ],
+    [
+      178,
+      190
+    ],
+    [
+      181,
+      183
+    ],
+    [
+      183,
+      116
+    ],
+    [
+      116,
+      117
+    ],
+    [
+      116,
+      284
+    ],
+    [
+      116,
+      118
+    ],
+    [
+      117,
+      118
+    ],
+    [
+      284,
+      118
+    ],
+    [
+      118,
+      119
+    ],
+    [
+      118,
+      122
+    ],
+    [
+      118,
+      215
+    ],
+    [
+      118,
+      189
+    ],
+    [
+      119,
+      120
+    ],
+    [
+      122,
+      123
+    ],
+    [
+      123,
+      118
+    ],
+    [
+      215,
+      216
+    ],
+    [
+      216,
+      118
+    ],
+    [
+      189,
+      192
+    ],
+    [
+      182,
+      185
+    ],
+    [
+      185,
+      116
+    ],
+    [
+      285,
+      286
+    ],
+    [
+      286,
+      116
+    ],
+    [
+      180,
+      186
+    ],
+    [
+      186,
+      116
+    ],
+    [
+      213,
+      214
+    ],
+    [
+      214,
+      166
+    ]
+  ]
+}

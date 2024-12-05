@@ -1,0 +1,252 @@
+{
+  "id": "the_amateur_alchemist_01",
+  "quest_name": "the_amateur_alchemist",
+  "conversation": {
+    "filename": "08_cv_scientist_vaughn",
+    "start_node": 2,
+    "end_nodes": [],
+    "force_include": [
+      131,
+      43,
+      46
+    ],
+    "force_sequence": []
+  },
+  "in_objective": "O2",
+  "participants": [
+    "vaughn_cortes"
+  ],
+  "objectives": {
+    "O2": {
+      "summary": "Speak with Vaughn",
+      "description": {
+        "S1": "That's taken care of.",
+        "S2": "Head on to Vaughn and let him know his experiment's been dealt with.",
+        "S3": "The equipment wasn't calibrated properly.",
+        "S4": "You adjusted it before completing the experiment,",
+        "S5": "resulting in twice as much raptidon musk."
+      },
+      "blurb": {
+        "B1": "If you return to Vaughn you have the option to give him 2 samples or lie (45) to keep half."
+      }
+    }
+  },
+  "dialog": [
+    {
+      "id": 2,
+      "speaker_guid": "526f2b56-5602-4316-a480-e8a6f5adcdbb",
+      "speaker": "VaughnCortes (Male)",
+      "utterance": "Any news? On that thing we spoke about. You know. That thing?",
+      "support_knowledge": [
+        "O0_S2"
+      ]
+    },
+    {
+      "id": 131,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I found your experiment.",
+      "support_knowledge": [
+        "O2_S2"
+      ]
+    },
+    {
+      "id": 133,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Not yet. I'll let you know.",
+      "support_knowledge": []
+    },
+    {
+      "id": 132,
+      "speaker_guid": "526f2b56-5602-4316-a480-e8a6f5adcdbb",
+      "speaker": "VaughnCortes (Male)",
+      "utterance": "Don't keep me in suspense. Did you get my stuff? I mean, not mine. It's for other parties. Buyers.",
+      "support_knowledge": [
+        "O1_S2",
+        "O1_S3"
+      ]
+    },
+    {
+      "id": 43,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I tuned the equipment for you, so there's a bit more than you expected. ",
+      "support_knowledge": [
+        "O2_S4",
+        "O2_S5"
+      ]
+    },
+    {
+      "id": 46,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "<Keep half.> Here. If you'd set your equipment up properly, it would have yielded more.",
+      "support_knowledge": [
+        "O2_B1"
+      ]
+    },
+    {
+      "id": 183,
+      "speaker_guid": "526f2b56-5602-4316-a480-e8a6f5adcdbb",
+      "speaker": "VaughnCortes (Male)",
+      "utterance": "No kidding? You're the best.",
+      "support_knowledge": []
+    },
+    {
+      "id": 184,
+      "speaker_guid": "526f2b56-5602-4316-a480-e8a6f5adcdbb",
+      "speaker": "VaughnCortes (Male)",
+      "utterance": "This is gonna make me so popular. I mean with the people who buy it. Not by using it. Because I'm not.",
+      "support_knowledge": [
+        "vaughn_cortes_05",
+        "vaughn_cortes_06",
+        "vaughn_cortes_07"
+      ]
+    },
+    {
+      "id": 186,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Of course not.",
+      "support_knowledge": []
+    },
+    {
+      "id": 187,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "You're definitely going to use it.",
+      "support_knowledge": []
+    },
+    {
+      "id": 190,
+      "speaker_guid": "526f2b56-5602-4316-a480-e8a6f5adcdbb",
+      "speaker": "VaughnCortes (Male)",
+      "utterance": "Take this. You earned it. If you run into me again after all this is over, maybe I'll have more.",
+      "support_knowledge": []
+    },
+    {
+      "id": 196,
+      "speaker_guid": "526f2b56-5602-4316-a480-e8a6f5adcdbb",
+      "speaker": "VaughnCortes (Male)",
+      "utterance": "Pleasure doing business with you.",
+      "support_knowledge": []
+    },
+    {
+      "id": 191,
+      "speaker_guid": "526f2b56-5602-4316-a480-e8a6f5adcdbb",
+      "speaker": "VaughnCortes (Male)",
+      "utterance": "Only for testing purposes. Quality control. You would, right?",
+      "support_knowledge": [
+        "O1_S2",
+        "vaughn_cortes_07"
+      ]
+    },
+    {
+      "id": 192,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Sure.",
+      "support_knowledge": []
+    },
+    {
+      "id": 193,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Nope.",
+      "support_knowledge": []
+    },
+    {
+      "id": 197,
+      "speaker_guid": "526f2b56-5602-4316-a480-e8a6f5adcdbb",
+      "speaker": "VaughnCortes (Male)",
+      "utterance": "Ah, you just don't understand the market. Anyway, here's a cut for you. An advance from my profits.",
+      "support_knowledge": []
+    },
+    {
+      "id": 182,
+      "speaker_guid": "526f2b56-5602-4316-a480-e8a6f5adcdbb",
+      "speaker": "VaughnCortes (Male)",
+      "utterance": "I'll remember that. I'm not the greatest technician.",
+      "support_knowledge": []
+    }
+  ],
+  "dialog_edges": [
+    [
+      2,
+      131
+    ],
+    [
+      2,
+      133
+    ],
+    [
+      131,
+      132
+    ],
+    [
+      132,
+      43
+    ],
+    [
+      132,
+      46
+    ],
+    [
+      43,
+      183
+    ],
+    [
+      183,
+      184
+    ],
+    [
+      184,
+      186
+    ],
+    [
+      184,
+      187
+    ],
+    [
+      186,
+      190
+    ],
+    [
+      190,
+      196
+    ],
+    [
+      187,
+      191
+    ],
+    [
+      191,
+      192
+    ],
+    [
+      191,
+      193
+    ],
+    [
+      192,
+      190
+    ],
+    [
+      193,
+      197
+    ],
+    [
+      197,
+      196
+    ],
+    [
+      46,
+      182
+    ],
+    [
+      182,
+      184
+    ]
+  ]
+}

@@ -1,0 +1,169 @@
+{
+  "id": "mandibles_of_doom_01",
+  "quest_name": "mandibles_of_doom",
+  "conversation": {
+    "filename": "0401_cv_berthold",
+    "start_node": 2,
+    "end_nodes": [],
+    "force_include": [
+      5
+    ],
+    "force_sequence": []
+  },
+  "in_objective": "O2",
+  "out_objective": "O3",
+  "participants": [
+    "berthold_fox"
+  ],
+  "dialog_edges": [
+    [
+      2,
+      3
+    ],
+    [
+      3,
+      5
+    ],
+    [
+      3,
+      6
+    ],
+    [
+      3,
+      40
+    ],
+    [
+      5,
+      4
+    ],
+    [
+      4,
+      42
+    ],
+    [
+      6,
+      7
+    ],
+    [
+      7,
+      8
+    ],
+    [
+      8,
+      43
+    ],
+    [
+      43,
+      42
+    ],
+    [
+      40,
+      41
+    ],
+    [
+      41,
+      7
+    ]
+  ],
+  "dialog": [
+    {
+      "id": 2,
+      "speaker_guid": "c1b89483-595e-4cc8-aad8-1b7dc0d2705a",
+      "speaker": "Berthold Fox (Male)",
+      "utterance": "That assist was a violation of corporate law if I ever saw one. Since it was to my benefit - and we're largely in lawless lands - I'll look the other way. C3 owes you one, stranger.",
+      "support_knowledge": [
+        "corporate_compliance_group_05"
+      ]
+    },
+    {
+      "id": 3,
+      "speaker_guid": "c1b89483-595e-4cc8-aad8-1b7dc0d2705a",
+      "speaker": "Berthold Fox (Male)",
+      "utterance": "You haven't seen Constance, have you? Ah, there's her torso. And that'd be her legs over yonder... Never mind. I'm Berthold.",
+      "support_knowledge": [
+        "berthold_fox_01"
+      ]
+    },
+    {
+      "id": 5,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "C3 sent me to find you.",
+      "support_knowledge": [
+        "O0_B3",
+        "corporate_compliance_group_01"
+      ]
+    },
+    {
+      "id": 6,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "What are you doing here?",
+      "support_knowledge": [
+        "berthold_fox_04"
+      ]
+    },
+    {
+      "id": 40,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "That's unfortunate.",
+      "support_knowledge": []
+    },
+    {
+      "id": 4,
+      "speaker_guid": "c1b89483-595e-4cc8-aad8-1b7dc0d2705a",
+      "speaker": "Berthold Fox (Male)",
+      "utterance": "Means they're still holding the post then. Good. You might head on back. ",
+      "support_knowledge": [
+        "O2_B3"
+      ]
+    },
+    {
+      "id": 42,
+      "speaker_guid": "c1b89483-595e-4cc8-aad8-1b7dc0d2705a",
+      "speaker": "Berthold Fox (Male)",
+      "utterance": "We can talk more there, where it's safe. I'll be on my way... once I've gathered up Constance's parts. ",
+      "support_knowledge": [
+        "O2_B3"
+      ]
+    },
+    {
+      "id": 7,
+      "speaker_guid": "c1b89483-595e-4cc8-aad8-1b7dc0d2705a",
+      "speaker": "Berthold Fox (Male)",
+      "utterance": "Killing marauders and hooligans - as I am handsomely paid to do. 'Course, as me and Constance discovered, they ain't the only forms of life inhabiting these caverns.",
+      "support_knowledge": [
+        "berthold_fox_04",
+        "berthold_fox_05"
+      ]
+    },
+    {
+      "id": 8,
+      "speaker_guid": "c1b89483-595e-4cc8-aad8-1b7dc0d2705a",
+      "speaker": "Berthold Fox (Male)",
+      "utterance": "I owe you a debt for saving my neck, stranger. And I mean to pay it.",
+      "support_knowledge": [
+        "O3_S1",
+        "O3_S2"
+      ]
+    },
+    {
+      "id": 43,
+      "speaker_guid": "c1b89483-595e-4cc8-aad8-1b7dc0d2705a",
+      "speaker": "Berthold Fox (Male)",
+      "utterance": "There's a station up the way. It's where my C3's are posted.",
+      "support_knowledge": [
+        "corporate_compliance_group_01",
+        "corporate_compliance_group_03"
+      ]
+    },
+    {
+      "id": 41,
+      "speaker_guid": "c1b89483-595e-4cc8-aad8-1b7dc0d2705a",
+      "speaker": "Berthold Fox (Male)",
+      "utterance": "It is. Going to be a mess to haul back. Hazard of the job, I reckon.",
+      "support_knowledge": []
+    }
+  ]
+}

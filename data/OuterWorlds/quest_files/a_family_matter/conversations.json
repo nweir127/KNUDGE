@@ -1,0 +1,65 @@
+[
+  {
+    "id": "a_family_matter_00",
+    "quest_name": "a_family_matter",
+    "conversation": {
+      "filename": "0402_cv_agnes_needham",
+      "start_node": 26,
+      "end_nodes": [],
+      "force_include": [
+        60
+      ]
+    },
+    "in_objective": "O0",
+    "out_objective": "O1",
+    "participants": [
+      "agnes_needham"
+    ]
+  },
+  {
+    "id": "a_family_matter_01",
+    "quest_name": "a_family_matter",
+    "conversation": {
+      "filename": "0402_cv_tucker_needham",
+      "start_node": 7,
+      "end_nodes": [],
+      "force_include": [
+        12,
+        41,
+        42,
+        43,
+        44
+      ]
+    },
+    "in_objective": [
+      "O0",
+      "O1",
+      "O2"
+    ],
+    "out_objective": "O3",
+    "participants": [
+      "tucker_needham"
+    ]
+  },
+  {
+    "id": "a_family_matter_02",
+    "quest_name": "a_family_matter",
+    "conversation": {
+      "filename": "0402_cv_agnes_needham",
+      "start_node": 19,
+      "end_nodes": [
+        172
+      ],
+      "force_include": [
+        21
+      ]
+    },
+    "in_objective": [
+      "O3"
+    ],
+    "participants": [
+      "tucker_needham",
+      "agnes_needham"
+    ]
+  }
+]

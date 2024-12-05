@@ -1,0 +1,65 @@
+ID	fact
+OBJECTIVE O0	
+O0_S1	190:87
+O0_B1	When speaking with Grimm,
+O0_B2	he will tell the Stranger about a Signed Tossball Poster which is he waiting to come in with the next SubLight shipment.
+O0_B3	He asks them if they would mind checking with Celia Robbins to see whether or not it has come in yet.
+O0_B4	Agreeing to do so starts the quest.
+OBJECTIVE O1	
+O1_S1	294:55
+O1_S2	350:47
+O1_B1	Celia is located in the MSI building in the center of town.
+O1_B2	She doesn't know anything about the shipment,
+O1_B3	but suggests that the Stranger speak to Velma Ballard in the Stellar Bay Warehouse.
+O1_B4	She warns them that Grimm wore Velma's patience thin a long time ago.
+OBJECTIVE O2	
+O2_S1	Celia sent you to Velma Ballard,
+O2_S2	464:35
+O2_S3	500:50
+O2_B1	Velma is located near a workbench on the ground floor of the warehouse.
+O2_B2	She confirms that the poster has come in,
+O2_B3	but says that she has decided to sell it to Nell,
+O2_B4	who runs the nearby betting parlor and has offered to pay a higher amount than Grimm for the poster
+O2_B5	(and has also not been as bothersome as the latter in asking about the item).
+OBJECTIVE O3	
+O3_S1	578:63
+O3_S2	642:41
+O3_S3	683:72
+O3_B1	Velma can be convinced to honor her original deal with Grimm by either:
+O3_B2	Outbidding Nell and bribing Velma with 666 bits
+O3_B3	Using Intimidate 55 to threaten Velma,
+O3_B4	telling her that business will be poor if her neighbors hate her.
+catherine_malin	
+catherine_malin_01	Catherine Malin is the outpost administrator of Fallbrook and owner of Malin's House of Hospitality.
+catherine_malin_02	"Catherine, acting on behalf of SubLight Salvage and Shipping Corporation, is the ""top dog"" in Fallbrook, and a mastermind behind it's construction."
+catherine_malin_03	She is known for a violent temper and won't hesitate to hire a hitman to get somebody whacked.
+catherine_malin_04	Sanjar Nandi is afraid of Catherine.
+catherine_malin_05	According to him, she has certain ambitions for Stellar Bay and Sanjar fears asking her for help during Errors Unseen because it may give her the leverage she has been looking for.
+catherine_malin_06	Celia, his assistant, tries to calm him down and says it's perfectly normal to have a healthy fear of her.
+celia_robbins	
+celia_robbins_01	Celia Robbins is a middle manager for Monarch Stellar Industries and works with Sanjar Nandi at MSI Headquarters in Stellar Bay.
+celia_robbins_02	Celia has a crush on Sebastian Adams and will buy whatever he has in stock,
+celia_robbins_03	just as an excuse to talk to him.
+celia_robbins_04	Unfortunately her apartment is filling up with exotic creature parts and her neighbors are starting to complain about the smell.
+celia_robbins_05	She is not concerned that she and Sebastian may not have much to talk about,
+celia_robbins_06	as everyone else in Stellar Bay either smells like saltuna or are her boss.
+celia_robbins_07	The Stranger can offer to set her and Sebastian up on a date.
+grimm	
+grimm_01	Grimm is a guard at the Stellar Bay landing pad.
+grimm_02	He is a fan of the Rizzo's Ranger's tossball team.
+nell	
+nell_01	Nell is the proprietor of Left Field Tossball Betting in Stellar Bay.
+nell_02	Nell is a major tossball fan.
+nell_03	She is more interested in watching tossball than serving patrons.
+nell_04	She is happy to spend a large number of bits on related memorabilia and recently ordered a shipment of Tossball Jerseys to decorate her bar which has unfortunately gone missing.
+nell_05	To make up for the loss of the merchandise,
+nell_06	"she has made an offer to Velma Ballard for a poster signed by Bertie ""Black Hole"" Holcomb which she plans to hang in her bar."
+signed_tossball_poster	
+signed_tossball_poster_01	"A tossball poster which has been signed personally by Bertie ""Black Hole"" Holcomb."
+signed_tossball_poster_02	It is a prized tossball artifact because Bertie Holcomb no longer signs memorabilia for fans,
+signed_tossball_poster_03	he just puts a stamp on it
+tossball	
+tossball_01	Tossball is a sport in The Outer Worlds.
+velma_ballard	
+velma_ballard_01	Velma Ballard is the supervisor in charge of the Saltuna Warehouse in Stellar Bay.
+velma_ballard_02	Velma has a tense relationship with Catherine Malin.

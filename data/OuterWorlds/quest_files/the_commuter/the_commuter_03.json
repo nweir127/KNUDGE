@@ -1,0 +1,531 @@
+{
+  "id": "the_commuter_03",
+  "quest_name": "the_commuter",
+  "conversation": {
+    "filename": "0403_cv_graham_bryant",
+    "start_node": 50,
+    "end_nodes": [
+      230,
+      232
+    ],
+    "force_include": [
+      37,
+      38
+    ]
+  },
+  "in_objective": "O3",
+  "participants": [
+    "graham_bryant",
+    "zora_blackwood"
+  ],
+  "dialog": [
+    {
+      "id": 50,
+      "speaker_guid": "cee405f5-2ec3-4c75-a60e-4f2c0a2ed77c",
+      "speaker": "graham_bryant (Male)",
+      "utterance": "I'm telling you, the Van Noys are fine.",
+      "support_knowledge": [
+        "terra_one_publications_04"
+      ]
+    },
+    {
+      "id": 51,
+      "speaker_guid": "ac9307ba-1ad4-4577-9f68-b0ff8cbc2740",
+      "speaker": "Zora (Female)",
+      "utterance": "Bullshit, Graham. They don't just abandon orders, and they weren't at the ruins. Where in this sulfur-sodden hellhole did you send them?",
+      "support_knowledge": [
+        "zora_blackwood_09",
+        "O3_B1"
+      ]
+    },
+    {
+      "id": 52,
+      "speaker_guid": "cee405f5-2ec3-4c75-a60e-4f2c0a2ed77c",
+      "speaker": "graham_bryant (Male)",
+      "utterance": "They're on a very important - ah. We'll continue this later.",
+      "support_knowledge": [
+        "terra_one_publications_04",
+        "O3_B1"
+      ]
+    },
+    {
+      "id": 145,
+      "speaker_guid": "cee405f5-2ec3-4c75-a60e-4f2c0a2ed77c",
+      "speaker": "graham_bryant (Male)",
+      "utterance": "Welcome back, Captain.",
+      "support_knowledge": []
+    },
+    {
+      "id": 37,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I got your rollers, and she had those cartridges after all.",
+      "support_knowledge": [
+        "O3_S1",
+        "O3_B2",
+        "O2_S1",
+        "O2_S2"
+      ]
+    },
+    {
+      "id": 38,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I got your rollers. The rest of your account went to food and medicine.",
+      "support_knowledge": [
+        "O3_S1",
+        "O3_B2",
+        "O2_S1",
+        "O2_S2"
+      ]
+    },
+    {
+      "id": 243,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Who are the Van Noys?",
+      "support_knowledge": []
+    },
+    {
+      "id": 40,
+      "speaker_guid": "ac9307ba-1ad4-4577-9f68-b0ff8cbc2740",
+      "speaker": "Zora (Female)",
+      "utterance": "Dammit. I was hoping you'd have more sense than our venerable leader here. I get the message is important, but so's eating.",
+      "support_knowledge": [
+        "O0_B5",
+        "graham_bryant_18"
+      ]
+    },
+    {
+      "id": 224,
+      "speaker_guid": "ac9307ba-1ad4-4577-9f68-b0ff8cbc2740",
+      "speaker": "Zora (Female)",
+      "utterance": "Carlotta usually schedules the next drop during the meeting. When's she coming?",
+      "support_knowledge": [
+        "O3_B3",
+        "carlotta_01",
+        "carlotta_06"
+      ]
+    },
+    {
+      "id": 41,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "She isn't. Sanjar has declared a stop-sale on goods to the Iconoclasts.",
+      "support_knowledge": [
+        "sanjar_nandi_01",
+        "carlotta_06",
+        "carlotta_07"
+      ]
+    },
+    {
+      "id": 151,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I've got bad news. Sanjar's made it illegal to sell to you guys.",
+      "support_knowledge": [
+        "sanjar_nandi_01",
+        "carlotta_07"
+      ]
+    },
+    {
+      "id": 152,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I don't know what you did to piss him off, but Sanjar isn't selling to you anymore.",
+      "support_knowledge": [
+        "sanjar_nandi_01",
+        "carlotta_07"
+      ]
+    },
+    {
+      "id": 227,
+      "speaker_guid": "cee405f5-2ec3-4c75-a60e-4f2c0a2ed77c",
+      "speaker": "graham_bryant (Male)",
+      "utterance": "That is... most unfortunate.",
+      "support_knowledge": []
+    },
+    {
+      "id": 42,
+      "speaker_guid": "cee405f5-2ec3-4c75-a60e-4f2c0a2ed77c",
+      "speaker": "graham_bryant (Male)",
+      "utterance": "This cuts off one of our only two supply lines on Monarch. Sanjar, old friend... you're about to cross a dangerous line.",
+      "support_knowledge": [
+        "sanjar_nandi_01",
+        "carlotta_07",
+        "sanjar_nandi_02",
+        "sanjar_nandi_13"
+      ]
+    },
+    {
+      "id": 43,
+      "speaker_guid": "ac9307ba-1ad4-4577-9f68-b0ff8cbc2740",
+      "speaker": "Zora (Female)",
+      "utterance": "About to? That idiot just declared war.",
+      "support_knowledge": [
+        "sanjar_nandi_01",
+        "iconoclasts_07"
+      ]
+    },
+    {
+      "id": 44,
+      "speaker_guid": "cee405f5-2ec3-4c75-a60e-4f2c0a2ed77c",
+      "speaker": "graham_bryant (Male)",
+      "utterance": "I... we will deal with his subversion later. For now, we must redouble our efforts to spread the truth to the colony.",
+      "support_knowledge": [
+        "graham_bryant_15"
+      ]
+    },
+    {
+      "id": 231,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Let me ask you something about spreading the truth.",
+      "support_knowledge": []
+    },
+    {
+      "id": 233,
+      "speaker_guid": "cee405f5-2ec3-4c75-a60e-4f2c0a2ed77c",
+      "speaker": "graham_bryant (Male)",
+      "utterance": "Yes?",
+      "support_knowledge": []
+    },
+    {
+      "id": 234,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Even if we clean up the press, how will you get the magazines to Terra 2?",
+      "support_knowledge": [
+        "graham_bryant_15",
+        "graham_bryant_17"
+      ]
+    },
+    {
+      "id": 235,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "What, exactly, are you going to put in these magazines?",
+      "support_knowledge": [
+        "graham_bryant_15",
+        "graham_bryant_17"
+      ]
+    },
+    {
+      "id": 236,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Why go through all this trouble? What are you trying to accomplish?",
+      "support_knowledge": []
+    },
+    {
+      "id": 237,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Right. Back to the mission.",
+      "support_knowledge": []
+    },
+    {
+      "id": 238,
+      "speaker_guid": "cee405f5-2ec3-4c75-a60e-4f2c0a2ed77c",
+      "speaker": "graham_bryant (Male)",
+      "utterance": "Our very resourceful SubLight friends have already agreed to help. For their standard fee, of course.",
+      "support_knowledge": [
+        "graham_bryant_15",
+        "graham_bryant_17",
+        "sublight_01",
+        "sublight_01"
+      ]
+    },
+    {
+      "id": 511,
+      "speaker_guid": "cee405f5-2ec3-4c75-a60e-4f2c0a2ed77c",
+      "speaker": "graham_bryant (Male)",
+      "utterance": "They'll replace periodicals around the colony with our subtly edited versions. The Board's workers will learn of our truth without even realizing it.",
+      "support_knowledge": [
+        "iconoclasts_06",
+        "graham_bryant_15",
+        "graham_bryant_17",
+        "terra_one_publications_03",
+        "sublight_01",
+        "sublight_01"
+      ]
+    },
+    {
+      "id": 239,
+      "speaker_guid": "cee405f5-2ec3-4c75-a60e-4f2c0a2ed77c",
+      "speaker": "graham_bryant (Male)",
+      "utterance": "A subtle lesson here, a word about the Eternal there. In small ways, I hope to bend the public's mind toward seeing the truth.",
+      "support_knowledge": [
+        "iconoclasts_06",
+        "graham_bryant_15",
+        "terra_one_publications_03",
+        "graham_bryant_17"
+      ]
+    },
+    {
+      "id": 240,
+      "speaker_guid": "cee405f5-2ec3-4c75-a60e-4f2c0a2ed77c",
+      "speaker": "graham_bryant (Male)",
+      "utterance": "The corporations have been shackling workers' souls for centuries. Workers are glorified slaves. To their companies, to their society, to their own minds.",
+      "support_knowledge": [
+        "iconoclasts_06",
+        "philosophists_03",
+        "graham_bryant_15",
+        "philosophists_11",
+        "terra_one_publications_03",
+        "graham_bryant_17"
+      ]
+    },
+    {
+      "id": 334,
+      "speaker_guid": "cee405f5-2ec3-4c75-a60e-4f2c0a2ed77c",
+      "speaker": "graham_bryant (Male)",
+      "utterance": "Free will has all but vanished. I believe that by freeing oneself from the corporate structure - indeed, from the very rules of man! - one can find their own truth.",
+      "support_knowledge": [
+        "philosophists_03",
+        "philosophists_06",
+        "graham_bryant_15",
+        "philosophists_11"
+      ]
+    },
+    {
+      "id": 335,
+      "speaker_guid": "cee405f5-2ec3-4c75-a60e-4f2c0a2ed77c",
+      "speaker": "graham_bryant (Male)",
+      "utterance": "And... through that... the cosmic truth that binds us all. The Eternal Truth.",
+      "support_knowledge": [
+        "philosophists_02",
+        "philosophists_05",
+        "philosophists_06",
+        "graham_bryant_15"
+      ]
+    },
+    {
+      "id": 819,
+      "speaker_guid": "cee405f5-2ec3-4c75-a60e-4f2c0a2ed77c",
+      "speaker": "graham_bryant (Male)",
+      "utterance": "Certainly.",
+      "support_knowledge": []
+    },
+    {
+      "id": 225,
+      "speaker_guid": "cee405f5-2ec3-4c75-a60e-4f2c0a2ed77c",
+      "speaker": "graham_bryant (Male)",
+      "utterance": "The Board must have gotten ahold of him at last.",
+      "support_knowledge": [
+        "iconoclasts_06"
+      ]
+    },
+    {
+      "id": 39,
+      "speaker_guid": "ac9307ba-1ad4-4577-9f68-b0ff8cbc2740",
+      "speaker": "Zora (Female)",
+      "utterance": "Thank the Eternal that SOMEONE's got some sense in their head.",
+      "support_knowledge": [
+        "philosophists_05",
+        "philosophists_06"
+      ]
+    },
+    {
+      "id": 244,
+      "speaker_guid": "cee405f5-2ec3-4c75-a60e-4f2c0a2ed77c",
+      "speaker": "graham_bryant (Male)",
+      "utterance": "You needn't concern yourself with trifling logistics.",
+      "support_knowledge": []
+    },
+    {
+      "id": 367,
+      "speaker_guid": "ac9307ba-1ad4-4577-9f68-b0ff8cbc2740",
+      "speaker": "Zora (Female)",
+      "utterance": "Trifling logistics?!",
+      "support_knowledge": []
+    },
+    {
+      "id": 756,
+      "speaker_guid": "ac9307ba-1ad4-4577-9f68-b0ff8cbc2740",
+      "speaker": "Zora (Female)",
+      "utterance": "They're our best unit, and now they're missing in action!",
+      "support_knowledge": [
+        "graham_bryant_18",
+        "iconoclasts_24"
+      ]
+    },
+    {
+      "id": 368,
+      "speaker_guid": "cee405f5-2ec3-4c75-a60e-4f2c0a2ed77c",
+      "speaker": "graham_bryant (Male)",
+      "utterance": "And we'll continue that discussion later.",
+      "support_knowledge": []
+    }
+  ],
+  "dialog_edges": [
+    [
+      50,
+      51
+    ],
+    [
+      51,
+      52
+    ],
+    [
+      52,
+      145
+    ],
+    [
+      145,
+      37
+    ],
+    [
+      145,
+      38
+    ],
+    [
+      145,
+      243
+    ],
+    [
+      37,
+      40
+    ],
+    [
+      40,
+      224
+    ],
+    [
+      224,
+      41
+    ],
+    [
+      224,
+      151
+    ],
+    [
+      224,
+      152
+    ],
+    [
+      41,
+      227
+    ],
+    [
+      227,
+      42
+    ],
+    [
+      42,
+      43
+    ],
+    [
+      43,
+      44
+    ],
+    [
+      44,
+      231
+    ],
+    [
+      231,
+      233
+    ],
+    [
+      233,
+      234
+    ],
+    [
+      233,
+      235
+    ],
+    [
+      233,
+      236
+    ],
+    [
+      233,
+      237
+    ],
+    [
+      234,
+      238
+    ],
+    [
+      238,
+      511
+    ],
+    [
+      511,
+      233
+    ],
+    [
+      235,
+      239
+    ],
+    [
+      239,
+      233
+    ],
+    [
+      236,
+      240
+    ],
+    [
+      240,
+      334
+    ],
+    [
+      334,
+      335
+    ],
+    [
+      335,
+      233
+    ],
+    [
+      237,
+      819
+    ],
+    [
+      819,
+      231
+    ],
+    [
+      151,
+      227
+    ],
+    [
+      152,
+      225
+    ],
+    [
+      225,
+      42
+    ],
+    [
+      38,
+      39
+    ],
+    [
+      39,
+      224
+    ],
+    [
+      243,
+      244
+    ],
+    [
+      244,
+      367
+    ],
+    [
+      367,
+      756
+    ],
+    [
+      756,
+      368
+    ],
+    [
+      368,
+      145
+    ]
+  ]
+}

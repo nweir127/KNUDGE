@@ -1,0 +1,247 @@
+{
+  "id": "makes_space_suits_wont_travel_02",
+  "quest_name": "makes_space_suits_wont_travel",
+  "conversation": {
+    "filename": "0202_cv_celeste_jolicoeur",
+    "start_node": 68,
+    "end_nodes": [
+      6
+    ],
+    "force_include": [],
+    "force_sequence": []
+  },
+  "in_objective": "O5",
+  "out_objective": "O6",
+  "participants": [
+    "celeste_jolicoeur"
+  ],
+  "objectives": {
+    "O5": {
+      "summary": "Return to Celeste",
+      "description": {
+        "S1": "You have gathered materials from three different creatures across the system.",
+        "S2": "Return to Celeste."
+      },
+      "blurb": {
+        "B1": "When you return these materials to you, you gain 2,312 XP.",
+        "B2": "You will then be tasked with retrieving a Lapel from the HPS.",
+        "B3": "You will gain Writ of Consent that gives you the right to retrieve the item"
+      }
+    },
+    "O6": {
+      "summary": "Get the Lapel from HPS",
+      "description": {
+        "S1": "Every Jolicoeur Original comes with a hand-crafted golden lapel.",
+        "S2": "Celeste ordered a lapel to commemorate her prototype,",
+        "S3": "but the parcel must be signed for and is still at HPS.",
+        "S4": "Head to HPS and retrieve the parcel containing her lapel."
+      },
+      "blurb": {
+        "B1": "Head there and speak to Olive Yates.",
+        "B2": "She'll tell you to go to window B.",
+        "B3": "Speak to Wanda Chen in window B to learn the parcel is already out for delivery.",
+        "B4": "Head to the nav marker in the Estates District and read the note left on the door to learn that the parcel is now back at the HPS,",
+        "B5": "you'll get the HPS Delivery Unsuccessful quest item.",
+        "B6": "Speak to Wanda Chen again and she'll tell you to head to window A.",
+        "B7": "Speak with Olive in Window A and show her your verification to receive the parcel and the Gold Lapel quest item.",
+        "B8": "Then head back to Celeste."
+      }
+    }
+  },
+  "dialog": [
+    {
+      "id": 68,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Mantiqueen chitin. Raptidon hide. Primal leather. All done.",
+      "support_knowledge": [
+        "O2_S1",
+        "O3_S1",
+        "O4_S1",
+        "O5_S1"
+      ]
+    },
+    {
+      "id": 69,
+      "speaker_guid": "8671846e-f11e-4f16-80bf-4ecacac57066",
+      "speaker": "CelesteJolicoeur (Female)",
+      "utterance": "I've been thinking of a name for this new outfit. Chimaera. Crafted from the hides of three species of monster.",
+      "support_knowledge": [
+        "celeste_jolicoeur_04"
+      ]
+    },
+    {
+      "id": 70,
+      "speaker_guid": "8671846e-f11e-4f16-80bf-4ecacac57066",
+      "speaker": "CelesteJolicoeur (Female)",
+      "utterance": "While you were gone, I put in an order for one of my bespoke lapels. Solid gold. Diamond encrusted. If it doesn't have one of my lapels, it's not a Jolicoeur Original.",
+      "support_knowledge": [
+        "O6_S1",
+        "O6_S2",
+        "celeste_jolicoeur_02"
+      ]
+    },
+    {
+      "id": 71,
+      "speaker_guid": "8671846e-f11e-4f16-80bf-4ecacac57066",
+      "speaker": "CelesteJolicoeur (Female)",
+      "utterance": "Those slackwits at HPS are holding my parcel while they wait for a signature. Bureaucracy is so utterly insufferable. Be a dear and retrieve it for me?",
+      "support_knowledge": [
+        "O6_S3"
+      ]
+    },
+    {
+      "id": 73,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "You're asking a lot from me.",
+      "support_knowledge": []
+    },
+    {
+      "id": 75,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Sure thing.",
+      "support_knowledge": []
+    },
+    {
+      "id": 74,
+      "speaker_guid": "8671846e-f11e-4f16-80bf-4ecacac57066",
+      "speaker": "CelesteJolicoeur (Female)",
+      "utterance": "Understatement of the year, darling. Believe me, I'm every bit as frustrated as you are.",
+      "support_knowledge": []
+    },
+    {
+      "id": 194,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "All right. I'll get you that parcel.",
+      "support_knowledge": []
+    },
+    {
+      "id": 125,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Those monsters are forcing you to sign for a parcel? What a massive inconvenience.",
+      "support_knowledge": []
+    },
+    {
+      "id": 126,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I've been all over the colony for you. Now you want me to deal with bureaucrats?",
+      "support_knowledge": []
+    },
+    {
+      "id": 127,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "So have one of your assistants fetch your parcel.",
+      "support_knowledge": []
+    },
+    {
+      "id": 76,
+      "speaker_guid": "8671846e-f11e-4f16-80bf-4ecacac57066",
+      "speaker": "CelesteJolicoeur (Female)",
+      "utterance": "Wonderful! I'm giving you authorization to retrieve this parcel on my behalf. You truly are my savior, darling.",
+      "support_knowledge": []
+    },
+    {
+      "id": 130,
+      "speaker_guid": "8671846e-f11e-4f16-80bf-4ecacac57066",
+      "speaker": "CelesteJolicoeur (Female)",
+      "utterance": "Can you believe the cheek on these people? If I didn't know any better, I'd say they were trying to grift an autograph out of me.",
+      "support_knowledge": []
+    },
+    {
+      "id": 129,
+      "speaker_guid": "8671846e-f11e-4f16-80bf-4ecacac57066",
+      "speaker": "CelesteJolicoeur (Female)",
+      "utterance": "I know, my dear. You do spoil me. But this outfit is my masterpiece, and that lapel is my signature. I simply must have it.",
+      "support_knowledge": [
+        "celeste_jolicoeur_02"
+      ]
+    },
+    {
+      "id": 128,
+      "speaker_guid": "8671846e-f11e-4f16-80bf-4ecacac57066",
+      "speaker": "CelesteJolicoeur (Female)",
+      "utterance": "My dear, I have only ever enjoyed the service of two reliable assistants in my life. The first is my muse, which is currently occupied. The second is you.",
+      "support_knowledge": []
+    }
+  ],
+  "dialog_edges": [
+    [
+      68,
+      69
+    ],
+    [
+      69,
+      70
+    ],
+    [
+      70,
+      71
+    ],
+    [
+      71,
+      73
+    ],
+    [
+      71,
+      75
+    ],
+    [
+      73,
+      74
+    ],
+    [
+      74,
+      194
+    ],
+    [
+      74,
+      125
+    ],
+    [
+      74,
+      126
+    ],
+    [
+      74,
+      127
+    ],
+    [
+      194,
+      76
+    ],
+    [
+      125,
+      130
+    ],
+    [
+      130,
+      74
+    ],
+    [
+      126,
+      129
+    ],
+    [
+      129,
+      74
+    ],
+    [
+      127,
+      128
+    ],
+    [
+      128,
+      74
+    ],
+    [
+      75,
+      76
+    ]
+  ]
+}

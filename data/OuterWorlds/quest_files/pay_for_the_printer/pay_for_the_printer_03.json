@@ -1,0 +1,253 @@
+{
+  "id": "pay_for_the_printer_03",
+  "quest_name": "pay_for_the_printer",
+  "conversation": {
+    "filename": "0403_cv_graham_bryant",
+    "start_node": 34,
+    "end_nodes": [],
+    "force_include": []
+  },
+  "in_objective": "O4",
+  "participants": [
+    "graham_bryant",
+    "zora_blackwood"
+  ],
+  "dialog_edges": [
+    [
+      34,
+      35
+    ],
+    [
+      35,
+      369
+    ],
+    [
+      369,
+      36
+    ],
+    [
+      36,
+      558
+    ],
+    [
+      36,
+      53
+    ],
+    [
+      36,
+      157
+    ],
+    [
+      558,
+      559
+    ],
+    [
+      559,
+      560
+    ],
+    [
+      559,
+      561
+    ],
+    [
+      560,
+      54
+    ],
+    [
+      54,
+      56
+    ],
+    [
+      561,
+      160
+    ],
+    [
+      160,
+      161
+    ],
+    [
+      160,
+      162
+    ],
+    [
+      160,
+      371
+    ],
+    [
+      161,
+      166
+    ],
+    [
+      166,
+      160
+    ],
+    [
+      162,
+      163
+    ],
+    [
+      163,
+      160
+    ],
+    [
+      371,
+      54
+    ],
+    [
+      53,
+      54
+    ],
+    [
+      157,
+      160
+    ]
+  ],
+  "dialog": [
+    {
+      "id": 34,
+      "speaker_guid": "cee405f5-2ec3-4c75-a60e-4f2c0a2ed77c",
+      "speaker": "graham_bryant (Male)",
+      "utterance": "If you'll just listen...",
+      "support_knowledge": [
+        "O4_B1"
+      ]
+    },
+    {
+      "id": 35,
+      "speaker_guid": "ac9307ba-1ad4-4577-9f68-b0ff8cbc2740",
+      "speaker": "Zora (Female)",
+      "utterance": "No! No more listening. No more preaching. We are losing people left and right. We need to act!",
+      "support_knowledge": [
+        "O4_B1"
+      ]
+    },
+    {
+      "id": 369,
+      "speaker_guid": "cee405f5-2ec3-4c75-a60e-4f2c0a2ed77c",
+      "speaker": "graham_bryant (Male)",
+      "utterance": "Enough, Zora. I'm not putting the torch to innocent people. Do you want to bring the Board's cruisers and gunships down on us?",
+      "support_knowledge": [
+        "O4_B1"
+      ]
+    },
+    {
+      "id": 36,
+      "speaker_guid": "cee405f5-2ec3-4c75-a60e-4f2c0a2ed77c",
+      "speaker": "graham_bryant (Male)",
+      "utterance": "Captain. Apologies, but our situation grows dire. Our people talk of... foolish endeavors. What news do you bring?",
+      "support_knowledge": [
+        "O4_S1",
+        "O4_B1"
+      ]
+    },
+    {
+      "id": 558,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "If there are gunships, they sure didn't stop me from landing here.",
+      "support_knowledge": []
+    },
+    {
+      "id": 53,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "The printing press is all yours.",
+      "support_knowledge": [
+        "O4_S1",
+        "O4_S2"
+      ]
+    },
+    {
+      "id": 157,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "What are you arguing about?",
+      "support_knowledge": [
+        "O4_B1"
+      ]
+    },
+    {
+      "id": 559,
+      "speaker_guid": "cee405f5-2ec3-4c75-a60e-4f2c0a2ed77c",
+      "speaker": "graham_bryant (Male)",
+      "utterance": "They are armed all the same. All they need is a good reason, and war is one such reason.",
+      "support_knowledge": []
+    },
+    {
+      "id": 560,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Okay. Well, the printing press is all yours.",
+      "support_knowledge": [
+        "O4_S1",
+        "O4_S2"
+      ]
+    },
+    {
+      "id": 561,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Is that what you're arguing about? Going to war with someone?",
+      "support_knowledge": []
+    },
+    {
+      "id": 54,
+      "speaker_guid": "cee405f5-2ec3-4c75-a60e-4f2c0a2ed77c",
+      "speaker": "graham_bryant (Male)",
+      "utterance": "Excellent!",
+      "support_knowledge": []
+    },
+    {
+      "id": 56,
+      "speaker_guid": "ac9307ba-1ad4-4577-9f68-b0ff8cbc2740",
+      "speaker": "Zora (Female)",
+      "utterance": "Did you find the Van Noys?",
+      "support_knowledge": [
+        "O3_B1",
+        "O3_B2"
+      ]
+    },
+    {
+      "id": 160,
+      "speaker_guid": "ac9307ba-1ad4-4577-9f68-b0ff8cbc2740",
+      "speaker": "Zora (Female)",
+      "utterance": "We're out of time. We need food and ammunition. We need to hit Stellar Bay while we still have the manpower to do it.",
+      "support_knowledge": []
+    },
+    {
+      "id": 161,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "You want to attack the city?",
+      "support_knowledge": []
+    },
+    {
+      "id": 162,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Are they really doing better than you are?",
+      "support_knowledge": []
+    },
+    {
+      "id": 371,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I see. Listen, I've been to the printing press. It's clear.",
+      "support_knowledge": []
+    },
+    {
+      "id": 166,
+      "speaker_guid": "ac9307ba-1ad4-4577-9f68-b0ff8cbc2740",
+      "speaker": "Zora (Female)",
+      "utterance": "Yes. I know it's drastic, but... it's clear that Sanjar will never cooperate. And if it's him or us, I choose us.",
+      "support_knowledge": []
+    },
+    {
+      "id": 163,
+      "speaker_guid": "ac9307ba-1ad4-4577-9f68-b0ff8cbc2740",
+      "speaker": "Zora (Female)",
+      "utterance": "Doubtful. But we don't need much, and Sanjar isn't going to share.",
+      "support_knowledge": []
+    }
+  ]
+}

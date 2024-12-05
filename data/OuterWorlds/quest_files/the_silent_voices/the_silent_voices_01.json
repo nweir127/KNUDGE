@@ -1,0 +1,140 @@
+{
+  "id": "the_silent_voices_01",
+  "quest_name": "the_silent_voices",
+  "conversation": {
+    "filename": "01_cv_ingmire_edna",
+    "start_node": 82,
+    "end_nodes": [],
+    "force_include": [
+      86
+    ],
+    "force_sequence": []
+  },
+  "in_objective": "O0",
+  "out_objective": "O1",
+  "participants": [
+    "edna_ingmire"
+  ],
+  "objectives": {
+    "O0": {
+      "description": {
+        "S1": "The Groundbreaker's primary communications relay station is about to be occluded by one of Halcyon's gas giants for the next few months.",
+        "S2": "To avoid being entirely cut off,",
+        "S3": "they need the old backup relay station operational again.",
+        "S4": "Edna Ingmire in communications hired you to travel to Relay GB-23 and bring the station online."
+      },
+      "blurb": {
+        "B1": "After completing Happiness is a Warm Spaceship,",
+        "B2": "Junlei Tennyson will mention that Edna Ingmire has something which she could use the Stranger's help with.",
+        "B3": "Edna will explain that the Groundbreaker is about to lose its communications capabilities,",
+        "B4": "as its primary communications relay is about to be occluded by one of Halcyon's gas giants for the next few months.",
+        "B5": "Unfortunately, the only backup auxiliary relay within orbital range went offline months ago,",
+        "B6": "and Groundbreaker cannot spare any people for maintenance.",
+        "B7": "Offering to help get the station back online starts the quest.",
+        "B8": "Edna will also give the Stranger a Relay Diagnostics Manual to help them diagnose the problem with the station",
+        "B9": "and asks them to retrieve a copy of the relay's backup data so she can forward any messages from Earth stored in the memory."
+      }
+    },
+    "O1": {
+      "summary": "Travel to Relay GB-23",
+      "description": {
+        "S1": "The Groundbreaker's backup communications relay went offline a while ago.",
+        "S2": "Now that the station's primary relay is going to be occluded,",
+        "S3": "this backup relay must be repaired."
+      },
+      "blurb": {
+        "B1": "Travel to Relay GB-23 with your ship and defeat the robots there."
+      }
+    }
+  },
+  "dialog": [
+    {
+      "id": 82,
+      "speaker_guid": "0783640a-8f98-4a46-bd11-ab4b125ac1b4",
+      "speaker": "EdnaIngmire (Female)",
+      "utterance": "My comm center already got an update ping from the backup relay. I trust everything went smoothly?",
+      "support_knowledge": [
+        "relay_gb-23_07"
+      ]
+    },
+    {
+      "id": 86,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Here's your data backup.",
+      "support_knowledge": [
+        "O3_B2"
+      ]
+    },
+    {
+      "id": 34,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I'm off.",
+      "support_knowledge": []
+    },
+    {
+      "id": 89,
+      "speaker_guid": "0783640a-8f98-4a46-bd11-ab4b125ac1b4",
+      "speaker": "EdnaIngmire (Female)",
+      "utterance": "Thanks. Hm. That's odd. The only messages in the queue are encrypted ones.",
+      "support_knowledge": []
+    },
+    {
+      "id": 92,
+      "speaker_guid": "0783640a-8f98-4a46-bd11-ab4b125ac1b4",
+      "speaker": "EdnaIngmire (Female)",
+      "utterance": "Looking at the transmission logs, the relay hasn't received a single unencrypted message in the past 36 months. Must be on account of some new security red tape. ",
+      "support_knowledge": []
+    },
+    {
+      "id": 174,
+      "speaker_guid": "0783640a-8f98-4a46-bd11-ab4b125ac1b4",
+      "speaker": "EdnaIngmire (Female)",
+      "utterance": "Well, whatever's the cause, the Board and the Earth Minister will see it sorted.",
+      "support_knowledge": [
+        "the_board_01"
+      ]
+    },
+    {
+      "id": 94,
+      "speaker_guid": "0783640a-8f98-4a46-bd11-ab4b125ac1b4",
+      "speaker": "EdnaIngmire (Female)",
+      "utterance": "Thanks again for saving my derri\u00e8re. I secured quite the payment authorization for you from Chief Junlei. Try not to spend it all in one place.",
+      "support_knowledge": [
+        "O3_B2",
+        "O3_B3"
+      ]
+    }
+  ],
+  "dialog_edges": [
+    [
+      82,
+      86
+    ],
+    [
+      82,
+      34
+    ],
+    [
+      86,
+      89
+    ],
+    [
+      89,
+      92
+    ],
+    [
+      92,
+      174
+    ],
+    [
+      174,
+      94
+    ],
+    [
+      94,
+      82
+    ]
+  ]
+}

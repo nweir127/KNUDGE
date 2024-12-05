@@ -1,0 +1,192 @@
+{
+  "id": "spratkings_01",
+  "quest_name": "spratkings",
+  "conversation": {
+    "filename": "0407_cv_nelson_mayson",
+    "start_node": 116,
+    "end_nodes": [],
+    "force_include": [
+      151
+    ]
+  },
+  "in_objective": "O2",
+  "out_objective": "O3",
+  "participants": [
+    "nelson_mayson"
+  ],
+  "dialog_edges": [
+    [
+      116,
+      117
+    ],
+    [
+      116,
+      151
+    ],
+    [
+      116,
+      123
+    ],
+    [
+      117,
+      118
+    ],
+    [
+      118,
+      120
+    ],
+    [
+      118,
+      151
+    ],
+    [
+      120,
+      119
+    ],
+    [
+      119,
+      133
+    ],
+    [
+      119,
+      134
+    ],
+    [
+      133,
+      122
+    ],
+    [
+      122,
+      124
+    ],
+    [
+      134,
+      121
+    ],
+    [
+      121,
+      122
+    ],
+    [
+      151,
+      131
+    ],
+    [
+      131,
+      124
+    ]
+  ],
+  "dialog": [
+    {
+      "id": 116,
+      "speaker_guid": "ae1a3987-7c1e-411e-9d2c-1273ec7ed3d9",
+      "speaker": "NelsonMayson (Male)",
+      "utterance": "Did you find 'em? Tell me you found my drug- I mean, my sprat carriers. Would hate should anything dire have befallen them.",
+      "support_knowledge": [
+        "O2_S1",
+        "sprat_01"
+      ]
+    },
+    {
+      "id": 117,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "You want the good news or the bad news?",
+      "support_knowledge": []
+    },
+    {
+      "id": 151,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I found your sprat carriers. But someone stole the delivery. <Keep Drug Consumables>",
+      "support_knowledge": [
+        "O2_B1"
+      ]
+    },
+    {
+      "id": 123,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I'll get back to you on that.",
+      "support_knowledge": []
+    },
+    {
+      "id": 118,
+      "speaker_guid": "ae1a3987-7c1e-411e-9d2c-1273ec7ed3d9",
+      "speaker": "NelsonMayson (Male)",
+      "utterance": "Just tell me straight and don't hold back. I can handle it.",
+      "support_knowledge": []
+    },
+    {
+      "id": 120,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Retrieved your drugs. But raptidons killed your carriers in the cave.",
+      "support_knowledge": [
+        "O2_S1"
+      ]
+    },
+    {
+      "id": 119,
+      "speaker_guid": "ae1a3987-7c1e-411e-9d2c-1273ec7ed3d9",
+      "speaker": "NelsonMayson (Male)",
+      "utterance": "Sprats can always be replaced. Excellent, this is perf- THIS IS ONLY HALF! Are you - you think you can steal from me?!",
+      "support_knowledge": [
+        "O2_B2",
+        "sprat_01"
+      ]
+    },
+    {
+      "id": 133,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I searched the cave top to bottom. That's all there was.",
+      "support_knowledge": [
+        "O2_B2"
+      ]
+    },
+    {
+      "id": 134,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "<Punch him in the eye.> Get ahold of yourself.",
+      "support_knowledge": [
+        "O5_B3"
+      ]
+    },
+    {
+      "id": 122,
+      "speaker_guid": "ae1a3987-7c1e-411e-9d2c-1273ec7ed3d9",
+      "speaker": "NelsonMayson (Male)",
+      "utterance": "Search Fallbrook. Either half the sprats got loose on their own, or there'll be some evidence pointing to the soon-to-be-dead snake who filched my carriers.",
+      "support_knowledge": [
+        "O2_B3"
+      ]
+    },
+    {
+      "id": 124,
+      "speaker_guid": "ae1a3987-7c1e-411e-9d2c-1273ec7ed3d9",
+      "speaker": "NelsonMayson (Male)",
+      "utterance": "You want your cut? You get me the rest of my drugs. No matter what it takes.",
+      "support_knowledge": [
+        "O2_B2"
+      ]
+    },
+    {
+      "id": 121,
+      "speaker_guid": "ae1a3987-7c1e-411e-9d2c-1273ec7ed3d9",
+      "speaker": "NelsonMayson (Male)",
+      "utterance": "Ow!!! Damn it, that hurts like the blazes! Okay, okay. All right. You didn't take it... but someone did.",
+      "support_knowledge": [
+        "O2_B2"
+      ]
+    },
+    {
+      "id": 131,
+      "speaker_guid": "ae1a3987-7c1e-411e-9d2c-1273ec7ed3d9",
+      "speaker": "NelsonMayson (Male)",
+      "utterance": "Seeing as that statement is \"wink\" free... I'm madder than a mantiswarm. And ready to bite somebody.",
+      "support_knowledge": []
+    }
+  ]
+}

@@ -1,0 +1,493 @@
+{
+  "id": "a_few_kindred_spirits_02",
+  "quest_name": "a_few_kindred_spirits",
+  "conversation": {
+    "filename": "00_cv_zoe_in_marauder_camp",
+    "start_node": 67,
+    "end_nodes": [],
+    "force_include": [
+      68,
+      3,
+      15,
+      47,
+      48
+    ],
+    "force_sequence": []
+  },
+  "in_objective": [
+    "O2",
+    "O3"
+  ],
+  "out_objective": "O4",
+  "participants": [
+    "zoe_chandler"
+  ],
+  "objectives": {
+    "O2": {
+      "summary": "Find Zoe",
+      "description": {
+        "S1": "One of Zoe's journal entries revealed that she secretly planned to run away and join the marauder camp to the east.",
+        "S2": "Now that you know her location,",
+        "S3": "head to the camp and see if she's okay."
+      },
+      "blurb": {
+        "B1": "Zoe is hiding out with the marauders based in the abandoned industrial zone in the northeastern part of Emerald Vale.",
+        "B2": "These marauders will be hostile on sight.",
+        "B3": "When they are defeated,",
+        "B4": "Zoe will appear in the street in the center of the area."
+      }
+    },
+    "O3": {
+      "summary": "Convince Zoe to return",
+      "description": {
+        "S1": "Zoe is perfectly fine and somehow living amongst marauders.",
+        "S2": "She seems to be content with her situation,",
+        "S3": "so it'll take some convincing to get her to return to her people."
+      },
+      "blurb": {
+        "B1": "Zoe is unharmed and very impressed with how the Stranger killed all the marauders \"like some sort of heroic accountant running down a list\".",
+        "B2": "She doesn't want to return to the camp,",
+        "B3": "believing that she belongs with the marauders.",
+        "B4": "Talking to her will show that she traded Adrena-Time in order to join the confidence of the Marauders.",
+        "B5": "She will tell you she was kicked out from Edgewater for getting sick and stealing medicine.",
+        "B6": "She joined the Botanical Lab expecting outlaws and instead found a peaceful community, not to her liking.",
+        "B7": "She can be convinced with a Persuade 15 or Intimidate 65 check.",
+        "B8": "Persuading her will give you the option to talk about Stefan,",
+        "B9": "and if you talked to him you can bring up the surprise episode he had prepared.",
+        "B10": "This will yield 1125XP and she will return to the Botanical Lab.",
+        "B11": "Alternatively, Zoe can be killed for the 8 Adrena-Time that she is carrying.",
+        "B12": "Zoe's ring can be looted from her corpse as proof of what \"happened\" to her."
+      }
+    },
+    "O4": {
+      "summary": "Return to Grace",
+      "description": {
+        "S1": "You convinced Zoe to return to the Camp.",
+        "S2": "Grace will want to hear the good news."
+      },
+      "blurb": {
+        "B1": "Go back to Grace at the Botanical Lab and you can tell her the truth about Zoe joining up with Marauders,",
+        "B2": "or tell her she wanted to be an outlaw.",
+        "B3": "Telling her the truth does not cause any problems and rewards with 4125xp and increased positive reputation with the Deserters faction,",
+        "B4": "If you Lie (5) to Grace, assuming you killed her,",
+        "B5": "and say you had to put her down,",
+        "B6": "you will gain some extra XP and you can show her Zoe's ring as proof she is dead.",
+        "B7": "This will net you 4000 XP, Deserters Reputation and a Bolter Pistol."
+      }
+    }
+  },
+  "dialog": [
+    {
+      "id": 67,
+      "speaker_guid": "ac5102e6-efa5-4b5d-b733-3eea06a4433b",
+      "speaker": "ZoeChandler (Female)",
+      "utterance": "Wow. You crossed 'em all off. Like some sort of heroic accountant running down a list. Teach me your ways?",
+      "support_knowledge": [
+        "O3_B1",
+        "zoe_chandler_25"
+      ]
+    },
+    {
+      "id": 68,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "You're Zoe? Your people are looking for you.",
+      "support_knowledge": [
+        "zoe_chandler_23"
+      ]
+    },
+    {
+      "id": 71,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Not for free.",
+      "support_knowledge": []
+    },
+    {
+      "id": 72,
+      "speaker_guid": "ac5102e6-efa5-4b5d-b733-3eea06a4433b",
+      "speaker": "ZoeChandler (Female)",
+      "utterance": "What, you mean Adelaide's little congregation of nature-loving nobodies? I could not possibly be less interested in them.",
+      "support_knowledge": [
+        "O3_B2",
+        "botanical_labs_05",
+        "zoe_chandler_08"
+      ]
+    },
+    {
+      "id": 73,
+      "speaker_guid": "ac5102e6-efa5-4b5d-b733-3eea06a4433b",
+      "speaker": "ZoeChandler (Female)",
+      "utterance": "You, on the other hand. You were a sight to behold. If I had half your skills, I'd be the greatest outlaw the coast has ever seen.",
+      "support_knowledge": [
+        "zoe_chandler_25"
+      ]
+    },
+    {
+      "id": 2,
+      "speaker_guid": "ac5102e6-efa5-4b5d-b733-3eea06a4433b",
+      "speaker": "ZoeChandler (Female)",
+      "utterance": "What I wouldn't do for a Wentsworth.",
+      "support_knowledge": []
+    },
+    {
+      "id": 3,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I've been sent to find you.",
+      "support_knowledge": [
+        "O0_S1",
+        "O0_S2",
+        "zoe_chandler_23"
+      ]
+    },
+    {
+      "id": 15,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "You should go back. People are worried.",
+      "support_knowledge": [
+        "O0_B3"
+      ]
+    },
+    {
+      "id": 16,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I need you to clarify something for me.",
+      "support_knowledge": []
+    },
+    {
+      "id": 81,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I'll be back.",
+      "support_knowledge": []
+    },
+    {
+      "id": 5,
+      "speaker_guid": "ac5102e6-efa5-4b5d-b733-3eea06a4433b",
+      "speaker": "ZoeChandler (Female)",
+      "utterance": "Why? Adelaide wants me back on garden duty or something? Thanks, but I'm not going anywhere. This is where I belong.",
+      "support_knowledge": [
+        "O3_B3",
+        "botanical_labs_05"
+      ]
+    },
+    {
+      "id": 23,
+      "speaker_guid": "ac5102e6-efa5-4b5d-b733-3eea06a4433b",
+      "speaker": "ZoeChandler (Female)",
+      "utterance": "I doubt that. Nobody in that camp really cared about me.",
+      "support_knowledge": [
+        "zoe_chandler_08",
+        "zoe_chandler_09"
+      ]
+    },
+    {
+      "id": 47,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "What about Stefan? You two were friends.",
+      "support_knowledge": [
+        "O3_B8",
+        "stefan_garcia_02",
+        "zoe_chandler_09"
+      ]
+    },
+    {
+      "id": 48,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Stefan's planning to surprise you with an episode of your favorite serial.",
+      "support_knowledge": [
+        "O3_B9"
+      ]
+    },
+    {
+      "id": 49,
+      "speaker_guid": "ac5102e6-efa5-4b5d-b733-3eea06a4433b",
+      "speaker": "ZoeChandler (Female)",
+      "utterance": "Yeah, I suppose you're right. Also, he could carry on a conversation, unlike these hooligans.",
+      "support_knowledge": [
+        "stefan_garcia_02"
+      ]
+    },
+    {
+      "id": 31,
+      "speaker_guid": "ac5102e6-efa5-4b5d-b733-3eea06a4433b",
+      "speaker": "ZoeChandler (Female)",
+      "utterance": "I'll take my stuff and head on back, I suppose. Grace is gonna be glaring knives at me. So I've got that to look forward to.",
+      "support_knowledge": [
+        "O3_B10",
+        "zoe_chandler_26"
+      ]
+    },
+    {
+      "id": 80,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Take care.",
+      "support_knowledge": []
+    },
+    {
+      "id": 60,
+      "speaker_guid": "ac5102e6-efa5-4b5d-b733-3eea06a4433b",
+      "speaker": "ZoeChandler (Female)",
+      "utterance": "Wait, you're telling me he's got a copy of the Masked Marketeer? Why didn't you say so?",
+      "support_knowledge": [
+        "O3_B9",
+        "zoe_chandler_11",
+        "zoe_chandler_12"
+      ]
+    },
+    {
+      "id": 17,
+      "speaker_guid": "ac5102e6-efa5-4b5d-b733-3eea06a4433b",
+      "speaker": "ZoeChandler (Female)",
+      "utterance": "I'm great at clarifying.",
+      "support_knowledge": []
+    },
+    {
+      "id": 6,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Are you a prisoner here?",
+      "support_knowledge": [
+        "O3_S1"
+      ]
+    },
+    {
+      "id": 8,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "How are you even alive? ",
+      "support_knowledge": [
+        "O3_S1"
+      ]
+    },
+    {
+      "id": 10,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "There was something else, actually.",
+      "support_knowledge": []
+    },
+    {
+      "id": 7,
+      "speaker_guid": "ac5102e6-efa5-4b5d-b733-3eea06a4433b",
+      "speaker": "ZoeChandler (Female)",
+      "utterance": "Uh, no? I insinuated myself into their company, see. And they didn't seem to mind one whit.",
+      "support_knowledge": [
+        "O3_S1",
+        "O3_S2",
+        "zoe_chandler_17"
+      ]
+    },
+    {
+      "id": 64,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I'm impressed. How'd you pull it off?",
+      "support_knowledge": []
+    },
+    {
+      "id": 63,
+      "speaker_guid": "ac5102e6-efa5-4b5d-b733-3eea06a4433b",
+      "speaker": "ZoeChandler (Female)",
+      "utterance": "I may have bartered them a few boxes of Adrena-Time, but I'm sure that's got nothing to do with it.",
+      "support_knowledge": [
+        "O3_B4",
+        "zoe_chandler_15",
+        "zoe_chandler_16",
+        "zoe_chandler_17"
+      ]
+    },
+    {
+      "id": 9,
+      "speaker_guid": "ac5102e6-efa5-4b5d-b733-3eea06a4433b",
+      "speaker": "ZoeChandler (Female)",
+      "utterance": "I don't know. The vital processes that constitute the miracle of life are mysterious and unknowable.",
+      "support_knowledge": []
+    },
+    {
+      "id": 56,
+      "speaker_guid": "ac5102e6-efa5-4b5d-b733-3eea06a4433b",
+      "speaker": "ZoeChandler (Female)",
+      "utterance": "Oh, you mean around these guys? The marauders wouldn't hurt me. They love me. I'm practically their queen. Must be my natural charisma.",
+      "support_knowledge": [
+        "zoe_chandler_18"
+      ]
+    },
+    {
+      "id": 18,
+      "speaker_guid": "ac5102e6-efa5-4b5d-b733-3eea06a4433b",
+      "speaker": "ZoeChandler (Female)",
+      "utterance": "I've got all the time in Halcyon.",
+      "support_knowledge": []
+    },
+    {
+      "id": 76,
+      "speaker_guid": "ac5102e6-efa5-4b5d-b733-3eea06a4433b",
+      "speaker": "ZoeChandler (Female)",
+      "utterance": "Aw. Well, that's a shame. I mean I could pay you in Adrena-Time, but I've already bartered most of my stash over to these poor saps.",
+      "support_knowledge": [
+        "zoe_chandler_17"
+      ]
+    }
+  ],
+  "dialog_edges": [
+    [
+      67,
+      68
+    ],
+    [
+      67,
+      71
+    ],
+    [
+      68,
+      72
+    ],
+    [
+      72,
+      73
+    ],
+    [
+      73,
+      2
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      2,
+      15
+    ],
+    [
+      2,
+      16
+    ],
+    [
+      2,
+      81
+    ],
+    [
+      3,
+      5
+    ],
+    [
+      5,
+      2
+    ],
+    [
+      15,
+      23
+    ],
+    [
+      23,
+      47
+    ],
+    [
+      23,
+      48
+    ],
+    [
+      47,
+      49
+    ],
+    [
+      49,
+      31
+    ],
+    [
+      31,
+      16
+    ],
+    [
+      31,
+      80
+    ],
+    [
+      48,
+      60
+    ],
+    [
+      60,
+      31
+    ],
+    [
+      16,
+      17
+    ],
+    [
+      17,
+      6
+    ],
+    [
+      17,
+      8
+    ],
+    [
+      17,
+      10
+    ],
+    [
+      17,
+      81
+    ],
+    [
+      6,
+      7
+    ],
+    [
+      7,
+      64
+    ],
+    [
+      7,
+      17
+    ],
+    [
+      64,
+      63
+    ],
+    [
+      63,
+      17
+    ],
+    [
+      8,
+      9
+    ],
+    [
+      9,
+      56
+    ],
+    [
+      56,
+      64
+    ],
+    [
+      56,
+      17
+    ],
+    [
+      10,
+      18
+    ],
+    [
+      18,
+      2
+    ],
+    [
+      71,
+      76
+    ],
+    [
+      76,
+      73
+    ]
+  ]
+}

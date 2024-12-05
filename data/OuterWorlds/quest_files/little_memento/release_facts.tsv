@@ -1,0 +1,90 @@
+ID	fact
+OBJECTIVE O0	
+O0_S1	186:53
+O0_S2	has asked you to track down a keepsake box from his old mercenary suit.
+O0_B1	982:40
+O0_B2	1023:42
+O0_B3	1066:40
+O0_B4	1107:59
+O0_B5	1167:99
+O0_B6	1267:36
+O0_B7	1304:55
+OBJECTIVE O1	
+O1_S1	334:57
+O1_S2	391:25
+O1_S3	417:32
+O1_S4	450:53
+OBJECTIVE O2	
+O2_S1	524:71
+O2_S2	596:17
+O2_S3	614:37
+O2_S4	652:87
+O2_S5	740:52
+OBJECTIVE O3	
+O3_S1	806:65
+O3_S2	871:108
+O3_B1	2018:31
+O3_B2	and tell Ash that you found Lamont's body.
+O3_B3	He will ask about the box,
+O3_B4	2104:55
+O3_B5	2160:71
+O3_B6	2232:52
+O3_B7	2285:53
+abandoned_safehouse	
+abandoned_safehouse_01	The Abandoned Safehouse is a point of interest in Monarch Wilderness.
+abandoned_safehouse_02	The lock on the door leading to the hunter outpost cannot be picked and can only be unlocked with the Hunter Outpost Keycard.
+abandoned_safehouse_03	This location was a safehouse for a mercenary unit which was stationed on Monarch before the Hazard Clause was enacted.
+abandoned_safehouse_04	The mercenary unit contained at least two members - Lamont and Delilah.
+abandoned_safehouse_05	This mercenary unit engaged Ash to evacuate them from the planet but the latter took a different job at the last minute,
+abandoned_safehouse_06	abandoning the mercenary unit to die to a mantipillar at the rendezvous site.
+amber_heights	
+amber_heights_01	Amber Heights is a location in the Monarch Wilderness and the base of operations for the Iconoclasts.
+amber_heights_02	The Iconoclasts run the place somewhat like a commune.
+amber_heights_03	Amber Heights was once the place of residence of the entire executive dome of Monarch Stellar Industries.
+amber_heights_04	It is now in ruins after a massacre in the past.
+amber_heights_05	They lived there with their families and it was the company's operations center on Monarch.
+amber_heights_06	Just after The Board approved the evacuation of the planet through the Hazard Clause, Amber Heights was besieged by a gang of pirates who ransacked the town and massacred all its inhabitants.
+amber_heights_07	"This tragedy was known as ""The Amber Heights Massacre""."
+amber_heights_08	They were secretly assisted by MSI employee, Graham Bryant, who believed that the massacre would aid him in his quest to rid the colony of corporate influence.
+amber_heights_09	In 2345, the same Graham Bryant formed the Iconoclasts and settled the group in the deserted town.
+ash	
+ash_01	Ash is a veteran mercenary who can be found in a bar in Amber Heights.
+ash_02	During the corporate evacuation of Monarch after the Hazard Clause was enacted,
+ash_03	Ash was hired to transport a hunter unit off-world.
+ash_04	Shortly before he was scheduled to pick up the unit,
+ash_05	he received a better offer and abandoned the group at their rendezvous point,
+ash_06	and they were killed while waiting for transport which would never arrive.
+ash_07	He does not disclose this to the Stranger when they first meet him.
+ash_08	He now spends most of his time at the bar in Amber Heights,
+ash_09	telling fantastical tales about his time as a mercenary on Monarch.
+ash_10	The Stranger can buy up to three drinks for Ash for 20 bits each.
+ash_11	Every time he receives a drink,
+ash_12	Ash will tell a fantastical story about his experiences on Monarch.
+bits	
+bits_01	Bits are the primary currency of the Halcyon system which are stored on physical bit cartridges.
+mantipillar	
+mantipillar_01	Mantipillar is a creature in The Outer Worlds.
+mantipillar_02	A mantipillar spits plasma balls that burn its victims.
+mantipillar_03	Mantipillars are native to Monarch.
+monarch	
+monarch_01	Monarch, previously known as Terra 1, is one of the many moons of the gas giant Olympus and the site of a failed colony.
+monarch_02	Terra 1 was initially designated as the primary colonization target of the Halcyon system.
+monarch_03	The Halcyon Holdings Corporate Board had intended to completely terraform the moon,
+monarch_04	wiping out the local fauna and flora and replacing it with plants and wildlife native to Earth.
+monarch_05	However, the terraforming process unexpectedly caused the native species to mutate and grow to significantly larger sizes,
+monarch_06	rendering them more dangerous and severely crippling the colonization effort.
+monarch_07	Due to the hostile environment which they had created,
+monarch_08	the Board was forced to enact a Hazard Clause covering the entirety of Terra 1.
+monarch_09	Public notice of the clause's issuance was sent to everyone operating on Terra 1 and led to the evacuation of almost all corporations from the moon.
+monarch_10	However, one corporation took advantage of the chaos of the evacuation to exploit a legal loophole which allowed them to,
+monarch_11	as the last corporation remaining on the planet,
+monarch_12	acquire the planet from the Board.
+monarch_13	This corporation, under the leadership of Sanjar Nandi and Graham Bryant subsequently rebranded itself to Monarch Stellar Industries (MSI),
+monarch_14	in line with the renaming of the planet to 'Monarch'.
+monarch_15	The actions of MSI earned them the ire of the Board,
+monarch_16	who retaliated by effectively placing the moon under indefinite embargo,
+monarch_17	refusing to allow legal transit either in or out.
+monarch_18	the Board aggressively spread propaganda about Monarch to convince the rest of the population that it was both uninhabited and uninhabitable.
+monarch_19	This has greatly hampered MSI's attempts to be recognized as a legitimate corporation and is a thorn in the side of its CEO, Sanjar Nandi.
+monarch_20	"Monarch also has an ocean which goes around the moon at the ""twilight band""."
+monarch_21	It is where the colonists and Monarch Stellar Industries farm their saltuna.

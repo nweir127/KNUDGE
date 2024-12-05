@@ -1,0 +1,143 @@
+{
+  "id": "the_distress_signal_01",
+  "quest_name": "the_distress_signal",
+  "conversation": {
+    "filename": "03_cv_playership",
+    "start_node": 140,
+    "end_nodes": [
+      1
+    ],
+    "force_include": [],
+    "force_sequence": []
+  },
+  "in_objective": "O1",
+  "out_objective": "O2",
+  "participants": [
+    "ada",
+    "unknown_character"
+  ],
+  "objectives": {
+    "O1": {
+      "summary": "View the distress signal recording on your ship",
+      "description": {
+        "S1": "The distress signal has nav coordinates embedded in it.",
+        "S2": "Play it on your ship so that ADA can get to the Roseway landing pad"
+      },
+      "blurb": {
+        "B1": "Once you can use the ship, go to ADA and ask her to play the Distress Call.",
+        "B2": "You will receive 2000 XP and unlock the quest The Doom That Came to Roseway.",
+        "B3": "You will now also be able to travel to Roseway in Terra 2."
+      }
+    },
+    "O2": {
+      "summary": "Search for secrets in Roseway",
+      "description": {
+        "S1": "Investigate Roseway to find potential company secrets that could be sold to the highest bidder through Gladys.",
+        "S2": "Talking to the scientists around the town would probably be a good place to start."
+      },
+      "blurb": {
+        "B1": "After landing at Roseway Landing Pad, you'll make your way through a desolate street and enter Roseway proper.",
+        "B2": "If you speak with Orson Shaw and offer to help then you will get the objective to get a hold of his weapon plans.",
+        "B3": "These can be found in the Storage Facility to the southeast of Roseway.",
+        "B4": "Head to Roseway Communications Room and you can meet Anton Crane, who sent the distress call.",
+        "B5": "He reveals that his work might not be entirely legal,",
+        "B6": "so corporate cannot know of what has happened.",
+        "B7": "You can intimidate (25) to get him to tell you what is going on.",
+        "B8": "He's tasked with formulating new and improved dental gel,",
+        "B9": "and they accidentally discovered an appetite suppresant.",
+        "B10": "He claims a group of malcontents attacked them,",
+        "B11": "freed the Raptidons and stole his research.",
+        "B12": "You will get 3300xp for agreeing to help,",
+        "B13": "and obtain Anton's Lab Keycard and Anton's Pass Code.",
+        "B14": "He will also mention you should not kill the Raptidon mother,",
+        "B15": "and that the old lab has Jameson, his protege.",
+        "B16": "Agree to find him and you'll obtain the quest By His Bootstraps."
+      }
+    }
+  },
+  "dialog": [
+    {
+      "id": 140,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I picked up this distress call. Can you play it back for me?",
+      "support_knowledge": [
+        "O1_B1"
+      ]
+    },
+    {
+      "id": 141,
+      "speaker_guid": "4d7fbfbe-d778-46e9-8df3-d1a10f90534b",
+      "speaker": "PlayerShipAI (Female)",
+      "utterance": "Yes, Captain. Beginning playback now.",
+      "support_knowledge": []
+    },
+    {
+      "id": 142,
+      "speaker_guid": "b66313db-4702-4559-80d4-00d919800bf8",
+      "speaker": "UnknownCharacter (Male)",
+      "utterance": "There's... there's viscera and death! Everywhere! Gunfire, gnashing teeth, the unemployed! For Law's sake, if anyone's receiving this, please send help!",
+      "support_knowledge": []
+    },
+    {
+      "id": 494,
+      "speaker_guid": "b66313db-4702-4559-80d4-00d919800bf8",
+      "speaker": "UnknownCharacter (Male)",
+      "utterance": "W-W-Wait, what? No, no no  - ",
+      "support_knowledge": []
+    },
+    {
+      "id": 496,
+      "speaker_guid": "4d7fbfbe-d778-46e9-8df3-d1a10f90534b",
+      "speaker": "PlayerShipAI (Female)",
+      "utterance": "[Static] ",
+      "support_knowledge": []
+    },
+    {
+      "id": 143,
+      "speaker_guid": "4d7fbfbe-d778-46e9-8df3-d1a10f90534b",
+      "speaker": "PlayerShipAI (Female)",
+      "utterance": "Captain, we are now capable of accessing the Roseway landing pad.",
+      "support_knowledge": [
+        "O1_S2"
+      ]
+    },
+    {
+      "id": 723,
+      "speaker_guid": "4d7fbfbe-d778-46e9-8df3-d1a10f90534b",
+      "speaker": "PlayerShipAI (Female)",
+      "utterance": "Also, corporate protocol requires that all distress signals include a list of key personnel for retrieval. The embedded names are: Anton Crane, Vaughn Cortes, and Orson Shaw.",
+      "support_knowledge": [
+        "anton_crane_01",
+        "vaughn_cortes_01",
+        "orson_shaw_01"
+      ]
+    }
+  ],
+  "dialog_edges": [
+    [
+      140,
+      141
+    ],
+    [
+      141,
+      142
+    ],
+    [
+      142,
+      494
+    ],
+    [
+      494,
+      496
+    ],
+    [
+      496,
+      143
+    ],
+    [
+      143,
+      723
+    ]
+  ]
+}

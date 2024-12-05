@@ -1,0 +1,87 @@
+[
+  {
+    "id": "a_few_kindred_spirits_00",
+    "quest_name": "a_few_kindred_spirits",
+    "conversation": {
+      "filename": "00_cv_grace",
+      "start_node": 1,
+      "end_nodes": [],
+      "force_include": [
+        31,
+        126,
+        97,
+        118,
+        119
+      ],
+      "force_sequence": []
+    },
+    "in_objective": "O0",
+    "out_objective": "O1",
+    "participants": [
+      "grace_romero"
+    ]
+  },
+  {
+    "id": "a_few_kindred_spirits_01",
+    "quest_name": "a_few_kindred_spirits",
+    "conversation": {
+      "filename": "00_cv_stefan",
+      "start_node": 26,
+      "end_nodes": [],
+      "force_include": [
+        9,
+        20
+      ],
+      "force_sequence": []
+    },
+    "in_objective": "O1",
+    "out_objective": "O1",
+    "participants": [
+      "stefan_garcia"
+    ]
+  },
+  {
+    "id": "a_few_kindred_spirits_02",
+    "quest_name": "a_few_kindred_spirits",
+    "conversation": {
+      "filename": "00_cv_zoe_in_marauder_camp",
+      "start_node": 67,
+      "end_nodes": [],
+      "force_include": [
+        68,
+        3,
+        15,
+        47,
+        48
+      ],
+      "force_sequence": []
+    },
+    "in_objective": [
+      "O2",
+      "O3"
+    ],
+    "out_objective": "O4",
+    "participants": [
+      "zoe_chandler"
+    ]
+  },
+  {
+    "id": "a_few_kindred_spirits_03",
+    "quest_name": "a_few_kindred_spirits",
+    "conversation": {
+      "filename": "00_cv_grace",
+      "start_node": 2,
+      "end_nodes": [],
+      "force_include": [
+        103,
+        121,
+        107
+      ],
+      "force_sequence": []
+    },
+    "in_objective": "O4",
+    "participants": [
+      "grace_romero"
+    ]
+  }
+]

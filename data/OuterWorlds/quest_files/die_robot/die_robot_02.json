@@ -1,0 +1,249 @@
+{
+  "id": "die_robot_02",
+  "quest_name": "die_robot",
+  "conversation": {
+    "filename": "00_cv_ludwig",
+    "start_node": 48,
+    "end_nodes": [
+      3
+    ],
+    "force_include": [],
+    "force_sequence": []
+  },
+  "in_objective": "O3",
+  "out_objective": "O4",
+  "participants": [
+    "ludwig_miller"
+  ],
+  "objectives": {
+    "O3": {
+      "summary": "Find Ludwig's Secret Weapon",
+      "description": {
+        "S1": "Ludwig revealed that he's tucked away a secret weapon in Edgewater,",
+        "S2": "to be used in the event of a mechanical uprising.",
+        "S3": "He's decided to entrust the weapon to you to aid in the crusade.",
+        "S4": "The weapon should be in the bathroom of Edgewater's cantina."
+      },
+      "blurb": {
+        "B1": "Go to the canteen and look behind the toilet,",
+        "B2": "you can pick up Ludwig's Sealed Bundle."
+      }
+    },
+    "O4": {
+      "summary": "Return to Ludwig",
+      "description": {
+        "S1": "You found the weapon that Ludwig had stashed in Edgewater.",
+        "S2": "Return to him and learn how he intends to use it against the mechanical menace."
+      },
+      "blurb": {
+        "B1": "After retrieving the Sealed Bundle,",
+        "B2": "return it to Ludwig to receive a Mag-2-Zap as a reward.",
+        "B3": "Ludwig then asks the Stranger to retrieve an undamaged logic module in the geothermal power plant."
+      }
+    }
+  },
+  "dialog": [
+    {
+      "id": 48,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I found that package you mentioned.",
+      "support_knowledge": [
+        "O4_S1",
+        "O4_S2"
+      ]
+    },
+    {
+      "id": 49,
+      "speaker_guid": "2bc7a436-3eff-4d01-983e-cc1aa9630287",
+      "speaker": "LudwigMiller (Male)",
+      "utterance": "Feast your eyes, soldier. This here's a genuine Spacer's Choice Injury Customizing Unit, designed to deliver a lethal blast of electrical discharge. I call it the Hand of the Law.",
+      "support_knowledge": [
+        "O4_B2",
+        "automechanicals_08"
+      ]
+    },
+    {
+      "id": 50,
+      "speaker_guid": "2bc7a436-3eff-4d01-983e-cc1aa9630287",
+      "speaker": "LudwigMiller (Male)",
+      "utterance": "You ever wanna see a mechanical flailing around like a grounded fish, you stick a couple thousand volts in its guts, with compliments from old Ludwig.",
+      "support_knowledge": [
+        "O4_B2",
+        "automechanicals_08"
+      ]
+    },
+    {
+      "id": 68,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Sounds like fun.",
+      "support_knowledge": []
+    },
+    {
+      "id": 70,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "So what's next?",
+      "support_knowledge": []
+    },
+    {
+      "id": 178,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "How do I use this \"Injury Customizing Unit,\" exactly?",
+      "support_knowledge": []
+    },
+    {
+      "id": 69,
+      "speaker_guid": "2bc7a436-3eff-4d01-983e-cc1aa9630287",
+      "speaker": "LudwigMiller (Male)",
+      "utterance": "Fun? This ain't some quarterly performance review, soldier. Ours is a grave and sacred duty.",
+      "support_knowledge": []
+    },
+    {
+      "id": 73,
+      "speaker_guid": "2bc7a436-3eff-4d01-983e-cc1aa9630287",
+      "speaker": "LudwigMiller (Male)",
+      "utterance": "Time's come for you to journey down into the black heart of the enemy's camp. I'm talking about the old geothermal plant.",
+      "support_knowledge": [
+        "O4_B3"
+      ]
+    },
+    {
+      "id": 98,
+      "speaker_guid": "2bc7a436-3eff-4d01-983e-cc1aa9630287",
+      "speaker": "LudwigMiller (Male)",
+      "utterance": "Unfortunately, the old plant lies outside my Board-given jurisdiction. You'll need to get a passcode from the boss, Reed Tobson.",
+      "support_knowledge": [
+        "O4_B3",
+        "reed_tobson_01"
+      ]
+    },
+    {
+      "id": 74,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I feel like I'm going to regret getting mixed up in this.",
+      "support_knowledge": []
+    },
+    {
+      "id": 52,
+      "speaker_guid": "2bc7a436-3eff-4d01-983e-cc1aa9630287",
+      "speaker": "LudwigMiller (Male)",
+      "utterance": "I need you to get us the brain of a mechanical. Well, not exactly a brain. Anatomically speaking, what we're looking for is a logic module.",
+      "support_knowledge": [
+        "O4_B3"
+      ]
+    },
+    {
+      "id": 102,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Seems simple enough.",
+      "support_knowledge": []
+    },
+    {
+      "id": 101,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "What are you planning?",
+      "support_knowledge": []
+    },
+    {
+      "id": 99,
+      "speaker_guid": "2bc7a436-3eff-4d01-983e-cc1aa9630287",
+      "speaker": "LudwigMiller (Male)",
+      "utterance": "If you die horribly, I will pour out a can of Zero Gee to your memory.",
+      "support_knowledge": []
+    },
+    {
+      "id": 104,
+      "speaker_guid": "2bc7a436-3eff-4d01-983e-cc1aa9630287",
+      "speaker": "LudwigMiller (Male)",
+      "utterance": "Don't tell anyone, all right? I've got a contact. A real expert in the inner workings of the automaton. We are gonna rip those mechanicals' secrets right out of their circuits.",
+      "support_knowledge": []
+    },
+    {
+      "id": 179,
+      "speaker_guid": "2bc7a436-3eff-4d01-983e-cc1aa9630287",
+      "speaker": "LudwigMiller (Male)",
+      "utterance": "There's a workbench right through this door. Attach that unit to your favorite weapon, and go forth into glorious battle.",
+      "support_knowledge": []
+    }
+  ],
+  "dialog_edges": [
+    [
+      48,
+      49
+    ],
+    [
+      49,
+      50
+    ],
+    [
+      50,
+      68
+    ],
+    [
+      50,
+      70
+    ],
+    [
+      50,
+      178
+    ],
+    [
+      68,
+      69
+    ],
+    [
+      69,
+      73
+    ],
+    [
+      73,
+      98
+    ],
+    [
+      98,
+      74
+    ],
+    [
+      74,
+      52
+    ],
+    [
+      52,
+      102
+    ],
+    [
+      52,
+      101
+    ],
+    [
+      102,
+      99
+    ],
+    [
+      101,
+      104
+    ],
+    [
+      104,
+      52
+    ],
+    [
+      70,
+      73
+    ],
+    [
+      178,
+      179
+    ],
+    [
+      179,
+      73
+    ]
+  ]
+}

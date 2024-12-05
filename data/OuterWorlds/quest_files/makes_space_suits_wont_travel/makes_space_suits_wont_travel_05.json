@@ -1,0 +1,196 @@
+{
+  "id": "makes_space_suits_wont_travel_05",
+  "quest_name": "makes_space_suits_wont_travel",
+  "conversation": {
+    "filename": "0202_cv_hps_clerk_02",
+    "start_node": 14,
+    "end_nodes": [
+      5
+    ],
+    "force_include": [
+      19
+    ],
+    "force_sequence": []
+  },
+  "in_objective": "O6",
+  "out_objective": "O6",
+  "participants": [
+    "wanda_chen"
+  ],
+  "objectives": {
+    "O6": {
+      "summary": "Get the Lapel from HPS",
+      "description": {
+        "S1": "Every Jolicoeur Original comes with a hand-crafted golden lapel.",
+        "S2": "Celeste ordered a lapel to commemorate her prototype,",
+        "S3": "but the parcel must be signed for and is still at HPS.",
+        "S4": "Head to HPS and retrieve the parcel containing her lapel."
+      },
+      "blurb": {
+        "B1": "Head there and speak to Olive Yates.",
+        "B2": "She'll tell you to go to window B.",
+        "B3": "Speak to Wanda Chen in window B to learn the parcel is already out for delivery.",
+        "B4": "Head to the nav marker in the Estates District and read the note left on the door to learn that the parcel is now back at the HPS,",
+        "B5": "you'll get the HPS Delivery Unsuccessful quest item.",
+        "B6": "Speak to Wanda Chen again and she'll tell you to head to window A.",
+        "B7": "Speak with Olive in Window A and show her your verification to receive the parcel and the Gold Lapel quest item.",
+        "B8": "Then head back to Celeste."
+      }
+    }
+  },
+  "dialog": [
+    {
+      "id": 14,
+      "speaker_guid": "e02c8ab2-5160-4927-829b-0f1e7ae5102a",
+      "speaker": "HPSClerk02 (Female)",
+      "utterance": "Halcyon Parcel Service is proud to be the colony's only parcel delivery service.",
+      "support_knowledge": [
+        "halcyon_parcel_service_03"
+      ]
+    },
+    {
+      "id": 3,
+      "speaker_guid": "e02c8ab2-5160-4927-829b-0f1e7ae5102a",
+      "speaker": "HPSClerk02 (Female)",
+      "utterance": "How may I be of assistance?",
+      "support_knowledge": []
+    },
+    {
+      "id": 19,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Yeah, I've got this notice to pick up a parcel.",
+      "support_knowledge": [
+        "O6_B4",
+        "O6_B5"
+      ]
+    },
+    {
+      "id": 20,
+      "speaker_guid": "e02c8ab2-5160-4927-829b-0f1e7ae5102a",
+      "speaker": "HPSClerk02 (Female)",
+      "utterance": "I must respectfully ask that you calm down, please. Parcels must be picked up at Window A.",
+      "support_knowledge": [
+        "O6_B6"
+      ]
+    },
+    {
+      "id": 21,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "But that's all the way over there. Can't you just get it for me?",
+      "support_knowledge": []
+    },
+    {
+      "id": 22,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Are you kidding me?",
+      "support_knowledge": []
+    },
+    {
+      "id": 23,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Fine, I'll go back to window A.",
+      "support_knowledge": []
+    },
+    {
+      "id": 24,
+      "speaker_guid": "e02c8ab2-5160-4927-829b-0f1e7ae5102a",
+      "speaker": "HPSClerk02 (Female)",
+      "utterance": "Maintaining proper window structure is imperative to the smooth operation of HPS.",
+      "support_knowledge": []
+    },
+    {
+      "id": 25,
+      "speaker_guid": "e02c8ab2-5160-4927-829b-0f1e7ae5102a",
+      "speaker": "HPSClerk02 (Female)",
+      "utterance": "If you would like to lodge a complaint about the quality of your service, please request a complaint form at Window C.",
+      "support_knowledge": []
+    },
+    {
+      "id": 28,
+      "speaker_guid": "e02c8ab2-5160-4927-829b-0f1e7ae5102a",
+      "speaker": "HPSClerk02 (Female)",
+      "utterance": "If you would like to request a complaint form at Window C, please make an appointment.",
+      "support_knowledge": []
+    },
+    {
+      "id": 26,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Let me guess. If I want to make an appointment, I have to request a form?",
+      "support_knowledge": []
+    },
+    {
+      "id": 29,
+      "speaker_guid": "e02c8ab2-5160-4927-829b-0f1e7ae5102a",
+      "speaker": "HPSClerk02 (Female)",
+      "utterance": "I see you're familiar with our company policy.",
+      "support_knowledge": []
+    }
+  ],
+  "dialog_edges": [
+    [
+      14,
+      3
+    ],
+    [
+      3,
+      19
+    ],
+    [
+      19,
+      20
+    ],
+    [
+      20,
+      21
+    ],
+    [
+      20,
+      22
+    ],
+    [
+      20,
+      23
+    ],
+    [
+      21,
+      24
+    ],
+    [
+      24,
+      22
+    ],
+    [
+      24,
+      23
+    ],
+    [
+      22,
+      25
+    ],
+    [
+      25,
+      28
+    ],
+    [
+      28,
+      26
+    ],
+    [
+      28,
+      23
+    ],
+    [
+      26,
+      29
+    ],
+    [
+      29,
+      23
+    ]
+  ]
+}

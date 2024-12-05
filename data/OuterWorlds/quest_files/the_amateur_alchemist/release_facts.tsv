@@ -1,0 +1,84 @@
+ID	fact
+OBJECTIVE O0	
+O0_S1	193:46
+O0_S2	240:95
+O0_S3	336:44
+O0_B1	1030:85
+O0_B2	1116:73
+O0_B3	1190:46
+OBJECTIVE O1	
+O1_S1	415:40
+O1_S2	455:35
+O1_S3	491:55
+O1_S4	547:67
+O1_S5	615:40
+O1_S6	656:38
+O1_S7	694:92
+O1_B1	1524:72
+O1_B2	1597:60
+O1_B3	1658:53
+O1_B4	1712:41
+OBJECTIVE O2	
+O2_S1	804:21
+O2_S2	826:68
+O2_S3	894:41
+O2_S4	936:49
+O2_S5	986:41
+O2_B1	2071:91
+anton_crane	
+anton_crane_01	Anton Crane is the Outpost Administrator of Roseway and a lead scientist of Auntie Cleo.
+anton_crane_02	Crane was tasked to develop the world's most effective appetite suppressant dental gel,
+anton_crane_03	using Raptidons as research subjects.
+anton_crane_04	Crane is first encountered in the Roseway Communication Room.
+anton_crane_05	The scientist will explain that a group of outlaws,
+anton_crane_06	led by Cassandra O'Malley, broke into his lab and released the imprisoned raptidons,
+anton_crane_07	in a search for his valuable research.
+anton_crane_08	He will then ask you to kill the outlaws,
+anton_crane_09	put the raptidons to sleep and retrieve his research data,
+anton_crane_10	looking into his missing apprentice Jameson on the way.
+anton_crane_11	It is up to the player to follow any of the objectives Crane tasks them with.
+anton_crane_12	He will become angered with Porter if the player convinces him to abandon his post and upset if the search for Jameson ends up in failure.
+anton_crane_13	If the player fails to save Jameson,
+anton_crane_14	and fails to return the toothpaste recipe,
+anton_crane_15	they can tell Crane he is better off dead.
+anton_crane_16	After leaving the building and walking a short distance a gun shot is heard and upon re-entering the comms center will find him sitting dead at the central terminal pillar after shooting himself in the head.
+auntie_cleo	
+auntie_cleo_01	Auntie Cleo's is a subsidiary of Kolway Pharmaceuticals, a partner of Halcyon Holdings Corporation.
+auntie_cleo_02	Auntie Cleo's is a large corporation based on Terra 2 with various facilities located in the area of Roseway.
+auntie_cleo_03	Primarily a manufacturer of various pharmaceuticals,
+auntie_cleo_04	they are known both for their unethical experiments done in the name of producing high-quality cosmetics and drugs,
+auntie_cleo_05	as well as their rivalry with Spacer's Choice.
+auntie_cleo_06	They are also known to run a Tossball team known as the Auntie Cleo's Darlings.
+auntie_cleo_07	According to Clarence Mostly, the family name behind Auntie Cleo's is the Skylers.
+covert_lab	
+covert_lab_01	Auntie-Biotics secret lab 0027,
+covert_lab_02	also known as the Covert Lab,
+covert_lab_03	is a location in the southern part of Roseway Gardens.
+raptidon	
+raptidon_01	Raptidons are giant cat/reptile-like creatures that inhabit various planets in Halcyon.
+raptidon_02	They are creatures native to Monarch.
+raptidon_03	however some corporations have illegally imported them to other planets,
+raptidon_04	such as Auntie Cleo who relocated a group of them to Roseway.
+raptidon_05	Raptidons are of corporate interest due to their potential for producing new chemical by-products which,
+raptidon_06	when refined, can be used to create new board approved products.
+raptidon_musk	
+raptidon_musk_01	A vial of musk extracted from a raptidon as a byproduct of experimentation.
+raptidon_musk_02	It is the main ingredient in the aphrodisiac,
+raptidon_musk_03	"""N-Raptured"" and fetches a high price due to the current embargo on Monarch,"
+raptidon_musk_04	the raptidons' native habitat.
+roseway	
+roseway_01	Roseway is a company town in Roseway Gardens on Terra 2.
+roseway_02	It is owned and operated by Auntie Cleo.
+roseway_03	Once the home of a prosperous settlement,
+roseway_04	Roseway now stands as a partly abandoned site.
+roseway_05	It is now a ramshackle excuse for a town,
+roseway_06	and visitors are encouraged to travel to other settlements instead.
+vaughn_cortes	
+vaughn_cortes_01	Vaughn Cortes is a scientist in Roseway.
+vaughn_cortes_02	Vaughn is an endocrinologist who is part of the team stationed at Roseway,
+vaughn_cortes_03	studying raptidons which have been shipped there from Monarch for anything that can be used in Auntie Cleo products.
+vaughn_cortes_04	He is specifically responsible for analyzing the raptidon equivalent of hormones, mostly their leptin analogues.
+vaughn_cortes_05	"He has a secret side business extracting raptidon musk as an experimental byproduct and selling it to a buyer from Byzantium known only as ""Gary."""
+vaughn_cortes_06	"His buyers use the musk to manufacture ""N-Raptured"","
+vaughn_cortes_07	an aphrodisiac in which it is the key ingredient.
+vaughn_cortes_08	Vaughn's Raptidon Musk is one of the corporate secrets which may be sold to Gladys Culkelly on Groundbreaker.

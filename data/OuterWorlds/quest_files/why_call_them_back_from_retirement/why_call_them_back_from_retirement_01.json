@@ -1,0 +1,424 @@
+{
+  "id": "why_call_them_back_from_retirement_01",
+  "quest_name": "why_call_them_back_from_retirement",
+  "conversation": {
+    "filename": "0202_cv_hortense_ingalsbee",
+    "start_node": 99,
+    "end_nodes": [
+      6
+    ],
+    "force_include": [
+      165,
+      41
+    ],
+    "force_sequence": []
+  },
+  "in_objective": "O3",
+  "participants": [
+    "hortense_ingalsbee"
+  ],
+  "objectives": {
+    "O3": {
+      "summary": "Return to Hortense",
+      "description": {
+        "S1": "Tell Hortense the results of your investigation"
+      },
+      "blurb": {
+        "B1": "Return to Hortense and deliver the news.",
+        "B2": "You can either tell her the truth about the Early Retirement Program",
+        "B3": "and then Persuade (100) or Intimidate (65) her into rewarding you more bits.",
+        "B4": "One can also Lie (40) to her that the Retirement District is a paradise and encourage her to see for herself,",
+        "B5": "with predictable consequences (gains Board positive reputation)."
+      }
+    }
+  },
+  "dialog": [
+    {
+      "id": 99,
+      "speaker_guid": "552af8ab-db0a-4799-a677-d160aaf9dbf0",
+      "speaker": "HortenseIngalsbe (Female)",
+      "utterance": "I must admit, I'm getting a certain thrill out of our little arrangement. If this goes well, perhaps I'll start hiring wandering delinquents to handle all of my affairs.",
+      "support_knowledge": []
+    },
+    {
+      "id": 100,
+      "speaker_guid": "552af8ab-db0a-4799-a677-d160aaf9dbf0",
+      "speaker": "HortenseIngalsbe (Female)",
+      "utterance": "It is going well, I hope?",
+      "support_knowledge": []
+    },
+    {
+      "id": 165,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "The Retirement District is a paradise. You should see for yourself.",
+      "support_knowledge": [
+        "O3_B4",
+        "hortense_ingalsbee_17"
+      ]
+    },
+    {
+      "id": 41,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "So it turns out Early Retirement isn't so much a life of luxury as it is a brutal execution.",
+      "support_knowledge": [
+        "O3_B2"
+      ]
+    },
+    {
+      "id": 8,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I should go.",
+      "support_knowledge": []
+    },
+    {
+      "id": 166,
+      "speaker_guid": "552af8ab-db0a-4799-a677-d160aaf9dbf0",
+      "speaker": "HortenseIngalsbe (Female)",
+      "utterance": "I knew it! I just knew it! What a disaster. Did you get a good look around? What was it like?",
+      "support_knowledge": [
+        "O3_B4"
+      ]
+    },
+    {
+      "id": 168,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "An endless, extravagant garden. There were even signs that said \"no frolicking.\"",
+      "support_knowledge": [
+        "O3_B4"
+      ]
+    },
+    {
+      "id": 169,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "It was just one giant party. They had a vodka fountain and everything.",
+      "support_knowledge": [
+        "O3_B4"
+      ]
+    },
+    {
+      "id": 170,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Everything is gold. Golden streets, golden chairs, golden toothbrushes...",
+      "support_knowledge": [
+        "O3_B4"
+      ]
+    },
+    {
+      "id": 167,
+      "speaker_guid": "552af8ab-db0a-4799-a677-d160aaf9dbf0",
+      "speaker": "HortenseIngalsbe (Female)",
+      "utterance": "Truly? That's... why that's the most beautiful thing I've ever heard.",
+      "support_knowledge": []
+    },
+    {
+      "id": 173,
+      "speaker_guid": "552af8ab-db0a-4799-a677-d160aaf9dbf0",
+      "speaker": "HortenseIngalsbe (Female)",
+      "utterance": "I can't believe they kept this from us. From me! The nerve! The audacity!",
+      "support_knowledge": []
+    },
+    {
+      "id": 174,
+      "speaker_guid": "552af8ab-db0a-4799-a677-d160aaf9dbf0",
+      "speaker": "HortenseIngalsbe (Female)",
+      "utterance": "Here, take your payment. I have to fetch my things. I don't care what I have to do - they'll give me luxury or give me death!",
+      "support_knowledge": [
+        "O3_B5"
+      ]
+    },
+    {
+      "id": 172,
+      "speaker_guid": "552af8ab-db0a-4799-a677-d160aaf9dbf0",
+      "speaker": "HortenseIngalsbe (Female)",
+      "utterance": "A fountain of it? I bet it's Spectrum Ultraviolet too. Disgraceful! I can't find one bottle of it and they get a whole fountain.",
+      "support_knowledge": []
+    },
+    {
+      "id": 171,
+      "speaker_guid": "552af8ab-db0a-4799-a677-d160aaf9dbf0",
+      "speaker": "HortenseIngalsbe (Female)",
+      "utterance": "Toothbrushes? Why that is positively gaudy... I must have one!",
+      "support_knowledge": []
+    },
+    {
+      "id": 42,
+      "speaker_guid": "552af8ab-db0a-4799-a677-d160aaf9dbf0",
+      "speaker": "HortenseIngalsbe (Female)",
+      "utterance": "What? You mean it's just a sham they perpetuate so they can... dispose of the rabble? That's... that's...",
+      "support_knowledge": [
+        "O3_B2",
+        "early_retirement_district_14"
+      ]
+    },
+    {
+      "id": 43,
+      "speaker_guid": "552af8ab-db0a-4799-a677-d160aaf9dbf0",
+      "speaker": "HortenseIngalsbe (Female)",
+      "utterance": "Brilliant! To take the most burdensome members of our society and simply remove them... oh, I'll never doubt the wisdom of the Board again.",
+      "support_knowledge": [
+        "O3_B2",
+        "the_board_01",
+        "the_board_02",
+        "early_retirement_district_14"
+      ]
+    },
+    {
+      "id": 132,
+      "speaker_guid": "552af8ab-db0a-4799-a677-d160aaf9dbf0",
+      "speaker": "HortenseIngalsbe (Female)",
+      "utterance": "Why I had no reason to be envious at all. What a relief!",
+      "support_knowledge": [
+        "hortense_ingalsbee_16"
+      ]
+    },
+    {
+      "id": 47,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I really should have expected this reaction.",
+      "support_knowledge": []
+    },
+    {
+      "id": 48,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Well I'm happy you're happy, I guess.",
+      "support_knowledge": []
+    },
+    {
+      "id": 49,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I was pretty relieved myself. I love killing me some automechanicals.",
+      "support_knowledge": []
+    },
+    {
+      "id": 51,
+      "speaker_guid": "552af8ab-db0a-4799-a677-d160aaf9dbf0",
+      "speaker": "HortenseIngalsbe (Female)",
+      "utterance": "And how else would I react? A vagrant such as yourself couldn't possibly appreciate the emotional burden this news has lifted from my shoulders.",
+      "support_knowledge": []
+    },
+    {
+      "id": 133,
+      "speaker_guid": "552af8ab-db0a-4799-a677-d160aaf9dbf0",
+      "speaker": "HortenseIngalsbe (Female)",
+      "utterance": "But regardless of your ignorance, I promised you a fee for your services, so a fee you shall have.",
+      "support_knowledge": [
+        "O3_B3"
+      ]
+    },
+    {
+      "id": 56,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Just pay what we settled on and we'll be copacetic.",
+      "support_knowledge": [
+        "O3_B3"
+      ]
+    },
+    {
+      "id": 57,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Forget it. It wouldn't feel right to get paid for something like this.",
+      "support_knowledge": []
+    },
+    {
+      "id": 61,
+      "speaker_guid": "552af8ab-db0a-4799-a677-d160aaf9dbf0",
+      "speaker": "HortenseIngalsbe (Female)",
+      "utterance": "Of course, as we agreed. I'm not one to break a contract.",
+      "support_knowledge": []
+    },
+    {
+      "id": 63,
+      "speaker_guid": "552af8ab-db0a-4799-a677-d160aaf9dbf0",
+      "speaker": "HortenseIngalsbe (Female)",
+      "utterance": "In any event, while I'm deeply grateful for the peace of mind you've brought me, I will need some solitude to fully bask in it. So if there's nothing further...",
+      "support_knowledge": []
+    },
+    {
+      "id": 62,
+      "speaker_guid": "552af8ab-db0a-4799-a677-d160aaf9dbf0",
+      "speaker": "HortenseIngalsbe (Female)",
+      "utterance": "What, because of the violence? They were just automechanicals. But suit yourself, I suppose.",
+      "support_knowledge": []
+    },
+    {
+      "id": 58,
+      "speaker_guid": "552af8ab-db0a-4799-a677-d160aaf9dbf0",
+      "speaker": "HortenseIngalsbe (Female)",
+      "utterance": "Just as any professional should be, even if your profession is \"violently inclined vagrant.\"",
+      "support_knowledge": []
+    },
+    {
+      "id": 52,
+      "speaker_guid": "552af8ab-db0a-4799-a677-d160aaf9dbf0",
+      "speaker": "HortenseIngalsbe (Female)",
+      "utterance": "Now then, to the matter of your fee.",
+      "support_knowledge": [
+        "O3_B3"
+      ]
+    },
+    {
+      "id": 50,
+      "speaker_guid": "552af8ab-db0a-4799-a677-d160aaf9dbf0",
+      "speaker": "HortenseIngalsbe (Female)",
+      "utterance": "You would, wouldn't you, you precious little pauper?",
+      "support_knowledge": []
+    }
+  ],
+  "dialog_edges": [
+    [
+      99,
+      100
+    ],
+    [
+      100,
+      165
+    ],
+    [
+      100,
+      41
+    ],
+    [
+      100,
+      8
+    ],
+    [
+      165,
+      166
+    ],
+    [
+      166,
+      168
+    ],
+    [
+      166,
+      169
+    ],
+    [
+      166,
+      170
+    ],
+    [
+      168,
+      167
+    ],
+    [
+      167,
+      173
+    ],
+    [
+      173,
+      174
+    ],
+    [
+      169,
+      172
+    ],
+    [
+      172,
+      173
+    ],
+    [
+      170,
+      171
+    ],
+    [
+      171,
+      173
+    ],
+    [
+      41,
+      42
+    ],
+    [
+      42,
+      43
+    ],
+    [
+      43,
+      132
+    ],
+    [
+      132,
+      47
+    ],
+    [
+      132,
+      48
+    ],
+    [
+      132,
+      49
+    ],
+    [
+      47,
+      51
+    ],
+    [
+      51,
+      133
+    ],
+    [
+      133,
+      56
+    ],
+    [
+      133,
+      57
+    ],
+    [
+      56,
+      61
+    ],
+    [
+      61,
+      63
+    ],
+    [
+      63,
+      8
+    ],
+    [
+      57,
+      62
+    ],
+    [
+      62,
+      63
+    ],
+    [
+      48,
+      58
+    ],
+    [
+      58,
+      52
+    ],
+    [
+      52,
+      56
+    ],
+    [
+      52,
+      57
+    ],
+    [
+      49,
+      50
+    ],
+    [
+      50,
+      52
+    ]
+  ]
+}

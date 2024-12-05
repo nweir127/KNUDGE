@@ -1,0 +1,328 @@
+{
+  "id": "a_family_matter_00",
+  "quest_name": "a_family_matter",
+  "conversation": {
+    "filename": "0402_cv_agnes_needham",
+    "start_node": 26,
+    "end_nodes": [],
+    "force_include": [
+      60
+    ]
+  },
+  "in_objective": "O0",
+  "out_objective": "O1",
+  "participants": [
+    "agnes_needham"
+  ],
+  "dialog_edges": [
+    [
+      26,
+      27
+    ],
+    [
+      27,
+      29
+    ],
+    [
+      27,
+      30
+    ],
+    [
+      27,
+      32
+    ],
+    [
+      29,
+      33
+    ],
+    [
+      33,
+      35
+    ],
+    [
+      35,
+      36
+    ],
+    [
+      36,
+      37
+    ],
+    [
+      36,
+      39
+    ],
+    [
+      36,
+      38
+    ],
+    [
+      36,
+      32
+    ],
+    [
+      37,
+      43
+    ],
+    [
+      43,
+      59
+    ],
+    [
+      59,
+      60
+    ],
+    [
+      39,
+      44
+    ],
+    [
+      44,
+      49
+    ],
+    [
+      49,
+      36
+    ],
+    [
+      38,
+      45
+    ],
+    [
+      45,
+      50
+    ],
+    [
+      50,
+      51
+    ],
+    [
+      51,
+      36
+    ],
+    [
+      30,
+      34
+    ],
+    [
+      34,
+      35
+    ]
+  ],
+  "dialog": [
+    {
+      "id": 26,
+      "speaker_guid": "035cf22d-5090-4ff6-9c77-dcdbd9d397a6",
+      "speaker": "Agnes_Needham (Female)",
+      "utterance": "Oh, thank you for stopping! Everyone acts like nothing's wrong. Like my little boy isn't at risk of being eaten by some vile creature!",
+      "support_knowledge": [
+        "O0_S1",
+        "O0_B1",
+        "O0_B2",
+        "agnes_needham_01",
+        "agnes_needham_02",
+        "agnes_needham_03",
+        "agnes_needham_04",
+        "tucker_needham_04"
+      ]
+    },
+    {
+      "id": 27,
+      "speaker_guid": "035cf22d-5090-4ff6-9c77-dcdbd9d397a6",
+      "speaker": "Agnes_Needham (Female)",
+      "utterance": "Please, you have to help me get my little Tucker back! He ran away and is going to get himself killed! Oh, I just know a raptidon is melting him with acid as we speak!",
+      "support_knowledge": [
+        "O0_S1",
+        "agnes_needham_01",
+        "agnes_needham_02",
+        "agnes_needham_03",
+        "tucker_needham_04",
+        "raptidon_01"
+      ]
+    },
+    {
+      "id": 29,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Your child is missing? Where'd you last see him?",
+      "support_knowledge": [
+        "O0_S1"
+      ]
+    },
+    {
+      "id": 30,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Calm down. Take a deep breath, then tell me what happened.",
+      "support_knowledge": [
+        "O0_S1"
+      ]
+    },
+    {
+      "id": 32,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Not my problem.",
+      "support_knowledge": []
+    },
+    {
+      "id": 33,
+      "speaker_guid": "035cf22d-5090-4ff6-9c77-dcdbd9d397a6",
+      "speaker": "Agnes_Needham (Female)",
+      "utterance": "Oh, I just knew you were a good person. 'Agnes,' I said, 'this is the man to save your little Tuckie!' And I was right!",
+      "support_knowledge": [
+        "O0_S2",
+        "agnes_needham_02",
+        "agnes_needham_03",
+        "tucker_needham_04"
+      ]
+    },
+    {
+      "id": 35,
+      "speaker_guid": "035cf22d-5090-4ff6-9c77-dcdbd9d397a6",
+      "speaker": "Agnes_Needham (Female)",
+      "utterance": "He ran out into the wilderness a few days ago. I warned him about the raptidons, mantisaurs, and marauders - the toxic sulfur pools, and poisonous plants. But he didn't listen!",
+      "support_knowledge": [
+        "O0_S1",
+        "agnes_needham_02",
+        "stellar_bay_01",
+        "raptidon_01",
+        "monarch_05",
+        "monarch_06",
+        "mantisaur_01",
+        "mantisaur_02",
+        "sulfur_pits_01"
+      ]
+    },
+    {
+      "id": 36,
+      "speaker_guid": "035cf22d-5090-4ff6-9c77-dcdbd9d397a6",
+      "speaker": "Agnes_Needham (Female)",
+      "utterance": "Please! Won't you go and find my boy?",
+      "support_knowledge": [
+        "O0_S2",
+        "agnes_needham_03"
+      ]
+    },
+    {
+      "id": 37,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I'll help you find your son.",
+      "support_knowledge": [
+        "O0_B2"
+      ]
+    },
+    {
+      "id": 39,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Did you say there was a reward involved with this request?",
+      "support_knowledge": [
+        "O0_S2"
+      ]
+    },
+    {
+      "id": 38,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Why would Tucker run away?",
+      "support_knowledge": [
+        "O0_S1"
+      ]
+    },
+    {
+      "id": 43,
+      "speaker_guid": "035cf22d-5090-4ff6-9c77-dcdbd9d397a6",
+      "speaker": "Agnes_Needham (Female)",
+      "utterance": "Thank you! Oh, I know he'll be safe now that someone's able to fetch him home.",
+      "support_knowledge": [
+        "O0_S2",
+        "agnes_needham_02"
+      ]
+    },
+    {
+      "id": 59,
+      "speaker_guid": "035cf22d-5090-4ff6-9c77-dcdbd9d397a6",
+      "speaker": "Agnes_Needham (Female)",
+      "utterance": "You look for him in Amber Heights, you hear? It's down the road southwest of town. I'm sure he made it that far, I just know it.",
+      "support_knowledge": [
+        "O0_S1",
+        "O1_S1",
+        "O1_S2",
+        "O1_B1"
+      ]
+    },
+    {
+      "id": 60,
+      "speaker_guid": "035cf22d-5090-4ff6-9c77-dcdbd9d397a6",
+      "speaker": "Agnes_Needham (Female)",
+      "utterance": "And if you find any of them Iconoclasts indoctrinating my boy, you punch them in the mouths! Tell them what I think of them luring little boys away from their mamas. It's immoral!",
+      "support_knowledge": [
+        "O0_S1",
+        "O1_S1",
+        "agnes_needham_03",
+        "tucker_needham_07",
+        "iconoclasts_03",
+        "iconoclasts_04"
+      ]
+    },
+    {
+      "id": 44,
+      "speaker_guid": "035cf22d-5090-4ff6-9c77-dcdbd9d397a6",
+      "speaker": "Agnes_Needham (Female)",
+      "utterance": "Well, I... I guess I can't ask you to leave the town walls for free. It is deathly dangerous out there.",
+      "support_knowledge": [
+        "O0_S2",
+        "stellar_bay_01"
+      ]
+    },
+    {
+      "id": 49,
+      "speaker_guid": "035cf22d-5090-4ff6-9c77-dcdbd9d397a6",
+      "speaker": "Agnes_Needham (Female)",
+      "utterance": "I've got some bits saved up for a rainy day. I'll give you every last one if you just bring my Tucker back to me. I won't even be mad at him running off. You tell him, I won't be mad.",
+      "support_knowledge": [
+        "O0_S2"
+      ]
+    },
+    {
+      "id": 45,
+      "speaker_guid": "035cf22d-5090-4ff6-9c77-dcdbd9d397a6",
+      "speaker": "Agnes_Needham (Female)",
+      "utterance": "He's been pining for an adventure, says he's tired of living cooped up behind the walls. But he doesn't understand how dangerous it is out there.",
+      "support_knowledge": [
+        "tucker_needham_04",
+        "tucker_needham_06",
+        "stellar_bay_01"
+      ]
+    },
+    {
+      "id": 50,
+      "speaker_guid": "035cf22d-5090-4ff6-9c77-dcdbd9d397a6",
+      "speaker": "Agnes_Needham (Female)",
+      "utterance": "I warned him. A raptidon would snap him up first chance it got. I just know one's ripped his arm off and is gnawing on his sweet little fingers!",
+      "support_knowledge": [
+        "tucker_needham_04",
+        "raptidon_01"
+      ]
+    },
+    {
+      "id": 51,
+      "speaker_guid": "035cf22d-5090-4ff6-9c77-dcdbd9d397a6",
+      "speaker": "Agnes_Needham (Female)",
+      "utterance": "He should've listened to his mama. I promised I'd keep him safe here with me.",
+      "support_knowledge": [
+        "agnes_needham_02"
+      ]
+    },
+    {
+      "id": 34,
+      "speaker_guid": "035cf22d-5090-4ff6-9c77-dcdbd9d397a6",
+      "speaker": "Agnes_Needham (Female)",
+      "utterance": "Don't you tell me to calm down! I promised my boy I'd protect him for always. But how can I keep him safe if he's run away?",
+      "support_knowledge": [
+        "agnes_needham_02"
+      ]
+    }
+  ]
+}

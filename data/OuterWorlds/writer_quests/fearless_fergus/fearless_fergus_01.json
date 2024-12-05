@@ -1,0 +1,59 @@
+{
+     "id": "fearless_fergus_01",
+     "quest_name": "fearless_fergus",
+     "conversation": null,
+     "in_objective": "O1",
+     "out_objective": "O2",
+     "participants": [
+          "celia_robbins"
+     ],
+     "objectives": {
+          "O1": {
+               "summary": "Learn about Nolan",
+               "description": {
+                    "S1": "Learn more about Nolan and the crew of the MSI outpost"
+               },
+               "blurb": {
+                    "B1": "Visiting Stellar Bay again,",
+                    "B2": "the Stranger speaks with Celia Robbins.",
+                    "B3": "She remembers Nolan from years back,",
+                    "B4": "describing him as a \"morose weasel\" who worked for Odeon Pictures."
+               }
+          },
+          "O2": {
+               "summary": "Find Nolan's Personnel File",
+               "description": {
+                    "S1": "Acquire Nolan's employee records from Odeon"
+               },
+               "blurb": {
+                    "B1": "The Stranger returns to Byzantium to see what can be learned from Odeon Pictures.",
+                    "B2": "In the Odeon lobby is Ebele,",
+                    "B3": "trying in vain to engage the mechanical receptionist in conversation.",
+                    "B4": "Speaking to Ebele, the Stranger learns that she is an Odeon HR rep,",
+                    "B5": "which mostly involves compensation claims for stunts and handsy actors.",
+                    "B6": "She is desperate to win tickets to see the Hammersmith Thunder tossball game.",
+                    "B7": "The office has a limerick contest going,",
+                    "B8": "and if she wins she'll not only have tickets to the game but will get to meet Ceiren and Cameron Fraser,",
+                    "B9": "both of whom she has a crush on.",
+                    "B10": "Ebele is desperate enough to hand over Nolan's HR file if the Stranger helps her come up with the perfect limerick that will help her win the contest.",
+                    "B11": "After helping Ebele workshop her limerick the Stranger learns that Nolan was part of Odeon marketing and responsible for distributing new movies to remote outposts.",
+                    "B12": "He was written up repeatedly for causing morale issues with his anti-corporate ideas,",
+                    "B13": "and for constantly submitting unsolicited screenplay ideas.",
+                    "B14": "His final assignment was the MSI Outpost.",
+                    "B15": "If the Stranger returns to Clara, she directs them to the MSI outpost to find additional evidence."
+               }
+          }
+     },
+     "dialog": [
+          {
+               "id": 106,
+               "speaker_guid": "88e2a5c4-832b-4533-b593-28ef1edc16f2",
+               "speaker": "Celia (Female)",
+               "utterance": "Hello again. How are you finding Stellar Bay? Can I help you with anything?",
+               "support_knowledge": [
+                    "stellar_bay_02"
+               ]
+          }
+     ],
+     "dialog_edges": []
+}

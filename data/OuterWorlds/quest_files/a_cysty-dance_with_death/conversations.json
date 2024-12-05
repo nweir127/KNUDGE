@@ -1,0 +1,46 @@
+[
+  {
+    "id": "a_cysty-dance_with_death_00",
+    "quest_name": "a_cysty-dance_with_death",
+    "conversation": {
+      "filename": "0411_cv_clive_lumbergh",
+      "start_node": 1,
+      "end_nodes": [
+        58,
+        10,
+        63
+      ],
+      "force_include": [
+        2,
+        84,
+        6
+      ]
+    },
+    "in_objective": "O0",
+    "out_objective": "O1",
+    "participants": [
+      "clive_lumbergh"
+    ]
+  },
+  {
+    "id": "a_cysty-dance_with_death_01",
+    "quest_name": "a_cysty-dance_with_death",
+    "conversation": {
+      "filename": "0407_cv_catherine_malin",
+      "start_node": 3,
+      "end_nodes": [
+        349,
+        351
+      ],
+      "force_include": [
+        34
+      ]
+    },
+    "in_objective": "O1",
+    "out_objective": "O2",
+    "participants": [
+      "catherine_malin"
+    ],
+    "force_sequence": []
+  }
+]

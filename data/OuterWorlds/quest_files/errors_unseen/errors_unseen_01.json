@@ -1,0 +1,106 @@
+{
+  "id": "errors_unseen_01",
+  "quest_name": "errors_unseen",
+  "conversation": {
+    "filename": "0407_cv_catherine_malin",
+    "start_node": 101,
+    "end_nodes": []
+  },
+  "in_objective": "O1",
+  "out_objective": "O2",
+  "participants": [
+    "catherine_malin"
+  ],
+  "dialog": [
+    {
+      "id": 101,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Sanjar said you know something about a corporation operating in secret on Monarch.",
+      "support_knowledge": [
+        "O1_S1",
+        "O1_S2"
+      ]
+    },
+    {
+      "id": 169,
+      "speaker_guid": "dca98d32-b879-4ecf-8af5-f2424c4ce41f",
+      "speaker": "CatherineMalin (Female)",
+      "utterance": "Might be I know something about it. Might be someone hired my crew to blind drop supplies on the northern bridge. Might be they sure as shit weren't pirates.",
+      "support_knowledge": [
+        "catherine_malin_02",
+        "O1_B2",
+        "O2_S1"
+      ]
+    },
+    {
+      "id": 170,
+      "speaker_guid": "dca98d32-b879-4ecf-8af5-f2424c4ce41f",
+      "speaker": "CatherineMalin (Female)",
+      "utterance": "Now that I consider it, I ain't heard from my delivery team in far too long. Find them for me, and I'll pay you handsomely.",
+      "support_knowledge": [
+        "O1_B2"
+      ]
+    },
+    {
+      "id": 237,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I'll check it out.",
+      "support_knowledge": [
+        "O2_S2"
+      ]
+    },
+    {
+      "id": 238,
+      "speaker_guid": "dca98d32-b879-4ecf-8af5-f2424c4ce41f",
+      "speaker": "CatherineMalin (Female)",
+      "utterance": "And I'll thank you kindly for it.",
+      "support_knowledge": []
+    },
+    {
+      "id": 86,
+      "speaker_guid": "dca98d32-b879-4ecf-8af5-f2424c4ce41f",
+      "speaker": "CatherineMalin (Female)",
+      "utterance": "Well? I'm half-listening.",
+      "support_knowledge": []
+    },
+    {
+      "id": 8,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "That's enough for now.",
+      "support_knowledge": []
+    }
+  ],
+  "dialog_edges": [
+    [
+      101,
+      169
+    ],
+    [
+      169,
+      170
+    ],
+    [
+      170,
+      237
+    ],
+    [
+      237,
+      238
+    ],
+    [
+      238,
+      86
+    ],
+    [
+      86,
+      101
+    ],
+    [
+      86,
+      8
+    ]
+  ]
+}

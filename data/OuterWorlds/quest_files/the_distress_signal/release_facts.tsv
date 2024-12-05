@@ -1,0 +1,185 @@
+ID	fact
+OBJECTIVE O0	
+O0_S1	191:62
+O0_S2	Someone in Roseway, a supposedly abandoned Auntie Cleo outpost, is requesting help.
+O0_S3	338:125
+O0_B1	1128:120
+O0_B2	1249:43
+OBJECTIVE O1	
+O1_S1	511:55
+O1_S2	567:67
+O1_B1	1443:75
+O1_B2	1519:76
+O1_B3	1596:58
+OBJECTIVE O2	
+O2_S1	665:110
+O2_S2	776:82
+O2_B1	1669:110
+O2_B2	1916:113
+O2_B3	2030:71
+O2_B4	2171:93
+O2_B5	2265:53
+O2_B6	2319:46
+O2_B7	2366:64
+O2_B8	2431:57
+O2_B9	2489:56
+O2_B10	2546:47
+O2_B11	2594:43
+O2_B12	2638:41
+O2_B13	2680:53
+O2_B14	2734:61
+O2_B15	2796:46
+O2_B16	2843:64
+OBJECTIVE O3	
+O3_S1	883:72
+O3_B1	2030:71
+O3_B2	2102:68
+OBJECTIVE O4	
+O4_S1	Anton's research sounds like it'd be valuable to Gladys.
+O4_B1	3536:36
+O4_B2	3573:82
+O4_B3	3693:51
+O4_B4	3745:52
+O4_B5	3798:41
+O4_B6	3840:40
+OBJECTIVE O5	
+O5_S1	Vaughn's semi-legal research would likely be valuable to Gladys.
+O5_B1	3881:94
+O5_B2	3976:52
+O5_B3	4029:45
+OBJECTIVE O6	
+O6_S1	You've acquired one of the company secrets that Gladys was talking about. You can return to her to sell it, or keep searching for more secrets.
+O6_B1	4075:72
+O6_B2	4148:145
+O6_B3	4294:101
+ada	
+ada_01	ADA (Autonomous Digital Astrogator) is an advanced AI aboard the Unreliable.
+ada_02	She controls the navigation and communications systems of the ship.
+ada_03	As ADA was programmed to recognize only Alex Hawthorne as the legal owner of the Unreliable,
+ada_04	"the Stranger has no choice but to allow her to identify them as ""Captain Alex Hawthorne"" in order to circumvent the restriction."
+ada_05	She is able to adapt and learn from the ship's operators to be able to better anticipate their needs.
+anton_crane	
+anton_crane_01	Anton Crane is the Outpost Administrator of Roseway and a lead scientist of Auntie Cleo.
+anton_crane_02	Crane was tasked to develop the world's most effective appetite suppressant dental gel,
+anton_crane_03	using Raptidons as research subjects.
+anton_crane_04	Crane is first encountered in the Roseway Communication Room.
+anton_crane_05	The scientist will explain that a group of outlaws,
+anton_crane_06	led by Cassandra O'Malley, broke into his lab and released the imprisoned raptidons,
+anton_crane_07	in a search for his valuable research.
+anton_crane_08	He will then ask you to kill the outlaws,
+anton_crane_09	put the raptidons to sleep and retrieve his research data,
+anton_crane_10	looking into his missing apprentice Jameson on the way.
+anton_crane_11	It is up to the player to follow any of the objectives Crane tasks them with.
+anton_crane_12	He will become angered with Porter if the player convinces him to abandon his post and upset if the search for Jameson ends up in failure.
+anton_crane_13	If the player fails to save Jameson,
+anton_crane_14	and fails to return the toothpaste recipe,
+anton_crane_15	they can tell Crane he is better off dead.
+anton_crane_16	After leaving the building and walking a short distance a gun shot is heard and upon re-entering the comms center will find him sitting dead at the central terminal pillar after shooting himself in the head.
+auntie_cleo	
+auntie_cleo_01	Auntie Cleo's is a subsidiary of Kolway Pharmaceuticals, a partner of Halcyon Holdings Corporation.
+auntie_cleo_02	Auntie Cleo's is a large corporation based on Terra 2 with various facilities located in the area of Roseway.
+auntie_cleo_03	Primarily a manufacturer of various pharmaceuticals,
+auntie_cleo_04	they are known both for their unethical experiments done in the name of producing high-quality cosmetics and drugs,
+auntie_cleo_05	as well as their rivalry with Spacer's Choice.
+auntie_cleo_06	They are also known to run a Tossball team known as the Auntie Cleo's Darlings.
+auntie_cleo_07	According to Clarence Mostly, the family name behind Auntie Cleo's is the Skylers.
+autie_biotics_lab_0013	
+autie_biotics_lab_0013_01	Auntie-Biotics Lab 0013 is a location in Roseway Gardens located just south of the town of Roseway.
+autie_biotics_lab_0013_02	This lab was used to run experiments involving raptidons and their potential usefulness in Auntie Cleo products.
+autie_biotics_lab_0013_03	One of the experiments run was to determine the maximum amount of raptidon digestive acid that could be safely ingested by humans before adverse effects presented themselves.
+autie_biotics_lab_0013_04	This experiment was conducted on randomly selected workers.
+autie_biotics_lab_0013_05	Due to the construction of a newer lab,
+autie_biotics_lab_0013_06	Lab 0013 is now mostly used for storage.
+autie_biotics_lab_0013_07	Reuben Porter is the Chief Site Safety Engineer for the lab.
+cassandra_omalley	
+cassandra_omalley_01	Cassandra O'Malley is the leader of an Outlaw crew,
+cassandra_omalley_02	leading the Outlaws assault on Roseway's covert lab.
+cassandra_omalley_03	Cassandra is rebellious and has a strong disliking for the Board and the corporations under its wing,
+cassandra_omalley_04	feeling that they do not care for people's lives and only their ability to work.
+cassandra_omalley_05	"Her way of rebelling against the system is to ""stab at the heart of corporate power,"""
+cassandra_omalley_06	something she takes great pleasure from.
+cassandra_omalley_07	However in doing so she and her outlaws are also responsible for the deaths of corporate employees.
+cassandra_omalley_08	Cassandra sees these killed guards and the few scientists caught in the crossfire as a necessary evil.
+cassandra_omalley_09	When first encountered in the Covert Lab she is locked in a room and asks the player to get the keycard to release her.
+cassandra_omalley_10	She also wants them clear a path for her to flee,
+cassandra_omalley_11	by either killing all the Raptidons in the loading bay or Porter and the rest of the Auntie Cleo's guards towards the front entrance.
+cassandra_omalley_12	If one wishes to avoid bloodshed Porter can also be persuaded to leave.
+cassandra_omalley_13	Afterwards Cassandra rewards the player some bits and with a Persuasion check of 31 she will give Crane's research to the player.
+gladys_culkelly	
+gladys_culkelly_01	Gladys Culkelly is a fence aboard the Groundbreaker.
+gladys_culkelly_02	Her office is in the Rest-N-Go.
+gladys_culkelly_03	Gladys runs a pawn shop and is a black market fence.
+gladys_culkelly_04	She can sell the Stranger a Navkey to Stellar Bay on Monarch,
+gladys_culkelly_05	and is also an information broker.
+gladys_culkelly_06	The old lady, as she calls herself,
+gladys_culkelly_07	"is famous for her cooking and ""do it yourself"" abilities"
+gladys_culkelly_08	she is particularly proud of her sugar cookies,
+gladys_culkelly_09	but she also knits pillows stuffed with the hair of famous tossball players
+gladys_culkelly_10	Gladys gives the Stranger a copy of a distress signal from Roseway and offers to buy any valuable data that they find there.
+jameson_avery	
+jameson_avery_01	Jameson Avery is an assistant research engineer for Auntie Cleo.
+jameson_avery_02	Anton Crane considers Jameson the only person in Roseway of worth and refers to him as his 'protege'.
+jameson_avery_03	However, this feeling is not reciprocated by Jameson who resents Anton and his micromanagement with a passion.
+jameson_avery_04	Anton sent Jameson to the Auntie-Biotics Lab to retrieve the metabolic precursors from the last test they conducted and,
+jameson_avery_05	in the chaos of the raptidons getting loose,
+jameson_avery_06	forgot about him.
+jameson_avery_07	When the Stranger first meets Jameson in the lab,
+jameson_avery_08	he is trapped behind a locked door.
+jameson_avery_09	When the door is unlocked,
+jameson_avery_10	he is more aggrieved at the breach of protocol involved in a non-employee accessing the lab than the raptidons which threatened his life
+orson_shaw	
+orson_shaw_01	Orson Shaw is a scientist working with Auntie Cleo in Roseway.
+orson_shaw_02	Orson was sent to Roseway to study raptidon behavior and ensure the safety of the research team in case the raptidons would cause problems.
+orson_shaw_03	Unfortunately, he soon found out they cannot be controlled or make them less aggressive.
+orson_shaw_04	Orson likes to tinker, even if it can get him into trouble.
+orson_shaw_05	When the Stranger encounters him in Roseway,
+orson_shaw_06	"he is working on ""personal defensive device"","
+orson_shaw_07	although he is not allowed to mess with tech like that.
+orson_shaw_08	"Moreover Orson seems content Porter is away dealing with outlaws and Anton is busy ""holding his head in his hands"" because Orson can finally do some serious work."
+orson_shaw_09	Orson is forbidden from using the comms room.
+orson_shaw_10	The Stranger can choose to tell on Orson to Anton Crane.
+orson_shaw_11	Surprisingly, Anton is actually pleased when he hears Orson is working on a weapon to use on raptidons,
+orson_shaw_12	mostly because it may keep him from wasting Anton's time
+outlaws	
+outlaws_01	The Outlaws are interplanetary raiders with their own independent agendas.
+outlaws_02	Unlike the Marauders, some Outlaws can interact with the Stranger.
+raptidon	
+raptidon_01	Raptidons are giant cat/reptile-like creatures that inhabit various planets in Halcyon.
+raptidon_02	They are creatures native to Monarch.
+raptidon_03	however some corporations have illegally imported them to other planets,
+raptidon_04	such as Auntie Cleo who relocated a group of them to Roseway.
+raptidon_05	Raptidons are of corporate interest due to their potential for producing new chemical by-products which,
+raptidon_06	when refined, can be used to create new board approved products.
+roseway	
+roseway_01	Roseway is a company town in Roseway Gardens on Terra 2.
+roseway_02	It is owned and operated by Auntie Cleo.
+roseway_03	Once the home of a prosperous settlement,
+roseway_04	Roseway now stands as a partly abandoned site.
+roseway_05	It is now a ramshackle excuse for a town,
+roseway_06	and visitors are encouraged to travel to other settlements instead.
+unreliable	
+unreliable_01	The Unreliable is a Yakita LHA one-twenty, A-two Apex Transport starship,
+unreliable_02	constructed in 2325,
+unreliable_03	that the Stranger uses to travel across Halcyon.
+unreliable_04	It is the player character's mobile base.
+unreliable_05	The ship's systems are managed by the AI ADA.
+unreliable_06	Originally christened the Reliable it came into the possession of Captain Alex Hawthorne,
+unreliable_07	who renamed it the Unreliable and used it for smuggling across the colonies.
+unreliable_08	Hawthorne ended up in the Halcyon system by 2355,
+unreliable_09	where he was hired by Phineas Vernon Welles to aid the Stranger in a bid to liberate the colonists of the Hope,
+unreliable_10	a late-arriving colony ship that the Halcyon Holdings Corporate Board decided to abandon and cover up.
+unreliable_11	After Hawthorne's accidental death on Terra 2,
+unreliable_12	the Stranger assumed ownership of the vessel and set about searching for a new power regulator for it.
+unreliable_13	Hawthorne was responsible for ADA's programming and modification.
+unreliable_14	He made her solely responsible for the ship's operating and navigation systems and conceived ADA her own personality to make the crew instance more enjoyable during their travels.
+unreliable_15	He also installed a shock-trap on the airlock in the event of an invasion.
+unreliable_16	Now, the unreliable is The Stranger's starship.
+vaughn_cortes	
+vaughn_cortes_01	Vaughn Cortes is a scientist in Roseway.
+vaughn_cortes_02	Vaughn is an endocrinologist who is part of the team stationed at Roseway,
+vaughn_cortes_03	studying raptidons which have been shipped there from Monarch for anything that can be used in Auntie Cleo products.
+vaughn_cortes_04	He is specifically responsible for analyzing the raptidon equivalent of hormones, mostly their leptin analogues.
+vaughn_cortes_05	"He has a secret side business extracting raptidon musk as an experimental byproduct and selling it to a buyer from Byzantium known only as ""Gary."""
+vaughn_cortes_06	"His buyers use the musk to manufacture ""N-Raptured"","
+vaughn_cortes_07	an aphrodisiac in which it is the key ingredient.
+vaughn_cortes_08	Vaughn's Raptidon Musk is one of the corporate secrets which may be sold to Gladys Culkelly on Groundbreaker.

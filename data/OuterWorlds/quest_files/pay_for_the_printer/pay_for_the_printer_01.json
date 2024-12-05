@@ -1,0 +1,303 @@
+{
+  "id": "pay_for_the_printer_01",
+  "quest_name": "pay_for_the_printer",
+  "conversation": {
+    "filename": "0403_cv_may_van_noy",
+    "start_node": 3,
+    "end_nodes": []
+  },
+  "in_objective": "O2",
+  "out_objective": "O3",
+  "participants": [
+    "may_van_noy",
+    "august_van_noy"
+  ],
+  "dialog_edges": [
+    [
+      3,
+      48
+    ],
+    [
+      3,
+      87
+    ],
+    [
+      3,
+      58
+    ],
+    [
+      3,
+      49
+    ],
+    [
+      48,
+      55
+    ],
+    [
+      55,
+      56
+    ],
+    [
+      56,
+      60
+    ],
+    [
+      60,
+      62
+    ],
+    [
+      60,
+      63
+    ],
+    [
+      62,
+      67
+    ],
+    [
+      67,
+      68
+    ],
+    [
+      68,
+      70
+    ],
+    [
+      68,
+      69
+    ],
+    [
+      68,
+      71
+    ],
+    [
+      70,
+      94
+    ],
+    [
+      94,
+      69
+    ],
+    [
+      94,
+      95
+    ],
+    [
+      63,
+      67
+    ],
+    [
+      87,
+      159
+    ],
+    [
+      159,
+      56
+    ],
+    [
+      58,
+      59
+    ],
+    [
+      59,
+      65
+    ],
+    [
+      65,
+      68
+    ],
+    [
+      49,
+      161
+    ],
+    [
+      161,
+      65
+    ]
+  ],
+  "dialog": [
+    {
+      "id": 3,
+      "speaker_guid": "aeddaed7-992d-4374-93b7-3e2ef7fe4a6c",
+      "speaker": "MayVanNoy (Female)",
+      "utterance": "Hope you're here to help. We only got so many bullets left and I ain't keen on using one on you.",
+      "support_knowledge": [
+        "O1_B3",
+        "O1_B4",
+        "terra_one_publications_04",
+        "terra_one_publications_05",
+        "may_van_noy_01"
+      ]
+    },
+    {
+      "id": 48,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Graham sent me. I'm here to secure a printing press.",
+      "support_knowledge": [
+        "O0_S1",
+        "O0_S2",
+        "O1_S1"
+      ]
+    },
+    {
+      "id": 87,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "If you guys are going after the printing press, then yeah, I'm here to help.",
+      "support_knowledge": [
+        "O0_S1",
+        "O0_S2",
+        "O1_S1"
+      ]
+    },
+    {
+      "id": 58,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Zora sent me to look for guys. Once I get you out safe, I'll see about that press.",
+      "support_knowledge": [
+        "O0_S1",
+        "O0_S2",
+        "O1_S1",
+        "zora_blackwood_09"
+      ]
+    },
+    {
+      "id": 49,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I'm here to secure a printing press, but that can wait. Let's get you out of here.",
+      "support_knowledge": [
+        "O0_S1",
+        "O0_S2",
+        "O1_S1",
+        "zora_blackwood_09"
+      ]
+    },
+    {
+      "id": 55,
+      "speaker_guid": "7fc4894c-ea89-4e3a-909f-41976f39b322",
+      "speaker": "AugustVanNoy (Male)",
+      "utterance": "That's the mission. Thing is, I ain't so sure it's worth it anymore.",
+      "support_knowledge": [
+        "august_van_noy_01",
+        "august_van_noy_03"
+      ]
+    },
+    {
+      "id": 56,
+      "speaker_guid": "aeddaed7-992d-4374-93b7-3e2ef7fe4a6c",
+      "speaker": "MayVanNoy (Female)",
+      "utterance": "You keep spewing that sulfur, I'm liable to leave you to the rapts.",
+      "support_knowledge": []
+    },
+    {
+      "id": 60,
+      "speaker_guid": "aeddaed7-992d-4374-93b7-3e2ef7fe4a6c",
+      "speaker": "MayVanNoy (Female)",
+      "utterance": "What my well-meaning idiot of a brother intends to say is: We appreciate the assist.",
+      "support_knowledge": [
+        "august_van_noy_02"
+      ]
+    },
+    {
+      "id": 62,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Get back to Amber Heights. I'll take it from here.",
+      "support_knowledge": []
+    },
+    {
+      "id": 63,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "He's right. It isn't worth it. You clear out and I'll handle the press.",
+      "support_knowledge": []
+    },
+    {
+      "id": 67,
+      "speaker_guid": "aeddaed7-992d-4374-93b7-3e2ef7fe4a6c",
+      "speaker": "MayVanNoy (Female)",
+      "utterance": "Would that we could. We ain't leaving our men behind, and they ain't moving on their own.",
+      "support_knowledge": [
+        "O2_S1"
+      ]
+    },
+    {
+      "id": 68,
+      "speaker_guid": "aeddaed7-992d-4374-93b7-3e2ef7fe4a6c",
+      "speaker": "MayVanNoy (Female)",
+      "utterance": "Our medic has got our trauma kit, but we got separated. We ain't seen him in a couple hours.",
+      "support_knowledge": [
+        "O2_S2",
+        "O2_B1"
+      ]
+    },
+    {
+      "id": 70,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Any idea where he went?",
+      "support_knowledge": []
+    },
+    {
+      "id": 69,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Got it. I'll see if I can find him.",
+      "support_knowledge": []
+    },
+    {
+      "id": 71,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I don't have time to play doctor. You're on your own.",
+      "support_knowledge": []
+    },
+    {
+      "id": 94,
+      "speaker_guid": "aeddaed7-992d-4374-93b7-3e2ef7fe4a6c",
+      "speaker": "MayVanNoy (Female)",
+      "utterance": "Yeah, on account of giving him the order. He's searching the old settlement to the north of the press.",
+      "support_knowledge": []
+    },
+    {
+      "id": 95,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "No promises, but I'll keep an eye out.",
+      "support_knowledge": []
+    },
+    {
+      "id": 159,
+      "speaker_guid": "7fc4894c-ea89-4e3a-909f-41976f39b322",
+      "speaker": "AugustVanNoy (Male)",
+      "utterance": "Thanks, but I ain't sure the mission is worth it.",
+      "support_knowledge": []
+    },
+    {
+      "id": 59,
+      "speaker_guid": "aeddaed7-992d-4374-93b7-3e2ef7fe4a6c",
+      "speaker": "MayVanNoy (Female)",
+      "utterance": "Thank the Eternal. We could use a hand.",
+      "support_knowledge": []
+    },
+    {
+      "id": 65,
+      "speaker_guid": "aeddaed7-992d-4374-93b7-3e2ef7fe4a6c",
+      "speaker": "MayVanNoy (Female)",
+      "utterance": "But... we can't leave without patching these guys up. Acker here is bleeding out and Jensen can't see straight.",
+      "support_knowledge": [
+        "terra_one_publications_04",
+        "O2_S1"
+      ]
+    },
+    {
+      "id": 161,
+      "speaker_guid": "aeddaed7-992d-4374-93b7-3e2ef7fe4a6c",
+      "speaker": "MayVanNoy (Female)",
+      "utterance": "I appreciate the sentiment, stranger.",
+      "support_knowledge": []
+    }
+  ]
+}

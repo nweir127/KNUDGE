@@ -1,0 +1,250 @@
+{
+  "id": "all_halcyon_in_a_day_01",
+  "quest_name": "all_halcyon_in_a_day",
+  "conversation": {
+    "filename": "0202_cv_alonzo_vallejos",
+    "start_node": 56,
+    "end_nodes": [],
+    "force_include": [],
+    "force_sequence": []
+  },
+  "in_objective": "O5",
+  "participants": [
+    "alonzo_vallejos"
+  ],
+  "objectives": {
+    "O5": {
+      "summary": "Return to Alonzo",
+      "description": {
+        "S1": "You've found all the beacons for the treasure hunt.",
+        "S2": "Return to Alonzo to get your prize."
+      },
+      "blurb": {
+        "B1": "After the player has activated the fourth beacon,",
+        "B2": "they can eturn to Alonzo and speak with him to find out the tour is fake, and was shut down long ago by The Board.",
+        "B3": "Alonzo will then admit that they did not expect the player to survive,",
+        "B4": "and had been using the beacon to record footage of mercenaries dying gruesomely to sell on Byzantium.",
+        "B5": "However, Alonzo will reluctantly give the player the Certified Explorer's Hat,",
+        "B6": "as promised."
+      }
+    }
+  },
+  "dialog": [
+    {
+      "id": 56,
+      "speaker_guid": "93d065b0-12c0-4050-916b-078a63d81d51",
+      "speaker": "AlonzoVallejos (Male)",
+      "utterance": "Oh, it's you. I suppose you're here to collect your prize, hmm?",
+      "support_knowledge": [
+        "O5_S2"
+      ]
+    },
+    {
+      "id": 125,
+      "speaker_guid": "93d065b0-12c0-4050-916b-078a63d81d51",
+      "speaker": "AlonzoVallejos (Male)",
+      "utterance": "I really do have the worst luck. When I gave you this job, I never expected you'd be so damned competent. ",
+      "support_knowledge": [
+        "O5_B3"
+      ]
+    },
+    {
+      "id": 126,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "That's me. Damned competent.",
+      "support_knowledge": []
+    },
+    {
+      "id": 127,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Uh, what?",
+      "support_knowledge": []
+    },
+    {
+      "id": 128,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I don't care, Alonzo. Just give me my hat, and I'll be on my way.",
+      "support_knowledge": [
+        "O0_B3",
+        "O5_S2"
+      ]
+    },
+    {
+      "id": 133,
+      "speaker_guid": "93d065b0-12c0-4050-916b-078a63d81d51",
+      "speaker": "AlonzoVallejos (Male)",
+      "utterance": "Yes, go on and gloat. You've already ruined all my plans with your talent for staying alive.",
+      "support_knowledge": [
+        "O5_B3"
+      ]
+    },
+    {
+      "id": 131,
+      "speaker_guid": "93d065b0-12c0-4050-916b-078a63d81d51",
+      "speaker": "AlonzoVallejos (Male)",
+      "utterance": "The tour's not real, friend. Board shut it down years ago due to unacceptably high rates of fatalities. So I greased a few palms and got the tour up and running again. ",
+      "support_knowledge": [
+        "O5_B2",
+        "alonzo_vallejos_02",
+        "the_board_01",
+        "the_board_02"
+      ]
+    },
+    {
+      "id": 132,
+      "speaker_guid": "93d065b0-12c0-4050-916b-078a63d81d51",
+      "speaker": "AlonzoVallejos (Male)",
+      "utterance": "I outfitted every beacon with a recording device. Live footage of dimwitted mercenaries dying in gruesome ways across Halcyon. Imagine the ratings!",
+      "support_knowledge": [
+        "O5_B4",
+        "alonzo_vallejos_03"
+      ]
+    },
+    {
+      "id": 134,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "There's no way this is legal.",
+      "support_knowledge": []
+    },
+    {
+      "id": 135,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Aw, that's so sad. Can I have my hat now?",
+      "support_knowledge": [
+        "O0_B3",
+        "O5_S2"
+      ]
+    },
+    {
+      "id": 136,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "You tried to get me killed? Are you crazy?",
+      "support_knowledge": []
+    },
+    {
+      "id": 140,
+      "speaker_guid": "93d065b0-12c0-4050-916b-078a63d81d51",
+      "speaker": "AlonzoVallejos (Male)",
+      "utterance": "Why the hell shouldn't it be legal? I filed the appropriate paperwork. I paid my dues.",
+      "support_knowledge": []
+    },
+    {
+      "id": 138,
+      "speaker_guid": "93d065b0-12c0-4050-916b-078a63d81d51",
+      "speaker": "AlonzoVallejos (Male)",
+      "utterance": "Look, never mind. Just take your reward and get out of my hair.",
+      "support_knowledge": [
+        "O5_B5"
+      ]
+    },
+    {
+      "id": 130,
+      "speaker_guid": "93d065b0-12c0-4050-916b-078a63d81d51",
+      "speaker": "AlonzoVallejos (Male)",
+      "utterance": "One Certified Explorer's Hat, courtesy of the Bureau of Exploration. With my compliments.",
+      "support_knowledge": [
+        "O5_B5"
+      ]
+    },
+    {
+      "id": 129,
+      "speaker_guid": "93d065b0-12c0-4050-916b-078a63d81d51",
+      "speaker": "AlonzoVallejos (Male)",
+      "utterance": "Fine, fine. You're entitled to your reward.",
+      "support_knowledge": [
+        "O5_B5"
+      ]
+    },
+    {
+      "id": 137,
+      "speaker_guid": "93d065b0-12c0-4050-916b-078a63d81d51",
+      "speaker": "AlonzoVallejos (Male)",
+      "utterance": "Oh, come on. I would've made your death worth millions.",
+      "support_knowledge": []
+    }
+  ],
+  "dialog_edges": [
+    [
+      56,
+      125
+    ],
+    [
+      125,
+      126
+    ],
+    [
+      125,
+      127
+    ],
+    [
+      125,
+      128
+    ],
+    [
+      126,
+      133
+    ],
+    [
+      133,
+      131
+    ],
+    [
+      131,
+      132
+    ],
+    [
+      132,
+      134
+    ],
+    [
+      132,
+      135
+    ],
+    [
+      132,
+      136
+    ],
+    [
+      134,
+      140
+    ],
+    [
+      140,
+      138
+    ],
+    [
+      138,
+      130
+    ],
+    [
+      135,
+      129
+    ],
+    [
+      129,
+      130
+    ],
+    [
+      136,
+      137
+    ],
+    [
+      137,
+      138
+    ],
+    [
+      127,
+      131
+    ],
+    [
+      128,
+      129
+    ]
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "id": "cupid_of_the_laboratory_01",
+  "quest_name": "cupid_of_the_laboratory",
+  "conversation": {
+    "filename": "02_cv_sprat_scientist",
+    "start_node": 84,
+    "end_nodes": [],
+    "force_include": [
+      85
+    ],
+    "force_sequence": []
+  },
+  "in_objective": "O2",
+  "participants": [
+    "giles_molina"
+  ],
+  "objectives": {
+    "O2": {
+      "summary": "Return to Giles",
+      "description": {
+        "S1": "You found all of Giles' sprats.",
+        "S2": "he'll be anxious to get them back to the lab."
+      },
+      "blurb": {
+        "B1": "Once you have all 6 return to Giles to get 1,125 Bit Cartridges and 19,000 XP."
+      }
+    }
+  },
+  "dialog": [
+    {
+      "id": 84,
+      "speaker_guid": "37a2259c-4bba-4983-92f6-7bf1aacd3f7f",
+      "speaker": "Giles Molina (Male)",
+      "utterance": "Any luck finding my sprats?",
+      "support_knowledge": []
+    },
+    {
+      "id": 85,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I have them all.",
+      "support_knowledge": [
+        "O2_S1"
+      ]
+    },
+    {
+      "id": 86,
+      "speaker_guid": "37a2259c-4bba-4983-92f6-7bf1aacd3f7f",
+      "speaker": "Giles Molina (Male)",
+      "utterance": "Truly? Why, this is marvelous!",
+      "support_knowledge": []
+    },
+    {
+      "id": 91,
+      "speaker_guid": "37a2259c-4bba-4983-92f6-7bf1aacd3f7f",
+      "speaker": "Giles Molina (Male)",
+      "utterance": "Oh, dear, it looks like some of my darlings have suffered violent misfortune. Nevertheless, it's good to have them back.",
+      "support_knowledge": []
+    },
+    {
+      "id": 92,
+      "speaker_guid": "37a2259c-4bba-4983-92f6-7bf1aacd3f7f",
+      "speaker": "Giles Molina (Male)",
+      "utterance": "Thank you for your help. I'm afraid I can't spare much, but I hope you'll accept this.",
+      "support_knowledge": [
+        "O2_B1"
+      ]
+    },
+    {
+      "id": 89,
+      "speaker_guid": "37a2259c-4bba-4983-92f6-7bf1aacd3f7f",
+      "speaker": "Giles Molina (Male)",
+      "utterance": "Now, I've got to get back to the lab before my supervisor logs my absence.",
+      "support_knowledge": [
+        "O2_S2"
+      ]
+    }
+  ],
+  "dialog_edges": [
+    [
+      84,
+      85
+    ],
+    [
+      85,
+      86
+    ],
+    [
+      86,
+      91
+    ],
+    [
+      91,
+      92
+    ],
+    [
+      92,
+      89
+    ]
+  ]
+}

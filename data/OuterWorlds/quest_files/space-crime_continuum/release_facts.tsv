@@ -1,0 +1,222 @@
+ID	fact
+OBJECTIVE O0	
+O0_S1	221:49
+O0_S2	271:33
+O0_S3	several factories and research facilities were left mostly intact.
+O0_S4	373:90
+O0_S5	464:98
+O0_S6	563:59
+O0_B1	1927:136
+OBJECTIVE O1	
+O1_S1	652:58
+O1_S2	Retrieve the information he's holding on the salvage location and deliver it to Catherine Malin in Fallbrook.
+O1_B1	2064:100
+O1_B2	2165:67
+O1_B3	2233:46
+OBJECTIVE O2	
+O2_S1	Take the passcode you found on the SubLight agent's body to Catherine in Fallbrook.
+O2_S2	She'll provide details on how to salvage the Alta-Vitae gas.
+O2_B1	2280:85
+O2_B2	Talk to Mortimer Bell near the entrance and,
+O2_B3	2411:38
+O2_B4	2450:38
+O2_B5	2489:55
+O2_B6	2545:65
+O2_B7	2611:88
+O2_B8	2700:86
+O2_B9	2787:64
+O2_B10	2852:46
+O2_B11	2899:37
+O2_B12	2937:63
+OBJECTIVE O3	
+O3_S1	844:67
+O3_S2	"The passwored ""ANTEDILUVIAN"" should get you inside the hidden lab."
+O3_B1	3729:119
+O3_B2	3849:124
+O3_B3	3974:55
+O3_B4	4030:75
+O3_B5	4106:71
+OBJECTIVE O4	
+O4_S1	999:61
+O4_S2	To get the gas offworld, signal ADA from the message terminal inside the Cascadia lab.
+O4_S3	She'll prepare the ship for the fueling connection.
+O4_B1	4178:42
+O4_B2	4220:39
+O4_B3	4260:59
+O4_B4	4320:57
+O4_B5	4378:29
+O4_B6	4408:49
+OBJECTIVE O5	
+O5_S1	1220:91
+O5_S2	1312:83
+O5_B1	4458:62
+O5_B2	4521:90
+O5_B3	4930:92
+O5_B4	5023:46
+O5_B5	5070:81
+O5_B6	5152:11
+OBJECTIVE O6	
+O6_S1	1590:75
+O6_S2	1666:40
+O6_B1	5164:44
+O6_B2	5209:31
+O6_B3	5241:52
+O6_B4	Go to the far end of the room,
+O6_B5	5324:64
+O6_B6	5389:59
+O6_B7	5449:77
+O6_B8	5527:66
+O6_B9	5594:64
+O6_B10	5659:19
+OBJECTIVE O7	
+O7_S1	1808:22
+O7_S2	1831:30
+O7_S3	1862:62
+O7_B1	5973:119
+O7_B2	6093:121
+O7_B3	6224:101
+O7_B4	6326:56
+alex_hawthorne	
+alex_hawthorne_01	Before his death, Hawthorne was considered a dear friend by the Groundbreaker's resident Board representative Udom Bedford,
+alex_hawthorne_02	though it is unclear if the sentiment was returned.
+alex_hawthorne_03	He also had done business with Lilya Hagen,
+alex_hawthorne_04	the CEO of SubLight Salvage and Shipping Corporation,
+alex_hawthorne_05	who is also based aboard the Groundbreaker.
+alex_hawthorne_06	Hawthorne preferred solitude rather than company on his flights.
+alex_hawthorne_07	He was also mechanically trained,
+alex_hawthorne_08	with the ability to install the Vocational Competence Respecification Machine in the Unreliable.
+alex_hawthorne_09	He would often play board games and socialize with ADA.
+alex_hawthorne_10	At some point he was hired by Phineas Vernon Welles to help the Stranger in their mission to free the remaining colonists aboard the Hope.
+alex_hawthorne_11	In his final moments, he was holding onto the guide beacon for the Stranger's pod to make its landing.
+alex_hawthorne_12	Rather than putting the beacon down and stepping away,
+alex_hawthorne_13	Hawthorne was crushed by the Stranger's pod when it made landfall on Terra 2.
+alex_hawthorne_14	His ship's AI, ADA, believes this error in judgement might have been due to a recent head injury.
+alex_hawthorne_15	The Stranger eventually takes command of his ship, the Unreliable,
+alex_hawthorne_16	and takes his name as an alias.
+cascadia	
+cascadia_01	Cascadia is an abandoned company town that was owned and operated by Rizzo's before it withdrew from Monarch.
+cascadia_02	It is now used as a stronghold by the Marauders.
+cascadia_03	The main attraction is the Cascadia Bottling Plant and,
+cascadia_04	for those in the know,
+cascadia_05	the Rizzo Secret Laboratory hidden underneath the Rizzo Sweets Shoppe.
+catherine_malin	
+catherine_malin_01	Catherine Malin is the outpost administrator of Fallbrook and owner of Malin's House of Hospitality.
+catherine_malin_02	"Catherine, acting on behalf of SubLight Salvage and Shipping Corporation, is the ""top dog"" in Fallbrook, and a mastermind behind it's construction."
+catherine_malin_03	She is known for a violent temper and won't hesitate to hire a hitman to get somebody whacked.
+catherine_malin_04	Sanjar Nandi is afraid of Catherine.
+catherine_malin_05	According to him, she has certain ambitions for Stellar Bay and Sanjar fears asking her for help during Errors Unseen because it may give her the leverage she has been looking for.
+catherine_malin_06	Celia, his assistant, tries to calm him down and says it's perfectly normal to have a healthy fear of her.
+fallbrook	
+fallbrook_01	Fallbrook is a company town located on Monarch,
+fallbrook_02	loosely run by the SubLight Salvage and Shipping Corporation.
+fallbrook_03	Fallbrook is a small town built into the side of a mountain,
+fallbrook_04	whose construction was masterminded by Catherine Malin.
+fallbrook_05	Fallbrook has a lot of activities to offer to its visitors,
+fallbrook_06	from those who search for activities of leisure to those with proclivities for vice.
+groundbreaker	
+groundbreaker_01	UDL-001 The Groundbreaker or simply Groundbreaker was the first colony ship to arrive in Halcyon during the Crossing.
+groundbreaker_02	By 2355, it has been converted into an independent orbital station,
+groundbreaker_03	and is the only place in the entire Halcyon system that is not controlled by the Halcyon Holdings Corporate Board or any other corporation.
+groundbreaker_04	The crew of the Groundbreaker is fiercely protective of their independence from the corporations,
+groundbreaker_05	and the corporations value the station's role as a thriving freeport enough that they are willing to deal with it on relatively equal terms.
+groundbreaker_06	In practical terms, while the Groundbreaker rules itself,
+groundbreaker_07	it cooperates with the corporations to an extent,
+groundbreaker_08	such as by impounding ships that the Board happens to flag.
+groundbreaker_09	The Groundbreaker is commanded by engineer-turned-captain Junlei Tennyson.
+groundbreaker_10	Udom Bedford is the Halcyon Holdings Corporation representative stationed aboard.
+groundbreaker_11	According to Junlei, lots of corners were cut when the ship was built,
+groundbreaker_12	prompting Captain Guiying Tennyson to spend half of her career attempting to patch the ship back together after the Crossing from Earth to Halcyon.
+groundbreaker_13	In addition, the ship has tinkerings and bypasses that only the Tennysons know about.
+groundbreaker_14	The Groundbreaker maintains a somewhat tense relationship with the Board,
+groundbreaker_15	owing to their declared independence from Board authority,
+groundbreaker_16	as well as their control of shipping routes outward from the Halcyon System.
+groundbreaker_17	Nonetheless, given that Groundbreaker lacks any semblance of military might against the Board beyond the mardets stationed aboard the ship,
+groundbreaker_18	the loose hierarchy in charge of the Groundbreaker often seeks to find (illicit) ways of delaying, stymieing, or pitting corporations under the Board's thumb against each other,
+groundbreaker_19	usually through black market fences like Gladys Culkelly.
+groundbreaker_20	Nonetheless, the Board maintains an embassy aboard the Groundbreaker run by bureaucrat Udom Bedford.
+groundbreaker_21	Depending on the actions of the Stranger, the Groundbreaker's crew may be compelled to rebel against the Board's system-wide authority.
+groundbreaker_22	The Groundbreaker is generally neutral to Sublight Salvage and Shipping Corporation,
+groundbreaker_23	and allows them to operate an office and warehouse aboard the ship, helmed by Lilya Hagen.
+lilya_hagen	
+lilya_hagen_01	Lilya Hagen is the CEO of SubLight Salvage and Shipping Corporation,
+lilya_hagen_02	based aboard the Groundbreaker.
+lilya_hagen_03	Not much is known about Lilya’s early life besides for being a descendant from the original Groundbreaker colonists.
+lilya_hagen_04	At some point Lilya joined the SubLight Salvage and Shipping Corporation and worked her way up to CEO.
+lilya_hagen_05	The company was a full time job which caused her to lose sleep making her impatient and emotionless.
+lilya_hagen_06	Lilya eventually only cared about profit and started to invest in dangerous jobs which (if not caught) would make her very rich.
+lilya_hagen_07	Not wanting to get her hands dirty,
+lilya_hagen_08	Lilya offers these jobs to mercenaries,
+lilya_hagen_09	this eventually gets the attention of the Stranger.
+lilya_hagen_10	She gets them to do to big jobs until she thinks a scientist in Byzantium is helping aliens after seeing evidence from the jobs.
+lilya_hagen_11	If the scientist gets killed,
+lilya_hagen_12	she makes the Stranger a high-ranking member.
+monarch	
+monarch_01	Monarch, previously known as Terra 1, is one of the many moons of the gas giant Olympus and the site of a failed colony.
+monarch_02	Terra 1 was initially designated as the primary colonization target of the Halcyon system.
+monarch_03	The Halcyon Holdings Corporate Board had intended to completely terraform the moon,
+monarch_04	wiping out the local fauna and flora and replacing it with plants and wildlife native to Earth.
+monarch_05	However, the terraforming process unexpectedly caused the native species to mutate and grow to significantly larger sizes,
+monarch_06	rendering them more dangerous and severely crippling the colonization effort.
+monarch_07	Due to the hostile environment which they had created,
+monarch_08	the Board was forced to enact a Hazard Clause covering the entirety of Terra 1.
+monarch_09	Public notice of the clause's issuance was sent to everyone operating on Terra 1 and led to the evacuation of almost all corporations from the moon.
+monarch_10	However, one corporation took advantage of the chaos of the evacuation to exploit a legal loophole which allowed them to,
+monarch_11	as the last corporation remaining on the planet,
+monarch_12	acquire the planet from the Board.
+monarch_13	This corporation, under the leadership of Sanjar Nandi and Graham Bryant subsequently rebranded itself to Monarch Stellar Industries (MSI),
+monarch_14	in line with the renaming of the planet to 'Monarch'.
+monarch_15	The actions of MSI earned them the ire of the Board,
+monarch_16	who retaliated by effectively placing the moon under indefinite embargo,
+monarch_17	refusing to allow legal transit either in or out.
+monarch_18	the Board aggressively spread propaganda about Monarch to convince the rest of the population that it was both uninhabited and uninhabitable.
+monarch_19	This has greatly hampered MSI's attempts to be recognized as a legitimate corporation and is a thorn in the side of its CEO, Sanjar Nandi.
+monarch_20	"Monarch also has an ocean which goes around the moon at the ""twilight band""."
+monarch_21	It is where the colonists and Monarch Stellar Industries farm their saltuna.
+rizzo_secret_laboratory	
+rizzo_secret_laboratory_01	Rizzo's Secret Laboratory is an underground location in Cascadia.
+rizzo_secret_laboratory_02	A password protected labratory originally owned by Rizzo for flavor research and development.
+rizzo_secret_laboratory_03	Prior to the Board enacting the Hazard Clause,
+rizzo_secret_laboratory_04	"Rizzo volunteered to provide lab space for the chimerist Eva Chartrand and her team to conduct experiments to ""lead to a better Halcyon""."
+rizzo_secret_laboratory_05	The tests conducted in the lab were primarily animal tests,
+rizzo_secret_laboratory_06	with the test subjects including native fauna of Monarch (then called Terra 1) and cystypigs from the nearby C&P Boarst Factory.
+rizzo_secret_laboratory_07	One human trial was also done in the lab,
+rizzo_secret_laboratory_08	as one member of the research team, Thomas Lynwood Ryall,
+rizzo_secret_laboratory_09	sacrificed himself to further the research that the team was doing.
+rizzo_secret_laboratory_10	The tank containing his body can be found in one of the chambers.
+rizzo_secret_laboratory_11	Regardless, the team was not able to make significant strides in their research prior to the companies pulling out of Terra 1,
+rizzo_secret_laboratory_12	when the project was reassigned to a secondary lab.
+sublight	
+sublight_01	"The SubLight Salvage and Shipping Corporation, also known as SubLight Salvage and Shipping or simply SubLight , is a network of ""salvagers"" with business ties to ""transportation"" and ""waste disposal""."
+sublight_02	A tangled web of contractors and secretive vice presidents make up their official hierarchy,
+sublight_03	leaving no one to speak on the record about SubLight's more legally dubious activities.
+sublight_04	SubLight as a business operates activities that would be considered illicit by some,
+sublight_05	amoral by others,
+sublight_06	and at odds with the Board,
+sublight_07	such as the takeover of abandoned space habitats,
+sublight_08	smuggling contraband,
+sublight_09	and serving as a front for companies to bypass the infamous Hazard Clause applied on Monarch.
+sublight_10	According to director Lilya Hagen,
+sublight_11	operating off of Groundbreaker,
+sublight_12	"SubLight ""occupies a legal blind spot."
+sublight_13	No one knows what [they're] licensed to do,
+sublight_14	"and that gives [their] little business some freedom."""
+sublight_15	Although the Board tolerates and sees the value of SubLight's activities,
+sublight_16	there are still limits to what the latter can get away with.
+sublight_17	SubLight maintains an office aboard the Groundbreaker as well as a settlement on Monarch known as Fallbrook.
+unreliable	
+unreliable_01	The Unreliable is a Yakita LHA one-twenty, A-two Apex Transport starship,
+unreliable_02	constructed in 2325,
+unreliable_03	that the Stranger uses to travel across Halcyon.
+unreliable_04	It is the player character's mobile base.
+unreliable_05	The ship's systems are managed by the AI ADA.
+unreliable_06	Originally christened the Reliable it came into the possession of Captain Alex Hawthorne,
+unreliable_07	who renamed it the Unreliable and used it for smuggling across the colonies.
+unreliable_08	Hawthorne ended up in the Halcyon system by 2355,
+unreliable_09	where he was hired by Phineas Vernon Welles to aid the Stranger in a bid to liberate the colonists of the Hope,
+unreliable_10	a late-arriving colony ship that the Halcyon Holdings Corporate Board decided to abandon and cover up.
+unreliable_11	After Hawthorne's accidental death on Terra 2,
+unreliable_12	the Stranger assumed ownership of the vessel and set about searching for a new power regulator for it.
+unreliable_13	Hawthorne was responsible for ADA's programming and modification.
+unreliable_14	He made her solely responsible for the ship's operating and navigation systems and conceived ADA her own personality to make the crew instance more enjoyable during their travels.
+unreliable_15	He also installed a shock-trap on the airlock in the event of an invasion.
+unreliable_16	Now, the unreliable is The Stranger's starship.

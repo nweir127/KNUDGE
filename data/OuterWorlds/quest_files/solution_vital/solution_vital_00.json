@@ -1,0 +1,590 @@
+{
+  "id": "solution_vital_00",
+  "quest_name": "solution_vital",
+  "conversation": {
+    "filename": "01_cv_wheeler_dalisay",
+    "start_node": 17,
+    "end_nodes": [
+      210
+    ],
+    "force_include": [],
+    "force_sequence": []
+  },
+  "in_objective": "O0",
+  "out_objective": "O1",
+  "participants": [
+    "leonard_wheeler"
+  ],
+  "objectives": {
+    "O0": {
+      "description": {
+        "S1": "Dr. Wanda Dorsett, one of the local doctors,",
+        "S2": "has been waiting on a shipment of medical auto-mechanicals that has yet to arrive."
+      },
+      "blurb": {
+        "B1": "You obtain this quest by accepting to do a favor for the custom's officer at Groundbreaker, CPL. Leonard Wheeler.",
+        "B2": "He will inform you that your ship is impounded and say you will have to take it up with Udom Bedford.",
+        "B3": "Leonard can also give you the quest Solution Vial,",
+        "B4": "and some information regarding the Groundbreaker's status on the system and its relationship with The Board.",
+        "B5": "He will ask you to give a message to Dr. Wanda Dorsett at the Groundbreaker's Sick Bay."
+      }
+    },
+    "O1": {
+      "summary": "Talk to Dr. Wanda Dorsett in the Sick Bay",
+      "description": {
+        "S1": "Corporal Wheeler at Groundbreaker customs asked you to update Dr. Dorsett in sick bay with the status of her shipment."
+      },
+      "blurb": {
+        "B1": "She can be found at Sick Bay in the Groundbreaker"
+      }
+    }
+  },
+  "dialog": [
+    {
+      "id": 17,
+      "speaker_guid": "5d581ac6-1140-4b80-b76c-4d8e428056c4",
+      "speaker": "LeonardWheeler (Male)",
+      "utterance": "Identification, please.",
+      "support_knowledge": [
+        "leonard_wheeler_01"
+      ]
+    },
+    {
+      "id": 18,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "<Present Hawthorne's ID> Here you go.",
+      "support_knowledge": []
+    },
+    {
+      "id": 173,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "My name's <oeitoken>PlayerName</oeitoken>. It's my first time here.",
+      "support_knowledge": []
+    },
+    {
+      "id": 19,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Let's say, hypothetically speaking, I don't have an ID. What happens then?",
+      "support_knowledge": []
+    },
+    {
+      "id": 22,
+      "speaker_guid": "5d581ac6-1140-4b80-b76c-4d8e428056c4",
+      "speaker": "LeonardWheeler (Male)",
+      "utterance": "Captain... Hawthorne, you said? Let me apologize in advance - I'm about to ruin your day.",
+      "support_knowledge": []
+    },
+    {
+      "id": 201,
+      "speaker_guid": "5d581ac6-1140-4b80-b76c-4d8e428056c4",
+      "speaker": "LeonardWheeler (Male)",
+      "utterance": "According to your ship's record, you've been flagged by the Board. Your ship will be impounded until such a time as they see fit to lift it.",
+      "support_knowledge": [
+        "O0_B2",
+        "udom_bedford_06"
+      ]
+    },
+    {
+      "id": 202,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "How do I get this resolved?",
+      "support_knowledge": []
+    },
+    {
+      "id": 203,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "So I'm stuck here?",
+      "support_knowledge": []
+    },
+    {
+      "id": 224,
+      "speaker_guid": "5d581ac6-1140-4b80-b76c-4d8e428056c4",
+      "speaker": "LeonardWheeler (Male)",
+      "utterance": "You'll want to take it up with Udom Bedford, our Board representative here on Groundbreaker.",
+      "support_knowledge": [
+        "O0_B2",
+        "udom_bedford_01"
+      ]
+    },
+    {
+      "id": 206,
+      "speaker_guid": "5d581ac6-1140-4b80-b76c-4d8e428056c4",
+      "speaker": "LeonardWheeler (Male)",
+      "utterance": "His office is located along the starboard wall of the Promenade. Shines like a Byzantium commode. You can't miss it.",
+      "support_knowledge": [
+        "O0_B2"
+      ]
+    },
+    {
+      "id": 225,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Any idea why my ship was impounded?",
+      "support_knowledge": [
+        "udom_bedford_06"
+      ]
+    },
+    {
+      "id": 204,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I take it this happens a lot.",
+      "support_knowledge": []
+    },
+    {
+      "id": 226,
+      "speaker_guid": "5d581ac6-1140-4b80-b76c-4d8e428056c4",
+      "speaker": "LeonardWheeler (Male)",
+      "utterance": "Access to that information is above my pay grade - and I've turned down three promotions so it stays that way.",
+      "support_knowledge": []
+    },
+    {
+      "id": 280,
+      "speaker_guid": "5d581ac6-1140-4b80-b76c-4d8e428056c4",
+      "speaker": "LeonardWheeler (Male)",
+      "utterance": "I shouldn't be mentioning it, but what the hell. This here - impounding your ship? It doesn't happen much. The Board knows we don't take kindly to their interfering in our operations.",
+      "support_knowledge": [
+        "udom_bedford_06"
+      ]
+    },
+    {
+      "id": 281,
+      "speaker_guid": "5d581ac6-1140-4b80-b76c-4d8e428056c4",
+      "speaker": "LeonardWheeler (Male)",
+      "utterance": "If I had to take a guess as to why? You probably riled up the wrong petty Board bureaucrat - man named Udom Bedford.",
+      "support_knowledge": [
+        "udom_bedford_01"
+      ]
+    },
+    {
+      "id": 352,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "This has to be a mistake.",
+      "support_knowledge": []
+    },
+    {
+      "id": 287,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Great, I'll go talk to him and straighten this out.",
+      "support_knowledge": []
+    },
+    {
+      "id": 288,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I'm going to wring this Bedford guy's neck.",
+      "support_knowledge": []
+    },
+    {
+      "id": 290,
+      "speaker_guid": "5d581ac6-1140-4b80-b76c-4d8e428056c4",
+      "speaker": "LeonardWheeler (Male)",
+      "utterance": "Not gonna lie, you're in a pickle. But Udom's an... interesting guy. Might be you all could come to accords if you play your cards right.",
+      "support_knowledge": [
+        "O0_B2",
+        "udom_bedford_05",
+        "udom_bedford_06",
+        "udom_bedford_07",
+        "udom_bedford_08"
+      ]
+    },
+    {
+      "id": 384,
+      "speaker_guid": "5d581ac6-1140-4b80-b76c-4d8e428056c4",
+      "speaker": "LeonardWheeler (Male)",
+      "utterance": "Huh. Records show this ain't the first time your ship's been impounded. Seems to get cleared up pretty quick. You might not be in this pickle for long.",
+      "support_knowledge": [
+        "O0_B2",
+        "udom_bedford_06"
+      ]
+    },
+    {
+      "id": 268,
+      "speaker_guid": "5d581ac6-1140-4b80-b76c-4d8e428056c4",
+      "speaker": "LeonardWheeler (Male)",
+      "utterance": "Oh, and if you're headed that way, would you mind doing me a favor?",
+      "support_knowledge": [
+        "O0_B1",
+        "leonard_wheeler_02"
+      ]
+    },
+    {
+      "id": 269,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Sure.",
+      "support_knowledge": []
+    },
+    {
+      "id": 270,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I'm not going to do your job for you.",
+      "support_knowledge": []
+    },
+    {
+      "id": 272,
+      "speaker_guid": "5d581ac6-1140-4b80-b76c-4d8e428056c4",
+      "speaker": "LeonardWheeler (Male)",
+      "utterance": "Wanda Dorsett, over in Sick Bay. Tell her the shipment's not in yet, it's not comin' in any time soon, and if she'd be so obliged, to get off my ass about it.",
+      "support_knowledge": [
+        "O0_B1",
+        "O0_B5"
+      ]
+    },
+    {
+      "id": 273,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Got it.",
+      "support_knowledge": []
+    },
+    {
+      "id": 274,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Her shipment?",
+      "support_knowledge": []
+    },
+    {
+      "id": 276,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "No promises.",
+      "support_knowledge": []
+    },
+    {
+      "id": 278,
+      "speaker_guid": "5d581ac6-1140-4b80-b76c-4d8e428056c4",
+      "speaker": "LeonardWheeler (Male)",
+      "utterance": "Much appreciated.",
+      "support_knowledge": []
+    },
+    {
+      "id": 275,
+      "speaker_guid": "5d581ac6-1140-4b80-b76c-4d8e428056c4",
+      "speaker": "LeonardWheeler (Male)",
+      "utterance": "A handful of SAM cleaning units retrofitted for surgery. I don't know much else, I stopped listening when she started yelling.",
+      "support_knowledge": [
+        "O0_S2"
+      ]
+    },
+    {
+      "id": 277,
+      "speaker_guid": "5d581ac6-1140-4b80-b76c-4d8e428056c4",
+      "speaker": "LeonardWheeler (Male)",
+      "utterance": "'Course. What am I to you but the guy who's got his eye on your ship?",
+      "support_knowledge": []
+    },
+    {
+      "id": 271,
+      "speaker_guid": "5d581ac6-1140-4b80-b76c-4d8e428056c4",
+      "speaker": "LeonardWheeler (Male)",
+      "utterance": "Now hold on, it'll just take a minute.",
+      "support_knowledge": []
+    },
+    {
+      "id": 291,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Fine. What is it?",
+      "support_knowledge": []
+    },
+    {
+      "id": 292,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Seriously. Back off.",
+      "support_knowledge": []
+    },
+    {
+      "id": 293,
+      "speaker_guid": "5d581ac6-1140-4b80-b76c-4d8e428056c4",
+      "speaker": "LeonardWheeler (Male)",
+      "utterance": "All right, all right. No need to get hostile. We're all friends here on Groundbreaker. Mostly.",
+      "support_knowledge": []
+    },
+    {
+      "id": 289,
+      "speaker_guid": "5d581ac6-1140-4b80-b76c-4d8e428056c4",
+      "speaker": "LeonardWheeler (Male)",
+      "utterance": "You take the starch out of him, well, you won't hear any complaints from me.",
+      "support_knowledge": []
+    },
+    {
+      "id": 282,
+      "speaker_guid": "5d581ac6-1140-4b80-b76c-4d8e428056c4",
+      "speaker": "LeonardWheeler (Male)",
+      "utterance": "Just the opposite. The Board knows we don't take kindly to their interfering in our operations here.",
+      "support_knowledge": [
+        "groundbreaker_14",
+        "groundbreaker_15"
+      ]
+    },
+    {
+      "id": 207,
+      "speaker_guid": "5d581ac6-1140-4b80-b76c-4d8e428056c4",
+      "speaker": "LeonardWheeler (Male)",
+      "utterance": "Not 'stuck,' per se. You could always throw yourself out the airlock.",
+      "support_knowledge": []
+    },
+    {
+      "id": 229,
+      "speaker_guid": "5d581ac6-1140-4b80-b76c-4d8e428056c4",
+      "speaker": "LeonardWheeler (Male)",
+      "utterance": "'Course, then you'd find yourself with an exciting new problem.",
+      "support_knowledge": []
+    },
+    {
+      "id": 209,
+      "speaker_guid": "5d581ac6-1140-4b80-b76c-4d8e428056c4",
+      "speaker": "LeonardWheeler (Male)",
+      "utterance": "You got a ship but you've never visited Groundbreaker? You must've just dusted off from one of those dirtside outposts.",
+      "support_knowledge": [
+        "groundbreaker_16"
+      ]
+    },
+    {
+      "id": 250,
+      "speaker_guid": "5d581ac6-1140-4b80-b76c-4d8e428056c4",
+      "speaker": "LeonardWheeler (Male)",
+      "utterance": "Well, welcome to Groundbreaker. I'm sorry to tell you this, but - I'm about to ruin your day.",
+      "support_knowledge": []
+    },
+    {
+      "id": 41,
+      "speaker_guid": "5d581ac6-1140-4b80-b76c-4d8e428056c4",
+      "speaker": "LeonardWheeler (Male)",
+      "utterance": "Everybody's got an ID. Let me guess - you \"left it in your other pants\"? I hear that one a lot.",
+      "support_knowledge": []
+    },
+    {
+      "id": 264,
+      "speaker_guid": "5d581ac6-1140-4b80-b76c-4d8e428056c4",
+      "speaker": "LeonardWheeler (Male)",
+      "utterance": "Identification, please.",
+      "support_knowledge": []
+    }
+  ],
+  "dialog_edges": [
+    [
+      17,
+      18
+    ],
+    [
+      17,
+      173
+    ],
+    [
+      17,
+      19
+    ],
+    [
+      18,
+      22
+    ],
+    [
+      22,
+      201
+    ],
+    [
+      201,
+      202
+    ],
+    [
+      201,
+      203
+    ],
+    [
+      202,
+      224
+    ],
+    [
+      224,
+      206
+    ],
+    [
+      206,
+      225
+    ],
+    [
+      206,
+      204
+    ],
+    [
+      225,
+      226
+    ],
+    [
+      226,
+      280
+    ],
+    [
+      280,
+      281
+    ],
+    [
+      281,
+      352
+    ],
+    [
+      281,
+      287
+    ],
+    [
+      281,
+      288
+    ],
+    [
+      352,
+      290
+    ],
+    [
+      290,
+      384
+    ],
+    [
+      384,
+      268
+    ],
+    [
+      268,
+      269
+    ],
+    [
+      268,
+      270
+    ],
+    [
+      269,
+      272
+    ],
+    [
+      272,
+      273
+    ],
+    [
+      272,
+      274
+    ],
+    [
+      272,
+      276
+    ],
+    [
+      273,
+      278
+    ],
+    [
+      274,
+      275
+    ],
+    [
+      275,
+      273
+    ],
+    [
+      275,
+      276
+    ],
+    [
+      276,
+      277
+    ],
+    [
+      270,
+      271
+    ],
+    [
+      271,
+      291
+    ],
+    [
+      271,
+      292
+    ],
+    [
+      291,
+      272
+    ],
+    [
+      292,
+      293
+    ],
+    [
+      287,
+      289
+    ],
+    [
+      289,
+      268
+    ],
+    [
+      288,
+      289
+    ],
+    [
+      204,
+      282
+    ],
+    [
+      282,
+      281
+    ],
+    [
+      203,
+      207
+    ],
+    [
+      207,
+      229
+    ],
+    [
+      229,
+      225
+    ],
+    [
+      229,
+      204
+    ],
+    [
+      173,
+      209
+    ],
+    [
+      209,
+      250
+    ],
+    [
+      250,
+      201
+    ],
+    [
+      19,
+      41
+    ],
+    [
+      41,
+      264
+    ],
+    [
+      264,
+      18
+    ],
+    [
+      264,
+      173
+    ],
+    [
+      264,
+      19
+    ]
+  ]
+}

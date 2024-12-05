@@ -1,0 +1,582 @@
+{
+  "id": "a_small_grave_matter_05",
+  "quest_name": "a_small_grave_matter",
+  "conversation": {
+    "filename": "00_cv_abernathy",
+    "start_node": 225,
+    "end_nodes": [
+      113,
+      176
+    ],
+    "force_include": [
+      71
+    ],
+    "force_sequence": []
+  },
+  "in_objective": "O3",
+  "out_objective": "O5",
+  "participants": [
+    "martin_abernathy"
+  ],
+  "objectives": {
+    "O3": {
+      "summary": "Collect Abernathy's Gravesite Fees",
+      "description": {
+        "S1": "Abernathy is one of the four people Silas sent you to collect from.",
+        "S2": "He's been feeling under the weather and is probably at his residence."
+      },
+      "blurb": {
+        "B1": "Martin Abernathy can be found in his home inside Edgewater.",
+        "B2": "You can easily talk him into paying you his Gravesite Fee (360xp),",
+        "B3": "and he'll give you the Quest: The Long Tomorrow if you agree to help him retrieve the medicine cache from the Community Center,",
+        "B4": "as the company policy excludes him from treatment."
+      }
+    },
+    "O5": {
+      "summary": "Return to Silas",
+      "description": {
+        "S1": "You finished collecting gravesite fees from the people of Edgewater.",
+        "S2": "Return to Silas."
+      },
+      "blurb": {
+        "B1": "After gathering all the gravesite fees,",
+        "B2": "return to Silas to receive a reward of 300 bits.",
+        "B3": "With a Persuade 6 check, Silas will agree to upping the reward by 150 bits."
+      }
+    }
+  },
+  "dialog_edges": [
+    [
+      225,
+      34
+    ],
+    [
+      34,
+      36
+    ],
+    [
+      36,
+      38
+    ],
+    [
+      38,
+      27
+    ],
+    [
+      27,
+      71
+    ],
+    [
+      27,
+      29
+    ],
+    [
+      71,
+      83
+    ],
+    [
+      83,
+      86
+    ],
+    [
+      86,
+      89
+    ],
+    [
+      89,
+      93
+    ],
+    [
+      93,
+      99
+    ],
+    [
+      93,
+      95
+    ],
+    [
+      93,
+      94
+    ],
+    [
+      99,
+      100
+    ],
+    [
+      100,
+      97
+    ],
+    [
+      97,
+      101
+    ],
+    [
+      97,
+      178
+    ],
+    [
+      97,
+      102
+    ],
+    [
+      97,
+      103
+    ],
+    [
+      101,
+      108
+    ],
+    [
+      108,
+      233
+    ],
+    [
+      233,
+      111
+    ],
+    [
+      233,
+      112
+    ],
+    [
+      111,
+      114
+    ],
+    [
+      114,
+      27
+    ],
+    [
+      178,
+      179
+    ],
+    [
+      179,
+      182
+    ],
+    [
+      179,
+      180
+    ],
+    [
+      179,
+      181
+    ],
+    [
+      182,
+      105
+    ],
+    [
+      105,
+      108
+    ],
+    [
+      180,
+      184
+    ],
+    [
+      184,
+      185
+    ],
+    [
+      185,
+      187
+    ],
+    [
+      185,
+      189
+    ],
+    [
+      185,
+      188
+    ],
+    [
+      187,
+      105
+    ],
+    [
+      189,
+      183
+    ],
+    [
+      183,
+      101
+    ],
+    [
+      183,
+      102
+    ],
+    [
+      183,
+      103
+    ],
+    [
+      188,
+      190
+    ],
+    [
+      190,
+      101
+    ],
+    [
+      190,
+      102
+    ],
+    [
+      190,
+      103
+    ],
+    [
+      181,
+      183
+    ],
+    [
+      102,
+      105
+    ],
+    [
+      103,
+      106
+    ],
+    [
+      106,
+      108
+    ],
+    [
+      95,
+      98
+    ],
+    [
+      98,
+      97
+    ],
+    [
+      94,
+      97
+    ]
+  ],
+  "dialog": [
+    {
+      "id": 225,
+      "speaker_guid": "dd32a64b-f650-402a-ac86-a1aa9f6dd972",
+      "speaker": "MartinAbernathy (Male)",
+      "utterance": "Whoa! Did - uh - did Mr. Tobson send you?",
+      "support_knowledge": [
+        "martin_abernathy_05"
+      ]
+    },
+    {
+      "id": 34,
+      "speaker_guid": "dd32a64b-f650-402a-ac86-a1aa9f6dd972",
+      "speaker": "MartinAbernathy (Male)",
+      "utterance": "You tell Mr. Tobson I'll be right at my post. Tomorrow. Bright and early, tomorrow. Because I am definitely not plagued. Spry as a spring chicken - that's old Abernathy.",
+      "support_knowledge": [
+        "martin_abernathy_02",
+        "martin_abernathy_03",
+        "martin_abernathy_05"
+      ]
+    },
+    {
+      "id": 36,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I heard you muttering to yourself.",
+      "support_knowledge": [
+        "martin_abernathy_02"
+      ]
+    },
+    {
+      "id": 38,
+      "speaker_guid": "dd32a64b-f650-402a-ac86-a1aa9f6dd972",
+      "speaker": "MartinAbernathy (Male)",
+      "utterance": "Didn't nobody ever tell you to never impress yourself between a man and his muttering? Which is, by the way, a normal and healthy mode of expression.",
+      "support_knowledge": [
+        "martin_abernathy_02"
+      ]
+    },
+    {
+      "id": 27,
+      "speaker_guid": "dd32a64b-f650-402a-ac86-a1aa9f6dd972",
+      "speaker": "MartinAbernathy (Male)",
+      "utterance": "You wanna mingle, go try the cantina.",
+      "support_knowledge": []
+    },
+    {
+      "id": 71,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I'm here to collect your gravesite fees.",
+      "support_knowledge": [
+        "O3_S1"
+      ]
+    },
+    {
+      "id": 29,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I'll leave you be.",
+      "support_knowledge": []
+    },
+    {
+      "id": 83,
+      "speaker_guid": "dd32a64b-f650-402a-ac86-a1aa9f6dd972",
+      "speaker": "MartinAbernathy (Male)",
+      "utterance": "Silas knows, doesn't he? That's why he sent you. That's why he wants me to pay up. He knows. ",
+      "support_knowledge": [
+        "O3_S1",
+        "martin_abernathy_02",
+        "martin_abernathy_03"
+      ]
+    },
+    {
+      "id": 86,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Knows what?",
+      "support_knowledge": []
+    },
+    {
+      "id": 89,
+      "speaker_guid": "dd32a64b-f650-402a-ac86-a1aa9f6dd972",
+      "speaker": "MartinAbernathy (Male)",
+      "utterance": "I'm dying. I'm not long for this world. The date of my expiration is fast approaching, and soon I shall be ushered through the great cannery in the skies.",
+      "support_knowledge": [
+        "martin_abernathy_02",
+        "martin_abernathy_03"
+      ]
+    },
+    {
+      "id": 93,
+      "speaker_guid": "dd32a64b-f650-402a-ac86-a1aa9f6dd972",
+      "speaker": "MartinAbernathy (Male)",
+      "utterance": "It's plague. Has to be. Silas knows. He knows I've got one foot in my grave, and now he wants to charge me for the other one.",
+      "support_knowledge": [
+        "edgewater_06",
+        "martin_abernathy_02",
+        "martin_abernathy_03"
+      ]
+    },
+    {
+      "id": 99,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I'm sorry to hear that.",
+      "support_knowledge": []
+    },
+    {
+      "id": 95,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "You're being paranoid.",
+      "support_knowledge": [
+        "martin_abernathy_02"
+      ]
+    },
+    {
+      "id": 94,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I'm sure it's all very tragic and heartbreaking. Pay me so I can get out of here.",
+      "support_knowledge": [
+        "O3_S1"
+      ]
+    },
+    {
+      "id": 100,
+      "speaker_guid": "dd32a64b-f650-402a-ac86-a1aa9f6dd972",
+      "speaker": "MartinAbernathy (Male)",
+      "utterance": "You are? Oh. Wow. First time anyone's ever told me that.",
+      "support_knowledge": []
+    },
+    {
+      "id": 97,
+      "speaker_guid": "dd32a64b-f650-402a-ac86-a1aa9f6dd972",
+      "speaker": "MartinAbernathy (Male)",
+      "utterance": "I'll pay your fees. I don't want any trouble from Silas. But if you could see your way to freelancing for me, I could really use the help.",
+      "support_knowledge": [
+        "O3_B2",
+        "O3_B3"
+      ]
+    },
+    {
+      "id": 101,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "How can I help?",
+      "support_knowledge": []
+    },
+    {
+      "id": 178,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Why do you think I'm a freelancer?",
+      "support_knowledge": []
+    },
+    {
+      "id": 102,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Depends on what you need.",
+      "support_knowledge": []
+    },
+    {
+      "id": 103,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "You can't afford me.",
+      "support_knowledge": []
+    },
+    {
+      "id": 108,
+      "speaker_guid": "dd32a64b-f650-402a-ac86-a1aa9f6dd972",
+      "speaker": "MartinAbernathy (Male)",
+      "utterance": "There's a cache of anthrocillin tucked away in the old community center. Powerful stuff. Stronger than what we got, anyway.",
+      "support_knowledge": [
+        "O3_B3"
+      ]
+    },
+    {
+      "id": 233,
+      "speaker_guid": "dd32a64b-f650-402a-ac86-a1aa9f6dd972",
+      "speaker": "MartinAbernathy (Male)",
+      "utterance": "I need you to break in, nab that medicine, and bring it back to me.",
+      "support_knowledge": [
+        "O3_B3"
+      ]
+    },
+    {
+      "id": 111,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I'll do it.",
+      "support_knowledge": []
+    },
+    {
+      "id": 112,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I'll think about it.",
+      "support_knowledge": []
+    },
+    {
+      "id": 114,
+      "speaker_guid": "dd32a64b-f650-402a-ac86-a1aa9f6dd972",
+      "speaker": "MartinAbernathy (Male)",
+      "utterance": "Will you oblige me with your haste? I think I feel the plague spreadin'. Oh Law, it's in my spleen now. I can feel it.",
+      "support_knowledge": [
+        "O3_B3",
+        "martin_abernathy_02",
+        "martin_abernathy_03"
+      ]
+    },
+    {
+      "id": 179,
+      "speaker_guid": "dd32a64b-f650-402a-ac86-a1aa9f6dd972",
+      "speaker": "MartinAbernathy (Male)",
+      "utterance": "Oh, hey, I'm sorry. Didn't mean nothing by it. Wasn't trying to insult you. ",
+      "support_knowledge": []
+    },
+    {
+      "id": 182,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Never mind. What do you need done?",
+      "support_knowledge": []
+    },
+    {
+      "id": 180,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Why would I be insulted?",
+      "support_knowledge": []
+    },
+    {
+      "id": 181,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Don't worry about it.",
+      "support_knowledge": []
+    },
+    {
+      "id": 105,
+      "speaker_guid": "dd32a64b-f650-402a-ac86-a1aa9f6dd972",
+      "speaker": "MartinAbernathy (Male)",
+      "utterance": "Couple hours out of your day and some light second-story work. That's all.",
+      "support_knowledge": [
+        "O3_B3"
+      ]
+    },
+    {
+      "id": 184,
+      "speaker_guid": "dd32a64b-f650-402a-ac86-a1aa9f6dd972",
+      "speaker": "MartinAbernathy (Male)",
+      "utterance": "It's just - you ain't one of us. A Spacer, I mean. Stands to reason you've got no company looking after you. ",
+      "support_knowledge": []
+    },
+    {
+      "id": 185,
+      "speaker_guid": "dd32a64b-f650-402a-ac86-a1aa9f6dd972",
+      "speaker": "MartinAbernathy (Male)",
+      "utterance": "Not your fault, though. Even freelancers gotta eat. And if that means they must scratch some bits out of odd jobs, who am I to judge 'em? Least you're not a deserter.",
+      "support_knowledge": []
+    },
+    {
+      "id": 187,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "What kind of odd job are you referring to?",
+      "support_knowledge": [
+        "O3_B3"
+      ]
+    },
+    {
+      "id": 189,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I guess that's fair.",
+      "support_knowledge": []
+    },
+    {
+      "id": 188,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Okay. That is a little insulting.",
+      "support_knowledge": []
+    },
+    {
+      "id": 183,
+      "speaker_guid": "dd32a64b-f650-402a-ac86-a1aa9f6dd972",
+      "speaker": "MartinAbernathy (Male)",
+      "utterance": "So does that mean you're for hire? I could use the help, if you could use the work.",
+      "support_knowledge": []
+    },
+    {
+      "id": 190,
+      "speaker_guid": "dd32a64b-f650-402a-ac86-a1aa9f6dd972",
+      "speaker": "MartinAbernathy (Male)",
+      "utterance": "Look. I'm sorry. Never had much in the way of social graces. But the job is a good one, if you're interested.",
+      "support_knowledge": [
+        "O3_B3"
+      ]
+    },
+    {
+      "id": 106,
+      "speaker_guid": "dd32a64b-f650-402a-ac86-a1aa9f6dd972",
+      "speaker": "MartinAbernathy (Male)",
+      "utterance": "I'll scratch something together for you. Sell off some of my sundry at Moreau's if I have to. Just hear me out.",
+      "support_knowledge": [
+        "O3_B3"
+      ]
+    },
+    {
+      "id": 98,
+      "speaker_guid": "dd32a64b-f650-402a-ac86-a1aa9f6dd972",
+      "speaker": "MartinAbernathy (Male)",
+      "utterance": "I am? Law help me. Paranoia's one of the plague's known symptoms. ",
+      "support_knowledge": [
+        "martin_abernathy_02",
+        "martin_abernathy_03"
+      ]
+    }
+  ]
+}

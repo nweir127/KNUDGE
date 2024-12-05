@@ -1,0 +1,88 @@
+ID	fact
+OBJECTIVE O0	
+O0_S1	195:47
+O0_S2	243:51
+O0_B1	On approaching the entrance of the Stellar Bay Apartments,
+O0_B2	Talmadge Kerr will come running out of the door yelling about someone having been killed.
+O0_B3	Talk to him to find out that the body is in the apartment on the lower right side of the building.
+OBJECTIVE O1	
+O1_S1	325:43
+O1_S2	369:70
+O1_S3	439:60
+O1_S4	499:46
+O1_B1	On the table is a note that can be examined.
+O1_B2	Doing so will add the first objective to the quest log.
+O1_B3	At the back of the apartment is a hastily-packed suitcase which can also be examined but won't progress the quest.
+OBJECTIVE O2	
+O2_S1	585:63
+O2_S2	649:49
+O2_B1	Head over to Left Field Tossball Betting and ask Nell about the betting slip found in the apartment.
+O2_B2	She will reveal that the victim, Isaac, often placed bets on losing teams and started owing money to the wrong people.
+O2_B3	She suspects that Isaac ran into trouble with Elijah and his buddies,
+O2_B4	who usually loiter in the alley behind The Yacht Club,
+O2_B5	and that Sanjar will be pleased if they are taken care of.
+OBJECTIVE O3	
+O3_S1	730:50
+O3_S2	They make deliveries to the bays behind the warehouse and spend the rest of their time in the alley behind The Yacht Club.
+O3_B1	Confronting Elijah about Isaac's murder will cause him to respond that no one has any proof.
+O3_B2	With Intimidate 55 or Broken Tossball Stick found you can tell that he is wrong.
+O3_B3	With second check of Intimidate 35, he and his gang will leave town.
+O3_B4	Attempting to leave the conversation without passing the skill check and without stick will cause them to attack.
+O3_B5	Elijah is accompanied by Berta and two thugs.
+OBJECTIVE O4	
+O4_S1	935:46
+O4_S2	982:73
+O4_B1	2418:82
+elijah	
+elijah_01	Elijah is SubLight contractor who can be found in Stellar Bay.
+elijah_02	Elijah is a hooligan and bully from Fallbrook.
+elijah_03	According to Nell, he and his buddies are known for dropping off supplies behind a warehouse and getting rowdy over tossball games,
+elijah_04	so much so that he's not allowed in the bar anymore.
+elijah_05	He usually loiters in the alley behind The Yacht Club.
+isaac_rose	
+isaac_rose_01	Isaac Rose is a murder victim who can be found in the Stellar Bay Apartments.
+isaac_rose_02	He was an avid fan of tossball and had been known to go on hour-long rants about his favourite team, Mostly Colonists.
+left_field_tossball_betting	
+left_field_tossball_betting_01	Left Field Tossball Betting is a location in Stellar Bay on Monarch.
+left_field_tossball_betting_02	Nell and other Stellar Bay residents watch tossball games here.
+nell	
+nell_01	Nell is the proprietor of Left Field Tossball Betting in Stellar Bay.
+nell_02	Nell is a major tossball fan.
+nell_03	She is more interested in watching tossball than serving patrons.
+nell_04	She is happy to spend a large number of bits on related memorabilia and recently ordered a shipment of Tossball Jerseys to decorate her bar which has unfortunately gone missing.
+nell_05	To make up for the loss of the merchandise,
+nell_06	"she has made an offer to Velma Ballard for a poster signed by Bertie ""Black Hole"" Holcomb which she plans to hang in her bar."
+sanjar_nandi	
+sanjar_nandi_01	Sanjar Nandi is the current CEO of Monarch Stellar Industries, based in Stellar Bay.
+sanjar_nandi_02	Sanjar began working for MSI at a young age and it was there where he met Graham Bryant, who would eventually become his best friend.
+sanjar_nandi_03	Sanjar was ambitious but his attention to detail at the expense of big-picture thinking hampered his efforts within MSI.
+sanjar_nandi_04	This led to negative performance reviews regarding his tendency to pad reports and talks with numbers and data,
+sanjar_nandi_05	feedback which continues to haunt him many years on.
+sanjar_nandi_06	However, the negative feedback did not dampen Sanjar's desire to move up within the company,
+sanjar_nandi_07	even donating a kidney to one of the executives in hopes of promotion.
+sanjar_nandi_08	Despite his poor performance, Sanjar always showed himself to be a loyal employee of the company.
+sanjar_nandi_09	Despite Sanjar's best efforts, he has found it extremely challenging to continue operating MSI on Monarch without the backing of the Board.
+sanjar_nandi_10	In order to improve the lives of the people he is responsible for, Sanjar has a plan to rejoin the Board through the use of a BOLT-52 form and proof of another corporate presence on Monarch.
+sanjar_nandi_11	He is simultaneously working on a plan to reorganize the Board,
+sanjar_nandi_12	hoping that his plans are not found out until MSI has been reinstated.
+sanjar_nandi_13	Sanjar choosing to take over as head of MSI rather than dismantling it entirely caused a rift between him and Graham Bryant.
+sanjar_nandi_14	The latter started the Iconoclasts,
+sanjar_nandi_15	a group dedicated to spreading the word of Philosophism throughout the galaxy,
+sanjar_nandi_16	and Sanjar was left in Stellar Bay to run the company and look after the employees who were left behind.
+sanjar_nandi_17	He can also tell you more about the planet, that used to be called Terra 1
+sanjar_nandi_18	and the reform that he and Monarch Stellar Industries tried to achieve to give more humane working conditions for everyone within.
+stellar_bay	
+stellar_bay_01	Outside the city walls, the lands were overrun by the native wildlife, as well as marauders and outlaws.
+stellar_bay_02	Stellar Bay is a company town located on the planet Monarch. It is owned and operated by Monarch Stellar Industries.
+stellar_bay_03	Stellar Bay is the largest saltuna producer on the Halcyon colony and used to be one of the most important suppliers of this resource.
+talmadge_kerr	
+talmadge_kerr_01	Talmadge Kerr is a resident of Stellar Bay.
+talmadge_kerr_02	almadge cleans the Stellar Bay Apartments while the residents are at work.
+talmadge_kerr_03	He was therefore the first to find Isaac Rose's body after he had been murdered by Elijah.
+talmadge_kerr_04	After finding the body,
+talmadge_kerr_05	he ran out onto the the street yelling for help where the Stranger meets him.
+talmadge_kerr_06	He is very much traumatized by the ordeal.
+tossball	
+tossball_01	Tossball is a sport in The Outer Worlds.
+yacht_club	
+yacht_club_01	The Yacht Club is a bar in Stellar Bay.

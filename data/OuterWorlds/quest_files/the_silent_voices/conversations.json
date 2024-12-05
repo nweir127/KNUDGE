@@ -1,0 +1,36 @@
+[
+  {
+    "id": "the_silent_voices_00",
+    "quest_name": "the_silent_voices",
+    "conversation": {
+      "filename": "01_cv_ingmire_edna",
+      "start_node": 1,
+      "end_nodes": [],
+      "force_include": [],
+      "force_sequence": []
+    },
+    "in_objective": "O0",
+    "out_objective": "O1",
+    "participants": [
+      "edna_ingmire"
+    ]
+  },
+  {
+    "id": "the_silent_voices_01",
+    "quest_name": "the_silent_voices",
+    "conversation": {
+      "filename": "01_cv_ingmire_edna",
+      "start_node": 82,
+      "end_nodes": [],
+      "force_include": [
+        86
+      ],
+      "force_sequence": []
+    },
+    "in_objective": "O0",
+    "out_objective": "O1",
+    "participants": [
+      "edna_ingmire"
+    ]
+  }
+]

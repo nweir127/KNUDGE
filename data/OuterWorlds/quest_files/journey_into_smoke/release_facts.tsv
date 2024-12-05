@@ -1,0 +1,90 @@
+ID	fact
+OBJECTIVE O0	
+O0_S1	190:38
+O0_S2	229:103
+O0_S3	333:32
+O0_B1	822:67
+O0_B2	Lillian is an outlaw who has been hired by Cassandra O'Malley to keep watch for Auntie Cleo reinforcements outside the Covert Lab.
+O0_B3	She is on a break and will speak to the Stranger rather than shooting on sight like the other outlaws.
+O0_B4	During the conversation,
+O0_B5	she will explain that she was near the Raptidon Pens when the raptidons got loose and,
+O0_B6	in the ensuing escape,
+O0_B7	lost her cigarette case.
+O0_B8	She's happy to pay a reward if it is returned to her but doesn't expect anyone to go retrieve it for her,
+O0_B9	due to the danger involved in doing so.
+O0_B10	The quest is started when the Stranger says that they will go take a look for it.
+OBJECTIVE O1	
+O1_S1	395:71
+O1_S2	467:44
+O1_B1	The Raptidon Pens are located south of the Covert Lab where Lillian is stationed.
+O1_B2	Lillian's cigarette case is located on a crate inside the pen which is inhabited by hostile raptidons.
+OBJECTIVE O2	
+O2_S1	539:44
+O2_S2	584:29
+O2_B1	After retrieving the cigarette case, return to Lillian.
+O2_B2	There are several options for resolving this quest.
+O2_B3	Use Lie 25 to convince Lillian that there was no way to retrieve her cigarettes and that they have been left in the pens.
+O2_B4	This completes the quest and grants 9,000 XP and the Commemorative Cigarette Case as a reward.
+O2_B5	Or, tell Lillian that one has her cigarette case but that she isn't getting it back.
+O2_B6	This irritates Lillian and leads to her turning hostile.
+O2_B7	Or, return the cigarette case to Lillian with no conditions.
+O2_B8	This completes the quest and grants 9,000 XP, 625 bits and the Anarchist's Cookbook as a reward.
+O2_B9	Or, use Persuade 25 to return the cigarette case to Lillian but ask her to put in a good word with her boss, Cassandra O'Malley.
+O2_B10	Lillian will tell the Stranger that Cassandra is pinned in the lower levels by Auntie Cleo guards and will radio ahead to tell her that the Stranger is coming.
+O2_B11	This completes the quest grants 9,000 XP as a reward.
+O2_B12	Or, use Intimidate 45 and taunt Lillian about having the cigarette case,
+O2_B13	daring her to fight.
+O2_B14	Lillian refuses,
+O2_B15	completing the quest and granting 9,000 XP and the Commemorative Cigarette Case as a reward.
+cassandra_omalley	
+cassandra_omalley_01	Cassandra O'Malley is the leader of an Outlaw crew,
+cassandra_omalley_02	leading the Outlaws assault on Roseway's covert lab.
+cassandra_omalley_03	Cassandra is rebellious and has a strong disliking for the Board and the corporations under its wing,
+cassandra_omalley_04	feeling that they do not care for people's lives and only their ability to work.
+cassandra_omalley_05	"Her way of rebelling against the system is to ""stab at the heart of corporate power,"""
+cassandra_omalley_06	something she takes great pleasure from.
+cassandra_omalley_07	However in doing so she and her outlaws are also responsible for the deaths of corporate employees.
+cassandra_omalley_08	Cassandra sees these killed guards and the few scientists caught in the crossfire as a necessary evil.
+cassandra_omalley_09	When first encountered in the Covert Lab she is locked in a room and asks the player to get the keycard to release her.
+cassandra_omalley_10	She also wants them clear a path for her to flee,
+cassandra_omalley_11	by either killing all the Raptidons in the loading bay or Porter and the rest of the Auntie Cleo's guards towards the front entrance.
+cassandra_omalley_12	If one wishes to avoid bloodshed Porter can also be persuaded to leave.
+cassandra_omalley_13	Afterwards Cassandra rewards the player some bits and with a Persuasion check of 31 she will give Crane's research to the player.
+commemorative_cigarette_case	
+commemorative_cigarette_case_01	This cigarette case is metal-lined and embossed with an iconic rendering of The Hope.
+commemorative_cigarette_case_02	"The name, ""Lillian,"" is signed on the inside of the metal lid."
+covert_lab	
+covert_lab_01	Auntie-Biotics secret lab 0027,
+covert_lab_02	also known as the Covert Lab,
+covert_lab_03	is a location in the southern part of Roseway Gardens.
+lillian	
+lillian_01	Lillian is a part of the crew hired by Cassandra O'Malley to assault Auntie Cleo's outpost in Roseway Gardens.
+lillian_02	She is not very fond of her boss and doesn't care much about the cause Cassandra is fighting for.
+lillian_03	She isn't heart-broken about losing her crew since she wasn't close with any of them,
+lillian_04	but she regrets losing her Commemorative Cigarette Case while fleeing the raptidons who got loose.
+lillian_05	Lillian is a smoker and will ask the Stranger to spare a cigarette. (A pack of cigarettes can be found nearby.)
+outlaws	
+outlaws_01	The Outlaws are interplanetary raiders with their own independent agendas.
+outlaws_02	Unlike the Marauders, some Outlaws can interact with the Stranger.
+raptidon	
+raptidon_01	Raptidons are giant cat/reptile-like creatures that inhabit various planets in Halcyon.
+raptidon_02	They are creatures native to Monarch.
+raptidon_03	however some corporations have illegally imported them to other planets,
+raptidon_04	such as Auntie Cleo who relocated a group of them to Roseway.
+raptidon_05	Raptidons are of corporate interest due to their potential for producing new chemical by-products which,
+raptidon_06	when refined, can be used to create new board approved products.
+raptidon_pens	
+raptidon_pens_01	The Raptidon Pens are a point of interest in Roseway Gardens on Terra 2.
+raptidon_pens_02	They are located south of the Covert Lab.
+raptidon_pens_03	The raptidons housed in the Raptidon Pens were imported from Monarch for the purposes of experimentation.
+raptidon_pens_04	However, Lionel Han, who was responsible for managing the raptidons experienced some difficulties in getting the creatures to breed.
+raptidon_pens_05	When the pens were attacked by Lillian and her crew of outlaws,
+raptidon_pens_06	the electric fence deactivated for unknown reasons and the raptidons escaped,
+raptidon_pens_07	killing several of the outlaws.
+roseway	
+roseway_01	Roseway is a company town in Roseway Gardens on Terra 2.
+roseway_02	It is owned and operated by Auntie Cleo.
+roseway_03	Once the home of a prosperous settlement,
+roseway_04	Roseway now stands as a partly abandoned site.
+roseway_05	It is now a ramshackle excuse for a town,
+roseway_06	and visitors are encouraged to travel to other settlements instead.

@@ -1,0 +1,318 @@
+{
+  "id": "the_ice_palace_00",
+  "quest_name": "the_ice_palace",
+  "conversation": {
+    "filename": "01_cv_hagen_lilya_revision",
+    "start_node": 28,
+    "end_nodes": [],
+    "force_include": [
+      30
+    ],
+    "force_sequence": []
+  },
+  "in_objective": "O0",
+  "out_objective": "O1",
+  "participants": [
+    "lilya_hagen"
+  ],
+  "objectives": {
+    "O0": {
+      "description": {
+        "S1": "Lilya Hagen has another lead on some valuable salvage - an abandoned space station.",
+        "S2": "She gave you an override bypass that should stake her claim over HRS-1084 as the rightful property of SubLight Salvage."
+      },
+      "blurb": {
+        "B1": "Speaking with Lilya Hagen after completing Space-Crime Continuum will start this quest.",
+        "B2": "Lilya will tell the Stranger about HRS-1084,",
+        "B3": "an abandoned research station which SubLight wants to acquire for its own.",
+        "B4": "She gives them an Override Cartridge which will allow SubLight to take over the station."
+      }
+    },
+    "O1": {
+      "summary": "Grant SubLight Remote Access to the Station",
+      "description": {
+        "S1": "The override cartridge will hand over control of the station's systems to SubLight,",
+        "S2": "legitimizing Lilya's claim over the salvage."
+      },
+      "blurb": {
+        "B1": "Travel to HRS-1084 station and restore the power.",
+        "B2": "You can pick up UDL Identity Cartridge from a chair in the mess hall.",
+        "B3": "Use the terminal past the mines and set the generator to normal.",
+        "B4": "You will be contacted by ADA shortly after, and you will learn that the UDL has docked with the station and intend to wipe you out.",
+        "B5": "The Corporate Commander will contact you and you can Persuade (55) her to not attack you if you have gained Adjutant Akande's trust by completing The Demolished Woman quest.",
+        "B6": "You can also Bribe her with 2550 Bits or Intimidate (65) her to into not making an enemy of SubLight.",
+        "B7": "You can also Lie (65) that you will press the self destruct button.",
+        "B8": "If you used the UDL Identity Cartridge you'll be asked about the automechanicals.",
+        "B9": "Lie or Intimidate (35) to deal with it.",
+        "B10": "Any of these will get them to undock from the station without conflict.",
+        "B11": "exit the main room on the right hand side from where you first came in.",
+        "B12": "There will also be mines down these stairs.",
+        "B13": "There is a locked door that requires Lockpicking (40) or you can use the Electrical Control Room Keycard.",
+        "B14": "Inside is a terminal you can use to disengage security protocol.",
+        "B15": "use the terminal in the office.",
+        "B16": "Read the logs to find out about the experiments being done here,",
+        "B17": "and get some alarm bells as you discover the executive override password for UDL communications is the same one that you used to get into the lab in Cascadia in Monarch.",
+        "B18": "When you're done reading, insert the SubLight Override Cartridge."
+      }
+    }
+  },
+  "dialog": [
+    {
+      "id": 28,
+      "speaker_guid": "a5ed6fdd-91ed-41cf-9866-92b9da2e6b64",
+      "speaker": "LilyaHagen (Female)",
+      "utterance": "I have another job lined up, assuming you're still interested in work.",
+      "support_knowledge": [
+        "O0_S1"
+      ]
+    },
+    {
+      "id": 29,
+      "speaker_guid": "a5ed6fdd-91ed-41cf-9866-92b9da2e6b64",
+      "speaker": "LilyaHagen (Female)",
+      "utterance": "You're gonna salvage me a space station. Heliospheric Research Station Ten Eighty-Four, to be exact. I want it, cobwebs and all. Interested?",
+      "support_knowledge": [
+        "O0_S1",
+        "O0_B2",
+        "hrs-1084_01"
+      ]
+    },
+    {
+      "id": 30,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Just point me in the right direction.",
+      "support_knowledge": []
+    },
+    {
+      "id": 31,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "How did a research station become salvage?",
+      "support_knowledge": []
+    },
+    {
+      "id": 175,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "This sounds risky. Do you have a buyer lined up?",
+      "support_knowledge": []
+    },
+    {
+      "id": 34,
+      "speaker_guid": "a5ed6fdd-91ed-41cf-9866-92b9da2e6b64",
+      "speaker": "LilyaHagen (Female)",
+      "utterance": "Here, this override bypass should get you into the station's systems where you can plant my flag. ",
+      "support_knowledge": [
+        "O0_S2",
+        "O0_B4"
+      ]
+    },
+    {
+      "id": 181,
+      "speaker_guid": "a5ed6fdd-91ed-41cf-9866-92b9da2e6b64",
+      "speaker": "LilyaHagen (Female)",
+      "utterance": "One last thing. When you get there, make sure you aren't followed. We wouldn't want that. ",
+      "support_knowledge": []
+    },
+    {
+      "id": 195,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Understood.",
+      "support_knowledge": []
+    },
+    {
+      "id": 196,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "You're being cryptic. Again. ",
+      "support_knowledge": []
+    },
+    {
+      "id": 197,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Who are we worried about? Authorities? Competitors?",
+      "support_knowledge": []
+    },
+    {
+      "id": 201,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "<Wink, nod.>",
+      "support_knowledge": []
+    },
+    {
+      "id": 198,
+      "speaker_guid": "a5ed6fdd-91ed-41cf-9866-92b9da2e6b64",
+      "speaker": "LilyaHagen (Female)",
+      "utterance": "I'm on the heels of something big. Play your cards right and I'll clue you in, but right now I'm not sure who I can trust.",
+      "support_knowledge": []
+    },
+    {
+      "id": 199,
+      "speaker_guid": "a5ed6fdd-91ed-41cf-9866-92b9da2e6b64",
+      "speaker": "LilyaHagen (Female)",
+      "utterance": "Just be careful. Someone might try and use you to get to me. ",
+      "support_knowledge": []
+    },
+    {
+      "id": 200,
+      "speaker_guid": "a5ed6fdd-91ed-41cf-9866-92b9da2e6b64",
+      "speaker": "LilyaHagen (Female)",
+      "utterance": "I'm being smart. Try it sometime. ",
+      "support_knowledge": []
+    },
+    {
+      "id": 203,
+      "speaker_guid": "a5ed6fdd-91ed-41cf-9866-92b9da2e6b64",
+      "speaker": "LilyaHagen (Female)",
+      "utterance": "Both. Neither. Right now it's safer if I keep you in the dark. ",
+      "support_knowledge": []
+    },
+    {
+      "id": 202,
+      "speaker_guid": "a5ed6fdd-91ed-41cf-9866-92b9da2e6b64",
+      "speaker": "LilyaHagen (Female)",
+      "utterance": "Glad we understand each other.",
+      "support_knowledge": []
+    },
+    {
+      "id": 33,
+      "speaker_guid": "a5ed6fdd-91ed-41cf-9866-92b9da2e6b64",
+      "speaker": "LilyaHagen (Female)",
+      "utterance": "Right now it's only salvage on paper. Systems and comms have gone dark. Poke around if you're curious why.",
+      "support_knowledge": [
+        "O0_S1"
+      ]
+    },
+    {
+      "id": 173,
+      "speaker_guid": "a5ed6fdd-91ed-41cf-9866-92b9da2e6b64",
+      "speaker": "LilyaHagen (Female)",
+      "utterance": "While the Board lets Ten Eighty-Four gather dust, you're gonna swoop in and plant SubLight's flag. Perfectly legit. Perfectly legal.",
+      "support_knowledge": [
+        "O0_S2",
+        "the_board_01"
+      ]
+    },
+    {
+      "id": 176,
+      "speaker_guid": "a5ed6fdd-91ed-41cf-9866-92b9da2e6b64",
+      "speaker": "LilyaHagen (Female)",
+      "utterance": "Not this time. The Board tolerates our business up to a point, and selling off a station full of their old gear and terminals crosses that point.",
+      "support_knowledge": [
+        "the_board_01",
+        "the_board_02"
+      ]
+    },
+    {
+      "id": 177,
+      "speaker_guid": "a5ed6fdd-91ed-41cf-9866-92b9da2e6b64",
+      "speaker": "LilyaHagen (Female)",
+      "utterance": "But if we were to move in and commandeer the station as a SubLight Salvage remote office, that's a different matter. Legally gray by comparison. More of a squatter situation.",
+      "support_knowledge": [
+        "O0_B3"
+      ]
+    }
+  ],
+  "dialog_edges": [
+    [
+      28,
+      29
+    ],
+    [
+      29,
+      30
+    ],
+    [
+      29,
+      31
+    ],
+    [
+      29,
+      175
+    ],
+    [
+      30,
+      34
+    ],
+    [
+      34,
+      181
+    ],
+    [
+      181,
+      195
+    ],
+    [
+      181,
+      196
+    ],
+    [
+      181,
+      197
+    ],
+    [
+      181,
+      201
+    ],
+    [
+      195,
+      198
+    ],
+    [
+      198,
+      199
+    ],
+    [
+      196,
+      200
+    ],
+    [
+      200,
+      198
+    ],
+    [
+      197,
+      203
+    ],
+    [
+      203,
+      198
+    ],
+    [
+      201,
+      202
+    ],
+    [
+      202,
+      198
+    ],
+    [
+      31,
+      33
+    ],
+    [
+      33,
+      173
+    ],
+    [
+      173,
+      29
+    ],
+    [
+      175,
+      176
+    ],
+    [
+      176,
+      177
+    ],
+    [
+      177,
+      29
+    ]
+  ]
+}

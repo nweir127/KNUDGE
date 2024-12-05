@@ -1,0 +1,198 @@
+{
+  "id": "die_robot_01",
+  "quest_name": "die_robot",
+  "conversation": {
+    "filename": "00_cv_ludwig",
+    "start_node": 125,
+    "end_nodes": [
+      67
+    ],
+    "force_include": [
+      37,
+      38,
+      39,
+      40,
+      41
+    ],
+    "force_sequence": []
+  },
+  "in_objective": "O2",
+  "out_objective": "O3",
+  "participants": [
+    "ludwig_miller"
+  ],
+  "objectives": {
+    "O2": {
+      "summary": "Return to Ludwig",
+      "description": {
+        "S1": "You repaired the \"mechanical scout\",",
+        "S2": "which was just lost due to a dislodged navigation module.",
+        "S3": "You should return to Ludwig."
+      },
+      "blurb": {
+        "B1": "Regardless of the choice made,",
+        "B2": "report back to Ludwig where he will tell the Stranger about a secret weapon he had stashed behind a toilet in the Spacer's Choice Cantina."
+      }
+    },
+    "O3": {
+      "summary": "Find Ludwig's Secret Weapon",
+      "description": {
+        "S1": "Ludwig revealed that he's tucked away a secret weapon in Edgewater,",
+        "S2": "to be used in the event of a mechanical uprising.",
+        "S3": "He's decided to entrust the weapon to you to aid in the crusade.",
+        "S4": "The weapon should be in the bathroom of Edgewater's cantina."
+      },
+      "blurb": {
+        "B1": "Go to the canteen and look behind the toilet,",
+        "B2": "you can pick up Ludwig's Sealed Bundle."
+      }
+    }
+  },
+  "dialog": [
+    {
+      "id": 125,
+      "speaker_guid": "2bc7a436-3eff-4d01-983e-cc1aa9630287",
+      "speaker": "LudwigMiller (Male)",
+      "utterance": "Bring us honor, soldier.",
+      "support_knowledge": [
+        "ludwig_miller_03"
+      ]
+    },
+    {
+      "id": 3,
+      "speaker_guid": "2bc7a436-3eff-4d01-983e-cc1aa9630287",
+      "speaker": "LudwigMiller (Male)",
+      "utterance": "You ever swung a truncheon? Let me see your rifling stance. I wanna make sure you're up to snuff.",
+      "support_knowledge": [
+        "ludwig_miller_03",
+        "ludwig_miller_07"
+      ]
+    },
+    {
+      "id": 38,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "You won't have to worry about that scout anymore.",
+      "support_knowledge": [
+        "O2_B2"
+      ]
+    },
+    {
+      "id": 6,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I'll let you be.",
+      "support_knowledge": []
+    },
+    {
+      "id": 39,
+      "speaker_guid": "2bc7a436-3eff-4d01-983e-cc1aa9630287",
+      "speaker": "LudwigMiller (Male)",
+      "utterance": "You beat that scout to scrap with its own legs? Pulled its optic cables out its headcase? Actually, don't tell me. Rather use my imagination.",
+      "support_knowledge": [
+        "ludwig_miller_02"
+      ]
+    },
+    {
+      "id": 40,
+      "speaker_guid": "2bc7a436-3eff-4d01-983e-cc1aa9630287",
+      "speaker": "LudwigMiller (Male)",
+      "utterance": "You are a passing fair soldier, I will confess. But you are one, and the enemy is legion. What you need is an equalizer. A weapon to strike fear in their cold, mechanical hearts.",
+      "support_knowledge": [
+        "ludwig_miller_02",
+        "ludwig_miller_07"
+      ]
+    },
+    {
+      "id": 41,
+      "speaker_guid": "2bc7a436-3eff-4d01-983e-cc1aa9630287",
+      "speaker": "LudwigMiller (Male)",
+      "utterance": "Cantina. Lavatory. Behind one of the toilets. That's where I've kept it hidden all these years. ",
+      "support_knowledge": [
+        "O2_B2"
+      ]
+    },
+    {
+      "id": 42,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "You hid your secret weapon in a lavatory.",
+      "support_knowledge": [
+        "O2_B2"
+      ]
+    },
+    {
+      "id": 44,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I'll let you know if I find it.",
+      "support_knowledge": []
+    },
+    {
+      "id": 43,
+      "speaker_guid": "2bc7a436-3eff-4d01-983e-cc1aa9630287",
+      "speaker": "LudwigMiller (Male)",
+      "utterance": "Sharp, ain't it? The lavatory is the very last place a mechanical has need to enter.",
+      "support_knowledge": [
+        "O2_B2"
+      ]
+    },
+    {
+      "id": 45,
+      "speaker_guid": "2bc7a436-3eff-4d01-983e-cc1aa9630287",
+      "speaker": "LudwigMiller (Male)",
+      "utterance": "On the double, soldier. Don't want the bartender poking around in there with a mop.",
+      "support_knowledge": []
+    }
+  ],
+  "dialog_edges": [
+    [
+      125,
+      3
+    ],
+    [
+      3,
+      38
+    ],
+    [
+      3,
+      6
+    ],
+    [
+      38,
+      39
+    ],
+    [
+      39,
+      40
+    ],
+    [
+      40,
+      41
+    ],
+    [
+      41,
+      42
+    ],
+    [
+      41,
+      44
+    ],
+    [
+      42,
+      43
+    ],
+    [
+      43,
+      41
+    ],
+    [
+      44,
+      45
+    ],
+    [
+      45,
+      3
+    ]
+  ]
+}

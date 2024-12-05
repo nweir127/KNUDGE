@@ -1,0 +1,45 @@
+ID	fact
+OBJECTIVE O0	
+O0_S1	186:42
+O0_S2	229:36
+O0_S3	266:39
+O0_B1	631:88
+O0_B2	You can learn about his sales and ask Sebastian about Mr. Pickett.
+O0_B3	839:69
+O0_B4	909:61
+O0_B5	971:49
+OBJECTIVE O1	
+O1_S1	Sebastian sent Mr. Pickett to the wilderness southwest of Stellar Bay to find a Mantiqueen.
+O1_S2	427:41
+O1_B1	1021:136
+O1_B2	1158:92
+O1_B3	1251:71
+OBJECTIVE O2	
+O2_S1	508:77
+O2_S2	586:42
+O2_B1	Return the journal to Sebastian and explain what happened to Mr. Pickett.
+O2_B2	Sebastian will comment that he will read the journal although it seems very long.
+O2_B3	Sebastian will thank the Stranger and give them 375 bits for their troubles,
+O2_B4	completing the quest.
+mantisaur	
+mantisaur_01	Mantisaurs are insectoid creatures native to Monarch.
+mantisaur_02	They are aggressive, territorial, and very strong.
+mantisaur_03	It is possible to deal with them one on one, but it is best to avoid groups of them for your safety.
+mantisaur_04	The mantiqueen is the largest breed of Mantisaur.
+mr_pickett	
+mr_pickett_01	Pickett was a Halcyon wildlife aficionado who used to tell fantastical stories to the children in Edgewater about the wildlife, not all of them true.
+mr_pickett_02	While he was in charge of the Emerald Vale Community Center,
+mr_pickett_03	Pickett was obsessed with acquiring a mantiqueen for the History of Emerald Vale Exhibit.
+mr_pickett_04	After a failed attempt to acquire a mantiqueen by Hunters & Trackers Ltd,
+mr_pickett_05	Pickett went to Monarch to acquire the mantiqueen himself.
+mr_pickett_06	After receiving information from Sebastian Adams about the location of a mantiqueen,
+mr_pickett_07	he headed out into the wilderness to see it for himself.
+mr_pickett_08	Sebastian's information was accurate but Pickett was eaten by his quarry in the process.
+mr_pickett_09	Only his journal would be recoverable from the mantiqueen's digestive system.
+sebastian_adams	
+sebastian_adams_01	Sebastian Adams is a vendor in Stellar Bay who specializes in parts from exotic creatures.
+sebastian_adams_02	The Stranger can help Celia Robbins ask Sebastian out on a date.
+stellar_bay	
+stellar_bay_01	Outside the city walls, the lands were overrun by the native wildlife, as well as marauders and outlaws.
+stellar_bay_02	Stellar Bay is a company town located on the planet Monarch. It is owned and operated by Monarch Stellar Industries.
+stellar_bay_03	Stellar Bay is the largest saltuna producer on the Halcyon colony and used to be one of the most important suppliers of this resource.

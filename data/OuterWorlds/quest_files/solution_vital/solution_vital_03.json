@@ -1,0 +1,50 @@
+{
+  "id": "solution_vital_03",
+  "quest_name": "solution_vital",
+  "conversation": {
+    "filename": "01_cv_dorsett_wanda",
+    "start_node": 26,
+    "end_nodes": [],
+    "force_include": [],
+    "force_sequence": []
+  },
+  "in_objective": "O3",
+  "participants": [
+    "wanda_dorsett"
+  ],
+  "objectives": {
+    "O3": {
+      "summary": "Report to Dr. Dorsett",
+      "description": {
+        "S1": "Wanda will want to know what became of Captain Irion and the delivery."
+      },
+      "blurb": {
+        "B1": "Speak with Dr. Wanda Dorsett and you'll complete the quest."
+      }
+    }
+  },
+  "dialog": [
+    {
+      "id": 26,
+      "speaker_guid": "ce023342-d841-492e-9898-a98420e11825",
+      "speaker": "WandaDorsett (Female)",
+      "utterance": "Were I a gambling woman, I'd wager you're responsible for my mechanicals' safe return.",
+      "support_knowledge": [
+        "O3_B1"
+      ]
+    },
+    {
+      "id": 27,
+      "speaker_guid": "ce023342-d841-492e-9898-a98420e11825",
+      "speaker": "WandaDorsett (Female)",
+      "utterance": "I can't thank you enough.",
+      "support_knowledge": []
+    }
+  ],
+  "dialog_edges": [
+    [
+      26,
+      27
+    ]
+  ]
+}

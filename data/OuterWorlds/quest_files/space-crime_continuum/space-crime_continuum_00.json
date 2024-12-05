@@ -1,0 +1,612 @@
+{
+  "id": "space-crime_continuum_00",
+  "quest_name": "space-crime_continuum",
+  "conversation": {
+    "filename": "01_cv_hagen_lilya_revision",
+    "start_node": 1,
+    "end_nodes": [],
+    "force_include": [
+      56,
+      44
+    ],
+    "force_sequence": []
+  },
+  "in_objective": "O0",
+  "out_objective": "O1",
+  "participants": [
+    "lilya_hagen"
+  ],
+  "objectives": {
+    "O0": {
+      "description": {
+        "S1": "Lilya Hagen has a lead on some expensive salvage.",
+        "S2": "When the Board abandoned Monarch,",
+        "S3": "several factories and research facilities were left mostly intact.",
+        "S4": "While the majority of those locations have previously been stripped of valuable resources,",
+        "S5": "SubLight agents on Monarch recently discovered a hidden laboratory with a cache of Alta-Vitae gas.",
+        "S6": "Lilya needs an independent captain to retrieve the salvage."
+      },
+      "blurb": {
+        "B1": "This quest is obtained by taking the job with Lilya Hagen aboard the Groundbreaker after you've gained access to Stellar Bay on Monarch."
+      }
+    },
+    "O1": {
+      "summary": "Retrieve the Missing Passcode",
+      "description": {
+        "S1": "Lilya hasn't heard from her agent in Stellar Bay recently.",
+        "S2": "Retrieve the information he's holding on the salvage location and deliver it to Catherine Malin in Fallbrook."
+      },
+      "blurb": {
+        "B1": "Head outside to the fishery docks in Stellar Bay of Monarch and loot the corpse there in the corner.",
+        "B2": "This will provide you with a Bloody Note that has a passcode on it.",
+        "B3": "Take the note to Catherine Malin in Fallbrook."
+      }
+    }
+  },
+  "dialog": [
+    {
+      "id": 1,
+      "speaker_guid": "a5ed6fdd-91ed-41cf-9866-92b9da2e6b64",
+      "speaker": "LilyaHagen (Female)",
+      "utterance": "So you're the new captain in town. I was hoping you'd make your way to my office. Saves me the work of hunting you down. ",
+      "support_knowledge": []
+    },
+    {
+      "id": 76,
+      "speaker_guid": "a5ed6fdd-91ed-41cf-9866-92b9da2e6b64",
+      "speaker": "LilyaHagen (Female)",
+      "utterance": "Lilya Hagen, CEO and Executive Director of Aggressive Operations. I'm guessing you already know about SubLight, otherwise you wouldn't have come.",
+      "support_knowledge": [
+        "lilya_hagen_01",
+        "sublight_01"
+      ]
+    },
+    {
+      "id": 77,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Name's <oeitoken>PlayerName</oeitoken>, Captain of the Unreliable.",
+      "support_knowledge": [
+        "unreliable_01"
+      ]
+    },
+    {
+      "id": 451,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I'm Captain Hawthorne, the proud owner of the Unreliable.",
+      "support_knowledge": [
+        "unreliable_01",
+        "alex_hawthorne_16"
+      ]
+    },
+    {
+      "id": 432,
+      "speaker_guid": "a5ed6fdd-91ed-41cf-9866-92b9da2e6b64",
+      "speaker": "LilyaHagen (Female)",
+      "utterance": "Charmed.",
+      "support_knowledge": []
+    },
+    {
+      "id": 86,
+      "speaker_guid": "a5ed6fdd-91ed-41cf-9866-92b9da2e6b64",
+      "speaker": "LilyaHagen (Female)",
+      "utterance": "It's nice to see the Unreliable again. Useful ship. Hawthorne was my contractor. I'd recognize that leaky boat of his anywhere. ",
+      "support_knowledge": []
+    },
+    {
+      "id": 87,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I didn't kill him. ",
+      "support_knowledge": [
+        "alex_hawthorne_13"
+      ]
+    },
+    {
+      "id": 88,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Don't let ADA hear you calling her ship names.",
+      "support_knowledge": [
+        "unreliable_14"
+      ]
+    },
+    {
+      "id": 106,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Get to the point, Hagen. ",
+      "support_knowledge": []
+    },
+    {
+      "id": 95,
+      "speaker_guid": "a5ed6fdd-91ed-41cf-9866-92b9da2e6b64",
+      "speaker": "LilyaHagen (Female)",
+      "utterance": "I didn't ask.",
+      "support_knowledge": []
+    },
+    {
+      "id": 53,
+      "speaker_guid": "a5ed6fdd-91ed-41cf-9866-92b9da2e6b64",
+      "speaker": "LilyaHagen (Female)",
+      "utterance": "I have a salvage job for someone light on corporate ties with a reliable set of wings. But there's a catch.",
+      "support_knowledge": [
+        "O0_S1",
+        "O0_S6"
+      ]
+    },
+    {
+      "id": 96,
+      "speaker_guid": "a5ed6fdd-91ed-41cf-9866-92b9da2e6b64",
+      "speaker": "LilyaHagen (Female)",
+      "utterance": "If you have a Navkey to Stellar Bay, the job's yours. Interested?",
+      "support_knowledge": []
+    },
+    {
+      "id": 56,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I can get into Stellar Bay. Tell me about the job.",
+      "support_knowledge": [
+        "O0_B1"
+      ]
+    },
+    {
+      "id": 100,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "What's so special about Stellar Bay?",
+      "support_knowledge": []
+    },
+    {
+      "id": 98,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Not interested.",
+      "support_knowledge": []
+    },
+    {
+      "id": 109,
+      "speaker_guid": "a5ed6fdd-91ed-41cf-9866-92b9da2e6b64",
+      "speaker": "LilyaHagen (Female)",
+      "utterance": "One of my guys in Stellar Bay has a lead on some high-grade salvage, but he went dark before he could spill the goods.",
+      "support_knowledge": [
+        "O1_S1"
+      ]
+    },
+    {
+      "id": 43,
+      "speaker_guid": "a5ed6fdd-91ed-41cf-9866-92b9da2e6b64",
+      "speaker": "LilyaHagen (Female)",
+      "utterance": "We arranged a drop at the saltuna warehouse's loading dock. Find whatever he left there and take it to Fallbrook. My gal Catherine will be expecting you.",
+      "support_knowledge": [
+        "O1_S2",
+        "catherine_malin_01",
+        "fallbrook_01"
+      ]
+    },
+    {
+      "id": 44,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I'll take the job.",
+      "support_knowledge": []
+    },
+    {
+      "id": 110,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "What's SubLight doing in Fallbrook?",
+      "support_knowledge": [
+        "fallbrook_01",
+        "fallbrook_02"
+      ]
+    },
+    {
+      "id": 113,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "What kind of salvage are we looking for?",
+      "support_knowledge": []
+    },
+    {
+      "id": 45,
+      "speaker_guid": "a5ed6fdd-91ed-41cf-9866-92b9da2e6b64",
+      "speaker": "LilyaHagen (Female)",
+      "utterance": "Now get going. Catherine will brief you on the details when you check in with her at Fallbrook. ",
+      "support_knowledge": [
+        "O1_S2",
+        "catherine_malin_01",
+        "fallbrook_01"
+      ]
+    },
+    {
+      "id": 116,
+      "speaker_guid": "a5ed6fdd-91ed-41cf-9866-92b9da2e6b64",
+      "speaker": "LilyaHagen (Female)",
+      "utterance": "One last thing. When you're on the job, keep a pair of eyes on the back of your head. Understood?",
+      "support_knowledge": []
+    },
+    {
+      "id": 117,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Understood.",
+      "support_knowledge": []
+    },
+    {
+      "id": 118,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "What am I looking for?",
+      "support_knowledge": []
+    },
+    {
+      "id": 119,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Sounds shady.",
+      "support_knowledge": []
+    },
+    {
+      "id": 348,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Anything else I should know about Monarch?",
+      "support_knowledge": []
+    },
+    {
+      "id": 121,
+      "speaker_guid": "a5ed6fdd-91ed-41cf-9866-92b9da2e6b64",
+      "speaker": "LilyaHagen (Female)",
+      "utterance": "You'll do fine. Probably nothing to worry about. Probably.",
+      "support_knowledge": []
+    },
+    {
+      "id": 120,
+      "speaker_guid": "a5ed6fdd-91ed-41cf-9866-92b9da2e6b64",
+      "speaker": "LilyaHagen (Female)",
+      "utterance": "Don't go looking for anything. Except salvage. Just watch out. ",
+      "support_knowledge": []
+    },
+    {
+      "id": 122,
+      "speaker_guid": "a5ed6fdd-91ed-41cf-9866-92b9da2e6b64",
+      "speaker": "LilyaHagen (Female)",
+      "utterance": "Could be.",
+      "support_knowledge": []
+    },
+    {
+      "id": 349,
+      "speaker_guid": "a5ed6fdd-91ed-41cf-9866-92b9da2e6b64",
+      "speaker": "LilyaHagen (Female)",
+      "utterance": "Few laws and even fewer people to enforce them. If you're working for the right side, it's a fucking paradise. ",
+      "support_knowledge": []
+    },
+    {
+      "id": 111,
+      "speaker_guid": "a5ed6fdd-91ed-41cf-9866-92b9da2e6b64",
+      "speaker": "LilyaHagen (Female)",
+      "utterance": "A few of my contractors run flights in there and out again, \"working around\" the Board embargo. ",
+      "support_knowledge": [
+        "monarch_15",
+        "monarch_16",
+        "monarch_17"
+      ]
+    },
+    {
+      "id": 112,
+      "speaker_guid": "a5ed6fdd-91ed-41cf-9866-92b9da2e6b64",
+      "speaker": "LilyaHagen (Female)",
+      "utterance": "We keep the community lubricated with a steady supply of booze and unconventional erotica. Byzantium kids with more money than sense can thank SubLight for their good time.",
+      "support_knowledge": [
+        "fallbrook_05",
+        "fallbrook_06"
+      ]
+    },
+    {
+      "id": 346,
+      "speaker_guid": "a5ed6fdd-91ed-41cf-9866-92b9da2e6b64",
+      "speaker": "LilyaHagen (Female)",
+      "utterance": "We keep the community lubricated with a steady supply of booze and unconventional erotica. Byzantium kids with more money than sense can thank SubLight for their good time.",
+      "support_knowledge": [
+        "fallbrook_05",
+        "fallbrook_06"
+      ]
+    },
+    {
+      "id": 307,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "How unconventional? Asking for a friend.",
+      "support_knowledge": []
+    },
+    {
+      "id": 310,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Why do you need me if you already have people on the ground?",
+      "support_knowledge": []
+    },
+    {
+      "id": 309,
+      "speaker_guid": "a5ed6fdd-91ed-41cf-9866-92b9da2e6b64",
+      "speaker": "LilyaHagen (Female)",
+      "utterance": "One of my guys filmed a raptidon grinding on an automech. Didn't end well for anyone, including the cameraman.",
+      "support_knowledge": []
+    },
+    {
+      "id": 311,
+      "speaker_guid": "a5ed6fdd-91ed-41cf-9866-92b9da2e6b64",
+      "speaker": "LilyaHagen (Female)",
+      "utterance": "Catherine is tied up with other matters, and I don't want her bothered. I told her I'd be sending my best fixer. Try and play the part.",
+      "support_knowledge": []
+    },
+    {
+      "id": 114,
+      "speaker_guid": "a5ed6fdd-91ed-41cf-9866-92b9da2e6b64",
+      "speaker": "LilyaHagen (Female)",
+      "utterance": "When the Board pulled out of Monarch, they buried or sealed anything they couldn't carry off world.",
+      "support_knowledge": [
+        "monarch_08"
+      ]
+    },
+    {
+      "id": 115,
+      "speaker_guid": "a5ed6fdd-91ed-41cf-9866-92b9da2e6b64",
+      "speaker": "LilyaHagen (Female)",
+      "utterance": "Apparently, one of Catherine's teams uncovered an abandoned lab with full tanks of Alta-Vitae gas.",
+      "support_knowledge": [
+        "O0_S5"
+      ]
+    },
+    {
+      "id": 101,
+      "speaker_guid": "a5ed6fdd-91ed-41cf-9866-92b9da2e6b64",
+      "speaker": "LilyaHagen (Female)",
+      "utterance": "First, an embargo that's been active ever since the Board pulled its forces off world. Few regulations, plenty of freedom. Second, all the goodies that no one had time to pack.",
+      "support_knowledge": [
+        "monarch_16"
+      ]
+    },
+    {
+      "id": 99,
+      "speaker_guid": "a5ed6fdd-91ed-41cf-9866-92b9da2e6b64",
+      "speaker": "LilyaHagen (Female)",
+      "utterance": "Too bad. You know where to find me when you're ready to pursue a respectable career. ",
+      "support_knowledge": []
+    },
+    {
+      "id": 104,
+      "speaker_guid": "a5ed6fdd-91ed-41cf-9866-92b9da2e6b64",
+      "speaker": "LilyaHagen (Female)",
+      "utterance": "Is ADA still at the helm? I don't know how many times I told Hawthorne to restore that smart ass to factory settings.",
+      "support_knowledge": [
+        "unreliable_13",
+        "unreliable_14"
+      ]
+    },
+    {
+      "id": 452,
+      "speaker_guid": "a5ed6fdd-91ed-41cf-9866-92b9da2e6b64",
+      "speaker": "LilyaHagen (Female)",
+      "utterance": "A little advice? Before you start telling lies, get a feel for who you're talking to. ",
+      "support_knowledge": []
+    }
+  ],
+  "dialog_edges": [
+    [
+      1,
+      76
+    ],
+    [
+      76,
+      77
+    ],
+    [
+      76,
+      451
+    ],
+    [
+      77,
+      432
+    ],
+    [
+      432,
+      86
+    ],
+    [
+      86,
+      87
+    ],
+    [
+      86,
+      88
+    ],
+    [
+      86,
+      106
+    ],
+    [
+      87,
+      95
+    ],
+    [
+      95,
+      53
+    ],
+    [
+      53,
+      96
+    ],
+    [
+      96,
+      56
+    ],
+    [
+      96,
+      100
+    ],
+    [
+      96,
+      98
+    ],
+    [
+      56,
+      109
+    ],
+    [
+      109,
+      43
+    ],
+    [
+      43,
+      44
+    ],
+    [
+      43,
+      110
+    ],
+    [
+      43,
+      113
+    ],
+    [
+      44,
+      45
+    ],
+    [
+      45,
+      116
+    ],
+    [
+      116,
+      117
+    ],
+    [
+      116,
+      118
+    ],
+    [
+      116,
+      119
+    ],
+    [
+      116,
+      348
+    ],
+    [
+      117,
+      121
+    ],
+    [
+      118,
+      120
+    ],
+    [
+      120,
+      121
+    ],
+    [
+      119,
+      122
+    ],
+    [
+      122,
+      121
+    ],
+    [
+      348,
+      349
+    ],
+    [
+      349,
+      121
+    ],
+    [
+      110,
+      111
+    ],
+    [
+      111,
+      112
+    ],
+    [
+      111,
+      346
+    ],
+    [
+      112,
+      307
+    ],
+    [
+      112,
+      310
+    ],
+    [
+      307,
+      309
+    ],
+    [
+      309,
+      43
+    ],
+    [
+      310,
+      311
+    ],
+    [
+      311,
+      43
+    ],
+    [
+      346,
+      43
+    ],
+    [
+      113,
+      114
+    ],
+    [
+      114,
+      115
+    ],
+    [
+      115,
+      43
+    ],
+    [
+      100,
+      101
+    ],
+    [
+      101,
+      96
+    ],
+    [
+      98,
+      99
+    ],
+    [
+      88,
+      104
+    ],
+    [
+      104,
+      53
+    ],
+    [
+      106,
+      53
+    ],
+    [
+      451,
+      452
+    ],
+    [
+      452,
+      86
+    ]
+  ]
+}

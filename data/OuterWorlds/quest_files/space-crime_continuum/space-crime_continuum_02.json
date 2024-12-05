@@ -1,0 +1,170 @@
+{
+  "id": "space-crime_continuum_02",
+  "quest_name": "space-crime_continuum",
+  "conversation": {
+    "filename": "01_cv_hagen_lilya_revision",
+    "start_node": 38,
+    "end_nodes": [
+      172
+    ],
+    "force_include": [
+      154,
+      471
+    ],
+    "force_sequence": []
+  },
+  "in_objective": "O7",
+  "participants": [
+    "lilya_hagen"
+  ],
+  "objectives": {
+    "O7": {
+      "summary": "Return to Lilya",
+      "description": {
+        "S1": "The goods are secured.",
+        "S2": "Lilya Hagen should be pleased.",
+        "S3": "She's stationed at SubLight Headquarters on the Groundbreaker."
+      },
+      "blurb": {
+        "B1": "Take the lift out and you' come out by a group of Mantisaur on the opposite side of the locked gate from the main town.",
+        "B2": "You can head to the Unreliable and back to the Groundbreaker to complete the quest by talking to Lylya Hagen at SubLight.",
+        "B3": "Finishing the quest gives you 20000xp, SubLight Salvage & Shipping Reputation Up, 2188 Bit Cartridge.",
+        "B4": "You can Persuade (100) for 2300xp and 500 Bit Cartridge."
+      }
+    }
+  },
+  "dialog": [
+    {
+      "id": 38,
+      "speaker_guid": "a5ed6fdd-91ed-41cf-9866-92b9da2e6b64",
+      "speaker": "LilyaHagen (Female)",
+      "utterance": "That gas is going to make us a fucking mint. A hundred twenty-some cubic meters of it, at a million bits a pop?",
+      "support_knowledge": [
+        "O7_S2"
+      ]
+    },
+    {
+      "id": 154,
+      "speaker_guid": "a5ed6fdd-91ed-41cf-9866-92b9da2e6b64",
+      "speaker": "LilyaHagen (Female)",
+      "utterance": "Take this. You've earned it. When we get buyers lined up, I'm gonna buy a gold toilet to shit in. ",
+      "support_knowledge": [
+        "O7_S2",
+        "O7_B3"
+      ]
+    },
+    {
+      "id": 155,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "The height of ambition for us all. ",
+      "support_knowledge": []
+    },
+    {
+      "id": 159,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "What a waste.",
+      "support_knowledge": []
+    },
+    {
+      "id": 157,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Good luck with that.",
+      "support_knowledge": []
+    },
+    {
+      "id": 171,
+      "speaker_guid": "a5ed6fdd-91ed-41cf-9866-92b9da2e6b64",
+      "speaker": "LilyaHagen (Female)",
+      "utterance": "You're goddamn right.",
+      "support_knowledge": []
+    },
+    {
+      "id": 468,
+      "speaker_guid": "a5ed6fdd-91ed-41cf-9866-92b9da2e6b64",
+      "speaker": "LilyaHagen (Female)",
+      "utterance": "Monarch isn't exactly a walk down the lanes of Byzantium, but here you are with all your limbs attached. Call me impressed, contractor.",
+      "support_knowledge": []
+    },
+    {
+      "id": 471,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "In case you were curious, no one was following me.",
+      "support_knowledge": []
+    },
+    {
+      "id": 472,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Do you always send your first-timers into certain peril?",
+      "support_knowledge": []
+    },
+    {
+      "id": 474,
+      "speaker_guid": "a5ed6fdd-91ed-41cf-9866-92b9da2e6b64",
+      "speaker": "LilyaHagen (Female)",
+      "utterance": "No one you saw, anyway. Glad to see you're looking out for yourself.",
+      "support_knowledge": []
+    },
+    {
+      "id": 475,
+      "speaker_guid": "a5ed6fdd-91ed-41cf-9866-92b9da2e6b64",
+      "speaker": "LilyaHagen (Female)",
+      "utterance": "I guess you're just one of the lucky ones. Look on the bright side, you just started and you're already on the path to a promotion. ",
+      "support_knowledge": []
+    }
+  ],
+  "dialog_edges": [
+    [
+      38,
+      154
+    ],
+    [
+      154,
+      155
+    ],
+    [
+      154,
+      159
+    ],
+    [
+      154,
+      157
+    ],
+    [
+      155,
+      171
+    ],
+    [
+      171,
+      468
+    ],
+    [
+      468,
+      471
+    ],
+    [
+      468,
+      472
+    ],
+    [
+      471,
+      474
+    ],
+    [
+      472,
+      475
+    ],
+    [
+      159,
+      171
+    ],
+    [
+      157,
+      468
+    ]
+  ]
+}

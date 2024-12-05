@@ -1,0 +1,155 @@
+ID	fact
+OBJECTIVE O0	
+O0_S1	202:29
+O0_S2	232:32
+O0_S3	265:40
+O0_S4	306:21
+O0_B1	2428:155
+O0_B2	2584:79
+O0_B3	2664:68
+O0_B4	2733:67
+O0_B5	2801:51
+O0_B6	2853:40
+OBJECTIVE O1	
+O1_S1	357:70
+O1_S2	428:51
+O1_B1	3142:65
+O1_B2	3208:27
+O1_B3	3236:53
+O1_B4	3290:46
+O1_B5	3337:64
+O1_B6	3402:57
+O1_B7	3460:57
+O1_B8	3518:47
+O1_B9	3566:43
+O1_B10	3610:94
+O1_B11	3705:61
+O1_B12	3767:46
+O1_B13	3814:64
+OBJECTIVE O2	
+O2_S1	497:81
+O2_B1	4040:81
+O2_B2	4122:21
+O2_B3	4144:70
+O2_B4	4215:62
+O2_B5	4278:28
+O2_B6	4307:24
+O2_B7	4332:43
+O2_B8	4376:62
+OBJECTIVE O3	
+O3_S1	599:46
+O3_S2	646:18
+O3_S3	665:40
+O3_S4	705:127
+O3_B1	5883:65
+O3_B2	5949:86
+O3_B3	6036:106
+O3_B4	6143:51
+O3_B5	"If you decide to help her escape she says will give your Anton's Data and the quest will update  ""find an escape route""."
+O3_B6	6316:56
+O3_B7	6373:82
+OBJECTIVE O4	
+O4_S1	1690:60
+O4_S2	1751:174
+O4_S3	The keycard can be printed from the security console terminal.
+O4_B1	6456:92
+O4_B2	6549:75
+O4_B3	6625:50
+OBJECTIVE O5	
+O5_S1	2185:80
+O5_S2	2266:62
+O5_B1	6844:127
+O5_B2	6972:68
+O5_B3	7041:92
+OBJECTIVE O6	
+O6_S1	2343:46
+O6_S2	2390:35
+O6_B1	7918:64
+O6_B2	he and Porter will be arguing about it.
+O6_B3	8024:126
+O6_B4	8151:88
+ada	
+ada_01	ADA (Autonomous Digital Astrogator) is an advanced AI aboard the Unreliable.
+ada_02	She controls the navigation and communications systems of the ship.
+ada_03	As ADA was programmed to recognize only Alex Hawthorne as the legal owner of the Unreliable,
+ada_04	"the Stranger has no choice but to allow her to identify them as ""Captain Alex Hawthorne"" in order to circumvent the restriction."
+ada_05	She is able to adapt and learn from the ship's operators to be able to better anticipate their needs.
+anton_crane	
+anton_crane_01	Anton Crane is the Outpost Administrator of Roseway and a lead scientist of Auntie Cleo.
+anton_crane_02	Crane was tasked to develop the world's most effective appetite suppressant dental gel,
+anton_crane_03	using Raptidons as research subjects.
+anton_crane_04	Crane is first encountered in the Roseway Communication Room.
+anton_crane_05	The scientist will explain that a group of outlaws,
+anton_crane_06	led by Cassandra O'Malley, broke into his lab and released the imprisoned raptidons,
+anton_crane_07	in a search for his valuable research.
+anton_crane_08	He will then ask you to kill the outlaws,
+anton_crane_09	put the raptidons to sleep and retrieve his research data,
+anton_crane_10	looking into his missing apprentice Jameson on the way.
+anton_crane_11	It is up to the player to follow any of the objectives Crane tasks them with.
+anton_crane_12	He will become angered with Porter if the player convinces him to abandon his post and upset if the search for Jameson ends up in failure.
+anton_crane_13	If the player fails to save Jameson,
+anton_crane_14	and fails to return the toothpaste recipe,
+anton_crane_15	they can tell Crane he is better off dead.
+anton_crane_16	After leaving the building and walking a short distance a gun shot is heard and upon re-entering the comms center will find him sitting dead at the central terminal pillar after shooting himself in the head.
+auntie_cleo	
+auntie_cleo_01	Auntie Cleo's is a subsidiary of Kolway Pharmaceuticals, a partner of Halcyon Holdings Corporation.
+auntie_cleo_02	Auntie Cleo's is a large corporation based on Terra 2 with various facilities located in the area of Roseway.
+auntie_cleo_03	Primarily a manufacturer of various pharmaceuticals,
+auntie_cleo_04	they are known both for their unethical experiments done in the name of producing high-quality cosmetics and drugs,
+auntie_cleo_05	as well as their rivalry with Spacer's Choice.
+auntie_cleo_06	They are also known to run a Tossball team known as the Auntie Cleo's Darlings.
+auntie_cleo_07	According to Clarence Mostly, the family name behind Auntie Cleo's is the Skylers.
+autie_biotics_lab_0013	
+autie_biotics_lab_0013_01	Auntie-Biotics Lab 0013 is a location in Roseway Gardens located just south of the town of Roseway.
+autie_biotics_lab_0013_02	This lab was used to run experiments involving raptidons and their potential usefulness in Auntie Cleo products.
+autie_biotics_lab_0013_03	One of the experiments run was to determine the maximum amount of raptidon digestive acid that could be safely ingested by humans before adverse effects presented themselves.
+autie_biotics_lab_0013_04	This experiment was conducted on randomly selected workers.
+autie_biotics_lab_0013_05	Due to the construction of a newer lab,
+autie_biotics_lab_0013_06	Lab 0013 is now mostly used for storage.
+autie_biotics_lab_0013_07	Reuben Porter is the Chief Site Safety Engineer for the lab.
+cassandra_omalley	
+cassandra_omalley_01	Cassandra O'Malley is the leader of an Outlaw crew,
+cassandra_omalley_02	leading the Outlaws assault on Roseway's covert lab.
+cassandra_omalley_03	Cassandra is rebellious and has a strong disliking for the Board and the corporations under its wing,
+cassandra_omalley_04	feeling that they do not care for people's lives and only their ability to work.
+cassandra_omalley_05	"Her way of rebelling against the system is to ""stab at the heart of corporate power,"""
+cassandra_omalley_06	something she takes great pleasure from.
+cassandra_omalley_07	However in doing so she and her outlaws are also responsible for the deaths of corporate employees.
+cassandra_omalley_08	Cassandra sees these killed guards and the few scientists caught in the crossfire as a necessary evil.
+cassandra_omalley_09	When first encountered in the Covert Lab she is locked in a room and asks the player to get the keycard to release her.
+cassandra_omalley_10	She also wants them clear a path for her to flee,
+cassandra_omalley_11	by either killing all the Raptidons in the loading bay or Porter and the rest of the Auntie Cleo's guards towards the front entrance.
+cassandra_omalley_12	If one wishes to avoid bloodshed Porter can also be persuaded to leave.
+cassandra_omalley_13	Afterwards Cassandra rewards the player some bits and with a Persuasion check of 31 she will give Crane's research to the player.
+jameson_avery	
+jameson_avery_01	Jameson Avery is an assistant research engineer for Auntie Cleo.
+jameson_avery_02	Anton Crane considers Jameson the only person in Roseway of worth and refers to him as his 'protege'.
+jameson_avery_03	However, this feeling is not reciprocated by Jameson who resents Anton and his micromanagement with a passion.
+jameson_avery_04	Anton sent Jameson to the Auntie-Biotics Lab to retrieve the metabolic precursors from the last test they conducted and,
+jameson_avery_05	in the chaos of the raptidons getting loose,
+jameson_avery_06	forgot about him.
+jameson_avery_07	When the Stranger first meets Jameson in the lab,
+jameson_avery_08	he is trapped behind a locked door.
+jameson_avery_09	When the door is unlocked,
+jameson_avery_10	he is more aggrieved at the breach of protocol involved in a non-employee accessing the lab than the raptidons which threatened his life
+outlaws	
+outlaws_01	The Outlaws are interplanetary raiders with their own independent agendas.
+outlaws_02	Unlike the Marauders, some Outlaws can interact with the Stranger.
+porter	
+porter_01	Reuben Porter is the leader of security in the secret Auntie-Biotics Lab in Roseway Gardens.
+porter_02	Porter is in charge of Site Safety Engineering,
+porter_03	"which most of the days mean making sure ""folks don't run in the halls""."
+raptidon	
+raptidon_01	Raptidons are giant cat/reptile-like creatures that inhabit various planets in Halcyon.
+raptidon_02	They are creatures native to Monarch.
+raptidon_03	however some corporations have illegally imported them to other planets,
+raptidon_04	such as Auntie Cleo who relocated a group of them to Roseway.
+raptidon_05	Raptidons are of corporate interest due to their potential for producing new chemical by-products which,
+raptidon_06	when refined, can be used to create new board approved products.
+roseway	
+roseway_01	Roseway is a company town in Roseway Gardens on Terra 2.
+roseway_02	It is owned and operated by Auntie Cleo.
+roseway_03	Once the home of a prosperous settlement,
+roseway_04	Roseway now stands as a partly abandoned site.
+roseway_05	It is now a ramshackle excuse for a town,
+roseway_06	and visitors are encouraged to travel to other settlements instead.

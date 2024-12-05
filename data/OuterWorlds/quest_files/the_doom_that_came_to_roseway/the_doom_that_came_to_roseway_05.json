@@ -1,0 +1,289 @@
+{
+  "id": "the_doom_that_came_to_roseway_05",
+  "quest_name": "the_doom_that_came_to_roseway",
+  "conversation": {
+    "filename": "08_cv_anarchist_cassandra_new",
+    "start_node": 408,
+    "end_nodes": [
+      320,
+      276
+    ],
+    "force_include": [
+      23,
+      344,
+      151,
+      152,
+      157,
+      156,
+      223
+    ],
+    "force_sequence": []
+  },
+  "in_objective": "O5",
+  "out_objective": "O6",
+  "participants": [
+    "cassandra_omalley"
+  ],
+  "objectives": {
+    "O5": {
+      "summary": "Release Cassandra",
+      "description": {
+        "S1": "You found the needed keycard and opened up a route out of the lab for Cassandra.",
+        "S2": "Unlock her door and inform her of her available escape routes."
+      },
+      "blurb": {
+        "B1": "Talk to her after opening the door and Lie (30), Intimidate (51) or Persuade (21) to get her to give you the research (2000xp).",
+        "B2": "Tell her you didn't save her for free and obtain 1200 Bit Cartridge.",
+        "B3": "You can Persuade or Intimidate (both 31) to get her to give you a further 625 Bit Cartridge."
+      }
+    },
+    "O6": {
+      "summary": "Speak to Anton",
+      "description": {
+        "S1": "You got Anton's diet toothpaste research data.",
+        "S2": "Head to Roseway and speak with him."
+      },
+      "blurb": {
+        "B1": "If you return to Anton Crane after resolving the lab peacefully,",
+        "B2": "he and Porter will be arguing about it.",
+        "B3": "You can give him the research data for massive Auntie Cleo Reputation Up, 3755 Bit Cartridge, 23000xp and Researcher's Scrubs.",
+        "B4": "He will further reward you with Auntie Cleo reputation if you didn't kill the Raptidons."
+      }
+    }
+  },
+  "dialog": [
+    {
+      "id": 408,
+      "speaker_guid": "2cdce55c-cb84-4cfa-90e7-2fe17d1acbc7",
+      "speaker": "CassandraOMalley (Female)",
+      "utterance": "Please tell me you've cleared a way out of here.",
+      "support_knowledge": []
+    },
+    {
+      "id": 409,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I've got the key, I'm going to let you out.",
+      "support_knowledge": [
+        "O5_S1",
+        "O5_S2"
+      ]
+    },
+    {
+      "id": 344,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I've unlocked your cell and dealt with the guards. You'll have to fend for yourself against the rapts.",
+      "support_knowledge": [
+        "O5_S2"
+      ]
+    },
+    {
+      "id": 150,
+      "speaker_guid": "2cdce55c-cb84-4cfa-90e7-2fe17d1acbc7",
+      "speaker": "CassandraOMalley (Female)",
+      "utterance": "So you have! I am much obliged.",
+      "support_knowledge": []
+    },
+    {
+      "id": 245,
+      "speaker_guid": "2cdce55c-cb84-4cfa-90e7-2fe17d1acbc7",
+      "speaker": "CassandraOMalley (Female)",
+      "utterance": "And now, if you do not mind, I have had quite enough of this wretched place.",
+      "support_knowledge": []
+    },
+    {
+      "id": 151,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I'm going to need you to turn over that research.",
+      "support_knowledge": [
+        "O5_B1"
+      ]
+    },
+    {
+      "id": 152,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I didn't save your life for free.",
+      "support_knowledge": [
+        "O5_B2"
+      ]
+    },
+    {
+      "id": 154,
+      "speaker_guid": "2cdce55c-cb84-4cfa-90e7-2fe17d1acbc7",
+      "speaker": "CassandraOMalley (Female)",
+      "utterance": "Oh really? And why, pray tell, would I do a thing like that?",
+      "support_knowledge": []
+    },
+    {
+      "id": 156,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "The situation's liable to turn ugly if you don't.",
+      "support_knowledge": [
+        "O5_B1"
+      ]
+    },
+    {
+      "id": 157,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Because you don't want a price on your head.",
+      "support_knowledge": [
+        "O5_B1"
+      ]
+    },
+    {
+      "id": 256,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "How should I know? Because you want to do the right thing?",
+      "support_knowledge": [
+        "O5_B1"
+      ]
+    },
+    {
+      "id": 163,
+      "speaker_guid": "2cdce55c-cb84-4cfa-90e7-2fe17d1acbc7",
+      "speaker": "CassandraOMalley (Female)",
+      "utterance": "Don't give me that look. You have made your point clear enough.",
+      "support_knowledge": [
+        "cassandra_omalley_13"
+      ]
+    },
+    {
+      "id": 247,
+      "speaker_guid": "2cdce55c-cb84-4cfa-90e7-2fe17d1acbc7",
+      "speaker": "CassandraOMalley (Female)",
+      "utterance": "Here, take the damned research. Tell Crane I hope he chokes on it.",
+      "support_knowledge": [
+        "cassandra_omalley_13"
+      ]
+    },
+    {
+      "id": 165,
+      "speaker_guid": "2cdce55c-cb84-4cfa-90e7-2fe17d1acbc7",
+      "speaker": "CassandraOMalley (Female)",
+      "utterance": "Your point is well taken. I would rather not spend the rest of my days looking over my shoulder for the shadow of my headhunter.",
+      "support_knowledge": [
+        "cassandra_omalley_13"
+      ]
+    },
+    {
+      "id": 166,
+      "speaker_guid": "2cdce55c-cb84-4cfa-90e7-2fe17d1acbc7",
+      "speaker": "CassandraOMalley (Female)",
+      "utterance": "Do I? No, I do not think I do. This research was hard-won, and I plan on enjoying every bit I make off its sale.",
+      "support_knowledge": []
+    },
+    {
+      "id": 319,
+      "speaker_guid": "2cdce55c-cb84-4cfa-90e7-2fe17d1acbc7",
+      "speaker": "CassandraOMalley (Female)",
+      "utterance": "I am not ungrateful for your help. You saved my life. I believe I owe you a drink or two.",
+      "support_knowledge": [
+        "O5_B2"
+      ]
+    },
+    {
+      "id": 321,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "<Attack> I never should have helped you. I'm taking that research.",
+      "support_knowledge": []
+    },
+    {
+      "id": 192,
+      "speaker_guid": "2cdce55c-cb84-4cfa-90e7-2fe17d1acbc7",
+      "speaker": "CassandraOMalley (Female)",
+      "utterance": "Good. I never trust a freelancer who works for free.",
+      "support_knowledge": [
+        "O5_B2"
+      ]
+    }
+  ],
+  "dialog_edges": [
+    [
+      408,
+      409
+    ],
+    [
+      408,
+      344
+    ],
+    [
+      344,
+      150
+    ],
+    [
+      150,
+      245
+    ],
+    [
+      245,
+      151
+    ],
+    [
+      245,
+      152
+    ],
+    [
+      151,
+      154
+    ],
+    [
+      154,
+      156
+    ],
+    [
+      154,
+      157
+    ],
+    [
+      154,
+      256
+    ],
+    [
+      156,
+      163
+    ],
+    [
+      163,
+      247
+    ],
+    [
+      247,
+      152
+    ],
+    [
+      157,
+      165
+    ],
+    [
+      165,
+      247
+    ],
+    [
+      256,
+      166
+    ],
+    [
+      166,
+      319
+    ],
+    [
+      319,
+      152
+    ],
+    [
+      319,
+      321
+    ],
+    [
+      152,
+      192
+    ]
+  ]
+}

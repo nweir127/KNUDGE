@@ -1,0 +1,43 @@
+{
+  "id": "passion_pills_02",
+  "quest_name": "passion_pills",
+  "conversation": {
+    "filename": "0402_cv_nyoka_bar_intro_new",
+    "start_node": 131,
+    "end_nodes": [],
+    "force_include": [
+      217
+    ],
+    "force_sequence": []
+  },
+  "in_objective": "O2",
+  "participants": [
+    "nyoka"
+  ],
+  "dialog_edges": [
+    [
+      131,
+      134
+    ]
+  ],
+  "dialog": [
+    {
+      "id": 131,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I've got your magic pills. These things are dangerous, you know.",
+      "support_knowledge": [
+        "O2_S1"
+      ]
+    },
+    {
+      "id": 134,
+      "speaker_guid": "9590333a-767c-4f70-b6f9-89d626e31f96",
+      "speaker": "Nyoka (Female)",
+      "utterance": "More or less dangerous than a steady supply of alcohol? Give it here.",
+      "support_knowledge": [
+        "O2_B2"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+ID	fact
+OBJECTIVE O0	
+O0_S1	Braxton Hecht hasn't been to work in a few days. Velma wonders what he's gotten up to.
+O0_B1	1190:93
+O0_B2	1284:74
+O0_B3	1359:28
+O0_B4	1388:26
+OBJECTIVE O1	
+O1_S1	295:52
+O1_S2	348:32
+O1_S3	381:78
+O1_B1	1415:89
+O1_B2	1505:53
+O1_B3	1559:74
+O1_B4	1634:112
+OBJECTIVE O2	
+O2_S1	476:62
+O2_S2	539:75
+OBJECTIVE O3	
+O3_S1	651:66
+O3_S2	717:50
+O3_S3	768:96
+O3_B1	1967:95
+O3_B2	2063:76
+O3_B3	2140:31
+O3_B4	2172:115
+O3_B5	2288:60
+O3_B6	2349:46
+O3_B7	2396:37
+O3_B8	2434:46
+O3_B9	2481:76
+O3_B10	2558:82
+O3_B11	2718:133
+O3_B12	2852:48
+O3_B13	2901:60
+OBJECTIVE O4	
+O4_S1	881:75
+O4_S2	957:37
+O4_B1	3042:40
+O4_B2	3083:37
+O4_B3	3121:88
+O4_B4	3210:56
+O4_B5	3267:29
+O4_B6	3297:52
+OBJECTIVE O5	
+O5_S1	1106:39
+O5_S2	1146:41
+O5_B1	3628:54
+O5_B2	3683:118
+saltuna_warehouse	
+saltuna_warehouse_01	The Saltuna Warehouse is a location in Stellar Bay on Monarch.
+saltuna_warehouse_02	The Saltuna Warehouse is run by Velma Ballard.
+saltuna_warehouse_03	The Warehouse is owned by Monarch Stellar Industries (MSI)
+saltuna_warehouse_04	When the Stranger first arrives, she has had to pull extra shifts,
+saltuna_warehouse_05	as Braxton Hecht has not shown up for work in several days
+saltuna_warehouse_06	and Caleb Herrick, along with his crew, have gone on strike demanding an increase in pay.
+saltuna_warehouse_07	Since the corporation pullout of the Terra 1 colony,
+saltuna_warehouse_08	and the blockade by The Board,
+saltuna_warehouse_09	the warehouse has not been able to find buyers as easily,
+saltuna_warehouse_10	and have had a total of four batches rot in a span of two months due to this.
+velma_ballard	
+velma_ballard_01	Velma Ballard is the supervisor in charge of the Saltuna Warehouse in Stellar Bay.
+velma_ballard_02	Velma has a tense relationship with Catherine Malin.

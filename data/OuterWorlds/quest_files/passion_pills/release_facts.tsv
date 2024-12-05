@@ -1,0 +1,62 @@
+ID	fact
+OBJECTIVE O0	
+O0_S1	186:64
+O0_S2	251:33
+O0_B1	When the Stranger speaks to Nyoka to enlist her help in reaching the information broker as suggested by Phineas Welles,
+O0_B2	she will refuse to accompany them until she sobers up,
+O0_B3	a process which can be accelerated if they bring her some Caffenoid from the town's dispensary.
+OBJECTIVE O1	
+O1_S1	329:46
+O1_S2	376:70
+O1_S3	446:79
+O1_S4	525:75
+O1_S5	600:84
+O1_B1	Abigail Edwards runs Stellar Bay's dispensary.
+O1_B2	When asked for Caffenoid, the Stranger has the option to say that it is for Nyoka or to lie (Lie 20) and say that it is for them.
+O1_B3	If the latter option is chosen, Abigail will say that she is not allowed to dispense medicine to non-residents of Stellar Bay,
+O1_B4	forcing one to tell the truth.
+O1_B5	Abigail will tell the Stranger that Nyoka has exceeded her monthly allotment of Caffenoid,
+O1_B6	but that it can be bumped up if she agrees to join MSI.
+O1_B7	Throughout the conversation, Abigail will drop hints on the different ways in the Caffenoid can be acquired,
+O1_B8	either by upping Nyoka's allotment or by taking it from the locked storage room upstairs.
+O1_B9	1582:82
+O1_B10	1665:13
+O1_B11	1679:51
+O1_B12	1731:17
+O1_B13	You can ask about Dr. Williams,
+O1_B14	1780:79
+OBJECTIVE O2	
+O2_S1	1053:21
+O2_B1	Regardless of the method in which the Caffenoid is acquired,
+O2_B2	return to Nyoka at The Yacht Club and give her the pills.
+O2_B3	She will then join the party as a companion.
+abigail_edwards	
+abigail_edwards_01	Abigail Edwards runs the dispensary in Stellar Bay.
+abigail_edwards_02	Abigail loves her job at the dispensary as she gets to see plenty of people and pick up on all the local gossip.
+abigail_edwards_03	She writes romance novels in her spare time,
+abigail_edwards_04	all which are set on Monarch and some of which boast word counts of over 100,000 words.
+abigail_edwards_05	Her fondness for the salacious is reflected in her overly suggestive manner of speaking.
+caffenoid	
+caffenoid_01	A bottle of Caffenoid pills which is subject to careful rationing by Abigail Edwards.
+caffenoid_02	Excessive Caffenoid consumption may lead to side effects including: irritability, fatigue, uncontrollable bowel movements, nausea and death.
+caffenoid_03	The pills may be given to the Stranger by Abigail Edwards in Stellar Bay.
+caffenoid_04	This requires either bumping up Nyoka's monthly allotment using the terminal upstairs or threatening her.
+caffenoid_05	The pills can be found in the MSI Dispensary's locked supply room.
+dr_williams	
+dr_williams_01	Dr. E. Williams is a deceased doctor from Stellar Bay.
+dr_williams_02	His corpse can be found in a graveyard in Stellar Bay Ruins (South),
+dr_williams_03	being feasted upon by raptidons.
+dr_williams_04	"Dr. Williams was fixated on searching for the ""Flower of Enlightenment"" -"
+dr_williams_05	an endeavor which would eventually lead to his death.
+dr_williams_06	He hoped that by doing so, his mind and senses would be awakened to the greater realities around him.
+dr_williams_07	In pursuit of the Flower of Enlightenment,
+dr_williams_08	he experimented with different combinations of drugs, the last of which killed him.
+nyoka	
+nyoka_01	Nyoka Ramnarim-Wentworth III, more simply referred to as Nyoka,
+nyoka_02	is a Monarch native,
+nyoka_03	big game hunter and potential companion for the Stranger.
+nyoka_04	Nyoka is a booze-fueled hunter from the wild planet of Monarch.
+stellar_bay	
+stellar_bay_01	Outside the city walls, the lands were overrun by the native wildlife, as well as marauders and outlaws.
+stellar_bay_02	Stellar Bay is a company town located on the planet Monarch. It is owned and operated by Monarch Stellar Industries.
+stellar_bay_03	Stellar Bay is the largest saltuna producer on the Halcyon colony and used to be one of the most important suppliers of this resource.

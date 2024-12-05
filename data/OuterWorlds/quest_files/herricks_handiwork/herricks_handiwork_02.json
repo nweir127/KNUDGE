@@ -1,0 +1,114 @@
+{
+  "id": "herricks_handiwork_02",
+  "quest_name": "herricks_handiwork",
+  "conversation": {
+    "filename": "0402_cv_caleb_herrick",
+    "start_node": 40,
+    "end_nodes": [],
+    "force_include": [
+      43
+    ]
+  },
+  "in_objective": [
+    "O2"
+  ],
+  "participants": [
+    "caleb_herrick"
+  ],
+  "dialog_edges": [
+    [
+      40,
+      43
+    ],
+    [
+      40,
+      44
+    ],
+    [
+      43,
+      46
+    ],
+    [
+      46,
+      70
+    ],
+    [
+      70,
+      48
+    ],
+    [
+      44,
+      45
+    ],
+    [
+      45,
+      70
+    ]
+  ],
+  "dialog": [
+    {
+      "id": 40,
+      "speaker_guid": "6c6d7f08-927e-49c1-979f-33ce36a2d17f",
+      "speaker": "Caleb_Herrick (Male)",
+      "utterance": "Got an update for us? We can't afford to sit this out for too much longer. Know what I mean.",
+      "support_knowledge": [
+        "O0_B4",
+        "caleb_herrick_06"
+      ]
+    },
+    {
+      "id": 43,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Velma was embezzling from MSI. She's agreed to up your wages in exchange for my silence.",
+      "support_knowledge": [
+        "O1_S3",
+        "O1_B3",
+        "O2_S1"
+      ]
+    },
+    {
+      "id": 44,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "You've got your pay raise.",
+      "support_knowledge": [
+        "O2_B1"
+      ]
+    },
+    {
+      "id": 46,
+      "speaker_guid": "6c6d7f08-927e-49c1-979f-33ce36a2d17f",
+      "speaker": "Caleb_Herrick (Male)",
+      "utterance": "Well, I'll be a raptidon's dinner. Reckon I ought to listen to gossip more often!",
+      "support_knowledge": [
+        "O0_B8"
+      ]
+    },
+    {
+      "id": 70,
+      "speaker_guid": "6c6d7f08-927e-49c1-979f-33ce36a2d17f",
+      "speaker": "Caleb_Herrick (Male)",
+      "utterance": "Here, take this as compensation. It ain't a lot, but I hope it shows how much we appreciate all you've done.",
+      "support_knowledge": []
+    },
+    {
+      "id": 48,
+      "speaker_guid": "6c6d7f08-927e-49c1-979f-33ce36a2d17f",
+      "speaker": "Caleb_Herrick (Male)",
+      "utterance": "Now, me and my friends here better get back to work. Before Velma blows a fuse!",
+      "support_knowledge": [
+        "O2_S2"
+      ]
+    },
+    {
+      "id": 45,
+      "speaker_guid": "6c6d7f08-927e-49c1-979f-33ce36a2d17f",
+      "speaker": "Caleb_Herrick (Male)",
+      "utterance": "How'd you manage that? Wait. Never mind. If I question it, it'll turn out to not be true. 'Sides, I'd never follow how you got Velma to part ways with a bit cart of her own accord.",
+      "support_knowledge": [
+        "O2_S1"
+      ]
+    }
+  ]
+}

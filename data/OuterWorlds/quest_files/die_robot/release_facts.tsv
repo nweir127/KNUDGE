@@ -1,0 +1,123 @@
+ID	fact
+OBJECTIVE O0	
+O0_S1	182:72
+O0_S2	255:68
+O0_S3	324:75
+O0_B1	The quest is started by speaking to Ludwig Miller near the entrance of the Edgewater landing pad and agreeing to join the resistance against the automechanicals.
+O0_B2	With a Persuade 5 check, one can convince him to pay an upfront enlistment fee of 75 bits.
+O0_B3	Ludwig's first task is to destroy a damaged mechanical sentry located at the Edgewater junkyard.
+O0_B4	Miller claims it is a scout for the automechanicals at the geothermal power plant.
+OBJECTIVE O1	
+O1_S1	430:96
+O1_S2	527:25
+O1_S3	553:70
+O1_B1	The automechanical scout isn't hostile when it is approached.
+O1_B2	It can either be destroyed per Ludwig's request or repaired,
+O1_B3	as it is only roaming the junkyard because its navigation systems are damaged.
+OBJECTIVE O2	
+O2_S1	640:36
+O2_S2	677:57
+O2_S3	735:28
+O2_B1	Regardless of the choice made,
+O2_B2	report back to Ludwig where he will tell the Stranger about a secret weapon he had stashed behind a toilet in the Spacer's Choice Cantina.
+OBJECTIVE O3	
+O3_S1	791:67
+O3_S2	859:49
+O3_S3	909:64
+O3_S4	974:60
+O3_B1	2490:45
+O3_B2	2536:39
+OBJECTIVE O4	
+O4_S1	1051:58
+O4_S2	1110:79
+O4_B1	After retrieving the Sealed Bundle,
+O4_B2	return it to Ludwig to receive a Mag-2-Zap as a reward.
+O4_B3	Ludwig then asks the Stranger to retrieve an undamaged logic module in the geothermal power plant.
+OBJECTIVE O5	
+O5_S1	1213:103
+O5_S2	1317:107
+OBJECTIVE O6	
+O6_S1	1876:68
+O6_B1	Return to Miller and give him the logic module to receive a reward of 500 bits and the Shock-stick.
+automechanicals	
+automechanicals_01	Automechanicals are robots in The Outer Worlds.
+automechanicals_02	Taking on various shapes and forms,
+automechanicals_03	from quadrupedal walkers,
+automechanicals_04	to hovering drones,
+automechanicals_05	to large humanoid mechs,
+automechanicals_06	automechanicals function to provide various services to corporations and their owners in Halcyon.
+automechanicals_07	Mechanicals are equipped with a large automatic cannon.
+automechanicals_08	They are vulnerable to electromagnetic damage weaponry,
+automechanicals_09	such as the stun baton.
+edgewater	
+edgewater_01	Edgewater is a Spacer's Choice company town located in the Emerald Vale on the planet Terra 2.
+edgewater_02	Its primary function is supporting the operation of the town's Saltuna Cannery which is supervised by Reed Tobson.
+edgewater_03	The town's power comes from the local Geothermal Power Plant and shares its power with the region's Botanical Labs.
+edgewater_04	When the Stranger arrives in Edgewater, the town is struggling.
+edgewater_05	It has been several seasons since the town has seen any visitors
+edgewater_06	and a significant proportion of its population has fallen ill with a plague that began in the last few years.
+edgewater_07	The plague is caused by poor diet and began when the cannery began experiencing a shortage of saltuna and had to stretch its supplies by adding other ingredients to its mixture including wood chips, mushrooms, sand, and canid bits.
+geothermal_power_plant	
+geothermal_power_plant_01	The Geothermal Power Plant, also called the Edgewater Geothermal Plant and the Emerald Vale Geothermal Plant, is a location in the Emerald Vale.
+geothermal_power_plant_02	It is the only source of power for Edgewater and the Emerald Vale Botanical Labs.
+geothermal_power_plant_03	The power plant is currently under security lockdown due to an apparent malfunction in the automechanicals which guard the area,
+geothermal_power_plant_04	causing them to target and fire upon all the human inhabitants in the area.
+geothermal_power_plant_05	It is likely that the malfunction was deliberate due to the power plant's poor profitability,
+geothermal_power_plant_06	despite manager Juno Braden's best attempts to reassure Spacer's Choice of the power plant's value.
+geothermal_power_plant_07	Shortly before the incident, Spacer's Choice took out a significant insurance policy against the plant and deployed a team of engineering specialists to refit the plant's population of automechanicals.
+geothermal_power_plant_08	These technicians modified the automechanicals' logic modules by installing a kill-on-sight contingency.
+geothermal_power_plant_09	One of the power plant's mechanics, Chester Higgins,
+geothermal_power_plant_10	grew suspicious when he found evidence of these modifications but was told by his supervisor to not worry about it.
+ludwig_miller	
+ludwig_miller_01	Ludwig Miller is the Associate Security Officer for Transportation stationed at the Edgewater Landing Pad outside the walls of Edgewater.
+ludwig_miller_02	Ludwig is paranoid and believes that the automechanicals which are seen all over Halcyon have been programmed to eliminate the human race and replace them.
+ludwig_miller_03	He has been requisitioning backup for the inevitable war on the mechanicals for months and is looking for people to recruit to be a part of his Resistance,
+ludwig_miller_04	as he believes that he is the only thing standing between Edgewater and total annihilation.
+ludwig_miller_05	His concerns have gone largely unheeded by Edgewater's leadership;
+ludwig_miller_06	Reed Tobson has even implemented an automatic rule which sets all trouble tickets lodged by Ludwig with the Maintenance Division to low priority.
+ludwig_miller_07	Ludwig asks the Stranger to join the (imaginary) war against the automechanicals.
+mag-2-zap	
+mag-2-zap_01	The Mag-2-Zap is a ranged weapon modification that fits into the weapon's magazine slot.
+mag-2-zap_02	This modification changes the weapon's damage type to shock.
+reed_tobson	
+reed_tobson_01	Reed Tobson is the outpost administrator for the town of Edgewater.
+reed_tobson_02	About two years before the events of the game,
+reed_tobson_03	there was a shortage of saltuna in the area,
+reed_tobson_04	"leading to ""supplements"" being added to the canning process such as wood chips and canine meat,"
+reed_tobson_05	as according to Reed, no one noticed a difference in taste.
+reed_tobson_06	As a result, many in the town fell ill with the plague,
+reed_tobson_07	while Reed championed that the key to healing was to work harder.
+reed_tobson_08	Despite the very obvious connection between the two,
+reed_tobson_09	Reed cannot seem to fathom that the new canning process directly led to the plague,
+reed_tobson_10	"and simply shrugs off the town's illness as a ""fact of life""."
+reed_tobson_11	Tobson is not malicious in the traditional sense, and generally has a positive,
+reed_tobson_12	upbeat attitude about life in Edgewater.
+reed_tobson_13	Due to being a Spacer's Choice executive,
+reed_tobson_14	he is bound by the rules they set in place,
+reed_tobson_15	which involve producing products as cheaply as possible.
+reed_tobson_16	Despite his executive position,
+reed_tobson_17	he knows next to nothing about the cannery's production process,
+reed_tobson_18	and is ignorant of even the most basic needs of his workers.
+reed_tobson_19	His belief that workers can survive on nothing but saltuna,
+reed_tobson_20	"and his introduction of wood-chips and mushrooms to the production process is responsible for the ""plague"" currently infesting Edgewater."
+reed_tobson_21	The foreign material is also responsible for the cannery's frequent malfunctions,
+reed_tobson_22	as it is not set up to process anything other than saltuna.
+reed_tobson_23	"He has so little understanding of how health works, he believes in ""the four humors""."
+reed_tobson_24	Overall, despite his incompetence, his outlook on life is highly altruistic.
+reed_tobson_25	He is more concerned for the health of Edgewater as a community than he is for his own life.
+sealed_bundle	
+sealed_bundle_01	This bundled was stashed by Ludwig Miller to protect it from automechanicals.
+sealed_bundle_02	It contains a Mag-2-Zap which will be given to the Stranger when the bundle is returned to Ludwig.
+spacers_choice	
+spacers_choice_01	Spacer's Choice is a wholly-owned subsidiary of Universal Defense Logistics.
+spacers_choice_02	Their mascot is the Moon Man.
+spacers_choice_03	Specializing in making a wide range of products as cheap as possible for the consumer,
+spacers_choice_04	Spacer's Choice cater to a broad range of clientele.
+spacers_choice_05	While their products are not very durable,
+spacers_choice_06	they are cheap to repair or replace.
+spacers_choice_07	Their employees will quote the company's sales line,
+spacers_choice_08	regardless of their own condition and are not to accept assistance from outside the company.
+spacers_choice_09	"They can also be reprimanded for fraternizing with employees labelled as ""incompetent"" - those unavailable to work."
+spacers_choice_cantina	
+spacers_choice_cantina_01	The Spacer's Choice Cantina is a location in Edgewater.
+spacers_choice_cantina_02	It is located directly opposite the south entrance to the town.

@@ -1,0 +1,323 @@
+{
+  "id": "the_distress_signal_06",
+  "quest_name": "the_distress_signal",
+  "conversation": {
+    "filename": "01_cv_culkelly_gladys",
+    "start_node": 190,
+    "end_nodes": [
+      43,
+      7
+    ],
+    "force_include": [
+      108,
+      110,
+      126,
+      129,
+      134,
+      139,
+      113
+    ],
+    "force_sequence": []
+  },
+  "in_objective": "O6",
+  "participants": [
+    "gladys_culkelly"
+  ],
+  "objectives": {
+    "O6": {
+      "summary": "Return to Gladys on the Groundbreaker",
+      "description": {
+        "S1": "You've acquired one of the company secrets that Gladys was talking about. You can return to her to sell it, or keep searching for more secrets."
+      },
+      "blurb": {
+        "B1": "You can complete this quest by giving Gladys all or none of the secrets,",
+        "B2": "though if you are going to give her one the best one to do is the toothpaste because it will cause you to complete The Doom That Came to Roseway.",
+        "B3": "Whereas, either of the other two will Botch their Quests and you will gain no XP, only Bit Cartridges"
+      }
+    }
+  },
+  "dialog": [
+    {
+      "id": 190,
+      "speaker_guid": "7575cc08-75cb-41fe-af32-7143b253b511",
+      "speaker": "GladysCulkelly (Female)",
+      "utterance": "Have you had a moment to look into that little 'opportunity' I told you about on Roseway?",
+      "support_knowledge": [
+        "O0_S2"
+      ]
+    },
+    {
+      "id": 191,
+      "speaker_guid": "7575cc08-75cb-41fe-af32-7143b253b511",
+      "speaker": "GladysCulkelly (Female)",
+      "utterance": "You don't hurry up, someone'll get to snoopin' around there before you do.",
+      "support_knowledge": []
+    },
+    {
+      "id": 45,
+      "speaker_guid": "7575cc08-75cb-41fe-af32-7143b253b511",
+      "speaker": "GladysCulkelly (Female)",
+      "utterance": "You here for a particular reason? Or did the neighbors tell you how good my sugar cookies are? Made without a single natural ingredient or an oven, just like store-bought.",
+      "support_knowledge": [
+        "gladys_culkelly_08"
+      ]
+    },
+    {
+      "id": 108,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I investigated that distress signal from Roseway.",
+      "support_knowledge": [
+        "O0_S2",
+        "gladys_culkelly_10"
+      ]
+    },
+    {
+      "id": 109,
+      "speaker_guid": "7575cc08-75cb-41fe-af32-7143b253b511",
+      "speaker": "GladysCulkelly (Female)",
+      "utterance": "What's that? Speak up, now.",
+      "support_knowledge": []
+    },
+    {
+      "id": 110,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "About those secrets you asked me to look for...",
+      "support_knowledge": [
+        "gladys_culkelly_10"
+      ]
+    },
+    {
+      "id": 113,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "That excursion you sent me on was no cakewalk, lady.",
+      "support_knowledge": []
+    },
+    {
+      "id": 125,
+      "speaker_guid": "7575cc08-75cb-41fe-af32-7143b253b511",
+      "speaker": "GladysCulkelly (Female)",
+      "utterance": "What'd you turn up?",
+      "support_knowledge": []
+    },
+    {
+      "id": 126,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I found this fancy toothpaste formula. Here you go.",
+      "support_knowledge": [
+        "O4_S1",
+        "O6_B1"
+      ]
+    },
+    {
+      "id": 129,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I found a formula for experimental rocket fuel. Seems like pretty advanced stuff.",
+      "support_knowledge": [
+        "O4_S1",
+        "O6_B1"
+      ]
+    },
+    {
+      "id": 134,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I acquired some research on raptidon musk. Interested?",
+      "support_knowledge": [
+        "O5_S1",
+        "O6_B1"
+      ]
+    },
+    {
+      "id": 139,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I found schematics for a prototype weapon from FORCE, and I'm selling. You buying?",
+      "support_knowledge": [
+        "O3_S1",
+        "O6_B1"
+      ]
+    },
+    {
+      "id": 127,
+      "speaker_guid": "7575cc08-75cb-41fe-af32-7143b253b511",
+      "speaker": "GladysCulkelly (Female)",
+      "utterance": "These corporations, I tell you - once they get an idea into their big, dense heads, there's no gettin' it out again.",
+      "support_knowledge": []
+    },
+    {
+      "id": 128,
+      "speaker_guid": "7575cc08-75cb-41fe-af32-7143b253b511",
+      "speaker": "GladysCulkelly (Female)",
+      "utterance": "Can't imagine how I'll offload this, but waste not, want not, I suppose.",
+      "support_knowledge": [
+        "O6_B1"
+      ]
+    },
+    {
+      "id": 131,
+      "speaker_guid": "7575cc08-75cb-41fe-af32-7143b253b511",
+      "speaker": "GladysCulkelly (Female)",
+      "utterance": "My stars, what a find. Fine picking like this deserves an equally fine payout. Go on, dearie - and don't spend it all in one place!",
+      "support_knowledge": [
+        "O6_B1"
+      ]
+    },
+    {
+      "id": 135,
+      "speaker_guid": "7575cc08-75cb-41fe-af32-7143b253b511",
+      "speaker": "GladysCulkelly (Female)",
+      "utterance": "Pardon me, sweetheart - my old ears must've misheard you. Did you say 'raptidon'? Gracious, someone must've hauled them off Monarch. Naughty, naughty.",
+      "support_knowledge": [
+        "raptidon_01",
+        "raptidon_02",
+        "raptidon_03"
+      ]
+    },
+    {
+      "id": 136,
+      "speaker_guid": "7575cc08-75cb-41fe-af32-7143b253b511",
+      "speaker": "GladysCulkelly (Female)",
+      "utterance": "A couple of folks around here might pay a fair few bits for this. Might even be able to start a bidding war.",
+      "support_knowledge": [
+        "O6_B1"
+      ]
+    },
+    {
+      "id": 140,
+      "speaker_guid": "7575cc08-75cb-41fe-af32-7143b253b511",
+      "speaker": "GladysCulkelly (Female)",
+      "utterance": "Peaches and cream, if that isn't the most handsome bit of lethal engineering I've seen all week. That'll go for a tidy sum of bits.",
+      "support_knowledge": [
+        "O6_B1"
+      ]
+    },
+    {
+      "id": 114,
+      "speaker_guid": "7575cc08-75cb-41fe-af32-7143b253b511",
+      "speaker": "GladysCulkelly (Female)",
+      "utterance": "Fair's fair. No one ever said old Gladys was a cheapskate, no sir, and I'm not about to let them start. Here - consider it hazard pay.",
+      "support_knowledge": [
+        "O6_B1"
+      ]
+    }
+  ],
+  "dialog_edges": [
+    [
+      190,
+      191
+    ],
+    [
+      191,
+      45
+    ],
+    [
+      45,
+      108
+    ],
+    [
+      108,
+      109
+    ],
+    [
+      109,
+      110
+    ],
+    [
+      109,
+      113
+    ],
+    [
+      110,
+      125
+    ],
+    [
+      125,
+      109
+    ],
+    [
+      125,
+      126
+    ],
+    [
+      125,
+      129
+    ],
+    [
+      125,
+      134
+    ],
+    [
+      125,
+      139
+    ],
+    [
+      126,
+      127
+    ],
+    [
+      127,
+      128
+    ],
+    [
+      128,
+      109
+    ],
+    [
+      128,
+      125
+    ],
+    [
+      129,
+      131
+    ],
+    [
+      131,
+      109
+    ],
+    [
+      131,
+      125
+    ],
+    [
+      134,
+      135
+    ],
+    [
+      135,
+      136
+    ],
+    [
+      136,
+      109
+    ],
+    [
+      136,
+      125
+    ],
+    [
+      139,
+      140
+    ],
+    [
+      140,
+      109
+    ],
+    [
+      140,
+      125
+    ],
+    [
+      113,
+      114
+    ],
+    [
+      114,
+      109
+    ]
+  ]
+}

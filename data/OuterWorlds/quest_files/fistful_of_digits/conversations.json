@@ -1,0 +1,57 @@
+[
+  {
+    "id": "fistful_of_digits_00",
+    "quest_name": "fistful_of_digits",
+    "conversation": {
+      "filename": "00_cv_reyes",
+      "start_node": 2,
+      "end_nodes": [],
+      "force_include": [
+        28
+      ],
+      "force_sequence": []
+    },
+    "in_objective": "O0",
+    "out_objective": [
+      "O1",
+      "O2",
+      "O3"
+    ],
+    "participants": [
+      "constable_reyes"
+    ]
+  },
+  {
+    "id": "fistful_of_digits_01",
+    "quest_name": "fistful_of_digits",
+    "conversation": {
+      "filename": "00_cv_reyes",
+      "start_node": 21,
+      "end_nodes": [],
+      "force_include": [
+        35,
+        36,
+        38,
+        32,
+        40,
+        43,
+        41,
+        133
+      ],
+      "force_sequence": [
+        [
+          40,
+          43
+        ]
+      ]
+    },
+    "in_objective": [
+      "O4",
+      "O5",
+      "O6"
+    ],
+    "participants": [
+      "constable_reyes"
+    ]
+  }
+]

@@ -1,0 +1,541 @@
+{
+  "id": "happiness_is_a_warm_spaceship_01",
+  "quest_name": "happiness_is_a_warm_spaceship",
+  "conversation": {
+    "filename": "01_cv_macredd",
+    "start_node": 78,
+    "end_nodes": [],
+    "force_include": [
+      115,
+      83,
+      85,
+      3,
+      25,
+      27
+    ],
+    "force_sequence": []
+  },
+  "in_objective": "O1",
+  "out_objective": "O2",
+  "participants": [
+    "gunnar_macredd"
+  ],
+  "objectives": {
+    "O1": {
+      "summary": "Get New Parts for the Radiators",
+      "description": {
+        "S1": "You need to get new parts for the Radiator Array to keep the Groundbreaker from overheating.",
+        "S2": "Junlei wants you to salvage the parts for the radiators from old machinery in the back bays."
+      },
+      "blurb": {
+        "B1": "Travel to the Back Bays using the elevator directly opposite Engineering.",
+        "B2": "Upon entering the Back Bays,",
+        "B3": "the Stranger will be confronted by Captain MacRedd,",
+        "B4": "a crazed outlaw leader and self-proclaimed \"king\".",
+        "B5": "There are some options available,",
+        "B6": "each of which will allow the Stranger to pass through the Back Bays and retrieve the parts:",
+        "B7": "Attack and kill MacRedd and his outlaws.",
+        "B8": "With Persuade 40 or Intimidate 40, MacRedd will ask for tribute in exchange for the parts.",
+        "B9": "Lie 40 can be used to lie about the parts leaking deadly toxins,",
+        "B10": "or he can be bribed with 630 bits.",
+        "B11": "With Felix in your party MacRedd will only need to be bribed.",
+        "B12": "The spare parts are located on the upper level of the Back Bays."
+      }
+    },
+    "O2": {
+      "summary": "Talk to Junlei about the Parts",
+      "description": {
+        "S1": "Go talk to Junlei to figure out what to do with the radiator parts you found."
+      },
+      "blurb": {
+        "B1": "Return to Junlei to move on to the next step of repairing the radiators.",
+        "B2": "Junlei asks the Stranger to take the elevator at the back of Engineering down to the machinery shaft and activate the terminal they find there.",
+        "B3": "She warns them of a mantipillar infestation and advises that they go armed."
+      }
+    }
+  },
+  "dialog": [
+    {
+      "id": 78,
+      "speaker_guid": "49ecfcd1-83d6-499e-bbb4-57b2b331ddfd",
+      "speaker": "CaptainMacRedd (Male)",
+      "utterance": "Look at this ripe piece of meat just sizzling on the grill. Yum yum.",
+      "support_knowledge": [
+        "O1_B2",
+        "O1_B3"
+      ]
+    },
+    {
+      "id": 79,
+      "speaker_guid": "49ecfcd1-83d6-499e-bbb4-57b2b331ddfd",
+      "speaker": "CaptainMacRedd (Male)",
+      "utterance": "Time to feed the flames. It's nothing personal. Promise.",
+      "support_knowledge": [
+        "O1_B2",
+        "O1_B3"
+      ]
+    },
+    {
+      "id": 85,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Put that down before you incinerate the entire deck.",
+      "support_knowledge": [
+        "gunnar_macredd_02"
+      ]
+    },
+    {
+      "id": 83,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "You're only getting out of this alive if you play nice.",
+      "support_knowledge": [
+        "O1_B8"
+      ]
+    },
+    {
+      "id": 6,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I was just exploring the ship and stumbled on this level.",
+      "support_knowledge": []
+    },
+    {
+      "id": 80,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "If it's nothing personal, I'll just be going. ",
+      "support_knowledge": []
+    },
+    {
+      "id": 81,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "<Attack> Neither is this.",
+      "support_knowledge": [
+        "O1_B7"
+      ]
+    },
+    {
+      "id": 88,
+      "speaker_guid": "49ecfcd1-83d6-499e-bbb4-57b2b331ddfd",
+      "speaker": "CaptainMacRedd (Male)",
+      "utterance": "I know this ain't a toy, neighbor from above. It's a catalyst, just like me. Keep talking. I like the sound of your voice.",
+      "support_knowledge": [
+        "gunnar_macredd_02"
+      ]
+    },
+    {
+      "id": 3,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I'm here for some parts. Junlei sent me.",
+      "support_knowledge": [
+        "O1_S2"
+      ]
+    },
+    {
+      "id": 89,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I'm just passing through. Can I go? ",
+      "support_knowledge": []
+    },
+    {
+      "id": 91,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "<Attack> I was just distracting you. Nothing personal.",
+      "support_knowledge": [
+        "O1_B7"
+      ]
+    },
+    {
+      "id": 7,
+      "speaker_guid": "49ecfcd1-83d6-499e-bbb4-57b2b331ddfd",
+      "speaker": "CaptainMacRedd (Male)",
+      "utterance": "Tennyson just keeps feeding the furnace, don't she? We're still playing with her last sacrifice out back, with the crew.",
+      "support_knowledge": [
+        "O0_B8",
+        "O0_B9"
+      ]
+    },
+    {
+      "id": 17,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "So can I grab that part, then?",
+      "support_knowledge": []
+    },
+    {
+      "id": 24,
+      "speaker_guid": "49ecfcd1-83d6-499e-bbb4-57b2b331ddfd",
+      "speaker": "CaptainMacRedd (Male)",
+      "utterance": "You don't just ask a king for a favor when you're standing in his court. You bring tribute. Sacrifices. Prophecy. Shit like that.",
+      "support_knowledge": [
+        "O1_B4"
+      ]
+    },
+    {
+      "id": 25,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Fine, here's <oeiglobal>Bribe_Amount</oeiglobal> bits.",
+      "support_knowledge": [
+        "O1_B8",
+        "O1_B10"
+      ]
+    },
+    {
+      "id": 27,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Those parts are leaking deadly toxins. I'll just come back after you're dead.",
+      "support_knowledge": [
+        "O1_B9"
+      ]
+    },
+    {
+      "id": 29,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "<Attack> How about I just kill you and take the parts?",
+      "support_knowledge": [
+        "O1_B7"
+      ]
+    },
+    {
+      "id": 69,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I'll be right back after I scrounge together some tribute. ",
+      "support_knowledge": [
+        "O1_B8"
+      ]
+    },
+    {
+      "id": 31,
+      "speaker_guid": "49ecfcd1-83d6-499e-bbb4-57b2b331ddfd",
+      "speaker": "CaptainMacRedd (Male)",
+      "utterance": "Tribute it is, and ain't this just a royal sum.",
+      "support_knowledge": [
+        "O1_B8"
+      ]
+    },
+    {
+      "id": 32,
+      "speaker_guid": "49ecfcd1-83d6-499e-bbb4-57b2b331ddfd",
+      "speaker": "CaptainMacRedd (Male)",
+      "utterance": "You've got the run of the kingdom. Up those stairs you'll find the parts. My crew won't get in your way.",
+      "support_knowledge": [
+        "O1_B12"
+      ]
+    },
+    {
+      "id": 35,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "There was something else.",
+      "support_knowledge": []
+    },
+    {
+      "id": 36,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Got it. Thanks, MacRedd. ",
+      "support_knowledge": []
+    },
+    {
+      "id": 37,
+      "speaker_guid": "49ecfcd1-83d6-499e-bbb4-57b2b331ddfd",
+      "speaker": "CaptainMacRedd (Male)",
+      "utterance": "Lay it on me, boss. I'm good for it.",
+      "support_knowledge": []
+    },
+    {
+      "id": 22,
+      "speaker_guid": "49ecfcd1-83d6-499e-bbb4-57b2b331ddfd",
+      "speaker": "CaptainMacRedd (Male)",
+      "utterance": "Neighbor from above. What brings you to my little moonlight kingdom?",
+      "support_knowledge": [
+        "O1_B4"
+      ]
+    },
+    {
+      "id": 41,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "How did you end up back here?",
+      "support_knowledge": []
+    },
+    {
+      "id": 23,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Be seeing you.",
+      "support_knowledge": []
+    },
+    {
+      "id": 42,
+      "speaker_guid": "49ecfcd1-83d6-499e-bbb4-57b2b331ddfd",
+      "speaker": "CaptainMacRedd (Male)",
+      "utterance": "Ship got impounded. The crew and I racked up a debt while we were grounded, and my baby got sold to SubLight. Scrapped for parts.",
+      "support_knowledge": [
+        "gunnar_macredd_04"
+      ]
+    },
+    {
+      "id": 98,
+      "speaker_guid": "49ecfcd1-83d6-499e-bbb4-57b2b331ddfd",
+      "speaker": "CaptainMacRedd (Male)",
+      "utterance": "That's bureaucracy for you. Piracy with a smile. ",
+      "support_knowledge": []
+    },
+    {
+      "id": 102,
+      "speaker_guid": "49ecfcd1-83d6-499e-bbb4-57b2b331ddfd",
+      "speaker": "CaptainMacRedd (Male)",
+      "utterance": "That's bureaucracy for you. Piracy with a smile. ",
+      "support_knowledge": []
+    },
+    {
+      "id": 99,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Sounds a lot like what happened to me.",
+      "support_knowledge": []
+    },
+    {
+      "id": 101,
+      "speaker_guid": "49ecfcd1-83d6-499e-bbb4-57b2b331ddfd",
+      "speaker": "CaptainMacRedd (Male)",
+      "utterance": "Am I your dark reflection? Shit. Must be getting old. Stay here too long and the Groundbreaker drains you like a fuel tank.",
+      "support_knowledge": []
+    },
+    {
+      "id": 34,
+      "speaker_guid": "49ecfcd1-83d6-499e-bbb4-57b2b331ddfd",
+      "speaker": "CaptainMacRedd (Male)",
+      "utterance": "Under its skin, this ship is all poison and darkness. Lead bones, asbestos muscle. Maybe you're right.",
+      "support_knowledge": [
+        "O1_B9"
+      ]
+    },
+    {
+      "id": 90,
+      "speaker_guid": "49ecfcd1-83d6-499e-bbb4-57b2b331ddfd",
+      "speaker": "CaptainMacRedd (Male)",
+      "utterance": "Passing through? This is dead end territory. But you talk like you're on a journey. The path matches your step. Stretches out ahead of you. Yeah...",
+      "support_knowledge": [
+        "O1_B3"
+      ]
+    },
+    {
+      "id": 84,
+      "speaker_guid": "49ecfcd1-83d6-499e-bbb4-57b2b331ddfd",
+      "speaker": "CaptainMacRedd (Male)",
+      "utterance": "Look at the courage on this one! Lay it on me, boss. Give me a taste of that fiery, primal spirit. ",
+      "support_knowledge": [
+        "O1_B3"
+      ]
+    },
+    {
+      "id": 38,
+      "speaker_guid": "49ecfcd1-83d6-499e-bbb4-57b2b331ddfd",
+      "speaker": "CaptainMacRedd (Male)",
+      "utterance": "You stumbled into my court without an invitation, neighbor from above. If you don't have any business, then it's time to light up the grill.",
+      "support_knowledge": [
+        "O1_B3",
+        "gunnar_macredd_02"
+      ]
+    },
+    {
+      "id": 87,
+      "speaker_guid": "49ecfcd1-83d6-499e-bbb4-57b2b331ddfd",
+      "speaker": "CaptainMacRedd (Male)",
+      "utterance": "No one turns their back on me while I'm holding court. Get him, boys!",
+      "support_knowledge": [
+        "O1_B3",
+        "O1_B4"
+      ]
+    }
+  ],
+  "dialog_edges": [
+    [
+      78,
+      79
+    ],
+    [
+      79,
+      85
+    ],
+    [
+      79,
+      83
+    ],
+    [
+      79,
+      6
+    ],
+    [
+      79,
+      80
+    ],
+    [
+      79,
+      81
+    ],
+    [
+      85,
+      88
+    ],
+    [
+      88,
+      3
+    ],
+    [
+      88,
+      89
+    ],
+    [
+      88,
+      91
+    ],
+    [
+      3,
+      7
+    ],
+    [
+      7,
+      17
+    ],
+    [
+      17,
+      24
+    ],
+    [
+      24,
+      25
+    ],
+    [
+      24,
+      27
+    ],
+    [
+      24,
+      29
+    ],
+    [
+      24,
+      69
+    ],
+    [
+      25,
+      31
+    ],
+    [
+      31,
+      32
+    ],
+    [
+      32,
+      35
+    ],
+    [
+      32,
+      36
+    ],
+    [
+      35,
+      37
+    ],
+    [
+      37,
+      22
+    ],
+    [
+      22,
+      3
+    ],
+    [
+      22,
+      41
+    ],
+    [
+      22,
+      23
+    ],
+    [
+      41,
+      42
+    ],
+    [
+      42,
+      98
+    ],
+    [
+      42,
+      102
+    ],
+    [
+      98,
+      99
+    ],
+    [
+      98,
+      35
+    ],
+    [
+      99,
+      101
+    ],
+    [
+      101,
+      22
+    ],
+    [
+      102,
+      22
+    ],
+    [
+      27,
+      34
+    ],
+    [
+      34,
+      32
+    ],
+    [
+      89,
+      90
+    ],
+    [
+      83,
+      84
+    ],
+    [
+      84,
+      3
+    ],
+    [
+      84,
+      89
+    ],
+    [
+      84,
+      91
+    ],
+    [
+      6,
+      38
+    ],
+    [
+      38,
+      79
+    ],
+    [
+      80,
+      87
+    ]
+  ]
+}

@@ -1,0 +1,588 @@
+{
+  "id": "the_distress_signal_00",
+  "quest_name": "the_distress_signal",
+  "conversation": {
+    "filename": "01_cv_culkelly_gladys",
+    "start_node": 69,
+    "end_nodes": [],
+    "force_include": [
+      234,
+      94,
+      88,
+      92
+    ],
+    "force_sequence": []
+  },
+  "in_objective": "O0",
+  "out_objective": "O1",
+  "participants": [
+    "gladys_culkelly"
+  ],
+  "objectives": {
+    "O0": {
+      "description": {
+        "S1": "Gladys has given you a copy of a distress signal from Terra 2.",
+        "S2": "Someone in Roseway, a supposedly abandoned Auntie Cleo outpost, is requesting help.",
+        "S3": "If there are corporate operations hiding there, it's likely you'll be able to find some valuable data to sell back to Gladys."
+      },
+      "blurb": {
+        "B1": "You obtain this quest if you ask Gladys to detail her opportunity when looking for a Nav Key during Passage to Anywhere.",
+        "B2": "You will be asked listen to a Distress Call"
+      }
+    },
+    "O1": {
+      "summary": "View the distress signal recording on your ship",
+      "description": {
+        "S1": "The distress signal has nav coordinates embedded in it.",
+        "S2": "Play it on your ship so that ADA can get to the Roseway landing pad"
+      },
+      "blurb": {
+        "B1": "Once you can use the ship, go to ADA and ask her to play the Distress Call.",
+        "B2": "You will receive 2000 XP and unlock the quest The Doom That Came to Roseway.",
+        "B3": "You will now also be able to travel to Roseway in Terra 2."
+      }
+    }
+  },
+  "dialog": [
+    {
+      "id": 69,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I wanted to talk about that \"opportunity\" you mentioned.",
+      "support_knowledge": [
+        "O0_B1"
+      ]
+    },
+    {
+      "id": 71,
+      "speaker_guid": "7575cc08-75cb-41fe-af32-7143b253b511",
+      "speaker": "GladysCulkelly (Female)",
+      "utterance": "Yes, dearie?",
+      "support_knowledge": []
+    },
+    {
+      "id": 234,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I'm ready to look into it.",
+      "support_knowledge": []
+    },
+    {
+      "id": 7,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Thanks for your time.",
+      "support_knowledge": []
+    },
+    {
+      "id": 235,
+      "speaker_guid": "7575cc08-75cb-41fe-af32-7143b253b511",
+      "speaker": "GladysCulkelly (Female)",
+      "utterance": "Ain't that just a treat. So, you know Edna, over in Engineering? On occasion, she'll pass along transmissions I might find interesting.",
+      "support_knowledge": []
+    },
+    {
+      "id": 168,
+      "speaker_guid": "7575cc08-75cb-41fe-af32-7143b253b511",
+      "speaker": "GladysCulkelly (Female)",
+      "utterance": "She sent me a recording of a distress signal she'd scraped from the Groundbreaker's comm array.",
+      "support_knowledge": [
+        "O0_S1"
+      ]
+    },
+    {
+      "id": 78,
+      "speaker_guid": "7575cc08-75cb-41fe-af32-7143b253b511",
+      "speaker": "GladysCulkelly (Female)",
+      "utterance": "Curious thing is, it came from an outpost called Roseway, and Auntie Cleo abandoned that place years ago.",
+      "support_knowledge": [
+        "O0_S2"
+      ]
+    },
+    {
+      "id": 213,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Say no more. I'm in.",
+      "support_knowledge": []
+    },
+    {
+      "id": 218,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Why was Roseway abandoned?",
+      "support_knowledge": []
+    },
+    {
+      "id": 81,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Maybe it's some sort of automated message.",
+      "support_knowledge": []
+    },
+    {
+      "id": 254,
+      "speaker_guid": "7575cc08-75cb-41fe-af32-7143b253b511",
+      "speaker": "GladysCulkelly (Female)",
+      "utterance": "You've got an ear for intrigue and a nose for bits. I like that. Here's a copy of the SOS recording.",
+      "support_knowledge": [
+        "O0_S1"
+      ]
+    },
+    {
+      "id": 312,
+      "speaker_guid": "7575cc08-75cb-41fe-af32-7143b253b511",
+      "speaker": "GladysCulkelly (Female)",
+      "utterance": "Um... Dear me, I had it right here a moment ago.",
+      "support_knowledge": []
+    },
+    {
+      "id": 255,
+      "speaker_guid": "7575cc08-75cb-41fe-af32-7143b253b511",
+      "speaker": "GladysCulkelly (Female)",
+      "utterance": "Goodness, I've no idea where it's gone. And I had Edna wipe the logs so no one else could find out about it, too. I'm sorry for wasting your time.",
+      "support_knowledge": []
+    },
+    {
+      "id": 43,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Let me see what you've got for sale.",
+      "support_knowledge": [
+        "gladys_culkelly_01"
+      ]
+    },
+    {
+      "id": 219,
+      "speaker_guid": "7575cc08-75cb-41fe-af32-7143b253b511",
+      "speaker": "GladysCulkelly (Female)",
+      "utterance": "Can't say I know for sure. Maybe it never really was.",
+      "support_knowledge": []
+    },
+    {
+      "id": 225,
+      "speaker_guid": "7575cc08-75cb-41fe-af32-7143b253b511",
+      "speaker": "GladysCulkelly (Female)",
+      "utterance": "Those corps are cleverer than all get-out - might've been a ruse to keep the rest of the Board from sniffing around.",
+      "support_knowledge": []
+    },
+    {
+      "id": 82,
+      "speaker_guid": "7575cc08-75cb-41fe-af32-7143b253b511",
+      "speaker": "GladysCulkelly (Female)",
+      "utterance": "Edna didn't seem to think so, and I trust the dear girl's judgment - well, maybe not in men, but she knows her comms. So like as not, someone's been down there recently.",
+      "support_knowledge": [
+        "O0_S2"
+      ]
+    },
+    {
+      "id": 83,
+      "speaker_guid": "7575cc08-75cb-41fe-af32-7143b253b511",
+      "speaker": "GladysCulkelly (Female)",
+      "utterance": "And if someone's set up shop in Roseway, I'd wager they got something to hide.",
+      "support_knowledge": [
+        "O0_S3"
+      ]
+    },
+    {
+      "id": 84,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "If it's a corporate town with something to hide, why the SOS?",
+      "support_knowledge": [
+        "O0_S2"
+      ]
+    },
+    {
+      "id": 99,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Sounds like an \"opportunity,\" all right.",
+      "support_knowledge": []
+    },
+    {
+      "id": 101,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "If they're hiding something, won't they be liable to shoot on sight?",
+      "support_knowledge": []
+    },
+    {
+      "id": 85,
+      "speaker_guid": "7575cc08-75cb-41fe-af32-7143b253b511",
+      "speaker": "GladysCulkelly (Female)",
+      "utterance": "Maybe whatever they're hiding went to heck, and now they need a few spare hands to clean up the mess.",
+      "support_knowledge": [
+        "O0_S2"
+      ]
+    },
+    {
+      "id": 86,
+      "speaker_guid": "7575cc08-75cb-41fe-af32-7143b253b511",
+      "speaker": "GladysCulkelly (Female)",
+      "utterance": "If you should find a secret worth selling, might be I could find a buyer. Corporate bigwigs'll pay top bit for inside information on their competitors.",
+      "support_knowledge": [
+        "gladys_culkelly_10"
+      ]
+    },
+    {
+      "id": 313,
+      "speaker_guid": "7575cc08-75cb-41fe-af32-7143b253b511",
+      "speaker": "GladysCulkelly (Female)",
+      "utterance": "The more we got the corps fightin' each other, the less time they got to meddle in our affairs.",
+      "support_knowledge": []
+    },
+    {
+      "id": 88,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "So you need someone to snoop around for you?",
+      "support_knowledge": []
+    },
+    {
+      "id": 94,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "My services don't come cheap.",
+      "support_knowledge": []
+    },
+    {
+      "id": 89,
+      "speaker_guid": "7575cc08-75cb-41fe-af32-7143b253b511",
+      "speaker": "GladysCulkelly (Female)",
+      "utterance": "My goodness, aren't you quick on the uptake. I like that.",
+      "support_knowledge": []
+    },
+    {
+      "id": 90,
+      "speaker_guid": "7575cc08-75cb-41fe-af32-7143b253b511",
+      "speaker": "GladysCulkelly (Female)",
+      "utterance": "Should you find yourself responding to a certain distress call, and in so doing find yourself in possession of certain valuable corporate secrets, well...",
+      "support_knowledge": [
+        "O0_S3",
+        "gladys_culkelly_10"
+      ]
+    },
+    {
+      "id": 170,
+      "speaker_guid": "7575cc08-75cb-41fe-af32-7143b253b511",
+      "speaker": "GladysCulkelly (Female)",
+      "utterance": "Then we ought to have a chat over a pot of tea and my famous cookies.",
+      "support_knowledge": [
+        "gladys_culkelly_08",
+        "gladys_culkelly_10"
+      ]
+    },
+    {
+      "id": 171,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "You can count on me!",
+      "support_knowledge": []
+    },
+    {
+      "id": 91,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I'll stop by if I find anything.",
+      "support_knowledge": []
+    },
+    {
+      "id": 93,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "This sounds shady. No thanks.",
+      "support_knowledge": []
+    },
+    {
+      "id": 92,
+      "speaker_guid": "7575cc08-75cb-41fe-af32-7143b253b511",
+      "speaker": "GladysCulkelly (Female)",
+      "utterance": "Law bless your atoms. Here's a copy of the SOS recording complete with the coordinates.",
+      "support_knowledge": [
+        "O0_S1",
+        "O1_S1"
+      ]
+    },
+    {
+      "id": 172,
+      "speaker_guid": "7575cc08-75cb-41fe-af32-7143b253b511",
+      "speaker": "GladysCulkelly (Female)",
+      "utterance": "Don't forget to come find old Gladys when you're done.",
+      "support_knowledge": []
+    },
+    {
+      "id": 97,
+      "speaker_guid": "7575cc08-75cb-41fe-af32-7143b253b511",
+      "speaker": "GladysCulkelly (Female)",
+      "utterance": "We don't all have the stomach for skulduggery - I understand. Be a dear and come see me again if you change your mind.",
+      "support_knowledge": []
+    },
+    {
+      "id": 72,
+      "speaker_guid": "7575cc08-75cb-41fe-af32-7143b253b511",
+      "speaker": "GladysCulkelly (Female)",
+      "utterance": "Well, I find I'm in need of a ship captain with a little... moral flexibility? Might be this could help out the Groundbreaker, as well as earn some bits. But if you've got qualms...",
+      "support_knowledge": []
+    },
+    {
+      "id": 73,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "No qualms here. Let's hear the details.",
+      "support_knowledge": []
+    },
+    {
+      "id": 77,
+      "speaker_guid": "7575cc08-75cb-41fe-af32-7143b253b511",
+      "speaker": "GladysCulkelly (Female)",
+      "utterance": "Do you know Edna, over in Engineering? Sweet as a pea, that one. On occasion, she'll pass along transmissions I might find interesting.",
+      "support_knowledge": []
+    },
+    {
+      "id": 95,
+      "speaker_guid": "7575cc08-75cb-41fe-af32-7143b253b511",
+      "speaker": "GladysCulkelly (Female)",
+      "utterance": "Neither do mine, dearie. Old Gladys knows the value of good work. You'll be compensated accordingly, I can promise you that.",
+      "support_knowledge": []
+    },
+    {
+      "id": 100,
+      "speaker_guid": "7575cc08-75cb-41fe-af32-7143b253b511",
+      "speaker": "GladysCulkelly (Female)",
+      "utterance": "I appreciate a man who knows one when he hears it.",
+      "support_knowledge": []
+    },
+    {
+      "id": 102,
+      "speaker_guid": "7575cc08-75cb-41fe-af32-7143b253b511",
+      "speaker": "GladysCulkelly (Female)",
+      "utterance": "Quite the opposite, I believe. Nothing terribly secret about gunfire, is there?",
+      "support_knowledge": []
+    },
+    {
+      "id": 290,
+      "speaker_guid": "7575cc08-75cb-41fe-af32-7143b253b511",
+      "speaker": "GladysCulkelly (Female)",
+      "utterance": "Any time, sweetheart. You know where to find me. Here, take a candy with you.",
+      "support_knowledge": []
+    },
+    {
+      "id": 291,
+      "speaker_guid": "7575cc08-75cb-41fe-af32-7143b253b511",
+      "speaker": "GladysCulkelly (Female)",
+      "utterance": "Any time, sweetheart. You know where to find me.",
+      "support_knowledge": []
+    }
+  ],
+  "dialog_edges": [
+    [
+      69,
+      71
+    ],
+    [
+      71,
+      234
+    ],
+    [
+      71,
+      7
+    ],
+    [
+      234,
+      235
+    ],
+    [
+      235,
+      168
+    ],
+    [
+      168,
+      78
+    ],
+    [
+      78,
+      213
+    ],
+    [
+      78,
+      218
+    ],
+    [
+      78,
+      81
+    ],
+    [
+      213,
+      254
+    ],
+    [
+      254,
+      312
+    ],
+    [
+      312,
+      255
+    ],
+    [
+      255,
+      43
+    ],
+    [
+      255,
+      7
+    ],
+    [
+      218,
+      219
+    ],
+    [
+      219,
+      225
+    ],
+    [
+      225,
+      78
+    ],
+    [
+      81,
+      82
+    ],
+    [
+      82,
+      83
+    ],
+    [
+      83,
+      84
+    ],
+    [
+      83,
+      99
+    ],
+    [
+      83,
+      101
+    ],
+    [
+      84,
+      85
+    ],
+    [
+      85,
+      86
+    ],
+    [
+      86,
+      313
+    ],
+    [
+      313,
+      88
+    ],
+    [
+      313,
+      94
+    ],
+    [
+      88,
+      89
+    ],
+    [
+      89,
+      90
+    ],
+    [
+      90,
+      170
+    ],
+    [
+      170,
+      171
+    ],
+    [
+      170,
+      91
+    ],
+    [
+      170,
+      93
+    ],
+    [
+      171,
+      92
+    ],
+    [
+      92,
+      172
+    ],
+    [
+      172,
+      43
+    ],
+    [
+      172,
+      7
+    ],
+    [
+      91,
+      92
+    ],
+    [
+      93,
+      97
+    ],
+    [
+      97,
+      72
+    ],
+    [
+      72,
+      73
+    ],
+    [
+      72,
+      7
+    ],
+    [
+      73,
+      77
+    ],
+    [
+      77,
+      168
+    ],
+    [
+      94,
+      95
+    ],
+    [
+      95,
+      90
+    ],
+    [
+      99,
+      100
+    ],
+    [
+      100,
+      86
+    ],
+    [
+      101,
+      102
+    ],
+    [
+      102,
+      86
+    ],
+    [
+      7,
+      290
+    ],
+    [
+      7,
+      291
+    ]
+  ]
+}

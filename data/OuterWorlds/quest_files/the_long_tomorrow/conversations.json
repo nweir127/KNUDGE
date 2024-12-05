@@ -1,0 +1,108 @@
+[
+  {
+    "id": "the_long_tomorrow_00",
+    "quest_name": "the_long_tomorrow",
+    "conversation": {
+      "filename": "00_cv_abernathy",
+      "start_node": 225,
+      "end_nodes": [],
+      "force_include": [
+        71,
+        35,
+        68
+      ],
+      "force_sequence": [
+        [
+          71,
+          29
+        ]
+      ]
+    },
+    "in_objective": "O0",
+    "out_objective": "O1",
+    "participants": [
+      "martin_abernathy"
+    ]
+  },
+  {
+    "id": "the_long_tomorrow_01",
+    "quest_name": "the_long_tomorrow",
+    "conversation": {
+      "filename": "00_cv_esther",
+      "start_node": 89,
+      "end_nodes": [],
+      "force_include": [],
+      "force_sequence": []
+    },
+    "in_objective": "O0",
+    "out_objective": "O1",
+    "participants": [
+      "esther_blaine"
+    ]
+  },
+  {
+    "id": "the_long_tomorrow_02",
+    "quest_name": "the_long_tomorrow",
+    "conversation": {
+      "filename": "00_cv_abernathy",
+      "start_node": 28,
+      "end_nodes": [],
+      "force_include": [
+        135,
+        132,
+        134
+      ],
+      "force_sequence": []
+    },
+    "in_objective": "O1",
+    "participants": [
+      "martin_abernathy"
+    ]
+  },
+  {
+    "id": "the_long_tomorrow_03",
+    "quest_name": "the_long_tomorrow",
+    "conversation": {
+      "filename": "00_cv_esther",
+      "start_node": 85,
+      "end_nodes": [],
+      "force_include": [
+        96,
+        131,
+        133
+      ],
+      "force_sequence": [
+        [
+          96,
+          87
+        ]
+      ]
+    },
+    "in_objective": "O1",
+    "participants": [
+      "esther_blaine"
+    ]
+  },
+  {
+    "id": "the_long_tomorrow_04",
+    "quest_name": "the_long_tomorrow",
+    "conversation": {
+      "filename": "00_cv_rosemary",
+      "start_node": 1,
+      "end_nodes": [],
+      "force_include": [
+        29,
+        23,
+        61,
+        72,
+        73,
+        71
+      ],
+      "force_sequence": []
+    },
+    "in_objective": "O1",
+    "participants": [
+      "rosemary_kwan"
+    ]
+  }
+]

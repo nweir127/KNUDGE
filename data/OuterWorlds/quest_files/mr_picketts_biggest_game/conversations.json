@@ -1,0 +1,40 @@
+[
+  {
+    "id": "mr_picketts_biggest_game_00",
+    "quest_name": "mr_picketts_biggest_game",
+    "conversation": {
+      "filename": "0402_cv_sebastianadams",
+      "start_node": 102,
+      "end_nodes": [
+        104
+      ],
+      "force_include": [
+        158
+      ]
+    },
+    "in_objective": "O0",
+    "out_objective": "O1",
+    "participants": [
+      "sebastian_adams"
+    ]
+  },
+  {
+    "id": "mr_picketts_biggest_game_01",
+    "quest_name": "mr_picketts_biggest_game",
+    "conversation": {
+      "filename": "0402_cv_sebastianadams",
+      "start_node": 145,
+      "end_nodes": [
+        147
+      ],
+      "force_include": []
+    },
+    "in_objective": [
+      "O1",
+      "O2"
+    ],
+    "participants": [
+      "sebastian_adams"
+    ]
+  }
+]

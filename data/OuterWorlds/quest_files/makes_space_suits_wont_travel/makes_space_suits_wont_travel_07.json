@@ -1,0 +1,280 @@
+{
+  "id": "makes_space_suits_wont_travel_07",
+  "quest_name": "makes_space_suits_wont_travel",
+  "conversation": {
+    "filename": "0202_cv_task_force_commander",
+    "start_node": 1,
+    "end_nodes": [],
+    "force_include": [],
+    "force_sequence": []
+  },
+  "in_objective": "O7",
+  "out_objective": "O8",
+  "participants": [
+    "byzantium_task_force_commander"
+  ],
+  "objectives": {
+    "O7": {
+      "summary": "Return to Celeste",
+      "description": {
+        "S1": "Now that you have Celeste's lapel,",
+        "S2": "she can finally place the finishing touches on her prototype."
+      },
+      "blurb": {
+        "B1": "returning to Ms. Jolicoeur,",
+        "B2": "the player will find her dead,",
+        "B3": "in the middle of her store.",
+        "B4": "A Corporate Commander will instruct the player to stand back.",
+        "B5": "Pressing further reveals that whatever the Chimaera was supposed to look like,",
+        "B6": "was not in fact legal in Byzantium.",
+        "B7": "As such, being caught red handed with the garment in her possession,",
+        "B8": "an attempt at her arrest was made by the Corporate Troopers,",
+        "B9": "but unfortunately for her, she didn't feel like cooperating,",
+        "B10": "and the guards didn't feel like negotiating,",
+        "B11": "so they shot her.",
+        "B12": "The player has the option to accuse the Trooper of murder and attack,",
+        "B13": "but this understandably a bad idea being that this individual is a high ranking member of Byzantium's Police Force.",
+        "B14": "The other option is to simply call them insane,",
+        "B15": "in which case they say UDL's motto, and walk off."
+      }
+    },
+    "O8": {
+      "summary": "Search Celeste's Shop",
+      "description": {
+        "S1": "Celeste is dead,",
+        "S2": "but she may have left her prototype suit behind."
+      },
+      "blurb": {}
+    }
+  },
+  "dialog": [
+    {
+      "id": 1,
+      "speaker_guid": "6b49c165-0c47-44cb-a3f1-022fb2b731cc",
+      "speaker": "ByzTaskForceCommander (Female)",
+      "utterance": "Hey. Careful. Don't go running around in the middle of a crime scene.",
+      "support_knowledge": [
+        "O7_B4"
+      ]
+    },
+    {
+      "id": 2,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "What happened to Celeste?",
+      "support_knowledge": [
+        "O7_B2",
+        "O7_B3"
+      ]
+    },
+    {
+      "id": 3,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I didn't think this kind of thing happened here.",
+      "support_knowledge": [
+        "byzantium_01",
+        "byzantium_02"
+      ]
+    },
+    {
+      "id": 4,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I can handle myself.",
+      "support_knowledge": []
+    },
+    {
+      "id": 5,
+      "speaker_guid": "6b49c165-0c47-44cb-a3f1-022fb2b731cc",
+      "speaker": "ByzTaskForceCommander (Female)",
+      "utterance": "You mean Ms. Jolicoeur. She was reported for practicing a subversive aesthetic. ",
+      "support_knowledge": [
+        "O7_B5",
+        "O7_B6"
+      ]
+    },
+    {
+      "id": 16,
+      "speaker_guid": "6b49c165-0c47-44cb-a3f1-022fb2b731cc",
+      "speaker": "ByzTaskForceCommander (Female)",
+      "utterance": "We found her in her office working on something perverse. She didn't cooperate, so we had to put her down.",
+      "support_knowledge": [
+        "O7_B7",
+        "O7_B8",
+        "O7_B9",
+        "O7_B10",
+        "O7_B11"
+      ]
+    },
+    {
+      "id": 6,
+      "speaker_guid": "6b49c165-0c47-44cb-a3f1-022fb2b731cc",
+      "speaker": "ByzTaskForceCommander (Female)",
+      "utterance": "Never took her for a dissident sympathizer. ",
+      "support_knowledge": []
+    },
+    {
+      "id": 9,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "You killed Celeste? That's insane!",
+      "support_knowledge": [
+        "O7_B11",
+        "O7_B14"
+      ]
+    },
+    {
+      "id": 10,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Did you really have to kill her? We were doing business.",
+      "support_knowledge": []
+    },
+    {
+      "id": 11,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "<Attack> Murderer!",
+      "support_knowledge": [
+        "O7_B12"
+      ]
+    },
+    {
+      "id": 17,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I'll leave you be.",
+      "support_knowledge": []
+    },
+    {
+      "id": 12,
+      "speaker_guid": "6b49c165-0c47-44cb-a3f1-022fb2b731cc",
+      "speaker": "ByzTaskForceCommander (Female)",
+      "utterance": "No argument there. Feels like the whole colony's going insane, what with dissidents infiltrating the walls of Byzantium.",
+      "support_knowledge": [
+        "byzantium_01",
+        "byzantium_07"
+      ]
+    },
+    {
+      "id": 13,
+      "speaker_guid": "6b49c165-0c47-44cb-a3f1-022fb2b731cc",
+      "speaker": "ByzTaskForceCommander (Female)",
+      "utterance": "Byzantium cultural standards are enforced by Universal Defense Logistics. Universal Defense Logistics - your first and last line of defense in the war against sedition.",
+      "support_knowledge": [
+        "byzantium_01",
+        "udl_01"
+      ]
+    },
+    {
+      "id": 18,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Excuse me.",
+      "support_knowledge": []
+    },
+    {
+      "id": 14,
+      "speaker_guid": "6b49c165-0c47-44cb-a3f1-022fb2b731cc",
+      "speaker": "ByzTaskForceCommander (Female)",
+      "utterance": "Byzantium security regrets any disruption to regular flow of commerce. However, cultural and moral hygiene must always be maintained.",
+      "support_knowledge": []
+    },
+    {
+      "id": 7,
+      "speaker_guid": "6b49c165-0c47-44cb-a3f1-022fb2b731cc",
+      "speaker": "ByzTaskForceCommander (Female)",
+      "utterance": "Strange times we live in. Radicals and dissidents living within the walls of Byzantium, hiding in plain sight. Never imagined Ms. Jolicoeur was one of them.",
+      "support_knowledge": []
+    },
+    {
+      "id": 8,
+      "speaker_guid": "6b49c165-0c47-44cb-a3f1-022fb2b731cc",
+      "speaker": "ByzTaskForceCommander (Female)",
+      "utterance": "You say that, but subversives work in subtle ways. Ms. Jolicoeur's art was found in violation of the Board's cultural standards.",
+      "support_knowledge": [
+        "O7_B5",
+        "O7_B6"
+      ]
+    }
+  ],
+  "dialog_edges": [
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      1,
+      4
+    ],
+    [
+      2,
+      5
+    ],
+    [
+      5,
+      16
+    ],
+    [
+      16,
+      6
+    ],
+    [
+      6,
+      9
+    ],
+    [
+      6,
+      10
+    ],
+    [
+      6,
+      11
+    ],
+    [
+      6,
+      17
+    ],
+    [
+      9,
+      12
+    ],
+    [
+      12,
+      13
+    ],
+    [
+      13,
+      18
+    ],
+    [
+      10,
+      14
+    ],
+    [
+      14,
+      13
+    ],
+    [
+      3,
+      7
+    ],
+    [
+      7,
+      16
+    ],
+    [
+      4,
+      8
+    ],
+    [
+      8,
+      16
+    ]
+  ]
+}

@@ -1,0 +1,782 @@
+{
+  "id": "the_silent_voices_00",
+  "quest_name": "the_silent_voices",
+  "conversation": {
+    "filename": "01_cv_ingmire_edna",
+    "start_node": 1,
+    "end_nodes": [],
+    "force_include": [],
+    "force_sequence": []
+  },
+  "in_objective": "O0",
+  "out_objective": "O1",
+  "participants": [
+    "edna_ingmire"
+  ],
+  "objectives": {
+    "O0": {
+      "description": {
+        "S1": "The Groundbreaker's primary communications relay station is about to be occluded by one of Halcyon's gas giants for the next few months.",
+        "S2": "To avoid being entirely cut off,",
+        "S3": "they need the old backup relay station operational again.",
+        "S4": "Edna Ingmire in communications hired you to travel to Relay GB-23 and bring the station online."
+      },
+      "blurb": {
+        "B1": "After completing Happiness is a Warm Spaceship,",
+        "B2": "Junlei Tennyson will mention that Edna Ingmire has something which she could use the Stranger's help with.",
+        "B3": "Edna will explain that the Groundbreaker is about to lose its communications capabilities,",
+        "B4": "as its primary communications relay is about to be occluded by one of Halcyon's gas giants for the next few months.",
+        "B5": "Unfortunately, the only backup auxiliary relay within orbital range went offline months ago,",
+        "B6": "and Groundbreaker cannot spare any people for maintenance.",
+        "B7": "Offering to help get the station back online starts the quest.",
+        "B8": "Edna will also give the Stranger a Relay Diagnostics Manual to help them diagnose the problem with the station",
+        "B9": "and asks them to retrieve a copy of the relay's backup data so she can forward any messages from Earth stored in the memory."
+      }
+    },
+    "O1": {
+      "summary": "Travel to Relay GB-23",
+      "description": {
+        "S1": "The Groundbreaker's backup communications relay went offline a while ago.",
+        "S2": "Now that the station's primary relay is going to be occluded,",
+        "S3": "this backup relay must be repaired."
+      },
+      "blurb": {
+        "B1": "Travel to Relay GB-23 with your ship and defeat the robots there."
+      }
+    }
+  },
+  "dialog": [
+    {
+      "id": 1,
+      "speaker_guid": "0783640a-8f98-4a46-bd11-ab4b125ac1b4",
+      "speaker": "EdnaIngmire (Female)",
+      "utterance": "You aiming to send a message? If so, we'd best do it now while we still got time.",
+      "support_knowledge": [
+        "O0_S1"
+      ]
+    },
+    {
+      "id": 2,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Why would we run out of time? You headed somewhere?",
+      "support_knowledge": [
+        "O0_S1"
+      ]
+    },
+    {
+      "id": 3,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Is that what you do for Groundbreaker? Relay messages?",
+      "support_knowledge": [
+        "edna_ingmire_01"
+      ]
+    },
+    {
+      "id": 4,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Another time, maybe.",
+      "support_knowledge": []
+    },
+    {
+      "id": 103,
+      "speaker_guid": "0783640a-8f98-4a46-bd11-ab4b125ac1b4",
+      "speaker": "EdnaIngmire (Female)",
+      "utterance": "Me? No. But our relaying capabilities? That's on the final countdown.",
+      "support_knowledge": [
+        "O0_B3"
+      ]
+    },
+    {
+      "id": 5,
+      "speaker_guid": "0783640a-8f98-4a46-bd11-ab4b125ac1b4",
+      "speaker": "EdnaIngmire (Female)",
+      "utterance": "We're going offline in three... two... one and a half - no, wait, I've lost track of my weeks. Maybe it was thirty-six or...? Uh, sometime dire soon.",
+      "support_knowledge": [
+        "O0_B3"
+      ]
+    },
+    {
+      "id": 7,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Why are you about to lose comm capabilities?",
+      "support_knowledge": [
+        "O0_S1"
+      ]
+    },
+    {
+      "id": 8,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "So, this is the Groundbreaker's message center?",
+      "support_knowledge": []
+    },
+    {
+      "id": 9,
+      "speaker_guid": "0783640a-8f98-4a46-bd11-ab4b125ac1b4",
+      "speaker": "EdnaIngmire (Female)",
+      "utterance": "Our primary relay station's soon to be occluded by a gas giant. Happens every forty years or therebouts.",
+      "support_knowledge": [
+        "O0_B4"
+      ]
+    },
+    {
+      "id": 10,
+      "speaker_guid": "0783640a-8f98-4a46-bd11-ab4b125ac1b4",
+      "speaker": "EdnaIngmire (Female)",
+      "utterance": "The event's forecasted to last for months - during which we'll lose signal to the station. ",
+      "support_knowledge": [
+        "O0_B4"
+      ]
+    },
+    {
+      "id": 11,
+      "speaker_guid": "0783640a-8f98-4a46-bd11-ab4b125ac1b4",
+      "speaker": "EdnaIngmire (Female)",
+      "utterance": "We've got backup auxiliary relays. But the one currently in orbital range went offline some months ago. We can't spare people for routine maintenance.",
+      "support_knowledge": [
+        "O0_B5",
+        "O0_B6",
+        "relay_gb-23_05"
+      ]
+    },
+    {
+      "id": 12,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Sounds like it's time to get the auxiliary station back online.",
+      "support_knowledge": [
+        "O0_B7"
+      ]
+    },
+    {
+      "id": 13,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "How are you cut off by losing one relay station?",
+      "support_knowledge": []
+    },
+    {
+      "id": 14,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Can't the Board handle the messages?",
+      "support_knowledge": [
+        "the_board_01"
+      ]
+    },
+    {
+      "id": 98,
+      "speaker_guid": "0783640a-8f98-4a46-bd11-ab4b125ac1b4",
+      "speaker": "EdnaIngmire (Female)",
+      "utterance": "Yeah, I'm working on it. I finally got the Chief to approve the budget for a diagnostic expedition.",
+      "support_knowledge": [
+        "relay_gb-23_05"
+      ]
+    },
+    {
+      "id": 15,
+      "speaker_guid": "0783640a-8f98-4a46-bd11-ab4b125ac1b4",
+      "speaker": "EdnaIngmire (Female)",
+      "utterance": "But allocating the personnel loss for sending a technical team to the relay station keeps getting denied by Junlei. Er, the Chief.",
+      "support_knowledge": [
+        "relay_gb-23_06"
+      ]
+    },
+    {
+      "id": 18,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I could check out the relay, no need for official sign-off in that case.",
+      "support_knowledge": [
+        "O0_B7"
+      ]
+    },
+    {
+      "id": 23,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "What's in it for me if I investigate your relay problem?",
+      "support_knowledge": [
+        "O0_B7"
+      ]
+    },
+    {
+      "id": 19,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Seems irresponsible not to have fixed your backup relay before now.",
+      "support_knowledge": [
+        "O0_B6"
+      ]
+    },
+    {
+      "id": 24,
+      "speaker_guid": "0783640a-8f98-4a46-bd11-ab4b125ac1b4",
+      "speaker": "EdnaIngmire (Female)",
+      "utterance": "I should say no, but... why not? Maybe you can figure out why it's offline. I'll send you with an equipment manual. Hopefully, we'll get lucky or I'll get my approval in time.",
+      "support_knowledge": [
+        "O0_B8",
+        "relay_gb-23_07"
+      ]
+    },
+    {
+      "id": 28,
+      "speaker_guid": "0783640a-8f98-4a46-bd11-ab4b125ac1b4",
+      "speaker": "EdnaIngmire (Female)",
+      "utterance": "Oh, and I'll need you to retrieve a copy of the relay's backup data. I got to forward any messages from Earth stored in the memory. Better late than never, eh?",
+      "support_knowledge": [
+        "O0_B9",
+        "relay_gb-23_04",
+        "relay_gb-23_07"
+      ]
+    },
+    {
+      "id": 29,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "What do you mean?",
+      "support_knowledge": []
+    },
+    {
+      "id": 30,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "You just let messages from Earth sit in memory on an orbital relay?",
+      "support_knowledge": []
+    },
+    {
+      "id": 31,
+      "speaker_guid": "0783640a-8f98-4a46-bd11-ab4b125ac1b4",
+      "speaker": "EdnaIngmire (Female)",
+      "utterance": "The relay stations orbit the edge of the Halcyon system, so they tend to receive the majority of any transmissions from Earth.",
+      "support_knowledge": [
+        "relay_gb-23_04"
+      ]
+    },
+    {
+      "id": 33,
+      "speaker_guid": "0783640a-8f98-4a46-bd11-ab4b125ac1b4",
+      "speaker": "EdnaIngmire (Female)",
+      "utterance": "I'm sure the station's got a stack of junk messages just waiting for me to sort through.",
+      "support_knowledge": [
+        "O0_B9"
+      ]
+    },
+    {
+      "id": 34,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I'm off.",
+      "support_knowledge": []
+    },
+    {
+      "id": 32,
+      "speaker_guid": "0783640a-8f98-4a46-bd11-ab4b125ac1b4",
+      "speaker": "EdnaIngmire (Female)",
+      "utterance": "It's not like they're in high demand. Most tend to be adverts on new products, meaning only folks in Byzantium can afford 'em.",
+      "support_knowledge": []
+    },
+    {
+      "id": 25,
+      "speaker_guid": "0783640a-8f98-4a46-bd11-ab4b125ac1b4",
+      "speaker": "EdnaIngmire (Female)",
+      "utterance": "You save my comm center from chaos - I guarantee I'll get the Chief to authorize some payment forms with your name on 'em while you're out fixing the station.",
+      "support_knowledge": []
+    },
+    {
+      "id": 26,
+      "speaker_guid": "0783640a-8f98-4a46-bd11-ab4b125ac1b4",
+      "speaker": "EdnaIngmire (Female)",
+      "utterance": "We don't know why it went down or if it's even a hardware-related issue. Getting a team out there takes time and money - neither of which we have readily on hand.",
+      "support_knowledge": [
+        "O0_B6"
+      ]
+    },
+    {
+      "id": 102,
+      "speaker_guid": "0783640a-8f98-4a46-bd11-ab4b125ac1b4",
+      "speaker": "EdnaIngmire (Female)",
+      "utterance": "And we do have multiple auxiliaries. Just... they won't be in orbital range during the next few months. Our backup station will be.",
+      "support_knowledge": [
+        "O0_B5",
+        "relay_gb-23_01",
+        "relay_gb-23_03"
+      ]
+    },
+    {
+      "id": 35,
+      "speaker_guid": "0783640a-8f98-4a46-bd11-ab4b125ac1b4",
+      "speaker": "EdnaIngmire (Female)",
+      "utterance": "If it weren't for the occlusion event coming our way, we'd be doing fine as always.",
+      "support_knowledge": [
+        "O0_S1",
+        "O0_B3",
+        "O0_B4"
+      ]
+    },
+    {
+      "id": 16,
+      "speaker_guid": "0783640a-8f98-4a46-bd11-ab4b125ac1b4",
+      "speaker": "EdnaIngmire (Female)",
+      "utterance": "Well, we wouldn't be utterly and completely blacked out, but we'd lose the majority of our comm traffic for sure. ",
+      "support_knowledge": []
+    },
+    {
+      "id": 100,
+      "speaker_guid": "0783640a-8f98-4a46-bd11-ab4b125ac1b4",
+      "speaker": "EdnaIngmire (Female)",
+      "utterance": "Ships and colonies on Terra 2 need a clear line from their communications towers to the Groundbreaker for the transmissions to make it through. ",
+      "support_knowledge": []
+    },
+    {
+      "id": 38,
+      "speaker_guid": "0783640a-8f98-4a46-bd11-ab4b125ac1b4",
+      "speaker": "EdnaIngmire (Female)",
+      "utterance": "If it's not clear, they transmit to the closest relay station which stores the message, then passes it along when our orbits align.",
+      "support_knowledge": []
+    },
+    {
+      "id": 39,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "What about the other auxiliary relay stations?",
+      "support_knowledge": []
+    },
+    {
+      "id": 40,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Can't ships relay messages to each other?",
+      "support_knowledge": []
+    },
+    {
+      "id": 41,
+      "speaker_guid": "0783640a-8f98-4a46-bd11-ab4b125ac1b4",
+      "speaker": "EdnaIngmire (Female)",
+      "utterance": "The others won't be in orbital range during the occlusion event. Isn't it some law of the universe? The relay I got to rely on is, of course, the one on the fritz.",
+      "support_knowledge": [
+        "O0_B4"
+      ]
+    },
+    {
+      "id": 42,
+      "speaker_guid": "0783640a-8f98-4a46-bd11-ab4b125ac1b4",
+      "speaker": "EdnaIngmire (Female)",
+      "utterance": "That they can, and they do. But only between ships owned by the same corporation. No corp'll authorize sending messages through a ship owned by a rival.",
+      "support_knowledge": []
+    },
+    {
+      "id": 220,
+      "speaker_guid": "0783640a-8f98-4a46-bd11-ab4b125ac1b4",
+      "speaker": "EdnaIngmire (Female)",
+      "utterance": "And no corp'll relay messages for the wildcat freighters. Not without charging them more than they'll make in a single haul, anyway.",
+      "support_knowledge": []
+    },
+    {
+      "id": 43,
+      "speaker_guid": "0783640a-8f98-4a46-bd11-ab4b125ac1b4",
+      "speaker": "EdnaIngmire (Female)",
+      "utterance": "That's why we're the message hub. The Groundbreaker's neither corporate owned, nor Board controlled. Our comms are neutral.",
+      "support_knowledge": [
+        "groundbreaker_01",
+        "groundbreaker_02",
+        "groundbreaker_03"
+      ]
+    },
+    {
+      "id": 199,
+      "speaker_guid": "0783640a-8f98-4a46-bd11-ab4b125ac1b4",
+      "speaker": "EdnaIngmire (Female)",
+      "utterance": "Sure, I mean they got their own relays 'n all, but they'll only send along messages the corporations pay for...",
+      "support_knowledge": []
+    },
+    {
+      "id": 17,
+      "speaker_guid": "0783640a-8f98-4a46-bd11-ab4b125ac1b4",
+      "speaker": "EdnaIngmire (Female)",
+      "utterance": "...and then they charge folks to send messages back, often more'n they can afford.",
+      "support_knowledge": []
+    },
+    {
+      "id": 44,
+      "speaker_guid": "0783640a-8f98-4a46-bd11-ab4b125ac1b4",
+      "speaker": "EdnaIngmire (Female)",
+      "utterance": "And none of that money goes to the Groundbreaker - just tightens the Board's grip on our throat.",
+      "support_knowledge": [
+        "the_board_01",
+        "groundbreaker_14",
+        "groundbreaker_15"
+      ]
+    },
+    {
+      "id": 200,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "That's their right as the service provider. Stop looking for handouts.",
+      "support_knowledge": []
+    },
+    {
+      "id": 45,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Don't you charge people for messages, too?",
+      "support_knowledge": []
+    },
+    {
+      "id": 201,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Fuck the Board.",
+      "support_knowledge": [
+        "the_board_01"
+      ]
+    },
+    {
+      "id": 202,
+      "speaker_guid": "0783640a-8f98-4a46-bd11-ab4b125ac1b4",
+      "speaker": "EdnaIngmire (Female)",
+      "utterance": "Ain't a handout to want to be treated fair and humane.",
+      "support_knowledge": []
+    },
+    {
+      "id": 49,
+      "speaker_guid": "0783640a-8f98-4a46-bd11-ab4b125ac1b4",
+      "speaker": "EdnaIngmire (Female)",
+      "utterance": "Before long, the only place for people to trade words and goods will be on Terra 2, right under the Board's control.",
+      "support_knowledge": []
+    },
+    {
+      "id": 208,
+      "speaker_guid": "0783640a-8f98-4a46-bd11-ab4b125ac1b4",
+      "speaker": "EdnaIngmire (Female)",
+      "utterance": "That'd spell the end of Groundbreaker.",
+      "support_knowledge": []
+    },
+    {
+      "id": 47,
+      "speaker_guid": "0783640a-8f98-4a46-bd11-ab4b125ac1b4",
+      "speaker": "EdnaIngmire (Female)",
+      "utterance": "Not nearly as much, and that money goes to keeping the station operational, helps keep us independent. If we lose the message fees, the entire ship'll feel the pinch.",
+      "support_knowledge": [
+        "groundbreaker_02",
+        "groundbreaker_03"
+      ]
+    },
+    {
+      "id": 209,
+      "speaker_guid": "0783640a-8f98-4a46-bd11-ab4b125ac1b4",
+      "speaker": "EdnaIngmire (Female)",
+      "utterance": "Maybe they're good to their people, I can't rightly say. But they're no good for us, not for Groundbreaker.",
+      "support_knowledge": []
+    },
+    {
+      "id": 6,
+      "speaker_guid": "0783640a-8f98-4a46-bd11-ab4b125ac1b4",
+      "speaker": "EdnaIngmire (Female)",
+      "utterance": "Well, yeah. The comm center routes all messages within, to, and from the Groundbreaker. We also switchboard most of the message traffic throughout the Halcyon system.",
+      "support_knowledge": []
+    },
+    {
+      "id": 51,
+      "speaker_guid": "0783640a-8f98-4a46-bd11-ab4b125ac1b4",
+      "speaker": "EdnaIngmire (Female)",
+      "utterance": "'Course, we're about to go dead, so... I may be reappropriated to Architect knows where doing Law knows what soon enough.",
+      "support_knowledge": [
+        "O0_S1"
+      ]
+    },
+    {
+      "id": 52,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Never mind.",
+      "support_knowledge": []
+    }
+  ],
+  "dialog_edges": [
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      1,
+      4
+    ],
+    [
+      2,
+      103
+    ],
+    [
+      103,
+      5
+    ],
+    [
+      5,
+      7
+    ],
+    [
+      5,
+      8
+    ],
+    [
+      5,
+      4
+    ],
+    [
+      7,
+      9
+    ],
+    [
+      9,
+      10
+    ],
+    [
+      10,
+      11
+    ],
+    [
+      11,
+      12
+    ],
+    [
+      11,
+      13
+    ],
+    [
+      11,
+      14
+    ],
+    [
+      11,
+      4
+    ],
+    [
+      12,
+      98
+    ],
+    [
+      98,
+      15
+    ],
+    [
+      15,
+      18
+    ],
+    [
+      15,
+      23
+    ],
+    [
+      15,
+      19
+    ],
+    [
+      15,
+      4
+    ],
+    [
+      18,
+      24
+    ],
+    [
+      24,
+      28
+    ],
+    [
+      28,
+      29
+    ],
+    [
+      28,
+      30
+    ],
+    [
+      29,
+      31
+    ],
+    [
+      31,
+      33
+    ],
+    [
+      33,
+      30
+    ],
+    [
+      33,
+      34
+    ],
+    [
+      30,
+      32
+    ],
+    [
+      32,
+      33
+    ],
+    [
+      32,
+      34
+    ],
+    [
+      23,
+      25
+    ],
+    [
+      25,
+      15
+    ],
+    [
+      19,
+      26
+    ],
+    [
+      26,
+      102
+    ],
+    [
+      102,
+      35
+    ],
+    [
+      35,
+      15
+    ],
+    [
+      13,
+      16
+    ],
+    [
+      16,
+      100
+    ],
+    [
+      100,
+      38
+    ],
+    [
+      38,
+      39
+    ],
+    [
+      38,
+      40
+    ],
+    [
+      39,
+      41
+    ],
+    [
+      41,
+      40
+    ],
+    [
+      41,
+      11
+    ],
+    [
+      40,
+      42
+    ],
+    [
+      42,
+      220
+    ],
+    [
+      220,
+      43
+    ],
+    [
+      43,
+      39
+    ],
+    [
+      43,
+      11
+    ],
+    [
+      14,
+      199
+    ],
+    [
+      199,
+      17
+    ],
+    [
+      17,
+      44
+    ],
+    [
+      44,
+      200
+    ],
+    [
+      44,
+      45
+    ],
+    [
+      44,
+      201
+    ],
+    [
+      200,
+      202
+    ],
+    [
+      202,
+      49
+    ],
+    [
+      49,
+      208
+    ],
+    [
+      208,
+      11
+    ],
+    [
+      45,
+      47
+    ],
+    [
+      47,
+      49
+    ],
+    [
+      201,
+      209
+    ],
+    [
+      209,
+      11
+    ],
+    [
+      8,
+      6
+    ],
+    [
+      6,
+      51
+    ],
+    [
+      51,
+      7
+    ],
+    [
+      51,
+      52
+    ],
+    [
+      3,
+      6
+    ]
+  ]
+}

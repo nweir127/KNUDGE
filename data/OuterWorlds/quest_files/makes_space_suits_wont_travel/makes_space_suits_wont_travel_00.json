@@ -1,0 +1,716 @@
+{
+  "id": "makes_space_suits_wont_travel_00",
+  "quest_name": "makes_space_suits_wont_travel",
+  "conversation": {
+    "filename": "0202_cv_celeste_jolicoeur",
+    "start_node": 1,
+    "end_nodes": [
+      6
+    ],
+    "force_include": [
+      86,
+      8
+    ],
+    "force_sequence": []
+  },
+  "in_objective": "O0",
+  "out_objective": "O1",
+  "participants": [
+    "celeste_jolicoeur"
+  ],
+  "objectives": {
+    "O0": {
+      "description": {
+        "S1": "Byzantium's premiere fashion icon, Celeste Jolicoeur,",
+        "S2": "has hired you to help her create the ultimate outfit -",
+        "S3": "the perfect marriage of the chic and the shocking."
+      },
+      "blurb": {
+        "B1": "Speak to Celeste Jolicoeur in Prosperity Plaza of Byzantium and agree to help her to obtain this quest."
+      }
+    },
+    "O1": {
+      "summary": "Model Outfits for Celeste",
+      "description": {
+        "S1": "Celeste needs to see what the rest of Halcyon wears outside of Byzantium.",
+        "S2": "Speak to Celeste while wearing a suit of armor and headpiece from the following sets:",
+        "S3": "Iconoclast, Marauder and Spacers"
+      },
+      "blurb": {
+        "B1": "Acquire Iconoclast Armor and Headpiece, Marauder Armor and Headpiece and Spacer Armor and Headpiece and model them for her.",
+        "B2": "After modeling these for her,",
+        "B3": "she'll ask you to gather some materials."
+      }
+    }
+  },
+  "dialog": [
+    {
+      "id": 1,
+      "speaker_guid": "8671846e-f11e-4f16-80bf-4ecacac57066",
+      "speaker": "CelesteJolicoeur (Female)",
+      "utterance": "Ah-ah-ah. Don't speak. Hold that posture for a moment while I admire you. You have a natural contrapposto, my dear. ",
+      "support_knowledge": []
+    },
+    {
+      "id": 7,
+      "speaker_guid": "8671846e-f11e-4f16-80bf-4ecacac57066",
+      "speaker": "CelesteJolicoeur (Female)",
+      "utterance": "The way you rest your weight against your hip suggests a certain rugged charisma possessed only by the mighty primal, and the well-traveled spacer. Splendid! I love it!",
+      "support_knowledge": []
+    },
+    {
+      "id": 8,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "You can tell all that by the way I'm standing?",
+      "support_knowledge": []
+    },
+    {
+      "id": 9,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "That's me. Rugged and well-traveled.",
+      "support_knowledge": []
+    },
+    {
+      "id": 86,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "There it is. The most pretentious thing I'll hear all day.",
+      "support_knowledge": []
+    },
+    {
+      "id": 12,
+      "speaker_guid": "8671846e-f11e-4f16-80bf-4ecacac57066",
+      "speaker": "CelesteJolicoeur (Female)",
+      "utterance": "Your walk. Your posture. The cut of your clothes. You carry yourself with the bearing of a noble, but you dress like a barbarian. How deliciously outr\u00e9!",
+      "support_knowledge": []
+    },
+    {
+      "id": 13,
+      "speaker_guid": "8671846e-f11e-4f16-80bf-4ecacac57066",
+      "speaker": "CelesteJolicoeur (Female)",
+      "utterance": "I'm Celeste Jolicoeur. And you, my dear, are exactly what Byzantium needs.",
+      "support_knowledge": [
+        "celeste_jolicoeur_01",
+        "byzantium_01"
+      ]
+    },
+    {
+      "id": 91,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "It's like you read my mind.",
+      "support_knowledge": []
+    },
+    {
+      "id": 93,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Are you trying to sell me something?",
+      "support_knowledge": []
+    },
+    {
+      "id": 92,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "What Byzantium needs is to be taken apart brick by brick.",
+      "support_knowledge": []
+    },
+    {
+      "id": 94,
+      "speaker_guid": "8671846e-f11e-4f16-80bf-4ecacac57066",
+      "speaker": "CelesteJolicoeur (Female)",
+      "utterance": "Darling, you and that brutish swagger of yours have been on my mind the moment you stepped into my studio.",
+      "support_knowledge": []
+    },
+    {
+      "id": 14,
+      "speaker_guid": "8671846e-f11e-4f16-80bf-4ecacac57066",
+      "speaker": "CelesteJolicoeur (Female)",
+      "utterance": "I'm working on a new line of clothing that will shock this city to its core, and I'd like your help. What do you say, my dear? Care to make history with me?",
+      "support_knowledge": [
+        "O0_S1",
+        "O0_S2",
+        "O0_S3"
+      ]
+    },
+    {
+      "id": 16,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Sounds like fun. Count me in.",
+      "support_knowledge": [
+        "O0_B1"
+      ]
+    },
+    {
+      "id": 98,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "You've got a pretty high opinion of someone you just met.",
+      "support_knowledge": []
+    },
+    {
+      "id": 101,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "What do you have in mind?",
+      "support_knowledge": []
+    },
+    {
+      "id": 17,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I'll think about it.",
+      "support_knowledge": []
+    },
+    {
+      "id": 18,
+      "speaker_guid": "8671846e-f11e-4f16-80bf-4ecacac57066",
+      "speaker": "CelesteJolicoeur (Female)",
+      "utterance": "Marvelous! You and I are going to wake this city up like a cold splash of wine to the face.",
+      "support_knowledge": []
+    },
+    {
+      "id": 36,
+      "speaker_guid": "8671846e-f11e-4f16-80bf-4ecacac57066",
+      "speaker": "CelesteJolicoeur (Female)",
+      "utterance": "What I need is a survey of the outside world. What does the common laborer wear? How do the wild-eyed madmen of Monarch dress themselves? I've heard rumors, but I require samples.",
+      "support_knowledge": [
+        "O1_S1"
+      ]
+    },
+    {
+      "id": 37,
+      "speaker_guid": "8671846e-f11e-4f16-80bf-4ecacac57066",
+      "speaker": "CelesteJolicoeur (Female)",
+      "utterance": "Also, I expect you to model for me.",
+      "support_knowledge": [
+        "O1_S2"
+      ]
+    },
+    {
+      "id": 38,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "What's the benefit of seeing me wear it?",
+      "support_knowledge": [
+        "O1_S2"
+      ]
+    },
+    {
+      "id": 39,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Any excuse to admire my looks, huh? Can't blame you.",
+      "support_knowledge": []
+    },
+    {
+      "id": 40,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I'm not much for modeling.",
+      "support_knowledge": []
+    },
+    {
+      "id": 41,
+      "speaker_guid": "8671846e-f11e-4f16-80bf-4ecacac57066",
+      "speaker": "CelesteJolicoeur (Female)",
+      "utterance": "My dear, fashion is a performance art. An outfit without a body is like an instrument without a player. ",
+      "support_knowledge": []
+    },
+    {
+      "id": 64,
+      "speaker_guid": "8671846e-f11e-4f16-80bf-4ecacac57066",
+      "speaker": "CelesteJolicoeur (Female)",
+      "utterance": "I'll need you to model for me the following: the apparel of an Iconoclast, the armor of a marauder, and a full ensemble of spacer gear. Helmet included. ",
+      "support_knowledge": [
+        "O1_S3",
+        "iconoclasts_01",
+        "marauders_01"
+      ]
+    },
+    {
+      "id": 199,
+      "speaker_guid": "8671846e-f11e-4f16-80bf-4ecacac57066",
+      "speaker": "CelesteJolicoeur (Female)",
+      "utterance": "And when I say \"spacer gear,\" I mean an outfit worn by real spacers. None of that garbage Spacer's Choice peddles.",
+      "support_knowledge": [
+        "spacers_choice_01"
+      ]
+    },
+    {
+      "id": 44,
+      "speaker_guid": "8671846e-f11e-4f16-80bf-4ecacac57066",
+      "speaker": "CelesteJolicoeur (Female)",
+      "utterance": "You have the bearing and demeanor of a born model. You're going to absolutely murder this job.",
+      "support_knowledge": []
+    },
+    {
+      "id": 50,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "I'll see what I can do.",
+      "support_knowledge": []
+    },
+    {
+      "id": 45,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Hold on. I need to know more about these outfits.",
+      "support_knowledge": []
+    },
+    {
+      "id": 59,
+      "speaker_guid": "8671846e-f11e-4f16-80bf-4ecacac57066",
+      "speaker": "CelesteJolicoeur (Female)",
+      "utterance": "Fabulous! I can't wait to see what you dredge up.",
+      "support_knowledge": []
+    },
+    {
+      "id": 48,
+      "speaker_guid": "8671846e-f11e-4f16-80bf-4ecacac57066",
+      "speaker": "CelesteJolicoeur (Female)",
+      "utterance": "I expect you'll cut an exquisite figure. What else do you need to know?",
+      "support_knowledge": []
+    },
+    {
+      "id": 103,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "You said something about an Iconoclast's outfit.",
+      "support_knowledge": [
+        "iconoclasts_01"
+      ]
+    },
+    {
+      "id": 105,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "Where am I supposed to find spacer gear?",
+      "support_knowledge": []
+    },
+    {
+      "id": 106,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "What's so interesting about marauder armor?",
+      "support_knowledge": [
+        "marauders_01"
+      ]
+    },
+    {
+      "id": 107,
+      "speaker_guid": "8671846e-f11e-4f16-80bf-4ecacac57066",
+      "speaker": "CelesteJolicoeur (Female)",
+      "utterance": "I've heard rumors of these Iconoclasts, half-mad zealots rampaging across the surface of Monarch. ",
+      "support_knowledge": [
+        "iconoclasts_01",
+        "monarch_01"
+      ]
+    },
+    {
+      "id": 108,
+      "speaker_guid": "8671846e-f11e-4f16-80bf-4ecacac57066",
+      "speaker": "CelesteJolicoeur (Female)",
+      "utterance": "You'll have to find your own way into Monarch. I can't help you. Even if I could, I prefer not to interfere with your creative process.",
+      "support_knowledge": [
+        "monarch_16"
+      ]
+    },
+    {
+      "id": 112,
+      "speaker_guid": "8671846e-f11e-4f16-80bf-4ecacac57066",
+      "speaker": "CelesteJolicoeur (Female)",
+      "utterance": "If I were an enterprising spacer in need of a wardrobe, I'd probably head to the Groundbreaker.",
+      "support_knowledge": [
+        "groundbreaker_01"
+      ]
+    },
+    {
+      "id": 113,
+      "speaker_guid": "8671846e-f11e-4f16-80bf-4ecacac57066",
+      "speaker": "CelesteJolicoeur (Female)",
+      "utterance": "I don't know. I've never seen a marauder. Not in person anyway. There are always aetherwave programmes, but I want something authentic.",
+      "support_knowledge": []
+    },
+    {
+      "id": 114,
+      "speaker_guid": "8671846e-f11e-4f16-80bf-4ecacac57066",
+      "speaker": "CelesteJolicoeur (Female)",
+      "utterance": "Byzantium is long overdue for a change of wardrobe, my dear. Something barbaric, yet elegant.",
+      "support_knowledge": [
+        "byzantium_01"
+      ]
+    },
+    {
+      "id": 42,
+      "speaker_guid": "8671846e-f11e-4f16-80bf-4ecacac57066",
+      "speaker": "CelesteJolicoeur (Female)",
+      "utterance": "Oh, you cad. You'll be the talk of Byzantium once I'm done with you.",
+      "support_knowledge": [
+        "byzantium_01"
+      ]
+    },
+    {
+      "id": 43,
+      "speaker_guid": "8671846e-f11e-4f16-80bf-4ecacac57066",
+      "speaker": "CelesteJolicoeur (Female)",
+      "utterance": "Trust me, darling. I've been at this business a lot longer than you.",
+      "support_knowledge": []
+    },
+    {
+      "id": 99,
+      "speaker_guid": "8671846e-f11e-4f16-80bf-4ecacac57066",
+      "speaker": "CelesteJolicoeur (Female)",
+      "utterance": "Everything I need to know can be deduced from a first impression.",
+      "support_knowledge": []
+    },
+    {
+      "id": 138,
+      "speaker_guid": "8671846e-f11e-4f16-80bf-4ecacac57066",
+      "speaker": "CelesteJolicoeur (Female)",
+      "utterance": "You're an outsider. You're exotic. You carry a whiff of barbarism and adventure. You're the embodiment of everything I want in my new line.",
+      "support_knowledge": []
+    },
+    {
+      "id": 139,
+      "speaker_guid": "player",
+      "speaker": "Player",
+      "utterance": "All right. I'll help you out.",
+      "support_knowledge": []
+    },
+    {
+      "id": 102,
+      "speaker_guid": "8671846e-f11e-4f16-80bf-4ecacac57066",
+      "speaker": "CelesteJolicoeur (Female)",
+      "utterance": "You. When I look at you, I see the very embodiment of everything the walls of Byzantium were built to keep out.",
+      "support_knowledge": []
+    },
+    {
+      "id": 137,
+      "speaker_guid": "8671846e-f11e-4f16-80bf-4ecacac57066",
+      "speaker": "CelesteJolicoeur (Female)",
+      "utterance": "Making an outfit worthy of you won't be easy. I'll need your help gathering the right materials.",
+      "support_knowledge": []
+    },
+    {
+      "id": 19,
+      "speaker_guid": "8671846e-f11e-4f16-80bf-4ecacac57066",
+      "speaker": "CelesteJolicoeur (Female)",
+      "utterance": "Consider it a standing offer.",
+      "support_knowledge": []
+    },
+    {
+      "id": 95,
+      "speaker_guid": "8671846e-f11e-4f16-80bf-4ecacac57066",
+      "speaker": "CelesteJolicoeur (Female)",
+      "utterance": "I'm an artist, darling, not a tweed merchant. I don't \"sell things,\" I pollinate the world with art.",
+      "support_knowledge": []
+    },
+    {
+      "id": 96,
+      "speaker_guid": "8671846e-f11e-4f16-80bf-4ecacac57066",
+      "speaker": "CelesteJolicoeur (Female)",
+      "utterance": "Yes! Perfect! That rakish audacity is exactly what I'm after.",
+      "support_knowledge": []
+    },
+    {
+      "id": 15,
+      "speaker_guid": "8671846e-f11e-4f16-80bf-4ecacac57066",
+      "speaker": "CelesteJolicoeur (Female)",
+      "utterance": "Ah, Celeste. You've done it again. I knew from the moment I laid eyes on you that I'd found my muse.",
+      "support_knowledge": []
+    },
+    {
+      "id": 87,
+      "speaker_guid": "8671846e-f11e-4f16-80bf-4ecacac57066",
+      "speaker": "CelesteJolicoeur (Female)",
+      "utterance": "You're not afraid of speaking your mind. You smolder and growl. Oh, you are just too perfect.",
+      "support_knowledge": []
+    }
+  ],
+  "dialog_edges": [
+    [
+      1,
+      7
+    ],
+    [
+      7,
+      8
+    ],
+    [
+      7,
+      9
+    ],
+    [
+      7,
+      86
+    ],
+    [
+      8,
+      12
+    ],
+    [
+      12,
+      13
+    ],
+    [
+      13,
+      91
+    ],
+    [
+      13,
+      93
+    ],
+    [
+      13,
+      92
+    ],
+    [
+      91,
+      94
+    ],
+    [
+      94,
+      14
+    ],
+    [
+      14,
+      16
+    ],
+    [
+      14,
+      98
+    ],
+    [
+      14,
+      101
+    ],
+    [
+      14,
+      17
+    ],
+    [
+      16,
+      18
+    ],
+    [
+      18,
+      36
+    ],
+    [
+      36,
+      37
+    ],
+    [
+      37,
+      38
+    ],
+    [
+      37,
+      39
+    ],
+    [
+      37,
+      40
+    ],
+    [
+      38,
+      41
+    ],
+    [
+      41,
+      64
+    ],
+    [
+      64,
+      199
+    ],
+    [
+      199,
+      44
+    ],
+    [
+      44,
+      50
+    ],
+    [
+      44,
+      45
+    ],
+    [
+      50,
+      59
+    ],
+    [
+      45,
+      48
+    ],
+    [
+      48,
+      103
+    ],
+    [
+      48,
+      105
+    ],
+    [
+      48,
+      106
+    ],
+    [
+      103,
+      107
+    ],
+    [
+      107,
+      108
+    ],
+    [
+      108,
+      50
+    ],
+    [
+      108,
+      106
+    ],
+    [
+      108,
+      105
+    ],
+    [
+      105,
+      112
+    ],
+    [
+      112,
+      50
+    ],
+    [
+      112,
+      106
+    ],
+    [
+      112,
+      103
+    ],
+    [
+      106,
+      113
+    ],
+    [
+      113,
+      114
+    ],
+    [
+      114,
+      50
+    ],
+    [
+      114,
+      103
+    ],
+    [
+      114,
+      105
+    ],
+    [
+      39,
+      42
+    ],
+    [
+      42,
+      64
+    ],
+    [
+      40,
+      43
+    ],
+    [
+      43,
+      64
+    ],
+    [
+      98,
+      99
+    ],
+    [
+      99,
+      138
+    ],
+    [
+      138,
+      139
+    ],
+    [
+      138,
+      101
+    ],
+    [
+      138,
+      17
+    ],
+    [
+      139,
+      18
+    ],
+    [
+      101,
+      102
+    ],
+    [
+      102,
+      137
+    ],
+    [
+      137,
+      139
+    ],
+    [
+      137,
+      98
+    ],
+    [
+      137,
+      17
+    ],
+    [
+      17,
+      19
+    ],
+    [
+      93,
+      95
+    ],
+    [
+      95,
+      14
+    ],
+    [
+      92,
+      96
+    ],
+    [
+      96,
+      14
+    ],
+    [
+      9,
+      15
+    ],
+    [
+      15,
+      13
+    ],
+    [
+      86,
+      87
+    ],
+    [
+      87,
+      13
+    ]
+  ]
+}
